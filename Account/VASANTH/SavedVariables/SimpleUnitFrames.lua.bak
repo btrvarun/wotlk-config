@@ -1,0 +1,16 @@
+
+SimpleUnitFramesDB = {
+	["profileKeys"] = {
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
+	},
+	["global"] = {
+		["overlayfont"] = {
+			["fontsize"] = 12,
+			["fontface"] = "KkUI Normal",
+		},
+	},
+	["profiles"] = {
+		["Invariably - Icecrown"] = {
+		},
+	},
+}

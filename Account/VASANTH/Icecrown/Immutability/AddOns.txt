@@ -1,0 +1,2 @@
+KkthnxUI_Config: disabled
+KkthnxUI: disabled

@@ -1,0 +1,2 @@
+
+AutoDisenchantIgnoreList = nil

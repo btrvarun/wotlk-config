@@ -1,0 +1,25 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"LF heal For FOS POS Hc", -- [1]
+			"Jeann", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			516, -- [11]
+			"0x07000000004B325F", -- [12]
+			0, -- [13]
+			[51] = 1571463418,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Jeann|r",
+		}, -- [1]
+	},
+}

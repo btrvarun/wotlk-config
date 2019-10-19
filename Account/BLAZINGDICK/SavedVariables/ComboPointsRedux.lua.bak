@@ -1,0 +1,10 @@
+
+CPRDB2 = {
+	["profileKeys"] = {
+		["Typhoonqt - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

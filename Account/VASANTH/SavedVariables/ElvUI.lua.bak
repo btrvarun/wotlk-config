@@ -1,0 +1,123 @@
+
+ElvDB = {
+	["profileKeys"] = {
+		["Immutability - Icecrown"] = "Immutability - Icecrown",
+	},
+	["gold"] = {
+		["Icecrown"] = {
+			["Immutability"] = 5912936,
+		},
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["class"] = {
+		["Icecrown"] = {
+			["Immutability"] = "PALADIN",
+		},
+	},
+	["global"] = {
+		["general"] = {
+			["locale"] = "enUS",
+			["UIScale"] = 0.8533333333333334,
+		},
+		["nameplates"] = {
+			["filters"] = {
+				["Boss"] = {
+				},
+			},
+		},
+	},
+	["profiles"] = {
+		["Immutability - Icecrown"] = {
+			["general"] = {
+				["backdropfadecolor"] = {
+					["a"] = 0.69,
+					["b"] = 0.05098039215686274,
+					["g"] = 0.05098039215686274,
+					["r"] = 0.05098039215686274,
+				},
+				["valuecolor"] = {
+					["b"] = 0.1725490196078431,
+					["g"] = 0.4823529411764706,
+					["r"] = 0.996078431372549,
+				},
+			},
+			["movers"] = {
+				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,431",
+				["ShiftAB"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,1076",
+				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,194",
+				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,426",
+				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
+			},
+			["unitframe"] = {
+				["units"] = {
+					["pet"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettargettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focustarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["boss"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["player"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+				},
+			},
+		},
+	},
+}
+ElvPrivateDB = {
+	["profileKeys"] = {
+		["Immutability - Icecrown"] = "Immutability - Icecrown",
+	},
+	["profiles"] = {
+		["Immutability - Icecrown"] = {
+			["theme"] = "classic",
+		},
+	},
+}

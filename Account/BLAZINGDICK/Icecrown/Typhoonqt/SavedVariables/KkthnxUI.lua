@@ -1,0 +1,6 @@
+
+SavedOptionsPerChar = {
+	["Install"] = true,
+}
+SavedPositions = {
+}

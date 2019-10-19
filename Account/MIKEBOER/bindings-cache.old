@@ -1,0 +1,51 @@
+BINDINGMODE 0
+bind BUTTON3 NONE
+bind A TURNLEFT
+bind LEFT TURNLEFT
+bind D TURNRIGHT
+bind RIGHT TURNRIGHT
+bind X SITORSTAND
+bind Z TOGGLESHEATH
+bind NUMLOCK TOGGLEAUTORUN
+bind BUTTON4 CLICK BT4Button36:LeftButton
+bind NUMPADDIVIDE TOGGLERUN
+bind R NONE
+bind 1 ACTIONBUTTON1
+bind 4 ACTIONBUTTON4
+bind 5 ACTIONBUTTON5
+bind 6 ACTIONBUTTON6
+bind 7 ACTIONBUTTON7
+bind 8 ACTIONBUTTON8
+bind 9 ACTIONBUTTON9
+bind 0 ACTIONBUTTON10
+bind - NONE
+bind = NONE
+bind F1 CLICK BT4Button13:LeftButton
+bind F2 CLICK BT4Button14:LeftButton
+bind F3 CLICK BT4Button15:LeftButton
+bind F4 CLICK BT4Button16:LeftButton
+bind F5 CLICK BT4Button17:LeftButton
+bind G NONE
+bind F NONE
+bind T NONE
+bind C TOGGLECHARACTER0
+bind F12 CLICK BT4Button24:LeftButton
+bind F8 CLICK BT4Button20:LeftButton
+bind F9 CLICK BT4Button21:LeftButton
+bind F10 CLICK BT4Button22:LeftButton
+bind F11 CLICK BT4Button23:LeftButton
+bind ALT-C NONE
+bind ALT-1 NONE
+bind ALT-2 NONE
+bind ALT-3 NONE
+bind ALT-F NONE
+bind ALT-R NONE
+bind ALT-T NONE
+bind ` ACTIONBUTTON12
+bind \ TOGGLEAUTORUN
+bind CAPSLOCK NONE
+bind ALT-` NONE
+bind BUTTON5 CLICK BT4Button35:LeftButton
+bind F6 CLICK BT4Button18:LeftButton
+bind F7 CLICK BT4Button19:LeftButton
+modifiedclick SHIFT PICKUPACTION

@@ -1,0 +1,44 @@
+
+CPRDB2 = {
+	["profileKeys"] = {
+		["Bowbaby - Icecrown"] = "Default",
+		["Kamakshi - Icecrown"] = "Default",
+		["Garzh - Icecrown"] = "Default",
+		["Invariably - Icecrown"] = "Default",
+		["Dreamstar - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Serendipity"] = {
+					["enabled"] = false,
+				},
+				["Combo Points"] = {
+					["graphicsPos"] = {
+						["y"] = -113,
+						["x"] = 12,
+						["point"] = "CENTER",
+						["anchor"] = "CENTER",
+					},
+					["textPos"] = {
+						["y"] = -54,
+						["x"] = -105,
+						["point"] = "CENTER",
+						["anchor"] = "CENTER",
+					},
+					["icon"] = "circle",
+					["enabled"] = false,
+					["colors"] = {
+						[4] = {
+							nil, -- [1]
+							0.4470588235294117, -- [2]
+						},
+					},
+					["disableText"] = true,
+					["scale"] = 1.2,
+				},
+			},
+			["locked"] = true,
+		},
+	},
+}

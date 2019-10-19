@@ -1,0 +1,39 @@
+
+CPRDB2 = {
+	["profileKeys"] = {
+		["Garzh - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Combo Points"] = {
+					["graphicsPos"] = {
+						["y"] = -143,
+						["x"] = -1,
+						["point"] = "CENTER",
+						["anchor"] = "CENTER",
+					},
+					["textPos"] = {
+						["y"] = -54,
+						["x"] = -105,
+						["point"] = "CENTER",
+						["anchor"] = "CENTER",
+					},
+					["disableText"] = true,
+					["colors"] = {
+						nil, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						{
+							nil, -- [1]
+							0.4470588235294117, -- [2]
+						}, -- [4]
+					},
+					["icon"] = "circle",
+					["scale"] = 1.2,
+				},
+			},
+			["locked"] = true,
+		},
+	},
+}

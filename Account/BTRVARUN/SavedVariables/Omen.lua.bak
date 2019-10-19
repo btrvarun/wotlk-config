@@ -1,0 +1,15 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+	},
+	["profiles"] = {
+		["Bowbaby - Icecrown"] = {
+			["PositionW"] = 200.0000727640228,
+			["PositionH"] = 81.99999849548074,
+			["PositionY"] = 141.1666247566868,
+			["Shown"] = true,
+			["PositionX"] = 1142.499972952847,
+		},
+	},
+}

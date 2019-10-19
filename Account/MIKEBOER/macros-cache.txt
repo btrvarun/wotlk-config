@@ -1,0 +1,76 @@
+MACRO 138 "bear form+cds" INV_Misc_QuestionMark
+#showtooltip dire bear form
+/cast  [nostance:1] Dire Bear Form
+/cast Barkskin
+/cast Nature's Grasp(Rank 8)
+/cast enrage
+/cast Frenzied Regeneration
+END
+MACRO 132 "berserk" INV_Misc_QuestionMark
+#showtooltip berserk
+/castsequence reset=120  Idol of the Crying Moon, berserk
+END
+MACRO 131 "combatlog" Ability_Creature_Cursed_02
+/run local f = CreateFrame("frame" , nil, UIParent) f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 140 "dispel" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover]  remove curse
+END
+MACRO 126 "eb totemd" Ability_Warrior_ShieldWall
+/target earthbind totem
+END
+MACRO 136 "feral charge" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast feral charge - cat
+END
+MACRO 142 "fl" INV_Misc_QuestionMark
+#showtooltip
+/cast [@targettarget] flash of light
+END
+MACRO 141 "hof" INV_Misc_QuestionMark
+#showooltip
+/cast [@mouseover,exists] Hand of freedom; Hand of Freedom
+END
+MACRO 143 "hos" INV_Misc_QuestionMark
+#showooltip
+/cast [@mouseover] Hand of sacrifice
+END
+MACRO 139 "libram 2" INV_Misc_QuestionMark
+#showtooltip 18
+/equip [noworn:Libram of Three Truths] Libram of Three Truths
+END
+MACRO 128 "libram1" INV_Misc_QuestionMark
+#showtooltip 18
+/equip [noworn:Idol of the Crying Moon] Idol of the Crying Moon
+END
+MACRO 133 "mangle" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast mangle (cat)
+END
+MACRO 130 "maxcameradist" INV_Misc_QuestionMark
+/script SetCVar("cameraDistanceMax",30) 
+END
+MACRO 134 "rake" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast rake
+END
+MACRO 135 "shred" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast shred
+END
+MACRO 137 "stun" INV_Misc_QuestionMark
+#showtooltip bash
+/cast enrage
+/cast bash
+END
+MACRO 127 "taunt" Ability_Creature_Cursed_02
+/y TAUNT!
+END
+MACRO 129 "trade" INV_Misc_QuestionMark
+/trade sofaki
+END

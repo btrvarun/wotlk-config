@@ -1,0 +1,15 @@
+MACRO 16777218 "cds" INV_Misc_QuestionMark
+#showtooltip
+/cast survival instincts
+/cast frenzied regeneration
+END
+MACRO 16777217 "rebirth" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] rebirth
+END
+MACRO 16777219 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
+P1PM1RM1EM1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777220 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
+NMinAnhHolLeg[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

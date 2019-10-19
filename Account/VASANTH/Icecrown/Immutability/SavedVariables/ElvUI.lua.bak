@@ -1,0 +1,133 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"LFM 2 Healers // Toc 25n// 5.3+gs 23/25", -- [1]
+			"Ajelandro", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3, -- [11]
+			"0x07000000004BBB40", -- [12]
+			0, -- [13]
+			[51] = 1571453756,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dAjelandro|r",
+		}, -- [1]
+		{
+			"BOR RUFTOs y noth nud O borne y wirsh y waldir EYNES O ash rogesh VE E ME E U bur ne y y ruff O O an bur E TI", -- [1]
+			"Eduardexxg", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"0x070000000047A41D", -- [12]
+			0, -- [13]
+			[51] = 1571453767,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dEduardexxg|r",
+		}, -- [2]
+		{
+			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 40g/piece!! SEND ME IN C.O.D!!!", -- [1]
+			"Darkthron", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			18, -- [11]
+			"0x07000000004BA69D", -- [12]
+			0, -- [13]
+			[51] = 1571453768,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aDarkthron|r",
+		}, -- [3]
+		{
+			"BOR RUFTOs y noth nud O borne y wirsh y waldir EYNES O ash rogesh VE E ME E U bur ne y y ruff O O an bur E TI", -- [1]
+			"Eduardexxg", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			27, -- [11]
+			"0x070000000047A41D", -- [12]
+			0, -- [13]
+			[51] = 1571453787,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dEduardexxg|r",
+		}, -- [4]
+		{
+			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 40g/piece!! SEND ME IN C.O.D!!!", -- [1]
+			"Darkthron", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			28, -- [11]
+			"0x07000000004BA69D", -- [12]
+			0, -- [13]
+			[51] = 1571453813,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aDarkthron|r",
+		}, -- [5]
+		{
+			"BOR RUFTOs y noth nud O borne y wirsh y waldir EYNES O ash rogesh VE E ME E U bur ne y y ruff O O an bur E TI", -- [1]
+			"Eduardexxg", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"0x070000000047A41D", -- [12]
+			0, -- [13]
+			[51] = 1571453818,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dEduardexxg|r",
+		}, -- [6]
+		{
+			"RS10 /// NEED ALL /// 5.8k GS++ //// WHISPER W/ CLASS/GS/ARCH <<3/10>>", -- [1]
+			"Nokao", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"0x0700000000475C3D", -- [12]
+			0, -- [13]
+			[51] = 1571453826,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Nokao|r",
+		}, -- [7]
+	},
+}

@@ -1,0 +1,7 @@
+
+GUIConfigAll = {
+	["Icecrown"] = {
+		["Invariably"] = false,
+	},
+}
+GUIConfigSettings = nil

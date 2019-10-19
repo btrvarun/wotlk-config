@@ -1,0 +1,147 @@
+MACRO 120 " Recount" Ability_Ambush
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 116 "avoidance" INV_Misc_QuestionMark
+/run ChatFrame1:AddMessage(format("Avoidance with Stoneskin Gargoyle: %.2f%%", GetDodgeChance() + GetParryChance() + 6 + 1/(0.0625 + 0.956/(floor(GetCombatRatingBonus(CR_DEFENSE_SKILL))*0.04))))
+END
+MACRO 159 "beacon" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] beacon of light
+END
+MACRO 133 "cancelaura" INV_Misc_QuestionMark
+/cancelaura Righteous Fury
+/startattack
+END
+MACRO 161 "cds" INV_Misc_QuestionMark
+#showtooltip
+/cast Divine Illumination
+/use Meteorite Crystal
+END
+MACRO 157 "clease" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] cleanse
+END
+MACRO 143 "consc" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast consecration
+/use 10
+/cancelaura divine shield
+/cancelaura hand of protection
+END
+MACRO 141 "crusader" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast crusader strike
+/use 10
+/cancelaura divine shield
+/cancelaura hand of protection
+END
+MACRO 152 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Remove Curse;  [target=mouseover,exists,mod:ctrl] Abolish Poison; [target=mouseover,exists,mod:shift] Cyclone
+END
+MACRO 131 "ds" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast divine storm
+/use 10
+/cancelaura divine shield
+/cancelaura hand of protection
+END
+MACRO 137 "ds cancel" Ability_Druid_GaleWinds
+/cancelaura divine sacrifice
+END
+MACRO 142 "exorcis" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast exorcism
+/use 10
+/cancelaura divine shield
+/cancelaura hand of protection
+END
+MACRO 118 "FLASK" Ability_Mage_ConjureFoodRank12
+/run nf="Flask!: ";for i=1,GetNumRaidMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,"Flask")or strfind(ufl,"Distilled")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i).." ";end;end;end;SendChatMessage(nf,"raid");
+END
+MACRO 135 "focus" Ability_BackStab
+/focus
+END
+MACRO 134 "follow focus" Ability_Druid_AquaticForm
+/follow focus
+END
+MACRO 136 "followfocus" Ability_Creature_Cursed_03
+/follow focus
+END
+MACRO 117 "FOOD" Ability_Mage_ConjureFoodRank9
+/run nfb="Eat!: ";for i=1,GetNumRaidMembers()do for b=1,40 do ua=UnitAura('raid'..i,b);if ua=="Well Fed"or ua=="Food"then break;elseif b==40 and ua~="Well Fed"then nfb=nfb..UnitName('raid'..i).." ";end;end;end;SendChatMessage(nfb,"raid");
+END
+MACRO 156 "hof" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of freedom
+END
+MACRO 154 "hop" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of protection
+END
+MACRO 153 "hos" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of sacrifice
+END
+MACRO 132 "hpala grabbed" Ability_BullRush
+/s Holy Paladin Grabbed!
+END
+MACRO 144 "judgement" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast judgement of wisdom
+/cancelaura divine shield
+/cancelaura hand of protection
+END
+MACRO 147 "judgement of lig" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast judgement of light
+END
+MACRO 155 "loh" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] lay on hands
+END
+MACRO 127 "max cam" Ability_CheapShot
+/script SetCVar("cameraDistanceMax",50) 
+END
+MACRO 145 "rd" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] Righteous Defense
+END
+MACRO 158 "salv" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of salvation
+END
+MACRO 149 "salv cancel" Ability_CheapShot
+/cancelaura hand of salvation
+END
+MACRO 150 "self salv" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=player] hand of salvation
+END
+MACRO 160 "ss" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] [help,exists] [target=player] sacred shield
+END
+MACRO 129 "ssself" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=player] Sacred shield
+END
+MACRO 146 "taunt" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura divine intervention
+/cancelaura hand of protection
+/cancelaura divine shield
+/cast hand of reckoning
+END
+MACRO 151 "trade" INV_Misc_QuestionMark
+/trade
+END
+MACRO 128 "yell" INV_Misc_QuestionMark
+/s BETTER HOLY PALADIN GRABBED!
+END

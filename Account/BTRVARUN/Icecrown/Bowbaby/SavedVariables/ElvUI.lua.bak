@@ -1,0 +1,25 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"LFM |cffffff00|Hquest:13809:80|h[Threat From Above]|h|r", -- [1]
+			"Redskye", -- [2]
+			"Orcish", -- [3]
+			"1. General - Icecrown", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Icecrown", -- [9]
+			0, -- [10]
+			6, -- [11]
+			"0x07000000004B31CF", -- [12]
+			0, -- [13]
+			[51] = 1571458056,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaRedskye|r",
+		}, -- [1]
+	},
+}

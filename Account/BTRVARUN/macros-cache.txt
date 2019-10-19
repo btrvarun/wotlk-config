@@ -1,0 +1,157 @@
+MACRO 120 " Recount" Ability_Ambush
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 116 "avoidance" INV_Misc_QuestionMark
+/run ChatFrame1:AddMessage(format("Avoidance with Stoneskin Gargoyle: %.2f%%", GetDodgeChance() + GetParryChance() + 6 + 1/(0.0625 + 0.956/(floor(GetCombatRatingBonus(CR_DEFENSE_SKILL))*0.04))))
+END
+MACRO 150 "barkskin" INV_Misc_QuestionMark
+#showtooltip
+/cast Barkskin
+/cast Nature's Grasp
+/cast Enrage
+/cast Sindragosa's Flawless Fang
+END
+MACRO 169 "bear" INV_Misc_QuestionMark
+#showtooltip dire bear form
+/cast [nostance:1] dire bear form
+END
+MACRO 148 "berserk" INV_Misc_QuestionMark
+#showtooltip
+/cast Berserking(Racial)
+/cast Inner Focus
+/use 10
+END
+MACRO 163 "cancelform" Ability_CheapShot
+/cancelform
+END
+MACRO 162 "cat" INV_Misc_QuestionMark
+#showtooltip cat form
+/cast [nostance:3] cat form
+END
+MACRO 149 "charge" INV_Misc_QuestionMark
+#showtooltip
+/cast feral charge - cat
+/startattack
+END
+MACRO 166 "cure disease" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] cure disease
+END
+MACRO 167 "dispel magic" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] dispel magic
+END
+MACRO 138 "dp" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+END
+MACRO 161 "dp" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+/cast shadow word: death
+END
+MACRO 2 "ds" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus,harm,exists][target] concussive shot
+END
+MACRO 165 "follow focus" Ability_Druid_Dash
+/follow focus
+END
+MACRO 158 "grabbed" Ability_BullRush
+/s Resto Shaman Grabbed!
+END
+MACRO 168 "guardian spirit" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] guardian spirit
+END
+MACRO 117 "inferno" Ability_Mage_FireStarter
+/target living inferno
+END
+MACRO 164 "innervate" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] innervate
+END
+MACRO 172 "lacerate" INV_Misc_QuestionMark
+#showtooltip
+/cast lacerate
+/cast maul
+END
+MACRO 171 "mangle (bear)" INV_Misc_QuestionMark
+#showtooltip
+/cast mangle (bear)
+/cast maul
+END
+MACRO 127 "max cam" Ability_CheapShot
+/script SetCVar("cameraDistanceMax",50) 
+END
+MACRO 147 "mf" INV_Misc_QuestionMark
+#showtooltip mind flay
+/use 10
+/cast [nochanneling]Mind Flay
+END
+MACRO 160 "mindsear" INV_Misc_QuestionMark
+#showtooltip mind sear
+/use 10
+/cast Berserking(Racial)
+/cast Inner Focus
+/cast mind sear
+/target wicked spirit
+END
+MACRO 143 "rake" INV_Misc_QuestionMark
+#showtooltip rake
+/use 10
+/cast rake
+/startattack
+/cancelaura hand of protection
+END
+MACRO 145 "recount" Ability_BackStab
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 130 "repop" INV_Misc_QuestionMark
+/script RepopMe();
+END
+MACRO 131 "setfocus" Ability_Creature_Cursed_03
+/focus
+END
+MACRO 157 "sf" INV_Misc_QuestionMark
+#showtooltip
+/cast shadowfiend
+/cancelaura dispersion
+END
+MACRO 156 "sf" INV_Misc_QuestionMark
+#showtooltip shadowform
+/cast [nostance] shadowform
+END
+MACRO 142 "shred" INV_Misc_QuestionMark
+#showtooltip
+/cast shred
+/startattack
+/cancelaura hand of protection
+/use 10
+END
+MACRO 144 "swipe" INV_Misc_QuestionMark
+#showtooltip swipe (cat)
+/use 10
+/cast swipe (cat)
+/startattack
+/cancelaura hand of protection
+/cancelaura divine intervention
+END
+MACRO 173 "swipe" INV_Misc_QuestionMark
+#showtooltip
+/cast swipe (bear)
+/cast maul
+END
+MACRO 135 "target focus" Ability_Creature_Cursed_05
+/follow focus
+END
+MACRO 154 "target focus" INV_Misc_QuestionMark
+/target focus
+END
+MACRO 153 "trade" Ability_Creature_Disease_05
+/trade
+END
+MACRO 170 "travel form" INV_Misc_QuestionMark
+#showtooltip travel form
+/cast [nostance:3] travel form
+END

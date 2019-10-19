@@ -1,0 +1,10 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Immutability - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,19 @@
+MACRO 16777218 "chimera" INV_Misc_QuestionMark
+#showtooltip
+/petattack
+/cast chimera shot
+END
+MACRO 16777220 "md" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] misdirection
+END
+MACRO 16777217 "ss" INV_Misc_QuestionMark
+#showtooltip
+/petattack
+/cast serpent sting
+END
+MACRO 16777219 "ss" INV_Misc_QuestionMark
+#showtooltip
+/petattack
+/cast steady shot
+END

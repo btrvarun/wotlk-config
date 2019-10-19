@@ -1,0 +1,7 @@
+
+GUIConfigAll = {
+	["Icecrown"] = {
+		["Typhoonqt"] = false,
+	},
+}
+GUIConfigSettings = nil

@@ -1,0 +1,176 @@
+MACRO 161 "ams" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura power word: shield
+/cast Anti-Magic Shell
+END
+MACRO 155 "bear" INV_Misc_QuestionMark
+#showtooltip dire bear form
+/cast  [nostance:1] Dire Bear Form
+END
+MACRO 138 "bear form+cds" INV_Misc_QuestionMark
+#showtooltip dire bear form
+/cast  [nostance:1] Dire Bear Form
+/cast Barkskin
+/cast Nature's Grasp(Rank 8)
+/cast enrage
+/cast Frenzied Regeneration
+END
+MACRO 132 "berserk" INV_Misc_QuestionMark
+#showtooltip berserk
+/castsequence reset=120  Idol of the Crying Moon, berserk
+END
+MACRO 166 "bp" INV_Misc_QuestionMark
+#showtooltip blood presence
+/use blood tap
+/use blood presence
+END
+MACRO 163 "bs" INV_Misc_QuestionMark
+#showtooltip
+/cast blood strike
+/petattack
+/startattack
+/cancelaura hand of protection
+END
+MACRO 167 "bs" INV_Misc_QuestionMark
+#showtooltip bone shield
+/use rune tap
+/use bone shield
+/cancelaura hand of protection
+END
+MACRO 141 "cancelaura" INV_Misc_QuestionMark
+/cancelaura  ice block
+END
+MACRO 158 "cancelform" Ability_CheapShot
+/cancelform
+END
+MACRO 156 "cat" INV_Misc_QuestionMark
+#showtooltip cat form
+/cast  [nostance:3] Cat Form
+END
+MACRO 131 "combatlog" Ability_Creature_Cursed_02
+/run local f = CreateFrame("frame" , nil, UIParent) f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 160 "dash" INV_Misc_QuestionMark
+#showtooltip dash
+/cast  [nostance:3] Cat Form
+/cast dash
+END
+MACRO 168 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Cleanse;  [target=mouseover,exists,mod:ctrl] Cleanse; [target=mouseover,exists,mod:shift] Cleanse
+END
+MACRO 144 "dispel" INV_Misc_QuestionMark
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Remove Curse
+END
+MACRO 154 "dnd" INV_Misc_QuestionMark
+#showtooltip death and decay
+/cast Blood Tap
+/cast Death and Decay(Rank 4)
+END
+MACRO 126 "eb totemd" Ability_Warrior_ShieldWall
+/target earthbind totem
+END
+MACRO 136 "feral charge" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast feral charge - cat
+END
+MACRO 170 "focus" INV_Misc_QuestionMark
+/focus
+END
+MACRO 153 "garg" INV_Misc_QuestionMark
+#showtooltip summon gargoyle
+/cast Berserking(Racial)
+/cast Summon Gargoyle
+/cast Blood Fury(Racial)
+/cancelaura hand of protection
+END
+MACRO 150 "innervate" INV_Misc_QuestionMark
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Innervate
+END
+MACRO 164 "it" INV_Misc_QuestionMark
+#showtooltip
+/cast icy touch
+/petattack
+/startattack
+/cancelaura hand of protection
+END
+MACRO 143 "lb" INV_Misc_QuestionMark
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Lifebloom(Rank 3)
+END
+MACRO 169 "leeroy" INV_Misc_QuestionMark
+/rw LEEEEEEROY JENKINS
+/ra LEEEEEEROY JENKINS
+/g LEEEEEEROY JENKINS
+/s LEEEEEEROY JENKINS
+END
+MACRO 133 "mangle" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast mangle (cat)
+END
+MACRO 130 "maxcameradist" INV_Misc_QuestionMark
+/script SetCVar("cameraDistanceMax",30) 
+END
+MACRO 146 "moonfire" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/target wicked spirit
+/cast moonfire
+END
+MACRO 157 "owlkin" INV_Misc_QuestionMark
+#showtooltip moonkin form
+/cast  [nostance:5] moonkin Form
+END
+MACRO 165 "ps" INV_Misc_QuestionMark
+#showtooltip
+/cast plague strike
+/petattack
+/startattack
+/cancelaura hand of protection
+END
+MACRO 151 "regrowth" INV_Misc_QuestionMark
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Regrowth
+END
+MACRO 142 "rejuv" INV_Misc_QuestionMark
+#showtooltip
+/use [@mouseover,help,nodead][help,nodead][@player] Rejuvenation(Rank 15)
+END
+MACRO 162 "ss" INV_Misc_QuestionMark
+#showtooltip
+/cancelaura hand of protection
+/cast scourge strike
+/petattack
+/startattack
+/cancelaura hand of protection
+/cast Blood Fury(Racial)
+END
+MACRO 149 "starfire" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast starfire
+/use Gunship Captain's Mittens
+END
+MACRO 147 "trade" INV_Misc_QuestionMark
+/trade
+END
+MACRO 159 "travel" INV_Misc_QuestionMark
+#showtooltip travel form
+/cast  [nostance:1] travel Form
+END
+MACRO 152 "ua" INV_Misc_QuestionMark
+#showtooltip unbreakable armor
+/cast blood tap
+/cast Blood Fury(Racial)
+/cast Berserking(Racial)
+/cast unbreakable armor
+END
+MACRO 148 "wrath" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast wrath
+END

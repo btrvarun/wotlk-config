@@ -1,0 +1,55 @@
+MACRO 16777224 "#showtooltip" INV_Misc_QuestionMark
+#showtooltip divine hymn
+/cast inner focus
+/cast divine hymn
+END
+MACRO 16777225 "bh" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] binding heal
+END
+MACRO 16777223 "coh" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] circle of healing
+END
+MACRO 16777221 "fh" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] flash heal
+END
+MACRO 16777220 "gh" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] greater heal
+END
+MACRO 16777229 "pen" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] penance
+END
+MACRO 16777230 "pi" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] power infusion
+END
+MACRO 16777218 "poh" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] prayer of healing
+END
+MACRO 16777217 "pom" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] prayer of mending
+END
+MACRO 16777228 "ps" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] pain suppression
+END
+MACRO 16777222 "pws" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] power word: shield
+END
+MACRO 16777219 "renew" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] renew
+END
+MACRO 16777226 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
+R1IH1SH1IH1PM2PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777227 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
+NDeaMolAquElfBro[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Inv[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

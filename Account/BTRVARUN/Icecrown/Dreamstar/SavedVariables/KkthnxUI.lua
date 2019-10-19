@@ -1,0 +1,5 @@
+
+SavedOptionsPerChar = {
+}
+SavedPositions = {
+}
