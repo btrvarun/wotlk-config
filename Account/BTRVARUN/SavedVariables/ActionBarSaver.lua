@@ -165,6 +165,73 @@ ActionBarSaverDB = {
 				[115] = "spell|35||Levitate||1706",
 				[118] = "spell|154||Resurrection|Rank 7|48171",
 			},
+			[" disc"] = {
+				"macro|1||fh|Interface\\Icons\\Spell_Holy_FlashHeal|#showtooltip/n/cast [@mouseover] flash heal", -- [1]
+				"macro|2||pen|Interface\\Icons\\Spell_Holy_Penance|#showtooltip/n/cast [@mouseover] penance", -- [2]
+				"macro|3||poh|Interface\\Icons\\Spell_Holy_PrayerOfHealing02|#showtooltip/n/cast [@mouseover] prayer of healing", -- [3]
+				"macro|4||bh|Interface\\Icons\\Spell_Holy_BlindingHeal|#showtooltip/n/cast [@mouseover] binding heal", -- [4]
+				"macro|5||renew|Interface\\Icons\\Spell_Holy_Renew|#showtooltip/n/cast [@mouseover] renew", -- [5]
+				"macro|6||sf|Interface\\Icons\\Spell_Shadow_Shadowfiend|#showtooltip/n/cast shadowfiend/n/cancelaura dispersion", -- [6]
+				"macro|7||ps|Interface\\Icons\\Spell_Holy_PainSupression|#showtooltip/n/cast [@mouseover] pain suppression", -- [7]
+				"macro|8||pws|Interface\\Icons\\Spell_Holy_PowerWordShield|#showtooltip/n/cast [@mouseover] power word: shield", -- [8]
+				"macro|9||pom|Interface\\Icons\\Spell_Holy_PrayerOfMendingtga|#showtooltip/n/cast [@mouseover] prayer of mending", -- [9]
+				"macro|10||cure disease|Interface\\Icons\\Spell_Holy_NullifyDisease|#showtooltip/n/cast [@mouseover] cure disease", -- [10]
+				"spell|75||Shackle Undead|Rank 3|10955", -- [11]
+				"spell|182||Fade||586", -- [12]
+				nil, -- [13]
+				"macro|14||fh|Interface\\Icons\\Spell_Holy_FlashHeal|#showtooltip/n/cast [@mouseover] flash heal", -- [14]
+				"macro|15||pi|Interface\\Icons\\Spell_Holy_PowerInfusion|#showtooltip/n/cast [@mouseover] power infusion", -- [15]
+				"spell|24||Fear Ward||6346", -- [16]
+				"spell|208||Psychic Scream|Rank 4|10890", -- [17]
+				nil, -- [18]
+				"macro|19||ps|Interface\\Icons\\Spell_Holy_PainSupression|#showtooltip/n/cast [@mouseover] pain suppression", -- [19]
+				"spell|37||Mass Dispel||32375", -- [20]
+				"spell|196||Mind Control||605", -- [21]
+				[23] = "spell|81||Divine Hymn|Rank 1|64843",
+				[24] = "spell|126||Hymn of Hope||64901",
+				[32] = "item|46376||Flask of the Frost Wyrm",
+				[33] = "spell|195||Mind Blast|Rank 13|48127",
+				[34] = "spell|217||Shadow Word: Death|Rank 4|48158",
+				[35] = "spell|7||Cooking|Grand Master|51296",
+				[36] = "companion|3|| disc|MOUNT|72286",
+				[47] = "macro|47||trade|Interface\\Icons\\Ability_Creature_Disease_05|/trade",
+				[48] = "item|49278||Goblin Rocket Pack",
+				[49] = "macro|49||#showtooltip|Interface\\Icons\\Spell_Holy_DivineHymn|#showtooltip divine hymn/n/cast inner focus/n/cast divine hymn",
+				[50] = "spell|126||Hymn of Hope||64901",
+				[51] = "macro|51||mindsear|Interface\\Icons\\Spell_Shadow_MindShear|#showtooltip mind sear/n/use 10/n/cast Berserking(Racial)/n/cast Inner Focus/n/cast mind sear/n/target wicked spirit",
+				[52] = "item|54589||Glowing Twilight Scale",
+				[53] = "spell|37||Mass Dispel||32375",
+				[54] = "macro|54||gh|Interface\\Icons\\Spell_Holy_GreaterHeal|#showtooltip/n/cast [@mouseover] greater heal",
+				[55] = "spell|160||Resurrection|Rank 7|48171",
+				[56] = "spell|69||Prayer of Fortitude|Rank 4|48162",
+				[57] = "spell|204||Prayer of Shadow Protection|Rank 3|48170",
+				[58] = "spell|72||Prayer of Spirit|Rank 3|48074",
+				[59] = "item|42545||Runic Mana Injector",
+				[60] = "spell|35||Levitate||1706",
+				[61] = "macro|61||pi|Interface\\Icons\\Spell_Holy_PowerInfusion|#showtooltip/n/cast [@mouseover] power infusion",
+				[62] = "macro|62||dispel magic|Interface\\Icons\\Spell_Holy_DispelMagic|#showtooltip/n/cast [@mouseover] dispel magic",
+				[63] = "spell|153||Renew|Rank 14|48068",
+				[64] = "spell|139||Prayer of Mending|Rank 3|48113",
+				[65] = "spell|80||Cure Disease||528",
+				[66] = "spell|24||Fear Ward||6346",
+				[67] = "spell|33||Inner Fire|Rank 9|48168",
+				[68] = "spell|125||Holy Nova|Rank 9|48078",
+				[69] = "macro|69||follow focus|Interface\\Icons\\Ability_Druid_Dash|/follow focus",
+				[70] = "spell|208||Psychic Scream|Rank 4|10890",
+				[71] = "macro|71||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast Berserking(Racial)/n/cast Inner Focus/n/use 10",
+				[72] = "item|50699||Plague Scientist's Boots",
+				[73] = "spell|195||Mind Blast|Rank 13|48127",
+				[74] = "spell|229||Shadow Word: Pain|Rank 12|48125",
+				[76] = "spell|230||Shadowfiend||34433",
+				[77] = "macro|77||pws|Interface\\Icons\\Spell_Holy_PowerWordShield|#showtooltip/n/cast [@mouseover] power word: shield",
+				[78] = "spell|217||Shadow Word: Death|Rank 4|48158",
+				[81] = "spell|181||Devouring Plague|Rank 9|48300",
+				[82] = "macro|82||VuhDoDCShieldNames|Interface\\Icons\\Ability_Hunter_MasterMarksman|NDeaMolAquElfBro[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Inv[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]",
+				[83] = "spell|75||Shackle Undead|Rank 3|10955",
+				[84] = "spell|182||Fade||586",
+				[118] = "spell|160||Resurrection|Rank 7|48171",
+				[115] = "spell|35||Levitate||1706",
+			},
 			["holy"] = {
 				"macro|1||fh|Interface\\Icons\\Spell_Holy_FlashHeal|#showtooltip/n/cast [@mouseover] flash heal", -- [1]
 				"macro|2||renew|Interface\\Icons\\Spell_Holy_Renew|#showtooltip/n/cast [@mouseover] renew", -- [2]
