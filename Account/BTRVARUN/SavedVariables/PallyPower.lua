@@ -46,13 +46,29 @@ PallyPower_Assignments = {
 		1, -- [10]
 		3, -- [11]
 	},
+	["Immutability"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
 }
 PallyPower_NormalAssignments = {
 	["Errorpaladin"] = {
 	},
+	["Immutability"] = {
+	},
 }
 PallyPower_AuraAssignments = {
 	["Errorpaladin"] = 1,
+	["Immutability"] = 1,
 }
 PallyPower_SavedPresets = {
 }

@@ -26,14 +26,16 @@ oRA3DB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["lastSelectedList"] = 1,
 			["positions"] = {
 				["oRA3CooldownFrame"] = {
 					["Height"] = 353.9999426914934,
-					["Width"] = 384.9998936578426,
-					["PosY"] = 763.0222016477031,
 					["PosX"] = 172.0889557898117,
+					["PosY"] = 763.0222016477031,
+					["Width"] = 384.9998936578426,
 				},
 			},
+			["lastSelectedPanel"] = "Checks",
 		},
 	},
 }
