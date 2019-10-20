@@ -4,22 +4,22 @@ ElvCharacterDB = {
 		"/s w/a", -- [1]
 		"/tmw", -- [2]
 		"/moveui", -- [3]
-		"/dbm", -- [4]
-		"/macro", -- [5]
-		"/abs save hunt", -- [6]
-		"/g 123", -- [7]
-		"/w lethunt hunt 5.5k gs", -- [8]
-		"/join global", -- [9]
-		"/p instance is full", -- [10]
-		"/p i'm in", -- [11]
-		"/p bomb", -- [12]
-		"/wa version", -- [13]
-		"/wa", -- [14]
+		"/macro", -- [4]
+		"/abs save hunt", -- [5]
+		"/g 123", -- [6]
+		"/w lethunt hunt 5.5k gs", -- [7]
+		"/join global", -- [8]
+		"/p instance is full", -- [9]
+		"/p i'm in", -- [10]
+		"/p bomb", -- [11]
+		"/wa version", -- [12]
+		"/wa", -- [13]
+		"/dbm", -- [14]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
-			"Makuna", -- [2]
+			"WTS |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [1]
+			"Hawtness", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -28,52 +28,52 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			343, -- [11]
-			"0x070000000035C082", -- [12]
+			894, -- [11]
+			"0x070000000001BEC2", -- [12]
 			0, -- [13]
-			[51] = 1571575336,
+			[51] = 1571577549,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMakuna|r",
+			[52] = "|cff68ccefHawtness|r",
 		}, -- [1]
 		{
-			"LFM |cffffff00|Hachievement:2136:07000000004517A0:0:0:0:-1:1198765254:14:0:0|h[Glory of the Hero]|h|r SKADI", -- [1]
-			"Rodriga", -- [2]
+			"WTS [Earthsoul Boots] @5500 [Blessed Cenarion Boots] @5500 /w me", -- [1]
+			"Chromedok", -- [2]
 			"Orcish", -- [3]
-			"4. LookingForGroup", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			344, -- [11]
-			"0x07000000004517A0", -- [12]
+			896, -- [11]
+			"0x07000000004A99EB", -- [12]
 			0, -- [13]
-			[51] = 1571575337,
+			[51] = 1571577569,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffRodriga|r",
+			[52] = "|cff0070ddChromedok|r",
 		}, -- [2]
 		{
-			"***********LFM TOC 25 NM NEED RDPS 5k+ /w me GS ROLE ACHIEV NOTHING RES ****************** 21/25 ", -- [1]
-			"Mphezi", -- [2]
+			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
+			"Nimpondiqq", -- [2]
 			"Orcish", -- [3]
-			"4. LookingForGroup", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			345, -- [11]
-			"0x07000000003E31CF", -- [12]
+			897, -- [11]
+			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571575347,
+			[51] = 1571577569,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMphezi|r",
+			[52] = "|cffc41e3aNimpondiqq|r",
 		}, -- [3]
 		{
-			"\"MegaCreeps\"New PVP guild is recruting new players .wis me for invitation..", -- [1]
-			"Av", -- [2]
+			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED RDPS only 80 lvls /w me class and spec (rogue t6 hands reserved ) ( 18/20 ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
+			"Azuredragon", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -82,16 +82,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			346, -- [11]
-			"0x070000000012637B", -- [12]
+			898, -- [11]
+			"0x070000000031E103", -- [12]
 			0, -- [13]
-			[51] = 1571575348,
+			[51] = 1571577580,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Av|r",
+			[52] = "|cfffff468Azuredragon|r",
 		}, -- [4]
 		{
-			" |cffffd000|Htrade:51311:450:450:7000000002C75C5:8f6UsqMsJyjpmMHAAAAwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDDaAhAAASBEAizgkQAC8/D8Pg/BAAeBAQAwQAAA|h[Jewelcrafting]|h|r ", -- [1]
-			"Damascena", -- [2]
+			"I TRADE ON WARMANE SITE B.ELF RET PALA WITH WRATHFUL SHOULDER, CHEST, LEGS AND HANDS HAVE 20K GOLD BIS TRINKET AND WEPONS, AND 310% DRAGON MOUNT, PROF JC/MIN...NAME STRAANGER ICECROWN SErver", -- [1]
+			"Kiryak", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -100,16 +100,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			347, -- [11]
-			"0x07000000002C75C5", -- [12]
+			899, -- [11]
+			"0x0700000000491AD3", -- [12]
 			0, -- [13]
-			[51] = 1571575351,
+			[51] = 1571577584,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffDamascena|r",
+			[52] = "|cffc41e3aKiryak|r",
 		}, -- [5]
 		{
-			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/First Aid/Fishing w/me for more info or check armory (Starpray) 306 coins ", -- [1]
-			"Ebear", -- [2]
+			"WTS 71000 GOLD FOR 29 COins", -- [1]
+			"Kiryak", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -118,16 +118,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			348, -- [11]
-			"0x07000000004C9E17", -- [12]
+			900, -- [11]
+			"0x0700000000491AD3", -- [12]
 			0, -- [13]
-			[51] = 1571575352,
+			[51] = 1571577585,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aEbear|r",
+			[52] = "|cffc41e3aKiryak|r",
 		}, -- [6]
 		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
+			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
+			"Nimpondiqq", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -136,16 +136,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			349, -- [11]
-			"0x070000000030D6A3", -- [12]
+			901, -- [11]
+			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571575359,
+			[51] = 1571577597,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
+			[52] = "|cffc41e3aNimpondiqq|r",
 		}, -- [7]
 		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
+			"Wts 6.5 Dk tank+Dps all spec.with extra mounts+achives +reputation.max proffs jc+enchanting .via website can add or remove items +can sell full inventory or only equipment [choise spec u like]+6.4 priest good deal! w/me for info", -- [1]
+			"Eylem", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -154,411 +154,105 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			350, -- [11]
-			"0x070000000030D6A3", -- [12]
+			902, -- [11]
+			"0x0700000000000A8A", -- [12]
 			0, -- [13]
-			[51] = 1571575372,
+			[51] = 1571577599,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
+			[52] = "|cfff48cbaEylem|r",
 		}, -- [8]
 		{
-			":D", -- [1]
-			"Battlecruise", -- [2]
+			".", -- [1]
+			"Dashasifang", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			528, -- [11]
-			"0x070000000002E115", -- [12]
+			903, -- [11]
+			"0x0700000000322DED", -- [12]
 			0, -- [13]
-			[51] = 1571576042,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cfff48cbaBattlecruise|r",
+			[51] = 1571577601,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
 		}, -- [9]
 		{
-			"lel how?", -- [1]
-			"Currysamurai", -- [2]
+			"WTS(on website trade) full PvE BiS hunter(also has Wrathful set pieces). It has LoD and RS HC achievs, Ravenlord mount, Enchanting and Alchemy, and 3.3k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Aurilianus", -- [1]
+			"Artirius", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			532, -- [11]
-			"0x07000000004B2FFE", -- [12]
+			904, -- [11]
+			"0x070000000000021F", -- [12]
 			0, -- [13]
-			[51] = 1571576048,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-			[52] = "|cfff48cbaCurrysamurai|r",
+			[51] = 1571577627,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aArtirius|r",
 		}, -- [10]
 		{
-			"bomb", -- [1]
-			"Bowbaby", -- [2]
+			"WTS |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r 2x", -- [1]
+			"Hawtness", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			535, -- [11]
-			"0x070000000000615D", -- [12]
+			905, -- [11]
+			"0x070000000001BEC2", -- [12]
 			0, -- [13]
-			[51] = 1571576061,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffaad372Bowbaby|r",
+			[51] = 1571577628,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefHawtness|r",
 		}, -- [11]
 		{
-			"oh ok lel", -- [1]
-			"Currysamurai", -- [2]
+			"LFM icc 10 lk run need all link best achieve full gem + full enchant", -- [1]
+			"Dashasifang", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			537, -- [11]
-			"0x07000000004B2FFE", -- [12]
+			906, -- [11]
+			"0x0700000000322DED", -- [12]
 			0, -- [13]
-			[51] = 1571576065,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-			[52] = "|cfff48cbaCurrysamurai|r",
+			[51] = 1571577631,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
 		}, -- [12]
 		{
-			"MANA", -- [1]
-			"Battlecruise", -- [2]
+			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
+			"Vexi", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			538, -- [11]
-			"0x070000000002E115", -- [12]
+			908, -- [11]
+			"0x070000000014425E", -- [12]
 			0, -- [13]
-			[51] = 1571576072,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cfff48cbaBattlecruise|r",
+			[51] = 1571577664,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddVexi|r",
 		}, -- [13]
 		{
-			"give bow", -- [1]
-			"Uxi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			539, -- [11]
-			"0x07000000004BC36D", -- [12]
-			0, -- [13]
-			[51] = 1571576094,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffaad372Uxi|r",
-		}, -- [14]
-		{
-			"gg", -- [1]
-			"Currysamurai", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			651, -- [11]
-			"0x07000000004B2FFE", -- [12]
-			0, -- [13]
-			[51] = 1571576587,
-			[50] = "CHAT_MSG_PARTY_LEADER",
-			[52] = "|cfff48cbaCurrysamurai|r",
-		}, -- [15]
-		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			658, -- [11]
-			"0x070000000031E103", -- [12]
-			0, -- [13]
-			[51] = 1571576592,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
-		}, -- [16]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			659, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576603,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [17]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			660, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576626,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [18]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			661, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576637,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [19]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			662, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571576646,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [20]
-		{
-			"LF geared warrior ZG mount run", -- [1]
-			"Draugen", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			663, -- [11]
-			"0x070000000025B2AA", -- [12]
-			0, -- [13]
-			[51] = 1571576648,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddDraugen|r",
-		}, -- [21]
-		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			668, -- [11]
-			"0x070000000031E103", -- [12]
-			0, -- [13]
-			[51] = 1571576650,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
-		}, -- [22]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:128:07000000004C6013:1:10:20:19:4294967295:4294967295:4294967295:4294967295|h[Artisan Fisherman]|h|r!", -- [1]
-			"Rapunzzel", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Rapunzzel", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			669, -- [11]
-			"0x07000000004C6013", -- [12]
-			0, -- [13]
-			[51] = 1571576653,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [23]
-		{
-			"WTS [Battered Hilt] Whisper offer", -- [1]
-			"Pipipopoo", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			670, -- [11]
-			"0x07000000001B3371", -- [12]
-			0, -- [13]
-			[51] = 1571576653,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefPipipopoo|r",
-		}, -- [24]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			672, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576655,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [25]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			673, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571576662,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [26]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			674, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576668,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [27]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			675, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576681,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [28]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			676, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576681,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [29]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			677, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571576684,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [30]
-		{
-			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|r]cheapest price on server..have all wands..many happy customers..HURRY up!few left!", -- [1]
+			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|r]Amazing offer. whatever you roll is the price for one wand...COME try your luck!", -- [1]
 			"Heatsun", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
@@ -568,16 +262,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			678, -- [11]
+			909, -- [11]
 			"0x07000000004A0672", -- [12]
 			0, -- [13]
-			[51] = 1571576688,
+			[51] = 1571577675,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHeatsun|r",
-		}, -- [31]
+		}, -- [14]
 		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
+			"WTS [Earthsoul Boots] @5500 [Blessed Cenarion Boots] @5500 /w me", -- [1]
+			"Chromedok", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -586,195 +280,15 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			679, -- [11]
-			"0x070000000030D6A3", -- [12]
+			916, -- [11]
+			"0x07000000004A99EB", -- [12]
 			0, -- [13]
-			[51] = 1571576691,
+			[51] = 1571577704,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [32]
+			[52] = "|cff0070ddChromedok|r",
+		}, -- [15]
 		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			680, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576707,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [33]
-		{
-			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/First Aid/Fishing w/me for more info or check armory (Starpray) 306 coins ", -- [1]
-			"Ebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			681, -- [11]
-			"0x07000000004C9E17", -- [12]
-			0, -- [13]
-			[51] = 1571576708,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aEbear|r",
-		}, -- [34]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			682, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571576718,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [35]
-		{
-			"WTB |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 185 g each, |cffa335ee|Hitem:36922:0:0:0:0:0:0:0:80|h[King's Amber]|h|r 180g, |cffa335ee|Hitem:36931:0:0:0:0:0:0:0:80|h[Ametrine]|h|r 170g all you have. pm me or C.O.D", -- [1]
-			"Erniis", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			683, -- [11]
-			"0x070000000000B32A", -- [12]
-			0, -- [13]
-			[51] = 1571576724,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaErniis|r",
-		}, -- [36]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			684, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576730,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [37]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			685, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571576733,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [38]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			686, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576733,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [39]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			687, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576733,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [40]
-		{
-			"lf enchanter", -- [1]
-			"Dogged", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			688, -- [11]
-			"0x07000000004B01FA", -- [12]
-			0, -- [13]
-			[51] = 1571576734,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffDogged|r",
-		}, -- [41]
-		{
-			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
-			"Makuna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			689, -- [11]
-			"0x070000000035C082", -- [12]
-			0, -- [13]
-			[51] = 1571576736,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMakuna|r",
-		}, -- [42]
-		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
+			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED RDPS only 80 lvls /w me class and spec (rogue t6 hands reserved ) ( 18/20 ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
 			"Azuredragon", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
@@ -784,16 +298,34 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			690, -- [11]
+			919, -- [11]
 			"0x070000000031E103", -- [12]
 			0, -- [13]
-			[51] = 1571576737,
+			[51] = 1571577720,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Azuredragon|r",
-		}, -- [43]
+		}, -- [16]
 		{
-			"LF geared warrior ZG mount run", -- [1]
-			"Draugen", -- [2]
+			"imman!", -- [1]
+			"Anemicc", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			920, -- [11]
+			"0x07000000004BC333", -- [12]
+			0, -- [13]
+			[51] = 1571577721,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffAnemicc|r",
+		}, -- [17]
+		{
+			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
+			"Nimpondiqq", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -802,12 +334,480 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			691, -- [11]
-			"0x070000000025B2AA", -- [12]
+			922, -- [11]
+			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571576752,
+			[51] = 1571577723,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddDraugen|r",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [18]
+		{
+			"accept da", -- [1]
+			"Uxi", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			924, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571577727,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [19]
+		{
+			"nice gm", -- [1]
+			"Uxi", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			927, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571577730,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [20]
+		{
+			"got dc", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			928, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571577731,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [21]
+		{
+			"...", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			930, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571577732,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [22]
+		{
+			"WTS(on website trade) full PvE BiS hunter(also has Wrathful set pieces). It has LoD and RS HC achievs, Ravenlord mount, Enchanting and Alchemy, and 3.3k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Aurilianus", -- [1]
+			"Artirius", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			935, -- [11]
+			"0x070000000000021F", -- [12]
+			0, -- [13]
+			[51] = 1571577740,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aArtirius|r",
+		}, -- [23]
+		{
+			"WTS(on website trade) SM Pala with full Wrathful set(also holy and retri HC PvE gear). It has LoD and RS HC achievs, JC and Alchemy, and 1k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Flatearth", -- [1]
+			"Artirius", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			936, -- [11]
+			"0x070000000000021F", -- [12]
+			0, -- [13]
+			[51] = 1571577740,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aArtirius|r",
+		}, -- [24]
+		{
+			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			937, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571577740,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [25]
+		{
+			"got?", -- [1]
+			"Anemicc", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			942, -- [11]
+			"0x07000000004BC333", -- [12]
+			0, -- [13]
+			[51] = 1571577747,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffAnemicc|r",
+		}, -- [26]
+		{
+			"illa", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			945, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571577752,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [27]
+		{
+			"WTS |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [1]
+			"Hawtness", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			949, -- [11]
+			"0x070000000001BEC2", -- [12]
+			0, -- [13]
+			[51] = 1571577757,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefHawtness|r",
+		}, -- [28]
+		{
+			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			956, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571577771,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [29]
+		{
+			"vote kick", -- [1]
+			"Uxi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			989, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571577804,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [30]
+		{
+			"i need to relog", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			990, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571577820,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [31]
+		{
+			"ok", -- [1]
+			"Anemicc", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			991, -- [11]
+			"0x07000000004BC333", -- [12]
+			0, -- [13]
+			[51] = 1571577823,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffAnemicc|r",
+		}, -- [32]
+		{
+			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1013, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571577847,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [33]
+		{
+			"LF DPS only POS normal", -- [1]
+			"Galiath", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1017, -- [11]
+			"0x07000000004B62EA", -- [12]
+			0, -- [13]
+			[51] = 1571577854,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaGaliath|r",
+		}, -- [34]
+		{
+			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|r]Amazing offer. whatever you roll is the price for one wand...COME try your luck!", -- [1]
+			"Heatsun", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1022, -- [11]
+			"0x07000000004A0672", -- [12]
+			0, -- [13]
+			[51] = 1571577863,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aHeatsun|r",
+		}, -- [35]
+		{
+			".", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1025, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571577877,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [36]
+		{
+			"WTS(on website trade) full PvE BiS hunter(also has Wrathful set pieces). It has LoD and RS HC achievs, Ravenlord mount, Enchanting and Alchemy, and 3.3k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Aurilianus", -- [1]
+			"Artirius", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1026, -- [11]
+			"0x070000000000021F", -- [12]
+			0, -- [13]
+			[51] = 1571577883,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aArtirius|r",
+		}, -- [37]
+		{
+			"LF DPS only POS normal", -- [1]
+			"Galiath", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1027, -- [11]
+			"0x07000000004B62EA", -- [12]
+			0, -- [13]
+			[51] = 1571577885,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaGaliath|r",
+		}, -- [38]
+		{
+			" /roll 1-2", -- [1]
+			"Kafica", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1028, -- [11]
+			"0x0700000000478C14", -- [12]
+			0, -- [13]
+			[51] = 1571577886,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefKafica|r",
+		}, -- [39]
+		{
+			"LFM icc 10 lk run need all link best achieve full gem + full enchant 5k7 min gs", -- [1]
+			"Dashasifang", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1029, -- [11]
+			"0x0700000000322DED", -- [12]
+			0, -- [13]
+			[51] = 1571577887,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
+		}, -- [40]
+		{
+			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
+			"Vexi", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1030, -- [11]
+			"0x070000000014425E", -- [12]
+			0, -- [13]
+			[51] = 1571577893,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddVexi|r",
+		}, -- [41]
+		{
+			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED RDPS only 80 lvls /w me class and spec (rogue t6 hands reserved ) ( 18/20 )", -- [1]
+			"Azuredragon", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1031, -- [11]
+			"0x070000000031E103", -- [12]
+			0, -- [13]
+			[51] = 1571577894,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Azuredragon|r",
+		}, -- [42]
+		{
+			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
+			"Vexi", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1032, -- [11]
+			"0x070000000014425E", -- [12]
+			0, -- [13]
+			[51] = 1571577894,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddVexi|r",
+		}, -- [43]
+		{
+			"Selling Naked Warrior\"klopz\" With X-51 Nether rocket. 24 Emblem of Frost, Dual spec, 1.2k ach points! AND 10K GOLD ON THE CHARACTER! Also willing to help you gear abit. Only 30 coins.", -- [1]
+			"Alziri", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1033, -- [11]
+			"0x0700000000424C34", -- [12]
+			0, -- [13]
+			[51] = 1571577905,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Alziri|r",
 		}, -- [44]
 		{
 			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
@@ -820,16 +820,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			692, -- [11]
+			1035, -- [11]
 			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571576754,
+			[51] = 1571577924,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNimpondiqq|r",
 		}, -- [45]
 		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
+			"WTB |cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r 400g stack /w me", -- [1]
+			"Stiflerko", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -838,16 +838,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			693, -- [11]
-			"0x070000000014425E", -- [12]
+			1037, -- [11]
+			"0x070000000045C65C", -- [12]
 			0, -- [13]
-			[51] = 1571576763,
+			[51] = 1571577930,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
+			[52] = "|cffffffffStiflerko|r",
 		}, -- [46]
 		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
+			"WTS |cffffd000|Htrade:51313:460:460:700000000429E87:oSAIIREQAAAKEAAAByACAAAAACCAAEACyBzAMQJBEABAAkm8ohS|h[Enchanting]|h|r |cffffd000|Htrade:51313:460:460:700000000429E87:oSAIIREQAAAKEAAAByACAAAAACCAAEACyBzAMQJBEABAAkm8ohS|h[Enchanting]|h|r", -- [1]
+			"Wvngi", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -856,16 +856,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			694, -- [11]
-			"0x070000000014425E", -- [12]
+			1038, -- [11]
+			"0x0700000000429E87", -- [12]
 			0, -- [13]
-			[51] = 1571576763,
+			[51] = 1571577931,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
+			[52] = "|cff68ccefWvngi|r",
 		}, -- [47]
 		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
+			"LF DPS only POS normal", -- [1]
+			"Galiath", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -874,12 +874,12 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			695, -- [11]
-			"0x070000000014425E", -- [12]
+			1039, -- [11]
+			"0x07000000004B62EA", -- [12]
 			0, -- [13]
-			[51] = 1571576768,
+			[51] = 1571577932,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
+			[52] = "|cfff48cbaGaliath|r",
 		}, -- [48]
 		{
 			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
@@ -892,16 +892,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			696, -- [11]
+			1040, -- [11]
 			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571576771,
+			[51] = 1571577933,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNimpondiqq|r",
 		}, -- [49]
 		{
-			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|rcheapest price on server..have all wands..many happy customers..HURRY up!few left!", -- [1]
-			"Heatsun", -- [2]
+			"WTS(on website trade) SM Pala with full Wrathful set(also holy and retri HC PvE gear). It has LoD and RS HC achievs, JC and Alchemy, and 1k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Flatearth", -- [1]
+			"Artirius", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -910,16 +910,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			697, -- [11]
-			"0x07000000004A0672", -- [12]
+			1042, -- [11]
+			"0x070000000000021F", -- [12]
 			0, -- [13]
-			[51] = 1571576772,
+			[51] = 1571577933,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aHeatsun|r",
+			[52] = "|cffc41e3aArtirius|r",
 		}, -- [50]
 		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
+			"WTB [Lichbloom] 400g stack /w me", -- [1]
+			"Stiflerko", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -928,213 +928,15 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			698, -- [11]
-			"0x07000000004ABF9D", -- [12]
+			1044, -- [11]
+			"0x070000000045C65C", -- [12]
 			0, -- [13]
-			[51] = 1571576782,
+			[51] = 1571577946,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
+			[52] = "|cffffffffStiflerko|r",
 		}, -- [51]
 		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			699, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576790,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [52]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			700, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571576793,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [53]
-		{
-			"LF BLACKSMITH", -- [1]
-			"Fjamsd", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			701, -- [11]
-			"0x070000000049C6A5", -- [12]
-			0, -- [13]
-			[51] = 1571576799,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aFjamsd|r",
-		}, -- [54]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			702, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576809,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [55]
-		{
-			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
-			"Makuna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			703, -- [11]
-			"0x070000000035C082", -- [12]
-			0, -- [13]
-			[51] = 1571576818,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMakuna|r",
-		}, -- [56]
-		{
-			"\"MegaCreeps\"New PVP guild is recruting new players .wis me for invitation..", -- [1]
-			"Av", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			704, -- [11]
-			"0x070000000012637B", -- [12]
-			0, -- [13]
-			[51] = 1571576821,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Av|r",
-		}, -- [57]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			705, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576823,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [58]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			706, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571576834,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [59]
-		{
-			"lf arena parthmer warr rouge dk i am disc priest 6.250", -- [1]
-			"Dogged", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			707, -- [11]
-			"0x07000000004B01FA", -- [12]
-			0, -- [13]
-			[51] = 1571576838,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffDogged|r",
-		}, -- [60]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			708, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576842,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [61]
-		{
-			"wtb |cff0070dd|Hitem:9386:0:0:0:0:0:0:0:80|h[Excavator's Brand]|h|r", -- [1]
-			"Rumorhasit", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			709, -- [11]
-			"0x070000000047840C", -- [12]
-			0, -- [13]
-			[51] = 1571576848,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Rumorhasit|r",
-		}, -- [62]
-		{
-			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/First Aid/Fishing w/me for more info or check armory (Starpray) 306 coins ", -- [1]
+			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
 			"Ebear", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
@@ -1144,16 +946,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			710, -- [11]
+			1045, -- [11]
 			"0x07000000004C9E17", -- [12]
 			0, -- [13]
-			[51] = 1571576848,
+			[51] = 1571577947,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aEbear|r",
-		}, -- [63]
+		}, -- [52]
 		{
-			"lf arena parthmer warr rouge dk i am disc priest 6.250", -- [1]
-			"Dogged", -- [2]
+			"LF DPS only POS normal", -- [1]
+			"Galiath", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1162,16 +964,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			711, -- [11]
-			"0x07000000004B01FA", -- [12]
+			1046, -- [11]
+			"0x07000000004B62EA", -- [12]
 			0, -- [13]
-			[51] = 1571576855,
+			[51] = 1571577950,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffDogged|r",
-		}, -- [64]
+			[52] = "|cfff48cbaGaliath|r",
+		}, -- [53]
 		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
+			"LF DPS only POS normal", -- [1]
+			"Galiath", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1180,103 +982,13 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			712, -- [11]
-			"0x070000000014425E", -- [12]
+			1051, -- [11]
+			"0x07000000004B62EA", -- [12]
 			0, -- [13]
-			[51] = 1571576863,
+			[51] = 1571577968,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [65]
-		{
-			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
-			"Makuna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			713, -- [11]
-			"0x070000000035C082", -- [12]
-			0, -- [13]
-			[51] = 1571576863,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMakuna|r",
-		}, -- [66]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			714, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576863,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [67]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			715, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576864,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [68]
-		{
-			"lf enchanter", -- [1]
-			"Dogged", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			716, -- [11]
-			"0x07000000004B01FA", -- [12]
-			0, -- [13]
-			[51] = 1571576865,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffDogged|r",
-		}, -- [69]
-		{
-			"wTs |cffffd000|Htrade:51311:450:450:7000000003989F4:8f6UsqMsJyjpmMPAgAIwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDCSQhgBBCEEYiknkACA//D8Pg/NVuf5uRf8zl7B|h[Jewelcrafting]|h|r", -- [1]
-			"Thankyou", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			717, -- [11]
-			"0x07000000003989F4", -- [12]
-			0, -- [13]
-			[51] = 1571576877,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaThankyou|r",
-		}, -- [70]
+			[52] = "|cfff48cbaGaliath|r",
+		}, -- [54]
 		{
 			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
 			"Nimpondiqq", -- [2]
@@ -1288,85 +1000,301 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			718, -- [11]
+			1052, -- [11]
 			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571576877,
+			[51] = 1571577978,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [55]
+		{
+			"LF DPS only POS normal", -- [1]
+			"Galiath", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1053, -- [11]
+			"0x07000000004B62EA", -- [12]
+			0, -- [13]
+			[51] = 1571577984,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaGaliath|r",
+		}, -- [56]
+		{
+			"WTS |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r |cffa335ee|Hitem:49891:0:0:0:0:0:0:0:80|h[Leggings of Woven Death]|h|r2x", -- [1]
+			"Hawtness", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1054, -- [11]
+			"0x070000000001BEC2", -- [12]
+			0, -- [13]
+			[51] = 1571577988,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefHawtness|r",
+		}, -- [57]
+		{
+			"WTB [Lichbloom] 400g stack /w me", -- [1]
+			"Stiflerko", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1055, -- [11]
+			"0x070000000045C65C", -- [12]
+			0, -- [13]
+			[51] = 1571577989,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffStiflerko|r",
+		}, -- [58]
+		{
+			"LF DPS only POS normal last spot", -- [1]
+			"Galiath", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1056, -- [11]
+			"0x07000000004B62EA", -- [12]
+			0, -- [13]
+			[51] = 1571577994,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaGaliath|r",
+		}, -- [59]
+		{
+			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
+			"Ebear", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1057, -- [11]
+			"0x07000000004C9E17", -- [12]
+			0, -- [13]
+			[51] = 1571578021,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aEbear|r",
+		}, -- [60]
+		{
+			"WTS(on website trade) full PvE BiS hunter(also has Wrathful set pieces). It has LoD and RS HC achievs, Ravenlord mount, Enchanting and Alchemy, and 3.3k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Aurilianus", -- [1]
+			"Artirius", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1058, -- [11]
+			"0x070000000000021F", -- [12]
+			0, -- [13]
+			[51] = 1571578028,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aArtirius|r",
+		}, -- [61]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1059, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578033,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [62]
+		{
+			"Wts 6.5 Dk tank+Dps all spec.with extra mounts+achives +reputation.max proffs jc+enchanting .via website can add or remove items +can sell full inventory or only equipment [choise spec u like]+6.4 priest good deal! w/me for info", -- [1]
+			"Eylem", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1061, -- [11]
+			"0x0700000000000A8A", -- [12]
+			0, -- [13]
+			[51] = 1571578071,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaEylem|r",
+		}, -- [63]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1063, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578101,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [64]
+		{
+			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
+			"Ebear", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1064, -- [11]
+			"0x07000000004C9E17", -- [12]
+			0, -- [13]
+			[51] = 1571578102,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aEbear|r",
+		}, -- [65]
+		{
+			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|rAmazing offer. whatever you roll is the price for one wand...COME try your luck! Imlerith just won wand for 2 gold", -- [1]
+			"Heatsun", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1065, -- [11]
+			"0x07000000004A0672", -- [12]
+			0, -- [13]
+			[51] = 1571578104,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aHeatsun|r",
+		}, -- [66]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1067, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578126,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [67]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1070, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578157,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [68]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1072, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578165,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [69]
+		{
+			" |cffa335ee|Hitem:49904:0:0:0:0:0:0:0:80|h[Pillars of Might]|h|rWTS", -- [1]
+			"Greedisgood", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1075, -- [11]
+			"0x07000000003FEC10", -- [12]
+			0, -- [13]
+			[51] = 1571578181,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dGreedisgood|r",
+		}, -- [70]
+		{
+			" icc 10 lk run need 2 tank 2 heal link best achieve full gem + full enchant 5k7 min gs ", -- [1]
+			"Dashasifang", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1076, -- [11]
+			"0x0700000000322DED", -- [12]
+			0, -- [13]
+			[51] = 1571578183,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
 		}, -- [71]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			719, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576880,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [72]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			720, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576881,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [73]
-		{
-			"i wanna do rhc :3", -- [1]
-			"Rapunzzel", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			721, -- [11]
-			"0x07000000004C6013", -- [12]
-			0, -- [13]
-			[51] = 1571576887,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [74]
-		{
-			"LF BLACKSMITH WITH |cffa335ee|Hitem:49907:0:0:0:0:0:0:0:80|h[Boots of Kingly Upheaval]|h|r", -- [1]
-			"Fjamsd", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			722, -- [11]
-			"0x070000000049C6A5", -- [12]
-			0, -- [13]
-			[51] = 1571576887,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aFjamsd|r",
-		}, -- [75]
 		{
 			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|rAmazing offer. whatever you roll is the price for one wand...COME try your luck!", -- [1]
 			"Heatsun", -- [2]
@@ -1378,35 +1306,107 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			723, -- [11]
+			1078, -- [11]
 			"0x07000000004A0672", -- [12]
 			0, -- [13]
-			[51] = 1571576893,
+			[51] = 1571578190,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHeatsun|r",
+		}, -- [72]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1079, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578191,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [73]
+		{
+			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
+			"Ebear", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1080, -- [11]
+			"0x07000000004C9E17", -- [12]
+			0, -- [13]
+			[51] = 1571578193,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aEbear|r",
+		}, -- [74]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1085, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578214,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [75]
+		{
+			" |cffffffff|Hitem:43635:0:0:0:0:0:0:0:80|h[Kel'Thuzad's Gold Coin]|h|r", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1086, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571578234,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
 		}, -- [76]
 		{
-			"ye 4 dps :D", -- [1]
-			"Anhedonic", -- [2]
+			"WTS |cffa335ee|Hitem:47638:0:0:0:0:0:0:0:80|h[Pattern: Merlin's Robe]|h|r", -- [1]
+			"Deydomd", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			724, -- [11]
-			"0x07000000004C9C67", -- [12]
+			1087, -- [11]
+			"0x070000000047CFEB", -- [12]
 			0, -- [13]
-			[51] = 1571576894,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cfffff468Anhedonic|r",
+			[51] = 1571578238,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaDeydomd|r",
 		}, -- [77]
 		{
-			"one of u log heal/tank", -- [1]
-			"Rapunzzel", -- [2]
-			"Orcish", -- [3]
+			"nice", -- [1]
+			"Anemicc", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1414,17 +1414,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			725, -- [11]
-			"0x07000000004C6013", -- [12]
+			1088, -- [11]
+			"0x07000000004BC333", -- [12]
 			0, -- [13]
-			[51] = 1571576895,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
+			[51] = 1571578243,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffAnemicc|r",
 		}, -- [78]
 		{
-			"ok i ll heal", -- [1]
-			"Anhedonic", -- [2]
-			"Orcish", -- [3]
+			"read the description :/", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1432,70 +1432,70 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			726, -- [11]
-			"0x07000000004C9C67", -- [12]
+			1089, -- [11]
+			"0x07000000004C6013", -- [12]
 			0, -- [13]
-			[51] = 1571576899,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cfffff468Anhedonic|r",
+			[51] = 1571578244,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
 		}, -- [79]
 		{
-			"im flying ", -- [1]
-			"Rapunzzel", -- [2]
+			" icc 10 lk run need 2 tank 1 heal link best achieve full gem + full enchant 5k7 min gs ", -- [1]
+			"Dashasifang", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			727, -- [11]
-			"0x07000000004C6013", -- [12]
+			1090, -- [11]
+			"0x0700000000322DED", -- [12]
 			0, -- [13]
-			[51] = 1571576905,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
+			[51] = 1571578252,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
 		}, -- [80]
 		{
-			"wait", -- [1]
-			"Rapunzzel", -- [2]
+			"wts 2x |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r per priece 200 gold /w me", -- [1]
+			"Miyumii", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			728, -- [11]
-			"0x07000000004C6013", -- [12]
+			1092, -- [11]
+			"0x07000000003A7AB1", -- [12]
 			0, -- [13]
-			[51] = 1571576909,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
+			[51] = 1571578260,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Miyumii|r",
 		}, -- [81]
 		{
-			"i entered 2 rhcs", -- [1]
-			"Anhedonic", -- [2]
+			"Wts 6.5 Dk tank+Dps all spec.with extra mounts+achives +reputation.max proffs jc+enchanting .via website can add or remove items +can sell full inventory or only equipment [choise spec u like]+6.4 priest good deal! w/me for info", -- [1]
+			"Eylem", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			729, -- [11]
-			"0x07000000004C9C67", -- [12]
+			1093, -- [11]
+			"0x0700000000000A8A", -- [12]
 			0, -- [13]
-			[51] = 1571576912,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cfffff468Anhedonic|r",
+			[51] = 1571578262,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaEylem|r",
 		}, -- [82]
 		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
+			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
+			"Ebear", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1504,157 +1504,31 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			730, -- [11]
-			"0x070000000031E103", -- [12]
+			1094, -- [11]
+			"0x07000000004C9E17", -- [12]
 			0, -- [13]
-			[51] = 1571576912,
+			[51] = 1571578263,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
+			[52] = "|cffff7c0aEbear|r",
 		}, -- [83]
 		{
-			"while flying", -- [1]
-			"Anhedonic", -- [2]
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			731, -- [11]
-			"0x07000000004C9C67", -- [12]
+			1095, -- [11]
+			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571576913,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cfffff468Anhedonic|r",
+			[51] = 1571578304,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
 		}, -- [84]
-		{
-			"lf enchanter", -- [1]
-			"Dogged", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			732, -- [11]
-			"0x07000000004B01FA", -- [12]
-			0, -- [13]
-			[51] = 1571576916,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffDogged|r",
-		}, -- [85]
-		{
-			"oh", -- [1]
-			"Rapunzzel", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			733, -- [11]
-			"0x07000000004C6013", -- [12]
-			0, -- [13]
-			[51] = 1571576916,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [86]
-		{
-			"its not always so", -- [1]
-			"Anhedonic", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			734, -- [11]
-			"0x07000000004C9C67", -- [12]
-			0, -- [13]
-			[51] = 1571576917,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cfffff468Anhedonic|r",
-		}, -- [87]
-		{
-			"ok then", -- [1]
-			"Rapunzzel", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			735, -- [11]
-			"0x07000000004C6013", -- [12]
-			0, -- [13]
-			[51] = 1571576917,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [88]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			736, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576917,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [89]
-		{
-			"WTB |cffa335ee|Hitem:49907:0:0:0:0:0:0:0:80|h[Boots of Kingly Upheaval]|h|r", -- [1]
-			"Fjamsd", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			737, -- [11]
-			"0x070000000049C6A5", -- [12]
-			0, -- [13]
-			[51] = 1571576930,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aFjamsd|r",
-		}, -- [90]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			738, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576932,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [91]
 		{
 			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
 			"Vexi", -- [2]
@@ -1666,15 +1540,393 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			741, -- [11]
+			1096, -- [11]
 			"0x070000000014425E", -- [12]
 			0, -- [13]
-			[51] = 1571576955,
+			[51] = 1571578306,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddVexi|r",
+		}, -- [85]
+		{
+			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
+			"Vexi", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1097, -- [11]
+			"0x070000000014425E", -- [12]
+			0, -- [13]
+			[51] = 1571578307,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddVexi|r",
+		}, -- [86]
+		{
+			"Wts 6.5 Dk tank+Dps all spec.with extra mounts+achives +reputation.max proffs jc+enchanting .via website can add or remove items +can sell full inventory or only equipment [choise spec u like]+6.4 priest good deal! w/me for info", -- [1]
+			"Eylem", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1098, -- [11]
+			"0x0700000000000A8A", -- [12]
+			0, -- [13]
+			[51] = 1571578315,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaEylem|r",
+		}, -- [87]
+		{
+			" icc 10 lk run need 2 tank 1 heal link best achieve full gem + full enchant 5k7 min gs ", -- [1]
+			"Dashasifang", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1099, -- [11]
+			"0x0700000000322DED", -- [12]
+			0, -- [13]
+			[51] = 1571578320,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
+		}, -- [88]
+		{
+			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
+			"Ebear", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1100, -- [11]
+			"0x07000000004C9E17", -- [12]
+			0, -- [13]
+			[51] = 1571578337,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aEbear|r",
+		}, -- [89]
+		{
+			"Wts 6.5 Dk tank+Dps all spec.with extra mounts+achives +reputation.max proffs jc+enchanting .via website can add or remove items +can sell full inventory or only equipment [choise spec u like]+6.4 priest good deal! w/me for info", -- [1]
+			"Eylem", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1103, -- [11]
+			"0x0700000000000A8A", -- [12]
+			0, -- [13]
+			[51] = 1571578370,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaEylem|r",
+		}, -- [90]
+		{
+			"are work", -- [1]
+			"Kobiela", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1115, -- [11]
+			"0x07000000003F5563", -- [12]
+			0, -- [13]
+			[51] = 1571578393,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaKobiela|r",
+		}, -- [91]
+		{
+			"WTS Belf Retri, |cffff8000|Hitem:49623:0:0:0:0:0:0:0:80|h[Shadowmourne]|h|r, 10000 arena points, 5xBIS, 15000g, 70000 kills, 310% flying, etc. Can change items. Check warmane market \"Grandfather\"", -- [1]
+			"Flamer", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1119, -- [11]
+			"0x07000000003A1F95", -- [12]
+			0, -- [13]
+			[51] = 1571578396,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddFlamer|r",
 		}, -- [92]
 		{
-			"Wake up <no target>", -- [1]
+			"ae work horseman", -- [1]
+			"Kobiela", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1126, -- [11]
+			"0x07000000003F5563", -- [12]
+			0, -- [13]
+			[51] = 1571578407,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaKobiela|r",
+		}, -- [93]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O.trinket tank Ress SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1130, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578414,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [94]
+		{
+			"WTS 71000 GOLD FOR 29 COins", -- [1]
+			"Kiryak", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1135, -- [11]
+			"0x0700000000491AD3", -- [12]
+			0, -- [13]
+			[51] = 1571578422,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aKiryak|r",
+		}, -- [95]
+		{
+			" |cff9d9d9d|Hitem:43686:0:0:0:0:0:0:0:80|h[Alleria's Silver Coin]|h|r", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1138, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571578424,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [96]
+		{
+			"I TRADE ON WARMANE SITE B.ELF RET PALA WITH WRATHFUL SHOULDER, CHEST, LEGS AND HANDS HAVE 20K GOLD BIS TRINKET AND WEPONS, AND 310% DRAGON MOUNT, PROF JC/MIN...NAME STRAANGER ICECROWN SErver", -- [1]
+			"Kiryak", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1139, -- [11]
+			"0x0700000000491AD3", -- [12]
+			0, -- [13]
+			[51] = 1571578425,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aKiryak|r",
+		}, -- [97]
+		{
+			"little did she know", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1141, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571578428,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [98]
+		{
+			"WTB [Lichbloom] 400g stack /w me", -- [1]
+			"Stiflerko", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1143, -- [11]
+			"0x070000000045C65C", -- [12]
+			0, -- [13]
+			[51] = 1571578429,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffStiflerko|r",
+		}, -- [99]
+		{
+			"Lf tank and 2 dps for Hos", -- [1]
+			"Nugzithilles", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1166, -- [11]
+			"0x07000000004C6FD9", -- [12]
+			0, -- [13]
+			[51] = 1571578466,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aNugzithilles|r",
+		}, -- [100]
+		{
+			"Need Last tank ( pala ) + heal rdudu or holly pala for icc 10 lk run min gs 5k7 full gem+ enchant link best achieve ", -- [1]
+			"Dashasifang", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1169, -- [11]
+			"0x0700000000322DED", -- [12]
+			0, -- [13]
+			[51] = 1571578471,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
+		}, -- [101]
+		{
+			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
+			"Ebear", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1175, -- [11]
+			"0x07000000004C9E17", -- [12]
+			0, -- [13]
+			[51] = 1571578481,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aEbear|r",
+		}, -- [102]
+		{
+			"LFM TOC 25 NOR NEED JUST 5X RDPS BOOMI+SP+MAGE GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O.trinket tank Ress SAVE 20/25", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1188, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571578505,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [103]
+		{
+			"leave that", -- [1]
+			"Uxi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1274, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571579259,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [104]
+		{
+			"we can go to last boss", -- [1]
+			"Uxi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1276, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571579263,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [105]
+		{
+			"we can ?", -- [1]
+			"Lopia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1277, -- [11]
+			"0x070000000049FA15", -- [12]
+			0, -- [13]
+			[51] = 1571579270,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaLopia|r",
+		}, -- [106]
+		{
+			"lets skip it bro not worth", -- [1]
 			"Anemicc", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
@@ -1684,502 +1936,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			742, -- [11]
+			1286, -- [11]
 			"0x07000000004BC333", -- [12]
 			0, -- [13]
-			[51] = 1571576963,
+			[51] = 1571579281,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cffffffffAnemicc|r",
-		}, -- [93]
-		{
-			"lf enchanter", -- [1]
-			"Dogged", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			743, -- [11]
-			"0x07000000004B01FA", -- [12]
-			0, -- [13]
-			[51] = 1571576964,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffDogged|r",
-		}, -- [94]
-		{
-			"wtb |cff0070dd|Hitem:9386:0:0:0:0:0:0:0:80|h[Excavator's Brand]|h|r", -- [1]
-			"Rumorhasit", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			744, -- [11]
-			"0x070000000047840C", -- [12]
-			0, -- [13]
-			[51] = 1571576964,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Rumorhasit|r",
-		}, -- [95]
-		{
-			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/First Aid/Fishing w/me for more info or check armory (Starpray) 306 coins ", -- [1]
-			"Ebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			746, -- [11]
-			"0x07000000004C9E17", -- [12]
-			0, -- [13]
-			[51] = 1571576970,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aEbear|r",
-		}, -- [96]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			747, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571576980,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [97]
-		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			749, -- [11]
-			"0x070000000031E103", -- [12]
-			0, -- [13]
-			[51] = 1571576987,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
-		}, -- [98]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			750, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576992,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [99]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			751, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571576993,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [100]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			752, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571577000,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [101]
-		{
-			"kick his rogue and que", -- [1]
-			"Rapunzzel", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			753, -- [11]
-			"0x07000000004C6013", -- [12]
-			0, -- [13]
-			[51] = 1571577001,
-			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [102]
-		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			754, -- [11]
-			"0x070000000031E103", -- [12]
-			0, -- [13]
-			[51] = 1571577012,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
-		}, -- [103]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			755, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571577012,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [104]
-		{
-			"wtb |cff0070dd|Hitem:9386:0:0:0:0:0:0:0:80|h[Excavator's Brand]|h|r", -- [1]
-			"Rumorhasit", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			756, -- [11]
-			"0x070000000047840C", -- [12]
-			0, -- [13]
-			[51] = 1571577016,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Rumorhasit|r",
-		}, -- [105]
-		{
-			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|rAmazing offer. whatever you roll is the price for one wand...COME try your luck!faithblade just won wand for 22 gold", -- [1]
-			"Heatsun", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			757, -- [11]
-			"0x07000000004A0672", -- [12]
-			0, -- [13]
-			[51] = 1571577019,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aHeatsun|r",
-		}, -- [106]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			758, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571577025,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
 		}, -- [107]
 		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			759, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571577028,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [108]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			760, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571577034,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [109]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
-			"Nimpondiqq", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			761, -- [11]
-			"0x07000000004ABF9D", -- [12]
-			0, -- [13]
-			[51] = 1571577048,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aNimpondiqq|r",
-		}, -- [110]
-		{
-			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/First Aid/Fishing w/me for more info or check armory (Starpray) 306 coins ", -- [1]
-			"Ebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			762, -- [11]
-			"0x07000000004C9E17", -- [12]
-			0, -- [13]
-			[51] = 1571577055,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aEbear|r",
-		}, -- [111]
-		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			763, -- [11]
-			"0x070000000031E103", -- [12]
-			0, -- [13]
-			[51] = 1571577057,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
-		}, -- [112]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			764, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571577070,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [113]
-		{
-			"lfm 1 partener for 2vs2 for 10 games", -- [1]
-			"Iusti", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"AFK", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			765, -- [11]
-			"0x07000000003A3FB2", -- [12]
-			0, -- [13]
-			[51] = 1571577082,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Iusti|r",
-		}, -- [114]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			766, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571577085,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [115]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			768, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571577097,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [116]
-		{
-			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
-			"Vexi", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			769, -- [11]
-			"0x070000000014425E", -- [12]
-			0, -- [13]
-			[51] = 1571577098,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddVexi|r",
-		}, -- [117]
-		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			773, -- [11]
-			"0x070000000030D6A3", -- [12]
-			0, -- [13]
-			[51] = 1571577106,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
-		}, -- [118]
-		{
-			"LFM 1 partener for 2,VS2 for 10 games", -- [1]
-			"Iusti", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			775, -- [11]
-			"0x07000000003A3FB2", -- [12]
-			0, -- [13]
-			[51] = 1571577122,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Iusti|r",
-		}, -- [119]
-		{
-			"wtb |cff0070dd|Hitem:9386:0:0:0:0:0:0:0:80|h[Excavator's Brand]|h|r", -- [1]
-			"Rumorhasit", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			776, -- [11]
-			"0x070000000047840C", -- [12]
-			0, -- [13]
-			[51] = 1571577122,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Rumorhasit|r",
-		}, -- [120]
-		{
-			"err", -- [1]
-			"Rapunzzel", -- [2]
+			"yeah come", -- [1]
+			"Uxi", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2188,105 +1954,285 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			778, -- [11]
-			"0x07000000004C6013", -- [12]
+			1287, -- [11]
+			"0x07000000004BC36D", -- [12]
 			0, -- [13]
-			[51] = 1571577131,
+			[51] = 1571579288,
 			[50] = "CHAT_MSG_PARTY",
-			[52] = "|cffc41e3aRapunzzel|r",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [108]
+		{
+			"uxi", -- [1]
+			"Lopia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1293, -- [11]
+			"0x070000000049FA15", -- [12]
+			0, -- [13]
+			[51] = 1571579332,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaLopia|r",
+		}, -- [109]
+		{
+			"?", -- [1]
+			"Uxi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1294, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571579339,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [110]
+		{
+			"why are u so low dps ?", -- [1]
+			"Lopia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1296, -- [11]
+			"0x070000000049FA15", -- [12]
+			0, -- [13]
+			[51] = 1571579347,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaLopia|r",
+		}, -- [111]
+		{
+			"look at my items", -- [1]
+			"Uxi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1297, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571579355,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [112]
+		{
+			"they are ok", -- [1]
+			"Lopia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1298, -- [11]
+			"0x070000000049FA15", -- [12]
+			0, -- [13]
+			[51] = 1571579370,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaLopia|r",
+		}, -- [113]
+		{
+			"u should do better than that", -- [1]
+			"Lopia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1299, -- [11]
+			"0x070000000049FA15", -- [12]
+			0, -- [13]
+			[51] = 1571579377,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaLopia|r",
+		}, -- [114]
+		{
+			"try harder", -- [1]
+			"Lopia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1300, -- [11]
+			"0x070000000049FA15", -- [12]
+			0, -- [13]
+			[51] = 1571579384,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cfff48cbaLopia|r",
+		}, -- [115]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1866:07000000004BC333:1:10:20:19:4294967295:4294967295:4294967295:4294967295|h[Good Grief]|h|r!", -- [1]
+			"Anemicc", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Anemicc", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1304, -- [11]
+			"0x07000000004BC333", -- [12]
+			0, -- [13]
+			[51] = 1571579411,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffffffffAnemicc|r",
+		}, -- [116]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1866:07000000004BC36D:1:10:20:19:4294967295:4294967295:4294967295:4294967295|h[Good Grief]|h|r!", -- [1]
+			"Uxi", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Uxi", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1314, -- [11]
+			"0x07000000004BC36D", -- [12]
+			0, -- [13]
+			[51] = 1571579411,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffaad372Uxi|r",
+		}, -- [117]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:4476:07000000004BC333:1:10:20:19:4294967295:4294967295:4294967295:4294967295|h[Looking For More]|h|r!", -- [1]
+			"Anemicc", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Anemicc", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1355, -- [11]
+			"0x07000000004BC333", -- [12]
+			0, -- [13]
+			[51] = 1571579540,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffffffffAnemicc|r",
+		}, -- [118]
+		{
+			">Drunken Heroes< is recruiting!-12/12 ICC 10HC 8/12 ICC 25 HC - We're a new goal-oriented guild aiming for heroic raids and fun.We're looking for Tanks as well as Boomie, Enha,Priest,Lock, Rogue,Hunter but all are considered. We raid Tue/Fri/Sat 18:00", -- [1]
+			"Tweetty", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1405, -- [11]
+			"0x07000000003B9A73", -- [12]
+			0, -- [13]
+			[51] = 1571579594,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dTweetty|r",
+		}, -- [119]
+		{
+			"heal and tank join queue", -- [1]
+			"Zgodnaa", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1407, -- [11]
+			"0x0700000000458C5A", -- [12]
+			0, -- [13]
+			[51] = 1571579612,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZgodnaa|r",
+		}, -- [120]
+		{
+			"Last tank pala/dudu + shadow priest for icc 10 lk run 5.7 min gs full gem + enchant link ur best achieve", -- [1]
+			"Dashasifang", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1411, -- [11]
+			"0x0700000000322DED", -- [12]
+			0, -- [13]
+			[51] = 1571579627,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
 		}, -- [121]
 		{
-			"ICC 25NM NEED ALL AİM LK AND MUST BE TIME MIN 5.6GS WISP/GS/CLAS/BEST ACHIV FOR INV(B/P/O RES)!! |cffffff00|Hachievement:4597:070000000030D6A3:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r", -- [1]
-			"Falordelan", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"imman need more?", -- [1]
+			"Anemicc", -- [2]
+			"", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			779, -- [11]
-			"0x070000000030D6A3", -- [12]
+			1416, -- [11]
+			"0x07000000004BC333", -- [12]
 			0, -- [13]
-			[51] = 1571577134,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffFalordelan|r",
+			[51] = 1571579650,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffAnemicc|r",
 		}, -- [122]
 		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"yeah", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			780, -- [11]
-			"0x070000000031E103", -- [12]
+			1418, -- [11]
+			"0x07000000004C6013", -- [12]
 			0, -- [13]
-			[51] = 1571577134,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
+			[51] = 1571579662,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
 		}, -- [123]
 		{
-			"How can I move the chat bar to the top of screen?", -- [1]
-			"Elvynda", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			787, -- [11]
-			"0x070000000037BE18", -- [12]
-			0, -- [13]
-			[51] = 1571577172,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaElvynda|r",
-		}, -- [124]
-		{
-			"LFM XMOG RUN [The Battle for Mount Hyjal] NEED ALL ATM only 80 lvls /w me class and spec (rogue t6 hands reserved ) |cffffff00|Hachievement:695:070000000031E103:1:10:13:19:0:0:0:0|h[The Battle for Mount Hyjal]|h|r", -- [1]
-			"Azuredragon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			788, -- [11]
-			"0x070000000031E103", -- [12]
-			0, -- [13]
-			[51] = 1571577173,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Azuredragon|r",
-		}, -- [125]
-		{
-			"\"MegaCreeps\"New PVP guild is recruting new players .wis me for invitation..", -- [1]
-			"Av", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			790, -- [11]
-			"0x070000000012637B", -- [12]
-			0, -- [13]
-			[51] = 1571577182,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Av|r",
-		}, -- [126]
-		{
-			"LFM TOC 25 NOR NEED ALL GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O SAVE ", -- [1]
+			"LFM TOC 25 NOR NEED tankor resto dudu GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O.trinket tank Ress SAVE 24 /25LASt Spot ", -- [1]
 			"Nimpondiqq", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
@@ -2296,10 +2242,64 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			791, -- [11]
+			1419, -- [11]
 			"0x07000000004ABF9D", -- [12]
 			0, -- [13]
-			[51] = 1571577205,
+			[51] = 1571579662,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aNimpondiqq|r",
+		}, -- [124]
+		{
+			"i need pos hc and fos", -- [1]
+			"Rapunzzel", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1420, -- [11]
+			"0x07000000004C6013", -- [12]
+			0, -- [13]
+			[51] = 1571579665,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc41e3aRapunzzel|r",
+		}, -- [125]
+		{
+			"Last tank pala/dudu + shadow priest for icc 10 lk run 5.7 min gs full gem + enchant link ur best achieve", -- [1]
+			"Dashasifang", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1421, -- [11]
+			"0x0700000000322DED", -- [12]
+			0, -- [13]
+			[51] = 1571579669,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDashasifang|r",
+		}, -- [126]
+		{
+			"LFM TOC 25 NOR NEED tankor resto dudu GS +5500 LIKN ACHIV |cffffff00|Hachievement:3916:07000000004ABF9D:1:10:6:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r B+P+O.trinket tank Ress SAVE 24 /25LASt Spot ", -- [1]
+			"Nimpondiqq", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1423, -- [11]
+			"0x07000000004ABF9D", -- [12]
+			0, -- [13]
+			[51] = 1571579679,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNimpondiqq|r",
 		}, -- [127]
