@@ -2618,8 +2618,13 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
-		["devouring plague"] = {
-			["xOffset"] = 0,
+		["rake"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
@@ -2654,7 +2659,8 @@ WeakAurasSaved = {
 				["unit"] = "target",
 				["custom_hide"] = "timed",
 				["names"] = {
-					"Devouring Plague", -- [1]
+					"Rake", -- [1]
+					"Lacerate", -- [2]
 				},
 				["subeventPrefix"] = "SPELL",
 				["debuffType"] = "HARMFUL",
@@ -2668,14 +2674,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
+						true, -- [1]
 					},
 				},
 				["class"] = {
-					["single"] = "PRIEST",
+					["single"] = "DRUID",
 					["multi"] = {
 					},
 				},
@@ -2684,7 +2690,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 16,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["iconInset"] = 0,
@@ -2695,20 +2701,15 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["auto"] = true,
 			["icon"] = true,
-			["id"] = "devouring plague",
+			["id"] = "rake",
 			["yOffset"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["BFgloss"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "rotation helper - cat/bear",
 			["inverse"] = false,
 			["numTriggers"] = 1,
-			["parent"] = "rotation helper - priest",
+			["xOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -2819,68 +2820,20 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
-		["rapid fire 2"] = {
-			["parent"] = "cooldowns",
+		["devouring plague"] = {
+			["xOffset"] = 0,
 			["BFbackdrop"] = false,
-			["yOffset"] = 0,
+			["untrigger"] = {
+			},
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["fontFlags"] = "OUTLINE",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["itemName"] = 50675,
-				["use_inverse"] = false,
-				["names"] = {
-					"Rip", -- [1]
-				},
-				["debuffType"] = "HARMFUL",
-				["type"] = "status",
-				["unevent"] = "auto",
-				["spellName"] = 3045,
-				["use_itemName"] = true,
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["use_spellName"] = true,
-				["inverse"] = true,
-				["ownOnly"] = true,
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Cooldown Progress (Spell)",
-				["use_unit"] = true,
-				["unit"] = "target",
-			},
-			["stickyDuration"] = false,
-			["font"] = "PT Sans Narrow",
-			["height"] = 64,
-			["load"] = {
-				["use_class"] = false,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-						true, -- [1]
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-						["HUNTER"] = true,
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 12,
-			["displayStacks"] = "%s",
-			["regionType"] = "icon",
-			["iconInset"] = 0,
-			["cooldown"] = true,
-			["BFskin"] = "Blizzard",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -2895,34 +2848,70 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["actions"] = {
-				["start"] = {
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "target",
+				["custom_hide"] = "timed",
+				["names"] = {
+					"Devouring Plague", -- [1]
 				},
-				["finish"] = {
+				["subeventPrefix"] = "SPELL",
+				["debuffType"] = "HARMFUL",
+			},
+			["desaturate"] = false,
+			["font"] = "PT Sans Narrow",
+			["height"] = 40,
+			["load"] = {
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
 				},
 			},
+			["fontSize"] = 12,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["iconInset"] = 0,
+			["BFskin"] = "Blizzard",
+			["cooldown"] = true,
+			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["untrigger"] = {
-				["spellName"] = 3045,
-				["itemName"] = 50675,
-			},
-			["id"] = "rapid fire 2",
-			["BFgloss"] = 0,
+			["icon"] = true,
+			["id"] = "devouring plague",
+			["yOffset"] = 0,
 			["frameStrata"] = 1,
-			["width"] = 64,
+			["width"] = 40,
+			["BFgloss"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["xOffset"] = 0,
 			["inverse"] = false,
 			["numTriggers"] = 1,
-			["desaturate"] = true,
-			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
+			["parent"] = "rotation helper - priest",
+			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
@@ -4620,95 +4609,19 @@ WeakAurasSaved = {
 			},
 			["parent"] = "missing buffs",
 		},
-		["rotation helper - priest"] = {
-			["grow"] = "HORIZONTAL",
-			["controlledChildren"] = {
-				"vampiric touch", -- [1]
-				"vampiric touch 2", -- [2]
-				"devouring plague", -- [3]
-				"devouring plague 2", -- [4]
-				"shadow word: pain", -- [5]
-				"shadow word: pain 2", -- [6]
+		["shadow word: pain 2"] = {
+			["parent"] = "rotation helper - priest",
+			["BFbackdrop"] = false,
+			["untrigger"] = {
 			},
-			["animate"] = false,
-			["xOffset"] = 0,
-			["border"] = "None",
-			["yOffset"] = -220,
 			["anchorPoint"] = "CENTER",
-			["regionType"] = "dynamicgroup",
-			["sort"] = "none",
+			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 				},
 			},
-			["space"] = 2,
-			["background"] = "None",
-			["expanded"] = true,
-			["constantFactor"] = "RADIUS",
-			["id"] = "rotation helper - priest",
-			["borderOffset"] = 16,
-			["trigger"] = {
-				["unit"] = "player",
-				["type"] = "aura",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-			},
-			["selfPoint"] = "CENTER",
-			["align"] = "CENTER",
-			["stagger"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 250.0000077961454,
-			["rotation"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["backgroundInset"] = 0,
-			["height"] = 40.00002680779787,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["load"] = {
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["untrigger"] = {
-			},
-		},
-		["sharpened twilight scale"] = {
-			["parent"] = "beast mode",
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["icon"] = true,
 			["fontFlags"] = "OUTLINE",
 			["animation"] = {
 				["start"] = {
@@ -4725,32 +4638,36 @@ WeakAurasSaved = {
 				},
 			},
 			["trigger"] = {
-				["subeventPrefix"] = "SPELL",
 				["type"] = "aura",
-				["unit"] = "player",
 				["subeventSuffix"] = "_CAST_START",
-				["names"] = {
-					"Piercing Twilight", -- [1]
-				},
-				["debuffType"] = "HELPFUL",
+				["ownOnly"] = true,
 				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["inverse"] = true,
+				["debuffType"] = "HARMFUL",
+				["names"] = {
+					"Shadow Word: Pain", -- [1]
+				},
+				["unit"] = "target",
 				["custom_hide"] = "timed",
 			},
-			["desaturate"] = false,
+			["stickyDuration"] = false,
 			["font"] = "PT Sans Narrow",
-			["height"] = 64,
+			["height"] = 40,
 			["load"] = {
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["class"] = {
-					["single"] = "DRUID",
+					["single"] = "PRIEST",
 					["multi"] = {
 					},
 				},
@@ -4764,39 +4681,115 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["iconInset"] = 0,
 			["BFskin"] = "Blizzard",
-			["stacksPoint"] = "BOTTOMRIGHT",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["yOffset"] = 0,
+			["id"] = "shadow word: pain 2",
+			["desaturate"] = true,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["numTriggers"] = 1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["yOffset"] = 0,
-			["id"] = "sharpened twilight scale",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["frameStrata"] = 1,
-			["width"] = 64,
-			["numTriggers"] = 1,
-			["xOffset"] = 0,
 			["inverse"] = false,
 			["BFgloss"] = 0,
-			["stickyDuration"] = false,
-			["selfPoint"] = "CENTER",
-			["cooldown"] = true,
+			["icon"] = true,
+			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+		},
+		["rotation helper - hunt"] = {
+			["grow"] = "HORIZONTAL",
+			["controlledChildren"] = {
+				"hunter's mark", -- [1]
+				"serpent sting", -- [2]
+				"serpent sting 2", -- [3]
+				"kill shot", -- [4]
+				"aspect of the viper", -- [5]
+				"aspect of the pack", -- [6]
+			},
+			["animate"] = false,
+			["xOffset"] = 0,
+			["border"] = "None",
+			["yOffset"] = -220,
+			["anchorPoint"] = "CENTER",
+			["untrigger"] = {
+			},
+			["sort"] = "none",
+			["expanded"] = false,
+			["space"] = 2,
+			["background"] = "None",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["constantFactor"] = "RADIUS",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["borderOffset"] = 16,
+			["align"] = "CENTER",
+			["selfPoint"] = "CENTER",
+			["id"] = "rotation helper - hunt",
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 250.0000077961454,
+			["stagger"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["rotation"] = 0,
+			["height"] = 40.00002680779787,
+			["trigger"] = {
+				["names"] = {
+				},
+				["type"] = "aura",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+			},
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "dynamicgroup",
 		},
 		["rotation helper - cat/bear"] = {
 			["grow"] = "HORIZONTAL",
@@ -6272,100 +6265,14 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
-		["rotation helper - hunt"] = {
-			["grow"] = "HORIZONTAL",
-			["controlledChildren"] = {
-				"hunter's mark", -- [1]
-				"serpent sting", -- [2]
-				"serpent sting 2", -- [3]
-				"kill shot", -- [4]
-				"aspect of the viper", -- [5]
-				"aspect of the pack", -- [6]
-			},
-			["animate"] = false,
-			["xOffset"] = 0,
-			["border"] = "None",
-			["yOffset"] = -220,
-			["anchorPoint"] = "CENTER",
-			["untrigger"] = {
-			},
-			["sort"] = "none",
-			["expanded"] = false,
-			["space"] = 2,
-			["background"] = "None",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["constantFactor"] = "RADIUS",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
-			["selfPoint"] = "CENTER",
-			["id"] = "rotation helper - hunt",
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 250.0000077961454,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["rotation"] = 0,
-			["height"] = 40.00002680779787,
-			["trigger"] = {
-				["names"] = {
-				},
-				["type"] = "aura",
-				["debuffType"] = "HELPFUL",
-				["unit"] = "player",
-			},
-			["load"] = {
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["regionType"] = "dynamicgroup",
-		},
-		["shadow word: pain 2"] = {
-			["parent"] = "rotation helper - priest",
+		["sharpened twilight scale"] = {
+			["parent"] = "beast mode",
 			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = true,
 			["fontFlags"] = "OUTLINE",
 			["animation"] = {
 				["start"] = {
@@ -6382,36 +6289,32 @@ WeakAurasSaved = {
 				},
 			},
 			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
 				["subeventPrefix"] = "SPELL",
-				["inverse"] = true,
-				["debuffType"] = "HARMFUL",
+				["type"] = "aura",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
 				["names"] = {
-					"Shadow Word: Pain", -- [1]
+					"Piercing Twilight", -- [1]
 				},
-				["unit"] = "target",
+				["debuffType"] = "HELPFUL",
+				["event"] = "Health",
 				["custom_hide"] = "timed",
 			},
-			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["font"] = "PT Sans Narrow",
-			["height"] = 40,
+			["height"] = 64,
 			["load"] = {
 				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
-					["single"] = 1,
 					["multi"] = {
 					},
 				},
 				["class"] = {
-					["single"] = "PRIEST",
+					["single"] = "DRUID",
 					["multi"] = {
 					},
 				},
@@ -6425,33 +6328,119 @@ WeakAurasSaved = {
 			["regionType"] = "icon",
 			["iconInset"] = 0,
 			["BFskin"] = "Blizzard",
-			["selfPoint"] = "CENTER",
-			["xOffset"] = 0,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["yOffset"] = 0,
-			["id"] = "shadow word: pain 2",
-			["desaturate"] = true,
-			["frameStrata"] = 1,
-			["width"] = 40,
-			["numTriggers"] = 1,
+			["stacksPoint"] = "BOTTOMRIGHT",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["yOffset"] = 0,
+			["id"] = "sharpened twilight scale",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["numTriggers"] = 1,
+			["xOffset"] = 0,
 			["inverse"] = false,
 			["BFgloss"] = 0,
-			["icon"] = true,
-			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
-			["stacksPoint"] = "BOTTOMRIGHT",
+			["stickyDuration"] = false,
+			["selfPoint"] = "CENTER",
+			["cooldown"] = true,
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
+			},
+		},
+		["rotation helper - priest"] = {
+			["grow"] = "HORIZONTAL",
+			["controlledChildren"] = {
+				"vampiric touch", -- [1]
+				"vampiric touch 2", -- [2]
+				"devouring plague", -- [3]
+				"devouring plague 2", -- [4]
+				"shadow word: pain", -- [5]
+				"shadow word: pain 2", -- [6]
+			},
+			["animate"] = false,
+			["xOffset"] = 0,
+			["border"] = "None",
+			["yOffset"] = -220,
+			["anchorPoint"] = "CENTER",
+			["regionType"] = "dynamicgroup",
+			["sort"] = "none",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["space"] = 2,
+			["background"] = "None",
+			["expanded"] = true,
+			["constantFactor"] = "RADIUS",
+			["id"] = "rotation helper - priest",
+			["borderOffset"] = 16,
+			["trigger"] = {
+				["unit"] = "player",
+				["type"] = "aura",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+			},
+			["selfPoint"] = "CENTER",
+			["align"] = "CENTER",
+			["stagger"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 250.0000077961454,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["backgroundInset"] = 0,
+			["height"] = 40.00002680779787,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["untrigger"] = {
 			},
 		},
 		["shadowform"] = {
@@ -7048,10 +7037,10 @@ WeakAurasSaved = {
 				["type"] = "status",
 				["spellName"] = 61006,
 				["use_targetRequired"] = true,
-				["use_unit"] = true,
+				["unit"] = "target",
 				["ownOnly"] = true,
 				["event"] = "Action Usable",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["subeventSuffix"] = "_CAST_START",
 				["use_spellName"] = true,
 				["inverse"] = true,
@@ -7060,7 +7049,7 @@ WeakAurasSaved = {
 				["names"] = {
 					"Serpent Sting", -- [1]
 				},
-				["unit"] = "target",
+				["subeventPrefix"] = "SPELL",
 				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
@@ -7138,25 +7127,68 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
-		["rake"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+		["rapid fire 2"] = {
+			["parent"] = "cooldowns",
 			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
+			["yOffset"] = 0,
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
+			["icon"] = true,
+			["fontFlags"] = "OUTLINE",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["itemName"] = 50675,
+				["use_inverse"] = false,
+				["names"] = {
+					"Rip", -- [1]
 				},
-				["finish"] = {
+				["debuffType"] = "HARMFUL",
+				["type"] = "status",
+				["unevent"] = "auto",
+				["spellName"] = 3045,
+				["use_itemName"] = true,
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["use_spellName"] = true,
+				["inverse"] = true,
+				["ownOnly"] = true,
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Cooldown Progress (Spell)",
+				["use_unit"] = true,
+				["unit"] = "target",
+			},
+			["stickyDuration"] = false,
+			["font"] = "PT Sans Narrow",
+			["height"] = 64,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+						true, -- [1]
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["HUNTER"] = true,
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontSize"] = 12,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["iconInset"] = 0,
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -7171,66 +7203,34 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["unit"] = "target",
-				["custom_hide"] = "timed",
-				["names"] = {
-					"Rake", -- [1]
-					"Lacerate", -- [2]
+			["actions"] = {
+				["start"] = {
 				},
-				["subeventPrefix"] = "SPELL",
-				["debuffType"] = "HARMFUL",
-			},
-			["desaturate"] = false,
-			["font"] = "PT Sans Narrow",
-			["height"] = 40,
-			["load"] = {
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-						true, -- [1]
-					},
-				},
-				["class"] = {
-					["single"] = "DRUID",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
+				["finish"] = {
 				},
 			},
-			["fontSize"] = 16,
-			["displayStacks"] = "%s",
-			["regionType"] = "icon",
-			["iconInset"] = 0,
-			["BFskin"] = "Blizzard",
-			["cooldown"] = true,
-			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["icon"] = true,
-			["id"] = "rake",
-			["yOffset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 40,
+			["untrigger"] = {
+				["spellName"] = 3045,
+				["itemName"] = 50675,
+			},
+			["id"] = "rapid fire 2",
 			["BFgloss"] = 0,
-			["parent"] = "rotation helper - cat/bear",
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["xOffset"] = 0,
 			["inverse"] = false,
 			["numTriggers"] = 1,
-			["xOffset"] = 0,
-			["stickyDuration"] = false,
+			["desaturate"] = true,
+			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
 				1, -- [1]
