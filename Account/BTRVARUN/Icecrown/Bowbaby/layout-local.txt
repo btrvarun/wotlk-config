@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: CENTER
@@ -28,7 +28,7 @@ Y: 61
 W: 600
 H: 360
 Frame: DBMMinimapButton
-FrameLevel: 2
+FrameLevel: 3
 Anchor: TOPRIGHT
 X: -139
 Y: -30

@@ -2,7 +2,7 @@ Version: 1
 Frame: ChannelPulloutTab
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -190
+X: -147
 Y: -151
 W: 107
 H: 32
@@ -28,7 +28,7 @@ Y: 58
 W: 600
 H: 360
 Frame: DBMMinimapButton
-FrameLevel: 2
+FrameLevel: 3
 Anchor: TOPRIGHT
 X: -160
 Y: -5

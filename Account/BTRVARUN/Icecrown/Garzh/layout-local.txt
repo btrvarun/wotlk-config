@@ -21,7 +21,7 @@ Y: 49
 W: 600
 H: 360
 Frame: DBMMinimapButton
-FrameLevel: 2
+FrameLevel: 3
 Anchor: TOPRIGHT
 X: -160
 Y: -5

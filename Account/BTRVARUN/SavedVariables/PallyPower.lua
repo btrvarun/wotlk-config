@@ -59,16 +59,32 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Fishqs"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
+		4, -- [10]
+		4, -- [11]
+	},
 }
 PallyPower_NormalAssignments = {
 	["Errorpaladin"] = {
 	},
 	["Immutability"] = {
 	},
+	["Fishqs"] = {
+	},
 }
 PallyPower_AuraAssignments = {
 	["Errorpaladin"] = 1,
 	["Immutability"] = 1,
+	["Fishqs"] = 3,
 }
 PallyPower_SavedPresets = {
 }
