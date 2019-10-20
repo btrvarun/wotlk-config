@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_200000"] = 1000,
+	["_10000"] = 200,
 	["_50000"] = 500,
-	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
 	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["_500"] = 5,
-	["_10000"] = 200,
+	["STARTING_DISCOUNT"] = 5,
+	["_200000"] = 1000,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -107,6 +107,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Bowbaby"] = {
 		["firstSeen"] = 1570971530,
+		["guid"] = "0x070000000000615D",
 		["firstVersion"] = "2.6.3",
 	},
 	["Invariably"] = {

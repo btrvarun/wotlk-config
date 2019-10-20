@@ -19,11 +19,11 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: CENTER
-X: 312
+X: 307
 Y: 61
 W: 600
 H: 360
