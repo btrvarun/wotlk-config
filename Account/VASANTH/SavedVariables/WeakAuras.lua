@@ -189,13 +189,13 @@ WeakAurasSaved = {
 				["name"] = "The Art of War",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_ArtofWar",
 			},
-			[2.01] = {
-				["name"] = "Divinity",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
-			},
 			[2.05] = {
 				["name"] = "Anticipation",
 				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			},
+			[2.01] = {
+				["name"] = "Divinity",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
 			},
 			[2.14] = {
 				["name"] = "Sacred Duty",
@@ -205,9 +205,9 @@ WeakAurasSaved = {
 				["name"] = "Sacred Cleansing",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[3.05] = {
-				["name"] = "Improved Blessing of Might",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[1.02] = {
 				["name"] = "Seals of the Pure",
@@ -249,13 +249,13 @@ WeakAurasSaved = {
 				["name"] = "Judgements of the Pure",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementofthePure",
 			},
-			[3.18] = {
-				["name"] = "Repentance",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
-			},
 			[3.26] = {
 				["name"] = "Divine Storm",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
+			},
+			[3.18] = {
+				["name"] = "Repentance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 			},
 			[1.01] = {
 				["name"] = "Spiritual Focus",
@@ -309,9 +309,9 @@ WeakAurasSaved = {
 				["name"] = "Aura Mastery",
 				["icon"] = "Interface\\Icons\\Spell_Holy_AuraMastery",
 			},
-			[1.16] = {
-				["name"] = "Holy Power",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[3.19] = {
 				["name"] = "Judgements of the Wise",
@@ -400,13 +400,13 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "righteous fury",
-			["rotation"] = 0,
-			["frameStrata"] = 1,
-			["desaturate"] = false,
 			["discrete_rotation"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 200,
+			["rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["width"] = 200,
+			["desaturate"] = false,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -501,13 +501,13 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["inverse"] = false,
+			["stickyDuration"] = false,
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["stickyDuration"] = false,
-			["id"] = "sacred shield",
 			["numTriggers"] = 1,
+			["id"] = "sacred shield",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["color"] = {
@@ -661,9 +661,9 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "seal of wisdom",
-			["desaturate"] = false,
-			["frameStrata"] = 1,
 			["width"] = 200,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
@@ -708,10 +708,10 @@ WeakAurasSaved = {
 			["border"] = "None",
 			["yOffset"] = -220,
 			["anchorPoint"] = "CENTER",
-			["expanded"] = true,
-			["sort"] = "none",
 			["untrigger"] = {
 			},
+			["sort"] = "none",
+			["expanded"] = true,
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -721,6 +721,9 @@ WeakAurasSaved = {
 				},
 			},
 			["constantFactor"] = "RADIUS",
+			["selfPoint"] = "CENTER",
+			["borderOffset"] = 16,
+			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -735,18 +738,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
-			["selfPoint"] = "LEFT",
-			["id"] = "rotation helper - paladin",
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 40.00001805423131,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["rotation"] = 0,
-			["height"] = 40.00005306849783,
 			["trigger"] = {
 				["names"] = {
 				},
@@ -754,6 +745,15 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 				["unit"] = "player",
 			},
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 166.0000469136463,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["stagger"] = 0,
+			["height"] = 40.00002680779787,
+			["id"] = "rotation helper - paladin",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -848,10 +848,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["yOffset"] = 0,
 			["id"] = "sacred shield 2",
-			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -880,15 +880,15 @@ WeakAurasSaved = {
 			["fontFlags"] = "OUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
 				["unit"] = "player",
+				["type"] = "aura",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
 				["names"] = {
 					"Divine Plea", -- [1]
 				},
-				["subeventPrefix"] = "SPELL",
+				["ownOnly"] = true,
+				["event"] = "Health",
 				["debuffType"] = "HELPFUL",
 			},
 			["desaturate"] = false,
@@ -915,22 +915,20 @@ WeakAurasSaved = {
 			["fontSize"] = 12,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
+			["iconInset"] = 0,
 			["cooldown"] = true,
-			["parent"] = "rotation helper - paladin",
 			["BFskin"] = "Blizzard",
-			["BFgloss"] = 0,
 			["untrigger"] = {
 			},
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 				},
 			},
-			["id"] = "divine plea",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -945,18 +943,20 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["id"] = "divine plea",
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["iconInset"] = 0,
+			["parent"] = "rotation helper - paladin",
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["inverse"] = false,
 			["numTriggers"] = 1,
 			["stickyDuration"] = false,
-			["inverse"] = false,
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -1036,27 +1036,27 @@ WeakAurasSaved = {
 			["fontSize"] = 12,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
-			["parent"] = "rotation helper - paladin",
-			["BFskin"] = "Blizzard",
 			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
+			["BFskin"] = "Blizzard",
+			["parent"] = "rotation helper - paladin",
 			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
 			["icon"] = true,
 			["id"] = "divine plea 2",
-			["inverse"] = false,
+			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["stickyDuration"] = false,
+			["inverse"] = false,
 			["xOffset"] = 0,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1111,13 +1111,13 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["unit"] = "player",
 			},
-			["width"] = 200,
-			["frameStrata"] = 1,
 			["desaturate"] = false,
-			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 200,
+			["discrete_rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["discrete_rotation"] = 0,
+			["rotation"] = 0,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -1196,11 +1196,11 @@ WeakAurasSaved = {
 			},
 			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
-			["width"] = 200,
+			["desaturate"] = false,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {

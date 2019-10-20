@@ -33,17 +33,17 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
-	["Errorpaladin"] = {
-		1, -- [1]
+	["Nerfado"] = {
+		3, -- [1]
 		3, -- [2]
-		1, -- [3]
+		3, -- [3]
 		3, -- [4]
 		3, -- [5]
-		1, -- [6]
+		3, -- [6]
 		3, -- [7]
 		3, -- [8]
-		1, -- [9]
-		1, -- [10]
+		3, -- [9]
+		3, -- [10]
 		3, -- [11]
 	},
 	["Immutability"] = {
@@ -57,6 +57,19 @@ PallyPower_Assignments = {
 		3, -- [8]
 		3, -- [9]
 		3, -- [10]
+		3, -- [11]
+	},
+	["Errorpaladin"] = {
+		1, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		3, -- [5]
+		1, -- [6]
+		3, -- [7]
+		3, -- [8]
+		1, -- [9]
+		1, -- [10]
 		3, -- [11]
 	},
 	["Fishqs"] = {
@@ -74,16 +87,19 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Errorpaladin"] = {
+	["Nerfado"] = {
 	},
 	["Immutability"] = {
+	},
+	["Errorpaladin"] = {
 	},
 	["Fishqs"] = {
 	},
 }
 PallyPower_AuraAssignments = {
-	["Errorpaladin"] = 1,
+	["Nerfado"] = 1,
 	["Immutability"] = 1,
+	["Errorpaladin"] = 1,
 	["Fishqs"] = 3,
 }
 PallyPower_SavedPresets = {
