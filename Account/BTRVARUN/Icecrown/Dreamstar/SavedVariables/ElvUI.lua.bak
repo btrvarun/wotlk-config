@@ -1,0 +1,241 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"IF YOU THINK ABOUT IT WERE ALL MONKEYS IN A SIMULATION", -- [1]
+			"Dakarr", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			216, -- [11]
+			"0x0700000000459330", -- [12]
+			0, -- [13]
+			[51] = 1571547503,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Dakarr",
+		}, -- [1]
+		{
+			"LFM TOC 25n Need 1 MT 5 Dps and 2 healer /w me ur gs and spec Link achiv. |cffffff00|Hachievement:3917:07000000000B2804:1:7:27:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (10 player)]|h|r (B O P) Resv. [Fast Run]", -- [1]
+			"Beasthut", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			217, -- [11]
+			"0x07000000000B2804", -- [12]
+			0, -- [13]
+			[51] = 1571547505,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Beasthut",
+		}, -- [2]
+		{
+			"Looking for tank And healer VOA 10", -- [1]
+			"Volarum", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			218, -- [11]
+			"0x07000000004C224A", -- [12]
+			0, -- [13]
+			[51] = 1571547507,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Volarum",
+		}, -- [3]
+		{
+			"cover your asshole (opinion) nobody wants to see it Venibear", -- [1]
+			"Greenies", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			219, -- [11]
+			"0x07000000003F393A", -- [12]
+			0, -- [13]
+			[51] = 1571547516,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Greenies",
+		}, -- [4]
+		{
+			"PIÑERAAA CHUPAA EL CAEZA DE HABAAA", -- [1]
+			"Jugosa", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			221, -- [11]
+			"0x070000000045A774", -- [12]
+			0, -- [13]
+			[51] = 1571547522,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Jugosa",
+		}, -- [5]
+		{
+			"anda a gritar a la calle o te dan miedo los milicos maaricon culiao", -- [1]
+			"Hiike", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			222, -- [11]
+			"0x07000000004A33FF", -- [12]
+			0, -- [13]
+			[51] = 1571547527,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Hiike",
+		}, -- [6]
+		{
+			"lmao", -- [1]
+			"Hunnidew", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			224, -- [11]
+			"0x070000000040CEE1", -- [12]
+			0, -- [13]
+			[51] = 1571547535,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Hunnidew",
+		}, -- [7]
+		{
+			"LFM TOC 25n Need 1 MT 5 Dps and 2 healer /w me ur gs and spec Link achiv. |cffffff00|Hachievement:3917:07000000000B2804:1:7:27:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (10 player)]|h|r (B O P) Resv. [Fast Run]", -- [1]
+			"Beasthut", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			225, -- [11]
+			"0x07000000000B2804", -- [12]
+			0, -- [13]
+			[51] = 1571547535,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Beasthut",
+		}, -- [8]
+		{
+			"LFM TOC 25n Need 1 MT 5 Dps and 2 healer /w me ur gs and spec Link achiv. |cffffff00|Hachievement:3917:07000000000B2804:1:7:27:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (10 player)]|h|r (B O P) Resv. [Fast Run]", -- [1]
+			"Beasthut", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			226, -- [11]
+			"0x07000000000B2804", -- [12]
+			0, -- [13]
+			[51] = 1571547538,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Beasthut",
+		}, -- [9]
+		{
+			"VENGO DE ALLA PERKIN QL", -- [1]
+			"Jugosa", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			227, -- [11]
+			"0x070000000045A774", -- [12]
+			0, -- [13]
+			[51] = 1571547538,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Jugosa",
+		}, -- [10]
+		{
+			"AGUANTE TEMUCO CTM", -- [1]
+			"Jugosa", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			229, -- [11]
+			"0x070000000045A774", -- [12]
+			0, -- [13]
+			[51] = 1571547543,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Jugosa",
+		}, -- [11]
+		{
+			"What is going on here.", -- [1]
+			"Hunnidew", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			230, -- [11]
+			"0x070000000040CEE1", -- [12]
+			0, -- [13]
+			[51] = 1571547544,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Hunnidew",
+		}, -- [12]
+		{
+			"LF 1 DPS PREF WAR, AND 1 HEALER, VOA 25 FIRE AND FROST 23/25", -- [1]
+			"Chuchomierdo", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			231, -- [11]
+			"0x070000000033161A", -- [12]
+			0, -- [13]
+			[51] = 1571547544,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Chuchomierdo",
+		}, -- [13]
+	},
+}

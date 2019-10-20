@@ -935,8 +935,13 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
-		["devouring plague"] = {
-			["xOffset"] = 0,
+		["rake"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
@@ -972,7 +977,8 @@ WeakAurasSaved = {
 				["debuffType"] = "HARMFUL",
 				["subeventPrefix"] = "SPELL",
 				["names"] = {
-					"Devouring Plague", -- [1]
+					"Rake", -- [1]
+					"Lacerate", -- [2]
 				},
 				["custom_hide"] = "timed",
 			},
@@ -985,14 +991,14 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
+						true, -- [1]
 					},
 				},
 				["class"] = {
-					["single"] = "PRIEST",
+					["single"] = "DRUID",
 					["multi"] = {
 					},
 				},
@@ -1001,7 +1007,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 16,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
@@ -1016,18 +1022,13 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["parent"] = "rotation helper - priest",
-			["id"] = "devouring plague",
+			["xOffset"] = 0,
+			["id"] = "rake",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["numTriggers"] = 1,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
+			["parent"] = "rotation helper - cat/bear",
 			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["icon"] = true,
@@ -1136,55 +1137,65 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["iconInset"] = 0,
 		},
-		["rapid fire 2"] = {
-			["parent"] = "cooldowns",
+		["devouring plague"] = {
+			["xOffset"] = 0,
 			["BFbackdrop"] = false,
-			["yOffset"] = 0,
+			["untrigger"] = {
+			},
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
-			["icon"] = true,
-			["fontFlags"] = "OUTLINE",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["itemName"] = 50675,
-				["use_inverse"] = false,
-				["names"] = {
-					"Rip", -- [1]
+			["actions"] = {
+				["start"] = {
 				},
-				["debuffType"] = "HARMFUL",
-				["type"] = "status",
-				["unevent"] = "auto",
-				["unit"] = "target",
-				["use_itemName"] = true,
-				["use_unit"] = true,
-				["event"] = "Cooldown Progress (Spell)",
-				["use_spellName"] = true,
-				["inverse"] = true,
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "OUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
 				["subeventSuffix"] = "_CAST_START",
 				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "target",
+				["debuffType"] = "HARMFUL",
 				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Devouring Plague", -- [1]
+				},
 				["custom_hide"] = "timed",
-				["spellName"] = 3045,
 			},
-			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["font"] = "PT Sans Narrow",
-			["height"] = 64,
+			["height"] = 40,
 			["load"] = {
-				["use_class"] = false,
+				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
+				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
-						true, -- [1]
 					},
 				},
 				["class"] = {
 					["single"] = "PRIEST",
 					["multi"] = {
-						["HUNTER"] = true,
 					},
 				},
 				["size"] = {
@@ -1201,32 +1212,18 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["stacksPoint"] = "BOTTOMRIGHT",
 			["BFskin"] = "Blizzard",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["desaturate"] = true,
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["stickyDuration"] = false,
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["parent"] = "rotation helper - priest",
+			["id"] = "devouring plague",
 			["inverse"] = false,
-			["id"] = "rapid fire 2",
-			["numTriggers"] = 1,
 			["frameStrata"] = 1,
-			["width"] = 64,
-			["xOffset"] = 0,
+			["width"] = 40,
+			["numTriggers"] = 1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1234,17 +1231,9 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["BFgloss"] = 0,
-			["untrigger"] = {
-				["itemName"] = 50675,
-				["spellName"] = 3045,
-			},
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
+			["yOffset"] = 0,
+			["icon"] = true,
+			["selfPoint"] = "CENTER",
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
@@ -2765,6 +2754,251 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
+		["rotation helper - hunt"] = {
+			["grow"] = "HORIZONTAL",
+			["controlledChildren"] = {
+				"hunter's mark", -- [1]
+				"serpent sting", -- [2]
+				"serpent sting 2", -- [3]
+				"kill shot", -- [4]
+				"aspect of the viper", -- [5]
+				"aspect of the pack", -- [6]
+			},
+			["animate"] = false,
+			["xOffset"] = 0,
+			["border"] = "None",
+			["yOffset"] = -220,
+			["anchorPoint"] = "CENTER",
+			["regionType"] = "dynamicgroup",
+			["sort"] = "none",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["space"] = 2,
+			["background"] = "None",
+			["expanded"] = false,
+			["constantFactor"] = "RADIUS",
+			["id"] = "rotation helper - hunt",
+			["borderOffset"] = 16,
+			["trigger"] = {
+				["unit"] = "player",
+				["type"] = "aura",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+			},
+			["selfPoint"] = "CENTER",
+			["align"] = "CENTER",
+			["stagger"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 250.0000077961454,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["backgroundInset"] = 0,
+			["height"] = 40.00002680779787,
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["untrigger"] = {
+			},
+		},
+		["aspect of the dragonhawk"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.75, -- [4]
+			},
+			["mirror"] = false,
+			["yOffset"] = 0,
+			["regionType"] = "texture",
+			["blendMode"] = "BLEND",
+			["parent"] = "missing buffs",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura144",
+			["untrigger"] = {
+			},
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["id"] = "aspect of the dragonhawk",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "player",
+				["inverse"] = true,
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Aspect of the Dragonhawk", -- [1]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["desaturate"] = false,
+			["frameStrata"] = 1,
+			["width"] = 200,
+			["discrete_rotation"] = 0,
+			["anchorPoint"] = "CENTER",
+			["numTriggers"] = 1,
+			["rotation"] = 0,
+			["height"] = 200,
+			["rotate"] = true,
+			["load"] = {
+				["use_class"] = true,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+						[2] = true,
+					},
+				},
+				["class"] = {
+					["single"] = "HUNTER",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["xOffset"] = 0,
+		},
+		["rotation helper - priest"] = {
+			["grow"] = "HORIZONTAL",
+			["controlledChildren"] = {
+				"vampiric touch", -- [1]
+				"vampiric touch 2", -- [2]
+				"devouring plague", -- [3]
+				"devouring plague 2", -- [4]
+				"shadow word: pain", -- [5]
+				"shadow word: pain 2", -- [6]
+			},
+			["animate"] = false,
+			["xOffset"] = 0,
+			["border"] = "None",
+			["yOffset"] = -220,
+			["anchorPoint"] = "CENTER",
+			["untrigger"] = {
+			},
+			["sort"] = "none",
+			["expanded"] = false,
+			["space"] = 2,
+			["background"] = "None",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["constantFactor"] = "RADIUS",
+			["selfPoint"] = "CENTER",
+			["borderOffset"] = 16,
+			["align"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["names"] = {
+				},
+				["type"] = "aura",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+			},
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 250.0000077961454,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["stagger"] = 0,
+			["height"] = 40.00002680779787,
+			["id"] = "rotation helper - priest",
+			["load"] = {
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["regionType"] = "dynamicgroup",
+		},
 		["sharpened twilight scale"] = {
 			["parent"] = "beast mode",
 			["BFbackdrop"] = false,
@@ -2861,271 +3095,6 @@ WeakAurasSaved = {
 			},
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["iconInset"] = 0,
-		},
-		["aspect of the dragonhawk"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.75, -- [4]
-			},
-			["mirror"] = false,
-			["yOffset"] = 0,
-			["regionType"] = "texture",
-			["blendMode"] = "BLEND",
-			["parent"] = "missing buffs",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura144",
-			["untrigger"] = {
-			},
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
-			["id"] = "aspect of the dragonhawk",
-			["selfPoint"] = "CENTER",
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["unit"] = "player",
-				["inverse"] = true,
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-					"Aspect of the Dragonhawk", -- [1]
-				},
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
-			["frameStrata"] = 1,
-			["width"] = 200,
-			["discrete_rotation"] = 0,
-			["anchorPoint"] = "CENTER",
-			["numTriggers"] = 1,
-			["rotation"] = 0,
-			["height"] = 200,
-			["rotate"] = true,
-			["load"] = {
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-						[2] = true,
-					},
-				},
-				["class"] = {
-					["single"] = "HUNTER",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["xOffset"] = 0,
-		},
-		["shadow word: pain 2"] = {
-			["parent"] = "rotation helper - priest",
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-				["inverse"] = true,
-				["custom_hide"] = "timed",
-				["unit"] = "target",
-				["names"] = {
-					"Shadow Word: Pain", -- [1]
-				},
-				["debuffType"] = "HARMFUL",
-			},
-			["stickyDuration"] = false,
-			["font"] = "PT Sans Narrow",
-			["height"] = 40,
-			["load"] = {
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["use_spec"] = true,
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PRIEST",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 12,
-			["displayStacks"] = "%s",
-			["regionType"] = "icon",
-			["textColor"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["BFskin"] = "Blizzard",
-			["selfPoint"] = "CENTER",
-			["xOffset"] = 0,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["icon"] = true,
-			["id"] = "shadow word: pain 2",
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["width"] = 40,
-			["BFgloss"] = 0,
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
-			},
-			["numTriggers"] = 1,
-			["desaturate"] = true,
-			["yOffset"] = 0,
-			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
-			["stacksPoint"] = "BOTTOMRIGHT",
-			["iconInset"] = 0,
-		},
-		["rotation helper - hunt"] = {
-			["grow"] = "HORIZONTAL",
-			["controlledChildren"] = {
-				"hunter's mark", -- [1]
-				"serpent sting", -- [2]
-				"serpent sting 2", -- [3]
-				"kill shot", -- [4]
-				"aspect of the viper", -- [5]
-				"aspect of the pack", -- [6]
-			},
-			["animate"] = false,
-			["xOffset"] = 0,
-			["border"] = "None",
-			["yOffset"] = -220,
-			["anchorPoint"] = "CENTER",
-			["regionType"] = "dynamicgroup",
-			["sort"] = "none",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["space"] = 2,
-			["background"] = "None",
-			["expanded"] = false,
-			["constantFactor"] = "RADIUS",
-			["id"] = "rotation helper - hunt",
-			["borderOffset"] = 16,
-			["trigger"] = {
-				["unit"] = "player",
-				["type"] = "aura",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-			},
-			["selfPoint"] = "CENTER",
-			["align"] = "CENTER",
-			["stagger"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 250.0000077961454,
-			["rotation"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["backgroundInset"] = 0,
-			["height"] = 40.00002680779787,
-			["animation"] = {
-				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-			},
-			["load"] = {
-				["class"] = {
-					["multi"] = {
-					},
-				},
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["untrigger"] = {
-			},
 		},
 		["rotation helper - cat/bear"] = {
 			["grow"] = "HORIZONTAL",
@@ -4601,77 +4570,65 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 		},
-		["rotation helper - priest"] = {
-			["grow"] = "HORIZONTAL",
-			["controlledChildren"] = {
-				"vampiric touch", -- [1]
-				"vampiric touch 2", -- [2]
-				"devouring plague", -- [3]
-				"devouring plague 2", -- [4]
-				"shadow word: pain", -- [5]
-				"shadow word: pain 2", -- [6]
-			},
-			["animate"] = false,
-			["xOffset"] = 0,
-			["border"] = "None",
-			["yOffset"] = -220,
-			["anchorPoint"] = "CENTER",
+		["shadow word: pain 2"] = {
+			["parent"] = "rotation helper - priest",
+			["BFbackdrop"] = false,
 			["untrigger"] = {
 			},
-			["sort"] = "none",
-			["expanded"] = false,
-			["space"] = 2,
-			["background"] = "None",
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 				},
 			},
-			["constantFactor"] = "RADIUS",
-			["selfPoint"] = "CENTER",
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
+			["fontFlags"] = "OUTLINE",
 			["animation"] = {
 				["start"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 				["main"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 				["finish"] = {
-					["duration_type"] = "seconds",
 					["type"] = "none",
+					["duration_type"] = "seconds",
 				},
 			},
 			["trigger"] = {
-				["names"] = {
-				},
 				["type"] = "aura",
-				["debuffType"] = "HELPFUL",
-				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["inverse"] = true,
+				["custom_hide"] = "timed",
+				["unit"] = "target",
+				["names"] = {
+					"Shadow Word: Pain", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
 			},
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 250.0000077961454,
-			["rotation"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["stagger"] = 0,
-			["height"] = 40.00002680779787,
-			["id"] = "rotation helper - priest",
+			["stickyDuration"] = false,
+			["font"] = "PT Sans Narrow",
+			["height"] = 40,
 			["load"] = {
+				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["class"] = {
+				["use_spec"] = true,
+				["spec"] = {
+					["single"] = 1,
 					["multi"] = {
 					},
 				},
-				["spec"] = {
+				["class"] = {
+					["single"] = "PRIEST",
 					["multi"] = {
 					},
 				},
@@ -4680,7 +4637,39 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["regionType"] = "dynamicgroup",
+			["fontSize"] = 12,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["xOffset"] = 0,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["icon"] = true,
+			["id"] = "shadow word: pain 2",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["BFgloss"] = 0,
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["numTriggers"] = 1,
+			["desaturate"] = true,
+			["yOffset"] = 0,
+			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["iconInset"] = 0,
 		},
 		["aspect of the viper"] = {
 			["parent"] = "rotation helper - hunt",
@@ -5365,10 +5354,10 @@ WeakAurasSaved = {
 				["type"] = "status",
 				["custom_hide"] = "timed",
 				["use_targetRequired"] = true,
-				["use_unit"] = true,
+				["unit"] = "target",
 				["ownOnly"] = true,
 				["event"] = "Action Usable",
-				["subeventPrefix"] = "SPELL",
+				["use_unit"] = true,
 				["names"] = {
 					"Serpent Sting", -- [1]
 				},
@@ -5377,7 +5366,7 @@ WeakAurasSaved = {
 				["debuffType"] = "HARMFUL",
 				["unevent"] = "auto",
 				["subeventSuffix"] = "_CAST_START",
-				["unit"] = "target",
+				["subeventPrefix"] = "SPELL",
 				["spellName"] = 61006,
 			},
 			["desaturate"] = false,
@@ -5455,25 +5444,73 @@ WeakAurasSaved = {
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["iconInset"] = 0,
 		},
-		["rake"] = {
-			["color"] = {
+		["rapid fire 2"] = {
+			["parent"] = "cooldowns",
+			["BFbackdrop"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "OUTLINE",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["itemName"] = 50675,
+				["use_inverse"] = false,
+				["names"] = {
+					"Rip", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+				["type"] = "status",
+				["unevent"] = "auto",
+				["unit"] = "target",
+				["use_itemName"] = true,
+				["use_unit"] = true,
+				["event"] = "Cooldown Progress (Spell)",
+				["use_spellName"] = true,
+				["inverse"] = true,
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["subeventPrefix"] = "SPELL",
+				["custom_hide"] = "timed",
+				["spellName"] = 3045,
+			},
+			["stickyDuration"] = false,
+			["font"] = "PT Sans Narrow",
+			["height"] = 64,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["single"] = 1,
+					["multi"] = {
+						true, -- [1]
+					},
+				},
+				["class"] = {
+					["single"] = "PRIEST",
+					["multi"] = {
+						["HUNTER"] = true,
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 12,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFbackdrop"] = false,
-			["untrigger"] = {
-			},
-			["anchorPoint"] = "CENTER",
-			["customTextUpdate"] = "update",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["fontFlags"] = "OUTLINE",
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -5488,71 +5525,34 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["unit"] = "target",
-				["debuffType"] = "HARMFUL",
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-					"Rake", -- [1]
-					"Lacerate", -- [2]
-				},
-				["custom_hide"] = "timed",
-			},
-			["desaturate"] = false,
-			["font"] = "PT Sans Narrow",
-			["height"] = 40,
-			["load"] = {
-				["use_class"] = true,
-				["role"] = {
-					["multi"] = {
-					},
-				},
-				["spec"] = {
-					["single"] = 1,
-					["multi"] = {
-						true, -- [1]
-					},
-				},
-				["class"] = {
-					["single"] = "DRUID",
-					["multi"] = {
-					},
-				},
-				["size"] = {
-					["multi"] = {
-					},
-				},
-			},
-			["fontSize"] = 16,
-			["displayStacks"] = "%s",
-			["regionType"] = "icon",
-			["textColor"] = {
+			["desaturate"] = true,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["inverse"] = false,
+			["id"] = "rapid fire 2",
+			["numTriggers"] = 1,
+			["frameStrata"] = 1,
+			["width"] = 64,
+			["xOffset"] = 0,
+			["color"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["BFskin"] = "Blizzard",
-			["stacksPoint"] = "BOTTOMRIGHT",
-			["stickyDuration"] = false,
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
-			["xOffset"] = 0,
-			["id"] = "rake",
-			["inverse"] = false,
-			["frameStrata"] = 1,
-			["width"] = 40,
-			["numTriggers"] = 1,
-			["parent"] = "rotation helper - cat/bear",
 			["BFgloss"] = 0,
-			["yOffset"] = 0,
-			["icon"] = true,
-			["selfPoint"] = "CENTER",
+			["untrigger"] = {
+				["itemName"] = 50675,
+				["spellName"] = 3045,
+			},
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
@@ -6026,6 +6026,326 @@ WeakAurasSaved = {
 		["WARRIOR"] = {
 		},
 		["SHAMAN"] = {
+			[2.2] = {
+				["name"] = "Dual Wield",
+				["icon"] = "Interface\\Icons\\Ability_DualWield",
+			},
+			[2.16] = {
+				["name"] = "Unleashed Rage",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnleashedRage",
+			},
+			[1.04] = {
+				["name"] = "Elemental Warding",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SpiritArmor",
+			},
+			[3.06] = {
+				["name"] = "Improved Water Shield",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_WaterShield",
+			},
+			[2.14] = {
+				["name"] = "Spirit Weapons",
+				["icon"] = "Interface\\Icons\\Ability_Parry",
+			},
+			[1.25] = {
+				["name"] = "Thunderstorm",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ThunderStorm",
+			},
+			[3.23] = {
+				["name"] = "Earth Shield",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SkinofEarth",
+			},
+			[2.12] = {
+				["name"] = "Toughness",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
+			},
+			[2.08] = {
+				["name"] = "Elemental Weapons",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameTounge",
+			},
+			[1.23] = {
+				["name"] = "Lava Flows",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_LavaFlow",
+			},
+			[2.06] = {
+				["name"] = "Improved Ghost Wolf",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SpiritWolf",
+			},
+			[1.21] = {
+				["name"] = "Astral Shift",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_AstralShift",
+			},
+			[3.15] = {
+				["name"] = "Purification",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WizardMark",
+			},
+			[3.07] = {
+				["name"] = "Healing Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveLesser",
+			},
+			[2.27] = {
+				["name"] = "Earthen Power",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EarthElemental_Totem",
+			},
+			[1.19] = {
+				["name"] = "Elemental Oath",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ElementalOath",
+			},
+			[3.03] = {
+				["name"] = "Improved Reincarnation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
+			},
+			[3.2] = {
+				["name"] = "Improved Chain Heal",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
+			},
+			[2.29] = {
+				["name"] = "Feral Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_FeralSpirit",
+			},
+			[2.25] = {
+				["name"] = "Mental Quickness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MentalQuickness",
+			},
+			[1.13] = {
+				["name"] = "Unrelenting Storm",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UnrelentingStorm",
+			},
+			[3.24] = {
+				["name"] = "Improved Earth Shield",
+				["icon"] = "Interface\\Icons\\Spell_Nature_SkinofEarth",
+			},
+			[3.16] = {
+				["name"] = "Nature's Guardian",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
+			},
+			[2.23] = {
+				["name"] = "Lava Lash",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_Lavalash",
+			},
+			[1.11] = {
+				["name"] = "Elemental Reach",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StormReach",
+			},
+			[1.07] = {
+				["name"] = "Elemental Focus",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaBurn",
+			},
+			[3.04] = {
+				["name"] = "Healing Grace",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingTouch",
+			},
+			[2.21] = {
+				["name"] = "Stormstrike",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_Stormstrike",
+			},
+			[1.05] = {
+				["name"] = "Elemental Devastation",
+				["icon"] = "Interface\\Icons\\Spell_Fire_ElementalDevastation",
+			},
+			[3.08] = {
+				["name"] = "Tidal Force",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+			},
+			[2.19] = {
+				["name"] = "Dual Wield Specialization",
+				["icon"] = "Interface\\Icons\\Ability_DualWieldSpecialization",
+			},
+			[2.15] = {
+				["name"] = "Mental Dexterity",
+				["icon"] = "Interface\\Icons\\Spell_Nature_BloodLust",
+			},
+			[1.03] = {
+				["name"] = "Call of Flame",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
+			},
+			[3.25] = {
+				["name"] = "Tidal Waves",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_TidalWaves",
+			},
+			[2.13] = {
+				["name"] = "Improved Windfury Totem",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Windfury",
+			},
+			[1.24] = {
+				["name"] = "Shamanism",
+				["icon"] = "Interface\\Icons\\Spell_unused2",
+			},
+			[1.01] = {
+				["name"] = "Convection",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispSplode",
+			},
+			[2.11] = {
+				["name"] = "Flurry",
+				["icon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
+			},
+			[2.07] = {
+				["name"] = "Improved Shields",
+				["icon"] = "Interface\\Icons\\Spell_Nature_LightningShield",
+			},
+			[1.18] = {
+				["name"] = "Booming Echoes",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BlueFlameRing",
+			},
+			[3.09] = {
+				["name"] = "Ancestral Healing",
+				["icon"] = "Interface\\Icons\\Spell_Nature_UndyingStrength",
+			},
+			[3.1] = {
+				["name"] = "Restorative Totems",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ManaRegenTotem",
+			},
+			[3.19] = {
+				["name"] = "Blessing of the Eternals",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_BlessingOfEternals",
+			},
+			[3.17] = {
+				["name"] = "Mana Tide Totem",
+				["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
+			},
+			[2.05] = {
+				["name"] = "Thundering Strikes",
+				["icon"] = "Interface\\Icons\\Ability_ThunderBolt",
+			},
+			[1.02] = {
+				["name"] = "Concussion",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			},
+			[2.01] = {
+				["name"] = "Enhancing Totems",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EarthBindTotem",
+			},
+			[3.13] = {
+				["name"] = "Nature's Swiftness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
+			},
+			[1.2] = {
+				["name"] = "Lightning Overload",
+				["icon"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
+			},
+			[3.05] = {
+				["name"] = "Tidal Focus",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ManaRecharge",
+			},
+			[2.22] = {
+				["name"] = "Static Shock",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_StaticShock",
+			},
+			[2.04] = {
+				["name"] = "Guardian Totems",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StoneSkinTotem",
+			},
+			[2.02] = {
+				["name"] = "Earth's Grasp",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StoneClawTotem",
+			},
+			[3.21] = {
+				["name"] = "Nature's Blessing",
+				["icon"] = "Interface\\Icons\\Spell_Nature_NatureBlessing",
+			},
+			[2.03] = {
+				["name"] = "Ancestral Knowledge",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
+			},
+			[1.22] = {
+				["name"] = "Totem of Wrath",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			},
+			[1.14] = {
+				["name"] = "Elemental Precision",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ElementalPrecision_1",
+			},
+			[1.1] = {
+				["name"] = "Eye of the Storm",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SoulLeech_2",
+			},
+			[1.15] = {
+				["name"] = "Lightning Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Lightning_LightningBolt01",
+			},
+			[3.01] = {
+				["name"] = "Improved Healing Wave",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MagicImmunity",
+			},
+			[3.26] = {
+				["name"] = "Riptide",
+				["icon"] = "Interface\\Icons\\spell_nature_riptide",
+			},
+			[3.18] = {
+				["name"] = "Cleanse Spirit",
+				["icon"] = "Interface\\Icons\\Ability_Shaman_CleanseSpirit",
+			},
+			[2.28] = {
+				["name"] = "Maelstrom Weapon",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_MaelstromWeapon",
+			},
+			[1.09] = {
+				["name"] = "Improved Fire Nova",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+			},
+			[2.24] = {
+				["name"] = "Improved Stormstrike",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_ImprovedStormstrike",
+			},
+			[1.12] = {
+				["name"] = "Call of Thunder",
+				["icon"] = "Interface\\Icons\\Spell_Nature_CallStorm",
+			},
+			[1.08] = {
+				["name"] = "Elemental Fury",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Volcano",
+			},
+			[1.17] = {
+				["name"] = "Storm, Earth and Fire",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_StormEarthFire",
+			},
+			[2.09] = {
+				["name"] = "Shamanistic Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ElementalAbsorption",
+			},
+			[2.26] = {
+				["name"] = "Shamanistic Rage",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ShamanRage",
+			},
+			[3.22] = {
+				["name"] = "Ancestral Awakening",
+				["icon"] = "Interface\\Icons\\Spell_Shaman_AncestralAwakening",
+			},
+			[3.14] = {
+				["name"] = "Focused Mind",
+				["icon"] = "Interface\\Icons\\Spell_Nature_FocusedMind",
+			},
+			[2.18] = {
+				["name"] = "Frozen Power",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BlueCano",
+			},
+			[3.11] = {
+				["name"] = "Tidal Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
+			},
+			[1.06] = {
+				["name"] = "Reverberation",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostWard",
+			},
+			[3.12] = {
+				["name"] = "Healing Way",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWay",
+			},
+			[1.16] = {
+				["name"] = "Elemental Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+			},
+			[2.17] = {
+				["name"] = "Weapon Mastery",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_SwiftStrike",
+			},
+			[3.02] = {
+				["name"] = "Totemic Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
+			},
+			[2.1] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MirrorImage",
+			},
 		},
 		["MAGE"] = {
 		},

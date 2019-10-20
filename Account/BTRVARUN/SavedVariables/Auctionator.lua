@@ -103,6 +103,7 @@ AUCTIONATOR_TOONS = {
 	["Dreamstar"] = {
 		["firstSeen"] = 1570975096,
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x0700000000049519",
 	},
 	["Bowbaby"] = {
 		["firstSeen"] = 1570971530,
