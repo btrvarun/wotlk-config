@@ -20,96 +20,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"WTS GOLD FOR COINS VIA WARMANE TRADE, PROVIDING BEST DEALS ON WARMANE, W/ME IF INTERESTED", -- [1]
-			"Floridda", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2545, -- [11]
-			"0x070000000030588E", -- [12]
-			0, -- [13]
-			[51] = 1571583963,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddFloridda|r",
-		}, -- [1]
-		{
-			"LF resto sham for ICC10 bane run at festergut had to replace retard... 6k+", -- [1]
-			"Justanotherd", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2547, -- [11]
-			"0x070000000049972E", -- [12]
-			0, -- [13]
-			[51] = 1571583971,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaJustanotherd|r",
-		}, -- [2]
-		{
-			"Buy |cff1eff00|Hitem:16202:0:0:0:0:0:0:0:80|h[Lesser Eternal Essence]|h|r W/m", -- [1]
-			"Ramstreal", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2548, -- [11]
-			"0x07000000004C2DD6", -- [12]
-			0, -- [13]
-			[51] = 1571583973,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aRamstreal|r",
-		}, -- [3]
-		{
-			"WTS BIS ELE sham 6560gs, 6k+ achiv, many mounts, JWC/ENG Cooking/FirstAid/Fishing w/me for more info or check armory (Starpray) 306 coins via warmane trade system. BEST DEAL AT THE MOMENT. (if you want i can drop some gear off to get price lower)", -- [1]
-			"Ebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2549, -- [11]
-			"0x07000000004C9E17", -- [12]
-			0, -- [13]
-			[51] = 1571583974,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aEbear|r",
-		}, -- [4]
-		{
-			"WTS GOLD FOR COINS VIA WARMANE TRADE, PROVIDING BEST DEALS ON WARMANE, W/ME IF INTERESTED", -- [1]
-			"Floridda", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			2550, -- [11]
-			"0x070000000030588E", -- [12]
-			0, -- [13]
-			[51] = 1571583978,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddFloridda|r",
-		}, -- [5]
-		{
 			"wtb |cff0070dd|Hitem:41398:0:0:0:0:0:0:0:80|h[Relentless Earthsiege Diamond]|h|r", -- [1]
 			"Slbyou", -- [2]
 			"Orcish", -- [3]
@@ -126,7 +36,7 @@ ElvCharacterDB = {
 			[51] = 1571583980,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSlbyou|r",
-		}, -- [6]
+		}, -- [1]
 		{
 			"wts |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r |cff1eff00|Hitem:36860:0:0:0:0:0:0:0:80|h[Eternal Fire]|h|r |cff1eff00|Hitem:36860:0:0:0:0:0:0:0:80|h[Eternal Fire]|h|r", -- [1]
 			"Bhelynis", -- [2]
@@ -144,7 +54,7 @@ ElvCharacterDB = {
 			[51] = 1571583980,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaBhelynis|r",
-		}, -- [7]
+		}, -- [2]
 		{
 			"WTS |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r x 24 !! 590 g/e", -- [1]
 			"Anikas", -- [2]
@@ -162,7 +72,7 @@ ElvCharacterDB = {
 			[51] = 1571583981,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffAnikas|r",
-		}, -- [8]
+		}, -- [3]
 		{
 			"WTS GOLD FOR COINS VIA WARMANE TRADE, PROVIDING BEST DEALS ON WARMANE, W/ME IF INTERESTED", -- [1]
 			"Floridda", -- [2]
@@ -180,7 +90,7 @@ ElvCharacterDB = {
 			[51] = 1571583993,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [9]
+		}, -- [4]
 		{
 			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|r]Amazing offer. whatever you roll is the price for one wand...COME try your luck!so many happy cust", -- [1]
 			"Heatsun", -- [2]
@@ -198,7 +108,7 @@ ElvCharacterDB = {
 			[51] = 1571583996,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHeatsun|r",
-		}, -- [10]
+		}, -- [5]
 		{
 			"LFM ICC25N 5,5k+ 1 DPS (dk,warr)(boe+primo res)", -- [1]
 			"Dintia", -- [2]
@@ -216,7 +126,7 @@ ElvCharacterDB = {
 			[51] = 1571583999,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aDintia|r",
-		}, -- [11]
+		}, -- [6]
 		{
 			"LFM SUNWELL PLATUE TSMOG RUN //NEED 2dps only (THORIDAL BOW RESS)", -- [1]
 			"Kamenos", -- [2]
@@ -234,7 +144,7 @@ ElvCharacterDB = {
 			[51] = 1571584001,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Kamenos|r",
-		}, -- [12]
+		}, -- [7]
 		{
 			"WTS GOLD FOR COINS VIA WARMANE TRADE, PROVIDING BEST DEALS ON WARMANE, W/ME IF INTERESTED", -- [1]
 			"Floridda", -- [2]
@@ -252,7 +162,7 @@ ElvCharacterDB = {
 			[51] = 1571584008,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [13]
+		}, -- [8]
 		{
 			"Buy Items Tank W/M", -- [1]
 			"Ramstreal", -- [2]
@@ -270,7 +180,7 @@ ElvCharacterDB = {
 			[51] = 1571584008,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRamstreal|r",
-		}, -- [14]
+		}, -- [9]
 		{
 			"WTS |cffa335ee|Hitem:49967:0:0:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r |cffa335ee|Hitem:50453:0:0:0:0:0:0:0:80|h[Ring of Rotting Sinew]|h|r", -- [1]
 			"Kishi", -- [2]
@@ -288,7 +198,7 @@ ElvCharacterDB = {
 			[51] = 1571584012,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaKishi|r",
-		}, -- [15]
+		}, -- [10]
 		{
 			"LFM SUNWELL PLATUE TSMOG RUN //NEED 2dps only (THORIDAL BOW RESS)", -- [1]
 			"Kamenos", -- [2]
@@ -306,7 +216,7 @@ ElvCharacterDB = {
 			[51] = 1571584019,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Kamenos|r",
-		}, -- [16]
+		}, -- [11]
 		{
 			"WTS GOLD FOR COINS VIA WARMANE TRADE, PROVIDING BEST DEALS ON WARMANE, W/ME IF INTERESTED", -- [1]
 			"Floridda", -- [2]
@@ -324,7 +234,7 @@ ElvCharacterDB = {
 			[51] = 1571584023,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [17]
+		}, -- [12]
 		{
 			"WTS |cffa335ee|Hitem:49907:0:0:0:0:0:0:0:80|h[Boots of Kingly Upheaval]|h|r |cffa335ee|Hitem:49907:0:0:0:0:0:0:0:80|h[Boots of Kingly Upheaval]|h|r", -- [1]
 			"Rolandin", -- [2]
@@ -342,7 +252,7 @@ ElvCharacterDB = {
 			[51] = 1571584034,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaRolandin|r",
-		}, -- [18]
+		}, -- [13]
 		{
 			"WTS |cffffff00|Hachievement:283:07000000004A0672:1:10:19:19:4294967295:4294967295:4294967295:4294967295|h[The Masquerade]|h|r]Amazing offer. whatever you roll is the price for one wand...COME try your luck!so many happy cust", -- [1]
 			"Heatsun", -- [2]
@@ -360,7 +270,7 @@ ElvCharacterDB = {
 			[51] = 1571584035,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHeatsun|r",
-		}, -- [19]
+		}, -- [14]
 		{
 			"WTS GOLD FOR COINS VIA WARMANE TRADE, PROVIDING BEST DEALS ON WARMANE, W/ME IF INTERESTED", -- [1]
 			"Floridda", -- [2]
@@ -378,7 +288,7 @@ ElvCharacterDB = {
 			[51] = 1571584038,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [20]
+		}, -- [15]
 		{
 			"LFM SUNWELL PLATUE TSMOG RUN //NEED 2dps only (THORIDAL BOW RESS)", -- [1]
 			"Kamenos", -- [2]
@@ -396,7 +306,7 @@ ElvCharacterDB = {
 			[51] = 1571584039,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Kamenos|r",
-		}, -- [21]
+		}, -- [16]
 		{
 			"are u bored or what?", -- [1]
 			"Fascinum", -- [2]
@@ -414,7 +324,7 @@ ElvCharacterDB = {
 			[51] = 1571584724,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Fascinum|r",
-		}, -- [22]
+		}, -- [17]
 		{
 			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
 			"Vexi", -- [2]
@@ -432,7 +342,7 @@ ElvCharacterDB = {
 			[51] = 1571584735,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddVexi|r",
-		}, -- [23]
+		}, -- [18]
 		{
 			"WTS BIS RESTO/ENHANCE Shaman! Glowing twighlight scale HC, Trauma HC etc etc Dual wield Scourgeborne Waraxe HC ", -- [1]
 			"Vexi", -- [2]
@@ -450,7 +360,7 @@ ElvCharacterDB = {
 			[51] = 1571584735,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddVexi|r",
-		}, -- [24]
+		}, -- [19]
 		{
 			"< I D G A F > is a Social-PvP guild looking for any new members of any level, we are a fresh guild & currently welcome all!!", -- [1]
 			"Ifacultyx", -- [2]
@@ -468,7 +378,7 @@ ElvCharacterDB = {
 			[51] = 1571584738,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffIfacultyx|r",
-		}, -- [25]
+		}, -- [20]
 		{
 			"< I D G A F > is a Social-PvP guild looking for any new members of any level, we are a fresh guild & currently welcome all!!", -- [1]
 			"Ifacultyx", -- [2]
@@ -486,7 +396,7 @@ ElvCharacterDB = {
 			[51] = 1571584738,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffIfacultyx|r",
-		}, -- [26]
+		}, -- [21]
 		{
 			"wtb |cffa335ee|Hitem:49967:0:0:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r5k", -- [1]
 			"Oreilly", -- [2]
@@ -504,7 +414,7 @@ ElvCharacterDB = {
 			[51] = 1571584747,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefOreilly|r",
-		}, -- [27]
+		}, -- [22]
 		{
 			"WTB Enchanting", -- [1]
 			"Negilist", -- [2]
@@ -522,7 +432,7 @@ ElvCharacterDB = {
 			[51] = 1571584753,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNegilist|r",
-		}, -- [28]
+		}, -- [23]
 		{
 			"5.6k Fwarr LF Guild in progress I have several 6.5k+ alts to disposal", -- [1]
 			"Nillerin", -- [2]
@@ -540,7 +450,7 @@ ElvCharacterDB = {
 			[51] = 1571584766,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaNillerin|r",
-		}, -- [29]
+		}, -- [24]
 		{
 			"anyone have used reactjs or vuejs? ", -- [1]
 			"Dzsham", -- [2]
@@ -558,7 +468,7 @@ ElvCharacterDB = {
 			[51] = 1571584768,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddDzsham|r",
-		}, -- [30]
+		}, -- [25]
 		{
 			"wts |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r", -- [1]
 			"Totemxi", -- [2]
@@ -576,7 +486,7 @@ ElvCharacterDB = {
 			[51] = 1571584781,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddTotemxi|r",
-		}, -- [31]
+		}, -- [26]
 		{
 			"so banned.", -- [1]
 			"Xxavian", -- [2]
@@ -594,7 +504,7 @@ ElvCharacterDB = {
 			[51] = 1571584799,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Xxavian|r",
-		}, -- [32]
+		}, -- [27]
 		{
 			"anyone have used reactjs or vuejs here?", -- [1]
 			"Dzsham", -- [2]
@@ -612,7 +522,7 @@ ElvCharacterDB = {
 			[51] = 1571584814,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddDzsham|r",
-		}, -- [33]
+		}, -- [28]
 		{
 			"WTS |cffa335ee|Hitem:49907:0:0:0:0:0:0:0:80|h[Boots of Kingly Upheaval]|h|r", -- [1]
 			"Rolandin", -- [2]
@@ -630,7 +540,7 @@ ElvCharacterDB = {
 			[51] = 1571584832,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaRolandin|r",
-		}, -- [34]
+		}, -- [29]
 		{
 			"anyone have used reactjs or vuejs here?", -- [1]
 			"Dzsham", -- [2]
@@ -648,7 +558,7 @@ ElvCharacterDB = {
 			[51] = 1571584832,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddDzsham|r",
-		}, -- [35]
+		}, -- [30]
 		{
 			" Lietuviu guildas <Lithuania> iesko nauju nariu , esame naujai susikurusi lietuviu bendruomine , reik zmoniu 25 man raidam!", -- [1]
 			"Fossaknight", -- [2]
@@ -666,7 +576,7 @@ ElvCharacterDB = {
 			[51] = 1571584833,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aFossaknight|r",
-		}, -- [36]
+		}, -- [31]
 		{
 			"Yeah your Arabian mom reacts to my cock 24/7.", -- [1]
 			"Xxavian", -- [2]
@@ -684,7 +594,7 @@ ElvCharacterDB = {
 			[51] = 1571584859,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Xxavian|r",
-		}, -- [37]
+		}, -- [32]
 		{
 			"WTS(on website trade) full PvE BiS hunter(also has Wrathful set pieces). It has LoD and RS HC achievs, Ravenlord mount, Enchanting and Alchemy, and 3.3k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Aurilianus", -- [1]
 			"Artirius", -- [2]
@@ -702,7 +612,7 @@ ElvCharacterDB = {
 			[51] = 1571587513,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aArtirius|r",
-		}, -- [38]
+		}, -- [33]
 		{
 			"lfg FOS POS", -- [1]
 			"Demonovich", -- [2]
@@ -720,7 +630,7 @@ ElvCharacterDB = {
 			[51] = 1571587524,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Demonovich|r",
-		}, -- [39]
+		}, -- [34]
 		{
 			"wtb |cffa335ee|Hitem:49967:0:0:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r5k", -- [1]
 			"Oreilly", -- [2]
@@ -738,7 +648,7 @@ ElvCharacterDB = {
 			[51] = 1571587544,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefOreilly|r",
-		}, -- [40]
+		}, -- [35]
 		{
 			"LFM ICC10 FRESH LEARNING RUN need 1 tank 1 healer (hpala) 1 rogue 5.2k+ full gem & ench aiming 6/12 /w me", -- [1]
 			"Okinaryu", -- [2]
@@ -756,7 +666,7 @@ ElvCharacterDB = {
 			[51] = 1571587558,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddOkinaryu|r",
-		}, -- [41]
+		}, -- [36]
 		{
 			"wtb |cffa335ee|Hitem:49967:0:0:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r5k", -- [1]
 			"Oreilly", -- [2]
@@ -774,7 +684,7 @@ ElvCharacterDB = {
 			[51] = 1571587566,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefOreilly|r",
-		}, -- [42]
+		}, -- [37]
 		{
 			"wtb |cffa335ee|Hitem:49967:0:0:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r5k", -- [1]
 			"Oreilly", -- [2]
@@ -792,7 +702,7 @@ ElvCharacterDB = {
 			[51] = 1571587624,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefOreilly|r",
-		}, -- [43]
+		}, -- [38]
 		{
 			"LFM ICC10 FRESH LEARNING RUN need 1 tank 1 healer (hpala) 1 rogue 5.2k+ full gem & ench aiming 6/12 /w me |cffffff00|Hachievement:4532:070000000035E0AC:1:10:18:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r", -- [1]
 			"Okinaryu", -- [2]
@@ -810,7 +720,7 @@ ElvCharacterDB = {
 			[51] = 1571587644,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddOkinaryu|r",
-		}, -- [44]
+		}, -- [39]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -828,7 +738,7 @@ ElvCharacterDB = {
 			[51] = 1571587666,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [45]
+		}, -- [40]
 		{
 			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
 			"Makuna", -- [2]
@@ -846,7 +756,7 @@ ElvCharacterDB = {
 			[51] = 1571587744,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aMakuna|r",
-		}, -- [46]
+		}, -- [41]
 		{
 			"WTB |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r x8 /w", -- [1]
 			"Ahr", -- [2]
@@ -864,7 +774,7 @@ ElvCharacterDB = {
 			[51] = 1571587767,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAhr|r",
-		}, -- [47]
+		}, -- [42]
 		{
 			"LF geared warrior ZG mount run", -- [1]
 			"Draugen", -- [2]
@@ -882,7 +792,7 @@ ElvCharacterDB = {
 			[51] = 1571587786,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddDraugen|r",
-		}, -- [48]
+		}, -- [43]
 		{
 			"WTS |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|r |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|r |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|rW/ME PRICE", -- [1]
 			"Orgimar", -- [2]
@@ -900,7 +810,7 @@ ElvCharacterDB = {
 			[51] = 1571587789,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Orgimar|r",
-		}, -- [49]
+		}, -- [44]
 		{
 			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
 			"Makuna", -- [2]
@@ -918,7 +828,7 @@ ElvCharacterDB = {
 			[51] = 1571587791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aMakuna|r",
-		}, -- [50]
+		}, -- [45]
 		{
 			"WTS(on website trade) full PvE BiS hunter(also has Wrathful set pieces). It has LoD and RS HC achievs, Ravenlord mount, Enchanting and Alchemy, and 3.3k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Aurilianus", -- [1]
 			"Artirius", -- [2]
@@ -936,7 +846,7 @@ ElvCharacterDB = {
 			[51] = 1571587795,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aArtirius|r",
-		}, -- [51]
+		}, -- [46]
 		{
 			"link LW pls", -- [1]
 			"Wownej", -- [2]
@@ -954,7 +864,7 @@ ElvCharacterDB = {
 			[51] = 1571587800,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Wownej|r",
-		}, -- [52]
+		}, -- [47]
 		{
 			"WTB Stack fo |cffffffff|Hitem:33470:0:0:0:0:0:0:0:75|h[Frostweave Cloth]|h|r --> 10 gold/stack", -- [1]
 			"Veseli", -- [2]
@@ -972,7 +882,7 @@ ElvCharacterDB = {
 			[51] = 1571587802,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefVeseli|r",
-		}, -- [53]
+		}, -- [48]
 		{
 			"wtb |cffa335ee|Hitem:49967:0:0:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r5k", -- [1]
 			"Oreilly", -- [2]
@@ -990,7 +900,7 @@ ElvCharacterDB = {
 			[51] = 1571587814,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefOreilly|r",
-		}, -- [54]
+		}, -- [49]
 		{
 			"WTS |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|r |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|r |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|rW/ME PRICE", -- [1]
 			"Orgimar", -- [2]
@@ -1008,7 +918,7 @@ ElvCharacterDB = {
 			[51] = 1571587832,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Orgimar|r",
-		}, -- [55]
+		}, -- [50]
 		{
 			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
 			"Makuna", -- [2]
@@ -1026,7 +936,7 @@ ElvCharacterDB = {
 			[51] = 1571587835,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aMakuna|r",
-		}, -- [56]
+		}, -- [51]
 		{
 			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
 			"Makuna", -- [2]
@@ -1044,7 +954,7 @@ ElvCharacterDB = {
 			[51] = 1571587849,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aMakuna|r",
-		}, -- [57]
+		}, -- [52]
 		{
 			"WTB |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r x8 /w", -- [1]
 			"Ahr", -- [2]
@@ -1062,7 +972,7 @@ ElvCharacterDB = {
 			[51] = 1571587855,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAhr|r",
-		}, -- [58]
+		}, -- [53]
 		{
 			" |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|r |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|r |cff0070dd|Hitem:44128:0:0:0:0:0:0:0:80|h[Arctic Fur]|h|rW/ME PRICE ", -- [1]
 			"Orgimar", -- [2]
@@ -1080,7 +990,7 @@ ElvCharacterDB = {
 			[51] = 1571587856,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Orgimar|r",
-		}, -- [59]
+		}, -- [54]
 		{
 			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
 			"Makuna", -- [2]
@@ -1098,7 +1008,7 @@ ElvCharacterDB = {
 			[51] = 1571587893,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aMakuna|r",
-		}, -- [60]
+		}, -- [55]
 		{
 			"wtb |cffa335ee|Hitem:49967:0:0:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r", -- [1]
 			"Oreilly", -- [2]
@@ -1116,7 +1026,7 @@ ElvCharacterDB = {
 			[51] = 1571587900,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefOreilly|r",
-		}, -- [61]
+		}, -- [56]
 		{
 			"WTS BiS [PvP] R o g u e --> Name: FOLGUS / Via Warmane Trade / Full PvE [Off sets] / Full Mog / Zevra and Razzashi Raptor / Jc + Engi 450 / Kingslayer and of the Nightfall titles / Dual Spec & 280 Fly. I can remove items so You can choose the price.", -- [1]
 			"Makuna", -- [2]
@@ -1134,7 +1044,7 @@ ElvCharacterDB = {
 			[51] = 1571587911,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aMakuna|r",
-		}, -- [62]
+		}, -- [57]
 		{
 			"Crusader aura chance", -- [1]
 			"Artares", -- [2]
@@ -1152,7 +1062,7 @@ ElvCharacterDB = {
 			[51] = 1571588138,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [63]
+		}, -- [58]
 		{
 			"...", -- [1]
 			"Bowbaby", -- [2]
@@ -1170,7 +1080,7 @@ ElvCharacterDB = {
 			[51] = 1571588181,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cffaad372Bowbaby|r",
-		}, -- [64]
+		}, -- [59]
 		{
 			"woaw", -- [1]
 			"Bowbaby", -- [2]
@@ -1188,7 +1098,7 @@ ElvCharacterDB = {
 			[51] = 1571588188,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cffaad372Bowbaby|r",
-		}, -- [65]
+		}, -- [60]
 		{
 			"are you only healing tank?", -- [1]
 			"Anhedonic", -- [2]
@@ -1206,7 +1116,7 @@ ElvCharacterDB = {
 			[51] = 1571588193,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cfffff468Anhedonic|r",
-		}, -- [66]
+		}, -- [61]
 		{
 			"dpmt", -- [1]
 			"Artares", -- [2]
@@ -1224,7 +1134,7 @@ ElvCharacterDB = {
 			[51] = 1571588203,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [67]
+		}, -- [62]
 		{
 			"have becon", -- [1]
 			"Artares", -- [2]
@@ -1242,7 +1152,7 @@ ElvCharacterDB = {
 			[51] = 1571588207,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [68]
+		}, -- [63]
 		{
 			"run into dun comon", -- [1]
 			"Artares", -- [2]
@@ -1260,7 +1170,7 @@ ElvCharacterDB = {
 			[51] = 1571588229,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [69]
+		}, -- [64]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:3841:07000000004C9C67:1:10:20:19:4294967295:4294967295:4294967295:4294967295|h[100 Dungeon & Raid Emblems]|h|r!", -- [1]
 			"Anhedonic", -- [2]
@@ -1278,7 +1188,7 @@ ElvCharacterDB = {
 			[51] = 1571588275,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "|cfffff468Anhedonic|r",
-		}, -- [70]
+		}, -- [65]
 		{
 			"任务进度:已杀死玩家：1/15", -- [1]
 			"Tailflower", -- [2]
@@ -1296,7 +1206,7 @@ ElvCharacterDB = {
 			[51] = 1571588404,
 			[50] = "CHAT_MSG_PARTY_LEADER",
 			[52] = "|cfff48cbaTailflower|r",
-		}, -- [71]
+		}, -- [66]
 		{
 			"Anhedonic thanks Tailflower.", -- [1]
 			"Anhedonic", -- [2]
@@ -1314,7 +1224,7 @@ ElvCharacterDB = {
 			[51] = 1571588486,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cfffff468Anhedonic|r",
-		}, -- [72]
+		}, -- [67]
 		{
 			"FINALLY LADS", -- [1]
 			"Artares", -- [2]
@@ -1332,7 +1242,7 @@ ElvCharacterDB = {
 			[51] = 1571588492,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [73]
+		}, -- [68]
 		{
 			"dont need |cff1eff00|Hitem:36695:0:0:0:0:0:-44:45:80|h[Dogmatic Scepter of the Elder]|h|r anymore <3", -- [1]
 			"Artares", -- [2]
@@ -1350,7 +1260,7 @@ ElvCharacterDB = {
 			[51] = 1571588517,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [74]
+		}, -- [69]
 		{
 			"sey", -- [1]
 			"Artares", -- [2]
@@ -1368,7 +1278,7 @@ ElvCharacterDB = {
 			[51] = 1571588610,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [75]
+		}, -- [70]
 		{
 			"sryu", -- [1]
 			"Artares", -- [2]
@@ -1386,7 +1296,7 @@ ElvCharacterDB = {
 			[51] = 1571588614,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaArtares|r",
-		}, -- [76]
+		}, -- [71]
 		{
 			"ress", -- [1]
 			"Legionrage", -- [2]
@@ -1404,7 +1314,7 @@ ElvCharacterDB = {
 			[51] = 1571588644,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [77]
+		}, -- [72]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1422,7 +1332,7 @@ ElvCharacterDB = {
 			[51] = 1571588730,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [78]
+		}, -- [73]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r@500 GOLD EACH!", -- [1]
 			"Whitewidow", -- [2]
@@ -1440,7 +1350,7 @@ ElvCharacterDB = {
 			[51] = 1571588735,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefWhitewidow|r",
-		}, -- [79]
+		}, -- [74]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1458,7 +1368,7 @@ ElvCharacterDB = {
 			[51] = 1571588740,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [80]
+		}, -- [75]
 		{
 			"LFM ICC10 FRESH LEARNING RUN need 1 healer (PALA) 5.2k+ full gem & ench aiming 6/12 /w me |cffffff00|Hachievement:4532:070000000035E0AC:1:10:18:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r", -- [1]
 			"Okinaryu", -- [2]
@@ -1476,7 +1386,7 @@ ElvCharacterDB = {
 			[51] = 1571588742,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddOkinaryu|r",
-		}, -- [81]
+		}, -- [76]
 		{
 			"wts 3x primordial", -- [1]
 			"Moviestar", -- [2]
@@ -1494,7 +1404,7 @@ ElvCharacterDB = {
 			[51] = 1571588743,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaMoviestar|r",
-		}, -- [82]
+		}, -- [77]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1512,7 +1422,7 @@ ElvCharacterDB = {
 			[51] = 1571588750,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [83]
+		}, -- [78]
 		{
 			"WTB |cffa335ee|Hitem:50380:0:0:0:0:0:0:0:80|h[Battered Hilt]|h|r for 6k", -- [1]
 			"Universalas", -- [2]
@@ -1530,7 +1440,7 @@ ElvCharacterDB = {
 			[51] = 1571588750,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaUniversalas|r",
-		}, -- [84]
+		}, -- [79]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1548,7 +1458,7 @@ ElvCharacterDB = {
 			[51] = 1571588760,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [85]
+		}, -- [80]
 		{
 			"WTB |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 210g /w me or COD", -- [1]
 			"Nazgulx", -- [2]
@@ -1566,7 +1476,7 @@ ElvCharacterDB = {
 			[51] = 1571588765,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNazgulx|r",
-		}, -- [86]
+		}, -- [81]
 		{
 			"LFM >>ICC 10 ALT RUN<<<GEAR RUN NEED ALL ATM +5.3k is MOST +TIME AND KNOWDLAGE w/me your Gs role achiv", -- [1]
 			"Dreaddoctor", -- [2]
@@ -1584,7 +1494,7 @@ ElvCharacterDB = {
 			[51] = 1571588769,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffDreaddoctor|r",
-		}, -- [87]
+		}, -- [82]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1602,7 +1512,7 @@ ElvCharacterDB = {
 			[51] = 1571588770,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [88]
+		}, -- [83]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1620,7 +1530,7 @@ ElvCharacterDB = {
 			[51] = 1571588780,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [89]
+		}, -- [84]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1638,7 +1548,7 @@ ElvCharacterDB = {
 			[51] = 1571588790,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [90]
+		}, -- [85]
 		{
 			"LF JC", -- [1]
 			"Ubedead", -- [2]
@@ -1656,7 +1566,7 @@ ElvCharacterDB = {
 			[51] = 1571588794,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aUbedead|r",
-		}, -- [91]
+		}, -- [86]
 		{
 			"wts 3x |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Moviestar", -- [2]
@@ -1674,7 +1584,7 @@ ElvCharacterDB = {
 			[51] = 1571588796,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaMoviestar|r",
-		}, -- [92]
+		}, -- [87]
 		{
 			"LF ENCHANTER WITH MONGOOSE", -- [1]
 			"Opheliia", -- [2]
@@ -1692,7 +1602,7 @@ ElvCharacterDB = {
 			[51] = 1571588798,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaOpheliia|r",
-		}, -- [93]
+		}, -- [88]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1710,7 +1620,7 @@ ElvCharacterDB = {
 			[51] = 1571588800,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [94]
+		}, -- [89]
 		{
 			" ------------ICC 25 Norm ALT RUN B+P RESS REQ: GS 5K5+ NEED ALL----------", -- [1]
 			"Justabann", -- [2]
@@ -1728,7 +1638,7 @@ ElvCharacterDB = {
 			[51] = 1571588801,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddJustabann|r",
-		}, -- [95]
+		}, -- [90]
 		{
 			"LFM ICC 10 nm/hc 3 rdps (hunt, bala, ele) 5,8k+ /w GS, class, achiv", -- [1]
 			"Souloo", -- [2]
@@ -1746,7 +1656,7 @@ ElvCharacterDB = {
 			[51] = 1571588805,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffSouloo|r",
-		}, -- [96]
+		}, -- [91]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1764,7 +1674,7 @@ ElvCharacterDB = {
 			[51] = 1571588810,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [97]
+		}, -- [92]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1782,7 +1692,7 @@ ElvCharacterDB = {
 			[51] = 1571588820,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [98]
+		}, -- [93]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1800,7 +1710,7 @@ ElvCharacterDB = {
 			[51] = 1571588831,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [99]
+		}, -- [94]
 		{
 			"LFM ICC10 FRESH LEARNING RUN need 1 healer (PALA) 1 HUNTER 5.2k+ full gem & ench aiming 6/12 /w me |cffffff00|Hachievement:4532:070000000035E0AC:1:10:18:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r", -- [1]
 			"Okinaryu", -- [2]
@@ -1818,7 +1728,7 @@ ElvCharacterDB = {
 			[51] = 1571588834,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddOkinaryu|r",
-		}, -- [100]
+		}, -- [95]
 		{
 			"†††††† Nova Bulgarska Guildiq < KOZIQT ROG > †††††† Nabira Hora za Svoite raidove ††††††", -- [1]
 			"Guffslash", -- [2]
@@ -1836,7 +1746,7 @@ ElvCharacterDB = {
 			[51] = 1571588834,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aGuffslash|r",
-		}, -- [101]
+		}, -- [96]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1854,7 +1764,7 @@ ElvCharacterDB = {
 			[51] = 1571588841,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [102]
+		}, -- [97]
 		{
 			"LF 2 |cffffffff|Hitem:34068:0:0:0:0:0:0:0:80|h[Weighted Jack-o'-Lantern]|h|r", -- [1]
 			"Kriegdagger", -- [2]
@@ -1872,7 +1782,7 @@ ElvCharacterDB = {
 			[51] = 1571588847,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Kriegdagger|r",
-		}, -- [103]
+		}, -- [98]
 		{
 			"LFM >>ICC 10 ALT RUN<<<GEAR RUN NEED DPS {HUNT ROGUE} +5.3k is MOST +TIME AND KNOWDLAGE w/me your Gs role achiv", -- [1]
 			"Dreaddoctor", -- [2]
@@ -1890,7 +1800,7 @@ ElvCharacterDB = {
 			[51] = 1571588851,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffDreaddoctor|r",
-		}, -- [104]
+		}, -- [99]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1908,7 +1818,7 @@ ElvCharacterDB = {
 			[51] = 1571588851,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [105]
+		}, -- [100]
 		{
 			"LFM >>ICC 10 ALT RUN<<<GEAR RUN NEED DPS {HUNT ROGUE} +5.3k is MOST +TIME AND KNOWDLAGE w/me your Gs role achiv", -- [1]
 			"Dreaddoctor", -- [2]
@@ -1926,7 +1836,7 @@ ElvCharacterDB = {
 			[51] = 1571588853,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffDreaddoctor|r",
-		}, -- [106]
+		}, -- [101]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1944,7 +1854,7 @@ ElvCharacterDB = {
 			[51] = 1571588861,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [107]
+		}, -- [102]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -1962,7 +1872,7 @@ ElvCharacterDB = {
 			[51] = 1571588871,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [108]
+		}, -- [103]
 		{
 			"WtS |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|rStacks 4800", -- [1]
 			"Nanoman", -- [2]
@@ -1980,7 +1890,7 @@ ElvCharacterDB = {
 			[51] = 1571588874,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefNanoman|r",
-		}, -- [109]
+		}, -- [104]
 		{
 			"LFM ICC 10 nm/hc 3 rdps (hunt, bala, ele) 5,8k+ /w GS, class, achiv", -- [1]
 			"Souloo", -- [2]
@@ -1998,7 +1908,7 @@ ElvCharacterDB = {
 			[51] = 1571588876,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffSouloo|r",
-		}, -- [110]
+		}, -- [105]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -2016,7 +1926,7 @@ ElvCharacterDB = {
 			[51] = 1571588881,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [111]
+		}, -- [106]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r@500 GOLD EACH!", -- [1]
 			"Whitewidow", -- [2]
@@ -2034,7 +1944,7 @@ ElvCharacterDB = {
 			[51] = 1571588883,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefWhitewidow|r",
-		}, -- [112]
+		}, -- [107]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -2052,7 +1962,7 @@ ElvCharacterDB = {
 			[51] = 1571588892,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [113]
+		}, -- [108]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -2070,7 +1980,7 @@ ElvCharacterDB = {
 			[51] = 1571588901,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [114]
+		}, -- [109]
 		{
 			"†††††† Nova Bulgarska Guildiq < KOZIQT ROG > †††††† Nabira Hora za Svoite raidove ††††††", -- [1]
 			"Guffslash", -- [2]
@@ -2088,7 +1998,7 @@ ElvCharacterDB = {
 			[51] = 1571588904,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aGuffslash|r",
-		}, -- [115]
+		}, -- [110]
 		{
 			"LF ENCHANTER WITH MONGOOSE", -- [1]
 			"Opheliia", -- [2]
@@ -2106,7 +2016,7 @@ ElvCharacterDB = {
 			[51] = 1571588905,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaOpheliia|r",
-		}, -- [116]
+		}, -- [111]
 		{
 			"WTB |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 210g /w me or COD", -- [1]
 			"Nazgulx", -- [2]
@@ -2124,7 +2034,7 @@ ElvCharacterDB = {
 			[51] = 1571588910,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNazgulx|r",
-		}, -- [117]
+		}, -- [112]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -2142,7 +2052,7 @@ ElvCharacterDB = {
 			[51] = 1571588912,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [118]
+		}, -- [113]
 		{
 			"LFM ICC10 FRESH LEARNING RUN need 1 HUNTER 5.2k+ full gem & ench aiming 6/12 /w me |cffffff00|Hachievement:4532:070000000035E0AC:1:10:18:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r", -- [1]
 			"Okinaryu", -- [2]
@@ -2160,7 +2070,7 @@ ElvCharacterDB = {
 			[51] = 1571588914,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddOkinaryu|r",
-		}, -- [119]
+		}, -- [114]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -2178,7 +2088,7 @@ ElvCharacterDB = {
 			[51] = 1571588922,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [120]
+		}, -- [115]
 		{
 			"LF ENCHANTER WITH MONGOOSE", -- [1]
 			"Opheliia", -- [2]
@@ -2196,7 +2106,7 @@ ElvCharacterDB = {
 			[51] = 1571588929,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaOpheliia|r",
-		}, -- [121]
+		}, -- [116]
 		{
 			"WTS(on website trade) full PvE BiS hunter(also has Wrathful set pieces). It has LoD and RS HC achievs, Ravenlord mount, Enchanting and Alchemy, and 3.3k Arena Points. I'll include up to 100k gold depending on how much you buy it for. Name: Aurilianus", -- [1]
 			"Artirius", -- [2]
@@ -2214,7 +2124,7 @@ ElvCharacterDB = {
 			[51] = 1571588931,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aArtirius|r",
-		}, -- [122]
+		}, -- [117]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -2232,7 +2142,7 @@ ElvCharacterDB = {
 			[51] = 1571588932,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [123]
+		}, -- [118]
 		{
 			"LFM ICC 10 nm/hc 3 rdps (hunt, bala, ele) 5,8k+ /w GS, class, achiv", -- [1]
 			"Souloo", -- [2]
@@ -2250,7 +2160,7 @@ ElvCharacterDB = {
 			[51] = 1571588941,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffSouloo|r",
-		}, -- [124]
+		}, -- [119]
 		{
 			"< ICC 25N/H >> LF All (5.9k+) - Link KS <B+P Reserv> |cffffff00|Hachievement:4608:070000000014E31E:1:5:8:17:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Hoeney", -- [2]
@@ -2268,7 +2178,7 @@ ElvCharacterDB = {
 			[51] = 1571588942,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaHoeney|r",
-		}, -- [125]
+		}, -- [120]
 		{
 			"ICC 10 fresh run - NEED 2 HEALZ 8/10 min 5.6 gs /w w me gs and spec <<<MUST HAVE TIME>>> <<<B RESS>>>", -- [1]
 			"Sazzarnbek", -- [2]
@@ -2286,7 +2196,7 @@ ElvCharacterDB = {
 			[51] = 1571588943,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefSazzarnbek|r",
-		}, -- [126]
+		}, -- [121]
 		{
 			"toc 25 nm wis me need all gs up 5.5 and achiv |cffffff00|Hachievement:3916:07000000003C9D9D:1:9:11:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r mage ro shadow", -- [1]
 			"Kosing", -- [2]
@@ -2304,6 +2214,96 @@ ElvCharacterDB = {
 			[51] = 1571665202,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddKosing|r",
+		}, -- [122]
+		{
+			"WTB |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 70g stack |cff1eff00|Hitem:35624:0:0:0:0:0:0:0:80|h[Eternal Earth]|h|r 160g stack |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:80|h[Scarlet Ruby]|h|r 100g per /w or COD me", -- [1]
+			"Elektroist", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"0x0700000000347A6D", -- [12]
+			0, -- [13]
+			[51] = 1571671089,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaElektroist|r",
+		}, -- [123]
+		{
+			"Horseman rise...", -- [1]
+			"Plnru", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Plnru", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"0x07000000004C9826", -- [12]
+			0, -- [13]
+			[51] = 1571671108,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaPlnru|r",
+		}, -- [124]
+		{
+			"Your time is nigh...", -- [1]
+			"Plnru", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Plnru", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"0x07000000004C9826", -- [12]
+			0, -- [13]
+			[51] = 1571671110,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaPlnru|r",
+		}, -- [125]
+		{
+			"You felt death once...", -- [1]
+			"Plnru", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Plnru", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"0x07000000004C9826", -- [12]
+			0, -- [13]
+			[51] = 1571671112,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaPlnru|r",
+		}, -- [126]
+		{
+			"Now, know demise!", -- [1]
+			"Plnru", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Plnru", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"0x07000000004C9826", -- [12]
+			0, -- [13]
+			[51] = 1571671114,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaPlnru|r",
 		}, -- [127]
 	},
 }
