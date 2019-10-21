@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: RIGHT

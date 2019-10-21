@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_10000"] = 200,
+	["_200000"] = 1000,
 	["_50000"] = 500,
-	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
-	["_200000"] = 1000,
+	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -99,7 +99,6 @@ AUCTIONATOR_TOONS = {
 	["Garzh"] = {
 		["firstSeen"] = 1570975141,
 		["firstVersion"] = "2.6.3",
-		["guid"] = "0x0700000000003290",
 	},
 	["Dreamstar"] = {
 		["firstSeen"] = 1570975096,
