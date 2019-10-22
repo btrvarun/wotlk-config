@@ -3,57 +3,22 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Garzh - Icecrown"] = "Garzh - Icecrown",
 	},
 	["profiles"] = {
-		["Garzh - Icecrown"] = {
+		["Invariably - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {
-					["Alt-1"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "1",
-						["delete"] = true,
-						["arg1"] = "Rebirth",
-						["texture"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
-					},
 					["Alt-2"] = {
 						["type"] = "spell",
 						["modifier"] = "Alt-",
 						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Innervate",
-						["texture"] = "Interface\\Icons\\Spell_Nature_Lightning",
+						["arg1"] = "Renew",
+						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
 					},
-					["2"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Remove Curse",
-						["texture"] = "Interface\\Icons\\Spell_Holy_RemoveCurse",
-					},
-				},
-			},
-			["blacklist"] = {
-				["ElvUF_TargetTarget"] = true,
-				["ElvUF_Player"] = true,
-				["PlayerFrame"] = true,
-				["ElvUF_FocusTarget"] = true,
-				["FocusFrame"] = true,
-				["ElvUF_Focus"] = true,
-				["ElvUF_Target"] = true,
-				["TargetFrame"] = true,
-			},
-		},
-		["Dreamstar - Icecrown"] = {
-		},
-		["Invariably - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
 					["2"] = {
 						["type"] = "spell",
 						["modifier"] = "",
@@ -62,25 +27,20 @@ CliqueDB = {
 						["arg1"] = "Power Word: Shield",
 						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 					},
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Renew",
-						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
-					},
 				},
 			},
 			["blacklist"] = {
 				["ElvUF_TargetTarget"] = true,
 				["ElvUF_Target"] = true,
-				["PlayerFrame"] = true,
+				["TargetFrame"] = true,
 				["PetFrame"] = true,
 				["FocusFrame"] = true,
 				["ElvUF_Player"] = true,
 				["ElvUF_TargetTargetTarget"] = true,
-				["TargetFrame"] = true,
+				["PlayerFrame"] = true,
 			},
+		},
+		["Dreamstar - Icecrown"] = {
 		},
 		["Bowbaby - Icecrown"] = {
 			["clicksets"] = {
@@ -93,6 +53,46 @@ CliqueDB = {
 						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
 					},
 				},
+			},
+		},
+		["Garzh - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-1"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "1",
+						["delete"] = true,
+						["arg1"] = "Rebirth",
+						["texture"] = "Interface\\Icons\\Spell_Nature_Reincarnation",
+					},
+					["2"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Remove Curse",
+						["texture"] = "Interface\\Icons\\Spell_Holy_RemoveCurse",
+					},
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Innervate",
+						["texture"] = "Interface\\Icons\\Spell_Nature_Lightning",
+					},
+				},
+			},
+			["blacklist"] = {
+				["ElvUF_TargetTarget"] = true,
+				["ElvUF_Player"] = true,
+				["TargetFrame"] = true,
+				["ElvUF_FocusTarget"] = true,
+				["FocusFrame"] = true,
+				["ElvUF_Focus"] = true,
+				["ElvUF_Target"] = true,
+				["PlayerFrame"] = true,
 			},
 		},
 	},

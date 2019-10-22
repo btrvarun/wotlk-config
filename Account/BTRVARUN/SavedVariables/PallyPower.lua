@@ -33,17 +33,17 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
-	["Errorpaladin"] = {
-		1, -- [1]
+	["Immutability"] = {
+		3, -- [1]
 		3, -- [2]
-		1, -- [3]
+		3, -- [3]
 		3, -- [4]
-		3, -- [5]
-		1, -- [6]
+		4, -- [5]
+		3, -- [6]
 		3, -- [7]
 		3, -- [8]
-		1, -- [9]
-		1, -- [10]
+		3, -- [9]
+		3, -- [10]
 		3, -- [11]
 	},
 	["Plnru"] = {
@@ -59,17 +59,17 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Immutability"] = {
-		3, -- [1]
+	["Errorpaladin"] = {
+		1, -- [1]
 		3, -- [2]
-		3, -- [3]
+		1, -- [3]
 		3, -- [4]
-		4, -- [5]
-		3, -- [6]
+		3, -- [5]
+		1, -- [6]
 		3, -- [7]
 		3, -- [8]
-		3, -- [9]
-		3, -- [10]
+		1, -- [9]
+		1, -- [10]
 		3, -- [11]
 	},
 	["Nerfado"] = {
@@ -139,11 +139,11 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Errorpaladin"] = {
+	["Immutability"] = {
 	},
 	["Plnru"] = {
 	},
-	["Immutability"] = {
+	["Errorpaladin"] = {
 	},
 	["Nerfado"] = {
 	},
@@ -160,9 +160,9 @@ PallyPower_NormalAssignments = {
 	},
 }
 PallyPower_AuraAssignments = {
-	["Errorpaladin"] = 1,
-	["Plnru"] = 0,
 	["Immutability"] = 1,
+	["Plnru"] = 0,
+	["Errorpaladin"] = 1,
 	["Nerfado"] = 1,
 	["Argentaluce"] = 1,
 	["Nerwaa"] = 0,
