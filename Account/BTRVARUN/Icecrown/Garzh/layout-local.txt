@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: RIGHT
@@ -42,7 +42,7 @@ Y: 221
 W: 261
 H: 15
 Frame: TellMeWhen_Group1
-FrameLevel: 15
+FrameLevel: 45
 Anchor: CENTER
 X: -64
 Y: -113

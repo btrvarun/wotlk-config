@@ -98,7 +98,6 @@ AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Garzh"] = {
 		["firstSeen"] = 1570975141,
-		["guid"] = "0x0700000000003290",
 		["firstVersion"] = "2.6.3",
 	},
 	["Dreamstar"] = {

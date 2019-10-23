@@ -33,6 +33,32 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
+	["Nerwaa"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
+	["Xqxq"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
+	},
 	["Immutability"] = {
 		3, -- [1]
 		3, -- [2]
@@ -45,19 +71,6 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 		3, -- [11]
-	},
-	["Plnru"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-		0, -- [11]
 	},
 	["Errorpaladin"] = {
 		1, -- [1]
@@ -85,6 +98,19 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Plnru"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
+	},
 	["Argentaluce"] = {
 		2, -- [1]
 		2, -- [2]
@@ -97,19 +123,6 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 		2, -- [11]
-	},
-	["Nerwaa"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		3, -- [11]
 	},
 	["Denii"] = {
 		0, -- [1]
@@ -139,20 +152,22 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
-	["Immutability"] = {
+	["Nerwaa"] = {
 	},
-	["Plnru"] = {
+	["Xqxq"] = {
+	},
+	["Immutability"] = {
 	},
 	["Errorpaladin"] = {
 	},
 	["Nerfado"] = {
 	},
+	["Plnru"] = {
+	},
 	["Argentaluce"] = {
 		[5] = {
 			["Argentaluce"] = 4,
 		},
-	},
-	["Nerwaa"] = {
 	},
 	["Denii"] = {
 	},
@@ -160,12 +175,13 @@ PallyPower_NormalAssignments = {
 	},
 }
 PallyPower_AuraAssignments = {
+	["Nerwaa"] = 0,
+	["Xqxq"] = 0,
 	["Immutability"] = 1,
-	["Plnru"] = 0,
 	["Errorpaladin"] = 1,
 	["Nerfado"] = 1,
+	["Plnru"] = 0,
 	["Argentaluce"] = 1,
-	["Nerwaa"] = 0,
 	["Denii"] = 0,
 	["Fishqs"] = 3,
 }
