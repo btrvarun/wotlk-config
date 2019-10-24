@@ -41,14 +41,14 @@ MACRO 167 "dispel magic" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover] dispel magic
 END
-MACRO 138 "dp" INV_Misc_QuestionMark
-#showtooltip
-/target wicked spirit
-END
 MACRO 161 "dp" INV_Misc_QuestionMark
 #showtooltip
 /target wicked spirit
 /cast shadow word: death
+END
+MACRO 138 "dp" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
 END
 MACRO 2 "ds" INV_Misc_QuestionMark
 #showtooltip
@@ -129,6 +129,11 @@ MACRO 142 "shred" INV_Misc_QuestionMark
 /cancelaura hand of protection
 /use 10
 END
+MACRO 173 "swipe" INV_Misc_QuestionMark
+#showtooltip
+/cast swipe (bear)
+/cast maul
+END
 MACRO 144 "swipe" INV_Misc_QuestionMark
 #showtooltip swipe (cat)
 /use 10
@@ -137,16 +142,11 @@ MACRO 144 "swipe" INV_Misc_QuestionMark
 /cancelaura hand of protection
 /cancelaura divine intervention
 END
-MACRO 173 "swipe" INV_Misc_QuestionMark
-#showtooltip
-/cast swipe (bear)
-/cast maul
+MACRO 154 "target focus" INV_Misc_QuestionMark
+/target focus
 END
 MACRO 135 "target focus" Ability_Creature_Cursed_05
 /follow focus
-END
-MACRO 154 "target focus" INV_Misc_QuestionMark
-/target focus
 END
 MACRO 153 "trade" Ability_Creature_Disease_05
 /trade

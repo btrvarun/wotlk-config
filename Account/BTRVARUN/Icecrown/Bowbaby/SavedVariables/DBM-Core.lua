@@ -51,7 +51,7 @@ DBM_SavedOptions = {
 	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
 	["AlwaysShowHealthFrame"] = false,
 	["DontShowBossAnnounces"] = false,
-	["SpecialWarningX"] = 0,
+	["RangeFrameSound2"] = "none",
 	["SpecialWarningY"] = 75,
 	["RaidWarningPosition"] = {
 		["Y"] = -185,
@@ -72,7 +72,7 @@ DBM_SavedOptions = {
 	},
 	["HPFrameY"] = 50,
 	["FixCLEUOnCombatStart"] = false,
-	["RangeFrameSound2"] = "none",
+	["SpecialWarningX"] = 0,
 	["ShowMinimapButton"] = false,
 	["HPFrameX"] = 100,
 	["HealthFrameLocked"] = false,
