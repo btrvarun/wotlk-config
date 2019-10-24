@@ -42,7 +42,7 @@ Y: 221
 W: 261
 H: 15
 Frame: TellMeWhen_Group1
-FrameLevel: 45
+FrameLevel: 31
 Anchor: CENTER
 X: -64
 Y: -113

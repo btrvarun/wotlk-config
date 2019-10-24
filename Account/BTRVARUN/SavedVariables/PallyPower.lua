@@ -46,19 +46,6 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Chuichui"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		2, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		2, -- [10]
-		2, -- [11]
-	},
 	["Fishqs"] = {
 		4, -- [1]
 		4, -- [2]
@@ -71,6 +58,19 @@ PallyPower_Assignments = {
 		4, -- [9]
 		4, -- [10]
 		4, -- [11]
+	},
+	["Chuichui"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+		2, -- [11]
 	},
 	["Nerwaa"] = {
 		3, -- [1]
@@ -219,9 +219,9 @@ PallyPower_Assignments = {
 PallyPower_NormalAssignments = {
 	["Philliphus"] = {
 	},
-	["Chuichui"] = {
-	},
 	["Fishqs"] = {
+	},
+	["Chuichui"] = {
 	},
 	["Nerwaa"] = {
 	},
@@ -251,8 +251,8 @@ PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
 	["Philliphus"] = 4,
-	["Chuichui"] = 1,
 	["Fishqs"] = 3,
+	["Chuichui"] = 1,
 	["Nerwaa"] = 0,
 	["Xqxq"] = 0,
 	["Plnru"] = 0,
