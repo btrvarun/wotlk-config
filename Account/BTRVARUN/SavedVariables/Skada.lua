@@ -391,7 +391,7 @@ SkadaDB = {
 						},
 						["totalabsorbs"] = 2596,
 						["maxhp"] = 0,
-						["uptime"] = 251,
+						["dispells"] = 0,
 						["damagetakenspells"] = {
 							["Attack"] = {
 								["id"] = 6603,
@@ -404,18 +404,14 @@ SkadaDB = {
 								["damage"] = 3434,
 							},
 						},
-						["dispells"] = 0,
 						["failevents"] = {
 						},
+						["uptime"] = 251,
 						["name"] = "Viruspaladin",
 						["healed"] = {
 							["Viruspaladin"] = {
 								["class"] = "PALADIN",
 								["amount"] = 5451,
-							},
-							["Gloogloo"] = {
-								["class"] = "DRUID",
-								["amount"] = 850,
 							},
 							["Treant"] = {
 								["class"] = "WARRIOR",
@@ -423,6 +419,10 @@ SkadaDB = {
 							},
 							["Bloodworm"] = {
 								["amount"] = 32,
+							},
+							["Gloogloo"] = {
+								["class"] = "DRUID",
+								["amount"] = 850,
 							},
 							["Dreamstar"] = {
 								["class"] = "SHAMAN",
@@ -449,6 +449,16 @@ SkadaDB = {
 								["id"] = 48785,
 								["hits"] = 7,
 							},
+							["Sheath of Light"] = {
+								["min"] = 0,
+								["critical"] = 0,
+								["name"] = "Sheath of Light",
+								["overhealing"] = 11743,
+								["max"] = 649,
+								["healing"] = 1146,
+								["id"] = 54203,
+								["hits"] = 12,
+							},
 							["Divine Storm"] = {
 								["min"] = 0,
 								["critical"] = 0,
@@ -468,16 +478,6 @@ SkadaDB = {
 								["healing"] = 3349,
 								["id"] = 20267,
 								["hits"] = 43,
-							},
-							["Sheath of Light"] = {
-								["min"] = 0,
-								["critical"] = 0,
-								["name"] = "Sheath of Light",
-								["overhealing"] = 11743,
-								["max"] = 649,
-								["healing"] = 1146,
-								["id"] = 54203,
-								["hits"] = 12,
 							},
 						},
 						["deathlog"] = {
@@ -824,7 +824,7 @@ SkadaDB = {
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["uptime"] = 104,
+						["dispells"] = 0,
 						["damagetakenspells"] = {
 							["Attack"] = {
 								["id"] = 6603,
@@ -842,9 +842,9 @@ SkadaDB = {
 								["damage"] = 2862,
 							},
 						},
-						["dispells"] = 0,
 						["failevents"] = {
 						},
+						["uptime"] = 104,
 						["name"] = "Doggrill",
 						["healed"] = {
 							["Doggrill"] = {
@@ -1054,12 +1054,12 @@ SkadaDB = {
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["uptime"] = 110,
+						["dispells"] = 0,
 						["damagetakenspells"] = {
 						},
-						["dispells"] = 0,
 						["failevents"] = {
 						},
+						["uptime"] = 110,
 						["name"] = "Fastspeed",
 						["healed"] = {
 						},
@@ -1271,7 +1271,7 @@ SkadaDB = {
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["uptime"] = 104,
+						["dispells"] = 0,
 						["damagetakenspells"] = {
 							["Conflagration"] = {
 								["id"] = 42380,
@@ -1284,9 +1284,9 @@ SkadaDB = {
 								["damage"] = 2500,
 							},
 						},
-						["dispells"] = 0,
 						["failevents"] = {
 						},
+						["uptime"] = 104,
 						["name"] = "Gloogloo",
 						["healed"] = {
 						},
@@ -1326,7 +1326,7 @@ SkadaDB = {
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["uptime"] = 0,
+						["dispells"] = 0,
 						["damagetakenspells"] = {
 							["Horseman's Conflagration"] = {
 								["id"] = 42381,
@@ -1344,9 +1344,9 @@ SkadaDB = {
 								["damage"] = 3949,
 							},
 						},
-						["dispells"] = 0,
 						["failevents"] = {
 						},
+						["uptime"] = 0,
 						["name"] = "Dreamstar",
 						["healed"] = {
 							["Gloogloo"] = {
@@ -1789,8 +1789,8 @@ SkadaDB = {
 									["damage"] = 1460,
 								},
 							},
-							["uptime"] = 251,
 							["dispells"] = 0,
+							["uptime"] = 251,
 							["name"] = "Viruspaladin",
 							["failevents"] = {
 							},
@@ -1799,16 +1799,16 @@ SkadaDB = {
 									["class"] = "PALADIN",
 									["amount"] = 5451,
 								},
-								["Gloogloo"] = {
-									["class"] = "DRUID",
-									["amount"] = 850,
-								},
 								["Treant"] = {
 									["class"] = "WARRIOR",
 									["amount"] = 0,
 								},
 								["Bloodworm"] = {
 									["amount"] = 32,
+								},
+								["Gloogloo"] = {
+									["class"] = "DRUID",
+									["amount"] = 850,
 								},
 								["Dreamstar"] = {
 									["class"] = "SHAMAN",
@@ -1835,6 +1835,16 @@ SkadaDB = {
 									["id"] = 48785,
 									["hits"] = 5,
 								},
+								["Divine Storm"] = {
+									["min"] = 0,
+									["critical"] = 0,
+									["name"] = "Divine Storm",
+									["overhealing"] = 7124,
+									["max"] = 685,
+									["healing"] = 2697,
+									["id"] = 54172,
+									["hits"] = 18,
+								},
 								["Sheath of Light"] = {
 									["min"] = 0,
 									["critical"] = 0,
@@ -1854,16 +1864,6 @@ SkadaDB = {
 									["healing"] = 3349,
 									["id"] = 20267,
 									["hits"] = 43,
-								},
-								["Divine Storm"] = {
-									["min"] = 0,
-									["critical"] = 0,
-									["name"] = "Divine Storm",
-									["overhealing"] = 7124,
-									["max"] = 685,
-									["healing"] = 2697,
-									["id"] = 54172,
-									["hits"] = 18,
 								},
 							},
 							["overhealing"] = 49692,
@@ -2088,8 +2088,8 @@ SkadaDB = {
 									["damage"] = 2500,
 								},
 							},
-							["uptime"] = 104,
 							["dispells"] = 0,
+							["uptime"] = 104,
 							["name"] = "Gloogloo",
 							["failevents"] = {
 							},
@@ -2463,8 +2463,8 @@ SkadaDB = {
 									["damage"] = 2862,
 								},
 							},
-							["uptime"] = 104,
 							["dispells"] = 0,
+							["uptime"] = 104,
 							["name"] = "Doggrill",
 							["failevents"] = {
 							},
@@ -2680,8 +2680,8 @@ SkadaDB = {
 							["id"] = "0x070000000009A851",
 							["damagetakenspells"] = {
 							},
-							["uptime"] = 110,
 							["dispells"] = 0,
+							["uptime"] = 110,
 							["name"] = "Fastspeed",
 							["failevents"] = {
 							},
@@ -2740,8 +2740,8 @@ SkadaDB = {
 									["damage"] = 3949,
 								},
 							},
-							["uptime"] = 0,
 							["dispells"] = 0,
+							["uptime"] = 0,
 							["name"] = "Dreamstar",
 							["failevents"] = {
 							},

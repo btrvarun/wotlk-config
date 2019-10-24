@@ -18,18 +18,18 @@ Omen3DB = {
 			["FrameStrata"] = "2-LOW",
 			["PositionH"] = 81.99999849548074,
 			["PositionY"] = 141.1666247566868,
-			["PositionX"] = 1142.499972952847,
-			["Shown"] = true,
-			["Locked"] = true,
-			["Background"] = {
-				["BarInset"] = 1,
-				["EdgeSize"] = 1,
-			},
 			["TitleBar"] = {
 				["Height"] = 22,
 				["FontSize"] = 15,
 				["Font"] = "ABF",
 			},
+			["Shown"] = true,
+			["Locked"] = true,
+			["Background"] = {
+				["EdgeSize"] = 1,
+				["BarInset"] = 1,
+			},
+			["PositionX"] = 1142.499972952847,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["Font"] = "ABF",
@@ -67,23 +67,23 @@ Omen3DB = {
 			["FrameStrata"] = "2-LOW",
 			["PositionH"] = 81.99999849548074,
 			["PositionY"] = 141.1666247566868,
-			["PositionX"] = 1142.499972952847,
-			["Shown"] = true,
-			["Locked"] = true,
-			["Background"] = {
-				["EdgeSize"] = 1,
-				["BarInset"] = 1,
-			},
 			["TitleBar"] = {
 				["Height"] = 22,
 				["FontSize"] = 15,
 				["Font"] = "ABF",
 			},
+			["Shown"] = true,
+			["Locked"] = true,
+			["Background"] = {
+				["BarInset"] = 1,
+				["EdgeSize"] = 1,
+			},
+			["PositionX"] = 1142.499972952847,
 			["Bar"] = {
-				["Spacing"] = 1,
 				["Font"] = "ABF",
 				["FontSize"] = 14,
 				["Texture"] = "Armory",
+				["Spacing"] = 1,
 			},
 		},
 		["Bowbaby - Icecrown"] = {
