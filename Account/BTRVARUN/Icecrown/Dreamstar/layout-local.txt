@@ -11,5 +11,5 @@ FrameLevel: 3
 Anchor: TOPRIGHT
 X: -194
 Y: -7
-W: 26
-H: 26
+W: 32
+H: 32
