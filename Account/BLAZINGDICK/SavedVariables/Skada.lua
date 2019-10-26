@@ -7,12 +7,12 @@ SkadaDB = {
 		["Default"] = {
 			["windows"] = {
 				{
-					["scale"] = 1,
-					["mode"] = "Damage",
 					["point"] = "TOPRIGHT",
+					["scale"] = 1,
 					["barslocked"] = true,
-					["x"] = -94.16652826229188,
 					["y"] = -200.8332197307308,
+					["x"] = -94.16652826229188,
+					["mode"] = "Damage",
 				}, -- [1]
 			},
 		},

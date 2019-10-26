@@ -86,6 +86,9 @@ MACRO 153 "garg" INV_Misc_QuestionMark
 /cast Blood Fury(Racial)
 /cancelaura hand of protection
 END
+MACRO 172 "hlight" Spell_Holy_HolyBolt
+/use [@mouseover,help,nodead][help,nodead][@player]Holy light
+END
 MACRO 150 "innervate" INV_Misc_QuestionMark
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Innervate
@@ -151,9 +154,6 @@ MACRO 149 "starfire" INV_Misc_QuestionMark
 /startattack
 /cast starfire
 /use Gunship Captain's Mittens
-END
-MACRO 147 "trade" INV_Misc_QuestionMark
-/trade
 END
 MACRO 159 "travel" INV_Misc_QuestionMark
 #showtooltip travel form
