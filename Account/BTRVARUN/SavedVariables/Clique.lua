@@ -3,24 +3,13 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
-		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
 		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
+		["Garzh - Icecrown"] = "Garzh - Icecrown",
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
 	},
 	["profiles"] = {
-		["Bowbaby - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Misdirection",
-						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
-					},
-				},
-			},
+		["Dreamstar - Icecrown"] = {
 		},
 		["Garzh - Icecrown"] = {
 			["clicksets"] = {
@@ -75,24 +64,30 @@ CliqueDB = {
 			["blacklist"] = {
 				["ElvUF_TargetTarget"] = true,
 				["ElvUF_Player"] = true,
-				["TargetFrame"] = true,
+				["PlayerFrame"] = true,
 				["ElvUF_FocusTarget"] = true,
 				["FocusFrame"] = true,
 				["ElvUF_Focus"] = true,
 				["ElvUF_Target"] = true,
-				["PlayerFrame"] = true,
+				["TargetFrame"] = true,
 			},
 		},
-		["Invariably - Icecrown"] = {
+		["Bowbaby - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {
 					["Alt-2"] = {
 						["type"] = "spell",
 						["modifier"] = "Alt-",
 						["button"] = "2",
-						["arg1"] = "Renew",
-						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
+						["arg1"] = "Misdirection",
+						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
 					},
+				},
+			},
+		},
+		["Invariably - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
 					["2"] = {
 						["type"] = "spell",
 						["modifier"] = "",
@@ -101,20 +96,25 @@ CliqueDB = {
 						["arg1"] = "Power Word: Shield",
 						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 					},
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Renew",
+						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
+					},
 				},
 			},
 			["blacklist"] = {
 				["ElvUF_TargetTarget"] = true,
 				["ElvUF_Target"] = true,
-				["TargetFrame"] = true,
+				["PlayerFrame"] = true,
 				["PetFrame"] = true,
 				["FocusFrame"] = true,
 				["ElvUF_Player"] = true,
 				["ElvUF_TargetTargetTarget"] = true,
-				["PlayerFrame"] = true,
+				["TargetFrame"] = true,
 			},
-		},
-		["Dreamstar - Icecrown"] = {
 		},
 	},
 }
