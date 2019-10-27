@@ -69,3 +69,10 @@ X: -201
 Y: 5
 W: 1
 H: 1
+Frame: DBM_GUI_OptionsFrame
+FrameLevel: 5
+Anchor: LEFT
+X: 168
+Y: 58
+W: 720
+H: 500

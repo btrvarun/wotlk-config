@@ -58,10 +58,10 @@ oRA3DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Invariably - Icecrown"] = "Default",
-		["Dreamstar - Icecrown"] = "Default",
 		["Bowbaby - Icecrown"] = "Default",
 		["Garzh - Icecrown"] = "Default",
+		["Invariably - Icecrown"] = "Default",
+		["Dreamstar - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
