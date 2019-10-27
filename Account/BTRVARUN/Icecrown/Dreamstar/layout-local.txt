@@ -5,12 +5,12 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
-X: -194
-Y: -7
+X: -196
+Y: -9
 W: 26
 H: 26
 Frame: PallyPowerFrame

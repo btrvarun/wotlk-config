@@ -2,10 +2,10 @@ Version: 1
 Frame: ChannelPulloutTab
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -147
+X: -104
 Y: -151
 W: 107
-H: 32
+H: 26
 Frame: WorldMapScreenAnchor
 FrameLevel: 0
 Anchor: TOPLEFT
@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT
@@ -44,9 +44,9 @@ H: 1
 Frame: SkadaBarWindowSkada
 FrameLevel: 103
 Anchor: BOTTOMRIGHT
-X: -8
-Y: 221
-W: 261
+X: -11
+Y: 218
+W: 255
 H: 15
 Frame: TellMeWhen_Group1
 FrameLevel: 16
@@ -69,10 +69,3 @@ X: -201
 Y: 5
 W: 1
 H: 1
-Frame: DBM_GUI_OptionsFrame
-FrameLevel: 5
-Anchor: LEFT
-X: 168
-Y: 58
-W: 720
-H: 500
