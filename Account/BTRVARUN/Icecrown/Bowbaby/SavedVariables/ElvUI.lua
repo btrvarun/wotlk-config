@@ -24,1356 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"LFM ULDUAR 10 semi grun NEED 1 DPS @freya replacing baddies /W GS+BEST ACHIEVE 9/10", -- [1]
-			"Matrixcow", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1021, -- [11]
-			"0x07000000004C39F8", -- [12]
-			0, -- [13]
-			[51] = 1572238452,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMatrixcow|r",
-		}, -- [1]
-		{
-			"WTB |cffffffff|Hitem:36916:0:0:0:0:0:0:0:80|h[Cobalt Bar]|h|r", -- [1]
-			"Cowithshield", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1022, -- [11]
-			"0x07000000001316B4", -- [12]
-			0, -- [13]
-			[51] = 1572238452,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dCowithshield|r",
-		}, -- [2]
-		{
-			" LFM TOC 25 HC Need Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
-			"Beasthut", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1024, -- [11]
-			"0x07000000000B2804", -- [12]
-			0, -- [13]
-			[51] = 1572238453,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Beasthut|r",
-		}, -- [3]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1026, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238456,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [4]
-		{
-			"WTB JC", -- [1]
-			"Zarsh", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1028, -- [11]
-			"0x0700000000238E40", -- [12]
-			0, -- [13]
-			[51] = 1572238458,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Zarsh|r",
-		}, -- [5]
-		{
-			"LFM 25VOA frost only need all 5200+ class run, /W me with spe and GS (need rogue mage lock) 23/25", -- [1]
-			"Realadann", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1048, -- [11]
-			"0x07000000003C6A4E", -- [12]
-			0, -- [13]
-			[51] = 1572238485,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaRealadann|r",
-		}, -- [6]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1053, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238489,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [7]
-		{
-			"A Guild <<A F K>> Está recrutando jogadores BR/PT para nossa Progressão ICC25HC 11/12 ICC10HC 12/12 RS25 4/4 RS10HC 4/4 TOC25HC 5/5 RT 19H/20H. Venha fazer parte da maior comunidade BR do warmane.", -- [1]
-			"Noggeniz", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1057, -- [11]
-			"0x070000000047DF4A", -- [12]
-			0, -- [13]
-			[51] = 1572238492,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNoggeniz|r",
-		}, -- [8]
-		{
-			"LF Enchanting", -- [1]
-			"Harahku", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1063, -- [11]
-			"0x07000000004AACAC", -- [12]
-			0, -- [13]
-			[51] = 1572238497,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaHarahku|r",
-		}, -- [9]
-		{
-			"LFM 25VOA frost only need all 5200+ class run, /W me with spe and GS (need rogue mage lock) 23/25", -- [1]
-			"Realadann", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1066, -- [11]
-			"0x07000000003C6A4E", -- [12]
-			0, -- [13]
-			[51] = 1572238498,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaRealadann|r",
-		}, -- [10]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1070, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238501,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [11]
-		{
-			"LFM 25VOA frost only need all 5200+ class run, /W me with spe and GS (need rogue mage lock) 24/25", -- [1]
-			"Realadann", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1076, -- [11]
-			"0x07000000003C6A4E", -- [12]
-			0, -- [13]
-			[51] = 1572238506,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaRealadann|r",
-		}, -- [12]
-		{
-			"LF Enchanting", -- [1]
-			"Harahku", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1079, -- [11]
-			"0x07000000004AACAC", -- [12]
-			0, -- [13]
-			[51] = 1572238508,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaHarahku|r",
-		}, -- [13]
-		{
-			" BOR NOVAS O KO Waldir RU Goth Agol uden Ash va E Ne Ras Garde va Vohl", -- [1]
-			"Tombraider", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1080, -- [11]
-			"0x0700000000004073", -- [12]
-			0, -- [13]
-			[51] = 1572238508,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Tombraider|r",
-		}, -- [14]
-		{
-			"vendo |cff1eff00|Hitem:35624:0:0:0:0:0:0:0:80|h[Eternal Earth]|h|r |cffffffff|Hitem:34054:0:0:0:0:0:0:0:80|h[Infinite Dust]|h|r |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r", -- [1]
-			"Jacarukaizen", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1083, -- [11]
-			"0x07000000004B79DF", -- [12]
-			0, -- [13]
-			[51] = 1572238512,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaJacarukaizen|r",
-		}, -- [15]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 ", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1087, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238515,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [16]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1090, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238518,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [17]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1102, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238536,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [18]
-		{
-			"<WITH PUGS> TGF: MAGYAROKNAK KARID NEM SZAMIT, 25 RAIDRE GYÜLEKEZUNK BARATI TEAM ULDU/TOC/ICC / DKP/DISCORD. /W ME", -- [1]
-			"Justabann", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1106, -- [11]
-			"0x07000000004C6111", -- [12]
-			0, -- [13]
-			[51] = 1572238542,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddJustabann|r",
-		}, -- [19]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1109, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238545,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [20]
-		{
-			"LFM ULDUAR 10 semi grun NEED 1 DPS @freya replacing baddies /W GS+BEST ACHIEVE 9/10", -- [1]
-			"Matrixcow", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1110, -- [11]
-			"0x07000000004C39F8", -- [12]
-			0, -- [13]
-			[51] = 1572238546,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMatrixcow|r",
-		}, -- [21]
-		{
-			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock ", -- [1]
-			"Naotsugu", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1112, -- [11]
-			"0x0700000000022984", -- [12]
-			0, -- [13]
-			[51] = 1572238547,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [22]
-		{
-			"WTS |cffffd000|Htrade:51313:460:460:7000000004CAF79:4/Kbb6a8f5Z7msynvLJPAAAAAAGABsAAwXzC807v2LVtH0//5tT|h[Enchanting]|h|r", -- [1]
-			"Apongisgay", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1113, -- [11]
-			"0x07000000004CAF79", -- [12]
-			0, -- [13]
-			[51] = 1572238547,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffApongisgay|r",
-		}, -- [23]
-		{
-			"LFM ICC 10 5.8K + LINK ACHIV !!! FAST RUN !!!", -- [1]
-			"Juddite", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1128, -- [11]
-			"0x0700000000194554", -- [12]
-			0, -- [13]
-			[51] = 1572238565,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefJuddite|r",
-		}, -- [24]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1132, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238570,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [25]
-		{
-			"LFM TOC 25 HC Need Tank MDps/Rdps /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
-			"Laldudu", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1137, -- [11]
-			"0x07000000000B260D", -- [12]
-			0, -- [13]
-			[51] = 1572238579,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [26]
-		{
-			" LFM TOC 25 HC Need Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
-			"Beasthut", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1138, -- [11]
-			"0x07000000000B2804", -- [12]
-			0, -- [13]
-			[51] = 1572238580,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Beasthut|r",
-		}, -- [27]
-		{
-			"LFM TOC 25 HC Need Tank MDps/Rdps /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
-			"Laldudu", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1139, -- [11]
-			"0x07000000000B260D", -- [12]
-			0, -- [13]
-			[51] = 1572238580,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [28]
-		{
-			"LFM TOC 25 HC Need Tank MDps/Rdps /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
-			"Laldudu", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1140, -- [11]
-			"0x07000000000B260D", -- [12]
-			0, -- [13]
-			[51] = 1572238582,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [29]
-		{
-			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock /rouge ", -- [1]
-			"Naotsugu", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1141, -- [11]
-			"0x0700000000022984", -- [12]
-			0, -- [13]
-			[51] = 1572238583,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [30]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1144, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238588,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [31]
-		{
-			"LFM TOC 25 HC Need Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
-			"Beasthut", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1145, -- [11]
-			"0x07000000000B2804", -- [12]
-			0, -- [13]
-			[51] = 1572238588,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Beasthut|r",
-		}, -- [32]
-		{
-			"LFM 25VOA frost only need all 5200+ class run, /W me with spe and GS (need rogue mage lock) 24/25", -- [1]
-			"Realadann", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1147, -- [11]
-			"0x07000000003C6A4E", -- [12]
-			0, -- [13]
-			[51] = 1572238590,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaRealadann|r",
-		}, -- [33]
-		{
-			"LFM 25VOA frost only need all 5200+ class run, /W me with spe and GS (need rogue mage lock) 23/25", -- [1]
-			"Realadann", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1149, -- [11]
-			"0x07000000003C6A4E", -- [12]
-			0, -- [13]
-			[51] = 1572238592,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaRealadann|r",
-		}, -- [34]
-		{
-			"drmadara", -- [1]
-			"Gagalol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1150, -- [11]
-			"0x070000000000F75C", -- [12]
-			0, -- [13]
-			[51] = 1572238595,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Gagalol|r",
-		}, -- [35]
-		{
-			" BOR NOVAS O KO Waldir RU Goth Agol uden Ash va E Me Ras Garde va Vohl", -- [1]
-			"Tombraider", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1152, -- [11]
-			"0x0700000000004073", -- [12]
-			0, -- [13]
-			[51] = 1572238601,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Tombraider|r",
-		}, -- [36]
-		{
-			"<WITH PUGS> TGF: MAGYAROKNAK KARID NEM SZAMIT, 25 RAIDRE GYÜLEKEZUNK BARATI TEAM ULDU/TOC/ICC / DKP/DISCORD. /W ME", -- [1]
-			"Justabann", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1153, -- [11]
-			"0x07000000004C6111", -- [12]
-			0, -- [13]
-			[51] = 1572238602,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddJustabann|r",
-		}, -- [37]
-		{
-			"VOA 10 need ALL w/me ", -- [1]
-			"Palamam", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1154, -- [11]
-			"0x0700000000401467", -- [12]
-			0, -- [13]
-			[51] = 1572238605,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaPalamam|r",
-		}, -- [38]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1157, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238608,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [39]
-		{
-			"lf rnd hc - min. 25k GS - welcome to warmane", -- [1]
-			"Aerodactyl", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1158, -- [11]
-			"0x07000000004CFC7C", -- [12]
-			0, -- [13]
-			[51] = 1572238609,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Aerodactyl|r",
-		}, -- [40]
-		{
-			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock /rouge ", -- [1]
-			"Naotsugu", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1160, -- [11]
-			"0x0700000000022984", -- [12]
-			0, -- [13]
-			[51] = 1572238616,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [41]
-		{
-			"6k holy pally LF something to heal pst", -- [1]
-			"Derksen", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1161, -- [11]
-			"0x070000000046C3BB", -- [12]
-			0, -- [13]
-			[51] = 1572238617,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaDerksen|r",
-		}, -- [42]
-		{
-			"LFM TOC 25 HC Need Tank MDps/Rdps /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
-			"Laldudu", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1162, -- [11]
-			"0x07000000000B260D", -- [12]
-			0, -- [13]
-			[51] = 1572238619,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [43]
-		{
-			"LFM TOC 25 HC Need Tank MDps/Rdps /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
-			"Laldudu", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1163, -- [11]
-			"0x07000000000B260D", -- [12]
-			0, -- [13]
-			[51] = 1572238620,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [44]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1164, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238625,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [45]
-		{
-			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock /rouge ", -- [1]
-			"Naotsugu", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1165, -- [11]
-			"0x0700000000022984", -- [12]
-			0, -- [13]
-			[51] = 1572238627,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [46]
-		{
-			"LFM TOC 25 HC Need Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
-			"Beasthut", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1166, -- [11]
-			"0x07000000000B2804", -- [12]
-			0, -- [13]
-			[51] = 1572238635,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Beasthut|r",
-		}, -- [47]
-		{
-			"LFM TOC 25 HC Need Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
-			"Beasthut", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1167, -- [11]
-			"0x07000000000B2804", -- [12]
-			0, -- [13]
-			[51] = 1572238638,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Beasthut|r",
-		}, -- [48]
-		{
-			"LFM ICC 10 N/HC 5.8K + LINK ACHIV !!! FAST RUN !!!", -- [1]
-			"Juddite", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1168, -- [11]
-			"0x0700000000194554", -- [12]
-			0, -- [13]
-			[51] = 1572238639,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefJuddite|r",
-		}, -- [49]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1171, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238640,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [50]
-		{
-			" |cffa335ee|Hitem:50227:0:0:0:0:0:0:0:80|h[Surgeon's Needle]|h|r", -- [1]
-			"Azally", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1178, -- [11]
-			"0x07000000004CF37F", -- [12]
-			0, -- [13]
-			[51] = 1572238654,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff0070ddAzally|r",
-		}, -- [51]
-		{
-			"LFM ICC 10 NM/HC 5.8 /W ME ACHIEV+GS! FAST RUN!", -- [1]
-			"Noggenz", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1179, -- [11]
-			"0x0700000000377C93", -- [12]
-			0, -- [13]
-			[51] = 1572238658,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfffff468Noggenz|r",
-		}, -- [52]
-		{
-			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock /rouge ", -- [1]
-			"Naotsugu", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1180, -- [11]
-			"0x0700000000022984", -- [12]
-			0, -- [13]
-			[51] = 1572238659,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [53]
-		{
-			"vendo |cff1eff00|Hitem:35624:0:0:0:0:0:0:0:80|h[Eternal Earth]|h|r |cffffffff|Hitem:34054:0:0:0:0:0:0:0:80|h[Infinite Dust]|h|r", -- [1]
-			"Jacarukaizen", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1181, -- [11]
-			"0x07000000004B79DF", -- [12]
-			0, -- [13]
-			[51] = 1572238660,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaJacarukaizen|r",
-		}, -- [54]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1182, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238663,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [55]
-		{
-			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock /rouge ", -- [1]
-			"Naotsugu", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1183, -- [11]
-			"0x0700000000022984", -- [12]
-			0, -- [13]
-			[51] = 1572238663,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [56]
-		{
-			"LFM |cffffff00|Hachievement:2036:07000000004AA950:1:10:14:19:4294967295:0:0:0|h[Intense Cold]|h|r NEED ALL, req brain ", -- [1]
-			"Morrigu", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1184, -- [11]
-			"0x07000000004AA950", -- [12]
-			0, -- [13]
-			[51] = 1572238670,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff9382c9Morrigu|r",
-		}, -- [57]
-		{
-			"LFM ULDUAR 10 semi grun NEED 1 DPS @freya replacing baddies /W GS+BEST ACHIEVE 9/10", -- [1]
-			"Matrixcow", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1194, -- [11]
-			"0x07000000004C39F8", -- [12]
-			0, -- [13]
-			[51] = 1572238689,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aMatrixcow|r",
-		}, -- [58]
-		{
-			"LFM TOC 25 HC Need 1(WAR) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
-			"Beasthut", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1195, -- [11]
-			"0x07000000000B2804", -- [12]
-			0, -- [13]
-			[51] = 1572238694,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Beasthut|r",
-		}, -- [59]
-		{
-			"LFM TOC 25 HC Need 1(WAR) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
-			"Beasthut", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1196, -- [11]
-			"0x07000000000B2804", -- [12]
-			0, -- [13]
-			[51] = 1572238699,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Beasthut|r",
-		}, -- [60]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1199, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238702,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [61]
-		{
-			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock /rouge ", -- [1]
-			"Naotsugu", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1200, -- [11]
-			"0x0700000000022984", -- [12]
-			0, -- [13]
-			[51] = 1572238714,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [62]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1201, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238716,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [63]
-		{
-			"LFM ICC 10 N/HC 5.8K + LINK ACHIV !!! FAST RUN !!!", -- [1]
-			"Juddite", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1202, -- [11]
-			"0x0700000000194554", -- [12]
-			0, -- [13]
-			[51] = 1572238718,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefJuddite|r",
-		}, -- [64]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1203, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238721,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [65]
-		{
-			"any voa 10?", -- [1]
-			"Kleytom", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1204, -- [11]
-			"0x07000000003CC104", -- [12]
-			0, -- [13]
-			[51] = 1572238722,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaKleytom|r",
-		}, -- [66]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1205, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238723,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [67]
-		{
-			"WTS |cffffd000|Htrade:51313:460:460:7000000004CAF79:4/Kbb6a8f5Z7msynvLJPAAAAAAGABsAAwXzC807v2LVtH0//5tT|h[Enchanting]|h|rur mats", -- [1]
-			"Apongisgay", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			1206, -- [11]
-			"0x07000000004CAF79", -- [12]
-			0, -- [13]
-			[51] = 1572238724,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffApongisgay|r",
-		}, -- [68]
-		{
-			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
-			"Alastra", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10, -- [11]
-			"0x07000000004717FD", -- [12]
-			0, -- [13]
-			[51] = 1572238840,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff9382c9Alastra|r",
-		}, -- [69]
-		{
-			"LFM ICC 10 N/HC 5.8K + LINK ACHIV !!! ( Pref Disco / Boomy / Hunter ) ", -- [1]
-			"Juddite", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			13, -- [11]
-			"0x0700000000194554", -- [12]
-			0, -- [13]
-			[51] = 1572238847,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefJuddite|r",
-		}, -- [70]
-		{
-			"voa 10 wis me need dps and tank", -- [1]
-			"Avengertwo", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			18, -- [11]
-			"0x07000000004C8389", -- [12]
-			0, -- [13]
-			[51] = 1572238855,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aAvengertwo|r",
-		}, -- [71]
-		{
-			"voa 10 wis me need dps and tank", -- [1]
-			"Avengertwo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			21, -- [11]
-			"0x07000000004C8389", -- [12]
-			0, -- [13]
-			[51] = 1572238861,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aAvengertwo|r",
-		}, -- [72]
-		{
-			"WTS |cffffd000|Htrade:51313:450:450:7000000002F7043:476bb6a8f5Z7usynvbJPAAAAAAWCFsAAyVyCRgjl2JNHFm+8soT|h[Enchanting]|h|r", -- [1]
-			"Zekjul", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			22, -- [11]
-			"0x07000000002F7043", -- [12]
-			0, -- [13]
-			[51] = 1572238867,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefZekjul|r",
-		}, -- [73]
-		{
-			"WTS |cffffd000|Htrade:51309:450:450:7000000002F7043:4+//vroI29jB4/PQ07CxtzBIyV3nNzlLAAAAAY4B4DAQBAAAAAFAAAAAi//iGCODJw/FgwAAAA|h[Tailoring]|h|r", -- [1]
-			"Zekjul", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			23, -- [11]
-			"0x07000000002F7043", -- [12]
-			0, -- [13]
-			[51] = 1572238867,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefZekjul|r",
-		}, -- [74]
-		{
-			"Selling BIS DK with Shadowmourne 2.4k achivment points x2 Profs on 450 flying mounts Via Warmane trade /w me for more info ", -- [1]
-			"Akanepphilim", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			24, -- [11]
-			"0x0700000000000C76", -- [12]
-			0, -- [13]
-			[51] = 1572238873,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aAkanepphilim|r",
-		}, -- [75]
-		{
 			"LFM ICC 10 NM/HC(GUNSHIP/ FESTER/ ROT/ BQL) 5.8 /W ME ACHIEV+GS! EOF RUN!", -- [1]
 			"Noggenz", -- [2]
 			"Orcish", -- [3]
@@ -1390,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1572238883,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Noggenz|r",
-		}, -- [76]
+		}, -- [1]
 		{
 			"LFM TOC 25 HC Need 1MDps/4Rdps /1Disc Priest /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
 			"Laldudu", -- [2]
@@ -1408,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1572238886,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [77]
+		}, -- [2]
 		{
 			"any voa 10?", -- [1]
 			"Kleytom", -- [2]
@@ -1426,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1572238886,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaKleytom|r",
-		}, -- [78]
+		}, -- [3]
 		{
 			"LFM TOC 25 HC Need 1MDps/4Rdps /1Disc Priest /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
 			"Laldudu", -- [2]
@@ -1444,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1572238887,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [79]
+		}, -- [4]
 		{
 			"WTB |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r 1.3k", -- [1]
 			"Azally", -- [2]
@@ -1462,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1572238887,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddAzally|r",
-		}, -- [80]
+		}, -- [5]
 		{
 			"LFM TOC 25 HC Need 1MDps/4Rdps /1Disc Priest /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
 			"Laldudu", -- [2]
@@ -1480,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1572238888,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [81]
+		}, -- [6]
 		{
 			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock /rouge ", -- [1]
 			"Naotsugu", -- [2]
@@ -1498,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1572238891,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [82]
+		}, -- [7]
 		{
 			"--Selected By Nature is back -- progressive EU pve guild looking for active raiders to strenghten the team for its icc HC progression raid times 19:00 PM ST apply at https://sbn.shivtr.com/", -- [1]
 			"Isoheals", -- [2]
@@ -1516,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1572238893,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aIsoheals|r",
-		}, -- [83]
+		}, -- [8]
 		{
 			"LFM TOC 25 HC Need 1(WAR) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
 			"Beasthut", -- [2]
@@ -1534,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1572238893,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Beasthut|r",
-		}, -- [84]
+		}, -- [9]
 		{
 			"<WITH PUGS> TGF: MAGYAROKNAK KARID NEM SZAMIT, 25 RAIDRE GYÜLEKEZUNK BARATI TEAM ULDU/TOC/ICC / DKP/DISCORD. /W ME", -- [1]
 			"Reckstormx", -- [2]
@@ -1552,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1572238895,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dReckstormx|r",
-		}, -- [85]
+		}, -- [10]
 		{
 			"LFM TOC 25 HC Need 1(WAR) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
 			"Beasthut", -- [2]
@@ -1570,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1572238898,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Beasthut|r",
-		}, -- [86]
+		}, -- [11]
 		{
 			"LFM ICC 10 N/HC 5.8K + LINK ACHIV !!! ( Pref Disco / Boomy / Hunter ) EOF RUN !!!", -- [1]
 			"Juddite", -- [2]
@@ -1588,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1572238902,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefJuddite|r",
-		}, -- [87]
+		}, -- [12]
 		{
 			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Alastra", -- [2]
@@ -1606,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1572238909,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Alastra|r",
-		}, -- [88]
+		}, -- [13]
 		{
 			"WTB |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r 1.3k", -- [1]
 			"Azally", -- [2]
@@ -1624,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1572238909,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddAzally|r",
-		}, -- [89]
+		}, -- [14]
 		{
 			"voa 10 wis me need dps and tank", -- [1]
 			"Avengertwo", -- [2]
@@ -1642,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1572238910,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aAvengertwo|r",
-		}, -- [90]
+		}, -- [15]
 		{
 			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock 1 tank DK pala ", -- [1]
 			"Naotsugu", -- [2]
@@ -1660,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1572238919,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [91]
+		}, -- [16]
 		{
 			"LFM TOC 25 HC Need 1(WAR/ Feral) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
 			"Beasthut", -- [2]
@@ -1678,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1572238919,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Beasthut|r",
-		}, -- [92]
+		}, -- [17]
 		{
 			"LF 1 heal / 1 tank For POS fast run", -- [1]
 			"Waldhar", -- [2]
@@ -1696,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1572238921,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aWaldhar|r",
-		}, -- [93]
+		}, -- [18]
 		{
 			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock 1 tank DK pala ", -- [1]
 			"Naotsugu", -- [2]
@@ -1714,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1572238928,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [94]
+		}, -- [19]
 		{
 			"voa 10 wis me need dps and tank", -- [1]
 			"Avengertwo", -- [2]
@@ -1732,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1572238931,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aAvengertwo|r",
-		}, -- [95]
+		}, -- [20]
 		{
 			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Alastra", -- [2]
@@ -1750,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1572238939,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Alastra|r",
-		}, -- [96]
+		}, -- [21]
 		{
 			"any voa 10?", -- [1]
 			"Kleytom", -- [2]
@@ -1768,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1572238952,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaKleytom|r",
-		}, -- [97]
+		}, -- [22]
 		{
 			"Selling BIS DK with Shadowmourne 2.4k achivment points x2 Profs on 450 flying mounts Via Warmane trade /w me for more info ", -- [1]
 			"Akanepphilim", -- [2]
@@ -1786,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1572238954,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aAkanepphilim|r",
-		}, -- [98]
+		}, -- [23]
 		{
 			"<WITH PUGS> TGF: MAGYAROKNAK KARID NEM SZAMIT, 25 RAIDRE GYÜLEKEZUNK BARATI TEAM ULDU/TOC/ICC / DKP/DISCORD. /W ME", -- [1]
 			"Reckstormx", -- [2]
@@ -1804,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1572238959,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dReckstormx|r",
-		}, -- [99]
+		}, -- [24]
 		{
 			"WTB |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r 1.3k", -- [1]
 			"Azally", -- [2]
@@ -1822,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1572238959,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddAzally|r",
-		}, -- [100]
+		}, -- [25]
 		{
 			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Alastra", -- [2]
@@ -1840,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1572238959,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Alastra|r",
-		}, -- [101]
+		}, -- [26]
 		{
 			"voa 10 wis me need dps and tank", -- [1]
 			"Avengertwo", -- [2]
@@ -1858,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1572238959,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aAvengertwo|r",
-		}, -- [102]
+		}, -- [27]
 		{
 			"--Selected By Nature is back -- progressive EU pve guild looking for active raiders to strenghten the team for its icc HC progression raid times 19:00 PM ST apply at https://sbn.shivtr.com/", -- [1]
 			"Isoheals", -- [2]
@@ -1876,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1572238965,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aIsoheals|r",
-		}, -- [103]
+		}, -- [28]
 		{
 			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Alastra", -- [2]
@@ -1894,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1572238969,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Alastra|r",
-		}, -- [104]
+		}, -- [29]
 		{
 			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock 1 tank DK pala ", -- [1]
 			"Naotsugu", -- [2]
@@ -1912,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1572238981,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [105]
+		}, -- [30]
 		{
 			"LFM ICC 10 N/HC 5.8K + LINK ACHIV !!! ( Pref Disco / Boomy / Hunter ) FRESH RUN !!!", -- [1]
 			"Juddite", -- [2]
@@ -1930,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1572238982,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefJuddite|r",
-		}, -- [106]
+		}, -- [31]
 		{
 			"wts |cffffd000|Htrade:51311:450:450:70000000044B34C:8f6UMoMMJwjgkEGAAAAAEAAAg/BgsvBAAAAAAAAAAAAAIFiAEAAIAAAIAiCAAAKBAAEQggwGSACAgAAMAFAAAGJqVA4UAAC|h[Jewelcrafting]|h|r", -- [1]
 			"Shinramen", -- [2]
@@ -1948,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1572238991,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aShinramen|r",
-		}, -- [107]
+		}, -- [32]
 		{
 			"voa 10 wis me need dps and tank", -- [1]
 			"Avengertwo", -- [2]
@@ -1966,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1572238991,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aAvengertwo|r",
-		}, -- [108]
+		}, -- [33]
 		{
 			"LFM TOC 25 HC Need 1MDps/4Rdps /1Disc Priest /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
 			"Laldudu", -- [2]
@@ -1984,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1572238993,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [109]
+		}, -- [34]
 		{
 			"LFM TOC 25 HC Need 1MDps/4Rdps /1Disc Priest /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
 			"Laldudu", -- [2]
@@ -2002,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1572238996,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [110]
+		}, -- [35]
 		{
 			"LFM TOC 25 HC Need 1MDps/4Rdps /1Disc Priest /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
 			"Laldudu", -- [2]
@@ -2020,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1572238996,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [111]
+		}, -- [36]
 		{
 			"LFM TOC 25 HC Need 1MDps/4Rdps /1Disc Priest /w me ur gs and spec Link ur best achiv ( Discord is must )", -- [1]
 			"Laldudu", -- [2]
@@ -2038,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1572238997,
 			[50] = "CHAT_MSG_EMOTE",
 			[52] = "|cffff7c0aLaldudu|r",
-		}, -- [112]
+		}, -- [37]
 		{
 			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Alastra", -- [2]
@@ -2056,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1572238998,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Alastra|r",
-		}, -- [113]
+		}, -- [38]
 		{
 			"wts |cff0070dd|Hitem:20866:0:0:0:0:0:0:0:63|h[Azure Idol]|h|r x2 for 40g OBO", -- [1]
 			"Uidzero", -- [2]
@@ -2074,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1572239000,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddUidzero|r",
-		}, -- [114]
+		}, -- [39]
 		{
 			"Need all for TOC 25 nm whisp me for inv 5.3 gs need b+p+o res must have time 1/25 |cffffff00|Hachievement:3916:07000000004717FD:1:10:7:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Alastra", -- [2]
@@ -2092,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1572239003,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Alastra|r",
-		}, -- [115]
+		}, -- [40]
 		{
 			"WTB |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r 1.3k", -- [1]
 			"Azally", -- [2]
@@ -2110,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1572239007,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddAzally|r",
-		}, -- [116]
+		}, -- [41]
 		{
 			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock 1 tank DK pala ", -- [1]
 			"Naotsugu", -- [2]
@@ -2128,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1572239009,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [117]
+		}, -- [42]
 		{
 			"LFM VOA 10 CLASS RUN /W GS/SPEC ", -- [1]
 			"Mekeroni", -- [2]
@@ -2146,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1572239011,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aMekeroni|r",
-		}, -- [118]
+		}, -- [43]
 		{
 			"WTB |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r 1.3k", -- [1]
 			"Azally", -- [2]
@@ -2164,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1572239168,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddAzally|r",
-		}, -- [119]
+		}, -- [44]
 		{
 			"LFM FOR TOC 25 MAN NORMAL 5.3 GS RQ FAST RUN BOE RESS/PATTERN/ORB RESS [Call of the Crusade (25 player)] fresh run (3 rpds ) hunter /balance/warlock 2 tank DK / pala ", -- [1]
 			"Naotsugu", -- [2]
@@ -2182,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1572239168,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaNaotsugu|r",
-		}, -- [120]
+		}, -- [45]
 		{
 			"LF ARENAPARTNER QUICK 10 GAMES ! /w me", -- [1]
 			"Triggeredyou", -- [2]
@@ -2200,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1572239168,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Triggeredyou|r",
-		}, -- [121]
+		}, -- [46]
 		{
 			"LF ARENAPARTNER QUICK 10 GAMES ! /w me", -- [1]
 			"Triggeredyou", -- [2]
@@ -2218,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1572239168,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Triggeredyou|r",
-		}, -- [122]
+		}, -- [47]
 		{
 			"wtb |cffa335ee|Hitem:49897:0:0:0:0:0:0:0:80|h[Rock-Steady Treads]|h|r 5500G", -- [1]
 			"Galbie", -- [2]
@@ -2236,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1572239172,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Galbie|r",
-		}, -- [123]
+		}, -- [48]
 		{
 			"LFM TOC 25 HC Need 1(WAR/ Feral) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
 			"Beasthut", -- [2]
@@ -2254,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1572239172,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Beasthut|r",
-		}, -- [124]
+		}, -- [49]
 		{
 			"LFM TOC 25 HC Need 1(WAR/ Feral) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
 			"Beasthut", -- [2]
@@ -2272,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1572239175,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Beasthut|r",
-		}, -- [125]
+		}, -- [50]
 		{
 			"LFM TOC 25 HC Need 1(WAR/ Feral) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
 			"Beasthut", -- [2]
@@ -2290,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1572239176,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Beasthut|r",
-		}, -- [126]
+		}, -- [51]
 		{
 			"LFM TOC 25 HC Need 1(WAR/ Feral) Rdps 1disco /w me ur gs and spec Link ur best achiv ( Discord is must)", -- [1]
 			"Beasthut", -- [2]
@@ -2308,6 +958,1356 @@ ElvCharacterDB = {
 			[51] = 1572239178,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Beasthut|r",
+		}, -- [52]
+		{
+			"LFM |cffffff00|Hachievement:619:0700000000233078:1:9:12:17:4294967295:4294967295:4294967295:4294967295|h[For The Horde!]|h|r GET YOUR MOUNT ", -- [1]
+			"Killgorr", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"0x0700000000233078", -- [12]
+			0, -- [13]
+			[51] = 1572247238,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKillgorr|r",
+		}, -- [53]
+		{
+			"WTS x8 |cffa335ee|Hitem:36931:0:0:0:0:0:0:0:80|h[Ametrine]|h|r190g each x8 |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r240g each w me", -- [1]
+			"Manabakh", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"0x070000000024157A", -- [12]
+			0, -- [13]
+			[51] = 1572247238,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaManabakh|r",
+		}, -- [54]
+		{
+			"Trump is My Dick", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			13, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247239,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [55]
+		{
+			" Lithtos Aesire Goth ERgin ASH odes cynewalden wos Nostyec far dana ne ador hir lon LO SE Lithtos Kaelsig", -- [1]
+			"Abrell", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			14, -- [11]
+			"0x070000000045DAD7", -- [12]
+			0, -- [13]
+			[51] = 1572247240,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Abrell|r",
+		}, -- [56]
+		{
+			"lol", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			15, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247241,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [57]
+		{
+			"<<Song of Fury>> Guild Latina en busca jugadores con experiencia, Sistema de Dkps - Discord obligatorio, Gs Req. 6.0 [AT 00.00 ST] // Progreso: ICC 25Hc(11/12), ICC 25Nm/Hc(12/12)x5, Rs25(4/4)x4, ICC10Hc(12/12), wisp para más info.", -- [1]
+			"Taurencio", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"0x07000000002AB851", -- [12]
+			0, -- [13]
+			[51] = 1572247242,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aTaurencio|r",
+		}, -- [58]
+		{
+			"yea, Trump is fine", -- [1]
+			"Shamarax", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			17, -- [11]
+			"0x07000000001ADA3F", -- [12]
+			0, -- [13]
+			[51] = 1572247242,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddShamarax|r",
+		}, -- [59]
+		{
+			" WTB [Primordial Saronite] x 5 600g each", -- [1]
+			"Psidium", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			20, -- [11]
+			"0x070000000025AB08", -- [12]
+			0, -- [13]
+			[51] = 1572247253,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dPsidium|r",
+		}, -- [60]
+		{
+			"freakly idoit", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			21, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247256,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [61]
+		{
+			":D", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247256,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [62]
+		{
+			"Totemseeker : Liberal gay is here", -- [1]
+			"Cocainhustle", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			23, -- [11]
+			"0x070000000028E173", -- [12]
+			0, -- [13]
+			[51] = 1572247263,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaCocainhustle|r",
+		}, -- [63]
+		{
+			"what gender are you ", -- [1]
+			"Cocainhustle", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			24, -- [11]
+			"0x070000000028E173", -- [12]
+			0, -- [13]
+			[51] = 1572247263,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaCocainhustle|r",
+		}, -- [64]
+		{
+			"TRUMP IS BEST", -- [1]
+			"Kirukatotoka", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			25, -- [11]
+			"0x0700000000488B6C", -- [12]
+			0, -- [13]
+			[51] = 1572247263,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKirukatotoka|r",
+		}, -- [65]
+		{
+			" WTB [Primordial Saronite] x 5 600g each", -- [1]
+			"Psidium", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			26, -- [11]
+			"0x070000000025AB08", -- [12]
+			0, -- [13]
+			[51] = 1572247263,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dPsidium|r",
+		}, -- [66]
+		{
+			"trump is a gay", -- [1]
+			"Jubilo", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			27, -- [11]
+			"0x0700000000384A6D", -- [12]
+			0, -- [13]
+			[51] = 1572247265,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aJubilo|r",
+		}, -- [67]
+		{
+			"not male for sure", -- [1]
+			"Cocainhustle", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			28, -- [11]
+			"0x070000000028E173", -- [12]
+			0, -- [13]
+			[51] = 1572247266,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaCocainhustle|r",
+		}, -- [68]
+		{
+			"LF tailoring with rare recipes", -- [1]
+			"Sixshades", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"0x07000000003579AA", -- [12]
+			0, -- [13]
+			[51] = 1572247268,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Sixshades|r",
+		}, -- [69]
+		{
+			"6krogue lf partner to boost rating.my team", -- [1]
+			"Muscolo", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"0x07000000004B337E", -- [12]
+			0, -- [13]
+			[51] = 1572247270,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Muscolo|r",
+		}, -- [70]
+		{
+			"ONLY GAY HATE TRUMP", -- [1]
+			"Kirukatotoka", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"0x0700000000488B6C", -- [12]
+			0, -- [13]
+			[51] = 1572247271,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKirukatotoka|r",
+		}, -- [71]
+		{
+			"gender X", -- [1]
+			"Cocainhustle", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"0x070000000028E173", -- [12]
+			0, -- [13]
+			[51] = 1572247272,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaCocainhustle|r",
+		}, -- [72]
+		{
+			"LV80 RDF HC need a heal ", -- [1]
+			"Weixincom", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"0x07000000004CDAF1", -- [12]
+			0, -- [13]
+			[51] = 1572247274,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Weixincom|r",
+		}, -- [73]
+		{
+			"LF17M |cffffff00|Hachievement:619:0700000000233078:1:9:12:17:4294967295:4294967295:4294967295:4294967295|h[For The Horde!]|h|r 16 SPOTS LEFT GE||T YOUR MOUNT ", -- [1]
+			"Killgorr", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			34, -- [11]
+			"0x0700000000233078", -- [12]
+			0, -- [13]
+			[51] = 1572247275,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKillgorr|r",
+		}, -- [74]
+		{
+			"trump its bitch", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			35, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247275,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [75]
+		{
+			"lo", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			36, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247277,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [76]
+		{
+			"BOR VIL TI Ko Ruff Hir y lo Borne ve Hir E E Andovis RaS Ador Ruff va ras Daegil Noth", -- [1]
+			"Kumuo", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			37, -- [11]
+			"0x070000000040CC46", -- [12]
+			0, -- [13]
+			[51] = 1572247278,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaKumuo|r",
+		}, -- [77]
+		{
+			"Need TANK AND HEAL for POS FOS NORMAL", -- [1]
+			"Essaa", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			38, -- [11]
+			"0x0700000000492B9E", -- [12]
+			0, -- [13]
+			[51] = 1572247280,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Essaa|r",
+		}, -- [78]
+		{
+			"que horseman", -- [1]
+			"Evaluation", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			39, -- [11]
+			"0x07000000003706C7", -- [12]
+			0, -- [13]
+			[51] = 1572247284,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aEvaluation|r",
+		}, -- [79]
+		{
+			"TOTEMSEEKER IS GAY", -- [1]
+			"Kirukatotoka", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			40, -- [11]
+			"0x0700000000488B6C", -- [12]
+			0, -- [13]
+			[51] = 1572247285,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKirukatotoka|r",
+		}, -- [80]
+		{
+			"<WITH PUGS> TGF: MAGYAROKNAK KARID NEM SZAMIT, 25 RAIDRE GYÜLEKEZUNK BARATI TEAM ULDU/TOC/ICC / DKP/DISCORD. /W ME", -- [1]
+			"Justabann", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			41, -- [11]
+			"0x07000000004C6111", -- [12]
+			0, -- [13]
+			[51] = 1572247286,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddJustabann|r",
+		}, -- [81]
+		{
+			"bit.ch blond", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247287,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [82]
+		{
+			" Lithtos Aesire Goth O goth ASH Uden nagan cynewalden wos dana ne ador hir lon LO SE Lithtos Kaelsig", -- [1]
+			"Moreiq", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"0x07000000004D23F5", -- [12]
+			0, -- [13]
+			[51] = 1572247290,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Moreiq|r",
+		}, -- [83]
+		{
+			"WTS Rogue,Warlock,Mage,Shadow Priest 6,5k with any BiS items of your choice !", -- [1]
+			"Zatvornikat", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"0x070000000022BE61", -- [12]
+			0, -- [13]
+			[51] = 1572247294,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Zatvornikat|r",
+		}, -- [84]
+		{
+			"WTS Rogue,Warlock,Mage,Shadow Priest 6,5k with any BiS items of your choice !", -- [1]
+			"Zatvornikat", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"0x070000000022BE61", -- [12]
+			0, -- [13]
+			[51] = 1572247294,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Zatvornikat|r",
+		}, -- [85]
+		{
+			"he is dickseeker", -- [1]
+			"Cocainhustle", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"0x070000000028E173", -- [12]
+			0, -- [13]
+			[51] = 1572247296,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaCocainhustle|r",
+		}, -- [86]
+		{
+			"WTS x8 |cffa335ee|Hitem:36931:0:0:0:0:0:0:0:80|h[Ametrine]|h|r190g each x8 |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r240g each w me", -- [1]
+			"Manabakh", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"0x070000000024157A", -- [12]
+			0, -- [13]
+			[51] = 1572247298,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaManabakh|r",
+		}, -- [87]
+		{
+			"LFM |cffffff00|Hachievement:619:0700000000233078:1:9:12:17:4294967295:4294967295:4294967295:4294967295|h[For The Horde!]|h|r 15 SPOTS LEFT GE||T YOUR MOUNT ", -- [1]
+			"Killgorr", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"0x0700000000233078", -- [12]
+			0, -- [13]
+			[51] = 1572247299,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKillgorr|r",
+		}, -- [88]
+		{
+			" Lithtos Aesire Goth ERgin ASH odes cynewalden wos Nostyec far dana ne ador hir lon LO SE Lithtos Kaelsig", -- [1]
+			"Abrell", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"0x070000000045DAD7", -- [12]
+			0, -- [13]
+			[51] = 1572247300,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Abrell|r",
+		}, -- [89]
+		{
+			"NEED ALL FOR SUNWELL---Xmog Run NOthing Reserved /w Me Faster |cffffff00|Hachievement:698:07000000001132A9:0:0:0:-1:0:0:0:0|h[Sunwell Plateau]|h|r", -- [1]
+			"Jadriga", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"0x07000000001132A9", -- [12]
+			0, -- [13]
+			[51] = 1572247301,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaJadriga|r",
+		}, -- [90]
+		{
+			"<<Song of Fury>> Guild Latina en busca jugadores con experiencia, Sistema de Dkps - Discord obligatorio, Gs Req. 6.0 [AT 00.00 ST] // Progreso: ICC 25Hc(11/12), ICC 25Nm/Hc(12/12)x5, Rs25(4/4)x4, ICC10Hc(12/12), wisp para más info.", -- [1]
+			"Taurencio", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"0x07000000002AB851", -- [12]
+			0, -- [13]
+			[51] = 1572247301,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aTaurencio|r",
+		}, -- [91]
+		{
+			"ok seriously fuck the trump", -- [1]
+			"Damnpala", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			53, -- [11]
+			"0x07000000004BC085", -- [12]
+			0, -- [13]
+			[51] = 1572247302,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaDamnpala|r",
+		}, -- [92]
+		{
+			"No im As.s Seeker", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			54, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247305,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [93]
+		{
+			":)", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			55, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247306,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [94]
+		{
+			"NEED 1 TANK REST DPS VOA 25 F+F /W ME 5K MIN ", -- [1]
+			"Realizeftw", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			58, -- [11]
+			"0x070000000041CC03", -- [12]
+			0, -- [13]
+			[51] = 1572247311,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aRealizeftw|r",
+		}, -- [95]
+		{
+			"Guild Latina PVE <P A N D O R A> Reclutando gente/ ICC 25 /RS 25 Gs 5.8k+ Progress/ hora de Raid @ 1:00 am ST /w para mas informacion.", -- [1]
+			"Abierta", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			59, -- [11]
+			"0x07000000004C0636", -- [12]
+			0, -- [13]
+			[51] = 1572247311,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Abierta|r",
+		}, -- [96]
+		{
+			"ONLY GAY HATE TRUMP", -- [1]
+			"Kirukatotoka", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"0x0700000000488B6C", -- [12]
+			0, -- [13]
+			[51] = 1572247314,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKirukatotoka|r",
+		}, -- [97]
+		{
+			"and putin, and clinton", -- [1]
+			"Damnpala", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"0x07000000004BC085", -- [12]
+			0, -- [13]
+			[51] = 1572247314,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaDamnpala|r",
+		}, -- [98]
+		{
+			"LFG voa 25", -- [1]
+			"Ariice", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			64, -- [11]
+			"0x07000000002D9AFC", -- [12]
+			0, -- [13]
+			[51] = 1572247316,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Ariice|r",
+		}, -- [99]
+		{
+			"donald has ass", -- [1]
+			"Jubilo", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			65, -- [11]
+			"0x0700000000384A6D", -- [12]
+			0, -- [13]
+			[51] = 1572247320,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aJubilo|r",
+		}, -- [100]
+		{
+			"Need TANK AND HEAL for POS FOS NORMAL", -- [1]
+			"Essaa", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			67, -- [11]
+			"0x0700000000492B9E", -- [12]
+			0, -- [13]
+			[51] = 1572247326,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Essaa|r",
+		}, -- [101]
+		{
+			"6krogue lf partner to boost rating.my team", -- [1]
+			"Muscolo", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			68, -- [11]
+			"0x07000000004B337E", -- [12]
+			0, -- [13]
+			[51] = 1572247330,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Muscolo|r",
+		}, -- [102]
+		{
+			" WTB [Primordial Saronite] x 5 600g each", -- [1]
+			"Psidium", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			73, -- [11]
+			"0x070000000025AB08", -- [12]
+			0, -- [13]
+			[51] = 1572247337,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dPsidium|r",
+		}, -- [103]
+		{
+			"I dreamt of Trump once", -- [1]
+			"Mionne", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			75, -- [11]
+			"0x07000000001CD572", -- [12]
+			0, -- [13]
+			[51] = 1572247338,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aMionne|r",
+		}, -- [104]
+		{
+			"it was weird", -- [1]
+			"Mionne", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			77, -- [11]
+			"0x07000000001CD572", -- [12]
+			0, -- [13]
+			[51] = 1572247340,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aMionne|r",
+		}, -- [105]
+		{
+			"NEED 1 TANK REST DPS VOA 25 F+f", -- [1]
+			"Realizeftw", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			78, -- [11]
+			"0x070000000041CC03", -- [12]
+			0, -- [13]
+			[51] = 1572247342,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aRealizeftw|r",
+		}, -- [106]
+		{
+			"algun joyeroo????", -- [1]
+			"Pincoya", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			79, -- [11]
+			"0x070000000034CB12", -- [12]
+			0, -- [13]
+			[51] = 1572247343,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Pincoya|r",
+		}, -- [107]
+		{
+			"Trump Is Idoit He Should Punish Goverments", -- [1]
+			"Totemseeker", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			80, -- [11]
+			"0x070000000035C233", -- [12]
+			0, -- [13]
+			[51] = 1572247344,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTotemseeker|r",
+		}, -- [108]
+		{
+			"mac donald trump", -- [1]
+			"Morrtarion", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			81, -- [11]
+			"0x07000000004CC03E", -- [12]
+			0, -- [13]
+			[51] = 1572247345,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aMorrtarion|r",
+		}, -- [109]
+		{
+			"<WITH PUGS> TGF: MAGYAROKNAK KARID NEM SZAMIT, 25 RAIDRE GYÜLEKEZUNK BARATI TEAM ULDU/TOC/ICC / DKP/DISCORD. /W ME", -- [1]
+			"Justabann", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			88, -- [11]
+			"0x07000000004C6111", -- [12]
+			0, -- [13]
+			[51] = 1572247347,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddJustabann|r",
+		}, -- [110]
+		{
+			"WTS |cff0070dd|Hitem:47556:0:0:0:0:0:0:0:80|h[Crusader Orb]|h|r", -- [1]
+			"Bloodyshanke", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			103, -- [11]
+			"0x070000000037B5C7", -- [12]
+			0, -- [13]
+			[51] = 1572247354,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBloodyshanke|r",
+		}, -- [111]
+		{
+			"Horseman rise...", -- [1]
+			"Bowbaby", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bowbaby", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			104, -- [11]
+			"0x070000000000615D", -- [12]
+			0, -- [13]
+			[51] = 1572247354,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Bowbaby|r",
+		}, -- [112]
+		{
+			"Your time is nigh...", -- [1]
+			"Bowbaby", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bowbaby", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			105, -- [11]
+			"0x070000000000615D", -- [12]
+			0, -- [13]
+			[51] = 1572247357,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Bowbaby|r",
+		}, -- [113]
+		{
+			"You felt death once...", -- [1]
+			"Bowbaby", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bowbaby", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"0x070000000000615D", -- [12]
+			0, -- [13]
+			[51] = 1572247358,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Bowbaby|r",
+		}, -- [114]
+		{
+			"WTB |cffa335ee|Hitem:49897:0:0:0:0:0:0:0:80|h[Rock-Steady Treads]|h|r 5500g", -- [1]
+			"Galbie", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			108, -- [11]
+			"0x07000000004B40E6", -- [12]
+			0, -- [13]
+			[51] = 1572247359,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Galbie|r",
+		}, -- [115]
+		{
+			"Now, know demise!", -- [1]
+			"Bowbaby", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bowbaby", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			109, -- [11]
+			"0x070000000000615D", -- [12]
+			0, -- [13]
+			[51] = 1572247361,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffaad372Bowbaby|r",
+		}, -- [116]
+		{
+			"<<Song of Fury>> Guild Latina en busca jugadores con experiencia, Sistema de Dkps - Discord obligatorio, Gs Req. 6.0 [AT 00.00 ST] // Progreso: ICC 25Hc(11/12), ICC 25Nm/Hc(12/12)x5, Rs25(4/4)x4, ICC10Hc(12/12), wisp para más info.", -- [1]
+			"Taurencio", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"0x07000000002AB851", -- [12]
+			0, -- [13]
+			[51] = 1572247361,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aTaurencio|r",
+		}, -- [117]
+		{
+			"inv for forthe horde ", -- [1]
+			"Beefmania", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			111, -- [11]
+			"0x070000000037F7AE", -- [12]
+			0, -- [13]
+			[51] = 1572247362,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dBeefmania|r",
+		}, -- [118]
+		{
+			"NEED ALL FOR SUNWELL---Xmog Run NOthing Reserved /w Me Faster |cffffff00|Hachievement:698:07000000001132A9:0:0:0:-1:0:0:0:0|h[Sunwell Plateau]|h|r", -- [1]
+			"Jadriga", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			112, -- [11]
+			"0x07000000001132A9", -- [12]
+			0, -- [13]
+			[51] = 1572247382,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaJadriga|r",
+		}, -- [119]
+		{
+			"6krogue lf partner to boost rating.my team", -- [1]
+			"Muscolo", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			114, -- [11]
+			"0x07000000004B337E", -- [12]
+			0, -- [13]
+			[51] = 1572247390,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Muscolo|r",
+		}, -- [120]
+		{
+			"Need TANK AND HEAL for POS FOS NORMAL", -- [1]
+			"Essaa", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			116, -- [11]
+			"0x0700000000492B9E", -- [12]
+			0, -- [13]
+			[51] = 1572247395,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Essaa|r",
+		}, -- [121]
+		{
+			"LFM VOA 10, need all, 5k+", -- [1]
+			"Banearang", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			119, -- [11]
+			"0x07000000004D0E54", -- [12]
+			0, -- [13]
+			[51] = 1572247404,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefBanearang|r",
+		}, -- [122]
+		{
+			"<WITH PUGS> TGF: MAGYAROKNAK KARID NEM SZAMIT, 25 RAIDRE GYÜLEKEZUNK BARATI TEAM ULDU/TOC/ICC / DKP/DISCORD. /W ME", -- [1]
+			"Justabann", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			120, -- [11]
+			"0x07000000004C6111", -- [12]
+			0, -- [13]
+			[51] = 1572247406,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddJustabann|r",
+		}, -- [123]
+		{
+			"NEED DPS SOME HEAL VOA 25 F+F 5K MIN 10/25", -- [1]
+			"Realizeftw", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			123, -- [11]
+			"0x070000000041CC03", -- [12]
+			0, -- [13]
+			[51] = 1572247417,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aRealizeftw|r",
+		}, -- [124]
+		{
+			"<<Song of Fury>> Guild Latina en busca jugadores con experiencia, Sistema de Dkps - Discord obligatorio, Gs Req. 6.0 [AT 00.00 ST] // Progreso: ICC 25Hc(11/12), ICC 25Nm/Hc(12/12)x5, Rs25(4/4)x4, ICC10Hc(12/12), wisp para más info.", -- [1]
+			"Taurencio", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			125, -- [11]
+			"0x07000000002AB851", -- [12]
+			0, -- [13]
+			[51] = 1572247421,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aTaurencio|r",
+		}, -- [125]
+		{
+			"Tank join rdf hc", -- [1]
+			"Dagunchi", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"0x070000000049FD66", -- [12]
+			0, -- [13]
+			[51] = 1572247435,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Dagunchi|r",
+		}, -- [126]
+		{
+			"NEED ALL FOR SUNWELL---Xmog Run NOthing Reserved /w Me Faster |cffffff00|Hachievement:698:07000000001132A9:0:0:0:-1:0:0:0:0|h[Sunwell Plateau]|h|r", -- [1]
+			"Jadriga", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			145, -- [11]
+			"0x07000000001132A9", -- [12]
+			0, -- [13]
+			[51] = 1572247439,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaJadriga|r",
 		}, -- [127]
 	},
 }

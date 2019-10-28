@@ -111,7 +111,7 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Xqxq"] = {
+	["Talset"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -137,7 +137,7 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Talset"] = {
+	["Xqxq"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -163,33 +163,20 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Immutability"] = {
-		3, -- [1]
+	["Philliphus"] = {
+		2, -- [1]
 		3, -- [2]
-		3, -- [3]
+		1, -- [3]
 		3, -- [4]
-		4, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		3, -- [11]
+		1, -- [5]
+		2, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		2, -- [10]
+		2, -- [11]
 	},
 	["Plnru"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-		0, -- [11]
-	},
-	["Infine"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -214,6 +201,19 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 		3, -- [11]
+	},
+	["Infine"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
 	},
 	["Rubinartdog"] = {
 		1, -- [1]
@@ -241,18 +241,18 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Philliphus"] = {
-		2, -- [1]
+	["Immutability"] = {
+		3, -- [1]
 		3, -- [2]
-		1, -- [3]
+		3, -- [3]
 		3, -- [4]
-		1, -- [5]
-		2, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		2, -- [10]
-		2, -- [11]
+		4, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
 	},
 	["Vaglef"] = {
 		2, -- [1]
@@ -281,21 +281,21 @@ PallyPower_NormalAssignments = {
 	},
 	["Chuichui"] = {
 	},
-	["Xqxq"] = {
+	["Talset"] = {
 	},
 	["Nerwaa"] = {
 	},
-	["Talset"] = {
+	["Xqxq"] = {
 	},
 	["Betsy"] = {
 	},
-	["Immutability"] = {
+	["Philliphus"] = {
 	},
 	["Plnru"] = {
 	},
-	["Infine"] = {
-	},
 	["Nerfado"] = {
+	},
+	["Infine"] = {
 	},
 	["Rubinartdog"] = {
 	},
@@ -304,7 +304,7 @@ PallyPower_NormalAssignments = {
 			["Argentaluce"] = 4,
 		},
 	},
-	["Philliphus"] = {
+	["Immutability"] = {
 	},
 	["Vaglef"] = {
 	},
@@ -316,17 +316,17 @@ PallyPower_AuraAssignments = {
 	["Denii"] = 0,
 	["Fishqs"] = 3,
 	["Chuichui"] = 1,
-	["Xqxq"] = 0,
-	["Nerwaa"] = 0,
 	["Talset"] = 0,
+	["Nerwaa"] = 0,
+	["Xqxq"] = 0,
 	["Betsy"] = 2,
-	["Immutability"] = 1,
+	["Philliphus"] = 4,
 	["Plnru"] = 0,
-	["Infine"] = 5,
 	["Nerfado"] = 1,
+	["Infine"] = 5,
 	["Rubinartdog"] = 3,
 	["Argentaluce"] = 1,
-	["Philliphus"] = 4,
+	["Immutability"] = 1,
 	["Vaglef"] = 3,
 }
 PallyPower_SavedPresets = {
