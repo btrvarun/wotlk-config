@@ -5,6 +5,11 @@ MACRO 16777224 "as" INV_Misc_QuestionMark
 /cast !aspect of the dragonhawk
 /cast aimed shot
 /cast silencing shot
+/cast Kill Command
+END
+MACRO 16777229 "call of the wild" INV_Misc_QuestionMark
+#showtooltip
+/cast call of the wild
 END
 MACRO 16777221 "cds" INV_Misc_QuestionMark
 #showtooltip
@@ -46,6 +51,7 @@ MACRO 16777219 "ss" INV_Misc_QuestionMark
 /cancelaura deterrence
 /cast steady shot
 /cast silencing shot
+/cast Kill Command
 END
 MACRO 16777217 "ss" INV_Misc_QuestionMark
 #showtooltip serpent sting

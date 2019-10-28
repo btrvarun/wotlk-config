@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_5000000"] = 10000,
-	["_50000"] = 500,
 	["_200000"] = 1000,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
-	["_500"] = 5,
+	["_50000"] = 500,
 	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -14,17 +14,18 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"powerful stat", -- [1]
-			"scope", -- [2]
-			"relentless", -- [3]
-			"monarch topaz", -- [4]
-			"scarlet ruby", -- [5]
-			"Arctic fur", -- [6]
-			"knothide", -- [7]
-			"rugged leather", -- [8]
-			"thick leather", -- [9]
-			"heavy leather", -- [10]
-			"medium leather", -- [11]
+			"Iceblade Arrow", -- [1]
+			"powerful stat", -- [2]
+			"scope", -- [3]
+			"relentless", -- [4]
+			"monarch topaz", -- [5]
+			"scarlet ruby", -- [6]
+			"Arctic fur", -- [7]
+			"knothide", -- [8]
+			"rugged leather", -- [9]
+			"thick leather", -- [10]
+			"heavy leather", -- [11]
+			"medium leather", -- [12]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -51,6 +52,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Design: Stalwart Monarch Topaz"] = 1010000,
 		["Scroll of Enchant Chest - Powerful Stats"] = 3697500,
 		["Rugged Leather"] = 31125,
+		["Iceblade Arrow"] = 135,
 		["Design: Resolute Monarch Topaz"] = 120000,
 		["Veiled Monarch Topaz"] = 900050,
 		["Design: Inscribed Monarch Topaz"] = 150000,
@@ -62,38 +64,38 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Luminous Monarch Topaz"] = 580500,
 		["Heavy Leather"] = 28999,
 		["Bright Scarlet Ruby"] = 800000,
-		["Biznicks 247x128 Accurascope"] = 19990000,
+		["Reckless Monarch Topaz"] = 579998,
 		["Arctic Fur"] = 2399999,
-		["Standard Scope"] = 1800,
-		["Accurate Monarch Topaz"] = 899500,
+		["Glinting Monarch Topaz"] = 947500,
 		["Inscribed Monarch Topaz"] = 500000,
-		["Kaleidoscope Chain"] = 2704811,
+		["Accurate Monarch Topaz"] = 899500,
+		["Sun Scope"] = 340000,
 		["Schematic: Sniper Scope"] = 199500,
-		["Etched Monarch Topaz"] = 680750,
 		["Fierce Monarch Topaz"] = 741250,
-		["Fractured Scarlet Ruby"] = 1451250,
+		["Etched Monarch Topaz"] = 680750,
+		["Design: Etched Monarch Topaz"] = 90000,
 		["Knothide Armor Kit"] = 49400,
 		["Bold Scarlet Ruby"] = 1399800,
 		["Durable Monarch Topaz"] = 910000,
-		["Relentless Earthsiege Diamond"] = 2007900,
+		["Stark Monarch Topaz"] = 1127335,
 		["Diamond-cut Refractor Scope"] = 12979,
 		["Pattern: Rugged Leather Pants"] = 2800,
-		["Medium Leather"] = 27000,
-		["Deadly Monarch Topaz"] = 480500,
-		["Runed Scarlet Ruby"] = 1720000,
+		["Pristine Monarch Topaz"] = 111000,
+		["Empowered Monarch Topaz"] = 720000,
 		["Heavy Knothide Leather"] = 620000,
+		["Runed Scarlet Ruby"] = 1720000,
 		["Thick Leather"] = 7500,
 		["Design: Champion's Monarch Topaz"] = 190000,
-		["Empowered Monarch Topaz"] = 720000,
-		["Pristine Monarch Topaz"] = 111000,
-		["Stark Monarch Topaz"] = 1127335,
-		["Design: Etched Monarch Topaz"] = 90000,
+		["Deadly Monarch Topaz"] = 480500,
+		["Medium Leather"] = 27000,
+		["Relentless Earthsiege Diamond"] = 2007900,
+		["Fractured Scarlet Ruby"] = 1451250,
 		["Accurate Scope"] = 989000,
 		["Monarch Topaz"] = 450000,
-		["Sun Scope"] = 340000,
+		["Kaleidoscope Chain"] = 2704811,
 		["Subtle Scarlet Ruby"] = 1866943,
-		["Glinting Monarch Topaz"] = 947500,
-		["Reckless Monarch Topaz"] = 579998,
+		["Standard Scope"] = 1800,
+		["Biznicks 247x128 Accurascope"] = 19990000,
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
