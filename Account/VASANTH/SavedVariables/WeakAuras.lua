@@ -189,13 +189,13 @@ WeakAurasSaved = {
 				["name"] = "The Art of War",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_ArtofWar",
 			},
-			[2.05] = {
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-			},
 			[2.01] = {
 				["name"] = "Divinity",
 				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+			},
+			[2.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 			},
 			[2.14] = {
 				["name"] = "Sacred Duty",
@@ -205,9 +205,9 @@ WeakAurasSaved = {
 				["name"] = "Sacred Cleansing",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[1.16] = {
-				["name"] = "Holy Power",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[1.02] = {
 				["name"] = "Seals of the Pure",
@@ -249,13 +249,13 @@ WeakAurasSaved = {
 				["name"] = "Judgements of the Pure",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementofthePure",
 			},
-			[3.26] = {
-				["name"] = "Divine Storm",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
-			},
 			[3.18] = {
 				["name"] = "Repentance",
 				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			},
+			[3.26] = {
+				["name"] = "Divine Storm",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
 			},
 			[1.01] = {
 				["name"] = "Spiritual Focus",
@@ -309,9 +309,9 @@ WeakAurasSaved = {
 				["name"] = "Aura Mastery",
 				["icon"] = "Interface\\Icons\\Spell_Holy_AuraMastery",
 			},
-			[3.05] = {
-				["name"] = "Improved Blessing of Might",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[3.19] = {
 				["name"] = "Judgements of the Wise",
@@ -345,8 +345,9 @@ WeakAurasSaved = {
 	},
 	["tempIconCache"] = {
 		["Divine Plea"] = "Interface\\Icons\\Spell_Holy_Aspiration",
+		["Sacred Shield"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
+		["Seal of Wisdom"] = "Interface\\Icons\\Spell_Holy_RighteousnessAura",
 		["Seal of Corruption"] = "Interface\\Icons\\Spell_Holy_SealOfVengeance",
-		["Sacred Shield"] = "Interface\\Icons\\Ability_Paladin_GaurdedbytheLight",
 		["Righteous Fury"] = "Interface\\Icons\\Spell_Holy_SealOfFury",
 	},
 	["displays"] = {
@@ -400,13 +401,13 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "righteous fury",
-			["discrete_rotation"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 200,
 			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["discrete_rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -505,9 +506,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "sacred shield",
 			["inverse"] = false,
+			["id"] = "sacred shield",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["color"] = {
@@ -661,9 +662,9 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "seal of wisdom",
-			["width"] = 200,
-			["frameStrata"] = 1,
 			["desaturate"] = false,
+			["frameStrata"] = 1,
+			["width"] = 200,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
@@ -721,9 +722,6 @@ WeakAurasSaved = {
 				},
 			},
 			["constantFactor"] = "RADIUS",
-			["selfPoint"] = "CENTER",
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -738,6 +736,18 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["borderOffset"] = 16,
+			["align"] = "CENTER",
+			["selfPoint"] = "CENTER",
+			["id"] = "rotation helper - paladin",
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 166.0000469136463,
+			["stagger"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["rotation"] = 0,
+			["height"] = 40.00002680779787,
 			["trigger"] = {
 				["names"] = {
 				},
@@ -745,15 +755,6 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 				["unit"] = "player",
 			},
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 166.0000469136463,
-			["rotation"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["stagger"] = 0,
-			["height"] = 40.00002680779787,
-			["id"] = "rotation helper - paladin",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -848,10 +849,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["yOffset"] = 0,
 			["id"] = "sacred shield 2",
-			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -954,8 +955,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["stickyDuration"] = false,
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1055,8 +1056,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["inverse"] = false,
 			["xOffset"] = 0,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["yOffset"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1111,13 +1112,13 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["unit"] = "player",
 			},
-			["desaturate"] = false,
-			["frameStrata"] = 1,
 			["width"] = 200,
-			["discrete_rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["rotation"] = 0,
+			["discrete_rotation"] = 0,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -1196,11 +1197,11 @@ WeakAurasSaved = {
 			},
 			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
-			["width"] = 200,
+			["desaturate"] = false,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
