@@ -1,32 +1,12 @@
 
 Omen3DB = {
 	["profileKeys"] = {
-		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 	},
 	["profiles"] = {
-		["Dreamstar - Icecrown"] = {
-			["ShowWith"] = {
-				["UseShowWith"] = false,
-			},
-			["FrameStrata"] = "2-LOW",
-			["PositionY"] = 614.9999624554056,
-			["TitleBar"] = {
-				["Height"] = 22,
-			},
-			["Shown"] = true,
-			["Locked"] = true,
-			["Background"] = {
-				["EdgeSize"] = 1,
-				["BarInset"] = 1,
-			},
-			["PositionX"] = 847.5000148742246,
-			["Bar"] = {
-				["Spacing"] = 1,
-			},
-		},
 		["Garzh - Icecrown"] = {
 			["MinimapIcon"] = {
 				["hide"] = true,
@@ -56,7 +36,27 @@ Omen3DB = {
 				["Spacing"] = 1,
 			},
 		},
-		["Bowbaby - Icecrown"] = {
+		["Dreamstar - Icecrown"] = {
+			["ShowWith"] = {
+				["UseShowWith"] = false,
+			},
+			["FrameStrata"] = "2-LOW",
+			["PositionY"] = 614.9999624554056,
+			["PositionX"] = 847.5000148742246,
+			["Shown"] = true,
+			["Locked"] = true,
+			["Background"] = {
+				["BarInset"] = 1,
+				["EdgeSize"] = 1,
+			},
+			["TitleBar"] = {
+				["Height"] = 22,
+			},
+			["Bar"] = {
+				["Spacing"] = 1,
+			},
+		},
+		["Invariably - Icecrown"] = {
 			["MinimapIcon"] = {
 				["hide"] = true,
 			},
@@ -67,18 +67,18 @@ Omen3DB = {
 			["FrameStrata"] = "2-LOW",
 			["PositionH"] = 81.99999849548074,
 			["PositionY"] = 141.1666247566868,
-			["TitleBar"] = {
-				["Height"] = 22,
-				["FontSize"] = 15,
-				["Font"] = "ABF",
-			},
+			["PositionX"] = 1142.499972952847,
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
 				["BarInset"] = 1,
 			},
-			["PositionX"] = 1142.499972952847,
+			["TitleBar"] = {
+				["Height"] = 22,
+				["FontSize"] = 15,
+				["Font"] = "ABF",
+			},
 			["Bar"] = {
 				["Spacing"] = 1,
 				["Font"] = "ABF",
@@ -86,7 +86,7 @@ Omen3DB = {
 				["Texture"] = "Armory",
 			},
 		},
-		["Invariably - Icecrown"] = {
+		["Bowbaby - Icecrown"] = {
 			["PositionW"] = 200.0000727640228,
 			["PositionH"] = 81.99999849548074,
 			["PositionY"] = 141.1666247566868,

@@ -165,13 +165,13 @@ ActionBarSaverDB = {
 		},
 		["WARLOCK"] = {
 		},
-		["HUNTER"] = {
+		["ROGUE"] = {
 		},
 		["DRUID"] = {
 		},
 		["SHAMAN"] = {
 		},
-		["ROGUE"] = {
+		["HUNTER"] = {
 		},
 	},
 	["spellSubs"] = {

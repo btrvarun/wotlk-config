@@ -2,11 +2,11 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_5000000"] = 10000,
 	["_50000"] = 500,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_200000"] = 1000,
-	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -14,16 +14,17 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"scope", -- [1]
-			"relentless", -- [2]
-			"monarch topaz", -- [3]
-			"scarlet ruby", -- [4]
-			"Arctic fur", -- [5]
-			"knothide", -- [6]
-			"rugged leather", -- [7]
-			"thick leather", -- [8]
-			"heavy leather", -- [9]
-			"medium leather", -- [10]
+			"powerful stat", -- [1]
+			"scope", -- [2]
+			"relentless", -- [3]
+			"monarch topaz", -- [4]
+			"scarlet ruby", -- [5]
+			"Arctic fur", -- [6]
+			"knothide", -- [7]
+			"rugged leather", -- [8]
+			"thick leather", -- [9]
+			"heavy leather", -- [10]
+			"medium leather", -- [11]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -48,6 +49,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Thick Leather Ammo Pouch"] = 993000,
 		["Scarlet Ruby"] = 1199999,
 		["Design: Stalwart Monarch Topaz"] = 1010000,
+		["Scroll of Enchant Chest - Powerful Stats"] = 3697500,
 		["Rugged Leather"] = 31125,
 		["Design: Resolute Monarch Topaz"] = 120000,
 		["Veiled Monarch Topaz"] = 900050,
@@ -102,7 +104,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Dreamstar"] = {
 		["firstSeen"] = 1570975096,
-		["guid"] = "0x0700000000049519",
 		["firstVersion"] = "2.6.3",
 	},
 	["Bowbaby"] = {
