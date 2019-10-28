@@ -22,9 +22,9 @@ W: 365
 H: 200
 Frame: Binder_Frame
 FrameLevel: 1
-Anchor: CENTER
-X: 307
-Y: 61
+Anchor: RIGHT
+X: -34
+Y: -59
 W: 600
 H: 360
 Frame: DBMMinimapButton
