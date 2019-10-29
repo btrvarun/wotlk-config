@@ -3,8 +3,6 @@ Binder_Settings = {
 	["ProfilesCreated"] = 1,
 	["Profiles"] = {
 		{
-			["Name"] = "Garzh",
-			["Description"] = "",
 			["The_Binds"] = {
 				{
 					["TheAction"] = "HEADER_MOVEMENT",
@@ -1007,6 +1005,8 @@ Binder_Settings = {
 					["TheAction"] = "SKADA_NEWSEGMENT",
 				}, -- [283]
 			},
+			["Name"] = "Garzh",
+			["Description"] = "",
 		}, -- [1]
 	},
 }

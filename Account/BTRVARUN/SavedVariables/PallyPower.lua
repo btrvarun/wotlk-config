@@ -33,6 +33,19 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
+	["Powerpala"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		2, -- [4]
+		2, -- [5]
+		1, -- [6]
+		3, -- [7]
+		3, -- [8]
+		2, -- [9]
+		3, -- [10]
+		1, -- [11]
+	},
 	["Hugixx"] = {
 		3, -- [1]
 		3, -- [2]
@@ -282,6 +295,8 @@ PallyPower_Assignments = {
 	},
 }
 PallyPower_NormalAssignments = {
+	["Powerpala"] = {
+	},
 	["Hugixx"] = {
 	},
 	["Xuxiaoge"] = {
@@ -325,6 +340,7 @@ PallyPower_NormalAssignments = {
 	},
 }
 PallyPower_AuraAssignments = {
+	["Powerpala"] = 3,
 	["Hugixx"] = 5,
 	["Xuxiaoge"] = 1,
 	["Errorpaladin"] = 1,

@@ -24,294 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"FAR Gloinador va Sturume HamerUNG Falhedring Nevrenrothas", -- [1]
-			"Emte", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1346, -- [11]
-			"0x07000000004BA276", -- [12]
-			0, -- [13]
-			[51] = 1572284421,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaEmte|r",
-		}, -- [1]
-		{
-			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
-			"Bearminator", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1349, -- [11]
-			"0x0700000000433BFA", -- [12]
-			0, -- [13]
-			[51] = 1572284422,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aBearminator|r",
-		}, -- [2]
-		{
-			"WTS |cffa335ee|Hitem:49906:0:0:0:0:0:0:0:80|h[Hellfrozen Bonegrinders]|h|r", -- [1]
-			"Lossbee", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1350, -- [11]
-			"0x07000000004BF601", -- [12]
-			0, -- [13]
-			[51] = 1572284423,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dLossbee|r",
-		}, -- [3]
-		{
-			"lf 1 tank 2 mdps 2 rdps icc 10alt run 5.4k+ must have achiev on main char or no invite /w me", -- [1]
-			"Ohliviu", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1352, -- [11]
-			"0x07000000004B06FD", -- [12]
-			0, -- [13]
-			[51] = 1572284424,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Ohliviu|r",
-		}, -- [4]
-		{
-			"BOR GOTH NOTH E ASH NUD VIL TI O KO Y RE KO E An y lo Agol va ras Goth Noth TI danieb ", -- [1]
-			"Andjeloxoxo", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1354, -- [11]
-			"0x07000000001ABFD4", -- [12]
-			0, -- [13]
-			[51] = 1572284426,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffffffffAndjeloxoxo|r",
-		}, -- [5]
-		{
-			"FAR Gloinador va Sturume Algos Falhedring Nevrenrothas", -- [1]
-			"Emte", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1358, -- [11]
-			"0x07000000004BA276", -- [12]
-			0, -- [13]
-			[51] = 1572284430,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaEmte|r",
-		}, -- [6]
-		{
-			"BOR ador uden O uden VIL NUD BOR HIR Lo NUD WOS BUR y lo ve borne goibon ", -- [1]
-			"Cappitalbraa", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1361, -- [11]
-			"0x0700000000393542", -- [12]
-			0, -- [13]
-			[51] = 1572284434,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffffffffCappitalbraa|r",
-		}, -- [7]
-		{
-			"need just heal voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
-			"Gozwee", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			1362, -- [11]
-			"0x0700000000495A74", -- [12]
-			0, -- [13]
-			[51] = 1572284434,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaGozwee|r",
-		}, -- [8]
-		{
-			"need just heal voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
-			"Gozwee", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1363, -- [11]
-			"0x0700000000495A74", -- [12]
-			0, -- [13]
-			[51] = 1572284435,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaGozwee|r",
-		}, -- [9]
-		{
-			"lf 1 tank 2 mdps 2 rdps icc 10alt run 5.4k+ must have achiev on main char or no invite /w me", -- [1]
-			"Ohliviu", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1364, -- [11]
-			"0x07000000004B06FD", -- [12]
-			0, -- [13]
-			[51] = 1572284436,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Ohliviu|r",
-		}, -- [10]
-		{
-			"FAR Gloinador va Sturume Algos Falhedring Nevrenrothas", -- [1]
-			"Emte", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1366, -- [11]
-			"0x07000000004BA276", -- [12]
-			0, -- [13]
-			[51] = 1572284441,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaEmte|r",
-		}, -- [11]
-		{
-			" NOVAS O U E valesh U E borne Y Y ador E TI uden E Y VE agol wos lithtos ash uden regenthor U E E MAJIS koshvel NE kaelsig", -- [1]
-			"Eelunee", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1367, -- [11]
-			"0x070000000041C99F", -- [12]
-			0, -- [13]
-			[51] = 1572284441,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Eelunee|r",
-		}, -- [12]
-		{
-			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
-			"Bearminator", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1368, -- [11]
-			"0x0700000000433BFA", -- [12]
-			0, -- [13]
-			[51] = 1572284442,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aBearminator|r",
-		}, -- [13]
-		{
-			"LFM 1Pala tank+ 1 Dps VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
-			"Raggna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1369, -- [11]
-			"0x0700000000035AE8", -- [12]
-			0, -- [13]
-			[51] = 1572284443,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aRaggna|r",
-		}, -- [14]
-		{
-			"LFM 1Pala tank+ 1 Dps VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
-			"Raggna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1370, -- [11]
-			"0x0700000000035AE8", -- [12]
-			0, -- [13]
-			[51] = 1572284443,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aRaggna|r",
-		}, -- [15]
-		{
-			"LFM 1Pala tank+ 1 Dps VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
-			"Raggna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1371, -- [11]
-			"0x0700000000035AE8", -- [12]
-			0, -- [13]
-			[51] = 1572284444,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aRaggna|r",
-		}, -- [16]
-		{
 			"LFM ** TOC 25 FRESH RUN ** need 4 healers, 3 mdps, 8 rdps |cffa335ee|Hitem:47303:0:0:0:0:0:0:0:80|h[Death's Choice]|h|r RESERVED ONLY. link me GS and achievement.", -- [1]
 			"Dkayx", -- [2]
 			"Orcish", -- [3]
@@ -328,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1572284445,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDkayx|r",
-		}, -- [17]
+		}, -- [1]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -346,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1572284445,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aBearminator|r",
-		}, -- [18]
+		}, -- [2]
 		{
 			" [Runed Cardinal Ruby]1 [Potent Ametrine]2", -- [1]
 			"Galictheafk", -- [2]
@@ -364,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1572284445,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aGalictheafk|r",
-		}, -- [19]
+		}, -- [3]
 		{
 			"FAR Gloinador va Sturume Algos Falhedring Nevrenrothas", -- [1]
 			"Emte", -- [2]
@@ -382,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1572284447,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaEmte|r",
-		}, -- [20]
+		}, -- [4]
 		{
 			"Lfm icc10nm fresh LK run. Need 2 tanks and 2 dps! /w gs + LK achieve or ignore. (BoE ress)", -- [1]
 			"Firsthordcha", -- [2]
@@ -400,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1572284449,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddFirsthordcha|r",
-		}, -- [21]
+		}, -- [5]
 		{
 			" LFM VOA 25 4 BOSS RUN NEED 2 Heal somone dps (dk items reserved) ", -- [1]
 			"Infranktero", -- [2]
@@ -418,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1572284449,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [22]
+		}, -- [6]
 		{
 			"Unremarkable flexes his muscles.  Oooooh so strong!", -- [1]
 			"Unremarkable", -- [2]
@@ -436,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1572284450,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cfff48cbaUnremarkable|r",
-		}, -- [23]
+		}, -- [7]
 		{
 			"LFM 1Pala tank+ 1 Dps VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -454,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1572284451,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [24]
+		}, -- [8]
 		{
 			"LFM 1Pala tank+ 1 Dps VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -472,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1572284452,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [25]
+		}, -- [9]
 		{
 			"LFM 1Pala tank+ 1 Dps VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -490,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1572284452,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [26]
+		}, -- [10]
 		{
 			"icc 25hc need all +6200 wis me your class gs and best achive b/p ress ", -- [1]
 			"Mylord", -- [2]
@@ -508,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1572284453,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaMylord|r",
-		}, -- [27]
+		}, -- [11]
 		{
 			"VOA 10 lf heal dps ", -- [1]
 			"Satanick", -- [2]
@@ -526,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1572284453,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dSatanick|r",
-		}, -- [28]
+		}, -- [12]
 		{
 			"<<<<<< VOA 10NM >>>> -----5k2-----NEED Tank WISP GS ROLE CLASS Frost", -- [1]
 			"Jenecis", -- [2]
@@ -544,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1572284454,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefJenecis|r",
-		}, -- [29]
+		}, -- [13]
 		{
 			"VOA 10 lf heal dps ", -- [1]
 			"Satanick", -- [2]
@@ -562,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1572284456,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dSatanick|r",
-		}, -- [30]
+		}, -- [14]
 		{
 			" LFM VOA 25 4 BOSS RUN NEED 2 Heal somone dps (dk items reserved) ", -- [1]
 			"Infranktero", -- [2]
@@ -580,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1572284463,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [31]
+		}, -- [15]
 		{
 			"Lf rsham ToC 25 nm scroll run 5.1k+ /w achiev and gs 24/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -598,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1572284465,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaWiren|r",
-		}, -- [32]
+		}, -- [16]
 		{
 			"Lf rsham ToC 25 nm scroll run 5.1k+ /w achiev and gs 24/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -616,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1572284467,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaWiren|r",
-		}, -- [33]
+		}, -- [17]
 		{
 			" NOVAS O U E valesh U E borne Y Y ador E TI uden E Y VE agol wos lithtos ash uden regenthor U E E MAJIS koshvel NE kaelsig", -- [1]
 			"Shanayia", -- [2]
@@ -634,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1572284467,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffShanayia|r",
-		}, -- [34]
+		}, -- [18]
 		{
 			"<<<<<< VOA 10NM >>>> -----5k2-----NEED Tank WISP GS ROLE CLASS Frost", -- [1]
 			"Jenecis", -- [2]
@@ -652,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1572284470,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefJenecis|r",
-		}, -- [35]
+		}, -- [19]
 		{
 			"LFM 2 tank+ 1 Dps + 1 Heal VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -670,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1572284474,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [36]
+		}, -- [20]
 		{
 			"LFM 2 tank+ 1 Dps + 1 Heal VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -688,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1572284474,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [37]
+		}, -- [21]
 		{
 			"LFM 2 tank+ 1 Dps + 1 Heal VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -706,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1572284475,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [38]
+		}, -- [22]
 		{
 			"VOA 10 1 HEAL REST DPS W/ME CLASS ROLE FROST ONLY ", -- [1]
 			"Sayfanar", -- [2]
@@ -724,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1572284476,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaSayfanar|r",
-		}, -- [39]
+		}, -- [23]
 		{
 			"Where can i buy cold weather flying ?", -- [1]
 			"Ultragrozen", -- [2]
@@ -742,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1572284477,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Ultragrozen|r",
-		}, -- [40]
+		}, -- [24]
 		{
 			" LFM VOA 25 4 BOSS RUN NEED 2 Heal somone dps (dk items reserved) ", -- [1]
 			"Infranktero", -- [2]
@@ -760,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1572284480,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [41]
+		}, -- [25]
 		{
 			"BOR GLOIN ASH GOTH E Bur O ADOR UDEN O agol E U vrum", -- [1]
 			"Otecnaum", -- [2]
@@ -778,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1572284481,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffOtecnaum|r",
-		}, -- [42]
+		}, -- [26]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -796,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1572284481,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aBearminator|r",
-		}, -- [43]
+		}, -- [27]
 		{
 			"BOR ador uden O uden VIL NUD BOR HIR Lo NUD WOS BUR y lo ve borne goibon ", -- [1]
 			"Cappitalbraa", -- [2]
@@ -814,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1572284484,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffCappitalbraa|r",
-		}, -- [44]
+		}, -- [28]
 		{
 			"<<<<<< VOA 10NM >>>> -----5k2-----NEED Tank WISP GS ROLE CLASS Frost", -- [1]
 			"Jenecis", -- [2]
@@ -832,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1572284485,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefJenecis|r",
-		}, -- [45]
+		}, -- [29]
 		{
 			" [Runed Cardinal Ruby]1 [Potent Ametrine]2", -- [1]
 			"Galictheafk", -- [2]
@@ -850,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1572284485,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aGalictheafk|r",
-		}, -- [46]
+		}, -- [30]
 		{
 			" NOVAS O U E valesh U E borne Y Y ador E TI uden E Y VE agol wos lithtos ash uden regenthor U E E MAJIS koshvel NE kaelsig", -- [1]
 			"Eelunee", -- [2]
@@ -868,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1572284486,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Eelunee|r",
-		}, -- [47]
+		}, -- [31]
 		{
 			"VOA 10 class run need all w spc/ gs", -- [1]
 			"Satila", -- [2]
@@ -886,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1572284489,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSatila|r",
-		}, -- [48]
+		}, -- [32]
 		{
 			"LFM ** TOC 25 FRESH RUN ** need 4 healers, 3 mdps, 8 rdps |cffa335ee|Hitem:47303:0:0:0:0:0:0:0:80|h[Death's Choice]|h|r RESERVED ONLY. link me GS and achievement.", -- [1]
 			"Dkayx", -- [2]
@@ -904,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1572284490,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDkayx|r",
-		}, -- [49]
+		}, -- [33]
 		{
 			"LFM 2 tank+ 1 Dps + 1 Heal VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -922,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1572284491,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [50]
+		}, -- [34]
 		{
 			"LFM 2 tank+ 1 Dps + 1 Heal VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -940,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1572284491,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [51]
+		}, -- [35]
 		{
 			" [Runed Cardinal Ruby]1 [Potent Ametrine]2 WTB", -- [1]
 			"Galictheafk", -- [2]
@@ -958,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1572284492,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aGalictheafk|r",
-		}, -- [52]
+		}, -- [36]
 		{
 			" LFM VOA 25 4 BOSS RUN NEED 2 Heal somone dps (dk items reserved) ", -- [1]
 			"Infranktero", -- [2]
@@ -976,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1572284493,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [53]
+		}, -- [37]
 		{
 			" LFM VOA 25 4 BOSS RUN NEED 2 Heal somone dps (dk items reserved) ", -- [1]
 			"Infranktero", -- [2]
@@ -994,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1572284495,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [54]
+		}, -- [38]
 		{
 			"NEED TANK & HEALER FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1012,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1572284496,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuulakana|r",
-		}, -- [55]
+		}, -- [39]
 		{
 			"NEED TANK & HEALER FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1030,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1572284497,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuulakana|r",
-		}, -- [56]
+		}, -- [40]
 		{
 			"LFM 2 tank+ 1 Dps + 1 Heal VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -1048,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1572284498,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [57]
+		}, -- [41]
 		{
 			"is there paladin trainer in OG?", -- [1]
 			"Ribcore", -- [2]
@@ -1066,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1572284501,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaRibcore|r",
-		}, -- [58]
+		}, -- [42]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -1084,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1572284503,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aBearminator|r",
-		}, -- [59]
+		}, -- [43]
 		{
 			"LU Ras Cynewalden Ruftos Ras", -- [1]
 			"Shamwan", -- [2]
@@ -1102,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1572284511,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddShamwan|r",
-		}, -- [60]
+		}, -- [44]
 		{
 			" LFM VOA 25 4 BOSS RUN NEED 2 Heal somone dps (dk items reserved) ", -- [1]
 			"Infranktero", -- [2]
@@ -1120,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1572284514,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [61]
+		}, -- [45]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Pirinc", -- [2]
@@ -1138,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1572284515,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffPirinc|r",
-		}, -- [62]
+		}, -- [46]
 		{
 			" LFM VOA 25 4 BOSS RUN NEED 2 Heal somone dps (dk items reserved) ", -- [1]
 			"Infranktero", -- [2]
@@ -1156,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1572284516,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [63]
+		}, -- [47]
 		{
 			"how to get friendly with kirin tor with low lvl", -- [1]
 			"Glukoze", -- [2]
@@ -1174,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1572284518,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Glukoze|r",
-		}, -- [64]
+		}, -- [48]
 		{
 			"VOA 10 class run need all w spc/ gs tank and dps 8/10", -- [1]
 			"Satila", -- [2]
@@ -1192,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1572284518,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSatila|r",
-		}, -- [65]
+		}, -- [49]
 		{
 			"<<<<<< VOA 10NM >>>> -----5k2-----NEED Tank WISP GS ROLE CLASS Frost", -- [1]
 			"Jenecis", -- [2]
@@ -1210,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1572284523,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefJenecis|r",
-		}, -- [66]
+		}, -- [50]
 		{
 			"WTB |cffa335ee|Hitem:31336:0:0:0:0:0:0:0:80|h[Blade of Wizardry]|h|r", -- [1]
 			"Pusitekurac", -- [2]
@@ -1228,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1572284525,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefPusitekurac|r",
-		}, -- [67]
+		}, -- [51]
 		{
 			"icc 25hc need all +6200 wis me your class gs and best achive b/p ress must have discord ", -- [1]
 			"Mylord", -- [2]
@@ -1246,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1572284527,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaMylord|r",
-		}, -- [68]
+		}, -- [52]
 		{
 			"LFM VOA 25 F+F 2tanks+1dps (wisp; calss, role, gs) min 5k gs'", -- [1]
 			"Raggna", -- [2]
@@ -1264,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1572284528,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [69]
+		}, -- [53]
 		{
 			"LFM VOA 25 F+F 2tanks+1dps (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -1282,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1572284529,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [70]
+		}, -- [54]
 		{
 			"LFM VOA 25 F+F 2tanks+1dps (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -1300,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1572284529,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRaggna|r",
-		}, -- [71]
+		}, -- [55]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -1318,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1572284531,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aBearminator|r",
-		}, -- [72]
+		}, -- [56]
 		{
 			"VOA 10 lf heal dps ", -- [1]
 			"Satanick", -- [2]
@@ -1336,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1572284532,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dSatanick|r",
-		}, -- [73]
+		}, -- [57]
 		{
 			"s run need all w spc/ gs tank and dps 8/10", -- [1]
 			"Satila", -- [2]
@@ -1354,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1572284533,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSatila|r",
-		}, -- [74]
+		}, -- [58]
 		{
 			"Lf rsham ToC 25 nm scroll run 5.1k+ /w achiev and gs 24/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -1372,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1572284533,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaWiren|r",
-		}, -- [75]
+		}, -- [59]
 		{
 			"NEED TANK & HEALER FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1390,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1572284534,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuulakana|r",
-		}, -- [76]
+		}, -- [60]
 		{
 			"LFM ** TOC 25 FRESH RUN ** need 4 healers, 2 mdps, 8 rdps |cffa335ee|Hitem:47303:0:0:0:0:0:0:0:80|h[Death's Choice]|h|r RESERVED ONLY. link me GS and achievement.", -- [1]
 			"Dkayx", -- [2]
@@ -1408,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1572284535,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDkayx|r",
-		}, -- [77]
+		}, -- [61]
 		{
 			"Lf rsham ToC 25 nm scroll run 5.1k+ /w achiev and gs 24/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -1426,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1572284535,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaWiren|r",
-		}, -- [78]
+		}, -- [62]
 		{
 			"RUFTVESS NOSTYEC ODES RE RAS RU DAEGIL", -- [1]
 			"Sumiudex", -- [2]
@@ -1444,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1572284537,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Sumiudex|r",
-		}, -- [79]
+		}, -- [63]
 		{
 			"RUFTVESS NOSTYEC ODES RE RAS RU DAEGIL", -- [1]
 			"Sumiudex", -- [2]
@@ -1462,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1572284537,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Sumiudex|r",
-		}, -- [80]
+		}, -- [64]
 		{
 			"BOR GOTH NOTH E ASH NUD VIL TI O KO Y RE KO E An y lo Agol va ras Goth Noth TI danieb ", -- [1]
 			"Andjeloxoxo", -- [2]
@@ -1480,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1572284537,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffAndjeloxoxo|r",
-		}, -- [81]
+		}, -- [65]
 		{
 			"NEED TANK & HEALER FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1498,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1572284538,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuulakana|r",
-		}, -- [82]
+		}, -- [66]
 		{
 			"ANY RS 10 ?", -- [1]
 			"Sweneyog", -- [2]
@@ -1516,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1572284539,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefSweneyog|r",
-		}, -- [83]
+		}, -- [67]
 		{
 			"ELODERUNG EALDOR", -- [1]
 			"Sumiudex", -- [2]
@@ -1534,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1572284540,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Sumiudex|r",
-		}, -- [84]
+		}, -- [68]
 		{
 			"sun well plateau loocing for party", -- [1]
 			"Macklaren", -- [2]
@@ -1552,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1572284541,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aMacklaren|r",
-		}, -- [85]
+		}, -- [69]
 		{
 			" |cffffff00|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r wis me need all", -- [1]
 			"Gozog", -- [2]
@@ -1570,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1572284545,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGozog|r",
-		}, -- [86]
+		}, -- [70]
 		{
 			" NOVAS O U E valesh U E borne Y Y ador E TI uden E Y VE agol wos lithtos ash uden regenthor U E E MAJIS koshvel NE kaelsig", -- [1]
 			"Eelunee", -- [2]
@@ -1588,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1572284547,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Eelunee|r",
-		}, -- [87]
+		}, -- [71]
 		{
 			"VOA 10 lf heal dps ", -- [1]
 			"Satanick", -- [2]
@@ -1606,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1572284547,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dSatanick|r",
-		}, -- [88]
+		}, -- [72]
 		{
 			"how to get friendly with kirin tor??????????? low lvl ", -- [1]
 			"Glukoze", -- [2]
@@ -1624,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1572284553,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Glukoze|r",
-		}, -- [89]
+		}, -- [73]
 		{
 			"s run need all w spc/ gs tank and dps 8/10", -- [1]
 			"Satila", -- [2]
@@ -1642,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1572284554,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSatila|r",
-		}, -- [90]
+		}, -- [74]
 		{
 			"lf 1 tank 1 mdps 2 rdps icc10n alt run 5.4k+ /w me for inv", -- [1]
 			"Ohliviu", -- [2]
@@ -1660,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1572284559,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Ohliviu|r",
-		}, -- [91]
+		}, -- [75]
 		{
 			"BOR ador uden O uden VIL NUD BOR HIR Lo NUD WOS BUR y lo ve borne goibon ", -- [1]
 			"Cappitalbraa", -- [2]
@@ -1678,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1572284561,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffCappitalbraa|r",
-		}, -- [92]
+		}, -- [76]
 		{
 			"BOR GLOIN ASH GOTH E Bur O ADOR UDEN O agol E U vrum", -- [1]
 			"Otecnaum", -- [2]
@@ -1696,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1572284562,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffOtecnaum|r",
-		}, -- [93]
+		}, -- [77]
 		{
 			"lf 1 tank 1 mdps 2 rdps icc10n alt run 5.4k+ /w me for inv", -- [1]
 			"Ohliviu", -- [2]
@@ -1714,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1572284565,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Ohliviu|r",
-		}, -- [94]
+		}, -- [78]
 		{
 			"VOA 10 lf heal dps ", -- [1]
 			"Satanick", -- [2]
@@ -1732,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1572284567,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dSatanick|r",
-		}, -- [95]
+		}, -- [79]
 		{
 			"O ASH Ash Bor Ash KO ", -- [1]
 			"Ouren", -- [2]
@@ -1750,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1572284567,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaOuren|r",
-		}, -- [96]
+		}, -- [80]
 		{
 			"VOA 10 LAST TANK W/ME CLASS ROLE FROST ONLY ", -- [1]
 			"Sayfanar", -- [2]
@@ -1768,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1572284570,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaSayfanar|r",
-		}, -- [97]
+		}, -- [81]
 		{
 			"lf 1 tank 1 mdps 2 rdps icc10n alt run 5.4k+ /w me for inv", -- [1]
 			"Ohliviu", -- [2]
@@ -1786,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1572284572,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Ohliviu|r",
-		}, -- [98]
+		}, -- [82]
 		{
 			" |cffffff00|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r need all wis me ", -- [1]
 			"Gozog", -- [2]
@@ -1804,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1572284574,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGozog|r",
-		}, -- [99]
+		}, -- [83]
 		{
 			"icc 25hc need all +6200 wis me your class gs and best achive b/p ress must have discord ", -- [1]
 			"Mylord", -- [2]
@@ -1822,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1572284574,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaMylord|r",
-		}, -- [100]
+		}, -- [84]
 		{
 			"lf 1 tank 1 mdps 2 rdps icc10n alt run 5.4k+ /w me for inv", -- [1]
 			"Ohliviu", -- [2]
@@ -1840,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1572284578,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Ohliviu|r",
-		}, -- [101]
+		}, -- [85]
 		{
 			"VOA 10 LAST TANK W/ME CLASS ROLE FROST ONLY ", -- [1]
 			"Sayfanar", -- [2]
@@ -1858,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1572284583,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaSayfanar|r",
-		}, -- [102]
+		}, -- [86]
 		{
 			" |cffffff00|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r wis me need all", -- [1]
 			"Gozog", -- [2]
@@ -1876,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1572284584,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGozog|r",
-		}, -- [103]
+		}, -- [87]
 		{
 			"FAR Gloinador va Sturume Algos Falhedring Nevrenrothas", -- [1]
 			"Emte", -- [2]
@@ -1894,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1572284584,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaEmte|r",
-		}, -- [104]
+		}, -- [88]
 		{
 			"lf 1 tank 1 mdps 2 rdps icc10n alt run 5.4k+ /w me for inv", -- [1]
 			"Ohliviu", -- [2]
@@ -1912,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1572284585,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Ohliviu|r",
-		}, -- [105]
+		}, -- [89]
 		{
 			" NOVAS O U E valesh U E borne Y Y ador E TI uden E Y VE agol wos lithtos ash uden regenthor U E E MAJIS koshvel NE kaelsig", -- [1]
 			"Eelunee", -- [2]
@@ -1930,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1572284586,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Eelunee|r",
-		}, -- [106]
+		}, -- [90]
 		{
 			" |cffffff00|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r need all wis me ", -- [1]
 			"Gozog", -- [2]
@@ -1948,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1572284587,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGozog|r",
-		}, -- [107]
+		}, -- [91]
 		{
 			"BOR GLOIN ASH GOTH E Bur O AGOL E U vrum", -- [1]
 			"Otecnaum", -- [2]
@@ -1966,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1572284587,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffOtecnaum|r",
-		}, -- [108]
+		}, -- [92]
 		{
 			"VOA 10 LAST TANK W/ME CLASS ROLE FROST ONLY ", -- [1]
 			"Sayfanar", -- [2]
@@ -1984,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1572284587,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSayfanar|r",
-		}, -- [109]
+		}, -- [93]
 		{
 			"Lfm icc10nm fresh LK run. Need 2 tanks and 1 melee dps! /w gs + LK achieve or ignore. (BoE ress)", -- [1]
 			"Firsthordcha", -- [2]
@@ -2002,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1572284587,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddFirsthordcha|r",
-		}, -- [110]
+		}, -- [94]
 		{
 			"BOR ador uden O uden VIL NUD BOR HIR Lo NUD WOS BUR y lo ve borne goibon ", -- [1]
 			"Cappitalbraa", -- [2]
@@ -2020,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1572284591,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffCappitalbraa|r",
-		}, -- [111]
+		}, -- [95]
 		{
 			"WTS |cffa335ee|Hitem:49906:0:0:0:0:0:0:0:80|h[Hellfrozen Bonegrinders]|h|r", -- [1]
 			"Lossbee", -- [2]
@@ -2038,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1572284592,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLossbee|r",
-		}, -- [112]
+		}, -- [96]
 		{
 			"Lf rsham ToC 25 nm scroll run 5.1k+ /w achiev and gs 24/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -2056,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1572284594,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaWiren|r",
-		}, -- [113]
+		}, -- [97]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -2074,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1572284595,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aBearminator|r",
-		}, -- [114]
+		}, -- [98]
 		{
 			"Lf rsham ToC 25 nm scroll run 5.1k+ /w achiev and gs 24/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -2092,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1572284596,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaWiren|r",
-		}, -- [115]
+		}, -- [99]
 		{
 			" |cffffff00|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r need all wis me ", -- [1]
 			"Gozog", -- [2]
@@ -2110,7 +1822,7 @@ ElvCharacterDB = {
 			[51] = 1572284599,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGozog|r",
-		}, -- [116]
+		}, -- [100]
 		{
 			" |cffffff00|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r wis me need all", -- [1]
 			"Gozog", -- [2]
@@ -2128,7 +1840,7 @@ ElvCharacterDB = {
 			[51] = 1572284600,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGozog|r",
-		}, -- [117]
+		}, -- [101]
 		{
 			"FAR Gloinador va Sturume Algos Falhedring Nevrenrothas", -- [1]
 			"Emte", -- [2]
@@ -2146,7 +1858,7 @@ ElvCharacterDB = {
 			[51] = 1572284603,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaEmte|r",
-		}, -- [118]
+		}, -- [102]
 		{
 			"LFM VOA 25 ALL BOSS (DK ITEMS RESERVED)", -- [1]
 			"Infranktero", -- [2]
@@ -2164,7 +1876,7 @@ ElvCharacterDB = {
 			[51] = 1572284604,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [119]
+		}, -- [103]
 		{
 			"BOR VIL TI O ASH RU HIR E E GOTH DAnieb ROgesh E U vrum Ruff Agol va ras Goth Noth TI danieb ", -- [1]
 			"Nikxon", -- [2]
@@ -2182,7 +1894,7 @@ ElvCharacterDB = {
 			[51] = 1572284605,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dNikxon|r",
-		}, -- [120]
+		}, -- [104]
 		{
 			"LFM VOA 25 ALL BOSS (DK ITEMS RESERVED)", -- [1]
 			"Infranktero", -- [2]
@@ -2200,7 +1912,7 @@ ElvCharacterDB = {
 			[51] = 1572284608,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aInfranktero|r",
-		}, -- [121]
+		}, -- [105]
 		{
 			"VOA 10 lf Tank (druid/pala/dk/warr) DPS (druid/hunter/rogue/warr)", -- [1]
 			"Satanick", -- [2]
@@ -2218,7 +1930,7 @@ ElvCharacterDB = {
 			[51] = 1572284611,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dSatanick|r",
-		}, -- [122]
+		}, -- [106]
 		{
 			"LOL Aura Mastery 6s", -- [1]
 			"Aprikosee", -- [2]
@@ -2236,7 +1948,7 @@ ElvCharacterDB = {
 			[51] = 1572284612,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaAprikosee|r",
-		}, -- [123]
+		}, -- [107]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Pirinc", -- [2]
@@ -2254,7 +1966,7 @@ ElvCharacterDB = {
 			[51] = 1572284614,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffPirinc|r",
-		}, -- [124]
+		}, -- [108]
 		{
 			"NEED HEALER FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -2272,7 +1984,7 @@ ElvCharacterDB = {
 			[51] = 1572284614,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuulakana|r",
-		}, -- [125]
+		}, -- [109]
 		{
 			"s run need all w spc/ gs tank and dps 8/10", -- [1]
 			"Satila", -- [2]
@@ -2290,7 +2002,7 @@ ElvCharacterDB = {
 			[51] = 1572284615,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSatila|r",
-		}, -- [126]
+		}, -- [110]
 		{
 			"NEED HEALER FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -2308,6 +2020,294 @@ ElvCharacterDB = {
 			[51] = 1572284615,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuulakana|r",
+		}, -- [111]
+		{
+			"garde eynes Lo ve LU VIL VRUM", -- [1]
+			"Sylauria", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			785, -- [11]
+			"0x07000000004A3A85", -- [12]
+			0, -- [13]
+			[51] = 1572367690,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aSylauria|r",
+		}, -- [112]
+		{
+			"LFM NEED 1 DPS icc10 Fresh/Full Run |cffffff00|Hachievement:4584:0700000000015F79:1:9:19:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r NEEED ONLY a very GOOD DPS", -- [1]
+			"Cumz", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			790, -- [11]
+			"0x0700000000015F79", -- [12]
+			0, -- [13]
+			[51] = 1572367693,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dCumz|r",
+		}, -- [113]
+		{
+			"Horseman rise...", -- [1]
+			"Ksavijan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ksavijan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			802, -- [11]
+			"0x07000000004C9D2C", -- [12]
+			0, -- [13]
+			[51] = 1572367713,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc41e3aKsavijan|r",
+		}, -- [114]
+		{
+			"Your time is nigh...", -- [1]
+			"Ksavijan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ksavijan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			803, -- [11]
+			"0x07000000004C9D2C", -- [12]
+			0, -- [13]
+			[51] = 1572367715,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc41e3aKsavijan|r",
+		}, -- [115]
+		{
+			"You felt death once...", -- [1]
+			"Ksavijan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ksavijan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			804, -- [11]
+			"0x07000000004C9D2C", -- [12]
+			0, -- [13]
+			[51] = 1572367717,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc41e3aKsavijan|r",
+		}, -- [116]
+		{
+			"LFM ICC25nm/hc gs 5300 fast run only 4boss |cffffff00|Hachievement:4608:07000000004ABF4F:1:9:15:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Darkladyw", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			806, -- [11]
+			"0x07000000004ABF4F", -- [12]
+			0, -- [13]
+			[51] = 1572367718,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aDarkladyw|r",
+		}, -- [117]
+		{
+			"BOR NOVAS O GOTH LO E Y VE E Y U FAR NE KAELSIG GOTH O MELKA O LARS GARDE EALDOR O NOVAS ", -- [1]
+			"Msuzi", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			807, -- [11]
+			"0x0700000000358E96", -- [12]
+			0, -- [13]
+			[51] = 1572367718,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaMsuzi|r",
+		}, -- [118]
+		{
+			"WTS |cffffd000|Htrade:51313:450:450:7000000003BF139:oyIJJgAQABBSAEAGACBDAAAAAAEABsAAwTDAMUZgiQBHG022IEB|h[Enchanting]|h|r ", -- [1]
+			"Arlamejeriet", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			808, -- [11]
+			"0x07000000003BF139", -- [12]
+			0, -- [13]
+			[51] = 1572367718,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aArlamejeriet|r",
+		}, -- [119]
+		{
+			"BOR VIL TI LU Ko Goth O agol Far VeR ruff nagan Agol va ras Goth Noth SE danieb ", -- [1]
+			"Gainis", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			809, -- [11]
+			"0x07000000001AF5C4", -- [12]
+			0, -- [13]
+			[51] = 1572367718,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Gainis|r",
+		}, -- [120]
+		{
+			"Now, know demise!", -- [1]
+			"Ksavijan", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ksavijan", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			810, -- [11]
+			"0x07000000004C9D2C", -- [12]
+			0, -- [13]
+			[51] = 1572367719,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc41e3aKsavijan|r",
+		}, -- [121]
+		{
+			"LFM NEED 1 DPS icc10 Fresh/Full Run |cffffff00|Hachievement:4584:0700000000015F79:1:9:19:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r NEEED ONLY a very GOOD DPS", -- [1]
+			"Cumz", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			841, -- [11]
+			"0x0700000000015F79", -- [12]
+			0, -- [13]
+			[51] = 1572367790,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dCumz|r",
+		}, -- [122]
+		{
+			"TOC 25 NEED ALL +5.2 GS NEED PATIENT KNOWLEDGE PLAYERS WITH TOC ACHI (MAIN OR ALT) B+O+P RES [Call of the Crusade (25 player)]", -- [1]
+			"Rtv", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			843, -- [11]
+			"0x0700000000463C80", -- [12]
+			0, -- [13]
+			[51] = 1572367791,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaRtv|r",
+		}, -- [123]
+		{
+			"WTS |cffffd000|Htrade:51313:450:450:7000000003BF139:oyIJJgAQABBSAEAGACBDAAAAAAEABsAAwTDAMUZgiQBHG022IEB|h[Enchanting]|h|r ", -- [1]
+			"Arlamejeriet", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			844, -- [11]
+			"0x07000000003BF139", -- [12]
+			0, -- [13]
+			[51] = 1572367793,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aArlamejeriet|r",
+		}, -- [124]
+		{
+			"BOR NOVAS O GOTH LO E Y VE E Y U FAR NE KAELSIG GOTH O MELKA O LARS GARDE EALDOR O NOVAS ", -- [1]
+			"Msuzi", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			845, -- [11]
+			"0x0700000000358E96", -- [12]
+			0, -- [13]
+			[51] = 1572367793,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaMsuzi|r",
+		}, -- [125]
+		{
+			"BOR VIL TI LU Ko Goth O agol Far VeR ruff nagan Agol va ras Goth Noth SE danieb ", -- [1]
+			"Gainis", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			846, -- [11]
+			"0x07000000001AF5C4", -- [12]
+			0, -- [13]
+			[51] = 1572367800,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Gainis|r",
+		}, -- [126]
+		{
+			"International EU Guild PvE Progressing Endgame conent <K H A L I L> Looking for skilled Raiders that able to show up every weekends at 4.45PM ST For ICC/RS10 HC.Req:Discord+GS 5.5K.", -- [1]
+			"Manipulator", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			847, -- [11]
+			"0x0700000000012CB7", -- [12]
+			0, -- [13]
+			[51] = 1572367801,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Manipulator|r",
 		}, -- [127]
 	},
 }
