@@ -19,6 +19,10 @@ MACRO 16777220 "gh" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover] greater heal
 END
+MACRO 16777231 "mf" INV_Misc_QuestionMark
+#showtooltip mind flay
+/cast [nochanneling:Mind Flay] Mind Flay
+END
 MACRO 16777229 "pen" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover] penance

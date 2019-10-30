@@ -72,6 +72,19 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
+	["Rshaam"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
 	["Errorpaladin"] = {
 		1, -- [1]
 		3, -- [2]
@@ -150,6 +163,32 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
+	["Vaglef"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		0, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+		2, -- [11]
+	},
+	["Philliphus"] = {
+		2, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		1, -- [5]
+		2, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		2, -- [10]
+		2, -- [11]
+	},
 	["Nerwaa"] = {
 		3, -- [1]
 		3, -- [2]
@@ -189,18 +228,18 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Philliphus"] = {
-		2, -- [1]
+	["Immutability"] = {
+		3, -- [1]
 		3, -- [2]
-		1, -- [3]
+		3, -- [3]
 		3, -- [4]
-		1, -- [5]
-		2, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		2, -- [10]
-		2, -- [11]
+		4, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
 	},
 	["Plnru"] = {
 		0, -- [1]
@@ -267,12 +306,12 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Immutability"] = {
+	["Sosuke"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
-		4, -- [5]
+		3, -- [5]
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
@@ -280,17 +319,17 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Vaglef"] = {
+	["Rakin"] = {
 		2, -- [1]
 		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		0, -- [6]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		3, -- [6]
 		3, -- [7]
 		3, -- [8]
-		3, -- [9]
-		2, -- [10]
+		1, -- [9]
+		3, -- [10]
 		2, -- [11]
 	},
 }
@@ -300,6 +339,8 @@ PallyPower_NormalAssignments = {
 	["Hugixx"] = {
 	},
 	["Xuxiaoge"] = {
+	},
+	["Rshaam"] = {
 	},
 	["Errorpaladin"] = {
 	},
@@ -313,13 +354,17 @@ PallyPower_NormalAssignments = {
 	},
 	["Talset"] = {
 	},
+	["Vaglef"] = {
+	},
+	["Philliphus"] = {
+	},
 	["Nerwaa"] = {
 	},
 	["Xqxq"] = {
 	},
 	["Betsy"] = {
 	},
-	["Philliphus"] = {
+	["Immutability"] = {
 	},
 	["Plnru"] = {
 	},
@@ -334,32 +379,35 @@ PallyPower_NormalAssignments = {
 			["Argentaluce"] = 4,
 		},
 	},
-	["Immutability"] = {
+	["Sosuke"] = {
 	},
-	["Vaglef"] = {
+	["Rakin"] = {
 	},
 }
 PallyPower_AuraAssignments = {
 	["Powerpala"] = 3,
 	["Hugixx"] = 5,
 	["Xuxiaoge"] = 1,
+	["Rshaam"] = 2,
 	["Errorpaladin"] = 1,
 	["Holydoc"] = 6,
 	["Denii"] = 0,
 	["Fishqs"] = 3,
 	["Chuichui"] = 1,
 	["Talset"] = 0,
+	["Vaglef"] = 3,
+	["Philliphus"] = 4,
 	["Nerwaa"] = 0,
 	["Xqxq"] = 0,
 	["Betsy"] = 2,
-	["Philliphus"] = 4,
+	["Immutability"] = 1,
 	["Plnru"] = 0,
 	["Nerfado"] = 1,
 	["Infine"] = 5,
 	["Rubinartdog"] = 3,
 	["Argentaluce"] = 1,
-	["Immutability"] = 1,
-	["Vaglef"] = 3,
+	["Sosuke"] = 1,
+	["Rakin"] = 3,
 }
 PallyPower_SavedPresets = {
 }
