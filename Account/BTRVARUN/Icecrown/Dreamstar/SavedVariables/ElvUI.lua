@@ -9,276 +9,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"OS 25 need 6 mdps 4 rdps w.me gs 5k+ pve RESV satchel", -- [1]
-			"Akubreaker", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			261, -- [11]
-			"0x07000000004C1A45", -- [12]
-			0, -- [13]
-			[51] = 1572283739,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Akubreaker",
-		}, -- [1]
-		{
-			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
-			"Raggna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			262, -- [11]
-			"0x0700000000035AE8", -- [12]
-			0, -- [13]
-			[51] = 1572283740,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Raggna",
-		}, -- [2]
-		{
-			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
-			"Raggna", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			263, -- [11]
-			"0x0700000000035AE8", -- [12]
-			0, -- [13]
-			[51] = 1572283740,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Raggna",
-		}, -- [3]
-		{
-			"LFM VOA 25 MAN FROST ONLY RPALA PVP LEGS RES ! NEEED ALL! 15/25", -- [1]
-			"Hehkulamppu", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			264, -- [11]
-			"0x07000000002A221F", -- [12]
-			0, -- [13]
-			[51] = 1572283741,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Hehkulamppu",
-		}, -- [4]
-		{
-			"LFM VOA 25 NEED 1 Disco , Lock , Bomy4BOSS RUN (DK items reserved)", -- [1]
-			"Infranktero", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			271, -- [11]
-			"0x07000000004CD733", -- [12]
-			0, -- [13]
-			[51] = 1572283746,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Infranktero",
-		}, -- [5]
-		{
-			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
-			"Bearminator", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			272, -- [11]
-			"0x0700000000433BFA", -- [12]
-			0, -- [13]
-			[51] = 1572283747,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Bearminator",
-		}, -- [6]
-		{
-			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frostt", -- [1]
-			"Gozwee", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			279, -- [11]
-			"0x0700000000495A74", -- [12]
-			0, -- [13]
-			[51] = 1572283751,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Gozwee",
-		}, -- [7]
-		{
-			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
-			"Gozwee", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			281, -- [11]
-			"0x0700000000495A74", -- [12]
-			0, -- [13]
-			[51] = 1572283751,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Gozwee",
-		}, -- [8]
-		{
-			"OS 25 5K+ NEED DPS ", -- [1]
-			"Qopa", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			286, -- [11]
-			"0x07000000002E8F5C", -- [12]
-			0, -- [13]
-			[51] = 1572283754,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Qopa",
-		}, -- [9]
-		{
-			"LF TANK RDF HC 4.5K++", -- [1]
-			"Pocahotass", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"0x070000000018381D", -- [12]
-			0, -- [13]
-			[51] = 1572283755,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Pocahotass",
-		}, -- [10]
-		{
-			"whats the drop rate on the horseman mount", -- [1]
-			"Oblique", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			303, -- [11]
-			"0x0700000000140818", -- [12]
-			0, -- [13]
-			[51] = 1572283761,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Oblique",
-		}, -- [11]
-		{
-			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
-			"Pirinc", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			320, -- [11]
-			"0x070000000000C9C5", -- [12]
-			0, -- [13]
-			[51] = 1572283768,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Pirinc",
-		}, -- [12]
-		{
-			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
-			"Bearminator", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			321, -- [11]
-			"0x0700000000433BFA", -- [12]
-			0, -- [13]
-			[51] = 1572283768,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Bearminator",
-		}, -- [13]
-		{
-			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
-			"Puulakana", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			330, -- [11]
-			"0x0700000000324480", -- [12]
-			0, -- [13]
-			[51] = 1572283771,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Puulakana",
-		}, -- [14]
-		{
-			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
-			"Puulakana", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"0x0700000000324480", -- [12]
-			0, -- [13]
-			[51] = 1572283772,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "Puulakana",
-		}, -- [15]
-		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
 			"Orcish", -- [3]
@@ -295,7 +25,7 @@ ElvCharacterDB = {
 			[51] = 1572283773,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Qopa",
-		}, -- [16]
+		}, -- [1]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frostt", -- [1]
 			"Gozwee", -- [2]
@@ -313,7 +43,7 @@ ElvCharacterDB = {
 			[51] = 1572283775,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Gozwee",
-		}, -- [17]
+		}, -- [2]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
 			"Gozwee", -- [2]
@@ -331,7 +61,7 @@ ElvCharacterDB = {
 			[51] = 1572283775,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Gozwee",
-		}, -- [18]
+		}, -- [3]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Pirinc", -- [2]
@@ -349,7 +79,7 @@ ElvCharacterDB = {
 			[51] = 1572283781,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Pirinc",
-		}, -- [19]
+		}, -- [4]
 		{
 			"'", -- [1]
 			"Raggna", -- [2]
@@ -367,7 +97,7 @@ ElvCharacterDB = {
 			[51] = 1572283783,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [20]
+		}, -- [5]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -385,7 +115,7 @@ ElvCharacterDB = {
 			[51] = 1572283784,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Qopa",
-		}, -- [21]
+		}, -- [6]
 		{
 			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -403,7 +133,7 @@ ElvCharacterDB = {
 			[51] = 1572283784,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [22]
+		}, -- [7]
 		{
 			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -421,7 +151,7 @@ ElvCharacterDB = {
 			[51] = 1572283784,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [23]
+		}, -- [8]
 		{
 			"LFM VOA 25 NEED 1 Disco , Lock , Bomy4BOSS RUN (DK items reserved)", -- [1]
 			"Infranktero", -- [2]
@@ -439,7 +169,7 @@ ElvCharacterDB = {
 			[51] = 1572283786,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Infranktero",
-		}, -- [24]
+		}, -- [9]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -457,7 +187,7 @@ ElvCharacterDB = {
 			[51] = 1572283786,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Qopa",
-		}, -- [25]
+		}, -- [10]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -475,7 +205,7 @@ ElvCharacterDB = {
 			[51] = 1572283787,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Qopa",
-		}, -- [26]
+		}, -- [11]
 		{
 			"LFM VOA 25 Need all atm FROST! Whisper GS and spec 24/25 (DPRIEST ONLY)", -- [1]
 			"Mavradin", -- [2]
@@ -493,7 +223,7 @@ ElvCharacterDB = {
 			[51] = 1572283790,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Mavradin",
-		}, -- [27]
+		}, -- [12]
 		{
 			"WTS |cffffffff|Hitem:21309:0:0:0:0:0:0:0:80|h[Snowman Kit]|h|r |cffffffff|Hitem:21301:0:0:0:0:0:0:0:80|h[Green Helper Box]|h|r 100gold each... got many", -- [1]
 			"Agnihothri", -- [2]
@@ -511,7 +241,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Agnihothri",
-		}, -- [28]
+		}, -- [13]
 		{
 			"WTS |cffffffff|Hitem:21305:0:0:0:0:0:0:0:80|h[Red Helper Box]|h|r |cffffffff|Hitem:21308:0:0:0:0:0:0:0:80|h[Jingling Bell]|h|r 200 gold per each...only limited no of em", -- [1]
 			"Agnihothri", -- [2]
@@ -529,7 +259,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Agnihothri",
-		}, -- [29]
+		}, -- [14]
 		{
 			"any full+full warrior is here?", -- [1]
 			"Kalkan", -- [2]
@@ -547,7 +277,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Kalkan",
-		}, -- [30]
+		}, -- [15]
 		{
 			"any full+full warrior is here?", -- [1]
 			"Kalkan", -- [2]
@@ -565,7 +295,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Kalkan",
-		}, -- [31]
+		}, -- [16]
 		{
 			"any full+full warrior is here?", -- [1]
 			"Kalkan", -- [2]
@@ -583,7 +313,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Kalkan",
-		}, -- [32]
+		}, -- [17]
 		{
 			"any full+full warrior is here?", -- [1]
 			"Kalkan", -- [2]
@@ -601,7 +331,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Kalkan",
-		}, -- [33]
+		}, -- [18]
 		{
 			"WTS |cffa335ee|Hitem:49906:0:0:0:0:0:0:0:80|h[Hellfrozen Bonegrinders]|h|r", -- [1]
 			"Lossbee", -- [2]
@@ -619,7 +349,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Lossbee",
-		}, -- [34]
+		}, -- [19]
 		{
 			"VIL WOS GOTH O AGOL ADOR ASH E E VE VRUM MELKA E Y U FAR VE BORNE THOR RE SE", -- [1]
 			"Rossi", -- [2]
@@ -637,7 +367,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Rossi",
-		}, -- [35]
+		}, -- [20]
 		{
 			"lf arena partner for 10games", -- [1]
 			"Einhof", -- [2]
@@ -655,7 +385,7 @@ ElvCharacterDB = {
 			[51] = 1572283791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Einhof",
-		}, -- [36]
+		}, -- [21]
 		{
 			"International EU Guild PvE Progressing Endgame conent <K H A L I L> Looking for skilled Raiders that able to show up every weekends at 4.45PM ST For ICC/RS10 HC.Req:Discord+GS 5.5K.", -- [1]
 			"Manipulator", -- [2]
@@ -673,7 +403,7 @@ ElvCharacterDB = {
 			[51] = 1572283792,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Manipulator",
-		}, -- [37]
+		}, -- [22]
 		{
 			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -691,7 +421,7 @@ ElvCharacterDB = {
 			[51] = 1572283793,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [38]
+		}, -- [23]
 		{
 			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -709,7 +439,7 @@ ElvCharacterDB = {
 			[51] = 1572283793,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [39]
+		}, -- [24]
 		{
 			"LFM VOA 25 NEED 1 Disco , Lock , Bomy4BOSS RUN (DK items reserved)", -- [1]
 			"Infranktero", -- [2]
@@ -727,7 +457,7 @@ ElvCharacterDB = {
 			[51] = 1572283798,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Infranktero",
-		}, -- [40]
+		}, -- [25]
 		{
 			"LFM VOA 25 NEED 1 Disco , Lock , Bomy4BOSS RUN (DK items reserved)", -- [1]
 			"Infranktero", -- [2]
@@ -745,7 +475,7 @@ ElvCharacterDB = {
 			[51] = 1572283802,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Infranktero",
-		}, -- [41]
+		}, -- [26]
 		{
 			"BOR VIL TI O ASH RU HIR E E GOTH NUD E U vrum Ruff Agol va ras Goth Noth TI danieb ", -- [1]
 			"Otecnaum", -- [2]
@@ -763,7 +493,7 @@ ElvCharacterDB = {
 			[51] = 1572283803,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Otecnaum",
-		}, -- [42]
+		}, -- [27]
 		{
 			"lfm VOA 10 Class RUn Need 1healer / 1 OT and few dps CLASS RUN !", -- [1]
 			"Nerdypig", -- [2]
@@ -781,7 +511,7 @@ ElvCharacterDB = {
 			[51] = 1572283803,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Nerdypig",
-		}, -- [43]
+		}, -- [28]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -799,7 +529,7 @@ ElvCharacterDB = {
 			[51] = 1572283806,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Bearminator",
-		}, -- [44]
+		}, -- [29]
 		{
 			"ICC 10 norm NEED all 5.5+ |cffffff00|Hachievement:4636:0700000000159056:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Fall of the Lich King (10 player)]|h|r boe ress", -- [1]
 			"Elitepriest", -- [2]
@@ -817,7 +547,7 @@ ElvCharacterDB = {
 			[51] = 1572283808,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Elitepriest",
-		}, -- [45]
+		}, -- [30]
 		{
 			"VIL WOS GOTH O AGOL ADOR ASH E E VE VRUM MELKA E Y U FAR VE BORNE THOR RE SE", -- [1]
 			"Rossi", -- [2]
@@ -835,7 +565,7 @@ ElvCharacterDB = {
 			[51] = 1572283808,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Rossi",
-		}, -- [46]
+		}, -- [31]
 		{
 			"OS 25 need 4 mdps 3 rdps w.me gs 5k+ pve RESV satchel", -- [1]
 			"Akubreaker", -- [2]
@@ -853,7 +583,7 @@ ElvCharacterDB = {
 			[51] = 1572283809,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Akubreaker",
-		}, -- [47]
+		}, -- [32]
 		{
 			"lf arena partner for 10 games", -- [1]
 			"Einhof", -- [2]
@@ -871,7 +601,7 @@ ElvCharacterDB = {
 			[51] = 1572283809,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Einhof",
-		}, -- [48]
+		}, -- [33]
 		{
 			"OS 25 need 4 mdps 3 rdps w.me gs 5k+ pve RESV satchel", -- [1]
 			"Akubreaker", -- [2]
@@ -889,7 +619,7 @@ ElvCharacterDB = {
 			[51] = 1572283810,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Akubreaker",
-		}, -- [49]
+		}, -- [34]
 		{
 			"OS 25 need 4 mdps 3 rdps w.me gs 5k+ pve RESV satchel", -- [1]
 			"Akubreaker", -- [2]
@@ -907,7 +637,7 @@ ElvCharacterDB = {
 			[51] = 1572283811,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Akubreaker",
-		}, -- [50]
+		}, -- [35]
 		{
 			"BOR VIL TI O ASH RU HIR E E GOTH NUD E U vrum Ruff Agol va ras Goth Noth TI danieb ", -- [1]
 			"Nikxon", -- [2]
@@ -925,7 +655,7 @@ ElvCharacterDB = {
 			[51] = 1572283815,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Nikxon",
-		}, -- [51]
+		}, -- [36]
 		{
 			"WTS |cffffffff|Hitem:21308:0:0:0:0:0:0:0:80|h[Jingling Bell]|h|r 200 gold", -- [1]
 			"Agnihothri", -- [2]
@@ -943,7 +673,7 @@ ElvCharacterDB = {
 			[51] = 1572283816,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Agnihothri",
-		}, -- [52]
+		}, -- [37]
 		{
 			"BOR VIL TI Nagan va Melka hir RE RE Borne Goth O hir y UdenMajis Agol Veld nud aesire GOTH NUD VIL ", -- [1]
 			"Linderus", -- [2]
@@ -961,7 +691,7 @@ ElvCharacterDB = {
 			[51] = 1572283818,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Linderus",
-		}, -- [53]
+		}, -- [38]
 		{
 			"BONQKAR", -- [1]
 			"Nvi", -- [2]
@@ -979,7 +709,7 @@ ElvCharacterDB = {
 			[51] = 1572283822,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Nvi",
-		}, -- [54]
+		}, -- [39]
 		{
 			"LFM VOA 10 achi run |cffffff00|Hachievement:4016:07000000002586A4:1:4:7:19:4294967295:4294967295:4294967295:4294967295|h[Earth, Wind & Fire (10 player)]|h|r need 1 mdps 1 hunter 6k+ wisp gs spec//", -- [1]
 			"Battlerogue", -- [2]
@@ -997,7 +727,7 @@ ElvCharacterDB = {
 			[51] = 1572283822,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Battlerogue",
-		}, -- [55]
+		}, -- [40]
 		{
 			"LFM VOA 10 achi run |cffffff00|Hachievement:4016:07000000002586A4:1:4:7:19:4294967295:4294967295:4294967295:4294967295|h[Earth, Wind & Fire (10 player)]|h|r need 1 mdps 1 hunter 6k+ wisp gs spec//", -- [1]
 			"Battlerogue", -- [2]
@@ -1015,7 +745,7 @@ ElvCharacterDB = {
 			[51] = 1572283822,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Battlerogue",
-		}, -- [56]
+		}, -- [41]
 		{
 			"BOR GARDE GOTH O LITHTOS UDEN AGOL ASH ASH FAR E NE RAS NE CYNEWALDEN ", -- [1]
 			"Reboca", -- [2]
@@ -1033,7 +763,7 @@ ElvCharacterDB = {
 			[51] = 1572283822,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Reboca",
-		}, -- [57]
+		}, -- [42]
 		{
 			"BOR GOTH O EYNES VE GARDE LARS NOTH E ASH NUD VIL TI O KO Y RE KO E An y lo Agol va ras Goth Noth TI danieb ", -- [1]
 			"Andjeloxoxo", -- [2]
@@ -1051,7 +781,7 @@ ElvCharacterDB = {
 			[51] = 1572283822,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Andjeloxoxo",
-		}, -- [58]
+		}, -- [43]
 		{
 			"ICC 10 norm NEED all 5.5+ |cffffff00|Hachievement:4636:0700000000159056:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Fall of the Lich King (10 player)]|h|r boe ress", -- [1]
 			"Elitepriest", -- [2]
@@ -1069,7 +799,7 @@ ElvCharacterDB = {
 			[51] = 1572283824,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Elitepriest",
-		}, -- [59]
+		}, -- [44]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -1087,7 +817,7 @@ ElvCharacterDB = {
 			[51] = 1572283829,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Qopa",
-		}, -- [60]
+		}, -- [45]
 		{
 			"International EU Guild PvE Progressing Endgame conent <K H A L I L> Looking for skilled Raiders that able to show up every weekends at 4.45PM ST For ICC/RS10 HC.Req:Discord+GS 5.5K.", -- [1]
 			"Manipulator", -- [2]
@@ -1105,7 +835,7 @@ ElvCharacterDB = {
 			[51] = 1572283829,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Manipulator",
-		}, -- [61]
+		}, -- [46]
 		{
 			"BOR VIL TI O ASH RU HIR E E GOTH NUD E U vrum Ruff Agol va ras Goth Noth TI danieb ", -- [1]
 			"Otecnaum", -- [2]
@@ -1123,7 +853,7 @@ ElvCharacterDB = {
 			[51] = 1572283830,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Otecnaum",
-		}, -- [62]
+		}, -- [47]
 		{
 			"HEAL TOC 5MAN n W/me Trinket RUN", -- [1]
 			"Trubyy", -- [2]
@@ -1141,7 +871,7 @@ ElvCharacterDB = {
 			[51] = 1572283831,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Trubyy",
-		}, -- [63]
+		}, -- [48]
 		{
 			"BOR SE SE ve E E Ras Lordaere Gloinador SE danieb LO SE", -- [1]
 			"Dred", -- [2]
@@ -1159,7 +889,7 @@ ElvCharacterDB = {
 			[51] = 1572283831,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Dred",
-		}, -- [64]
+		}, -- [49]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1177,7 +907,7 @@ ElvCharacterDB = {
 			[51] = 1572283832,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [65]
+		}, -- [50]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1195,7 +925,7 @@ ElvCharacterDB = {
 			[51] = 1572283832,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [66]
+		}, -- [51]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -1213,7 +943,7 @@ ElvCharacterDB = {
 			[51] = 1572283833,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Qopa",
-		}, -- [67]
+		}, -- [52]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -1231,7 +961,7 @@ ElvCharacterDB = {
 			[51] = 1572283834,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Qopa",
-		}, -- [68]
+		}, -- [53]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -1249,7 +979,7 @@ ElvCharacterDB = {
 			[51] = 1572283835,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Qopa",
-		}, -- [69]
+		}, -- [54]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frostt", -- [1]
 			"Gozwee", -- [2]
@@ -1267,7 +997,7 @@ ElvCharacterDB = {
 			[51] = 1572283837,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Gozwee",
-		}, -- [70]
+		}, -- [55]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
 			"Gozwee", -- [2]
@@ -1285,7 +1015,7 @@ ElvCharacterDB = {
 			[51] = 1572283837,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Gozwee",
-		}, -- [71]
+		}, -- [56]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1303,7 +1033,7 @@ ElvCharacterDB = {
 			[51] = 1572283838,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [72]
+		}, -- [57]
 		{
 			"ICC 10 norm NEED all 5.5+ |cffffff00|Hachievement:4636:0700000000159056:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Fall of the Lich King (10 player)]|h|r boe ress", -- [1]
 			"Elitepriest", -- [2]
@@ -1321,7 +1051,7 @@ ElvCharacterDB = {
 			[51] = 1572283840,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Elitepriest",
-		}, -- [73]
+		}, -- [58]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1339,7 +1069,7 @@ ElvCharacterDB = {
 			[51] = 1572283842,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [74]
+		}, -- [59]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -1357,7 +1087,7 @@ ElvCharacterDB = {
 			[51] = 1572283854,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Bearminator",
-		}, -- [75]
+		}, -- [60]
 		{
 			"BOR SE SE ve E E Ras Lordaere Gloinador SE danieb AN SE", -- [1]
 			"Dred", -- [2]
@@ -1375,7 +1105,7 @@ ElvCharacterDB = {
 			[51] = 1572283855,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Dred",
-		}, -- [76]
+		}, -- [61]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Pirinc", -- [2]
@@ -1393,7 +1123,7 @@ ElvCharacterDB = {
 			[51] = 1572283862,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Pirinc",
-		}, -- [77]
+		}, -- [62]
 		{
 			"Lf rsham , fwar and 1 mt ToC 25 nm scroll run 5.1k+ /w achiev and gs 21/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -1411,7 +1141,7 @@ ElvCharacterDB = {
 			[51] = 1572283867,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Wiren",
-		}, -- [78]
+		}, -- [63]
 		{
 			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -1429,7 +1159,7 @@ ElvCharacterDB = {
 			[51] = 1572283869,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [79]
+		}, -- [64]
 		{
 			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -1447,7 +1177,7 @@ ElvCharacterDB = {
 			[51] = 1572283869,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [80]
+		}, -- [65]
 		{
 			"LFM ALL VOA 25 F+F (wisp; calss, role, gs) min 5k gs", -- [1]
 			"Raggna", -- [2]
@@ -1465,7 +1195,7 @@ ElvCharacterDB = {
 			[51] = 1572283870,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Raggna",
-		}, -- [81]
+		}, -- [66]
 		{
 			"Lf rsham , fwar and 1 mt ToC 25 nm scroll run 5.1k+ /w achiev and gs 21/25 |cffffff00|Hachievement:3916:0700000000017B91:1:7:16:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Wiren", -- [2]
@@ -1483,7 +1213,7 @@ ElvCharacterDB = {
 			[51] = 1572283871,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Wiren",
-		}, -- [82]
+		}, -- [67]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frostt", -- [1]
 			"Gozwee", -- [2]
@@ -1501,7 +1231,7 @@ ElvCharacterDB = {
 			[51] = 1572283873,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Gozwee",
-		}, -- [83]
+		}, -- [68]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
 			"Gozwee", -- [2]
@@ -1519,7 +1249,7 @@ ElvCharacterDB = {
 			[51] = 1572283873,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Gozwee",
-		}, -- [84]
+		}, -- [69]
 		{
 			"BOR VIL TI O ASH RU HIR E E GOTH NUD E U vrum Ruff Agol va ras Goth Noth TI danieb ", -- [1]
 			"Nikxon", -- [2]
@@ -1537,7 +1267,7 @@ ElvCharacterDB = {
 			[51] = 1572283873,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Nikxon",
-		}, -- [85]
+		}, -- [70]
 		{
 			"WTS |cffffffff|Hitem:21309:0:0:0:0:0:0:0:80|h[Snowman Kit]|h|r |cffffffff|Hitem:21301:0:0:0:0:0:0:0:80|h[Green Helper Box]|h|r 100gold each... got many", -- [1]
 			"Agnihothri", -- [2]
@@ -1555,7 +1285,7 @@ ElvCharacterDB = {
 			[51] = 1572283876,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Agnihothri",
-		}, -- [86]
+		}, -- [71]
 		{
 			"I TRADE ON WARMANE SITE Blood ELF RET PALA WITH 39k GOLD, WRATHFUL SHOULDER, CHEST, LEGS, BIS TRINKET, WEPONS, AND 310% DEADLY G. FROST WARMY MOUNT, PROF JWC/MIN...NAME STRAANGER 118 Coins", -- [1]
 			"Kiryak", -- [2]
@@ -1573,7 +1303,7 @@ ElvCharacterDB = {
 			[51] = 1572283877,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Kiryak",
-		}, -- [87]
+		}, -- [72]
 		{
 			"BOR GOTH O EYNES VE GARDE LARS NOTH E ASH NUD VIL TI O KO Y RE KO E An y lo Agol va ras Goth Noth TI danieb ", -- [1]
 			"Andjeloxoxo", -- [2]
@@ -1591,7 +1321,7 @@ ElvCharacterDB = {
 			[51] = 1572283878,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Andjeloxoxo",
-		}, -- [88]
+		}, -- [73]
 		{
 			" Garde vil Eynes Danavandar Goth LON tiras koshvel bur ash ve aziris vrum tiras GOL Veld HIR Eloderung ME Lithtos bur NAGAN VER VA Goibon BoR SE SE KO nuff DANA hir gol ", -- [1]
 			"Markovicqtx", -- [2]
@@ -1609,7 +1339,7 @@ ElvCharacterDB = {
 			[51] = 1572283881,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Markovicqtx",
-		}, -- [89]
+		}, -- [74]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1627,7 +1357,7 @@ ElvCharacterDB = {
 			[51] = 1572283883,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [90]
+		}, -- [75]
 		{
 			"LFM VOA 25 MAN FROST ONLY RPALA PVP LEGS RES ! NEEED HEALS + RDPS ONLY! 20/25 ", -- [1]
 			"Hehkulamppu", -- [2]
@@ -1645,7 +1375,7 @@ ElvCharacterDB = {
 			[51] = 1572283883,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Hehkulamppu",
-		}, -- [91]
+		}, -- [76]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1663,7 +1393,7 @@ ElvCharacterDB = {
 			[51] = 1572283884,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [92]
+		}, -- [77]
 		{
 			"VIL WOS GOTH O AGOL ADOR ASH E E VE VRUM MELKA E Y U FAR VE BORNE THOR RE SE", -- [1]
 			"Rossi", -- [2]
@@ -1681,7 +1411,7 @@ ElvCharacterDB = {
 			[51] = 1572283885,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Rossi",
-		}, -- [93]
+		}, -- [78]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frostt", -- [1]
 			"Gozwee", -- [2]
@@ -1699,7 +1429,7 @@ ElvCharacterDB = {
 			[51] = 1572283889,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Gozwee",
-		}, -- [94]
+		}, -- [79]
 		{
 			"need dk tank priest rogue dudu lock voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
 			"Gozwee", -- [2]
@@ -1717,7 +1447,7 @@ ElvCharacterDB = {
 			[51] = 1572283889,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Gozwee",
-		}, -- [95]
+		}, -- [80]
 		{
 			"Need All For ICC 25 HC (LDW/PP/Sindy/LK) Norm 6.2k+ Gs Req Lk Run (B+P+Shard Reserved)", -- [1]
 			"Bearminator", -- [2]
@@ -1735,7 +1465,7 @@ ElvCharacterDB = {
 			[51] = 1572283894,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Bearminator",
-		}, -- [96]
+		}, -- [81]
 		{
 			"ICC 10 norm NEED all 5.5+ |cffffff00|Hachievement:4636:0700000000159056:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: Fall of the Lich King (10 player)]|h|r boe ress", -- [1]
 			"Elitepriest", -- [2]
@@ -1753,7 +1483,7 @@ ElvCharacterDB = {
 			[51] = 1572283895,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Elitepriest",
-		}, -- [97]
+		}, -- [82]
 		{
 			"LFM VOA 25 4BOSS run need 1 SP-Disco , hunt,feral (dk items reserved)", -- [1]
 			"Infranktero", -- [2]
@@ -1771,7 +1501,7 @@ ElvCharacterDB = {
 			[51] = 1572283897,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Infranktero",
-		}, -- [98]
+		}, -- [83]
 		{
 			"what is frost dk pve glypz?", -- [1]
 			"Darklorrde", -- [2]
@@ -1789,7 +1519,7 @@ ElvCharacterDB = {
 			[51] = 1572283899,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Darklorrde",
-		}, -- [99]
+		}, -- [84]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1807,7 +1537,7 @@ ElvCharacterDB = {
 			[51] = 1572283901,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [100]
+		}, -- [85]
 		{
 			"WTS |cffffffff|Hitem:21309:0:0:0:0:0:0:0:80|h[Snowman Kit]|h|r |cffffffff|Hitem:21301:0:0:0:0:0:0:0:80|h[Green Helper Box]|h|r 100gold each... got many", -- [1]
 			"Agnihothri", -- [2]
@@ -1825,7 +1555,7 @@ ElvCharacterDB = {
 			[51] = 1572283901,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Agnihothri",
-		}, -- [101]
+		}, -- [86]
 		{
 			"LFM FOR ICC 10 NM /W ME FOR INV MIN GS 5.4K ! FRESH RUN !", -- [1]
 			"Puulakana", -- [2]
@@ -1843,7 +1573,7 @@ ElvCharacterDB = {
 			[51] = 1572283902,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Puulakana",
-		}, -- [102]
+		}, -- [87]
 		{
 			"ras veld LU uden Se", -- [1]
 			"Krymii", -- [2]
@@ -1861,7 +1591,7 @@ ElvCharacterDB = {
 			[51] = 1572283903,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Krymii",
-		}, -- [103]
+		}, -- [88]
 		{
 			"need all voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
 			"Gozwee", -- [2]
@@ -1879,7 +1609,7 @@ ElvCharacterDB = {
 			[51] = 1572283912,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Gozwee",
-		}, -- [104]
+		}, -- [89]
 		{
 			"need all voa 10 wisp class gs and spec 5k gs min only Frost", -- [1]
 			"Gozwee", -- [2]
@@ -1897,7 +1627,7 @@ ElvCharacterDB = {
 			[51] = 1572283912,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Gozwee",
-		}, -- [105]
+		}, -- [90]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -1915,7 +1645,7 @@ ElvCharacterDB = {
 			[51] = 1572283912,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Qopa",
-		}, -- [106]
+		}, -- [91]
 		{
 			"OS 25 5K+ NEED DPS ", -- [1]
 			"Qopa", -- [2]
@@ -1933,7 +1663,7 @@ ElvCharacterDB = {
 			[51] = 1572283913,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Qopa",
-		}, -- [107]
+		}, -- [92]
 		{
 			"ras WersHAesire Thor Bor ", -- [1]
 			"Ksanksus", -- [2]
@@ -1951,7 +1681,7 @@ ElvCharacterDB = {
 			[51] = 1572367567,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Ksanksus",
-		}, -- [108]
+		}, -- [93]
 		{
 			"FAR LordaeRe LandOWAR ash VastrungEn Bornevalesh Nostyec THOR", -- [1]
 			"Dreema", -- [2]
@@ -1969,7 +1699,7 @@ ElvCharacterDB = {
 			[51] = 1572367569,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Dreema",
-		}, -- [109]
+		}, -- [94]
 		{
 			"LFM ICC25nm/hc gs 5300 fast run only 4boss |cffffff00|Hachievement:4608:07000000004ABF4F:1:9:15:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Darkladyw", -- [2]
@@ -1987,7 +1717,7 @@ ElvCharacterDB = {
 			[51] = 1572367569,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Darkladyw",
-		}, -- [110]
+		}, -- [95]
 		{
 			"LFM ICC 10 Need all Link ach / gs /spc 1 tank 9/10", -- [1]
 			"Satila", -- [2]
@@ -2005,7 +1735,7 @@ ElvCharacterDB = {
 			[51] = 1572367571,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Satila",
-		}, -- [111]
+		}, -- [96]
 		{
 			"LFM ICC25nm/hc gs 5300 fast run only 4boss |cffffff00|Hachievement:4608:07000000004ABF4F:1:9:15:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Darkladyw", -- [2]
@@ -2023,7 +1753,7 @@ ElvCharacterDB = {
 			[51] = 1572367590,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Darkladyw",
-		}, -- [112]
+		}, -- [97]
 		{
 			"goth THOR AGOL nud LordaeRe Goth TI danieb Lo ve noth se lo borne voh VE", -- [1]
 			"Vertrique", -- [2]
@@ -2041,7 +1771,7 @@ ElvCharacterDB = {
 			[51] = 1572367595,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Vertrique",
-		}, -- [113]
+		}, -- [98]
 		{
 			"International EU Guild PvE Progressing Endgame conent <K H A L I L> Looking for skilled Raiders that able to show up every weekends at 4.45PM ST For ICC/RS10 HC.Req:Discord+GS 5.5K.", -- [1]
 			"Manipulator", -- [2]
@@ -2059,7 +1789,7 @@ ElvCharacterDB = {
 			[51] = 1572367595,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Manipulator",
-		}, -- [114]
+		}, -- [99]
 		{
 			"WTS |cffffd000|Htrade:51313:450:450:7000000003BF139:oyIJJgAQABBSAEAGACBDAAAAAAEABsAAwTDAMUZgiQBHG022IEB|h[Enchanting]|h|r ", -- [1]
 			"Arlamejeriet", -- [2]
@@ -2077,7 +1807,7 @@ ElvCharacterDB = {
 			[51] = 1572367595,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Arlamejeriet",
-		}, -- [115]
+		}, -- [100]
 		{
 			"TOC 25 NEED ALL +5.2 GS NEED PATIENT KNOWLEDGE PLAYERS WITH TOC ACHI (MAIN OR ALT) B+O+P RES [Call of the Crusade (25 player)]", -- [1]
 			"Rtv", -- [2]
@@ -2095,7 +1825,7 @@ ElvCharacterDB = {
 			[51] = 1572367595,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Rtv",
-		}, -- [116]
+		}, -- [101]
 		{
 			"Horseman rise...", -- [1]
 			"Powerpala", -- [2]
@@ -2113,7 +1843,7 @@ ElvCharacterDB = {
 			[51] = 1572367601,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "Powerpala",
-		}, -- [117]
+		}, -- [102]
 		{
 			"Your time is nigh...", -- [1]
 			"Powerpala", -- [2]
@@ -2131,7 +1861,7 @@ ElvCharacterDB = {
 			[51] = 1572367603,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "Powerpala",
-		}, -- [118]
+		}, -- [103]
 		{
 			"You felt death once...", -- [1]
 			"Powerpala", -- [2]
@@ -2149,7 +1879,7 @@ ElvCharacterDB = {
 			[51] = 1572367605,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "Powerpala",
-		}, -- [119]
+		}, -- [104]
 		{
 			"Now, know demise!", -- [1]
 			"Powerpala", -- [2]
@@ -2167,7 +1897,7 @@ ElvCharacterDB = {
 			[51] = 1572367607,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "Powerpala",
-		}, -- [120]
+		}, -- [105]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r600G E", -- [1]
 			"Implsn", -- [2]
@@ -2185,7 +1915,7 @@ ElvCharacterDB = {
 			[51] = 1572367625,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Implsn",
-		}, -- [121]
+		}, -- [106]
 		{
 			"NEED TANK FOR ICC 10 LK RUN (FAST RUN)", -- [1]
 			"Alles", -- [2]
@@ -2203,7 +1933,7 @@ ElvCharacterDB = {
 			[51] = 1572367625,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Alles",
-		}, -- [122]
+		}, -- [107]
 		{
 			"LFM ICC25nm/hc gs 5300 fast run only 4boss |cffffff00|Hachievement:4608:07000000004ABF4F:1:9:15:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Darkladyw", -- [2]
@@ -2221,7 +1951,7 @@ ElvCharacterDB = {
 			[51] = 1572367677,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Darkladyw",
-		}, -- [123]
+		}, -- [108]
 		{
 			"garde eynes Lo ve LU VIL VRUM", -- [1]
 			"Sylauria", -- [2]
@@ -2239,7 +1969,7 @@ ElvCharacterDB = {
 			[51] = 1572367677,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Sylauria",
-		}, -- [124]
+		}, -- [109]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r600G E", -- [1]
 			"Implsn", -- [2]
@@ -2257,7 +1987,7 @@ ElvCharacterDB = {
 			[51] = 1572367677,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Implsn",
-		}, -- [125]
+		}, -- [110]
 		{
 			"TOC 25 NEED ALL +5.2 GS NEED PATIENT KNOWLEDGE PLAYERS WITH TOC ACHI (MAIN OR ALT) B+O+P RES [Call of the Crusade (25 player)]", -- [1]
 			"Rtv", -- [2]
@@ -2275,7 +2005,7 @@ ElvCharacterDB = {
 			[51] = 1572367678,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Rtv",
-		}, -- [126]
+		}, -- [111]
 		{
 			"BOR VIL TI LU Ko Goth O agol Far VeR ruff nagan Agol va ras Goth Noth SE danieb ", -- [1]
 			"Gainis", -- [2]
@@ -2293,6 +2023,276 @@ ElvCharacterDB = {
 			[51] = 1572367679,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Gainis",
+		}, -- [112]
+		{
+			"LFM TOC 25 (B+P+O res) need all atm /w me gs 5,5k+ spec ACH |cffffff00|Hachievement:3812:070000000013AC68:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Grand Crusade (25 player)]|h|r", -- [1]
+			"Mhmhm", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			269, -- [11]
+			"0x070000000013AC68", -- [12]
+			0, -- [13]
+			[51] = 1572449701,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Mhmhm",
+		}, -- [113]
+		{
+			"LFM TOC 25 (B+P+O res) need all atm /w me gs 5,5k+ spec ACH |cffffff00|Hachievement:3812:070000000013AC68:1:8:11:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Grand Crusade (25 player)]|h|r", -- [1]
+			"Mhmhm", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			281, -- [11]
+			"0x070000000013AC68", -- [12]
+			0, -- [13]
+			[51] = 1572449705,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Mhmhm",
+		}, -- [114]
+		{
+			"Horseman rise...", -- [1]
+			"Dreamstar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreamstar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			296, -- [11]
+			"0x0700000000049519", -- [12]
+			0, -- [13]
+			[51] = 1572449714,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Dreamstar",
+		}, -- [115]
+		{
+			"Your time is nigh...", -- [1]
+			"Dreamstar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreamstar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			297, -- [11]
+			"0x0700000000049519", -- [12]
+			0, -- [13]
+			[51] = 1572449716,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Dreamstar",
+		}, -- [116]
+		{
+			"You felt death once...", -- [1]
+			"Dreamstar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreamstar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			298, -- [11]
+			"0x0700000000049519", -- [12]
+			0, -- [13]
+			[51] = 1572449718,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Dreamstar",
+		}, -- [117]
+		{
+			"Now, know demise!", -- [1]
+			"Dreamstar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dreamstar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			300, -- [11]
+			"0x0700000000049519", -- [12]
+			0, -- [13]
+			[51] = 1572449720,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Dreamstar",
+		}, -- [118]
+		{
+			"LFM TOC 25nm wis me need all gs 5.4 link achiv (bp res)", -- [1]
+			"Cadman", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			301, -- [11]
+			"0x07000000004970C4", -- [12]
+			0, -- [13]
+			[51] = 1572449724,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Cadman",
+		}, -- [119]
+		{
+			"LFM TOC 25nm wis me need all gs 5.4 link achiv (bp res)", -- [1]
+			"Cadman", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			302, -- [11]
+			"0x07000000004970C4", -- [12]
+			0, -- [13]
+			[51] = 1572449724,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Cadman",
+		}, -- [120]
+		{
+			"这面", -- [1]
+			"Dingdingmioo", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			303, -- [11]
+			"0x070000000003D843", -- [12]
+			0, -- [13]
+			[51] = 1572449724,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Dingdingmioo",
+		}, -- [121]
+		{
+			"lol", -- [1]
+			"Darkinfest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			306, -- [11]
+			"0x070000000025B1AF", -- [12]
+			0, -- [13]
+			[51] = 1572449757,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Darkinfest",
+		}, -- [122]
+		{
+			"pala with dbw", -- [1]
+			"Darkinfest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			308, -- [11]
+			"0x070000000025B1AF", -- [12]
+			0, -- [13]
+			[51] = 1572449761,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Darkinfest",
+		}, -- [123]
+		{
+			"xD", -- [1]
+			"Darkinfest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			309, -- [11]
+			"0x070000000025B1AF", -- [12]
+			0, -- [13]
+			[51] = 1572449762,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "Darkinfest",
+		}, -- [124]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:1182:0700000000120195:1:10:30:19:4294967295:4294967295:4294967295:4294967295|h[The Bread Winner]|h|r!", -- [1]
+			"Royalscepte", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Royalscepte", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			311, -- [11]
+			"0x0700000000120195", -- [12]
+			0, -- [13]
+			[51] = 1572449768,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "Royalscepte",
+		}, -- [125]
+		{
+			"LFM TOC 25nm wis me need all gs 5.4 link achiv (bp res)", -- [1]
+			"Cadman", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			334, -- [11]
+			"0x07000000004970C4", -- [12]
+			0, -- [13]
+			[51] = 1572449806,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Cadman",
+		}, -- [126]
+		{
+			"VIL TI goth nud E Ne ve far Ras Forthasador TI danieb y lo", -- [1]
+			"Gopogun", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			336, -- [11]
+			"0x07000000004BEC53", -- [12]
+			0, -- [13]
+			[51] = 1572449808,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Gopogun",
 		}, -- [127]
 	},
 }
