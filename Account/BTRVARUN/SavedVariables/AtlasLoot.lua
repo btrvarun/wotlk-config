@@ -2,22 +2,22 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 	},
 	["profiles"] = {
-		["Garzh - Icecrown"] = {
-			["AtlasType"] = "Unknown",
-		},
 		["Dreamstar - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Bowbaby - Icecrown"] = {
+		["Garzh - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Invariably - Icecrown"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Bowbaby - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
