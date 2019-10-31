@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_5000000"] = 10000,
-	["_50000"] = 500,
 	["_200000"] = 1000,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
-	["_500"] = 5,
+	["_50000"] = 500,
 	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -14,24 +14,26 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Death", -- [1]
-			"feint", -- [2]
-			"mend ", -- [3]
-			"revive pet", -- [4]
-			"steady", -- [5]
-			"bestial wrath", -- [6]
-			"Iceblade Arrow", -- [7]
-			"powerful stat", -- [8]
-			"scope", -- [9]
-			"relentless", -- [10]
-			"monarch topaz", -- [11]
-			"scarlet ruby", -- [12]
-			"Arctic fur", -- [13]
-			"knothide", -- [14]
-			"rugged leather", -- [15]
-			"thick leather", -- [16]
-			"heavy leather", -- [17]
-			"medium leather", -- [18]
+			"superior potency", -- [1]
+			"cardinal ruby", -- [2]
+			"Death", -- [3]
+			"feint", -- [4]
+			"mend ", -- [5]
+			"revive pet", -- [6]
+			"steady", -- [7]
+			"bestial wrath", -- [8]
+			"Iceblade Arrow", -- [9]
+			"powerful stat", -- [10]
+			"scope", -- [11]
+			"relentless", -- [12]
+			"monarch topaz", -- [13]
+			"scarlet ruby", -- [14]
+			"Arctic fur", -- [15]
+			"knothide", -- [16]
+			"rugged leather", -- [17]
+			"thick leather", -- [18]
+			"heavy leather", -- [19]
+			"medium leather", -- [20]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -73,14 +75,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Schematic: Sniper Scope"] = 199500,
 		["Glinting Monarch Topaz"] = 947500,
 		["Relentless Earthsiege Diamond"] = 2007900,
-		["Fractured Scarlet Ruby"] = 1451250,
+		["Fractured Scarlet Ruby"] = 1770000,
 		["Deathblow"] = 170000,
 		["Inscribed Monarch Topaz"] = 500000,
 		["Death-warmed Belt"] = 64990000,
 		["Glyph of Death Strike"] = 648399,
 		["Etched Monarch Topaz"] = 680750,
 		["Glyph of Steady Shot"] = 129496,
-		["Bold Scarlet Ruby"] = 1399800,
+		["Bold Scarlet Ruby"] = 1598900,
 		["Glyph of Bestial Wrath"] = 256899,
 		["Glyph of Death Grip"] = 123244,
 		["Diamond-cut Refractor Scope"] = 12979,
@@ -93,60 +95,71 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Monarch Topaz"] = 450000,
 		["Recipe: Transmute Undeath to Water"] = 430000,
 		["Subtle Scarlet Ruby"] = 1866943,
+		["Runed Cardinal Ruby"] = 3000000,
+		["Idol of Death"] = 5000000,
+		["Legplates of Painful Death"] = 118770000,
+		["Subtle Cardinal Ruby"] = 3534700,
 		["Standard Scope"] = 1800,
 		["Champion's Monarch Topaz"] = 449998,
-		["Scarlet Ruby"] = 1199999,
+		["Scroll of Enchant Weapon - Superior Potency"] = 3200000,
+		["Bright Cardinal Ruby"] = 3000000,
+		["Scarlet Ruby"] = 1494900,
+		["Fractured Cardinal Ruby"] = 2700000,
+		["Flashing Cardinal Ruby"] = 3384800,
 		["Design: Stalwart Monarch Topaz"] = 1010000,
+		["The Bringer of Death"] = 964275,
+		["Steady Forest Emerald"] = 889550,
 		["Rugged Leather"] = 31125,
-		["Delicate Scarlet Ruby"] = 1662500,
-		["Undeath Deck"] = 14450000,
+		["Kaleidoscope Chain"] = 2704811,
+		["Knothide Leather Scraps"] = 7980,
+		["Ichor of Undeath"] = 10000,
 		["Luminous Monarch Topaz"] = 580500,
 		["Reckless Monarch Topaz"] = 579998,
 		["Design: Inscribed Monarch Topaz"] = 150000,
 		["Wicked Monarch Topaz"] = 849696,
-		["Steady Forest Emerald"] = 889550,
+		["Cardinal Ruby"] = 2500000,
 		["Veiled Monarch Topaz"] = 900050,
-		["Scroll of Enchant Weapon - Deathfrost"] = 6400000,
+		["Spiked Deathdealers"] = 65000000,
 		["Pristine Monarch Topaz"] = 111000,
 		["Heartseeker Scope"] = 1299080,
-		["Spiked Deathdealers"] = 65000000,
+		["Scroll of Enchant Weapon - Deathfrost"] = 6400000,
 		["Pattern: Death-warmed Belt"] = 30330000,
-		["Rock-Steady Treads"] = 68930000,
+		["Bright Scarlet Ruby"] = 1261250,
 		["Heavy Leather"] = 28999,
 		["Glyph of Feign Death"] = 267186,
 		["Glyph of Mend Pet"] = 98788,
-		["Glyph of Death Coil"] = 132697,
-		["Arctic Fur"] = 2399999,
-		["Glyph of Feint"] = 9499,
-		["Darkmoon Card: Death"] = 26900000,
-		["Deadly Monarch Topaz"] = 480500,
-		["Leggings of Woven Death"] = 71990000,
-		["Idol of Death"] = 5000000,
-		["Heavy Knothide Leather"] = 620000,
-		["Fierce Monarch Topaz"] = 741250,
-		["Bracers of Swift Death"] = 39769999,
-		["The Bringer of Death"] = 964275,
-		["Seven of Undeath"] = 2200000,
-		["Durable Monarch Topaz"] = 910000,
-		["Glyph of Death and Decay"] = 105883,
-		["Three of Undeath"] = 3100000,
-		["Four of Undeath"] = 3990000,
-		["Legplates of Painful Death"] = 118770000,
-		["Empowered Monarch Topaz"] = 720000,
-		["Knothide Armor Kit"] = 49400,
-		["Runed Scarlet Ruby"] = 1720000,
-		["Stark Monarch Topaz"] = 1127335,
-		["Accurate Monarch Topaz"] = 899500,
-		["Kaleidoscope Chain"] = 2704811,
 		["Scroll of Enchant Chest - Powerful Stats"] = 3697500,
+		["Arctic Fur"] = 2399999,
+		["Bold Cardinal Ruby"] = 2800000,
+		["Glyph of Feint"] = 9499,
+		["Deadly Monarch Topaz"] = 480500,
+		["Accurate Monarch Topaz"] = 899500,
+		["Delicate Cardinal Ruby"] = 3100000,
+		["Runed Scarlet Ruby"] = 1670000,
+		["Fierce Monarch Topaz"] = 741250,
+		["Stark Monarch Topaz"] = 1127335,
+		["Knothide Armor Kit"] = 49400,
+		["Empowered Monarch Topaz"] = 720000,
+		["Durable Monarch Topaz"] = 910000,
+		["Precise Cardinal Ruby"] = 3199900,
+		["Four of Undeath"] = 3990000,
+		["Three of Undeath"] = 3100000,
+		["Glyph of Death and Decay"] = 105883,
+		["Seven of Undeath"] = 2200000,
+		["Bracers of Swift Death"] = 39769999,
+		["Heavy Knothide Leather"] = 620000,
+		["Precise Scarlet Ruby"] = 1570000,
+		["Leggings of Woven Death"] = 71990000,
+		["Darkmoon Card: Death"] = 26900000,
+		["Glyph of Death Coil"] = 132697,
 		["Glyph of Shadow Word: Death"] = 149899,
-		["Bright Scarlet Ruby"] = 800000,
+		["Rock-Steady Treads"] = 68930000,
 		["Accurate Scope"] = 989000,
 		["Two of Undeath"] = 2844500,
 		["Steady Eye of Zul"] = 2179900,
 		["Six of Undeath"] = 2050000,
-		["Ichor of Undeath"] = 10000,
-		["Knothide Leather Scraps"] = 7980,
+		["Undeath Deck"] = 14450000,
+		["Delicate Scarlet Ruby"] = 1495000,
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
@@ -161,7 +174,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Bowbaby"] = {
 		["firstSeen"] = 1570971530,
-		["guid"] = "0x070000000000615D",
 		["firstVersion"] = "2.6.3",
 	},
 	["Invariably"] = {
