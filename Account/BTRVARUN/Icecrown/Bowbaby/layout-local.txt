@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: AtlasLootDefaultFrame
 FrameLevel: 46
 Anchor: LEFT
@@ -48,6 +48,13 @@ X: -26
 Y: 272
 W: 1
 H: 1
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: LEFT
+X: 8
+Y: 200
+W: 450
+H: 33
 Frame: TellMeWhen_Group1
 FrameLevel: 39
 Anchor: LEFT
@@ -69,3 +76,10 @@ X: 103
 Y: -23
 W: 1
 H: 1
+Frame: DCP_OptionsFrame
+FrameLevel: 0
+Anchor: LEFT
+X: 333
+Y: 84
+W: 220
+H: 485

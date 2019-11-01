@@ -3,14 +3,12 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 	},
 	["profiles"] = {
-		["Dreamstar - Icecrown"] = {
-		},
 		["Garzh - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {
@@ -72,18 +70,7 @@ CliqueDB = {
 				["TargetFrame"] = true,
 			},
 		},
-		["Bowbaby - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Misdirection",
-						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
-					},
-				},
-			},
+		["Dreamstar - Icecrown"] = {
 		},
 		["Invariably - Icecrown"] = {
 			["clicksets"] = {
@@ -114,6 +101,19 @@ CliqueDB = {
 				["ElvUF_Player"] = true,
 				["ElvUF_TargetTargetTarget"] = true,
 				["TargetFrame"] = true,
+			},
+		},
+		["Bowbaby - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Misdirection",
+						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
+					},
+				},
 			},
 		},
 	},

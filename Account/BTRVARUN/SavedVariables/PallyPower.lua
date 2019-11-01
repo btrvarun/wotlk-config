@@ -111,6 +111,19 @@ PallyPower_Assignments = {
 		1, -- [10]
 		3, -- [11]
 	},
+	["Azurelane"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
 	["Holydoc"] = {
 		3, -- [1]
 		3, -- [2]
@@ -124,12 +137,12 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Azurelane"] = {
+	["Junack"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
-		3, -- [5]
+		2, -- [5]
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
@@ -202,20 +215,20 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Philliphus"] = {
-		2, -- [1]
-		3, -- [2]
-		1, -- [3]
-		3, -- [4]
-		1, -- [5]
-		2, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		2, -- [10]
-		2, -- [11]
-	},
 	["Infine"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
+	},
+	["Talset"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -267,19 +280,6 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Talset"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-		0, -- [11]
-	},
 	["Plnru"] = {
 		0, -- [1]
 		0, -- [2]
@@ -305,6 +305,19 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 		3, -- [11]
+	},
+	["Philliphus"] = {
+		2, -- [1]
+		3, -- [2]
+		1, -- [3]
+		3, -- [4]
+		1, -- [5]
+		2, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		2, -- [10]
+		2, -- [11]
 	},
 	["Nerfado"] = {
 		3, -- [1]
@@ -385,9 +398,11 @@ PallyPower_NormalAssignments = {
 	},
 	["Errorpaladin"] = {
 	},
+	["Azurelane"] = {
+	},
 	["Holydoc"] = {
 	},
-	["Azurelane"] = {
+	["Junack"] = {
 	},
 	["Denii"] = {
 	},
@@ -399,9 +414,9 @@ PallyPower_NormalAssignments = {
 	},
 	["Zuulith"] = {
 	},
-	["Philliphus"] = {
-	},
 	["Infine"] = {
+	},
+	["Talset"] = {
 	},
 	["Nerwaa"] = {
 	},
@@ -409,11 +424,11 @@ PallyPower_NormalAssignments = {
 	},
 	["Betsy"] = {
 	},
-	["Talset"] = {
-	},
 	["Plnru"] = {
 	},
 	["Immutability"] = {
+	},
+	["Philliphus"] = {
 	},
 	["Nerfado"] = {
 	},
@@ -436,21 +451,22 @@ PallyPower_AuraAssignments = {
 	["Rshaam"] = 2,
 	["Unknwon"] = 1,
 	["Errorpaladin"] = 1,
-	["Holydoc"] = 6,
 	["Azurelane"] = 1,
+	["Holydoc"] = 6,
+	["Junack"] = 2,
 	["Denii"] = 0,
 	["Fishqs"] = 3,
 	["Rakin"] = 3,
 	["Chuichui"] = 1,
 	["Zuulith"] = 1,
-	["Philliphus"] = 4,
 	["Infine"] = 5,
+	["Talset"] = 0,
 	["Nerwaa"] = 0,
 	["Xqxq"] = 0,
 	["Betsy"] = 2,
-	["Talset"] = 0,
 	["Plnru"] = 0,
 	["Immutability"] = 1,
+	["Philliphus"] = 4,
 	["Nerfado"] = 1,
 	["Rubinartdog"] = 3,
 	["Argentaluce"] = 1,
