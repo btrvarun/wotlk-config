@@ -2,10 +2,10 @@ Version: 1
 Frame: ChannelPulloutTab
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -104
+X: -61
 Y: -151
 W: 107
-H: 32
+H: 26
 Frame: WorldMapScreenAnchor
 FrameLevel: 0
 Anchor: TOPLEFT
@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT
@@ -43,9 +43,9 @@ W: 1
 H: 1
 Frame: SexyCooldownBar 0
 FrameLevel: 1
-Anchor: BOTTOM
-X: 0
-Y: 223
+Anchor: LEFT
+X: 3
+Y: 201
 W: 450
 H: 33
 Frame: SkadaBarWindowSkada
