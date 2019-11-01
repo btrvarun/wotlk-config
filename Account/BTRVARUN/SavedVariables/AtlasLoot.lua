@@ -19,7 +19,6 @@ AtlasLootDB = {
 		},
 		["Garzh - Icecrown"] = {
 			["AtlasType"] = "Unknown",
-			["LastBoss"] = "CRAFTINGMENU",
 		},
 	},
 }
