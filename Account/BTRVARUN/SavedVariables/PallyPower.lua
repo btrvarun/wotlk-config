@@ -254,7 +254,7 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Talset"] = {
+	["Xqxq"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -306,7 +306,7 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Xqxq"] = {
+	["Talset"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -420,7 +420,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Nerwaa"] = {
 	},
-	["Talset"] = {
+	["Xqxq"] = {
 	},
 	["Betsy"] = {
 	},
@@ -428,7 +428,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Plnru"] = {
 	},
-	["Xqxq"] = {
+	["Talset"] = {
 	},
 	["Infine"] = {
 	},
@@ -462,11 +462,11 @@ PallyPower_AuraAssignments = {
 	["Nerfado"] = 1,
 	["Philliphus"] = 4,
 	["Nerwaa"] = 0,
-	["Talset"] = 0,
+	["Xqxq"] = 0,
 	["Betsy"] = 2,
 	["Immutability"] = 1,
 	["Plnru"] = 0,
-	["Xqxq"] = 0,
+	["Talset"] = 0,
 	["Infine"] = 5,
 	["Rubinartdog"] = 3,
 	["Argentaluce"] = 1,
