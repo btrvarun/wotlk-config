@@ -20,11 +20,6 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["cBuffNeedSome"] = {
-				["t"] = 0.69,
-				["g"] = 0.5,
-				["r"] = 0.5,
-			},
 			["sets"] = {
 				["primary"] = {
 					["aura"] = 0,
@@ -44,6 +39,11 @@ PallyPowerDB = {
 						4, -- [11]
 					},
 				},
+			},
+			["cBuffNeedSome"] = {
+				["t"] = 0.69,
+				["g"] = 0.5,
+				["r"] = 0.5,
 			},
 			["display"] = {
 				["frameLocked"] = true,

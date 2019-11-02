@@ -10,17 +10,9 @@ SexyCooldownDB = {
 		["Immutability - Icecrown"] = {
 			["bars"] = {
 				{
-					["events"] = {
-					},
 					["blacklist"] = {
 					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
+					["events"] = {
 					},
 					["bar"] = {
 						["fontColor"] = {
