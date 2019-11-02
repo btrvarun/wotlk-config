@@ -1,0 +1,36 @@
+MACRO 16777224 "ap" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] cure toxins
+END
+MACRO 16777223 "berserk" INV_Misc_QuestionMark
+#showtooltip
+/cast berserking
+/use 10
+/cast Tidal Force
+END
+MACRO 16777217 "ch" INV_Misc_QuestionMark
+#showtooltip chain heal
+/use 10
+/cast [@mouseover] chain heal
+END
+MACRO 16777222 "cs" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] cleanse spirit
+END
+MACRO 16777221 "es" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] earth shield
+END
+MACRO 16777219 "hw" INV_Misc_QuestionMark
+#showtooltip healing wave
+/use 10
+/cast [@mouseover] Healing Wave
+END
+MACRO 16777220 "lhw" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] lesser healing wave
+END
+MACRO 16777218 "riptide" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] Riptide
+END

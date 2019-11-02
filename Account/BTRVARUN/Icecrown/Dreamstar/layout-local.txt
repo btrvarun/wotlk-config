@@ -5,11 +5,11 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
-X: -196
+X: -198
 Y: -9
 W: 26
 H: 26
@@ -20,3 +20,10 @@ X: -177
 Y: 294
 W: 1
 H: 1
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: LEFT
+X: 4
+Y: 200
+W: 450
+H: 33

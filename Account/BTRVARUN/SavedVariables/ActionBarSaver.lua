@@ -687,6 +687,178 @@ ActionBarSaverDB = {
 			},
 		},
 		["SHAMAN"] = {
+			["resto"] = {
+				"macro|1||lhw|Interface\\Icons\\Spell_Nature_HealingWaveLesser|#showtooltip/n/cast [@mouseover] lesser healing wave", -- [1]
+				"macro|2||ch|Interface\\Icons\\Spell_Nature_HealingWaveGreater|#showtooltip chain heal/n/use 10/n/cast [@mouseover] chain heal", -- [2]
+				"macro|3||hw|Interface\\Icons\\Spell_Nature_MagicImmunity|#showtooltip healing wave/n/use 10/n/cast [@mouseover] Healing Wave", -- [3]
+				"macro|4||es|Interface\\Icons\\Spell_Nature_SkinofEarth|#showtooltip/n/cast [@mouseover] earth shield", -- [4]
+				"spell|155||Ghost Wolf||2645", -- [5]
+				"spell|111||Wind Shear||57994", -- [6]
+				"spell|236||Earthliving Weapon|Rank 6|51994", -- [7]
+				"macro|8||riptide|Interface\\Icons\\spell_nature_riptide|#showtooltip/n/cast [@mouseover] Riptide", -- [8]
+				"spell|295||Water Shield|Rank 9|57960", -- [9]
+				"macro|10||cs|Interface\\Icons\\Ability_Shaman_CleanseSpirit|#showtooltip/n/cast [@mouseover] cleanse spirit", -- [10]
+				"item|54583||Cloak of Burning Dusk", -- [11]
+				"spell|27||Chain Lightning|Rank 8|49271", -- [12]
+				"spell|18||Call of the Elements||66842", -- [13]
+				"spell|276||Mana Spring Totem|Rank 8|58774", -- [14]
+				"spell|65||Hex||51514", -- [15]
+				"spell|285||Totemic Recall||36936", -- [16]
+				"spell|38||Earthbind Totem||2484", -- [17]
+				"spell|225||Cure Toxins||526", -- [18]
+				"spell|277||Mana Tide Totem||16190", -- [19]
+				"spell|286||Tremor Totem||8143", -- [20]
+				"spell|245||Healing Stream Totem|Rank 9|58757", -- [21]
+				"spell|173||Nature Resistance Totem|Rank 6|58749", -- [22]
+				"spell|224||Cleansing Totem||8170", -- [23]
+				"spell|112||Astral Recall||556", -- [24]
+				"item|49632||Runescroll of Fortitude", -- [25]
+				"macro|26||trade|Interface\\Icons\\Ability_Creature_Disease_05|/trade", -- [26]
+				"spell|81||Lightning Bolt|Rank 14|49238", -- [27]
+				"spell|67||Lava Burst|Rank 2|60043", -- [28]
+				"spell|88||Magma Totem|Rank 7|58734", -- [29]
+				"spell|48||Fire Nova|Rank 9|61657", -- [30]
+				"item|46378||Flask of Pure Mojo", -- [31]
+				"macro|32||grabbed|Interface\\Icons\\Ability_BullRush|/s Resto Shaman Grabbed!", -- [32]
+				"spell|198||Water Walking||546", -- [33]
+				"spell|121||Fire Resistance Totem|Rank 6|58739", -- [34]
+				"spell|39||Fire Elemental Totem||2894", -- [35]
+				"companion|1||resto|MOUNT|59569", -- [36]
+				"item|33445||Honeymint Tea", -- [37]
+				"item|43015||Fish Feast", -- [38]
+				"spell|27||Chain Lightning|Rank 8|49271", -- [39]
+				"item|50464||Totem of the Surging Sea", -- [40]
+				"item|47665||Totem of Calming Tides", -- [41]
+				"macro|42||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [42]
+				"item|46376||Flask of the Frost Wyrm", -- [43]
+				"spell|224||Cleansing Totem||8170", -- [44]
+				"spell|276||Mana Spring Totem|Rank 8|58774", -- [45]
+				"macro|46||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [46]
+				"item|49278||Goblin Rocket Pack", -- [47]
+				nil, -- [48]
+				"spell|145||Frost Resistance Totem|Rank 6|58745", -- [49]
+				"spell|65||Hex||51514", -- [50]
+				"spell|113||Bloodlust||2825", -- [51]
+				"item|54589||Glowing Twilight Scale", -- [52]
+				"spell|129||Flametongue Totem|Rank 8|58656", -- [53]
+				"spell|285||Totemic Recall||36936", -- [54]
+				"spell|215||Ancestral Spirit|Rank 7|49277", -- [55]
+				"item|49633||Drums of Forgotten Kings", -- [56]
+				"companion|2||resto|MOUNT|72286", -- [57]
+				"macro|58||grabbed|Interface\\Icons\\Ability_BullRush|/s Resto Shaman Grabbed!", -- [58]
+				"item|42545||Runic Mana Injector", -- [59]
+				"macro|60||follow focus|Interface\\Icons\\Ability_Druid_Dash|/follow focus", -- [60]
+				"spell|278||Nature's Swiftness||16188", -- [61]
+				"spell|277||Mana Tide Totem||16190", -- [62]
+				"spell|198||Water Walking||546", -- [63]
+				"spell|18||Call of the Elements||66842", -- [64]
+				"spell|19||Call of the Spirits||66844", -- [65]
+				"macro|66||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus", -- [66]
+				"spell|276||Mana Spring Totem|Rank 8|58774", -- [67]
+				"spell|173||Nature Resistance Totem|Rank 6|58749", -- [68]
+				"spell|112||Astral Recall||556", -- [69]
+				"spell|286||Tremor Totem||8143", -- [70]
+				"macro|71||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast berserking/n/use 10/n/cast Tidal Force", -- [71]
+				"item|50699||Plague Scientist's Boots", -- [72]
+				[137] = "spell|100||Searing Totem|Rank 10|58704",
+				[138] = "spell|188||Stoneskin Totem|Rank 10|58753",
+				[139] = "spell|245||Healing Stream Totem|Rank 9|58757",
+				[140] = "spell|208||Wrath of Air Totem||3738",
+				[133] = "spell|129||Flametongue Totem|Rank 8|58656",
+				[141] = "spell|145||Frost Resistance Totem|Rank 6|58745",
+				[134] = "spell|188||Stoneskin Totem|Rank 10|58753",
+				[142] = "spell|188||Stoneskin Totem|Rank 10|58753",
+				[135] = "spell|276||Mana Spring Totem|Rank 8|58774",
+				[143] = "spell|245||Healing Stream Totem|Rank 9|58757",
+				[136] = "spell|208||Wrath of Air Totem||3738",
+				[144] = "spell|208||Wrath of Air Totem||3738",
+			},
+			["ele"] = {
+				"spell|69||Lava Burst|Rank 2|60043", -- [1]
+				"spell|83||Lightning Bolt|Rank 14|49238", -- [2]
+				"spell|27||Chain Lightning|Rank 8|49271", -- [3]
+				"spell|67||Hex||51514", -- [4]
+				"macro|5||ap|Interface\\Icons\\Spell_Nature_NullifyPoison|#showtooltip/n/cast [@mouseover] cure toxins", -- [5]
+				"spell|121||Wind Shear||57994", -- [6]
+				"spell|149||Flametongue Weapon|Rank 10|58790", -- [7]
+				"spell|59||Flame Shock|Rank 9|49233", -- [8]
+				"spell|39||Elemental Mastery||16166", -- [9]
+				"spell|116||Thunderstorm|Rank 4|59159", -- [10]
+				"spell|177||Lightning Shield|Rank 11|49281", -- [11]
+				"spell|292||Water Shield|Rank 9|57960", -- [12]
+				"spell|18||Call of the Elements||66842", -- [13]
+				"spell|280||Mana Spring Totem|Rank 8|58774", -- [14]
+				"spell|67||Hex||51514", -- [15]
+				"spell|282||Totemic Recall||36936", -- [16]
+				"spell|38||Earthbind Totem||2484", -- [17]
+				"spell|234||Cure Toxins||526", -- [18]
+				nil, -- [19]
+				"spell|283||Tremor Totem||8143", -- [20]
+				"spell|249||Healing Stream Totem|Rank 9|58757", -- [21]
+				"spell|183||Nature Resistance Totem|Rank 6|58749", -- [22]
+				"spell|233||Cleansing Totem||8170", -- [23]
+				"spell|122||Astral Recall||556", -- [24]
+				"item|49632||Runescroll of Fortitude", -- [25]
+				"macro|26||trade|Interface\\Icons\\Ability_Creature_Disease_05|/trade", -- [26]
+				"spell|83||Lightning Bolt|Rank 14|49238", -- [27]
+				"spell|69||Lava Burst|Rank 2|60043", -- [28]
+				"spell|90||Magma Totem|Rank 7|58734", -- [29]
+				"spell|50||Fire Nova|Rank 9|61657", -- [30]
+				"item|46378||Flask of Pure Mojo", -- [31]
+				"macro|32||grabbed|Interface\\Icons\\Ability_BullRush|/s Resto Shaman Grabbed!", -- [32]
+				"spell|208||Water Walking||546", -- [33]
+				"spell|131||Fire Resistance Totem|Rank 6|58739", -- [34]
+				"spell|41||Fire Elemental Totem||2894", -- [35]
+				"companion|1||ele|MOUNT|59569", -- [36]
+				"item|33445||Honeymint Tea", -- [37]
+				"item|43015||Fish Feast", -- [38]
+				"spell|27||Chain Lightning|Rank 8|49271", -- [39]
+				"item|50464||Totem of the Surging Sea", -- [40]
+				"item|47665||Totem of Calming Tides", -- [41]
+				"macro|42||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [42]
+				"item|46376||Flask of the Frost Wyrm", -- [43]
+				"spell|233||Cleansing Totem||8170", -- [44]
+				"spell|280||Mana Spring Totem|Rank 8|58774", -- [45]
+				"macro|46||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [46]
+				"item|49278||Goblin Rocket Pack", -- [47]
+				nil, -- [48]
+				"spell|155||Frost Resistance Totem|Rank 6|58745", -- [49]
+				"spell|209||Windfury Totem||8512", -- [50]
+				"spell|123||Bloodlust||2825", -- [51]
+				"spell|272||Lesser Healing Wave|Rank 9|49276", -- [52]
+				"macro|53||ch|Interface\\Icons\\Spell_Nature_HealingWaveGreater|#showtooltip chain heal/n/use 10/n/cast [@mouseover] chain heal", -- [53]
+				"spell|282||Totemic Recall||36936", -- [54]
+				"macro|55||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus", -- [55]
+				"macro|56||target focus|Interface\\Icons\\Ability_Creature_Cursed_05|/follow focus", -- [56]
+				"spell|225||Ancestral Spirit|Rank 7|49277", -- [57]
+				"item|42545||Runic Mana Injector", -- [58]
+				"item|40212||Potion of Wild Magic", -- [59]
+				"item|40211||Potion of Speed", -- [60]
+				"spell|90||Magma Totem|Rank 7|58734", -- [61]
+				"spell|50||Fire Nova|Rank 9|61657", -- [62]
+				"spell|208||Water Walking||546", -- [63]
+				"spell|18||Call of the Elements||66842", -- [64]
+				"spell|19||Call of the Spirits||66844", -- [65]
+				"spell|183||Nature Resistance Totem|Rank 6|58749", -- [66]
+				"spell|92||Purge|Rank 2|8012", -- [67]
+				"item|54583||Cloak of Burning Dusk", -- [68]
+				"spell|122||Astral Recall||556", -- [69]
+				"macro|70||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast berserking/n/use 10/n/cast Tidal Force", -- [70]
+				"companion|2||ele|MOUNT|72286", -- [71]
+				"item|50699||Plague Scientist's Boots", -- [72]
+				[137] = "spell|102||Searing Totem|Rank 10|58704",
+				[138] = "spell|198||Stoneskin Totem|Rank 10|58753",
+				[139] = "spell|249||Healing Stream Totem|Rank 9|58757",
+				[140] = "spell|218||Wrath of Air Totem||3738",
+				[133] = "spell|120||Totem of Wrath|Rank 4|57722",
+				[141] = "spell|102||Searing Totem|Rank 10|58704",
+				[134] = "spell|198||Stoneskin Totem|Rank 10|58753",
+				[142] = "spell|198||Stoneskin Totem|Rank 10|58753",
+				[135] = "spell|249||Healing Stream Totem|Rank 9|58757",
+				[143] = "spell|249||Healing Stream Totem|Rank 9|58757",
+				[136] = "spell|218||Wrath of Air Totem||3738",
+				[144] = "spell|218||Wrath of Air Totem||3738",
+			},
 		},
 		["ROGUE"] = {
 		},

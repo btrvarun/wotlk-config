@@ -34,337 +34,13 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			851, -- [11]
-			"0x07000000003A7D10", -- [12]
-			0, -- [13]
-			[51] = 1572632169,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dDizzaa|r",
-		}, -- [1]
-		{
-			" Far GOTH Majis Ruftos Nevren Goth nud ve Melka Vandarwos ViL agol tiras ash Gothalgos Regen Majis Eynes GOTH Garde Nostyec NuD dana ruff Gothalgos Lars dana BOR SKILDE Ruff ash agol O bur aziris tiras thor ko LON barad nud lo O Ruftvess Aelgestron", -- [1]
-			"Duskfallen", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			852, -- [11]
-			"0x070000000000D07B", -- [12]
-			0, -- [13]
-			[51] = 1572632170,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aDuskfallen|r",
-		}, -- [2]
-		{
-			"LFM RS 10 NM need shaman resto, boomy and hunter gs+5800 and achive!!! ", -- [1]
-			"Aspectwtf", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			853, -- [11]
-			"0x07000000004C3038", -- [12]
-			0, -- [13]
-			[51] = 1572632171,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aAspectwtf|r",
-		}, -- [3]
-		{
-			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
-			"Anikki", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			854, -- [11]
-			"0x0700000000460DE3", -- [12]
-			0, -- [13]
-			[51] = 1572632171,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Anikki|r",
-		}, -- [4]
-		{
-			"Buying all Frozen Orb that you have. Paying each 70 gold. Wana make deal for longer time. You can C.O.D me anytime 24/7. Simply C.O.D. anytime <3", -- [1]
-			"Zhasni", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			855, -- [11]
-			"0x07000000002B0738", -- [12]
-			0, -- [13]
-			[51] = 1572632173,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dZhasni|r",
-		}, -- [5]
-		{
-			"LU O regen melka O borne ash ash NUD VIL SE E E E U vrum ruff veld Agol va ras Goth Noth SE danieb ", -- [1]
-			"Weedgrinder", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			856, -- [11]
-			"0x0700000000009856", -- [12]
-			0, -- [13]
-			[51] = 1572632174,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dWeedgrinder|r",
-		}, -- [6]
-		{
-			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r x13 !! ", -- [1]
-			"Katalleeya", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			860, -- [11]
-			"0x07000000003A75DF", -- [12]
-			0, -- [13]
-			[51] = 1572632176,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaKatalleeya|r",
-		}, -- [7]
-		{
-			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
-			"Chwastea", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			862, -- [11]
-			"0x07000000003B9AE4", -- [12]
-			0, -- [13]
-			[51] = 1572632182,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dChwastea|r",
-		}, -- [8]
-		{
-			"SELLING |cff0070dd|Hitem:22739:0:0:0:0:0:0:0:80|h[Tome of Polymorph: Turtle]|h|r IN AUCTION HOUSE", -- [1]
-			"Fummeltuss", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			863, -- [11]
-			"0x07000000004AE5C7", -- [12]
-			0, -- [13]
-			[51] = 1572632186,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff9382c9Fummeltuss|r",
-		}, -- [9]
-		{
-			"WTS |cffa335ee|Hitem:31318:0:0:0:0:0:0:0:80|h[Singing Crystal Axe]|h|r880G!", -- [1]
-			"Niosewode", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			864, -- [11]
-			"0x070000000047FD8C", -- [12]
-			0, -- [13]
-			[51] = 1572632187,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddNiosewode|r",
-		}, -- [10]
-		{
-			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
-			"Anikki", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			865, -- [11]
-			"0x0700000000460DE3", -- [12]
-			0, -- [13]
-			[51] = 1572632188,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Anikki|r",
-		}, -- [11]
-		{
-			"LU O regen melka O borne ash ash NUD VIL SE E E E U vrum ruff veld Agol va ras Goth Noth SE danieb ", -- [1]
-			"Weedgrinder", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			866, -- [11]
-			"0x0700000000009856", -- [12]
-			0, -- [13]
-			[51] = 1572632190,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dWeedgrinder|r",
-		}, -- [12]
-		{
-			"WTB |cff0070dd|Hitem:36921:0:0:0:0:0:0:0:80|h[Autumn's Glow]|h|r ALL you have /w me", -- [1]
-			"Efes", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			868, -- [11]
-			"0x07000000004B6FBD", -- [12]
-			0, -- [13]
-			[51] = 1572632193,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aEfes|r",
-		}, -- [13]
-		{
-			"BOR nud VIL TI Lo ve Wirsh re vandar Bor o vrum ve hir mod o daegil hir O dana koshvel kaelsig BOR gloin lo ve thor Goth O ME O UDEN ash va vohl ko me", -- [1]
-			"Tebekh", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			869, -- [11]
-			"0x070000000047C6FF", -- [12]
-			0, -- [13]
-			[51] = 1572632193,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Tebekh|r",
-		}, -- [14]
-		{
-			"Silverfiore dances with Ghostly Dalaran Celebrant.", -- [1]
-			"Silverfiore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			0, -- [11]
-			"0x07000000002F92D0", -- [12]
-			0, -- [13]
-			[51] = 1572632200,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff0070ddSilverfiore|r",
-		}, -- [15]
-		{
-			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
-			"Anikki", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			871, -- [11]
-			"0x0700000000460DE3", -- [12]
-			0, -- [13]
-			[51] = 1572632206,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Anikki|r",
-		}, -- [16]
-		{
-			"BOR VIL SE Y RE ko GOTH AGOL HIR GOTH AGOL TI ADOR ASH ASH E NE BUR NAGAN VRUM Y RU EALDOR UDEN KO EALDOR THOR ASH VE Ras Garde va Vohl", -- [1]
-			"Lefosdk", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			872, -- [11]
-			"0x0700000000395378", -- [12]
-			0, -- [13]
-			[51] = 1572632207,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aLefosdk|r",
-		}, -- [17]
-		{
-			"Silverfiore dances with Catrina.", -- [1]
-			"Silverfiore", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			0, -- [11]
-			"0x07000000002F92D0", -- [12]
-			0, -- [13]
-			[51] = 1572632207,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff0070ddSilverfiore|r",
-		}, -- [18]
-		{
-			"LU O KO AGOL O GARDE LON ASH ASH NUD VIL SE Y RE RUFTOS BUR FAR RUFF RU NAGAN ASH UDEN RUFTOS NAGAN THOR DANA ANDOVIS ASH VRUM E E VE ", -- [1]
-			"Dizzaa", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
 			873, -- [11]
 			"0x07000000003A7D10", -- [12]
 			0, -- [13]
 			[51] = 1572632207,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dDizzaa|r",
-		}, -- [19]
+		}, -- [1]
 		{
 			"Glorydk dances with Catrina.", -- [1]
 			"Glorydk", -- [2]
@@ -382,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1572632219,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc41e3aGlorydk|r",
-		}, -- [20]
+		}, -- [2]
 		{
 			"BOR VIL SE LU goth O EYNES UDEN NE Kaelsig y lo borne ve FAR E Y bur far ", -- [1]
 			"Blackvein", -- [2]
@@ -400,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1572632220,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBlackvein|r",
-		}, -- [21]
+		}, -- [3]
 		{
 			" Far GOTH Majis Ruftos Nevren Goth nud ve Melka Vandarwos ViL agol tiras ash Gothalgos Regen Majis Eynes GOTH Garde Nostyec NuD dana ruff Gothalgos Lars dana BOR SKILDE Ruff ash agol O bur aziris tiras thor ko LON barad nud lo O Ruftvess Aelgestron", -- [1]
 			"Duskfallen", -- [2]
@@ -418,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1572632222,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDuskfallen|r",
-		}, -- [22]
+		}, -- [4]
 		{
 			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
 			"Chwastea", -- [2]
@@ -436,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1572632222,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dChwastea|r",
-		}, -- [23]
+		}, -- [5]
 		{
 			"LF need all MOLTEN CORE heal rdps dps fast run |cffffff00|Hachievement:686:0700000000003765:1:2:12:18:0:0:0:0|h[Molten Core]|h|r", -- [1]
 			"Indecisa", -- [2]
@@ -454,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1572632224,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIndecisa|r",
-		}, -- [24]
+		}, -- [6]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -472,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1572632224,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [25]
+		}, -- [7]
 		{
 			"If anyone wants / needs proof of changizz ninjaing STS from RS25: https://www.youtube.com/watch?v=UnGq51qtRPg", -- [1]
 			"Edgypriest", -- [2]
@@ -490,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1572632230,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffEdgypriest|r",
-		}, -- [26]
+		}, -- [8]
 		{
 			"Crispynuts dances with Catrina.", -- [1]
 			"Crispynuts", -- [2]
@@ -508,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1572632231,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc41e3aCrispynuts|r",
-		}, -- [27]
+		}, -- [9]
 		{
 			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
 			"Chwastea", -- [2]
@@ -526,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1572632236,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dChwastea|r",
-		}, -- [28]
+		}, -- [10]
 		{
 			"::: ICC 25 HC/NM, atleast 8/12 HC :::: Need healers & DPS. 6k+++ GS. /w GS and role", -- [1]
 			"Tanxtincted", -- [2]
@@ -544,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1572632238,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aTanxtincted|r",
-		}, -- [29]
+		}, -- [11]
 		{
 			"LU O regen melka O borne ash ash NUD VIL SE E E E U vrum ruff veld Agol va ras Goth Noth SE danieb ", -- [1]
 			"Artimeda", -- [2]
@@ -562,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1572632239,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Artimeda|r",
-		}, -- [30]
+		}, -- [12]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -580,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1572632241,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [31]
+		}, -- [13]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r600G E", -- [1]
 			"Implsn", -- [2]
@@ -598,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1572632246,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddImplsn|r",
-		}, -- [32]
+		}, -- [14]
 		{
 			"BOR nud VIL TI Lo ve Wirsh re vandar Bor o vrum ve hir mod o daegil hir O dana koshvel kaelsig BOR gloin lo ve thor Goth O ME ash va vohl ko me", -- [1]
 			"Tebekh", -- [2]
@@ -616,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1572632250,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Tebekh|r",
-		}, -- [33]
+		}, -- [15]
 		{
 			"LFM ICC 25 NM/HC 5.8k++ B+P RESS /// NEED HEALERS ///", -- [1]
 			"Jaktul", -- [2]
@@ -634,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1572632250,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Jaktul|r",
-		}, -- [34]
+		}, -- [16]
 		{
 			" NOVAS O goth nud E E VE agol wos lithtos ash uden regenthor U E koshvel NE kaelsig", -- [1]
 			"Sumerr", -- [2]
@@ -652,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1572632254,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aSumerr|r",
-		}, -- [35]
+		}, -- [17]
 		{
 			"WTB Primordial Saronite 600g Cardinal Ruby 250g Ametrine 200g King's Amber 210g Frozen Orb 85g Eternal Fire 70g Shadow 50g Endless Rage 75g and more. Unlimited Quantity! COD or Trade.", -- [1]
 			"Ljubicabre", -- [2]
@@ -670,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1572632255,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Ljubicabre|r",
-		}, -- [36]
+		}, -- [18]
 		{
 			"Hellbreath dances with Catrina.", -- [1]
 			"Hellbreath", -- [2]
@@ -688,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1572632255,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc69b6dHellbreath|r",
-		}, -- [37]
+		}, -- [19]
 		{
 			"LFM RS 10 NM need shaman resto, boomy and hunter gs+5800 and achive!!! ", -- [1]
 			"Aspectwtf", -- [2]
@@ -706,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1572632257,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aAspectwtf|r",
-		}, -- [38]
+		}, -- [20]
 		{
 			"LF need all MOLTEN CORE heal rdps dps fast run |cffffff00|Hachievement:686:0700000000003765:1:2:12:18:0:0:0:0|h[Molten Core]|h|r", -- [1]
 			"Indecisa", -- [2]
@@ -724,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1572632257,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIndecisa|r",
-		}, -- [39]
+		}, -- [21]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -742,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1572632259,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [40]
+		}, -- [22]
 		{
 			" Far GOTH Majis Ruftos Nevren Goth nud ve Melka Vandarwos ViL agol tiras ash Gothalgos Regen Majis Eynes GOTH Garde Nostyec NuD dana ruff Gothalgos Lars dana BOR SKILDE Ruff ash agol O bur aziris tiras thor ko LON barad nud lo O Ruftvess Aelgestron", -- [1]
 			"Duskfallen", -- [2]
@@ -760,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1572632262,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDuskfallen|r",
-		}, -- [41]
+		}, -- [23]
 		{
 			"BOR ANDOVIs AsH Hir Goth Nud E Lu Ruftos NOSTYEC VRUM NE Nud Kaelsig y lo Ras Rogesh Danieb SE danieb ", -- [1]
 			"Eternalftw", -- [2]
@@ -778,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1572632263,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Eternalftw|r",
-		}, -- [42]
+		}, -- [24]
 		{
 			"LFM icc10 nm 2tank 1Dps 1 healer Alt run G 5.2 + b.p ress", -- [1]
 			"Alfard", -- [2]
@@ -796,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1572632263,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddAlfard|r",
-		}, -- [43]
+		}, -- [25]
 		{
 			"Hellbreath dances with Catrina.", -- [1]
 			"Hellbreath", -- [2]
@@ -814,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1572632263,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc69b6dHellbreath|r",
-		}, -- [44]
+		}, -- [26]
 		{
 			"LU O KO AGOL O GARDE LON ASH ASH NUD VIL SE Y RE RUFTOS BUR FAR RUFF RU NAGAN ASH UDEN RUFTOS NAGAN THOR DANA ANDOVIS ASH VRUM E E VE ", -- [1]
 			"Dizzaa", -- [2]
@@ -832,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1572632266,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dDizzaa|r",
-		}, -- [45]
+		}, -- [27]
 		{
 			"BOR VIL SE LU KO WALDIR VA FAR E Y VE RUFF LO UDEN HIR ASH THOR E U VRUM EYNES HIR GOTH NUD Agol va ras Goth Noth SE danieb ", -- [1]
 			"Casas", -- [2]
@@ -850,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1572632269,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dCasas|r",
-		}, -- [46]
+		}, -- [28]
 		{
 			"sale |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Scouradhyb", -- [2]
@@ -868,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1572632270,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffScouradhyb|r",
-		}, -- [47]
+		}, -- [29]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -886,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1572632277,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [48]
+		}, -- [30]
 		{
 			"NEED ALL FOR ICC 25 HC 6.2K GS++ B/P RES LK RUN |cffffff00|Hachievement:4584:07000000001E6C0E:1:2:16:18:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r ", -- [1]
 			"Dirtycat", -- [2]
@@ -904,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1572632279,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aDirtycat|r",
-		}, -- [49]
+		}, -- [31]
 		{
 			"::: ICC 25 HC/NM, atleast 8/12 HC :::: Need healers & DPS. 6k+++ GS. /w GS and role", -- [1]
 			"Tanxtincted", -- [2]
@@ -922,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1572632282,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aTanxtincted|r",
-		}, -- [50]
+		}, -- [32]
 		{
 			"Mejdjo dances with Catrina.", -- [1]
 			"Mejdjo", -- [2]
@@ -940,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1572632289,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cff68ccefMejdjo|r",
-		}, -- [51]
+		}, -- [33]
 		{
 			"rogue 4.6 lfg icc rep farm", -- [1]
 			"Ninjytsu", -- [2]
@@ -958,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1572632290,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Ninjytsu|r",
-		}, -- [52]
+		}, -- [34]
 		{
 			"LFM RS 10 NM need shaman resto, boomy and hunter gs+5800 and achive!!! ", -- [1]
 			"Aspectwtf", -- [2]
@@ -976,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1572632290,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aAspectwtf|r",
-		}, -- [53]
+		}, -- [35]
 		{
 			"LFM RS 10 NM need shaman resto, boomy and hunter gs+5800 and achive!!! ", -- [1]
 			"Aspectwtf", -- [2]
@@ -994,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1572632293,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aAspectwtf|r",
-		}, -- [54]
+		}, -- [36]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -1012,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1572632294,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [55]
+		}, -- [37]
 		{
 			"***WTS *** ON WARMANE SITE Blood ELF RET PALA WITH 39k GOLD, WRATHFUL SHOULDER, CHEST, LEGS, BIS TRINKET, WEPONS, AND 310% DEADLY G. FROST WARMY MOUNT, PROF JWC/MIN...NAME STRAANGER 118 Coins", -- [1]
 			"Kiryak", -- [2]
@@ -1030,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1572632295,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aKiryak|r",
-		}, -- [56]
+		}, -- [38]
 		{
 			"Sale |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Scouradhyb", -- [2]
@@ -1048,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1572632297,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffScouradhyb|r",
-		}, -- [57]
+		}, -- [39]
 		{
 			" Far GOTH Majis Ruftos Nevren Goth nud ve Melka Vandarwos ViL agol tiras ash Gothalgos Regen Majis Eynes GOTH Garde Nostyec NuD dana ruff Gothalgos Lars dana BOR SKILDE Ruff ash agol O bur aziris tiras thor ko LON barad nud lo O Ruftvess Aelgestron", -- [1]
 			"Duskfallen", -- [2]
@@ -1066,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1572632297,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDuskfallen|r",
-		}, -- [58]
+		}, -- [40]
 		{
 			"BOR VIL SE LU KO WALDIR VA FAR E Y VE RUFF LO UDEN HIR ASH THOR E U VRUM EYNES HIR GOTH NUD Agol va ras Goth Noth SE danieb ", -- [1]
 			"Casas", -- [2]
@@ -1084,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1572632298,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dCasas|r",
-		}, -- [59]
+		}, -- [41]
 		{
 			"LF need all MOLTEN CORE heal rdps dps fast run |cffffff00|Hachievement:686:0700000000003765:1:2:12:18:0:0:0:0|h[Molten Core]|h|r", -- [1]
 			"Indecisa", -- [2]
@@ -1102,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1572632298,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIndecisa|r",
-		}, -- [60]
+		}, -- [42]
 		{
 			"wtf dalaran portal ", -- [1]
 			"Enjoylife", -- [2]
@@ -1120,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1572632299,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffEnjoylife|r",
-		}, -- [61]
+		}, -- [43]
 		{
 			"Buying all Frozen Orb that you have. Paying each 70 gold. Wana make deal for longer time. You can C.O.D me anytime 24/7. Simply C.O.D. anytime <3", -- [1]
 			"Zhasni", -- [2]
@@ -1138,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1572632299,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [62]
+		}, -- [44]
 		{
 			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
 			"Chwastea", -- [2]
@@ -1156,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1572632300,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dChwastea|r",
-		}, -- [63]
+		}, -- [45]
 		{
 			"LFM ICC (25) HC !! |cffffff00|Hachievement:4584:07000000002CC992:1:8:20:18:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r B + P RESS !! 6.2 K GS IS MIN >>> DISCORD IS MANDATORY <<< ( LADY // PP //SYNDRA LK NORM )", -- [1]
 			"Hcwarr", -- [2]
@@ -1174,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1572632301,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dHcwarr|r",
-		}, -- [64]
+		}, -- [46]
 		{
 			"::: ICC 25 HC/NM, atleast 8/12 HC :::: Need healers & DPS. 6k+++ GS. /w GS and role", -- [1]
 			"Tanxtincted", -- [2]
@@ -1192,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1572632301,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aTanxtincted|r",
-		}, -- [65]
+		}, -- [47]
 		{
 			"wtb*", -- [1]
 			"Enjoylife", -- [2]
@@ -1210,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1572632304,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffEnjoylife|r",
-		}, -- [66]
+		}, -- [48]
 		{
 			"BOR VIL SE LU goth O EYNES UDEN NE Kaelsig y lo borne ve FAR E Y bur far ", -- [1]
 			"Blackvein", -- [2]
@@ -1228,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1572632304,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBlackvein|r",
-		}, -- [67]
+		}, -- [49]
 		{
 			"NEED ALL FOR ICC 25 HC 6.2K GS++ B/P RES LK RUN |cffffff00|Hachievement:4584:07000000001E6C0E:1:2:16:18:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r ", -- [1]
 			"Dirtycat", -- [2]
@@ -1246,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1572632306,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aDirtycat|r",
-		}, -- [68]
+		}, -- [50]
 		{
 			"***WTS *** ON WARMANE SITE Blood ELF RET PALA WITH 39k GOLD, WRATHFUL SHOULDER, CHEST, LEGS, BIS TRINKET, WEPONS, AND 310% DEADLY G. FROST WARMY MOUNT, PROF JWC/MIN...NAME STRAANGER 118 Coins", -- [1]
 			"Kiryak", -- [2]
@@ -1264,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1572632307,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aKiryak|r",
-		}, -- [69]
+		}, -- [51]
 		{
 			"BOR VIL SE LU KO WALDIR VA FAR E Y VE RUFF LO UDEN HIR ASH THOR E U VRUM EYNES HIR GOTH NUD Agol va ras Goth Noth SE danieb ", -- [1]
 			"Casas", -- [2]
@@ -1282,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1572632309,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dCasas|r",
-		}, -- [70]
+		}, -- [52]
 		{
 			"lfm 10 man icc nm6/ 12 hc lk run gs +5.8 |cffffff00|Hachievement:4608:07000000002F3D86:1:9:24:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r 1x tank ", -- [1]
 			"Mehrabx", -- [2]
@@ -1300,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1572632311,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aMehrabx|r",
-		}, -- [71]
+		}, -- [53]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -1318,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1572632312,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [72]
+		}, -- [54]
 		{
 			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
 			"Chwastea", -- [2]
@@ -1336,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1572632314,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dChwastea|r",
-		}, -- [73]
+		}, -- [55]
 		{
 			"SELLING |cff0070dd|Hitem:22739:0:0:0:0:0:0:0:80|h[Tome of Polymorph: Turtle]|h|r IN AUCTION HOUSE", -- [1]
 			"Fummeltuss", -- [2]
@@ -1354,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1572632317,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Fummeltuss|r",
-		}, -- [74]
+		}, -- [56]
 		{
 			"BOR ANDOVIs AsH Hir Goth Nud E Lu Ruftos NOSTYEC VRUM NE Nud Kaelsig y lo ", -- [1]
 			"Eternalftw", -- [2]
@@ -1372,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1572632319,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Eternalftw|r",
-		}, -- [75]
+		}, -- [57]
 		{
 			"heal join rhc", -- [1]
 			"Mientus", -- [2]
@@ -1390,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1572632321,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Mientus|r",
-		}, -- [76]
+		}, -- [58]
 		{
 			"NEED ALL FOR ICC 25 HC 6.2K GS++ B/P RES LK RUN |cffffff00|Hachievement:4584:07000000001E6C0E:1:2:16:18:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r ", -- [1]
 			"Dirtycat", -- [2]
@@ -1408,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1572632323,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aDirtycat|r",
-		}, -- [77]
+		}, -- [59]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -1426,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1572632330,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [78]
+		}, -- [60]
 		{
 			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
 			"Chwastea", -- [2]
@@ -1444,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1572632336,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dChwastea|r",
-		}, -- [79]
+		}, -- [61]
 		{
 			"Any icc rep run going on?", -- [1]
 			"Iceslut", -- [2]
@@ -1462,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1572632337,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aIceslut|r",
-		}, -- [80]
+		}, -- [62]
 		{
 			"LU O KO AGOL O GARDE LON ASH ASH NUD VIL SE Y RE RUFTOS BUR FAR RUFF RU NAGAN ASH UDEN RUFTOS NAGAN THOR DANA ANDOVIS ASH VRUM E E VE ", -- [1]
 			"Dizzaa", -- [2]
@@ -1480,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1572632339,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dDizzaa|r",
-		}, -- [81]
+		}, -- [63]
 		{
 			"BOR Ruff va ras Daegil Noth Goth agol ruff ash thor melka ash ador ash y ruff veld thor ash ve ", -- [1]
 			"Grizzlywing", -- [2]
@@ -1498,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1572632344,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddGrizzlywing|r",
-		}, -- [82]
+		}, -- [64]
 		{
 			"LFM ICC (25) HC !! |cffffff00|Hachievement:4584:07000000002CC992:1:8:20:18:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r B + P RESS !! 6.2 K GS IS MIN >>> DISCORD IS MANDATORY <<< ( LADY // PP //SYNDRA LK NORM )", -- [1]
 			"Hcwarr", -- [2]
@@ -1516,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1572632345,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dHcwarr|r",
-		}, -- [83]
+		}, -- [65]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -1534,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1572632347,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [84]
+		}, -- [66]
 		{
 			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
 			"Chwastea", -- [2]
@@ -1552,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1572632349,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dChwastea|r",
-		}, -- [85]
+		}, -- [67]
 		{
 			"BOR ANDOVIs AsH Hir Goth Nud E Lu Ruftos NOSTYEC VRUM NE Nud Kaelsig y lo ", -- [1]
 			"Eternalftw", -- [2]
@@ -1570,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1572632350,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Eternalftw|r",
-		}, -- [86]
+		}, -- [68]
 		{
 			"dps 4.6 up for icc rep farm", -- [1]
 			"Ninjytsu", -- [2]
@@ -1588,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1572632351,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Ninjytsu|r",
-		}, -- [87]
+		}, -- [69]
 		{
 			"Ashilie dances with Catrina.", -- [1]
 			"Ashilie", -- [2]
@@ -1606,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1572632353,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc41e3aAshilie|r",
-		}, -- [88]
+		}, -- [70]
 		{
 			"Any icc rep runs goin on?", -- [1]
 			"Iceslut", -- [2]
@@ -1624,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1572632357,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aIceslut|r",
-		}, -- [89]
+		}, -- [71]
 		{
 			"if anyone needs proof to report changizz for STS ninja: https://www.youtube.com/watch?v=UnGq51qtRPg", -- [1]
 			"Undignified", -- [2]
@@ -1642,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1572632358,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aUndignified|r",
-		}, -- [90]
+		}, -- [72]
 		{
 			"ICC 25 Dyn NEED ALL 5.8k min + Achi. Boe/Primo/Rotface blood RES. Inspect @MEMO. Discord MUST", -- [1]
 			"Figured", -- [2]
@@ -1660,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1572632359,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dFigured|r",
-		}, -- [91]
+		}, -- [73]
 		{
 			"NEED ALL FOR ICC 25 HC 6.2K GS++ B/P RES LK RUN |cffffff00|Hachievement:4584:07000000001E6C0E:1:2:16:18:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r ", -- [1]
 			"Dirtycat", -- [2]
@@ -1678,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1572632360,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aDirtycat|r",
-		}, -- [92]
+		}, -- [74]
 		{
 			"LF need all MOLTEN CORE heal rdps dps fast run |cffffff00|Hachievement:686:0700000000003765:1:2:12:18:0:0:0:0|h[Molten Core]|h|r", -- [1]
 			"Indecisa", -- [2]
@@ -1696,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1572632361,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIndecisa|r",
-		}, -- [93]
+		}, -- [75]
 		{
 			"BOR SE WOs VE E U goth nud LITHTOS Ras Lordaere Gloinador SE danieb ENGOTH", -- [1]
 			"Chwastea", -- [2]
@@ -1714,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1572632364,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dChwastea|r",
-		}, -- [94]
+		}, -- [76]
 		{
 			"FAR Uden Lordaere vru Nuff VA hiR nagan E Lo ve nagan E Y Ne ve ador SE Y NevrenrOthas lon", -- [1]
 			"Anikki", -- [2]
@@ -1732,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1572632365,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Anikki|r",
-		}, -- [95]
+		}, -- [77]
 		{
 			"LU Barad ador lars Tiras eynes ASH EWIDDAN E Thor Ruff va ras Daegil Noth ruff RUFF E U vrum Y RE KO ", -- [1]
 			"Adoptme", -- [2]
@@ -1750,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1572632367,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aAdoptme|r",
-		}, -- [96]
+		}, -- [78]
 		{
 			"lfm 10 man icc nm6/ 12 hc lk run gs +5.8 |cffffff00|Hachievement:4608:07000000002F3D86:1:9:24:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r 1x tank 1x holy ", -- [1]
 			"Mehrabx", -- [2]
@@ -1768,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1572632370,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aMehrabx|r",
-		}, -- [97]
+		}, -- [79]
 		{
 			"Ashilie dances with Catrina.", -- [1]
 			"Ashilie", -- [2]
@@ -1786,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1572632370,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc41e3aAshilie|r",
-		}, -- [98]
+		}, -- [80]
 		{
 			"BOR ANDOVIs AsH Hir Goth Nud E Lu Ruftos NOSTYEC VRUM NE Nud Kaelsig y lo ", -- [1]
 			"Eternalftw", -- [2]
@@ -1804,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1572632371,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Eternalftw|r",
-		}, -- [99]
+		}, -- [81]
 		{
 			"Senjo greets Paacac with a hearty hello!", -- [1]
 			"Senjo", -- [2]
@@ -1822,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1572632372,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc41e3aSenjo|r",
-		}, -- [100]
+		}, -- [82]
 		{
 			"Ashilie dances with Catrina.", -- [1]
 			"Ashilie", -- [2]
@@ -1840,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1572632373,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cffc41e3aAshilie|r",
-		}, -- [101]
+		}, -- [83]
 		{
 			"BOR VIL SE LU KO WALDIR VA FAR E Y VE RUFF LO UDEN HIR ASH THOR E U VRUM EYNES HIR GOTH NUD Agol va ras Goth Noth SE danieb ", -- [1]
 			"Casas", -- [2]
@@ -1858,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1572632373,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dCasas|r",
-		}, -- [102]
+		}, -- [84]
 		{
 			"BOR nud MOD SE melka goth goth nud ", -- [1]
 			"Barugames", -- [2]
@@ -1876,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1572685141,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dBarugames|r",
-		}, -- [103]
+		}, -- [85]
 		{
 			"<TOC 25 > 5.4+ LF HUNTER/RETRI LOCK <BOE/ORB/PAT RESS >W/ME GS ACHIVE |cffffff00|Hachievement:3916:07000000004395D5:1:5:15:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Creeddles", -- [2]
@@ -1894,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1572685141,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Creeddles|r",
-		}, -- [104]
+		}, -- [86]
 		{
 			"ealdor RAS mod TI E Lu ve", -- [1]
 			"Gloyn", -- [2]
@@ -1912,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1572685151,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Gloyn|r",
-		}, -- [105]
+		}, -- [87]
 		{
 			"LF ICC 10n - 1 Tank 1 Heal 2 Meele 3 Range /w me [Gs,Spec,Achieve]", -- [1]
 			"Gasmoke", -- [2]
@@ -1930,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1572685151,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffGasmoke|r",
-		}, -- [106]
+		}, -- [88]
 		{
 			"<TOC 25 > 5.4+ LF HUNTER/RETRI LOCK <BOE/ORB/PAT RESS >W/ME GS ACHIVE |cffffff00|Hachievement:3916:07000000004395D5:1:5:15:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Creeddles", -- [2]
@@ -1948,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1572685161,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Creeddles|r",
-		}, -- [107]
+		}, -- [89]
 		{
 			"LFM ICC25N/H 5.7+ NO ACHV NO INV p/b ress NeeD ALL!!! |cffffff00|Hachievement:4637:070000000011D9BB:1:1:6:18:4294967295:4294967295:4294967295:4294967295|h[Heroic: Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Breakbrave", -- [2]
@@ -1966,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1572685168,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Breakbrave|r",
-		}, -- [108]
+		}, -- [90]
 		{
 			"Iraniha . Permium acc ba Gold / Foroshe Coins ba gheymati monaseb / Foroshe anvae hero bis ba Email registeri . ( Ro dar ro ham mitonim moamele ro anjam bedim To shahre Arak )", -- [1]
 			"Showy", -- [2]
@@ -1984,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1572685168,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dShowy|r",
-		}, -- [109]
+		}, -- [91]
 		{
 			"LF 2 tank FOR |cffffff00|Hquest:24583:80|h[Patchwerk Must Die!]|h|r", -- [1]
 			"Kildrak", -- [2]
@@ -2002,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1572685181,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aKildrak|r",
-		}, -- [110]
+		}, -- [92]
 		{
 			"LF 2 tank FOR |cffffff00|Hquest:24583:80|h[Patchwerk Must Die!]|h|r", -- [1]
 			"Kildrak", -- [2]
@@ -2020,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1572685182,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aKildrak|r",
-		}, -- [111]
+		}, -- [93]
 		{
 			"LF ICC 10n - 1 Tank 1 Heal 1 Fwarr 3 Range /w me [Gs,Spec,Achieve]", -- [1]
 			"Gasmoke", -- [2]
@@ -2038,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1572685189,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffGasmoke|r",
-		}, -- [112]
+		}, -- [94]
 		{
 			"BOR nud MOD SE melka goth goth O agol ador ash o ", -- [1]
 			"Barugames", -- [2]
@@ -2056,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1572685190,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dBarugames|r",
-		}, -- [113]
+		}, -- [95]
 		{
 			"lfm 1 tank 2 heal 4 dps 2 mdps 1 rdps |cffffff00|Hquest:24583:80|h[Patchwerk Must Die!]|h|r", -- [1]
 			"Belisiima", -- [2]
@@ -2074,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1572685191,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBelisiima|r",
-		}, -- [114]
+		}, -- [96]
 		{
 			"Icc 25 Nm / Hc Need Disco / Tank / Dps 5.7k+ B / P Resvd |cffffff00|Hachievement:4584:070000000000C855:1:8:26:15:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Electroboy", -- [2]
@@ -2092,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1572685198,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddElectroboy|r",
-		}, -- [115]
+		}, -- [97]
 		{
 			"Icc 25 Nm / Hc Need Disco / Tank / Dps 5.7k+ B / P Resvd |cffffff00|Hachievement:4584:070000000000C855:1:8:26:15:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Electroboy", -- [2]
@@ -2110,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1572685198,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddElectroboy|r",
-		}, -- [116]
+		}, -- [98]
 		{
 			"LFM 1Heal and 1Tank for FOS & POS HC /w me spec + gs", -- [1]
 			"Khorgar", -- [2]
@@ -2128,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1572685198,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dKhorgar|r",
-		}, -- [117]
+		}, -- [99]
 		{
 			"LFM 1Heal and 1Tank for FOS & POS HC /w me spec + gs", -- [1]
 			"Khorgar", -- [2]
@@ -2146,7 +1822,7 @@ ElvCharacterDB = {
 			[51] = 1572685198,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dKhorgar|r",
-		}, -- [118]
+		}, -- [100]
 		{
 			"Need all rdf hc", -- [1]
 			"Puddinwtf", -- [2]
@@ -2164,7 +1840,7 @@ ElvCharacterDB = {
 			[51] = 1572685198,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaPuddinwtf|r",
-		}, -- [119]
+		}, -- [101]
 		{
 			"Need all rdf hc", -- [1]
 			"Puddinwtf", -- [2]
@@ -2182,7 +1858,7 @@ ElvCharacterDB = {
 			[51] = 1572685198,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuddinwtf|r",
-		}, -- [120]
+		}, -- [102]
 		{
 			"LF ICC 10n - 1 Tank 1 Heal 1 Fwarr 3 Range /w me [Gs,Spec,Achieve]", -- [1]
 			"Gasmoke", -- [2]
@@ -2200,7 +1876,7 @@ ElvCharacterDB = {
 			[51] = 1572685200,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffGasmoke|r",
-		}, -- [121]
+		}, -- [103]
 		{
 			"Iraniha . Permium acc ba Gold / Foroshe Coins ba gheymati monaseb / Foroshe anvae hero bis ba Email registeri . ( Ro dar ro ham mitonim moamele ro anjam bedim To shahre Arak )", -- [1]
 			"Showy", -- [2]
@@ -2218,7 +1894,7 @@ ElvCharacterDB = {
 			[51] = 1572685203,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dShowy|r",
-		}, -- [122]
+		}, -- [104]
 		{
 			"Need all rdf hc", -- [1]
 			"Puddinwtf", -- [2]
@@ -2236,7 +1912,7 @@ ElvCharacterDB = {
 			[51] = 1572685204,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuddinwtf|r",
-		}, -- [123]
+		}, -- [105]
 		{
 			"LU VIL TI KO Y RE Goth E Agol O Vassild far Ne Uden cynegold Ruff veld Ras Rogesh Danieb TI danieb ", -- [1]
 			"Jstrr", -- [2]
@@ -2254,7 +1930,7 @@ ElvCharacterDB = {
 			[51] = 1572685207,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Jstrr|r",
-		}, -- [124]
+		}, -- [106]
 		{
 			"MOD TI mod Melka Goth Goth Agol Ealdor nandige ras Ve Borne ", -- [1]
 			"Caperish", -- [2]
@@ -2272,7 +1948,7 @@ ElvCharacterDB = {
 			[51] = 1572685208,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddCaperish|r",
-		}, -- [125]
+		}, -- [107]
 		{
 			"BOR nud MOD SE melka goth goth O agol ador ash ", -- [1]
 			"Barugames", -- [2]
@@ -2290,7 +1966,7 @@ ElvCharacterDB = {
 			[51] = 1572685208,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dBarugames|r",
-		}, -- [126]
+		}, -- [108]
 		{
 			"LF ICC 10n - 1 Tank 1 Heal 1 Fwarr 3 Range /w me [Gs,Spec,Achieve]", -- [1]
 			"Gasmoke", -- [2]
@@ -2308,6 +1984,330 @@ ElvCharacterDB = {
 			[51] = 1572685214,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffGasmoke|r",
+		}, -- [109]
+		{
+			"LFM ICC 25 GLORY RUN need 2rdps(boomie/demo/hunt) last spot min 6.2+DISCORD REQ |cffffff00|Hachievement:4603:07000000002C6A9C:0:0:0:-1:49151:0:0:0|h[Glory of the Icecrown Raider (25 player)]|h|r ", -- [1]
+			"Tyranus", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3334, -- [11]
+			"0x07000000002C6A9C", -- [12]
+			0, -- [13]
+			[51] = 1572711767,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dTyranus|r",
+		}, -- [110]
+		{
+			"goth goth uden vohl waldir ash hir uden regen ve lars nud vil SE nuff ko far E E ve bur nagan vrum Ras Garde va Vohl", -- [1]
+			"Paladementor", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3339, -- [11]
+			"0x070000000000BBE2", -- [12]
+			0, -- [13]
+			[51] = 1572711768,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaPaladementor|r",
+		}, -- [111]
+		{
+			" icc 25 NM/H need 5 heal 1 tank 3 dps +6200 8/12 (b+o+e prim) sfs free roll link ks |cffffff00|Hachievement:4608:0700000000417FE4:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r 18/25", -- [1]
+			"Whiskyy", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3340, -- [11]
+			"0x0700000000417FE4", -- [12]
+			0, -- [13]
+			[51] = 1572711769,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aWhiskyy|r",
+		}, -- [112]
+		{
+			" icc 25 NM/H need 5 heal 1 tank 3 dps +6200 8/12 (b+o+e prim) sfs free roll link ks |cffffff00|Hachievement:4608:0700000000417FE4:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r 18/25", -- [1]
+			"Whiskyy", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3341, -- [11]
+			"0x0700000000417FE4", -- [12]
+			0, -- [13]
+			[51] = 1572711769,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aWhiskyy|r",
+		}, -- [113]
+		{
+			"BOR SE SE goth Vandar ash ruff Ras Lordaere Gloinador SE danieb y borne thor ve ", -- [1]
+			"Ineedcarry", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3342, -- [11]
+			"0x07000000004269DC", -- [12]
+			0, -- [13]
+			[51] = 1572711770,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aIneedcarry|r",
+		}, -- [114]
+		{
+			"BOR vil TI goth O agol O agol E RE ko E Y ruff hir WOS vrum ", -- [1]
+			"Faseroll", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3350, -- [11]
+			"0x0700000000375E2C", -- [12]
+			0, -- [13]
+			[51] = 1572711785,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaFaseroll|r",
+		}, -- [115]
+		{
+			" icc 25 NM/H need 5 heal 1 tank 3 dps +6200 8/12 (b+o+e prim) sfs free roll link ks |cffffff00|Hachievement:4608:0700000000417FE4:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r 18/25", -- [1]
+			"Whiskyy", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3390, -- [11]
+			"0x0700000000417FE4", -- [12]
+			0, -- [13]
+			[51] = 1572711797,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aWhiskyy|r",
+		}, -- [116]
+		{
+			" icc 25 NM/H need 5 heal 1 tank 3 dps +6200 8/12 (b+o+e prim) sfs free roll link ks |cffffff00|Hachievement:4608:0700000000417FE4:1:6:9:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r 18/25", -- [1]
+			"Whiskyy", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3392, -- [11]
+			"0x0700000000417FE4", -- [12]
+			0, -- [13]
+			[51] = 1572711797,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aWhiskyy|r",
+		}, -- [117]
+		{
+			"BOR vil TI goth O agol O agol E RE ko E Y ruff hir WOS vrum ", -- [1]
+			"Faseroll", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3442, -- [11]
+			"0x0700000000375E2C", -- [12]
+			0, -- [13]
+			[51] = 1572711810,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaFaseroll|r",
+		}, -- [118]
+		{
+			"Icc 25 nm b/p Reserved |cffffff00|Hachievement:4608:0700000000235EB4:1:3:24:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r gs 5.8+ NEeed 1x disco 1x dps 23/25", -- [1]
+			"Vhadk", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3464, -- [11]
+			"0x0700000000235EB4", -- [12]
+			0, -- [13]
+			[51] = 1572711815,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aVhadk|r",
+		}, -- [119]
+		{
+			"Icc 25 nm b/p Reserved |cffffff00|Hachievement:4608:0700000000235EB4:1:3:24:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r gs 5.8+ NEeed 1x disco 1x dps 23/25", -- [1]
+			"Vhadk", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3465, -- [11]
+			"0x0700000000235EB4", -- [12]
+			0, -- [13]
+			[51] = 1572711815,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aVhadk|r",
+		}, -- [120]
+		{
+			"Icc 25 nm b/p Reserved |cffffff00|Hachievement:4608:0700000000235EB4:1:3:24:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r gs 5.8+ NEeed 1x disco 1x dps 23/25", -- [1]
+			"Vhadk", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3466, -- [11]
+			"0x0700000000235EB4", -- [12]
+			0, -- [13]
+			[51] = 1572711815,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aVhadk|r",
+		}, -- [121]
+		{
+			"Icc 25 nm b/p Reserved |cffffff00|Hachievement:4608:0700000000235EB4:1:3:24:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r gs 5.8+ NEeed 1x disco 1x dps 23/25", -- [1]
+			"Vhadk", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3467, -- [11]
+			"0x0700000000235EB4", -- [12]
+			0, -- [13]
+			[51] = 1572711815,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aVhadk|r",
+		}, -- [122]
+		{
+			"Icc 25 nm b/p Reserved |cffffff00|Hachievement:4608:0700000000235EB4:1:3:24:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r gs 5.8+ NEeed 1x disco 1x dps 23/25", -- [1]
+			"Vhadk", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3468, -- [11]
+			"0x0700000000235EB4", -- [12]
+			0, -- [13]
+			[51] = 1572711815,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aVhadk|r",
+		}, -- [123]
+		{
+			"LU SE", -- [1]
+			"Wookiepaw", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3469, -- [11]
+			"0x0700000000364BEE", -- [12]
+			0, -- [13]
+			[51] = 1572711815,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aWookiepaw|r",
+		}, -- [124]
+		{
+			"barad lo VER nud waldir majis vohl lithtos dana ras nuff an ergin ", -- [1]
+			"Maxholy", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3470, -- [11]
+			"0x07000000004C4830", -- [12]
+			0, -- [13]
+			[51] = 1572711815,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaMaxholy|r",
+		}, -- [125]
+		{
+			"Icc 25 nm b/p Reserved |cffffff00|Hachievement:4608:0700000000235EB4:1:3:24:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r gs 5.8+ NEeed 1x disco 1x dps 23/25", -- [1]
+			"Vhadk", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3477, -- [11]
+			"0x0700000000235EB4", -- [12]
+			0, -- [13]
+			[51] = 1572711817,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aVhadk|r",
+		}, -- [126]
+		{
+			"Icc 25 nm b/p Reserved |cffffff00|Hachievement:4608:0700000000235EB4:1:3:24:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r gs 5.8+ NEeed 1x disco 1x dps 23/25", -- [1]
+			"Vhadk", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3480, -- [11]
+			"0x0700000000235EB4", -- [12]
+			0, -- [13]
+			[51] = 1572711817,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aVhadk|r",
 		}, -- [127]
 	},
 }

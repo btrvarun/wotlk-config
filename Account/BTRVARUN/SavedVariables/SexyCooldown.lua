@@ -13,20 +13,33 @@ SexyCooldownDB = {
 		["Dreamstar - Icecrown"] = {
 			["bars"] = {
 				{
-					["blacklist"] = {
-					},
 					["events"] = {
 					},
-					["bar"] = {
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
 						["fontColor"] = {
 						},
 						["borderColor"] = {
 						},
-						["height"] = 33.00000088903411,
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["lock"] = true,
+						["width"] = 449.9999930245016,
+						["y"] = 199.999915199823,
+						["x"] = -731.0000218155294,
 						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["font"] = "Continuum Medium",
 						["backgroundColor"] = {
 						},
-						["width"] = 449.9999930245016,
+						["texture"] = "ElvUI Norm",
 					},
 				}, -- [1]
 			},

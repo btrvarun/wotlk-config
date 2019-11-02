@@ -85,6 +85,19 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Azurelane"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
 	["Unknwon"] = {
 		2, -- [1]
 		2, -- [2]
@@ -111,12 +124,12 @@ PallyPower_Assignments = {
 		1, -- [10]
 		3, -- [11]
 	},
-	["Azurelane"] = {
+	["Junack"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
-		3, -- [5]
+		2, -- [5]
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
@@ -137,18 +150,18 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Junack"] = {
+	["Royalscepte"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
 		3, -- [4]
-		2, -- [5]
+		3, -- [5]
 		3, -- [6]
 		3, -- [7]
 		3, -- [8]
 		3, -- [9]
 		3, -- [10]
-		3, -- [11]
+		0, -- [11]
 	},
 	["Denii"] = {
 		0, -- [1]
@@ -202,7 +215,7 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
-	["Zuulith"] = {
+	["Infine"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -215,7 +228,7 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Infine"] = {
+	["Zuulith"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -394,15 +407,17 @@ PallyPower_NormalAssignments = {
 	},
 	["Rshaam"] = {
 	},
+	["Azurelane"] = {
+	},
 	["Unknwon"] = {
 	},
 	["Errorpaladin"] = {
 	},
-	["Azurelane"] = {
+	["Junack"] = {
 	},
 	["Holydoc"] = {
 	},
-	["Junack"] = {
+	["Royalscepte"] = {
 	},
 	["Denii"] = {
 	},
@@ -412,9 +427,9 @@ PallyPower_NormalAssignments = {
 	},
 	["Chuichui"] = {
 	},
-	["Zuulith"] = {
-	},
 	["Infine"] = {
+	},
+	["Zuulith"] = {
 	},
 	["Xqxq"] = {
 	},
@@ -449,17 +464,18 @@ PallyPower_AuraAssignments = {
 	["Hugixx"] = 5,
 	["Xuxiaoge"] = 1,
 	["Rshaam"] = 2,
+	["Azurelane"] = 1,
 	["Unknwon"] = 1,
 	["Errorpaladin"] = 1,
-	["Azurelane"] = 1,
-	["Holydoc"] = 6,
 	["Junack"] = 2,
+	["Holydoc"] = 6,
+	["Royalscepte"] = 0,
 	["Denii"] = 0,
 	["Fishqs"] = 3,
 	["Rakin"] = 3,
 	["Chuichui"] = 1,
-	["Zuulith"] = 1,
 	["Infine"] = 5,
+	["Zuulith"] = 1,
 	["Xqxq"] = 0,
 	["Nerwaa"] = 0,
 	["Talset"] = 0,
