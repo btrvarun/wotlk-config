@@ -34,6 +34,13 @@ X: -58
 Y: 272
 W: 1
 H: 1
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: LEFT
+X: 4
+Y: 233
+W: 450
+H: 33
 Frame: SkadaBarWindowSkada
 FrameLevel: 103
 Anchor: BOTTOMRIGHT
