@@ -19,13 +19,13 @@ Omen3DB = {
 				["UseShowWith"] = false,
 			},
 			["FrameStrata"] = "2-LOW",
+			["PositionX"] = 847.5000148742246,
+			["Shown"] = true,
 			["TitleBar"] = {
 				["FontSize"] = 15,
 				["Font"] = "ABF",
 				["Height"] = 22,
 			},
-			["Shown"] = true,
-			["PositionX"] = 847.5000148742246,
 			["Bar"] = {
 				["Spacing"] = 1,
 			},

@@ -14,10 +14,10 @@ SkadaDB = {
 					["barfontsize"] = 14,
 					["barslocked"] = true,
 					["background"] = {
+						["height"] = 183.0000101896987,
 						["color"] = {
 							["a"] = 0,
 						},
-						["height"] = 183.0000101896987,
 					},
 					["spark"] = false,
 					["bartexture"] = "ElvUI Norm",
@@ -29,8 +29,8 @@ SkadaDB = {
 						["fontsize"] = 15,
 						["height"] = 13,
 					},
-					["mode"] = "Damage",
 					["barwidth"] = 254.9999523340941,
+					["mode"] = "Damage",
 				}, -- [1]
 			},
 			["total"] = {
@@ -52,8 +52,8 @@ SkadaDB = {
 				},
 				["name"] = "Total",
 				["overhealing"] = 0,
-				["starttime"] = 1572242342,
 				["damagetaken"] = 0,
+				["starttime"] = 1572242342,
 				["last_action"] = 1572242342,
 				["mobdone"] = 0,
 			},

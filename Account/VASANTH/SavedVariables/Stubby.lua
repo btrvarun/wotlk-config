@@ -4,8 +4,8 @@ StubbyConfig = {
 	},
 	["inspected"] = {
 	},
-	["boots"] = {
-	},
 	["configs"] = {
+	},
+	["boots"] = {
 	},
 }
