@@ -3,16 +3,16 @@ PallyPowerDB = {
 	["profiles"] = {
 		["Default"] = {
 			["cBuffNeedSpecial"] = {
-				["r"] = 0.5,
+				["b"] = 0.5,
 				["t"] = 0.69,
 				["g"] = 0.5,
-				["b"] = 0.5,
+				["r"] = 0.5,
 			},
 			["cBuffNeedAll"] = {
-				["r"] = 0.5,
+				["b"] = 0.5,
 				["t"] = 0.69,
 				["g"] = 0.5,
-				["b"] = 0.5,
+				["r"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
 				["t"] = 0.69,
@@ -23,10 +23,10 @@ PallyPowerDB = {
 				["frameLocked"] = true,
 			},
 			["cBuffGood"] = {
-				["r"] = 0.05098039215686274,
+				["b"] = 0.05098039215686274,
 				["t"] = 0.69,
 				["g"] = 0.05098039215686274,
-				["b"] = 0.05098039215686274,
+				["r"] = 0.05098039215686274,
 			},
 			["disable"] = false,
 		},
@@ -57,6 +57,32 @@ PallyPower_Assignments = {
 		0, -- [8]
 		0, -- [9]
 		0, -- [10]
+		0, -- [11]
+	},
+	["Mybest"] = {
+		2, -- [1]
+		2, -- [2]
+		0, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		0, -- [7]
+		0, -- [8]
+		2, -- [9]
+		2, -- [10]
+		2, -- [11]
+	},
+	["Phsycopally"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
+		4, -- [10]
 		0, -- [11]
 	},
 	["Momofuku"] = {
@@ -468,6 +494,10 @@ PallyPower_NormalAssignments = {
 	},
 	["Xuxiaoge"] = {
 	},
+	["Mybest"] = {
+	},
+	["Phsycopally"] = {
+	},
 	["Momofuku"] = {
 	},
 	["Unknwon"] = {
@@ -537,6 +567,8 @@ PallyPower_NormalAssignments = {
 PallyPower_AuraAssignments = {
 	["Junack"] = 2,
 	["Xuxiaoge"] = 1,
+	["Mybest"] = 5,
+	["Phsycopally"] = 1,
 	["Momofuku"] = 1,
 	["Unknwon"] = 1,
 	["Holydoc"] = 6,

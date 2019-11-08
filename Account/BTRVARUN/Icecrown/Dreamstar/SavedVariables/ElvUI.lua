@@ -24,26 +24,26 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"LFM [Patchwerk Must Die!] need 1 tank, dps and 1 healer", -- [1]
-			"Zossie", -- [2]
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
 			"Orcish", -- [3]
-			"4. LookingForGroup", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			53, -- [11]
-			"0x0700000000441106", -- [12]
+			1135, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1572755261,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zossie",
+			[51] = 1573172929,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefGendler|r",
 		}, -- [1]
 		{
-			"LFM [Patchwerk Must Die!] need 1 tank, dps and 1 healer", -- [1]
-			"Zossie", -- [2]
+			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
+			"Shockmaw", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -52,34 +52,34 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			55, -- [11]
-			"0x0700000000441106", -- [12]
+			1141, -- [11]
+			"0x070000000043EA6D", -- [12]
 			0, -- [13]
-			[51] = 1572755264,
+			[51] = 1573172933,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zossie",
+			[52] = "Shockmaw",
 		}, -- [2]
 		{
-			"Fresh 80 Tank Looking to Get Gear!!! ", -- [1]
-			"Shpallydin", -- [2]
+			"lf [Delicate Cardinal Ruby]x2 500 g", -- [1]
+			"Bloodngutss", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			60, -- [11]
-			"0x07000000003A05E8", -- [12]
+			1155, -- [11]
+			"0x07000000004AED47", -- [12]
 			0, -- [13]
-			[51] = 1572755274,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shpallydin",
+			[51] = 1573172944,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aBloodngutss|r",
 		}, -- [3]
 		{
-			"LFM Icc rep farm need all +5k /w gs class role (Boe ress)", -- [1]
-			"Wilddruid", -- [2]
+			"pls gold for talents", -- [1]
+			"Fireblue", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -88,427 +88,13 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			62, -- [11]
-			"0x07000000004C0059", -- [12]
+			1158, -- [11]
+			"0x07000000004DBB1A", -- [12]
 			0, -- [13]
-			[51] = 1572755277,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aWilddruid|r",
+			[51] = 1573172947,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefFireblue|r",
 		}, -- [4]
-		{
-			"Fresh 80 Tank Looking to Get Gear!!! ", -- [1]
-			"Shpallydin", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			63, -- [11]
-			"0x07000000003A05E8", -- [12]
-			0, -- [13]
-			[51] = 1572755277,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shpallydin",
-		}, -- [5]
-		{
-			"LFM Icc rep farm need all +5k /w gs class role (Boe ress)", -- [1]
-			"Wilddruid", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			65, -- [11]
-			"0x07000000004C0059", -- [12]
-			0, -- [13]
-			[51] = 1572755278,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Wilddruid",
-		}, -- [6]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			67, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755283,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaKalaryx|r",
-		}, -- [7]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			69, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755290,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kalaryx",
-		}, -- [8]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			71, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755294,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kalaryx",
-		}, -- [9]
-		{
-			"ASH VIL KO TI O VELD LO BORNE ASH VE", -- [1]
-			"Elott", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			76, -- [11]
-			"0x07000000004A9ABF", -- [12]
-			0, -- [13]
-			[51] = 1572755302,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaElott|r",
-		}, -- [10]
-		{
-			"LFM [Patchwerk Must Die!] need 1 tank, dps and 1 healer", -- [1]
-			"Zossie", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			79, -- [11]
-			"0x0700000000441106", -- [12]
-			0, -- [13]
-			[51] = 1572755303,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zossie",
-		}, -- [11]
-		{
-			"asi kito mas", -- [1]
-			"Pepelucito", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			80, -- [11]
-			"0x07000000004721A0", -- [12]
-			0, -- [13]
-			[51] = 1572755305,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaPepelucito|r",
-		}, -- [12]
-		{
-			"LFM [Patchwerk Must Die!] need 1 tank, dps and 1 healer", -- [1]
-			"Zossie", -- [2]
-			"Orcish", -- [3]
-			"4. LookingForGroup", -- [4]
-			"", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			82, -- [11]
-			"0x0700000000441106", -- [12]
-			0, -- [13]
-			[51] = 1572755306,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Zossie",
-		}, -- [13]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			83, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755308,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaKalaryx|r",
-		}, -- [14]
-		{
-			"DE TANKE VAS A IR", -- [1]
-			"Demiang", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			84, -- [11]
-			"0x070000000000B565", -- [12]
-			0, -- [13]
-			[51] = 1572755309,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aDemiang|r",
-		}, -- [15]
-		{
-			"any healer for hor hc?", -- [1]
-			"Interloperr", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			86, -- [11]
-			"0x07000000004D0A14", -- [12]
-			0, -- [13]
-			[51] = 1572755310,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Interloperr",
-		}, -- [16]
-		{
-			"any healer for hor hc?", -- [1]
-			"Interloperr", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			88, -- [11]
-			"0x07000000004D0A14", -- [12]
-			0, -- [13]
-			[51] = 1572755311,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Interloperr",
-		}, -- [17]
-		{
-			"si", -- [1]
-			"Pepelucito", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			89, -- [11]
-			"0x07000000004721A0", -- [12]
-			0, -- [13]
-			[51] = 1572755312,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaPepelucito|r",
-		}, -- [18]
-		{
-			"any healer for hor hc?", -- [1]
-			"Interloperr", -- [2]
-			"Orcish", -- [3]
-			"4. LookingForGroup", -- [4]
-			"", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			90, -- [11]
-			"0x07000000004D0A14", -- [12]
-			0, -- [13]
-			[51] = 1572755318,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Interloperr",
-		}, -- [19]
-		{
-			"any healer for hor hc?", -- [1]
-			"Interloperr", -- [2]
-			"Orcish", -- [3]
-			"3. LocalDefense - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Dalaran", -- [9]
-			0, -- [10]
-			91, -- [11]
-			"0x07000000004D0A14", -- [12]
-			0, -- [13]
-			[51] = 1572755325,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Interloperr",
-		}, -- [20]
-		{
-			"tiras endirvis ", -- [1]
-			"Larksenia", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			92, -- [11]
-			"0x07000000004C5493", -- [12]
-			0, -- [13]
-			[51] = 1572755327,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Larksenia|r",
-		}, -- [21]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			93, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755329,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kalaryx",
-		}, -- [22]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			94, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755331,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaKalaryx|r",
-		}, -- [23]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			100, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755340,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaKalaryx|r",
-		}, -- [24]
-		{
-			"icc rep farm need 1 tank last spot", -- [1]
-			"Kalaryx", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			102, -- [11]
-			"0x0700000000185874", -- [12]
-			0, -- [13]
-			[51] = 1572755340,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Kalaryx",
-		}, -- [25]
-		{
-			"!!! Looking for good raiding guild Balkan-Turkish-European time zones! Whisper me please!", -- [1]
-			"Vyndiosa", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			507, -- [11]
-			"0x07000000003F4B0E", -- [12]
-			0, -- [13]
-			[51] = 1573172265,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Vyndiosa",
-		}, -- [26]
-		{
-			"!!! Looking for good raiding guild Balkan-Turkish-European time zones! Whisper me please!", -- [1]
-			"Vyndiosa", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			511, -- [11]
-			"0x07000000003F4B0E", -- [12]
-			0, -- [13]
-			[51] = 1573172269,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aVyndiosa|r",
-		}, -- [27]
 		{
 			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
 			"Gendler", -- [2]
@@ -520,88 +106,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			515, -- [11]
+			1159, -- [11]
 			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172275,
+			[51] = 1573172947,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff68ccefGendler|r",
-		}, -- [28]
+		}, -- [5]
 		{
-			"wts |cffa335ee|Hitem:50001:0:0:0:0:0:0:0:80|h[Ikfirus's Sack of Wonder]|h|r", -- [1]
-			"Shizukuu", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			542, -- [11]
-			"0x070000000002398F", -- [12]
-			0, -- [13]
-			[51] = 1573172295,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shizukuu",
-		}, -- [29]
-		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			543, -- [11]
-			"0x0700000000223209", -- [12]
-			0, -- [13]
-			[51] = 1573172295,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
-		}, -- [30]
-		{
-			"LFM ULDUAR 25 FULL RUN NEED ALL 5K+ (FRACMENTS RESS)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			544, -- [11]
-			"0x07000000003EB7BD", -- [12]
-			0, -- [13]
-			[51] = 1573172295,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
-		}, -- [31]
-		{
-			"WTB |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r 80g each, |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 40g each, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 18g each. WHISPER ME thanks", -- [1]
-			"Uuh", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			545, -- [11]
-			"0x070000000026A3DC", -- [12]
-			0, -- [13]
-			[51] = 1573172295,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Uuh",
-		}, -- [32]
-		{
-			" Auto Invite", -- [1]
-			"Sorenqt", -- [2]
+			"inv", -- [1]
+			"Vampireheals", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -610,52 +124,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			546, -- [11]
-			"0x07000000003EC7DD", -- [12]
+			1165, -- [11]
+			"0x070000000001AFB5", -- [12]
 			0, -- [13]
-			[51] = 1573172295,
+			[51] = 1573172952,
 			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aSorenqt|r",
-		}, -- [33]
+			[52] = "|cffffffffVampireheals|r",
+		}, -- [6]
 		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			571, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172311,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [34]
-		{
-			"LFM ULDUAR 25 FULL RUN NEED ALL 5K+ (FRACMENTS RESS)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			578, -- [11]
-			"0x07000000003EB7BD", -- [12]
-			0, -- [13]
-			[51] = 1573172315,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
-		}, -- [35]
-		{
-			"SMD Drujaga", -- [1]
-			"Boomkaftw", -- [2]
+			"Gendler spits on the ground.", -- [1]
+			"Gendler", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -664,34 +142,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			579, -- [11]
-			"0x07000000000606F3", -- [12]
+			0, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172317,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aBoomkaftw|r",
-		}, -- [36]
+			[51] = 1573172955,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [7]
 		{
-			"LFm Toc 25 nm Need dps +1 dis pries (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			583, -- [11]
-			"0x07000000004ABB1A", -- [12]
-			0, -- [13]
-			[51] = 1573172318,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
-		}, -- [37]
-		{
-			"WTB |cffa335ee|Hitem:42987:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r 3500 gold", -- [1]
-			"Bloodngutss", -- [2]
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -700,34 +160,70 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			587, -- [11]
-			"0x07000000004AED47", -- [12]
+			1171, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172323,
+			[51] = 1573172955,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [8]
+		{
+			"Gendler spits on the ground.", -- [1]
+			"Gendler", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			0, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573172955,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [9]
+		{
+			"Gendler spits on Fireblue.", -- [1]
+			"Gendler", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			0, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573172962,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [10]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1176, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573172962,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aBloodngutss|r",
-		}, -- [38]
+			[52] = "|cff68ccefGendler|r",
+		}, -- [11]
 		{
-			"lf rogue to open |cff0070dd|Hitem:43624:0:0:0:0:0:0:0:80|h[Titanium Lockbox]|h|r", -- [1]
-			"Ozm", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			590, -- [11]
-			"0x07000000003F0DB5", -- [12]
-			0, -- [13]
-			[51] = 1573172326,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ozm",
-		}, -- [39]
-		{
-			"smd ", -- [1]
-			"Drujaga", -- [2]
+			"Gendler spits on Fireblue.", -- [1]
+			"Gendler", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -736,71 +232,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			592, -- [11]
-			"0x0700000000116D68", -- [12]
+			0, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172328,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aDrujaga|r",
-		}, -- [40]
+			[51] = 1573172965,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [12]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			617, -- [11]
-			"0x0700000000223209", -- [12]
-			0, -- [13]
-			[51] = 1573172336,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
-		}, -- [41]
-		{
-			"WTB |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r 80g each, |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 40g each, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 18g each. WHISPER ME thanks", -- [1]
-			"Uuh", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			618, -- [11]
-			"0x070000000026A3DC", -- [12]
-			0, -- [13]
-			[51] = 1573172337,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Uuh",
-		}, -- [42]
-		{
-			"WTB |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r 80g each, |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 40g each, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 18g each. WHISPER ME thanks", -- [1]
-			"Uuh", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			619, -- [11]
-			"0x070000000026A3DC", -- [12]
-			0, -- [13]
-			[51] = 1573172337,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Uuh",
-		}, -- [43]
-		{
-			"LF tailor", -- [1]
-			"Sakanfar", -- [2]
-			"Orcish", -- [3]
+			"Gendler spits on Fireblue.", -- [1]
+			"Gendler", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -808,13 +250,13 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			620, -- [11]
-			"0x07000000004CA84F", -- [12]
+			0, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172339,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefSakanfar|r",
-		}, -- [44]
+			[51] = 1573172965,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [13]
 		{
 			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
 			"Pancakebear", -- [2]
@@ -826,13 +268,31 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			622, -- [11]
+			1183, -- [11]
 			"0x07000000003CC355", -- [12]
 			0, -- [13]
-			[51] = 1573172341,
+			[51] = 1573172971,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Pancakebear",
-		}, -- [45]
+		}, -- [14]
+		{
+			"LFm Toc 25 nm Need 2rdps LAST spot (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
+			"Heartbraker", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1185, -- [11]
+			"0x07000000004ABB1A", -- [12]
+			0, -- [13]
+			[51] = 1573172975,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Heartbraker",
+		}, -- [15]
 		{
 			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
 			"Gendler", -- [2]
@@ -844,16 +304,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			623, -- [11]
+			1189, -- [11]
 			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172342,
+			[51] = 1573172982,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff68ccefGendler|r",
-		}, -- [46]
+		}, -- [16]
 		{
-			"u both smd", -- [1]
-			"Bopg", -- [2]
+			"Fireblue cries on Gendler's shoulder.", -- [1]
+			"Fireblue", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -862,34 +322,88 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			627, -- [11]
-			"0x070000000014F7F7", -- [12]
+			0, -- [11]
+			"0x07000000004DBB1A", -- [12]
 			0, -- [13]
-			[51] = 1573172345,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffc69b6dBopg|r",
-		}, -- [47]
+			[51] = 1573172983,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefFireblue|r",
+		}, -- [17]
 		{
-			"hello", -- [1]
-			"Browhatsthis", -- [2]
+			"Redjonn winks slyly at Wheur.", -- [1]
+			"Redjonn", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Browhatsthis", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			628, -- [11]
-			"0x07000000004CF01D", -- [12]
+			0, -- [11]
+			"0x0700000000067787", -- [12]
 			0, -- [13]
-			[51] = 1573172347,
-			[50] = "CHAT_MSG_WHISPER",
-			[52] = "|cff68ccefBrowhatsthis|r",
-		}, -- [48]
+			[51] = 1573172987,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefRedjonn|r",
+		}, -- [18]
 		{
-			"LFm Toc 25 nm Need dps +1 dis pries (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
+			"+rouge", -- [1]
+			"Dnett", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1204, -- [11]
+			"0x07000000001959A0", -- [12]
+			0, -- [13]
+			[51] = 1573173004,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aDnett|r",
+		}, -- [19]
+		{
+			"ty", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1209, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173010,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [20]
+		{
+			"teleport durortal", -- [1]
+			"Isuraeru", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1211, -- [11]
+			"0x07000000004D984D", -- [12]
+			0, -- [13]
+			[51] = 1573173011,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff9382c9Isuraeru|r",
+		}, -- [21]
+		{
+			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
+			"Shockmaw", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -898,31 +412,13 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			631, -- [11]
-			"0x07000000004ABB1A", -- [12]
+			1212, -- [11]
+			"0x070000000043EA6D", -- [12]
 			0, -- [13]
-			[51] = 1573172350,
+			[51] = 1573173011,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
-		}, -- [49]
-		{
-			"do you have any spare gold please?", -- [1]
-			"Browhatsthis", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Browhatsthis", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			638, -- [11]
-			"0x07000000004CF01D", -- [12]
-			0, -- [13]
-			[51] = 1573172355,
-			[50] = "CHAT_MSG_WHISPER",
-			[52] = "|cff68ccefBrowhatsthis|r",
-		}, -- [50]
+			[52] = "Shockmaw",
+		}, -- [22]
 		{
 			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Nosoups", -- [2]
@@ -934,121 +430,13 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			639, -- [11]
+			1216, -- [11]
 			"0x0700000000223209", -- [12]
 			0, -- [13]
-			[51] = 1573172355,
+			[51] = 1573173014,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Nosoups",
-		}, -- [51]
-		{
-			"LFm Toc 25 nm Need 1 Disc Pri (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			645, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172358,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [52]
-		{
-			"LFm Toc 25 nm Need 1 Disc Pri (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			649, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172359,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [53]
-		{
-			"LFm Toc 25 nm Need 1 Disc Pri (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			651, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172363,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [54]
-		{
-			"rip bbj", -- [1]
-			"Sunstrike", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			654, -- [11]
-			"0x07000000000EF2F7", -- [12]
-			0, -- [13]
-			[51] = 1573172366,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaSunstrike|r",
-		}, -- [55]
-		{
-			"WTS |cff1eff00|Hitem:11175:0:0:0:0:0:0:0:72|h[Greater Nether Essence]|h|r", -- [1]
-			"Spritzerin", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			655, -- [11]
-			"0x07000000004D57F3", -- [12]
-			0, -- [13]
-			[51] = 1573172367,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Spritzerin|r",
-		}, -- [56]
-		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			658, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172371,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [57]
+		}, -- [23]
 		{
 			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
 			"Gendler", -- [2]
@@ -1060,16 +448,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			660, -- [11]
+			1221, -- [11]
 			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172373,
+			[51] = 1573173023,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff68ccefGendler|r",
-		}, -- [58]
+		}, -- [24]
 		{
-			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
-			"Stoormrage", -- [2]
+			"wtb [Delicate Cardinal Ruby]x2 500 g", -- [1]
+			"Bloodngutss", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1224, -- [11]
+			"0x07000000004AED47", -- [12]
+			0, -- [13]
+			[51] = 1573173024,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aBloodngutss|r",
+		}, -- [25]
+		{
+			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
+			"Shockmaw", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1078,16 +484,34 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			666, -- [11]
-			"0x0700000000372B59", -- [12]
+			1229, -- [11]
+			"0x070000000043EA6D", -- [12]
 			0, -- [13]
-			[51] = 1573172377,
+			[51] = 1573173053,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Stoormrage",
-		}, -- [59]
+			[52] = "Shockmaw",
+		}, -- [26]
 		{
-			"Auto invite plz ", -- [1]
-			"Ashtuki", -- [2]
+			"wow ty", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1230, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173057,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [27]
+		{
+			"_+", -- [1]
+			"Kenndal", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1096,67 +520,13 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			669, -- [11]
-			"0x07000000002D1A35", -- [12]
+			1232, -- [11]
+			"0x0700000000129240", -- [12]
 			0, -- [13]
-			[51] = 1573172380,
+			[51] = 1573173064,
 			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cff68ccefAshtuki|r",
-		}, -- [60]
-		{
-			"WTB |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r 80g each, |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 40g each, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 18g each. WHISPER ME thanks", -- [1]
-			"Uuh", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			674, -- [11]
-			"0x070000000026A3DC", -- [12]
-			0, -- [13]
-			[51] = 1573172382,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Uuh",
-		}, -- [61]
-		{
-			"XD", -- [1]
-			"Drujaga", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			685, -- [11]
-			"0x0700000000116D68", -- [12]
-			0, -- [13]
-			[51] = 1573172394,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aDrujaga|r",
-		}, -- [62]
-		{
-			"LFm Toc 25 nm Need dps +1 dis pries (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			687, -- [11]
-			"0x07000000004ABB1A", -- [12]
-			0, -- [13]
-			[51] = 1573172396,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
-		}, -- [63]
+			[52] = "|cfffff468Kenndal|r",
+		}, -- [28]
 		{
 			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
 			"Gendler", -- [2]
@@ -1168,35 +538,53 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			691, -- [11]
+			1244, -- [11]
 			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172401,
-			[50] = "CHAT_MSG_YELL",
+			[51] = 1573173086,
+			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff68ccefGendler|r",
-		}, -- [64]
+		}, -- [29]
 		{
 			"Interrupted Servant of the Throne's |cff71d5ff|Hspell:71029|h[Glacial Blast]|h|r!", -- [1]
 			"Superskank", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
-			"", -- [6]
+			"DND", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			692, -- [11]
+			1247, -- [11]
 			"0x0700000000300231", -- [12]
 			0, -- [13]
-			[51] = 1573172401,
+			[51] = 1573173088,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffc69b6dSuperskank|r",
-		}, -- [65]
+		}, -- [30]
 		{
-			"even fufica hates you BBGEY", -- [1]
-			"Drujaga", -- [2]
-			"", -- [3]
+			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
+			"Shockmaw", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1251, -- [11]
+			"0x070000000043EA6D", -- [12]
+			0, -- [13]
+			[51] = 1573173095,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Shockmaw",
+		}, -- [31]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1204,31 +592,13 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			697, -- [11]
-			"0x0700000000116D68", -- [12]
+			1257, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172406,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aDrujaga|r",
-		}, -- [66]
-		{
-			" Auto Invite", -- [1]
-			"Sorenqt", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			704, -- [11]
-			"0x07000000003EC7DD", -- [12]
-			0, -- [13]
-			[51] = 1573172416,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aSorenqt|r",
-		}, -- [67]
+			[51] = 1573173105,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [32]
 		{
 			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Nosoups", -- [2]
@@ -1240,52 +610,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			713, -- [11]
+			1259, -- [11]
 			"0x0700000000223209", -- [12]
 			0, -- [13]
-			[51] = 1573172427,
+			[51] = 1573173110,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Nosoups",
-		}, -- [68]
+		}, -- [33]
 		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			717, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172429,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [69]
-		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			719, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172431,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [70]
-		{
-			"alguna hermandad latina?", -- [1]
-			"Fatesan", -- [2]
+			"ty", -- [1]
+			"Gendler", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1294,15 +628,141 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			721, -- [11]
-			"0x07000000004A1EA2", -- [12]
+			1264, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172431,
+			[51] = 1573173119,
 			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefFatesan|r",
-		}, -- [71]
+			[52] = "|cff68ccefGendler|r",
+		}, -- [34]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED ALL 5K+ (FRACMENTS RESS)", -- [1]
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1277, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173129,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [35]
+		{
+			"Interrupted Servant of the Throne's |cff71d5ff|Hspell:71029|h[Glacial Blast]|h|r!", -- [1]
+			"Superskank", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1279, -- [11]
+			"0x0700000000300231", -- [12]
+			0, -- [13]
+			[51] = 1573173132,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffc69b6dSuperskank|r",
+		}, -- [36]
+		{
+			"sad", -- [1]
+			"Kenndal", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1280, -- [11]
+			"0x0700000000129240", -- [12]
+			0, -- [13]
+			[51] = 1573173140,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffff468Kenndal|r",
+		}, -- [37]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1282, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173146,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [38]
+		{
+			"i have 23 silver ^^", -- [1]
+			"Ikoreanol", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1283, -- [11]
+			"0x0700000000451B81", -- [12]
+			0, -- [13]
+			[51] = 1573173146,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaIkoreanol|r",
+		}, -- [39]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1287, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173164,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [40]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1296, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173178,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [41]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
 			"Shomyn", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
@@ -1312,16 +772,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			726, -- [11]
+			1299, -- [11]
 			"0x07000000003EB7BD", -- [12]
 			0, -- [13]
-			[51] = 1573172434,
+			[51] = 1573173186,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Shomyn",
-		}, -- [72]
+		}, -- [42]
 		{
-			"WTS |cff1eff00|Hitem:11175:0:0:0:0:0:0:0:72|h[Greater Nether Essence]|h|r", -- [1]
-			"Spritzerin", -- [2]
+			"Theres only one portal master that masters..the OG Redjonn.. hit me up for these kick ass portals", -- [1]
+			"Redjonn", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1330,16 +790,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			728, -- [11]
-			"0x07000000004D57F3", -- [12]
+			1301, -- [11]
+			"0x0700000000067787", -- [12]
 			0, -- [13]
-			[51] = 1573172436,
+			[51] = 1573173188,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Spritzerin|r",
-		}, -- [73]
+			[52] = "|cff68ccefRedjonn|r",
+		}, -- [43]
 		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1309, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173218,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [44]
+		{
+			"Ima neki balkanac da hoce arene ?", -- [1]
+			"Gucaa", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1310, -- [11]
+			"0x070000000022ED80", -- [12]
+			0, -- [13]
+			[51] = 1573173221,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGucaa|r",
+		}, -- [45]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
+			"Shomyn", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1348,13 +844,67 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			730, -- [11]
-			"0x070000000049EC52", -- [12]
+			1314, -- [11]
+			"0x07000000003EB7BD", -- [12]
 			0, -- [13]
-			[51] = 1573172437,
+			[51] = 1573173231,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [74]
+			[52] = "Shomyn",
+		}, -- [46]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1320, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173257,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [47]
+		{
+			"WOW", -- [1]
+			"Lonemage", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1324, -- [11]
+			"0x07000000004C9382", -- [12]
+			0, -- [13]
+			[51] = 1573173272,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefLonemage|r",
+		}, -- [48]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
+			"Shomyn", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1325, -- [11]
+			"0x07000000003EB7BD", -- [12]
+			0, -- [13]
+			[51] = 1573173279,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Shomyn",
+		}, -- [49]
 		{
 			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
 			"Ereddin", -- [2]
@@ -1366,12 +916,462 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			731, -- [11]
+			1329, -- [11]
 			"0x07000000001DF923", -- [12]
 			0, -- [13]
-			[51] = 1573172437,
+			[51] = 1573173289,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Ereddin",
+		}, -- [50]
+		{
+			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
+			"Pancakebear", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1330, -- [11]
+			"0x07000000003CC355", -- [12]
+			0, -- [13]
+			[51] = 1573173292,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Pancakebear",
+		}, -- [51]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1332, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173297,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [52]
+		{
+			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Nosoups", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1344, -- [11]
+			"0x0700000000223209", -- [12]
+			0, -- [13]
+			[51] = 1573173322,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nosoups",
+		}, -- [53]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1345, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173324,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [54]
+		{
+			"WTS Troll Priest with Tailoring/Enchanting 450, Runed Titanium Rod, 25k gold, Max riding skill + Cold Weather Flying. 30 coins! Name is Trollolloll", -- [1]
+			"Spiderpig", -- [2]
+			"Orcish", -- [3]
+			"1. General - Orgrimmar", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Orgrimmar", -- [9]
+			0, -- [10]
+			1346, -- [11]
+			"0x0700000000001E74", -- [12]
+			0, -- [13]
+			[51] = 1573173329,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Spiderpig",
+		}, -- [55]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1350, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173339,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [56]
+		{
+			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
+			"Pancakebear", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1362, -- [11]
+			"0x07000000003CC355", -- [12]
+			0, -- [13]
+			[51] = 1573173354,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Pancakebear",
+		}, -- [57]
+		{
+			"if u are in grp with more than 1 character let me know now", -- [1]
+			"Sorenqt", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1363, -- [11]
+			"0x07000000003EC7DD", -- [12]
+			0, -- [13]
+			[51] = 1573173354,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffff7c0aSorenqt|r",
+		}, -- [58]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1364, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173355,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [59]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1376, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173373,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [60]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
+			"Shomyn", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1379, -- [11]
+			"0x07000000003EB7BD", -- [12]
+			0, -- [13]
+			[51] = 1573173377,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Shomyn",
+		}, -- [61]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1390, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173387,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [62]
+		{
+			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
+			"Ereddin", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1394, -- [11]
+			"0x07000000001DF923", -- [12]
+			0, -- [13]
+			[51] = 1573173393,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Ereddin",
+		}, -- [63]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
+			"Shomyn", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1398, -- [11]
+			"0x07000000003EB7BD", -- [12]
+			0, -- [13]
+			[51] = 1573173401,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Shomyn",
+		}, -- [64]
+		{
+			"come get yo free portals ", -- [1]
+			"Redjonn", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1400, -- [11]
+			"0x0700000000067787", -- [12]
+			0, -- [13]
+			[51] = 1573173414,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefRedjonn|r",
+		}, -- [65]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1401, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173419,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [66]
+		{
+			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Nosoups", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1404, -- [11]
+			"0x0700000000223209", -- [12]
+			0, -- [13]
+			[51] = 1573173439,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nosoups",
+		}, -- [67]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1405, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173440,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [68]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1407, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173455,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [69]
+		{
+			" Auto Invite", -- [1]
+			"Sorenqt", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1409, -- [11]
+			"0x07000000003EC7DD", -- [12]
+			0, -- [13]
+			[51] = 1573173464,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aSorenqt|r",
+		}, -- [70]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1410, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173467,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [71]
+		{
+			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Nosoups", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1413, -- [11]
+			"0x0700000000223209", -- [12]
+			0, -- [13]
+			[51] = 1573173476,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nosoups",
+		}, -- [72]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
+			"Shomyn", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1417, -- [11]
+			"0x07000000003EB7BD", -- [12]
+			0, -- [13]
+			[51] = 1573173491,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Shomyn",
+		}, -- [73]
+		{
+			"WTS Troll Priest with Tailoring/Enchanting 450, Runed Titanium Rod, 25k gold, Max riding skill + Cold Weather Flying. 30 coins! Name is Trollolloll", -- [1]
+			"Spiderpig", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1421, -- [11]
+			"0x0700000000001E74", -- [12]
+			0, -- [13]
+			[51] = 1573173502,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Spiderpig",
+		}, -- [74]
+		{
+			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Nosoups", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1425, -- [11]
+			"0x0700000000223209", -- [12]
+			0, -- [13]
+			[51] = 1573173533,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nosoups",
 		}, -- [75]
 		{
 			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
@@ -1384,231 +1384,33 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			738, -- [11]
+			1429, -- [11]
 			"0x07000000003CC355", -- [12]
 			0, -- [13]
-			[51] = 1573172446,
+			[51] = 1573173569,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Pancakebear",
 		}, -- [76]
 		{
-			"LFm Toc 25 nm Need rdps LAST spot (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"Redjonn gently pats Holies.", -- [1]
+			"Redjonn", -- [2]
+			"", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			740, -- [11]
-			"0x07000000004ABB1A", -- [12]
+			0, -- [11]
+			"0x0700000000067787", -- [12]
 			0, -- [13]
-			[51] = 1573172447,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
+			[51] = 1573173585,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cff68ccefRedjonn|r",
 		}, -- [77]
 		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			742, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172448,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [78]
-		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			744, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172448,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [79]
-		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			745, -- [11]
-			"0x07000000004B03C0", -- [12]
-			0, -- [13]
-			[51] = 1573172450,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
-		}, -- [80]
-		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			749, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172457,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [81]
-		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			752, -- [11]
-			"0x07000000004B03C0", -- [12]
-			0, -- [13]
-			[51] = 1573172459,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
-		}, -- [82]
-		{
-			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cffa335ee|Hitem:50020:0:0:0:0:0:0:0:80|h[Raging Behemoth's Shoulderplates]|h|r", -- [1]
-			"Soulhaze", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			754, -- [11]
-			"0x07000000004C109A", -- [12]
-			0, -- [13]
-			[51] = 1573172461,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Soulhaze",
-		}, -- [83]
-		{
-			"LFm Toc 25 nm Need rdps LAST spot (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			755, -- [11]
-			"0x07000000004ABB1A", -- [12]
-			0, -- [13]
-			[51] = 1573172462,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
-		}, -- [84]
-		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			758, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172466,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [85]
-		{
-			"LF jewelcrafter with mats", -- [1]
-			"Bloodngutss", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			760, -- [11]
-			"0x07000000004AED47", -- [12]
-			0, -- [13]
-			[51] = 1573172468,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aBloodngutss|r",
-		}, -- [86]
-		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			764, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172471,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [87]
-		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			768, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172480,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [88]
-		{
-			"LFM ULDUAR 25 FULL RUN NEED ALL 5K+ (FRACMENTS RESS)", -- [1]
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) and 1 dps ", -- [1]
 			"Shomyn", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
@@ -1618,31 +1420,31 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			771, -- [11]
+			1436, -- [11]
 			"0x07000000003EB7BD", -- [12]
 			0, -- [13]
-			[51] = 1573172483,
+			[51] = 1573173591,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Shomyn",
-		}, -- [89]
+		}, -- [78]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
+			"WTB |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 220g /w me or COD", -- [1]
+			"Hentaiikun", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			773, -- [11]
-			"0x07000000004B03C0", -- [12]
+			1437, -- [11]
+			"0x0700000000458186", -- [12]
 			0, -- [13]
-			[51] = 1573172484,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
-		}, -- [90]
+			[51] = 1573173593,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Hentaiikun",
+		}, -- [79]
 		{
 			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Nosoups", -- [2]
@@ -1654,66 +1456,264 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			775, -- [11]
+			1444, -- [11]
 			"0x0700000000223209", -- [12]
 			0, -- [13]
-			[51] = 1573172487,
+			[51] = 1573173606,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Nosoups",
+		}, -- [80]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) and 1 dps ", -- [1]
+			"Shomyn", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1449, -- [11]
+			"0x07000000003EB7BD", -- [12]
+			0, -- [13]
+			[51] = 1573173613,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Shomyn",
+		}, -- [81]
+		{
+			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
+			"Ereddin", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1451, -- [11]
+			"0x07000000001DF923", -- [12]
+			0, -- [13]
+			[51] = 1573173618,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Ereddin",
+		}, -- [82]
+		{
+			"omg onion", -- [1]
+			"Tupsaqt", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1457, -- [11]
+			"0x07000000004D1DED", -- [12]
+			0, -- [13]
+			[51] = 1573173635,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffff7c0aTupsaqt|r",
+		}, -- [83]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1459, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173639,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [84]
+		{
+			"zero heal", -- [1]
+			"Merryme", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1461, -- [11]
+			"0x07000000004C89F8", -- [12]
+			0, -- [13]
+			[51] = 1573173643,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Merryme|r",
+		}, -- [85]
+		{
+			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
+			"Ereddin", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1468, -- [11]
+			"0x07000000001DF923", -- [12]
+			0, -- [13]
+			[51] = 1573173650,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Ereddin",
+		}, -- [86]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1477, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173658,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [87]
+		{
+			"WTS 2X 20 ARMOR PEN RED GEM", -- [1]
+			"Runnah", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1478, -- [11]
+			"0x07000000000434B6", -- [12]
+			0, -- [13]
+			[51] = 1573173658,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Runnah",
+		}, -- [88]
+		{
+			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Nosoups", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1482, -- [11]
+			"0x0700000000223209", -- [12]
+			0, -- [13]
+			[51] = 1573173662,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nosoups",
+		}, -- [89]
+		{
+			"Twinking is easy ! go horde or alliance and make lvl 19 twink,there are Battlegrounds popping each day !!! Let's have fun =)", -- [1]
+			"Dhgdhzgvjnt", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1489, -- [11]
+			"0x070000000012CEC3", -- [12]
+			0, -- [13]
+			[51] = 1573173675,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Dhgdhzgvjnt|r",
+		}, -- [90]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1490, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173675,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefGendler|r",
 		}, -- [91]
 		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			780, -- [11]
-			"0x070000000049AB2C", -- [12]
+			1492, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172492,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
+			[51] = 1573173680,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
 		}, -- [92]
 		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"stupid boomka", -- [1]
+			"Blummkin", -- [2]
+			"", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			786, -- [11]
-			"0x070000000049EC52", -- [12]
+			1495, -- [11]
+			"0x0700000000307B87", -- [12]
 			0, -- [13]
-			[51] = 1573172497,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
+			[51] = 1573173685,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff68ccefBlummkin|r",
 		}, -- [93]
 		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"fking blumkin ", -- [1]
+			"Boomkaftw", -- [2]
+			"", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			789, -- [11]
-			"0x070000000049AB2C", -- [12]
+			1504, -- [11]
+			"0x07000000000606F3", -- [12]
 			0, -- [13]
-			[51] = 1573172500,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
+			[51] = 1573173698,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aBoomkaftw|r",
 		}, -- [94]
 		{
 			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
@@ -1726,69 +1726,15 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			790, -- [11]
+			1505, -- [11]
 			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172501,
+			[51] = 1573173699,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff68ccefGendler|r",
 		}, -- [95]
 		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			791, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172503,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [96]
-		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			792, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172506,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [97]
-		{
-			"5.7k Tank LFG ICC", -- [1]
-			"Endeverafter", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			794, -- [11]
-			"0x0700000000021614", -- [12]
-			0, -- [13]
-			[51] = 1573172507,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Endeverafter",
-		}, -- [98]
-		{
-			"LFM ULDUAR 25 FULL RUN NEED ALL 5K+ (FRACMENTS RESS)", -- [1]
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) and 1 dps ", -- [1]
 			"Shomyn", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
@@ -1798,10 +1744,64 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			796, -- [11]
+			1507, -- [11]
 			"0x07000000003EB7BD", -- [12]
 			0, -- [13]
-			[51] = 1573172508,
+			[51] = 1573173700,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Shomyn",
+		}, -- [96]
+		{
+			"roll for free?", -- [1]
+			"Tupsaqt", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1511, -- [11]
+			"0x07000000004D1DED", -- [12]
+			0, -- [13]
+			[51] = 1573173704,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aTupsaqt|r",
+		}, -- [97]
+		{
+			"fuck u both", -- [1]
+			"Mosypala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1514, -- [11]
+			"0x07000000002A1653", -- [12]
+			0, -- [13]
+			[51] = 1573173706,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMosypala|r",
+		}, -- [98]
+		{
+			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) ", -- [1]
+			"Shomyn", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1518, -- [11]
+			"0x07000000003EB7BD", -- [12]
+			0, -- [13]
+			[51] = 1573173709,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Shomyn",
 		}, -- [99]
@@ -1816,34 +1816,34 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			797, -- [11]
+			1522, -- [11]
 			"0x07000000003CC355", -- [12]
 			0, -- [13]
-			[51] = 1573172508,
+			[51] = 1573173712,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Pancakebear",
 		}, -- [100]
 		{
-			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
-			"Ereddin", -- [2]
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			798, -- [11]
-			"0x07000000001DF923", -- [12]
+			1532, -- [11]
+			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172508,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ereddin",
+			[51] = 1573173719,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
 		}, -- [101]
 		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
+			"lfm HOR", -- [1]
+			"Cluelesscow", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1852,34 +1852,178 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			799, -- [11]
-			"0x070000000049EC52", -- [12]
+			1533, -- [11]
+			"0x07000000004ACA0D", -- [12]
 			0, -- [13]
-			[51] = 1573172509,
+			[51] = 1573173719,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
+			[52] = "Cluelesscow",
 		}, -- [102]
 		{
-			"LFM TOC10HC MOUNT RUN NEED ALL /w ACHIEV GS/SPEC", -- [1]
-			"Soulhaze", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"r u drunk Mosy ? ", -- [1]
+			"Boomkaftw", -- [2]
+			"", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			800, -- [11]
-			"0x07000000004C109A", -- [12]
+			1536, -- [11]
+			"0x07000000000606F3", -- [12]
 			0, -- [13]
-			[51] = 1573172511,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Soulhaze",
+			[51] = 1573173721,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aBoomkaftw|r",
 		}, -- [103]
 		{
-			"LFm Toc 25 nm Need 2 Rdps Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
+			"NAh xd", -- [1]
+			"Mosypala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1543, -- [11]
+			"0x07000000002A1653", -- [12]
+			0, -- [13]
+			[51] = 1573173727,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMosypala|r",
+		}, -- [104]
+		{
+			"chill then :p", -- [1]
+			"Boomkaftw", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1551, -- [11]
+			"0x07000000000606F3", -- [12]
+			0, -- [13]
+			[51] = 1573173733,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aBoomkaftw|r",
+		}, -- [105]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1553, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173734,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [106]
+		{
+			"i dont need drunk", -- [1]
+			"Mosypala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1560, -- [11]
+			"0x07000000002A1653", -- [12]
+			0, -- [13]
+			[51] = 1573173741,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMosypala|r",
+		}, -- [107]
+		{
+			"always im retard", -- [1]
+			"Mosypala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1567, -- [11]
+			"0x07000000002A1653", -- [12]
+			0, -- [13]
+			[51] = 1573173746,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMosypala|r",
+		}, -- [108]
+		{
+			"xd", -- [1]
+			"Mosypala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1569, -- [11]
+			"0x07000000002A1653", -- [12]
+			0, -- [13]
+			[51] = 1573173747,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMosypala|r",
+		}, -- [109]
+		{
+			"true ", -- [1]
+			"Boomkaftw", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1576, -- [11]
+			"0x07000000000606F3", -- [12]
+			0, -- [13]
+			[51] = 1573173754,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aBoomkaftw|r",
+		}, -- [110]
+		{
+			"hahaha", -- [1]
+			"Boomkaftw", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1580, -- [11]
+			"0x07000000000606F3", -- [12]
+			0, -- [13]
+			[51] = 1573173756,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aBoomkaftw|r",
+		}, -- [111]
+		{
+			"tank lfg voa25", -- [1]
+			"Brotank", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1888,16 +2032,178 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			801, -- [11]
-			"0x070000000049EC52", -- [12]
+			1584, -- [11]
+			"0x0700000000342319", -- [12]
 			0, -- [13]
-			[51] = 1573172513,
+			[51] = 1573173757,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [104]
+			[52] = "Brotank",
+		}, -- [112]
 		{
-			"Sakanfar blows Gendler a kiss.", -- [1]
-			"Sakanfar", -- [2]
+			":DD", -- [1]
+			"Mosypala", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1585, -- [11]
+			"0x07000000002A1653", -- [12]
+			0, -- [13]
+			[51] = 1573173758,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaMosypala|r",
+		}, -- [113]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1588, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173759,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [114]
+		{
+			"anyone from grp 6 7 8 can log rogue?", -- [1]
+			"Sorenqt", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1593, -- [11]
+			"0x07000000003EC7DD", -- [12]
+			0, -- [13]
+			[51] = 1573173769,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffff7c0aSorenqt|r",
+		}, -- [115]
+		{
+			"LF arena carry will pay", -- [1]
+			"Nailon", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1603, -- [11]
+			"0x070000000043B3D0", -- [12]
+			0, -- [13]
+			[51] = 1573173778,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Nailon",
+		}, -- [116]
+		{
+			"rdps lf raids", -- [1]
+			"Cluelesscow", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1604, -- [11]
+			"0x07000000004ACA0D", -- [12]
+			0, -- [13]
+			[51] = 1573173778,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Cluelesscow",
+		}, -- [117]
+		{
+			"mine is 5.6 xd", -- [1]
+			"Herscream", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1607, -- [11]
+			"0x070000000029BC89", -- [12]
+			0, -- [13]
+			[51] = 1573173778,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc69b6dHerscream|r",
+		}, -- [118]
+		{
+			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
+			"Gendler", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1615, -- [11]
+			"0x07000000004B03C0", -- [12]
+			0, -- [13]
+			[51] = 1573173782,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff68ccefGendler|r",
+		}, -- [119]
+		{
+			"i dont have rogue", -- [1]
+			"Momofuku", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1617, -- [11]
+			"0x070000000002FF54", -- [12]
+			0, -- [13]
+			[51] = 1573173787,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaMomofuku|r",
+		}, -- [120]
+		{
+			"Walking and using mounts is too mainstream.. Take a portal", -- [1]
+			"Redjonn", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1619, -- [11]
+			"0x0700000000067787", -- [12]
+			0, -- [13]
+			[51] = 1573173789,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefRedjonn|r",
+		}, -- [121]
+		{
+			"Eradicatiion rolls on the floor laughing at Slanter.", -- [1]
+			"Eradicatiion", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1907,354 +2213,66 @@ ElvCharacterDB = {
 			"", -- [9]
 			0, -- [10]
 			0, -- [11]
-			"0x07000000004CA84F", -- [12]
+			"0x070000000002E0FA", -- [12]
 			0, -- [13]
-			[51] = 1573172521,
+			[51] = 1573173790,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefSakanfar|r",
-		}, -- [105]
-		{
-			"jc link me", -- [1]
-			"Ezraeel", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			806, -- [11]
-			"0x070000000049AB2C", -- [12]
-			0, -- [13]
-			[51] = 1573172524,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ezraeel",
-		}, -- [106]
-		{
-			"LFM ULDUAR 25 FULL RUN NEED ALL 5K+ (FRACMENTS RESS)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			808, -- [11]
-			"0x07000000003EB7BD", -- [12]
-			0, -- [13]
-			[51] = 1573172524,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
-		}, -- [107]
-		{
-			"LFm Toc 25 nm Need 2 Rdps(perfer lock and boomie) Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			810, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172532,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [108]
-		{
-			"LFm Toc 25 nm Need 2 Rdps(perfer lock and boomie) Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			813, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172536,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [109]
-		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			814, -- [11]
-			"0x07000000004B03C0", -- [12]
-			0, -- [13]
-			[51] = 1573172537,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
-		}, -- [110]
-		{
-			"LFm Toc 25 nm Need rdps LAST spot (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			816, -- [11]
-			"0x07000000004ABB1A", -- [12]
-			0, -- [13]
-			[51] = 1573172544,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
-		}, -- [111]
-		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			818, -- [11]
-			"0x07000000004B03C0", -- [12]
-			0, -- [13]
-			[51] = 1573172549,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
-		}, -- [112]
-		{
-			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r620G E", -- [1]
-			"Implsn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			819, -- [11]
-			"0x07000000002601BE", -- [12]
-			0, -- [13]
-			[51] = 1573172550,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Implsn",
-		}, -- [113]
-		{
-			"LFm Toc 25 nm Need 2 Rdps(perfer lock and boomie) Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			820, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172552,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [114]
-		{
-			"TOC 10n need 1 heal 1 dps 8/10 5.4+", -- [1]
-			"Freeja", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			821, -- [11]
-			"0x07000000002889F6", -- [12]
-			0, -- [13]
-			[51] = 1573172553,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Freeja",
-		}, -- [115]
-		{
-			"LFm Toc 25 nm Need rdps LAST spot (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			822, -- [11]
-			"0x07000000004ABB1A", -- [12]
-			0, -- [13]
-			[51] = 1573172556,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
-		}, -- [116]
-		{
-			"LFm Toc 25 nm Need 2 Rdps(perfer lock and boomie) Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			826, -- [11]
-			"0x070000000049EC52", -- [12]
-			0, -- [13]
-			[51] = 1573172559,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
-		}, -- [117]
-		{
-			"LFM ULDUAR 25 FULL RUN NEED ALL 5K+ (FRACMENTS RESS)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			827, -- [11]
-			"0x07000000003EB7BD", -- [12]
-			0, -- [13]
-			[51] = 1573172559,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
-		}, -- [118]
-		{
-			"WTS Troll Priest with Tailoring/Enchanting 450, Runed Titanium Rod, 25k gold, Max riding skill + Cold Weather Flying. 30 coins! Name is Trollolloll", -- [1]
-			"Spiderpig", -- [2]
-			"Orcish", -- [3]
-			"1. General - Orgrimmar", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Orgrimmar", -- [9]
-			0, -- [10]
-			828, -- [11]
-			"0x0700000000001E74", -- [12]
-			0, -- [13]
-			[51] = 1573172565,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Spiderpig",
-		}, -- [119]
-		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			831, -- [11]
-			"0x07000000004B03C0", -- [12]
-			0, -- [13]
-			[51] = 1573172571,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
-		}, -- [120]
-		{
-			"TOC 10n need 1 heal 1 dps 8/10 5k+", -- [1]
-			"Freeja", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			833, -- [11]
-			"0x07000000002889F6", -- [12]
-			0, -- [13]
-			[51] = 1573172582,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Freeja",
-		}, -- [121]
-		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			837, -- [11]
-			"0x07000000004B03C0", -- [12]
-			0, -- [13]
-			[51] = 1573172586,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[52] = "|cfff48cbaEradicatiion|r",
 		}, -- [122]
 		{
-			"LFm Toc 25 nm Need rdps LAST spot (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
+			"only 1", -- [1]
+			"Momofuku", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			838, -- [11]
-			"0x07000000004ABB1A", -- [12]
+			1620, -- [11]
+			"0x070000000002FF54", -- [12]
 			0, -- [13]
-			[51] = 1573172587,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
+			[51] = 1573173790,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfff48cbaMomofuku|r",
 		}, -- [123]
 		{
-			"LFm Toc 25 nm Need 2 Rdps(perfer lock and boomie) Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
+			"<--- i got rogue", -- [1]
+			"Blummkin", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			842, -- [11]
-			"0x070000000049EC52", -- [12]
+			1622, -- [11]
+			"0x0700000000307B87", -- [12]
 			0, -- [13]
-			[51] = 1573172601,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
+			[51] = 1573173793,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff68ccefBlummkin|r",
 		}, -- [124]
+		{
+			"my rogue is saved :(", -- [1]
+			"Kabutto", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1628, -- [11]
+			"0x07000000002A9AFE", -- [12]
+			0, -- [13]
+			[51] = 1573173801,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffff7c0aKabutto|r",
+		}, -- [125]
 		{
 			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
 			"Gendler", -- [2]
@@ -2266,48 +2284,30 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			845, -- [11]
+			1630, -- [11]
 			"0x07000000004B03C0", -- [12]
 			0, -- [13]
-			[51] = 1573172607,
+			[51] = 1573173802,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff68ccefGendler|r",
-		}, -- [125]
-		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			846, -- [11]
-			"0x0700000000223209", -- [12]
-			0, -- [13]
-			[51] = 1573172608,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
 		}, -- [126]
 		{
-			"LFm Toc 25 nm Need 2 Rdps(perfer lock and boomie) Fast (b+o+p ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite", -- [1]
-			"Majix", -- [2]
+			"have combat 6.1", -- [1]
+			"Tanisa", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			849, -- [11]
-			"0x070000000049EC52", -- [12]
+			1640, -- [11]
+			"0x070000000033D12D", -- [12]
 			0, -- [13]
-			[51] = 1573172609,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Majix",
+			[51] = 1573173814,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aTanisa|r",
 		}, -- [127]
 	},
 }

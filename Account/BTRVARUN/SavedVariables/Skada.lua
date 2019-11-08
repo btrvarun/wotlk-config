@@ -3,10 +3,10 @@ SkadaDB = {
 	["profileKeys"] = {
 		["Bowbaby - Icecrown"] = "Default",
 		["Kamakshi - Icecrown"] = "Default",
-		["Garzh - Icecrown"] = "Default",
 		["Dreamstar - Icecrown"] = "Default",
-		["Kkthnx - Lordaeron"] = "Default",
+		["Garzh - Icecrown"] = "Default",
 		["Invariably - Icecrown"] = "Default",
+		["Kkthnx - Lordaeron"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -21,13 +21,13 @@ SkadaDB = {
 					["bartexture"] = "Armory",
 					["barwidth"] = 254.9999523340941,
 					["y"] = -201.165715206402,
-					["barfont"] = "ABF",
+					["x"] = -91.99984544483868,
 					["title"] = {
 						["font"] = "ABF",
 						["fontsize"] = 15,
 						["height"] = 13,
 					},
-					["x"] = -91.99984544483868,
+					["barfont"] = "ABF",
 					["enablebackground"] = true,
 					["background"] = {
 						["color"] = {
@@ -59,9 +59,9 @@ SkadaDB = {
 				},
 				["name"] = "Total",
 				["overhealing"] = 0,
+				["starttime"] = 1573174637,
 				["damagetaken"] = 0,
-				["starttime"] = 1573172316,
-				["last_action"] = 1573172316,
+				["last_action"] = 1573174637,
 				["mobdone"] = 0,
 			},
 			["showranks"] = false,
