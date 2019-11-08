@@ -14,22 +14,22 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Greater intellect", -- [1]
-			"runed cardinal", -- [2]
-			"superior potency", -- [3]
-			"cardinal ruby", -- [4]
-			"Death", -- [5]
-			"feint", -- [6]
-			"mend ", -- [7]
-			"revive pet", -- [8]
-			"steady", -- [9]
-			"bestial wrath", -- [10]
-			"Iceblade Arrow", -- [11]
-			"powerful stat", -- [12]
-			"scope", -- [13]
-			"relentless", -- [14]
-			"monarch topaz", -- [15]
-			"scarlet ruby", -- [16]
+			"scarlet ruby", -- [1]
+			"Greater intellect", -- [2]
+			"runed cardinal", -- [3]
+			"superior potency", -- [4]
+			"cardinal ruby", -- [5]
+			"Death", -- [6]
+			"feint", -- [7]
+			"mend ", -- [8]
+			"revive pet", -- [9]
+			"steady", -- [10]
+			"bestial wrath", -- [11]
+			"Iceblade Arrow", -- [12]
+			"powerful stat", -- [13]
+			"scope", -- [14]
+			"relentless", -- [15]
+			"monarch topaz", -- [16]
 			"Arctic fur", -- [17]
 			"knothide", -- [18]
 			"rugged leather", -- [19]
@@ -77,14 +77,14 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Schematic: Sniper Scope"] = 199500,
 		["Glinting Monarch Topaz"] = 947500,
 		["Relentless Earthsiege Diamond"] = 2007900,
-		["Fractured Scarlet Ruby"] = 1770000,
+		["Fractured Scarlet Ruby"] = 1900000,
 		["Deathblow"] = 170000,
 		["Inscribed Monarch Topaz"] = 500000,
 		["Death-warmed Belt"] = 64990000,
 		["Glyph of Death Strike"] = 648399,
 		["Etched Monarch Topaz"] = 680750,
 		["Glyph of Steady Shot"] = 129496,
-		["Bold Scarlet Ruby"] = 1598900,
+		["Bold Scarlet Ruby"] = 2057700,
 		["Glyph of Bestial Wrath"] = 256899,
 		["Glyph of Death Grip"] = 123244,
 		["Diamond-cut Refractor Scope"] = 12979,
@@ -94,20 +94,20 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Footpads of Impending Death"] = 65930000,
 		["Glyph of Dark Death"] = 152773,
 		["Flask of Pure Death"] = 200000,
-		["Delicate Scarlet Ruby"] = 1495000,
+		["Delicate Scarlet Ruby"] = 1650000,
 		["Monarch Topaz"] = 450000,
 		["Recipe: Transmute Undeath to Water"] = 430000,
 		["Subtle Scarlet Ruby"] = 1866943,
 		["Undeath Deck"] = 14450000,
-		["Runed Cardinal Ruby"] = 3022500,
+		["Runed Cardinal Ruby"] = 3303333,
 		["Ichor of Undeath"] = 10000,
-		["Elixir of Greater Intellect"] = 12000,
 		["Knothide Leather Scraps"] = 7980,
 		["Standard Scope"] = 1800,
+		["Elixir of Greater Intellect"] = 12000,
 		["Champion's Monarch Topaz"] = 449998,
 		["Scroll of Enchant Weapon - Superior Potency"] = 3200000,
 		["Luminous Monarch Topaz"] = 580500,
-		["Scarlet Ruby"] = 1494900,
+		["Scarlet Ruby"] = 1319998,
 		["Glyph of Death Coil"] = 132697,
 		["Bracers of Swift Death"] = 39769999,
 		["Design: Stalwart Monarch Topaz"] = 1010000,
@@ -121,39 +121,39 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Steady Forest Emerald"] = 889550,
 		["Design: Inscribed Monarch Topaz"] = 150000,
 		["Wicked Monarch Topaz"] = 849696,
-		["Cardinal Ruby"] = 2500000,
+		["Cardinal Ruby"] = 3240000,
 		["Scroll of Enchant Weapon - Deathfrost"] = 6400000,
 		["Glyph of Death and Decay"] = 105883,
-		["Flashing Cardinal Ruby"] = 3384800,
+		["Pristine Monarch Topaz"] = 111000,
 		["Heartseeker Scope"] = 1299080,
 		["Spiked Deathdealers"] = 65000000,
 		["Pattern: Death-warmed Belt"] = 30330000,
-		["Bright Scarlet Ruby"] = 1261250,
+		["Bright Scarlet Ruby"] = 1788799,
 		["Heavy Leather"] = 28999,
 		["Glyph of Feign Death"] = 267186,
 		["Glyph of Feint"] = 9499,
 		["Kaleidoscope Chain"] = 2704811,
 		["Arctic Fur"] = 2399999,
-		["Bold Cardinal Ruby"] = 2800000,
+		["Bold Cardinal Ruby"] = 3290000,
 		["Darkmoon Card: Death"] = 26900000,
 		["Deadly Monarch Topaz"] = 480500,
 		["Durable Monarch Topaz"] = 910000,
-		["Delicate Cardinal Ruby"] = 3100000,
+		["Delicate Cardinal Ruby"] = 3780000,
 		["Knothide Armor Kit"] = 49400,
 		["Fierce Monarch Topaz"] = 741250,
 		["Stark Monarch Topaz"] = 1127335,
 		["The Bringer of Death"] = 964275,
 		["Glyph of Mend Pet"] = 98788,
 		["Empowered Monarch Topaz"] = 720000,
-		["Precise Cardinal Ruby"] = 3199900,
-		["Fractured Cardinal Ruby"] = 2700000,
+		["Precise Cardinal Ruby"] = 3879900,
+		["Fractured Cardinal Ruby"] = 3300000,
 		["Accurate Monarch Topaz"] = 899500,
 		["Legplates of Painful Death"] = 118770000,
 		["Leggings of Woven Death"] = 71990000,
-		["Pristine Monarch Topaz"] = 111000,
-		["Runed Scarlet Ruby"] = 1670000,
-		["Precise Scarlet Ruby"] = 1570000,
 		["Idol of Death"] = 5000000,
+		["Runed Scarlet Ruby"] = 1937500,
+		["Precise Scarlet Ruby"] = 1570000,
+		["Flashing Cardinal Ruby"] = 3492500,
 		["Scroll of Enchant Shield - Greater Intellect"] = 1420000,
 		["Scroll of Enchant Chest - Powerful Stats"] = 3697500,
 		["Glyph of Shadow Word: Death"] = 149899,
@@ -162,8 +162,8 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Two of Undeath"] = 2844500,
 		["Steady Eye of Zul"] = 2179900,
 		["Six of Undeath"] = 2050000,
-		["Bright Cardinal Ruby"] = 3000000,
-		["Subtle Cardinal Ruby"] = 3534700,
+		["Bright Cardinal Ruby"] = 3480000,
+		["Subtle Cardinal Ruby"] = 3988749,
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
@@ -178,6 +178,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Bowbaby"] = {
 		["firstSeen"] = 1570971530,
+		["guid"] = "0x070000000000615D",
 		["firstVersion"] = "2.6.3",
 	},
 	["Invariably"] = {

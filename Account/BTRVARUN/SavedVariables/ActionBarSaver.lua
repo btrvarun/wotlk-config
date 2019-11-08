@@ -713,10 +713,10 @@ ActionBarSaverDB = {
 		},
 		["HUNTER"] = {
 			["hunt"] = {
-				"macro|1||ss|Interface\\Icons\\Ability_Hunter_SteadyShot|#showtooltip steady shot/n/petattack/n/cancelaura deterrence/n/cast steady shot/n/cast silencing shot", -- [1]
-				"macro|2||ss|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast serpent sting/n/cast silencing shot", -- [2]
+				"macro|1||ss|Interface\\Icons\\Ability_Hunter_SteadyShot|#showtooltip steady shot/n/petattack/n/cancelaura deterrence/n/cast steady shot/n/cast silencing shot/n/cast Kill Command", -- [1]
+				"macro|2||ss|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast serpent sting/n/cast kill command/n/cast silencing shot", -- [2]
 				"macro|3||chimera|Interface\\Icons\\Ability_Hunter_ChimeraShot2|#showtooltip chimera shot/n/petattack/n/cast !aspect of the dragonhawk/n/cancelaura deterrence/n/cast chimera shot/n/cast silencing shot", -- [3]
-				"macro|4||as|Interface\\Icons\\INV_Spear_07|#showtooltip aimed shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast aimed shot/n/cast silencing shot", -- [4]
+				"macro|4||as|Interface\\Icons\\INV_Spear_07|#showtooltip aimed shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast aimed shot/n/cast silencing shot/n/cast Kill Command", -- [4]
 				"spell|137||Feign Death||5384", -- [5]
 				"macro|6||md|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [@focus] misdirection", -- [6]
 				"macro|7||cds|Interface\\Icons\\Ability_Hunter_RunningShot|#showtooltip/n/cast Rapid Fire/n/cast Berserking(Racial)/n/cast Call of the Wild", -- [7]
@@ -761,8 +761,8 @@ ActionBarSaverDB = {
 				"item|35953||Mead Basted Caribou", -- [46]
 				"spell|36||Call Pet||883", -- [47]
 				"companion|2||hunt|MOUNT|23243", -- [48]
-				"spell|53||Mend Pet|Rank 10|48990", -- [49]
-				"spell|100||Rapid Fire||3045", -- [50]
+				"item|49278||Goblin Rocket Pack", -- [49]
+				"spell|53||Mend Pet|Rank 10|48990", -- [50]
 				"spell|122||Viper Sting||3034", -- [51]
 				"spell|129||Deterrence||19263", -- [52]
 				"spell|138||Freezing Arrow|Rank 1|60192", -- [53]
@@ -775,7 +775,7 @@ ActionBarSaverDB = {
 				"macro|60||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus", -- [60]
 				"spell|128||Volley|Rank 6|58434", -- [61]
 				"macro|62||multi shot|Interface\\Icons\\Ability_UpgradeMoonGlaive|#showtooltip multi-shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast multi-shot/n/cast silencing shot", -- [62]
-				"spell|78||Arcane Shot|Rank 11|49045", -- [63]
+				"spell|100||Rapid Fire||3045", -- [63]
 				"macro|64||ds|Interface\\Icons\\Spell_Frost_Stun|#showtooltip/n/cast [target=focus,harm,exists][target] concussive shot", -- [64]
 				"spell|38||Dismiss Pet||2641", -- [65]
 				"spell|36||Call Pet||883", -- [66]

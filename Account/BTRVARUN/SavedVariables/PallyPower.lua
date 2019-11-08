@@ -306,6 +306,19 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Eradicatiion"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
 	["Denii"] = {
 		0, -- [1]
 		0, -- [2]
@@ -535,6 +548,8 @@ PallyPower_NormalAssignments = {
 	},
 	["Immutability"] = {
 	},
+	["Eradicatiion"] = {
+	},
 	["Denii"] = {
 	},
 	["Royalscepte"] = {
@@ -586,6 +601,7 @@ PallyPower_AuraAssignments = {
 	["Rshaam"] = 2,
 	["Sunweli"] = 1,
 	["Immutability"] = 1,
+	["Eradicatiion"] = 1,
 	["Denii"] = 0,
 	["Royalscepte"] = 0,
 	["Vaglef"] = 3,
