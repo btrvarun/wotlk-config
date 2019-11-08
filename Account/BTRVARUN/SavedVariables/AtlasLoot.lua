@@ -2,58 +2,58 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
-		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Garzh - Icecrown"] = "Garzh - Icecrown",
 	},
 	["profiles"] = {
-		["Dreamstar - Icecrown"] = {
+		["Bowbaby - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Garzh - Icecrown"] = {
+		["Dreamstar - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Invariably - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Bowbaby - Icecrown"] = {
+		["Garzh - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
 }
 AtlasLootWishList = {
-	["Shared"] = {
-	},
 	["Options"] = {
 		["Garzh"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Dreamstar"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Bowbaby"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Invariably"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
+	},
+	["Shared"] = {
 	},
 	["Own"] = {
 		["Garzh"] = {

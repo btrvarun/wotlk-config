@@ -1,16 +1,16 @@
 
 SexyCooldownDB = {
-	["profileKeys"] = {
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
-		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
-		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
-	},
 	["global"] = {
 		["dbVersion"] = 3,
 	},
+	["profileKeys"] = {
+		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
+		["Garzh - Icecrown"] = "Garzh - Icecrown",
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
+	},
 	["profiles"] = {
-		["Bowbaby - Icecrown"] = {
+		["Dreamstar - Icecrown"] = {
 			["bars"] = {
 				{
 					["events"] = {
@@ -28,18 +28,18 @@ SexyCooldownDB = {
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["height"] = 33.00000088903411,
+						["lock"] = true,
 						["width"] = 449.9999930245016,
-						["y"] = 199.9995650571569,
-						["font"] = "Continuum Medium",
+						["y"] = 199.999915199823,
+						["x"] = -731.0000218155294,
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
-						["orientation"] = "LEFT_TO_RIGHT",
-						["lock"] = true,
+						["height"] = 33.00000088903411,
+						["font"] = "Continuum Medium",
 						["backgroundColor"] = {
 						},
-						["x"] = -726.9999044630265,
+						["texture"] = "ElvUI Norm",
 					},
 				}, -- [1]
 			},
@@ -48,6 +48,16 @@ SexyCooldownDB = {
 			["bars"] = {
 				{
 					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -59,10 +69,34 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 						["height"] = 33.00000088903411,
+						["font"] = "Continuum Medium",
+						["backgroundColor"] = {
+						},
+						["lock"] = true,
+					},
+				}, -- [1]
+			},
+		},
+		["Bowbaby - Icecrown"] = {
+			["bars"] = {
+				{
+					["events"] = {
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["x"] = -726.9999044630265,
+						["width"] = 449.9999930245016,
+						["y"] = 199.9995650571569,
+						["font"] = "Continuum Medium",
+						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
 						["lock"] = true,
 						["backgroundColor"] = {
 						},
-						["font"] = "Continuum Medium",
+						["orientation"] = "LEFT_TO_RIGHT",
 					},
 					["eventColors"] = {
 					},
@@ -82,13 +116,23 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["x"] = -731.9998541984055,
+						["height"] = 33.00000088903411,
 						["width"] = 449.9999930245016,
 						["y"] = 200.500058983994,
-						["font"] = "Continuum Medium",
+						["x"] = -731.9998541984055,
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
@@ -96,51 +140,7 @@ SexyCooldownDB = {
 						["lock"] = true,
 						["backgroundColor"] = {
 						},
-						["height"] = 33.00000088903411,
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
-					},
-				}, -- [1]
-			},
-		},
-		["Dreamstar - Icecrown"] = {
-			["bars"] = {
-				{
-					["events"] = {
-					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-						["width"] = 449.9999930245016,
-						["y"] = 199.999915199823,
-						["x"] = -731.0000218155294,
-						["name"] = "Bar 0",
-						["lock"] = true,
-						["height"] = 33.00000088903411,
 						["font"] = "Continuum Medium",
-						["backgroundColor"] = {
-						},
-						["texture"] = "ElvUI Norm",
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
 					},
 				}, -- [1]
 			},
