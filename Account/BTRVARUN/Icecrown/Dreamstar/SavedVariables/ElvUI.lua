@@ -1,2209 +1,2119 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/w Tfuee same", -- [1]
-		"/w Tfuee im actually coming to bangalore for 2 days", -- [2]
-		"/w Tfuee for a conference/workshop", -- [3]
-		"/w Tfuee going to goa next weekend though :D", -- [4]
-		"/w Tfuee 5 days", -- [5]
-		"/w Tfuee shanti nagar", -- [6]
-		"/w Tfuee perks of being old", -- [7]
-		"/w Tfuee but not old enough to save money for the future", -- [8]
-		"/w Tfuee burning it on tattoos and trips", -- [9]
-		"/w Tfuee xD", -- [10]
-		"/clearfocus", -- [11]
-		"/macro", -- [12]
-		"/w Tfuee did you try lowering the addons you use?", -- [13]
-		"/w Tfuee linux works like a god", -- [14]
-		"/w Tfuee B)", -- [15]
-		"/w Tfuee 0 fps issues", -- [16]
-		"/w Tfuee rip", -- [17]
-		"/abs save resto", -- [18]
-		"/abs save ele", -- [19]
-		"/abs restore resto", -- [20]
+		"/w Relationship only acc that isn't mine", -- [1]
+		"/w Relationship rip", -- [2]
+		"/w Relationship the one which the anemic mage was on", -- [3]
+		"/w Relationship the bis mage", -- [4]
+		"/w Relationship almost bis", -- [5]
+		"/w Relationship in the balance account there's another 5.8k mage", -- [6]
+		"/w Relationship ye their concept of fun", -- [7]
+		"/w Relationship like farming mounts/achievements and doing 10 mans with 5 pugs", -- [8]
+		"/w Relationship they just keep complaining that you use their accounts. i'm lke, just use binder and abs, but they complain about that also", -- [9]
+		"/w Relationship so mindvoice - fuck these guys i'll just 2fa my accounts so that they dont pepega it", -- [10]
+		"/w Relationship ikr", -- [11]
+		"/w Relationship i dont use that boomy because he'll start crying about key binds", -- [12]
+		"/w Relationship and he hardly uses any", -- [13]
+		"/w Relationship nop", -- [14]
+		"/w Relationship they are using some toon or the other", -- [15]
+		"/w Relationship the warrior account actually has a herb toon", -- [16]
+		"/w Relationship the name is herbivore", -- [17]
+		"/w Relationship xD", -- [18]
+		"/w Relationship ye", -- [19]
+		"/w Relationship lol", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"how was goa", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1135, -- [11]
-			"0x07000000004B03C0", -- [12]
+			154, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172929,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835627,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [1]
 		{
-			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
-			"Shockmaw", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"ive never been there", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1141, -- [11]
-			"0x070000000043EA6D", -- [12]
+			155, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172933,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shockmaw",
+			[51] = 1573835634,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [2]
 		{
-			"lf [Delicate Cardinal Ruby]x2 500 g", -- [1]
-			"Bloodngutss", -- [2]
-			"Orcish", -- [3]
+			"xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1155, -- [11]
-			"0x07000000004AED47", -- [12]
+			156, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172944,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aBloodngutss|r",
+			[51] = 1573835634,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [3]
 		{
-			"pls gold for talents", -- [1]
-			"Fireblue", -- [2]
-			"Orcish", -- [3]
+			"it was awesome", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1158, -- [11]
-			"0x07000000004DBB1A", -- [12]
+			157, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172947,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefFireblue|r",
+			[51] = 1573835636,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [4]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"beaches trekking", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1159, -- [11]
-			"0x07000000004B03C0", -- [12]
+			158, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172947,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835650,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [5]
 		{
-			"inv", -- [1]
-			"Vampireheals", -- [2]
+			"and driving mostly", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1165, -- [11]
-			"0x070000000001AFB5", -- [12]
+			159, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172952,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffffffffVampireheals|r",
+			[51] = 1573835657,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [6]
 		{
-			"Gendler spits on the ground.", -- [1]
-			"Gendler", -- [2]
+			"cool place", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x07000000004B03C0", -- [12]
+			160, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172955,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835665,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [7]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"i hardly drink so i cant go clubbing and shit", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1171, -- [11]
-			"0x07000000004B03C0", -- [12]
+			161, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172955,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835689,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [8]
 		{
-			"Gendler spits on the ground.", -- [1]
-			"Gendler", -- [2]
+			"nice", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x07000000004B03C0", -- [12]
+			162, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172955,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835778,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [9]
 		{
-			"Gendler spits on Fireblue.", -- [1]
-			"Gendler", -- [2]
+			"my semester end exam is like in 2 months", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x07000000004B03C0", -- [12]
+			163, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172962,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835858,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [10]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"till then no college, no attendance", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1176, -- [11]
-			"0x07000000004B03C0", -- [12]
+			164, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172962,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835868,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [11]
 		{
-			"Gendler spits on Fireblue.", -- [1]
-			"Gendler", -- [2]
+			"im like playing 24x7", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x07000000004B03C0", -- [12]
+			165, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172965,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835871,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [12]
 		{
-			"Gendler spits on Fireblue.", -- [1]
-			"Gendler", -- [2]
+			"now", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x07000000004B03C0", -- [12]
+			166, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172965,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835873,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [13]
 		{
-			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
-			"Pancakebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"i only leave my house when i go to gym", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1183, -- [11]
-			"0x07000000003CC355", -- [12]
+			167, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172971,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Pancakebear",
+			[51] = 1573835884,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [14]
 		{
-			"LFm Toc 25 nm Need 2rdps LAST spot (b+p+o ress) +5k full suck + ench Link [Call of the Crusade (25 player)] for invite Inspect MEMO", -- [1]
-			"Heartbraker", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"other then that FULL power", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1185, -- [11]
-			"0x07000000004ABB1A", -- [12]
+			168, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172975,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Heartbraker",
+			[51] = 1573835890,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [15]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"lol", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1189, -- [11]
-			"0x07000000004B03C0", -- [12]
+			169, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172982,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835924,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [16]
 		{
-			"Fireblue cries on Gendler's shoulder.", -- [1]
-			"Fireblue", -- [2]
+			"dafug", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x07000000004DBB1A", -- [12]
+			170, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172983,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefFireblue|r",
+			[51] = 1573835955,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [17]
 		{
-			"Redjonn winks slyly at Wheur.", -- [1]
-			"Redjonn", -- [2]
+			"its like college classes last for another 1 month", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x0700000000067787", -- [12]
+			171, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573172987,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefRedjonn|r",
+			[51] = 1573835967,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [18]
 		{
-			"+rouge", -- [1]
-			"Dnett", -- [2]
-			"Orcish", -- [3]
+			"but there is no attendance", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1204, -- [11]
-			"0x07000000001959A0", -- [12]
+			172, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173004,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aDnett|r",
+			[51] = 1573835975,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [19]
 		{
-			"ty", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"but this game is a black hole", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1209, -- [11]
-			"0x07000000004B03C0", -- [12]
+			173, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173010,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573835989,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [20]
 		{
-			"teleport durortal", -- [1]
-			"Isuraeru", -- [2]
-			"Orcish", -- [3]
+			"depressing af", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1211, -- [11]
-			"0x07000000004D984D", -- [12]
+			174, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173011,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff9382c9Isuraeru|r",
+			[51] = 1573836000,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [21]
 		{
-			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
-			"Shockmaw", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"only people jebaiting teachers into revealing questions from final paper", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1212, -- [11]
-			"0x070000000043EA6D", -- [12]
+			175, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173011,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shockmaw",
+			[51] = 1573836007,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [22]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"why is it depressing xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1216, -- [11]
-			"0x0700000000223209", -- [12]
+			176, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173014,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573836015,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [23]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"idk when i was looking for a job in the us", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1221, -- [11]
-			"0x07000000004B03C0", -- [12]
+			177, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173023,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836028,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [24]
 		{
-			"wtb [Delicate Cardinal Ruby]x2 500 g", -- [1]
-			"Bloodngutss", -- [2]
-			"Orcish", -- [3]
+			"like 20 months ago", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1224, -- [11]
-			"0x07000000004AED47", -- [12]
+			178, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173024,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aBloodngutss|r",
+			[51] = 1573836043,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [25]
 		{
-			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
-			"Shockmaw", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"i was gaming 24x7 ", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1229, -- [11]
-			"0x070000000043EA6D", -- [12]
+			179, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173053,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shockmaw",
+			[51] = 1573836049,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [26]
 		{
-			"wow ty", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"like craaaaaaaaaaaaaaaaaaaaaaaaaazy", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1230, -- [11]
-			"0x07000000004B03C0", -- [12]
+			180, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173057,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836056,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [27]
 		{
-			"_+", -- [1]
-			"Kenndal", -- [2]
+			"didn't eat didn't sleep", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1232, -- [11]
-			"0x0700000000129240", -- [12]
+			181, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173064,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfffff468Kenndal|r",
+			[51] = 1573836060,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [28]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"didn't go out", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1244, -- [11]
-			"0x07000000004B03C0", -- [12]
+			182, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173086,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836063,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [29]
 		{
-			"Interrupted Servant of the Throne's |cff71d5ff|Hspell:71029|h[Glacial Blast]|h|r!", -- [1]
-			"Superskank", -- [2]
-			"Orcish", -- [3]
+			"any heal for 2s?", -- [1]
+			"Primezero", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
-			"DND", -- [6]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1247, -- [11]
-			"0x0700000000300231", -- [12]
+			183, -- [11]
+			"0x0700000000001949", -- [12]
 			0, -- [13]
-			[51] = 1573173088,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dSuperskank|r",
+			[51] = 1573836066,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffc69b6dPrimezero|r",
 		}, -- [30]
 		{
-			"LF2M ICC10HC/NM 6k+ need mage/lock and hunter /w achieve", -- [1]
-			"Shockmaw", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"my depression and anxiety got a hold of me", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1251, -- [11]
-			"0x070000000043EA6D", -- [12]
+			184, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173095,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shockmaw",
+			[51] = 1573836074,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [31]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"terrible time", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1257, -- [11]
-			"0x07000000004B03C0", -- [12]
+			185, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173105,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836121,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [32]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"but i was coping through gaming", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1259, -- [11]
-			"0x0700000000223209", -- [12]
+			186, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173110,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573836131,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [33]
 		{
-			"ty", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"ye", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1264, -- [11]
-			"0x07000000004B03C0", -- [12]
+			187, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173119,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836153,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [34]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"can u like stay logged in on shaman for another 5 mins?", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1277, -- [11]
-			"0x07000000004B03C0", -- [12]
+			189, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173129,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836202,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [35]
 		{
-			"Interrupted Servant of the Throne's |cff71d5ff|Hspell:71029|h[Glacial Blast]|h|r!", -- [1]
-			"Superskank", -- [2]
-			"Orcish", -- [3]
+			"i need to logout on this", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"DND", -- [6]
+			"Relationship", -- [5]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1279, -- [11]
-			"0x0700000000300231", -- [12]
+			190, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173132,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dSuperskank|r",
+			[51] = 1573836205,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [36]
 		{
-			"sad", -- [1]
-			"Kenndal", -- [2]
+			"kay", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1280, -- [11]
-			"0x0700000000129240", -- [12]
+			191, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173140,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfffff468Kenndal|r",
+			[51] = 1573836208,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [37]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:1998:0700000000250BEE:1:11:15:19:4294967295:4294967295:4294967295:4294967295|h[Dalaran Cooking Award]|h|r!", -- [1]
+			"Sorenpriest", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Sorenpriest", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1282, -- [11]
-			"0x07000000004B03C0", -- [12]
+			192, -- [11]
+			"0x0700000000250BEE", -- [12]
 			0, -- [13]
-			[51] = 1573173146,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836422,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffffffffSorenpriest|r",
 		}, -- [38]
 		{
-			"i have 23 silver ^^", -- [1]
-			"Ikoreanol", -- [2]
-			"Orcish", -- [3]
+			"im currently farming an insane amount of gold and coins", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1283, -- [11]
-			"0x0700000000451B81", -- [12]
+			207, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173146,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaIkoreanol|r",
+			[51] = 1573836506,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [39]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"im like stocking up on coins before gold squish", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1287, -- [11]
-			"0x07000000004B03C0", -- [12]
+			209, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173164,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836521,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [40]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"after that will gift u some ", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1296, -- [11]
-			"0x07000000004B03C0", -- [12]
+			211, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173178,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836538,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [41]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"lel how many do you have", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1299, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			213, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173186,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836553,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [42]
 		{
-			"Theres only one portal master that masters..the OG Redjonn.. hit me up for these kick ass portals", -- [1]
-			"Redjonn", -- [2]
-			"Orcish", -- [3]
+			"im farming like 10 coins/day", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1301, -- [11]
-			"0x0700000000067787", -- [12]
+			214, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173188,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefRedjonn|r",
+			[51] = 1573836591,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [43]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"i have currently 189 coins", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1309, -- [11]
-			"0x07000000004B03C0", -- [12]
+			215, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173218,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836599,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [44]
 		{
-			"Ima neki balkanac da hoce arene ?", -- [1]
-			"Gucaa", -- [2]
-			"Orcish", -- [3]
+			"rofl damn", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1310, -- [11]
-			"0x070000000022ED80", -- [12]
+			216, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173221,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGucaa|r",
+			[51] = 1573836605,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [45]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"like i said", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1314, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			217, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173231,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836613,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [46]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"full power", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1320, -- [11]
-			"0x07000000004B03C0", -- [12]
+			218, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173257,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836615,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [47]
 		{
-			"WOW", -- [1]
-			"Lonemage", -- [2]
-			"Orcish", -- [3]
+			"making coins before gold squish", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1324, -- [11]
-			"0x07000000004C9382", -- [12]
+			219, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173272,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefLonemage|r",
+			[51] = 1573836622,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [48]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"few days before/after gold squish making coins will be hard", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1325, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			220, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173279,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836634,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [49]
 		{
-			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
-			"Ereddin", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"cus stuff is reseting", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1329, -- [11]
-			"0x07000000001DF923", -- [12]
+			221, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173289,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ereddin",
+			[51] = 1573836641,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [50]
 		{
-			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
-			"Pancakebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"ye", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1330, -- [11]
-			"0x07000000003CC355", -- [12]
+			222, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173292,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Pancakebear",
+			[51] = 1573836647,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [51]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"just gear up new toons", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1332, -- [11]
-			"0x07000000004B03C0", -- [12]
+			223, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173297,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836664,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [52]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"so that you have one of everything", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1344, -- [11]
-			"0x0700000000223209", -- [12]
+			224, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173322,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573836669,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [53]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"ye im doing that", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1345, -- [11]
-			"0x07000000004B03C0", -- [12]
+			225, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173324,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836676,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [54]
 		{
-			"WTS Troll Priest with Tailoring/Enchanting 450, Runed Titanium Rod, 25k gold, Max riding skill + Cold Weather Flying. 30 coins! Name is Trollolloll", -- [1]
-			"Spiderpig", -- [2]
-			"Orcish", -- [3]
-			"1. General - Orgrimmar", -- [4]
-			"", -- [5]
+			"making mage,warlock,boomy,hunter,bear", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Orgrimmar", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1346, -- [11]
-			"0x0700000000001E74", -- [12]
+			226, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173329,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Spiderpig",
+			[51] = 1573836701,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [55]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"all of them in progreess", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1350, -- [11]
-			"0x07000000004B03C0", -- [12]
+			227, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173339,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836706,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [56]
 		{
-			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
-			"Pancakebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"need to get boosted 1 at a time in blood oath", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1362, -- [11]
-			"0x07000000003CC355", -- [12]
+			228, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173354,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Pancakebear",
+			[51] = 1573836716,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [57]
 		{
-			"if u are in grp with more than 1 character let me know now", -- [1]
-			"Sorenqt", -- [2]
-			"Orcish", -- [3]
+			"xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1363, -- [11]
-			"0x07000000003EC7DD", -- [12]
+			229, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173354,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aSorenqt|r",
+			[51] = 1573836716,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [58]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1364, -- [11]
-			"0x07000000004B03C0", -- [12]
+			230, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173355,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836719,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [59]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"thing is", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1376, -- [11]
-			"0x07000000004B03C0", -- [12]
+			231, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173373,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836729,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [60]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"once i get core raider in blood oath", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1379, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			232, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173377,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836734,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [61]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"getting boosted is gonna be a walk in the park", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1390, -- [11]
-			"0x07000000004B03C0", -- [12]
+			233, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173387,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836744,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [62]
 		{
-			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
-			"Ereddin", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"currently 1 rank away from it", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1394, -- [11]
-			"0x07000000001DF923", -- [12]
+			234, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173393,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ereddin",
+			[51] = 1573836751,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [63]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"lel ye", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1398, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			235, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173401,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836751,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [64]
 		{
-			"come get yo free portals ", -- [1]
-			"Redjonn", -- [2]
-			"Orcish", -- [3]
+			"i need a lock and a rogue", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1400, -- [11]
-			"0x0700000000067787", -- [12]
+			236, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173414,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefRedjonn|r",
+			[51] = 1573836761,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [65]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"these guys wont make that x.x", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1401, -- [11]
-			"0x07000000004B03C0", -- [12]
+			237, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173419,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836772,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [66]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"keep making toons that i already have", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1404, -- [11]
-			"0x0700000000223209", -- [12]
+			238, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173439,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573836778,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [67]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"whose account is that char anhedonic on?", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1405, -- [11]
-			"0x07000000004B03C0", -- [12]
+			240, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173440,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836796,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [68]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"that's my friend's account", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1407, -- [11]
-			"0x07000000004B03C0", -- [12]
+			241, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173455,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836811,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [69]
 		{
-			" Auto Invite", -- [1]
-			"Sorenqt", -- [2]
+			"only acc that isn't mine", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1409, -- [11]
-			"0x07000000003EC7DD", -- [12]
+			242, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173464,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aSorenqt|r",
+			[51] = 1573836815,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [70]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"rip", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1410, -- [11]
-			"0x07000000004B03C0", -- [12]
+			243, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173467,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836816,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [71]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"rip", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1413, -- [11]
-			"0x0700000000223209", -- [12]
+			244, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173476,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573836820,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [72]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES)", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"the one which the anemic mage was on", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1417, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			245, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173491,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836832,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [73]
 		{
-			"WTS Troll Priest with Tailoring/Enchanting 450, Runed Titanium Rod, 25k gold, Max riding skill + Cold Weather Flying. 30 coins! Name is Trollolloll", -- [1]
-			"Spiderpig", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"the bis mage", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1421, -- [11]
-			"0x0700000000001E74", -- [12]
+			246, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173502,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Spiderpig",
+			[51] = 1573836834,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [74]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"almost bis", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1425, -- [11]
-			"0x0700000000223209", -- [12]
+			247, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173533,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573836842,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [75]
 		{
-			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
-			"Pancakebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"in the balance account there's another 5.8k mage", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1429, -- [11]
-			"0x07000000003CC355", -- [12]
+			248, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173569,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Pancakebear",
+			[51] = 1573836858,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [76]
 		{
-			"Redjonn gently pats Holies.", -- [1]
-			"Redjonn", -- [2]
+			"ye", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x0700000000067787", -- [12]
+			249, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173585,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff68ccefRedjonn|r",
+			[51] = 1573836874,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [77]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) and 1 dps ", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"i dont see them gearing or doing anything", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1436, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			250, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173591,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836881,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [78]
 		{
-			"WTB |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 220g /w me or COD", -- [1]
-			"Hentaiikun", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"they just waste time and do some pepega stuff", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1437, -- [11]
-			"0x0700000000458186", -- [12]
+			251, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173593,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Hentaiikun",
+			[51] = 1573836890,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [79]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1444, -- [11]
-			"0x0700000000223209", -- [12]
+			252, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173606,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573836891,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [80]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) and 1 dps ", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"ye their concept of fun", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1449, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			253, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173613,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573836903,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [81]
 		{
-			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
-			"Ereddin", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"like farming mounts/achievements and doing 10 mans with 5 pugs", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1451, -- [11]
-			"0x07000000001DF923", -- [12]
+			254, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173618,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ereddin",
+			[51] = 1573836916,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [82]
 		{
-			"omg onion", -- [1]
-			"Tupsaqt", -- [2]
-			"Orcish", -- [3]
+			"its aids, i saw them recruiting 5kgs foricc 10 man", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1457, -- [11]
-			"0x07000000004D1DED", -- [12]
+			258, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173635,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffff7c0aTupsaqt|r",
+			[51] = 1573836937,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [83]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"definitely gonna be wipefest", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1459, -- [11]
-			"0x07000000004B03C0", -- [12]
+			259, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173639,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573836944,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [84]
 		{
-			"zero heal", -- [1]
-			"Merryme", -- [2]
-			"Orcish", -- [3]
+			"they just keep complaining that you use their accounts. i'm lke, just use binder and abs, but they complain about that also", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1461, -- [11]
-			"0x07000000004C89F8", -- [12]
+			267, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173643,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff9382c9Merryme|r",
+			[51] = 1573836973,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [85]
 		{
-			" LFM ALL << Bane Fresh >> Only wing bosses hc. 6.3+ [Bane of the Fallen King].", -- [1]
-			"Ereddin", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"ikr, binder and abs god tier addons", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1468, -- [11]
-			"0x07000000001DF923", -- [12]
+			273, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173650,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Ereddin",
+			[51] = 1573836996,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [86]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"so mindvoice - fuck these guys i'll just 2fa my accounts so that they dont pepega it", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1477, -- [11]
-			"0x07000000004B03C0", -- [12]
+			274, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173658,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573837000,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [87]
 		{
-			"WTS 2X 20 ARMOR PEN RED GEM", -- [1]
-			"Runnah", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"ikr ", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1478, -- [11]
-			"0x07000000000434B6", -- [12]
+			277, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173658,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Runnah",
+			[51] = 1573837027,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [88]
 		{
-			"LFM ICC 25 NEED RDPS 5.7 min GS req /w GS/CLASS/SPEC & LINK ACHI OR NO INVITE (BoE+PRIMO+SFS=RESS) |cffffff00|Hachievement:4608:0700000000223209:1:4:13:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Nosoups", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"i dont use that boomy because he'll start crying about key binds", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1482, -- [11]
-			"0x0700000000223209", -- [12]
+			278, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173662,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nosoups",
+			[51] = 1573837046,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [89]
 		{
-			"Twinking is easy ! go horde or alliance and make lvl 19 twink,there are Battlegrounds popping each day !!! Let's have fun =)", -- [1]
-			"Dhgdhzgvjnt", -- [2]
-			"Orcish", -- [3]
+			"and he hardly uses any", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1489, -- [11]
-			"0x070000000012CEC3", -- [12]
+			279, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173675,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Dhgdhzgvjnt|r",
+			[51] = 1573837050,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [90]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1490, -- [11]
-			"0x07000000004B03C0", -- [12]
+			280, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173675,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573837055,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [91]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"do u have any free account", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1492, -- [11]
-			"0x07000000004B03C0", -- [12]
+			287, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173680,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573837128,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [92]
 		{
-			"stupid boomka", -- [1]
-			"Blummkin", -- [2]
+			"with 1 char having herbalism", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1495, -- [11]
-			"0x0700000000307B87", -- [12]
+			288, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173685,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cff68ccefBlummkin|r",
+			[51] = 1573837133,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [93]
 		{
-			"fking blumkin ", -- [1]
-			"Boomkaftw", -- [2]
+			"im currently doing this herb farm on 2 ulduar ids and wanna expand my operations more", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1504, -- [11]
-			"0x07000000000606F3", -- [12]
+			289, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173698,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aBoomkaftw|r",
+			[51] = 1573837150,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [94]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1505, -- [11]
-			"0x07000000004B03C0", -- [12]
+			290, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173699,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573837151,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [95]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) and 1 dps ", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"this id, and on immutability one", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1507, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			291, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173700,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573837167,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [96]
 		{
-			"roll for free?", -- [1]
-			"Tupsaqt", -- [2]
+			"that milkmycow char", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1511, -- [11]
-			"0x07000000004D1DED", -- [12]
+			292, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173704,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aTupsaqt|r",
+			[51] = 1573837172,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [97]
 		{
-			"fuck u both", -- [1]
-			"Mosypala", -- [2]
+			"xD", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1514, -- [11]
-			"0x07000000002A1653", -- [12]
+			293, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173706,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaMosypala|r",
+			[51] = 1573837173,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [98]
 		{
-			"LFM ULDUAR 25 FULL RUN NEED HEALS 5K+ (FRACMENTS RES) ", -- [1]
-			"Shomyn", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"nop", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1518, -- [11]
-			"0x07000000003EB7BD", -- [12]
+			294, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173709,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Shomyn",
+			[51] = 1573837175,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [99]
 		{
-			" LFM FOR ICC25 FRESH NEED HEALS AND DPS 5.7K GS be gemmed/enchanted boe/primos and sfs ressed", -- [1]
-			"Pancakebear", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"they are using some toon or the other", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1522, -- [11]
-			"0x07000000003CC355", -- [12]
+			295, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173712,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Pancakebear",
+			[51] = 1573837182,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [100]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"the warrior account actually has a herb toon", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1532, -- [11]
-			"0x07000000004B03C0", -- [12]
+			296, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173719,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573837236,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [101]
 		{
-			"lfm HOR", -- [1]
-			"Cluelesscow", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"the name is herbivore", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1533, -- [11]
-			"0x07000000004ACA0D", -- [12]
+			297, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173719,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Cluelesscow",
+			[51] = 1573837239,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [102]
 		{
-			"r u drunk Mosy ? ", -- [1]
-			"Boomkaftw", -- [2]
+			"xD", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1536, -- [11]
-			"0x07000000000606F3", -- [12]
+			298, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173721,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aBoomkaftw|r",
+			[51] = 1573837242,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [103]
 		{
-			"NAh xd", -- [1]
-			"Mosypala", -- [2]
+			"damn xD", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1543, -- [11]
-			"0x07000000002A1653", -- [12]
+			299, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173727,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaMosypala|r",
+			[51] = 1573837246,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [104]
 		{
-			"chill then :p", -- [1]
-			"Boomkaftw", -- [2]
+			"collect vp on it then", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1551, -- [11]
-			"0x07000000000606F3", -- [12]
+			300, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173733,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aBoomkaftw|r",
+			[51] = 1573837255,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [105]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"and switch to horde", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1553, -- [11]
-			"0x07000000004B03C0", -- [12]
+			301, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173734,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573837258,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [106]
 		{
-			"i dont need drunk", -- [1]
-			"Mosypala", -- [2]
+			"xD", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1560, -- [11]
-			"0x07000000002A1653", -- [12]
+			302, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173741,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaMosypala|r",
+			[51] = 1573837259,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [107]
 		{
-			"always im retard", -- [1]
-			"Mosypala", -- [2]
+			"ye", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1567, -- [11]
-			"0x07000000002A1653", -- [12]
+			303, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173746,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaMosypala|r",
+			[51] = 1573837319,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [108]
 		{
-			"xd", -- [1]
-			"Mosypala", -- [2]
+			"im like creating a monopoly on ap flasks", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1569, -- [11]
-			"0x07000000002A1653", -- [12]
+			304, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173747,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaMosypala|r",
+			[51] = 1573837354,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [109]
 		{
-			"true ", -- [1]
-			"Boomkaftw", -- [2]
+			"undercutting everyone on it", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1576, -- [11]
-			"0x07000000000606F3", -- [12]
+			305, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173754,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aBoomkaftw|r",
+			[51] = 1573837366,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [110]
 		{
-			"hahaha", -- [1]
-			"Boomkaftw", -- [2]
+			"and posting 40 flasks each hour", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1580, -- [11]
-			"0x07000000000606F3", -- [12]
+			306, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173756,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aBoomkaftw|r",
+			[51] = 1573837374,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [111]
 		{
-			"tank lfg voa25", -- [1]
-			"Brotank", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"xD", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Relationship", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1584, -- [11]
-			"0x0700000000342319", -- [12]
+			307, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173757,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Brotank",
+			[51] = 1573837375,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [112]
 		{
-			":DD", -- [1]
-			"Mosypala", -- [2]
+			"lol", -- [1]
+			"Relationship", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1585, -- [11]
-			"0x07000000002A1653", -- [12]
+			309, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173758,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaMosypala|r",
+			[51] = 1573837442,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [113]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"stay logged in on shaman for another 5 mins", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1588, -- [11]
-			"0x07000000004B03C0", -- [12]
+			310, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173759,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573837696,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [114]
 		{
-			"anyone from grp 6 7 8 can log rogue?", -- [1]
-			"Sorenqt", -- [2]
-			"Orcish", -- [3]
+			"brb", -- [1]
+			"Relationship", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Relationship", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1593, -- [11]
-			"0x07000000003EC7DD", -- [12]
+			311, -- [11]
+			"0x0700000000432C68", -- [12]
 			0, -- [13]
-			[51] = 1573173769,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aSorenqt|r",
+			[51] = 1573837704,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffc41e3aRelationship|r",
 		}, -- [115]
 		{
-			"LF arena carry will pay", -- [1]
-			"Nailon", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
+			"%s has earned the achievement |cffffff00|Hachievement:2191:07000000004436C8:1:11:15:19:4294967295:4294967295:4294967295:4294967295|h[Ancient Courtyard Protector]|h|r!", -- [1]
+			"Swaggy", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Swaggy", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			1603, -- [11]
-			"0x070000000043B3D0", -- [12]
+			312, -- [11]
+			"0x07000000004436C8", -- [12]
 			0, -- [13]
-			[51] = 1573173778,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Nailon",
+			[51] = 1573837790,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff9382c9Swaggy|r",
 		}, -- [116]
 		{
-			"rdps lf raids", -- [1]
-			"Cluelesscow", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			1604, -- [11]
-			"0x07000000004ACA0D", -- [12]
-			0, -- [13]
-			[51] = 1573173778,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "Cluelesscow",
-		}, -- [117]
-		{
-			"mine is 5.6 xd", -- [1]
-			"Herscream", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1607, -- [11]
-			"0x070000000029BC89", -- [12]
-			0, -- [13]
-			[51] = 1573173778,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc69b6dHerscream|r",
-		}, -- [118]
-		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1615, -- [11]
-			"0x07000000004B03C0", -- [12]
-			0, -- [13]
-			[51] = 1573173782,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
-		}, -- [119]
-		{
-			"i dont have rogue", -- [1]
-			"Momofuku", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1617, -- [11]
-			"0x070000000002FF54", -- [12]
-			0, -- [13]
-			[51] = 1573173787,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaMomofuku|r",
-		}, -- [120]
-		{
-			"Walking and using mounts is too mainstream.. Take a portal", -- [1]
-			"Redjonn", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			1619, -- [11]
-			"0x0700000000067787", -- [12]
-			0, -- [13]
-			[51] = 1573173789,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefRedjonn|r",
-		}, -- [121]
-		{
-			"Eradicatiion rolls on the floor laughing at Slanter.", -- [1]
-			"Eradicatiion", -- [2]
+			"this is annoyign as fuck.. i cant hand in 2 quests.. no idea why", -- [1]
+			"Shathakrahe", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2212,17 +2122,107 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x070000000002E0FA", -- [12]
+			313, -- [11]
+			"0x070000000020F25E", -- [12]
 			0, -- [13]
-			[51] = 1573173790,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cfff48cbaEradicatiion|r",
+			[51] = 1573837955,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaShathakrahe|r",
+		}, -- [117]
+		{
+			"wich one", -- [1]
+			"Epirionqt", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			314, -- [11]
+			"0x070000000002C4B1", -- [12]
+			0, -- [13]
+			[51] = 1573837968,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aEpirionqt|r",
+		}, -- [118]
+		{
+			" |cff808080|Hquest:8348:60|h[Signet of the Dukes]|h|r |cff808080|Hquest:8807:60|h[Scrying Materials]|h|r", -- [1]
+			"Shathakrahe", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			316, -- [11]
+			"0x070000000020F25E", -- [12]
+			0, -- [13]
+			[51] = 1573837993,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaShathakrahe|r",
+		}, -- [119]
+		{
+			"both are labeled as complete, have all the items for both... but no luck", -- [1]
+			"Shathakrahe", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			317, -- [11]
+			"0x070000000020F25E", -- [12]
+			0, -- [13]
+			[51] = 1573838009,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaShathakrahe|r",
+		}, -- [120]
+		{
+			"tried relog ? ", -- [1]
+			"Bumpey", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			318, -- [11]
+			"0x07000000000078B7", -- [12]
+			0, -- [13]
+			[51] = 1573838039,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff68ccefBumpey|r",
+		}, -- [121]
+		{
+			"idk", -- [1]
+			"Epirionqt", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			319, -- [11]
+			"0x070000000002C4B1", -- [12]
+			0, -- [13]
+			[51] = 1573838044,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffff7c0aEpirionqt|r",
 		}, -- [122]
 		{
-			"only 1", -- [1]
-			"Momofuku", -- [2]
-			"Orcish", -- [3]
+			"or look @ reputation ", -- [1]
+			"Bumpey", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -2230,17 +2230,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1620, -- [11]
-			"0x070000000002FF54", -- [12]
+			320, -- [11]
+			"0x07000000000078B7", -- [12]
 			0, -- [13]
-			[51] = 1573173790,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaMomofuku|r",
+			[51] = 1573838051,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff68ccefBumpey|r",
 		}, -- [123]
 		{
-			"<--- i got rogue", -- [1]
-			"Blummkin", -- [2]
-			"Orcish", -- [3]
+			"if its on war", -- [1]
+			"Bumpey", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -2248,17 +2248,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1622, -- [11]
-			"0x0700000000307B87", -- [12]
+			321, -- [11]
+			"0x07000000000078B7", -- [12]
 			0, -- [13]
-			[51] = 1573173793,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff68ccefBlummkin|r",
+			[51] = 1573838054,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff68ccefBumpey|r",
 		}, -- [124]
 		{
-			"my rogue is saved :(", -- [1]
-			"Kabutto", -- [2]
-			"Orcish", -- [3]
+			"you prolly cant turn it ", -- [1]
+			"Bumpey", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -2266,17 +2266,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1628, -- [11]
-			"0x07000000002A9AFE", -- [12]
+			322, -- [11]
+			"0x07000000000078B7", -- [12]
 			0, -- [13]
-			[51] = 1573173801,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffff7c0aKabutto|r",
+			[51] = 1573838059,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff68ccefBumpey|r",
 		}, -- [125]
 		{
-			"I am Dalaran teleport NPC trade me gold and travel ", -- [1]
-			"Gendler", -- [2]
-			"Orcish", -- [3]
+			"it resets sometimes ", -- [1]
+			"Bumpey", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -2284,17 +2284,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1630, -- [11]
-			"0x07000000004B03C0", -- [12]
+			323, -- [11]
+			"0x07000000000078B7", -- [12]
 			0, -- [13]
-			[51] = 1573173802,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefGendler|r",
+			[51] = 1573838067,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff68ccefBumpey|r",
 		}, -- [126]
 		{
-			"have combat 6.1", -- [1]
-			"Tanisa", -- [2]
-			"Orcish", -- [3]
+			"not at war, tried to relog", -- [1]
+			"Shathakrahe", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -2302,12 +2302,12 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1640, -- [11]
-			"0x070000000033D12D", -- [12]
+			326, -- [11]
+			"0x070000000020F25E", -- [12]
 			0, -- [13]
-			[51] = 1573173814,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aTanisa|r",
+			[51] = 1573838468,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff48cbaShathakrahe|r",
 		}, -- [127]
 	},
 }
