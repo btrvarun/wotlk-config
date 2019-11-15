@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: RIGHT
@@ -44,9 +44,9 @@ H: 33
 Frame: SkadaBarWindowSkada
 FrameLevel: 103
 Anchor: BOTTOMRIGHT
-X: -11
-Y: 218
-W: 255
+X: -8
+Y: 221
+W: 261
 H: 15
 Frame: TellMeWhen_Group1
 FrameLevel: 31
