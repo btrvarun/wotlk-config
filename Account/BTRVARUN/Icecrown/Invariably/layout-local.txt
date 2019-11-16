@@ -49,7 +49,7 @@ Y: 201
 W: 450
 H: 33
 Frame: SkadaBarWindowSkada
-FrameLevel: 56
+FrameLevel: 103
 Anchor: BOTTOMRIGHT
 X: -11
 Y: 218
