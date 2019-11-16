@@ -98,16 +98,6 @@ SkadaDB = {
 						["time"] = 698,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							{
-								["amount"] = 434,
-								["spells"] = {
-									[29131] = 4,
-									[23602] = 355,
-									[34846] = 75,
-								},
-							}, -- [1]
-						},
 						["overhealing"] = 86282,
 						["damage"] = 1090244,
 						["damagespells"] = {
@@ -132,22 +122,22 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Shockwave"] = {
+							["Thorns"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
 								["crushing"] = 0,
 								["IMMUNE"] = 0,
 								["glancing"] = 0,
-								["totalhits"] = 7,
+								["totalhits"] = 18,
 								["MISS"] = 0,
-								["damage"] = 42082,
+								["damage"] = 3236,
 								["DEFLECT"] = 0,
-								["id"] = 46968,
-								["max"] = 11107,
-								["min"] = 4046,
+								["id"] = 53307,
+								["max"] = 185,
+								["min"] = 159,
 								["PARRY"] = 0,
-								["critical"] = 2,
-								["hit"] = 5,
+								["critical"] = 0,
+								["hit"] = 18,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -174,26 +164,6 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Sunder Armor"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 0,
-								["glancing"] = 0,
-								["totalhits"] = 2,
-								["MISS"] = 0,
-								["damage"] = 0,
-								["DEFLECT"] = 0,
-								["id"] = 7386,
-								["max"] = 0,
-								["PARRY"] = 2,
-								["critical"] = 0,
-								["hit"] = 0,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
 							["Silenced - Gag Order"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
@@ -207,6 +177,26 @@ SkadaDB = {
 								["id"] = 18498,
 								["max"] = 0,
 								["PARRY"] = 0,
+								["critical"] = 0,
+								["hit"] = 0,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
+							["Sunder Armor"] = {
+								["DODGE"] = 0,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 0,
+								["glancing"] = 0,
+								["totalhits"] = 2,
+								["MISS"] = 0,
+								["damage"] = 0,
+								["DEFLECT"] = 0,
+								["id"] = 7386,
+								["max"] = 0,
+								["PARRY"] = 2,
 								["critical"] = 0,
 								["hit"] = 0,
 								["EVADE"] = 0,
@@ -235,22 +225,22 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Thorns"] = {
+							["Shockwave"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
 								["crushing"] = 0,
 								["IMMUNE"] = 0,
 								["glancing"] = 0,
-								["totalhits"] = 18,
+								["totalhits"] = 7,
 								["MISS"] = 0,
-								["damage"] = 3236,
+								["damage"] = 42082,
 								["DEFLECT"] = 0,
-								["id"] = 53307,
-								["max"] = 185,
-								["min"] = 159,
+								["id"] = 46968,
+								["max"] = 11107,
+								["min"] = 4046,
 								["PARRY"] = 0,
-								["critical"] = 0,
-								["hit"] = 18,
+								["critical"] = 2,
+								["hit"] = 5,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -426,31 +416,19 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 998463,
-						["deathlog"] = {
+						["power"] = {
+							{
+								["amount"] = 434,
+								["spells"] = {
+									[29131] = 4,
+									[23602] = 355,
+									[34846] = 75,
+								},
+							}, -- [1]
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 3221,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 32391,
-								["overhealing"] = 62768,
-								["hits"] = 38,
-							},
-							["Enraged Regeneration"] = {
-								["min"] = 0,
-								["max"] = 2416,
-								["name"] = "Enraged Regeneration",
-								["critical"] = 0,
-								["id"] = 55694,
-								["healing"] = 18516,
-								["overhealing"] = 23514,
-								["hits"] = 20,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -489,18 +467,40 @@ SkadaDB = {
 								["damage"] = 280360,
 							},
 						},
+						["healingspells"] = {
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 3221,
+								["id"] = 34299,
+								["healing"] = 32391,
+								["overhealing"] = 62768,
+								["hits"] = 38,
+							},
+							["Enraged Regeneration"] = {
+								["min"] = 0,
+								["name"] = "Enraged Regeneration",
+								["critical"] = 0,
+								["max"] = 2416,
+								["id"] = 55694,
+								["healing"] = 18516,
+								["overhealing"] = 23514,
+								["hits"] = 20,
+							},
+						},
 						["healing"] = 50907,
+						["name"] = "Surree",
 						["healed"] = {
 							["Surree"] = {
 								["amount"] = 50907,
 								["class"] = "WARRIOR",
 							},
 						},
-						["name"] = "Surree",
+						["uptime"] = 1172,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1172,
 						["id"] = "0x070000000021A5DA",
 					}, -- [1]
 					{
@@ -528,15 +528,6 @@ SkadaDB = {
 						["time"] = 662,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 18788,
-								["spells"] = {
-									[57961] = 18404,
-									[39104] = 384,
-								},
-							},
-						},
 						["overhealing"] = 1480265,
 						["damage"] = 1747,
 						["damagespells"] = {
@@ -564,81 +555,18 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 61943,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 18788,
+								["spells"] = {
+									[57961] = 18404,
+									[39104] = 384,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Riptide"] = {
-								["min"] = 0,
-								["max"] = 5766,
-								["name"] = "Riptide",
-								["critical"] = 5,
-								["id"] = 61301,
-								["healing"] = 54802,
-								["overhealing"] = 47022,
-								["hits"] = 49,
-							},
-							["Ancestral Awakening"] = {
-								["min"] = 0,
-								["max"] = 3369,
-								["name"] = "Ancestral Awakening",
-								["critical"] = 0,
-								["id"] = 52752,
-								["healing"] = 15415,
-								["overhealing"] = 17951,
-								["hits"] = 12,
-							},
-							["Chain Heal"] = {
-								["min"] = 0,
-								["max"] = 13868,
-								["name"] = "Chain Heal",
-								["critical"] = 108,
-								["id"] = 55459,
-								["healing"] = 1004857,
-								["overhealing"] = 830168,
-								["hits"] = 278,
-							},
-							["Healing Stream Totem: Healing Stream Totem"] = {
-								["min"] = 0,
-								["max"] = 617,
-								["name"] = "Healing Stream Totem: Healing Stream Totem",
-								["critical"] = 0,
-								["id"] = 52042,
-								["healing"] = 79810,
-								["overhealing"] = 320606,
-								["hits"] = 762,
-							},
-							["Earthliving"] = {
-								["min"] = 0,
-								["max"] = 1068,
-								["name"] = "Earthliving",
-								["critical"] = 0,
-								["id"] = 52000,
-								["healing"] = 65357,
-								["overhealing"] = 132787,
-								["hits"] = 212,
-							},
-							["Earth Shield"] = {
-								["min"] = 0,
-								["max"] = 5389,
-								["name"] = "Earth Shield",
-								["critical"] = 21,
-								["id"] = 379,
-								["healing"] = 133264,
-								["overhealing"] = 48538,
-								["hits"] = 44,
-							},
-							["Lesser Healing Wave"] = {
-								["min"] = 0,
-								["max"] = 4763,
-								["name"] = "Lesser Healing Wave",
-								["critical"] = 7,
-								["id"] = 49276,
-								["healing"] = 24246,
-								["overhealing"] = 83193,
-								["hits"] = 14,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -657,7 +585,80 @@ SkadaDB = {
 								["damage"] = 38287,
 							},
 						},
+						["healingspells"] = {
+							["Riptide"] = {
+								["min"] = 0,
+								["name"] = "Riptide",
+								["critical"] = 5,
+								["max"] = 5766,
+								["id"] = 61301,
+								["healing"] = 54802,
+								["overhealing"] = 47022,
+								["hits"] = 49,
+							},
+							["Ancestral Awakening"] = {
+								["min"] = 0,
+								["name"] = "Ancestral Awakening",
+								["critical"] = 0,
+								["max"] = 3369,
+								["id"] = 52752,
+								["healing"] = 15415,
+								["overhealing"] = 17951,
+								["hits"] = 12,
+							},
+							["Chain Heal"] = {
+								["min"] = 0,
+								["name"] = "Chain Heal",
+								["critical"] = 108,
+								["max"] = 13868,
+								["id"] = 55459,
+								["healing"] = 1004857,
+								["overhealing"] = 830168,
+								["hits"] = 278,
+							},
+							["Healing Stream Totem: Healing Stream Totem"] = {
+								["min"] = 0,
+								["name"] = "Healing Stream Totem: Healing Stream Totem",
+								["critical"] = 0,
+								["max"] = 617,
+								["id"] = 52042,
+								["healing"] = 79810,
+								["overhealing"] = 320606,
+								["hits"] = 762,
+							},
+							["Earthliving"] = {
+								["min"] = 0,
+								["name"] = "Earthliving",
+								["critical"] = 0,
+								["max"] = 1068,
+								["id"] = 52000,
+								["healing"] = 65357,
+								["overhealing"] = 132787,
+								["hits"] = 212,
+							},
+							["Earth Shield"] = {
+								["min"] = 0,
+								["name"] = "Earth Shield",
+								["critical"] = 21,
+								["max"] = 5389,
+								["id"] = 379,
+								["healing"] = 133264,
+								["overhealing"] = 48538,
+								["hits"] = 44,
+							},
+							["Lesser Healing Wave"] = {
+								["min"] = 0,
+								["name"] = "Lesser Healing Wave",
+								["critical"] = 7,
+								["max"] = 4763,
+								["id"] = 49276,
+								["healing"] = 24246,
+								["overhealing"] = 83193,
+								["hits"] = 14,
+							},
+						},
 						["healing"] = 1377751,
+						["name"] = "Rauna",
 						["healed"] = {
 							["Ggverybig"] = {
 								["amount"] = 121326,
@@ -714,9 +715,9 @@ SkadaDB = {
 								["amount"] = 232293,
 								["class"] = "WARRIOR",
 							},
-							["Haathun"] = {
-								["amount"] = 822,
-								["class"] = "WARRIOR",
+							["Donaljtrump"] = {
+								["amount"] = 25833,
+								["class"] = "DRUID",
 							},
 							["Reloadedrage"] = {
 								["amount"] = 56153,
@@ -726,29 +727,29 @@ SkadaDB = {
 								["amount"] = 43535,
 								["class"] = "PALADIN",
 							},
-							["Ggverylong"] = {
-								["amount"] = 134234,
-								["class"] = "DEATHKNIGHT",
-							},
 							["Rauna"] = {
 								["amount"] = 14542,
 								["class"] = "SHAMAN",
-							},
-							["Rushshot"] = {
-								["amount"] = 13105,
-								["class"] = "HUNTER",
 							},
 							["Burningveil"] = {
 								["amount"] = 72312,
 								["class"] = "DEATHKNIGHT",
 							},
-							["Pyreah"] = {
-								["amount"] = 17413,
-								["class"] = "PRIEST",
+							["Rushshot"] = {
+								["amount"] = 13105,
+								["class"] = "HUNTER",
 							},
 							["Bowbaby"] = {
 								["amount"] = 57161,
 								["class"] = "HUNTER",
+							},
+							["Pyreah"] = {
+								["amount"] = 17413,
+								["class"] = "PRIEST",
+							},
+							["Antonlr"] = {
+								["amount"] = 39180,
+								["class"] = "MAGE",
 							},
 							["Kulhazard"] = {
 								["amount"] = 47940,
@@ -758,24 +759,23 @@ SkadaDB = {
 								["amount"] = 31242,
 								["class"] = "DRUID",
 							},
-							["Donaljtrump"] = {
-								["amount"] = 25833,
-								["class"] = "DRUID",
+							["Ggverylong"] = {
+								["amount"] = 134234,
+								["class"] = "DEATHKNIGHT",
 							},
 							["Eyestealer"] = {
 								["amount"] = 3351,
 								["class"] = "ROGUE",
 							},
-							["Antonlr"] = {
-								["amount"] = 39180,
-								["class"] = "MAGE",
+							["Haathun"] = {
+								["amount"] = 822,
+								["class"] = "WARRIOR",
 							},
 						},
-						["name"] = "Rauna",
+						["uptime"] = 523,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 523,
 						["id"] = "0x07000000004C757C",
 					}, -- [2]
 					{
@@ -816,15 +816,6 @@ SkadaDB = {
 						["time"] = 332,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[6] = {
-								["amount"] = 252,
-								["spells"] = {
-									[50422] = 160,
-									[49088] = 92,
-								},
-							},
-						},
 						["overhealing"] = 32078,
 						["damage"] = 552573,
 						["damagespells"] = {
@@ -1020,21 +1011,18 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 851630,
-						["deathlog"] = {
+						["power"] = {
+							[6] = {
+								["amount"] = 252,
+								["spells"] = {
+									[50422] = 160,
+									[49088] = 92,
+								},
+							},
 						},
 						["totalabsorbs"] = 11707,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 2358,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 16395,
-								["overhealing"] = 32078,
-								["hits"] = 21,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Flaming Cinder"] = {
@@ -1083,18 +1071,30 @@ SkadaDB = {
 								["damage"] = 208709,
 							},
 						},
+						["healingspells"] = {
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 2358,
+								["id"] = 34299,
+								["healing"] = 16395,
+								["overhealing"] = 32078,
+								["hits"] = 21,
+							},
+						},
 						["healing"] = 16395,
+						["name"] = "Ggverylong",
 						["healed"] = {
 							["Ggverylong"] = {
 								["amount"] = 16395,
 								["class"] = "DEATHKNIGHT",
 							},
 						},
-						["name"] = "Ggverylong",
+						["uptime"] = 558,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 558,
 						["id"] = "0x07000000004B7216",
 					}, -- [3]
 					{
@@ -1158,18 +1158,6 @@ SkadaDB = {
 						["time"] = 347,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 93932,
-								["spells"] = {
-									[55382] = 1800,
-									[34650] = 15210,
-									[20268] = 5062,
-									[57669] = 67034,
-									[71132] = 4826,
-								},
-							},
-						},
 						["overhealing"] = 282519,
 						["damage"] = 1041600,
 						["damagespells"] = {
@@ -1365,41 +1353,21 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 94269,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 93932,
+								["spells"] = {
+									[55382] = 1800,
+									[34650] = 15210,
+									[20268] = 5062,
+									[57669] = 67034,
+									[71132] = 4826,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Improved Devouring Plague"] = {
-								["min"] = 0,
-								["max"] = 285,
-								["name"] = "Improved Devouring Plague",
-								["critical"] = 6,
-								["id"] = 75999,
-								["healing"] = 565,
-								["overhealing"] = 6379,
-								["hits"] = 22,
-							},
-							["Devouring Plague"] = {
-								["min"] = 0,
-								["max"] = 462,
-								["name"] = "Devouring Plague",
-								["critical"] = 0,
-								["id"] = 48300,
-								["healing"] = 5327,
-								["overhealing"] = 24159,
-								["hits"] = 104,
-							},
-							["Vampiric Embrace"] = {
-								["min"] = 0,
-								["max"] = 941,
-								["name"] = "Vampiric Embrace",
-								["critical"] = 0,
-								["id"] = 15290,
-								["healing"] = 59707,
-								["overhealing"] = 251981,
-								["hits"] = 2958,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Flaming Cinder"] = {
@@ -1428,7 +1396,40 @@ SkadaDB = {
 								["damage"] = 24953,
 							},
 						},
+						["healingspells"] = {
+							["Improved Devouring Plague"] = {
+								["min"] = 0,
+								["name"] = "Improved Devouring Plague",
+								["critical"] = 6,
+								["max"] = 285,
+								["id"] = 75999,
+								["healing"] = 565,
+								["overhealing"] = 6379,
+								["hits"] = 22,
+							},
+							["Devouring Plague"] = {
+								["min"] = 0,
+								["name"] = "Devouring Plague",
+								["critical"] = 0,
+								["max"] = 462,
+								["id"] = 48300,
+								["healing"] = 5327,
+								["overhealing"] = 24159,
+								["hits"] = 104,
+							},
+							["Vampiric Embrace"] = {
+								["min"] = 0,
+								["name"] = "Vampiric Embrace",
+								["critical"] = 0,
+								["max"] = 941,
+								["id"] = 15290,
+								["healing"] = 59707,
+								["overhealing"] = 251981,
+								["hits"] = 2958,
+							},
+						},
 						["healing"] = 65599,
+						["name"] = "Pyreah",
 						["healed"] = {
 							["Garzh"] = {
 								["amount"] = 4910,
@@ -1462,11 +1463,10 @@ SkadaDB = {
 								["class"] = "PRIEST",
 							},
 						},
-						["name"] = "Pyreah",
+						["uptime"] = 1640,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1640,
 						["id"] = "0x070000000041F326",
 					}, -- [4]
 					{
@@ -1488,6 +1488,12 @@ SkadaDB = {
 						["time"] = 358,
 						["interrupts"] = 0,
 						["deathts"] = 0,
+						["overhealing"] = 2028928,
+						["damage"] = 0,
+						["damagespells"] = {
+						},
+						["deaths"] = 0,
+						["damagetaken"] = 57149,
 						["power"] = {
 							{
 								["amount"] = 124,
@@ -1516,107 +1522,9 @@ SkadaDB = {
 								},
 							},
 						},
-						["overhealing"] = 2028928,
-						["damage"] = 0,
-						["damagespells"] = {
-						},
-						["deaths"] = 0,
-						["damagetaken"] = 57149,
-						["deathlog"] = {
-						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Healing Touch"] = {
-								["min"] = 0,
-								["max"] = 9313,
-								["name"] = "Healing Touch",
-								["critical"] = 1,
-								["id"] = 48378,
-								["healing"] = 9313,
-								["overhealing"] = 9674,
-								["hits"] = 1,
-							},
-							["Swiftmend"] = {
-								["min"] = 0,
-								["max"] = 14698,
-								["name"] = "Swiftmend",
-								["critical"] = 3,
-								["id"] = 18562,
-								["healing"] = 78878,
-								["overhealing"] = 17193,
-								["hits"] = 8,
-							},
-							["Regrowth"] = {
-								["min"] = 0,
-								["max"] = 9166,
-								["name"] = "Regrowth",
-								["critical"] = 14,
-								["id"] = 48443,
-								["healing"] = 146707,
-								["overhealing"] = 336124,
-								["hits"] = 251,
-							},
-							["Nourish"] = {
-								["min"] = 0,
-								["max"] = 12970,
-								["name"] = "Nourish",
-								["critical"] = 6,
-								["id"] = 50464,
-								["healing"] = 45875,
-								["overhealing"] = 69967,
-								["hits"] = 11,
-							},
-							["Wild Growth"] = {
-								["min"] = 0,
-								["max"] = 1064,
-								["name"] = "Wild Growth",
-								["critical"] = 0,
-								["id"] = 53251,
-								["healing"] = 240741,
-								["overhealing"] = 343972,
-								["hits"] = 693,
-							},
-							["Living Seed"] = {
-								["min"] = 0,
-								["max"] = 4673,
-								["name"] = "Living Seed",
-								["critical"] = 0,
-								["id"] = 48503,
-								["healing"] = 54265,
-								["overhealing"] = 7421,
-								["hits"] = 19,
-							},
-							["Lifebloom"] = {
-								["min"] = 0,
-								["max"] = 10129,
-								["name"] = "Lifebloom",
-								["critical"] = 10,
-								["id"] = 48451,
-								["healing"] = 114344,
-								["overhealing"] = 335062,
-								["hits"] = 462,
-							},
-							["Rejuvenation"] = {
-								["min"] = 0,
-								["max"] = 3051,
-								["name"] = "Rejuvenation",
-								["critical"] = 0,
-								["id"] = 48441,
-								["healing"] = 298029,
-								["overhealing"] = 775178,
-								["hits"] = 414,
-							},
-							["Tranquility"] = {
-								["min"] = 0,
-								["max"] = 0,
-								["name"] = "Tranquility",
-								["critical"] = 0,
-								["id"] = 48445,
-								["healing"] = 0,
-								["overhealing"] = 134337,
-								["hits"] = 15,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -1635,7 +1543,100 @@ SkadaDB = {
 								["damage"] = 25420,
 							},
 						},
+						["healingspells"] = {
+							["Healing Touch"] = {
+								["min"] = 0,
+								["name"] = "Healing Touch",
+								["critical"] = 1,
+								["max"] = 9313,
+								["id"] = 48378,
+								["healing"] = 9313,
+								["overhealing"] = 9674,
+								["hits"] = 1,
+							},
+							["Swiftmend"] = {
+								["min"] = 0,
+								["name"] = "Swiftmend",
+								["critical"] = 3,
+								["max"] = 14698,
+								["id"] = 18562,
+								["healing"] = 78878,
+								["overhealing"] = 17193,
+								["hits"] = 8,
+							},
+							["Regrowth"] = {
+								["min"] = 0,
+								["name"] = "Regrowth",
+								["critical"] = 14,
+								["max"] = 9166,
+								["id"] = 48443,
+								["healing"] = 146707,
+								["overhealing"] = 336124,
+								["hits"] = 251,
+							},
+							["Nourish"] = {
+								["min"] = 0,
+								["name"] = "Nourish",
+								["critical"] = 6,
+								["max"] = 12970,
+								["id"] = 50464,
+								["healing"] = 45875,
+								["overhealing"] = 69967,
+								["hits"] = 11,
+							},
+							["Wild Growth"] = {
+								["min"] = 0,
+								["name"] = "Wild Growth",
+								["critical"] = 0,
+								["max"] = 1064,
+								["id"] = 53251,
+								["healing"] = 240741,
+								["overhealing"] = 343972,
+								["hits"] = 693,
+							},
+							["Living Seed"] = {
+								["min"] = 0,
+								["name"] = "Living Seed",
+								["critical"] = 0,
+								["max"] = 4673,
+								["id"] = 48503,
+								["healing"] = 54265,
+								["overhealing"] = 7421,
+								["hits"] = 19,
+							},
+							["Lifebloom"] = {
+								["min"] = 0,
+								["name"] = "Lifebloom",
+								["critical"] = 10,
+								["max"] = 10129,
+								["id"] = 48451,
+								["healing"] = 114344,
+								["overhealing"] = 335062,
+								["hits"] = 462,
+							},
+							["Rejuvenation"] = {
+								["min"] = 0,
+								["name"] = "Rejuvenation",
+								["critical"] = 0,
+								["max"] = 3051,
+								["id"] = 48441,
+								["healing"] = 298029,
+								["overhealing"] = 775178,
+								["hits"] = 414,
+							},
+							["Tranquility"] = {
+								["min"] = 0,
+								["name"] = "Tranquility",
+								["critical"] = 0,
+								["max"] = 0,
+								["id"] = 48445,
+								["healing"] = 0,
+								["overhealing"] = 134337,
+								["hits"] = 15,
+							},
+						},
 						["healing"] = 988152,
+						["name"] = "Donaljtrump",
 						["healed"] = {
 							["Garzh"] = {
 								["amount"] = 0,
@@ -1717,17 +1718,17 @@ SkadaDB = {
 								["amount"] = 0,
 								["class"] = "DRUID",
 							},
-							["Pyreah"] = {
-								["amount"] = 17704,
-								["class"] = "PRIEST",
+							["Bowbaby"] = {
+								["amount"] = 5481,
+								["class"] = "HUNTER",
 							},
 							["Rushshot"] = {
 								["amount"] = 0,
 								["class"] = "HUNTER",
 							},
-							["Bowbaby"] = {
-								["amount"] = 5481,
-								["class"] = "HUNTER",
+							["Pyreah"] = {
+								["amount"] = 17704,
+								["class"] = "PRIEST",
 							},
 							["Rauna"] = {
 								["amount"] = 4428,
@@ -1757,11 +1758,10 @@ SkadaDB = {
 								["class"] = "DRUID",
 							},
 						},
-						["name"] = "Donaljtrump",
+						["uptime"] = 150,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 150,
 						["id"] = "0x07000000004379B3",
 					}, -- [5]
 					{
@@ -1789,18 +1789,6 @@ SkadaDB = {
 						["time"] = 328,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 51684,
-								["spells"] = {
-									[55382] = 5400,
-									[20272] = 26740,
-									[20168] = 16040,
-									[28730] = 2286,
-									[20268] = 1218,
-								},
-							},
-						},
 						["overhealing"] = 5292112,
 						["damage"] = 23725,
 						["damagespells"] = {
@@ -1849,81 +1837,21 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 241205,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 51684,
+								["spells"] = {
+									[55382] = 5400,
+									[20272] = 26740,
+									[20168] = 16040,
+									[28730] = 2286,
+									[20268] = 1218,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Holy Light"] = {
-								["min"] = 0,
-								["max"] = 21999,
-								["name"] = "Holy Light",
-								["critical"] = 70,
-								["id"] = 48782,
-								["healing"] = 462823,
-								["overhealing"] = 1953911,
-								["hits"] = 126,
-							},
-							["Twilight Renewal"] = {
-								["min"] = 0,
-								["max"] = 434,
-								["name"] = "Twilight Renewal",
-								["critical"] = 0,
-								["id"] = 75493,
-								["healing"] = 77668,
-								["overhealing"] = 48492,
-								["hits"] = 316,
-							},
-							["Fountain of Light"] = {
-								["min"] = 0,
-								["max"] = 329,
-								["name"] = "Fountain of Light",
-								["critical"] = 0,
-								["id"] = 71866,
-								["healing"] = 37454,
-								["overhealing"] = 73739,
-								["hits"] = 403,
-							},
-							["Judgement of Light"] = {
-								["min"] = 0,
-								["max"] = 1548,
-								["name"] = "Judgement of Light",
-								["critical"] = 0,
-								["id"] = 20267,
-								["healing"] = 205913,
-								["overhealing"] = 590224,
-								["hits"] = 1240,
-							},
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 0,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 0,
-								["overhealing"] = 6015,
-								["hits"] = 5,
-							},
-							["Beacon of Light"] = {
-								["min"] = 0,
-								["max"] = 29186,
-								["name"] = "Beacon of Light",
-								["critical"] = 0,
-								["id"] = 53654,
-								["healing"] = 311027,
-								["overhealing"] = 1947468,
-								["hits"] = 118,
-							},
-							["Glyph of Holy Light"] = {
-								["min"] = 0,
-								["max"] = 6253,
-								["name"] = "Glyph of Holy Light",
-								["critical"] = 0,
-								["id"] = 54968,
-								["healing"] = 248140,
-								["overhealing"] = 672263,
-								["hits"] = 415,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -1947,7 +1875,80 @@ SkadaDB = {
 								["damage"] = 21276,
 							},
 						},
+						["healingspells"] = {
+							["Holy Light"] = {
+								["min"] = 0,
+								["name"] = "Holy Light",
+								["critical"] = 70,
+								["max"] = 21999,
+								["id"] = 48782,
+								["healing"] = 462823,
+								["overhealing"] = 1953911,
+								["hits"] = 126,
+							},
+							["Twilight Renewal"] = {
+								["min"] = 0,
+								["name"] = "Twilight Renewal",
+								["critical"] = 0,
+								["max"] = 434,
+								["id"] = 75493,
+								["healing"] = 77668,
+								["overhealing"] = 48492,
+								["hits"] = 316,
+							},
+							["Fountain of Light"] = {
+								["min"] = 0,
+								["name"] = "Fountain of Light",
+								["critical"] = 0,
+								["max"] = 329,
+								["id"] = 71866,
+								["healing"] = 37454,
+								["overhealing"] = 73739,
+								["hits"] = 403,
+							},
+							["Judgement of Light"] = {
+								["min"] = 0,
+								["name"] = "Judgement of Light",
+								["critical"] = 0,
+								["max"] = 1548,
+								["id"] = 20267,
+								["healing"] = 205913,
+								["overhealing"] = 590224,
+								["hits"] = 1240,
+							},
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 0,
+								["id"] = 34299,
+								["healing"] = 0,
+								["overhealing"] = 6015,
+								["hits"] = 5,
+							},
+							["Beacon of Light"] = {
+								["min"] = 0,
+								["name"] = "Beacon of Light",
+								["critical"] = 0,
+								["max"] = 29186,
+								["id"] = 53654,
+								["healing"] = 311027,
+								["overhealing"] = 1947468,
+								["hits"] = 118,
+							},
+							["Glyph of Holy Light"] = {
+								["min"] = 0,
+								["name"] = "Glyph of Holy Light",
+								["critical"] = 0,
+								["max"] = 6253,
+								["id"] = 54968,
+								["healing"] = 248140,
+								["overhealing"] = 672263,
+								["hits"] = 415,
+							},
+						},
 						["healing"] = 1343025,
+						["name"] = "Ggverybig",
 						["healed"] = {
 							["Garzh"] = {
 								["amount"] = 5356,
@@ -1957,9 +1958,9 @@ SkadaDB = {
 								["amount"] = 19793,
 								["class"] = "DRUID",
 							},
-							["Donaljtrump"] = {
-								["amount"] = 790,
-								["class"] = "DRUID",
+							["Rauna"] = {
+								["amount"] = 12715,
+								["class"] = "SHAMAN",
 							},
 							["Ggverylong"] = {
 								["amount"] = 442898,
@@ -1973,9 +1974,9 @@ SkadaDB = {
 								["amount"] = 37018,
 								["class"] = "WARRIOR",
 							},
-							["Rauna"] = {
-								["amount"] = 12715,
-								["class"] = "SHAMAN",
+							["Donaljtrump"] = {
+								["amount"] = 790,
+								["class"] = "DRUID",
 							},
 							["Angeliito"] = {
 								["amount"] = 5135,
@@ -2001,17 +2002,17 @@ SkadaDB = {
 								["amount"] = 6697,
 								["class"] = "MAGE",
 							},
-							["Shadowfiend"] = {
-								["amount"] = 1635,
-								["class"] = "PALADIN",
+							["Reloadedrage"] = {
+								["amount"] = 46673,
+								["class"] = "WARRIOR",
 							},
 							["Reindemkal"] = {
 								["amount"] = 16687,
 								["class"] = "MAGE",
 							},
-							["Reloadedrage"] = {
-								["amount"] = 46673,
-								["class"] = "WARRIOR",
+							["Shadowfiend"] = {
+								["amount"] = 1635,
+								["class"] = "PALADIN",
 							},
 							["Surree"] = {
 								["amount"] = 366415,
@@ -2021,9 +2022,9 @@ SkadaDB = {
 								["amount"] = 2379,
 								["class"] = "PRIEST",
 							},
-							["Burningveil"] = {
-								["amount"] = 51227,
-								["class"] = "DEATHKNIGHT",
+							["Bowbaby"] = {
+								["amount"] = 14872,
+								["class"] = "HUNTER",
 							},
 							["Worldwideftw"] = {
 								["amount"] = 40732,
@@ -2044,9 +2045,9 @@ SkadaDB = {
 								["amount"] = 10537,
 								["class"] = "WARLOCK",
 							},
-							["Bowbaby"] = {
-								["amount"] = 14872,
-								["class"] = "HUNTER",
+							["Burningveil"] = {
+								["amount"] = 51227,
+								["class"] = "DEATHKNIGHT",
 							},
 							["Antonlr"] = {
 								["amount"] = 13514,
@@ -2073,11 +2074,10 @@ SkadaDB = {
 								["class"] = "WARRIOR",
 							},
 						},
-						["name"] = "Ggverybig",
+						["uptime"] = 246,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 246,
 						["id"] = "0x07000000004C019C",
 					}, -- [6]
 					{
@@ -2117,14 +2117,6 @@ SkadaDB = {
 						["time"] = 318,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[3] = {
-								["amount"] = 990,
-								["spells"] = {
-									[35548] = 990,
-								},
-							},
-						},
 						["overhealing"] = 48240,
 						["damage"] = 2379007,
 						["damagespells"] = {
@@ -2319,21 +2311,17 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 142056,
-						["deathlog"] = {
+						["power"] = {
+							[3] = {
+								["amount"] = 990,
+								["spells"] = {
+									[35548] = 990,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1259,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 9367,
-								["overhealing"] = 48240,
-								["hits"] = 49,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -2357,18 +2345,30 @@ SkadaDB = {
 								["damage"] = 13334,
 							},
 						},
+						["healingspells"] = {
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1259,
+								["id"] = 34299,
+								["healing"] = 9367,
+								["overhealing"] = 48240,
+								["hits"] = 49,
+							},
+						},
 						["healing"] = 9367,
+						["name"] = "Sapforever",
 						["healed"] = {
 							["Sapforever"] = {
 								["amount"] = 9367,
 								["class"] = "ROGUE",
 							},
 						},
-						["name"] = "Sapforever",
+						["uptime"] = 878,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 878,
 						["id"] = "0x0700000000435FB0",
 					}, -- [7]
 					{
@@ -2384,8 +2384,6 @@ SkadaDB = {
 						["time"] = 4,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-						},
 						["overhealing"] = 0,
 						["damage"] = 5492,
 						["damagespells"] = {
@@ -2434,22 +2432,24 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 0,
-						["deathlog"] = {
+						["power"] = {
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 						},
+						["healingspells"] = {
+						},
 						["healing"] = 0,
+						["name"] = "Haathun",
 						["healed"] = {
 						},
-						["name"] = "Haathun",
+						["uptime"] = 0,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 0,
 						["id"] = "0xF1400CFE35000003",
 					}, -- [8]
 					{
@@ -2489,35 +2489,25 @@ SkadaDB = {
 						["time"] = 316,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[3] = {
-								["amount"] = 2119,
-								["spells"] = {
-									[51637] = 1024,
-									[25046] = 45,
-									[14181] = 1050,
-								},
-							},
-						},
 						["overhealing"] = 47420,
 						["damage"] = 2353120,
 						["damagespells"] = {
-							["Garrote"] = {
+							["Instant Poison IX"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
 								["crushing"] = 0,
 								["IMMUNE"] = 0,
 								["glancing"] = 0,
-								["totalhits"] = 30,
+								["totalhits"] = 446,
 								["MISS"] = 0,
-								["damage"] = 29334,
+								["damage"] = 691744,
 								["DEFLECT"] = 0,
-								["id"] = 48676,
-								["max"] = 1005,
-								["min"] = 957,
+								["id"] = 57965,
+								["max"] = 2361,
+								["min"] = 979,
 								["PARRY"] = 0,
-								["critical"] = 0,
-								["hit"] = 30,
+								["critical"] = 146,
+								["hit"] = 300,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -2543,47 +2533,6 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Garrote - Silence"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 5,
-								["glancing"] = 0,
-								["totalhits"] = 5,
-								["MISS"] = 0,
-								["damage"] = 0,
-								["DEFLECT"] = 0,
-								["id"] = 1330,
-								["max"] = 0,
-								["PARRY"] = 0,
-								["critical"] = 0,
-								["hit"] = 0,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
-							["Instant Poison IX"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 0,
-								["glancing"] = 0,
-								["totalhits"] = 446,
-								["MISS"] = 0,
-								["damage"] = 691744,
-								["DEFLECT"] = 0,
-								["id"] = 57965,
-								["max"] = 2361,
-								["min"] = 979,
-								["PARRY"] = 0,
-								["critical"] = 146,
-								["hit"] = 300,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
 							["Mutilate"] = {
 								["DODGE"] = 4,
 								["REFLECT"] = 0,
@@ -2600,6 +2549,47 @@ SkadaDB = {
 								["PARRY"] = 0,
 								["critical"] = 93,
 								["hit"] = 42,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
+							["Garrote"] = {
+								["DODGE"] = 0,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 0,
+								["glancing"] = 0,
+								["totalhits"] = 30,
+								["MISS"] = 0,
+								["damage"] = 29334,
+								["DEFLECT"] = 0,
+								["id"] = 48676,
+								["max"] = 1005,
+								["min"] = 957,
+								["PARRY"] = 0,
+								["critical"] = 0,
+								["hit"] = 30,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
+							["Garrote - Silence"] = {
+								["DODGE"] = 0,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 5,
+								["glancing"] = 0,
+								["totalhits"] = 5,
+								["MISS"] = 0,
+								["damage"] = 0,
+								["DEFLECT"] = 0,
+								["id"] = 1330,
+								["max"] = 0,
+								["PARRY"] = 0,
+								["critical"] = 0,
+								["hit"] = 0,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -2671,21 +2661,19 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 185857,
-						["deathlog"] = {
+						["power"] = {
+							[3] = {
+								["amount"] = 2119,
+								["spells"] = {
+									[51637] = 1024,
+									[25046] = 45,
+									[14181] = 1050,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1449,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 19109,
-								["overhealing"] = 47420,
-								["hits"] = 49,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Flaming Cinder"] = {
@@ -2714,18 +2702,30 @@ SkadaDB = {
 								["damage"] = 77222,
 							},
 						},
+						["healingspells"] = {
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1449,
+								["id"] = 34299,
+								["healing"] = 19109,
+								["overhealing"] = 47420,
+								["hits"] = 49,
+							},
+						},
 						["healing"] = 19109,
+						["name"] = "Kimkary",
 						["healed"] = {
 							["Kimkary"] = {
 								["amount"] = 19109,
 								["class"] = "ROGUE",
 							},
 						},
-						["name"] = "Kimkary",
+						["uptime"] = 526,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 526,
 						["id"] = "0x070000000000A61E",
 					}, -- [9]
 					{
@@ -2740,11 +2740,11 @@ SkadaDB = {
 								["name"] = "Sated",
 								["active"] = 1,
 							},
-							["Righteous Vengeance"] = {
-								["id"] = 61840,
-								["uptime"] = 288,
-								["name"] = "Righteous Vengeance",
-								["active"] = 1,
+							["Judgement of Justice"] = {
+								["id"] = 20184,
+								["uptime"] = 282,
+								["name"] = "Judgement of Justice",
+								["active"] = 0,
 							},
 							["Heart of the Crusader"] = {
 								["id"] = 54498,
@@ -2752,11 +2752,11 @@ SkadaDB = {
 								["name"] = "Heart of the Crusader",
 								["active"] = 0,
 							},
-							["Consecration"] = {
-								["id"] = 48819,
-								["uptime"] = 206,
-								["name"] = "Consecration",
-								["active"] = 0,
+							["Righteous Vengeance"] = {
+								["id"] = 61840,
+								["uptime"] = 288,
+								["name"] = "Righteous Vengeance",
+								["active"] = 1,
 							},
 							["Blood Corruption"] = {
 								["id"] = 53742,
@@ -2770,10 +2770,10 @@ SkadaDB = {
 								["name"] = "Vindication",
 								["active"] = 1,
 							},
-							["Judgement of Justice"] = {
-								["id"] = 20184,
-								["uptime"] = 282,
-								["name"] = "Judgement of Justice",
+							["Consecration"] = {
+								["id"] = 48819,
+								["uptime"] = 206,
+								["name"] = "Consecration",
 								["active"] = 0,
 							},
 						},
@@ -2783,18 +2783,6 @@ SkadaDB = {
 						["time"] = 344,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 116281,
-								["spells"] = {
-									[28730] = 1787,
-									[31930] = 38430,
-									[20268] = 9135,
-									[54428] = 4584,
-									[57669] = 62345,
-								},
-							},
-						},
 						["overhealing"] = 127669,
 						["damage"] = 2858314,
 						["damagespells"] = {
@@ -2943,27 +2931,6 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Judgement of Corruption"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 0,
-								["glancing"] = 0,
-								["totalhits"] = 35,
-								["MISS"] = 0,
-								["damage"] = 314954,
-								["DEFLECT"] = 0,
-								["id"] = 53733,
-								["max"] = 14961,
-								["min"] = 2888,
-								["PARRY"] = 0,
-								["critical"] = 29,
-								["hit"] = 6,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
 							["Righteous Vengeance"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
@@ -2980,6 +2947,27 @@ SkadaDB = {
 								["PARRY"] = 0,
 								["critical"] = 0,
 								["hit"] = 101,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
+							["Consecration"] = {
+								["DODGE"] = 0,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 0,
+								["glancing"] = 0,
+								["totalhits"] = 258,
+								["MISS"] = 0,
+								["damage"] = 182969,
+								["DEFLECT"] = 0,
+								["id"] = 48819,
+								["max"] = 1014,
+								["min"] = 472,
+								["PARRY"] = 0,
+								["critical"] = 0,
+								["hit"] = 258,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -3006,22 +2994,22 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Consecration"] = {
+							["Judgement of Corruption"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
 								["crushing"] = 0,
 								["IMMUNE"] = 0,
 								["glancing"] = 0,
-								["totalhits"] = 258,
+								["totalhits"] = 35,
 								["MISS"] = 0,
-								["damage"] = 182969,
+								["damage"] = 314954,
 								["DEFLECT"] = 0,
-								["id"] = 48819,
-								["max"] = 1014,
-								["min"] = 472,
+								["id"] = 53733,
+								["max"] = 14961,
+								["min"] = 2888,
 								["PARRY"] = 0,
-								["critical"] = 0,
-								["hit"] = 258,
+								["critical"] = 29,
+								["hit"] = 6,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -3051,51 +3039,21 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 174521,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 116281,
+								["spells"] = {
+									[28730] = 1787,
+									[31930] = 38430,
+									[20268] = 9135,
+									[54428] = 4584,
+									[57669] = 62345,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Flash of Light"] = {
-								["min"] = 0,
-								["max"] = 5635,
-								["name"] = "Flash of Light",
-								["critical"] = 1,
-								["id"] = 48785,
-								["healing"] = 9806,
-								["overhealing"] = 0,
-								["hits"] = 2,
-							},
-							["Sheath of Light"] = {
-								["min"] = 0,
-								["max"] = 0,
-								["name"] = "Sheath of Light",
-								["critical"] = 0,
-								["id"] = 54203,
-								["healing"] = 0,
-								["overhealing"] = 2685,
-								["hits"] = 3,
-							},
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1719,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 17373,
-								["overhealing"] = 46392,
-								["hits"] = 45,
-							},
-							["Divine Storm"] = {
-								["min"] = 0,
-								["max"] = 1108,
-								["name"] = "Divine Storm",
-								["critical"] = 0,
-								["id"] = 54172,
-								["healing"] = 29375,
-								["overhealing"] = 78592,
-								["hits"] = 201,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Flaming Cinder"] = {
@@ -3129,7 +3087,50 @@ SkadaDB = {
 								["damage"] = 89772,
 							},
 						},
+						["healingspells"] = {
+							["Flash of Light"] = {
+								["min"] = 0,
+								["name"] = "Flash of Light",
+								["critical"] = 1,
+								["max"] = 5635,
+								["id"] = 48785,
+								["healing"] = 9806,
+								["overhealing"] = 0,
+								["hits"] = 2,
+							},
+							["Divine Storm"] = {
+								["min"] = 0,
+								["name"] = "Divine Storm",
+								["critical"] = 0,
+								["max"] = 1108,
+								["id"] = 54172,
+								["healing"] = 29375,
+								["overhealing"] = 78592,
+								["hits"] = 201,
+							},
+							["Sheath of Light"] = {
+								["min"] = 0,
+								["name"] = "Sheath of Light",
+								["critical"] = 0,
+								["max"] = 0,
+								["id"] = 54203,
+								["healing"] = 0,
+								["overhealing"] = 2685,
+								["hits"] = 3,
+							},
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1719,
+								["id"] = 34299,
+								["healing"] = 17373,
+								["overhealing"] = 46392,
+								["hits"] = 45,
+							},
+						},
 						["healing"] = 56554,
+						["name"] = "Vareline",
 						["healed"] = {
 							["Ggverybig"] = {
 								["amount"] = 0,
@@ -3183,21 +3184,21 @@ SkadaDB = {
 								["amount"] = 2026,
 								["class"] = "PRIEST",
 							},
-							["Bowbaby"] = {
-								["amount"] = 1030,
-								["class"] = "HUNTER",
+							["Rauna"] = {
+								["amount"] = 0,
+								["class"] = "SHAMAN",
 							},
 							["Burningveil"] = {
 								["amount"] = 860,
 								["class"] = "DEATHKNIGHT",
 							},
-							["Rauna"] = {
-								["amount"] = 0,
-								["class"] = "SHAMAN",
-							},
 							["Surree"] = {
 								["amount"] = 1150,
 								["class"] = "WARRIOR",
+							},
+							["Ggverylong"] = {
+								["amount"] = 630,
+								["class"] = "DEATHKNIGHT",
 							},
 							["Worldwideftw"] = {
 								["amount"] = 2467,
@@ -3207,17 +3208,17 @@ SkadaDB = {
 								["amount"] = 0,
 								["class"] = "DRUID",
 							},
-							["Ggverylong"] = {
-								["amount"] = 630,
-								["class"] = "DEATHKNIGHT",
+							["시발"] = {
+								["amount"] = 321,
+								["class"] = "WARRIOR",
 							},
 							["Rushshot"] = {
 								["amount"] = 2423,
 								["class"] = "HUNTER",
 							},
-							["시발"] = {
-								["amount"] = 321,
-								["class"] = "WARRIOR",
+							["Bowbaby"] = {
+								["amount"] = 1030,
+								["class"] = "HUNTER",
 							},
 							["Reloadedrage"] = {
 								["amount"] = 915,
@@ -3248,11 +3249,10 @@ SkadaDB = {
 								["class"] = "WARLOCK",
 							},
 						},
-						["name"] = "Vareline",
+						["uptime"] = 1463,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1463,
 						["id"] = "0x070000000000B8EC",
 					}, -- [10]
 					{
@@ -3302,35 +3302,6 @@ SkadaDB = {
 						["time"] = 306,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							{
-								["amount"] = 24,
-								["spells"] = {
-									[63653] = 24,
-								},
-							}, -- [1]
-							[0] = {
-								["amount"] = 39727,
-								["spells"] = {
-									[47755] = 24992,
-									[63654] = 9464,
-									[67666] = 3500,
-									[71566] = 1771,
-								},
-							},
-							[3] = {
-								["amount"] = 96,
-								["spells"] = {
-									[63655] = 96,
-								},
-							},
-							[6] = {
-								["amount"] = 96,
-								["spells"] = {
-									[63652] = 96,
-								},
-							},
-						},
 						["overhealing"] = 344614,
 						["damage"] = 19932,
 						["damagespells"] = {
@@ -3378,61 +3349,38 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 88588,
-						["deathlog"] = {
+						["power"] = {
+							{
+								["amount"] = 24,
+								["spells"] = {
+									[63653] = 24,
+								},
+							}, -- [1]
+							[0] = {
+								["amount"] = 39727,
+								["spells"] = {
+									[47755] = 24992,
+									[63654] = 9464,
+									[67666] = 3500,
+									[71566] = 1771,
+								},
+							},
+							[3] = {
+								["amount"] = 96,
+								["spells"] = {
+									[63655] = 96,
+								},
+							},
+							[6] = {
+								["amount"] = 96,
+								["spells"] = {
+									[63652] = 96,
+								},
+							},
 						},
 						["totalabsorbs"] = 394993,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Renew"] = {
-								["min"] = 0,
-								["max"] = 0,
-								["name"] = "Renew",
-								["critical"] = 0,
-								["id"] = 48068,
-								["healing"] = 0,
-								["overhealing"] = 2013,
-								["hits"] = 1,
-							},
-							["Penance"] = {
-								["min"] = 0,
-								["max"] = 5898,
-								["name"] = "Penance",
-								["critical"] = 14,
-								["id"] = 52985,
-								["healing"] = 60331,
-								["overhealing"] = 66339,
-								["hits"] = 26,
-							},
-							["Flash Heal"] = {
-								["min"] = 0,
-								["max"] = 8377,
-								["name"] = "Flash Heal",
-								["critical"] = 17,
-								["id"] = 48071,
-								["healing"] = 119279,
-								["overhealing"] = 97968,
-								["hits"] = 34,
-							},
-							["Holy Nova"] = {
-								["min"] = 0,
-								["max"] = 3172,
-								["name"] = "Holy Nova",
-								["critical"] = 14,
-								["id"] = 48076,
-								["healing"] = 22285,
-								["overhealing"] = 73499,
-								["hits"] = 41,
-							},
-							["Glyph of Power Word: Shield"] = {
-								["min"] = 0,
-								["max"] = 2553,
-								["name"] = "Glyph of Power Word: Shield",
-								["critical"] = 37,
-								["id"] = 56160,
-								["healing"] = 57900,
-								["overhealing"] = 104795,
-								["hits"] = 82,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -3456,7 +3404,60 @@ SkadaDB = {
 								["damage"] = 16466,
 							},
 						},
+						["healingspells"] = {
+							["Renew"] = {
+								["min"] = 0,
+								["name"] = "Renew",
+								["critical"] = 0,
+								["max"] = 0,
+								["id"] = 48068,
+								["healing"] = 0,
+								["overhealing"] = 2013,
+								["hits"] = 1,
+							},
+							["Penance"] = {
+								["min"] = 0,
+								["name"] = "Penance",
+								["critical"] = 14,
+								["max"] = 5898,
+								["id"] = 52985,
+								["healing"] = 60331,
+								["overhealing"] = 66339,
+								["hits"] = 26,
+							},
+							["Flash Heal"] = {
+								["min"] = 0,
+								["name"] = "Flash Heal",
+								["critical"] = 17,
+								["max"] = 8377,
+								["id"] = 48071,
+								["healing"] = 119279,
+								["overhealing"] = 97968,
+								["hits"] = 34,
+							},
+							["Holy Nova"] = {
+								["min"] = 0,
+								["name"] = "Holy Nova",
+								["critical"] = 14,
+								["max"] = 3172,
+								["id"] = 48076,
+								["healing"] = 22285,
+								["overhealing"] = 73499,
+								["hits"] = 41,
+							},
+							["Glyph of Power Word: Shield"] = {
+								["min"] = 0,
+								["name"] = "Glyph of Power Word: Shield",
+								["critical"] = 37,
+								["max"] = 2553,
+								["id"] = 56160,
+								["healing"] = 57900,
+								["overhealing"] = 104795,
+								["hits"] = 82,
+							},
+						},
 						["healing"] = 259795,
+						["name"] = "Angeliito",
 						["healed"] = {
 							["Ggverybig"] = {
 								["amount"] = 23114,
@@ -3518,21 +3519,21 @@ SkadaDB = {
 								["amount"] = 0,
 								["class"] = "DRUID",
 							},
-							["Antonlr"] = {
-								["amount"] = 4412,
-								["class"] = "MAGE",
+							["Pyreah"] = {
+								["amount"] = 13653,
+								["class"] = "PRIEST",
 							},
 							["Rushshot"] = {
 								["amount"] = 3854,
 								["class"] = "HUNTER",
 							},
-							["Pyreah"] = {
-								["amount"] = 13653,
-								["class"] = "PRIEST",
-							},
 							["Diekzro"] = {
 								["amount"] = 2476,
 								["class"] = "WARLOCK",
+							},
+							["Antonlr"] = {
+								["amount"] = 4412,
+								["class"] = "MAGE",
 							},
 							["Bowbaby"] = {
 								["amount"] = 2433,
@@ -3559,11 +3560,10 @@ SkadaDB = {
 								["class"] = "SHAMAN",
 							},
 						},
-						["name"] = "Angeliito",
+						["uptime"] = 409,
 						["failevents"] = {
 						},
 						["dispells"] = 3,
-						["uptime"] = 409,
 						["id"] = "0x07000000004C496B",
 					}, -- [11]
 					{
@@ -3591,17 +3591,6 @@ SkadaDB = {
 						["time"] = 268,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							{
-								["amount"] = 728,
-								["spells"] = {
-									[29131] = 17,
-									[58362] = 530,
-									[2687] = 20,
-									[12964] = 161,
-								},
-							}, -- [1]
-						},
 						["overhealing"] = 43386,
 						["damage"] = 3191070,
 						["damagespells"] = {
@@ -3731,27 +3720,6 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Execute"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 0,
-								["glancing"] = 0,
-								["totalhits"] = 2,
-								["MISS"] = 0,
-								["damage"] = 11809,
-								["DEFLECT"] = 0,
-								["id"] = 20647,
-								["max"] = 8260,
-								["min"] = 3549,
-								["PARRY"] = 0,
-								["critical"] = 1,
-								["hit"] = 1,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
 							["Heroic Strike"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
@@ -3768,6 +3736,27 @@ SkadaDB = {
 								["PARRY"] = 0,
 								["critical"] = 53,
 								["hit"] = 52,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
+							["Execute"] = {
+								["DODGE"] = 0,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 0,
+								["glancing"] = 0,
+								["totalhits"] = 2,
+								["MISS"] = 0,
+								["damage"] = 11809,
+								["DEFLECT"] = 0,
+								["id"] = 20647,
+								["max"] = 8260,
+								["min"] = 3549,
+								["PARRY"] = 0,
+								["critical"] = 1,
+								["hit"] = 1,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -3797,21 +3786,20 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 166851,
-						["deathlog"] = {
+						["power"] = {
+							{
+								["amount"] = 728,
+								["spells"] = {
+									[29131] = 17,
+									[58362] = 530,
+									[2687] = 20,
+									[12964] = 161,
+								},
+							}, -- [1]
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Bloodthirst"] = {
-								["min"] = 0,
-								["max"] = 401,
-								["name"] = "Bloodthirst",
-								["critical"] = 0,
-								["id"] = 23880,
-								["healing"] = 24964,
-								["overhealing"] = 43386,
-								["hits"] = 177,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -3835,18 +3823,30 @@ SkadaDB = {
 								["damage"] = 26840,
 							},
 						},
+						["healingspells"] = {
+							["Bloodthirst"] = {
+								["min"] = 0,
+								["name"] = "Bloodthirst",
+								["critical"] = 0,
+								["max"] = 401,
+								["id"] = 23880,
+								["healing"] = 24964,
+								["overhealing"] = 43386,
+								["hits"] = 177,
+							},
+						},
 						["healing"] = 24964,
+						["name"] = "Reloadedrage",
 						["healed"] = {
 							["Reloadedrage"] = {
 								["amount"] = 24964,
 								["class"] = "WARRIOR",
 							},
 						},
-						["name"] = "Reloadedrage",
+						["uptime"] = 406,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 406,
 						["id"] = "0x070000000040BACA",
 					}, -- [12]
 					{
@@ -3892,20 +3892,6 @@ SkadaDB = {
 						["time"] = 325,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 30930,
-								["spells"] = {
-									[68285] = 30930,
-								},
-							},
-							[3] = {
-								["amount"] = 600,
-								["spells"] = {
-									[51178] = 600,
-								},
-							},
-						},
 						["overhealing"] = 41717,
 						["damage"] = 1247834,
 						["damagespells"] = {
@@ -4100,21 +4086,23 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 135158,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 30930,
+								["spells"] = {
+									[68285] = 30930,
+								},
+							},
+							[3] = {
+								["amount"] = 600,
+								["spells"] = {
+									[51178] = 600,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1170,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 7978,
-								["overhealing"] = 41717,
-								["hits"] = 45,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Whiteout"] = {
@@ -4138,18 +4126,30 @@ SkadaDB = {
 								["damage"] = 106206,
 							},
 						},
+						["healingspells"] = {
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1170,
+								["id"] = 34299,
+								["healing"] = 7978,
+								["overhealing"] = 41717,
+								["hits"] = 45,
+							},
+						},
 						["healing"] = 7978,
+						["name"] = "Belalin",
 						["healed"] = {
 							["Belalin"] = {
 								["amount"] = 7978,
 								["class"] = "DRUID",
 							},
 						},
-						["name"] = "Belalin",
+						["uptime"] = 942,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 942,
 						["id"] = "0x0700000000462DB4",
 					}, -- [13]
 					{
@@ -4201,14 +4201,6 @@ SkadaDB = {
 						["time"] = 284,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[6] = {
-								["amount"] = 20,
-								["spells"] = {
-									[50163] = 20,
-								},
-							},
-						},
 						["overhealing"] = 175729,
 						["damage"] = 2151086,
 						["damagespells"] = {
@@ -4228,27 +4220,6 @@ SkadaDB = {
 								["PARRY"] = 0,
 								["critical"] = 30,
 								["hit"] = 44,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
-							["Blood Plague"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 0,
-								["glancing"] = 0,
-								["totalhits"] = 75,
-								["MISS"] = 0,
-								["damage"] = 92078,
-								["DEFLECT"] = 0,
-								["id"] = 55078,
-								["max"] = 1510,
-								["min"] = 920,
-								["PARRY"] = 0,
-								["critical"] = 0,
-								["hit"] = 75,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -4296,6 +4267,27 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
+							["Blood Strike"] = {
+								["DODGE"] = 4,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 0,
+								["glancing"] = 0,
+								["totalhits"] = 52,
+								["MISS"] = 0,
+								["damage"] = 151905,
+								["DEFLECT"] = 0,
+								["id"] = 49930,
+								["max"] = 4272,
+								["min"] = 1523,
+								["PARRY"] = 0,
+								["critical"] = 30,
+								["hit"] = 18,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
 							["Drain Life"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
@@ -4338,22 +4330,22 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Blood Strike"] = {
-								["DODGE"] = 4,
+							["Blood Plague"] = {
+								["DODGE"] = 0,
 								["REFLECT"] = 0,
 								["crushing"] = 0,
 								["IMMUNE"] = 0,
 								["glancing"] = 0,
-								["totalhits"] = 52,
+								["totalhits"] = 75,
 								["MISS"] = 0,
-								["damage"] = 151905,
+								["damage"] = 92078,
 								["DEFLECT"] = 0,
-								["id"] = 49930,
-								["max"] = 4272,
-								["min"] = 1523,
+								["id"] = 55078,
+								["max"] = 1510,
+								["min"] = 920,
 								["PARRY"] = 0,
-								["critical"] = 30,
-								["hit"] = 18,
+								["critical"] = 0,
+								["hit"] = 75,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -4530,61 +4522,17 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 179579,
-						["deathlog"] = {
+						["power"] = {
+							[6] = {
+								["amount"] = 20,
+								["spells"] = {
+									[50163] = 20,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Eyestealer: Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1409,
-								["name"] = "Eyestealer: Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 2375,
-								["overhealing"] = 36947,
-								["hits"] = 29,
-							},
-							["Unholy Strength"] = {
-								["min"] = 0,
-								["max"] = 1071,
-								["name"] = "Unholy Strength",
-								["critical"] = 0,
-								["id"] = 53365,
-								["healing"] = 3213,
-								["overhealing"] = 21362,
-								["hits"] = 24,
-							},
-							["Drain Life"] = {
-								["min"] = 0,
-								["max"] = 3541,
-								["name"] = "Drain Life",
-								["critical"] = 0,
-								["id"] = 71838,
-								["healing"] = 20832,
-								["overhealing"] = 80178,
-								["hits"] = 31,
-							},
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1429,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 14052,
-								["overhealing"] = 37027,
-								["hits"] = 37,
-							},
-							["Blood Presence"] = {
-								["min"] = 0,
-								["max"] = 337,
-								["name"] = "Blood Presence",
-								["critical"] = 0,
-								["id"] = 50475,
-								["healing"] = 17073,
-								["overhealing"] = 215,
-								["hits"] = 215,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Flaming Cinder"] = {
@@ -4613,7 +4561,60 @@ SkadaDB = {
 								["damage"] = 114069,
 							},
 						},
+						["healingspells"] = {
+							["Eyestealer: Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Eyestealer: Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1409,
+								["id"] = 34299,
+								["healing"] = 2375,
+								["overhealing"] = 36947,
+								["hits"] = 29,
+							},
+							["Unholy Strength"] = {
+								["min"] = 0,
+								["name"] = "Unholy Strength",
+								["critical"] = 0,
+								["max"] = 1071,
+								["id"] = 53365,
+								["healing"] = 3213,
+								["overhealing"] = 21362,
+								["hits"] = 24,
+							},
+							["Drain Life"] = {
+								["min"] = 0,
+								["name"] = "Drain Life",
+								["critical"] = 0,
+								["max"] = 3541,
+								["id"] = 71838,
+								["healing"] = 20832,
+								["overhealing"] = 80178,
+								["hits"] = 31,
+							},
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1429,
+								["id"] = 34299,
+								["healing"] = 14052,
+								["overhealing"] = 37027,
+								["hits"] = 37,
+							},
+							["Blood Presence"] = {
+								["min"] = 0,
+								["name"] = "Blood Presence",
+								["critical"] = 0,
+								["max"] = 337,
+								["id"] = 50475,
+								["healing"] = 17073,
+								["overhealing"] = 215,
+								["hits"] = 215,
+							},
+						},
 						["healing"] = 57545,
+						["name"] = "Kulhazard",
 						["healed"] = {
 							["Eyestealer"] = {
 								["amount"] = 2375,
@@ -4624,11 +4625,10 @@ SkadaDB = {
 								["class"] = "DEATHKNIGHT",
 							},
 						},
-						["name"] = "Kulhazard",
+						["uptime"] = 1287,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1287,
 						["id"] = "0x07000000004D1BB4",
 					}, -- [14]
 					{
@@ -4680,16 +4680,6 @@ SkadaDB = {
 						["time"] = 346,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 46676,
-								["spells"] = {
-									[20268] = 12978,
-									[32553] = 16849,
-									[31818] = 16849,
-								},
-							},
-						},
 						["overhealing"] = 369360,
 						["damage"] = 2592163,
 						["damagespells"] = {
@@ -4714,27 +4704,6 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Immolate"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 0,
-								["glancing"] = 0,
-								["totalhits"] = 93,
-								["MISS"] = 0,
-								["damage"] = 226588,
-								["DEFLECT"] = 0,
-								["id"] = 47811,
-								["max"] = 4446,
-								["min"] = 1041,
-								["PARRY"] = 0,
-								["critical"] = 51,
-								["hit"] = 42,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
 							["Corruption"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
@@ -4751,6 +4720,27 @@ SkadaDB = {
 								["PARRY"] = 0,
 								["critical"] = 0,
 								["hit"] = 66,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
+							["Immolate"] = {
+								["DODGE"] = 0,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 0,
+								["glancing"] = 0,
+								["totalhits"] = 93,
+								["MISS"] = 0,
+								["damage"] = 226588,
+								["DEFLECT"] = 0,
+								["id"] = 47811,
+								["max"] = 4446,
+								["min"] = 1041,
+								["PARRY"] = 0,
+								["critical"] = 51,
+								["hit"] = 42,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -4864,41 +4854,19 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 76513,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 46676,
+								["spells"] = {
+									[31818] = 16849,
+									[20268] = 12978,
+									[32553] = 16849,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Haathun: Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1283,
-								["name"] = "Haathun: Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 4081,
-								["overhealing"] = 27457,
-								["hits"] = 24,
-							},
-							["Fel Armor"] = {
-								["min"] = 0,
-								["max"] = 772,
-								["name"] = "Fel Armor",
-								["critical"] = 0,
-								["id"] = 47893,
-								["healing"] = 17126,
-								["overhealing"] = 35749,
-								["hits"] = 72,
-							},
-							["Fel Synergy"] = {
-								["min"] = 0,
-								["max"] = 1567,
-								["name"] = "Fel Synergy",
-								["critical"] = 0,
-								["id"] = 54181,
-								["healing"] = 28735,
-								["overhealing"] = 306154,
-								["hits"] = 289,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -4922,7 +4890,40 @@ SkadaDB = {
 								["damage"] = 14638,
 							},
 						},
+						["healingspells"] = {
+							["Haathun: Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Haathun: Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1283,
+								["id"] = 34299,
+								["healing"] = 4081,
+								["overhealing"] = 27457,
+								["hits"] = 24,
+							},
+							["Fel Armor"] = {
+								["min"] = 0,
+								["name"] = "Fel Armor",
+								["critical"] = 0,
+								["max"] = 772,
+								["id"] = 47893,
+								["healing"] = 17126,
+								["overhealing"] = 35749,
+								["hits"] = 72,
+							},
+							["Fel Synergy"] = {
+								["min"] = 0,
+								["name"] = "Fel Synergy",
+								["critical"] = 0,
+								["max"] = 1567,
+								["id"] = 54181,
+								["healing"] = 28735,
+								["overhealing"] = 306154,
+								["hits"] = 289,
+							},
+						},
 						["healing"] = 49942,
+						["name"] = "Diekzro",
 						["healed"] = {
 							["Haathun"] = {
 								["amount"] = 32816,
@@ -4933,11 +4934,10 @@ SkadaDB = {
 								["class"] = "WARLOCK",
 							},
 						},
-						["name"] = "Diekzro",
+						["uptime"] = 1305,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1305,
 						["id"] = "0x07000000001581C2",
 					}, -- [15]
 					{
@@ -4958,17 +4958,17 @@ SkadaDB = {
 								["name"] = "Ignite",
 								["active"] = 0,
 							},
-							["Sated"] = {
-								["id"] = 57724,
-								["uptime"] = 150,
-								["name"] = "Sated",
-								["active"] = 1,
-							},
 							["Improved Scorch"] = {
 								["id"] = 22959,
 								["uptime"] = 91,
 								["name"] = "Improved Scorch",
 								["active"] = 0,
+							},
+							["Sated"] = {
+								["id"] = 57724,
+								["uptime"] = 150,
+								["name"] = "Sated",
+								["active"] = 1,
 							},
 							["Living Bomb"] = {
 								["id"] = 55359,
@@ -4984,17 +4984,6 @@ SkadaDB = {
 						["time"] = 327,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 26363,
-								["spells"] = {
-									[29077] = 13405,
-									[67545] = 5655,
-									[20268] = 3860,
-									[42987] = 3443,
-								},
-							},
-						},
 						["overhealing"] = 0,
 						["damage"] = 1090461,
 						["damagespells"] = {
@@ -5148,11 +5137,20 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 86771,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 26363,
+								["spells"] = {
+									[29077] = 13405,
+									[67545] = 5655,
+									[20268] = 3860,
+									[42987] = 3443,
+								},
+							},
 						},
 						["totalabsorbs"] = 18019,
 						["maxhp"] = 0,
-						["healingspells"] = {
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -5176,14 +5174,16 @@ SkadaDB = {
 								["damage"] = 19686,
 							},
 						},
+						["healingspells"] = {
+						},
 						["healing"] = 0,
+						["name"] = "Nagatolls",
 						["healed"] = {
 						},
-						["name"] = "Nagatolls",
+						["uptime"] = 937,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 937,
 						["id"] = "0x07000000004B059A",
 					}, -- [16]
 					{
@@ -5211,17 +5211,6 @@ SkadaDB = {
 						["time"] = 309,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							{
-								["amount"] = 598,
-								["spells"] = {
-									[29131] = 36,
-									[2687] = 40,
-									[58362] = 300,
-									[12964] = 222,
-								},
-							}, -- [1]
-						},
 						["overhealing"] = 19744,
 						["damage"] = 2378079,
 						["damagespells"] = {
@@ -5438,21 +5427,20 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 244145,
-						["deathlog"] = {
+						["power"] = {
+							{
+								["amount"] = 598,
+								["spells"] = {
+									[29131] = 36,
+									[2687] = 40,
+									[58362] = 300,
+									[12964] = 222,
+								},
+							}, -- [1]
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Bloodthirst"] = {
-								["min"] = 0,
-								["max"] = 390,
-								["name"] = "Bloodthirst",
-								["critical"] = 0,
-								["id"] = 23880,
-								["healing"] = 6086,
-								["overhealing"] = 19744,
-								["hits"] = 69,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Flaming Cinder"] = {
@@ -5481,18 +5469,30 @@ SkadaDB = {
 								["damage"] = 104905,
 							},
 						},
+						["healingspells"] = {
+							["Bloodthirst"] = {
+								["min"] = 0,
+								["name"] = "Bloodthirst",
+								["critical"] = 0,
+								["max"] = 390,
+								["id"] = 23880,
+								["healing"] = 6086,
+								["overhealing"] = 19744,
+								["hits"] = 69,
+							},
+						},
 						["healing"] = 6086,
+						["name"] = "Nhm",
 						["healed"] = {
 							["Nhm"] = {
 								["amount"] = 6086,
 								["class"] = "WARRIOR",
 							},
 						},
-						["name"] = "Nhm",
+						["uptime"] = 443,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 443,
 						["id"] = "0x070000000041C52F",
 					}, -- [17]
 					{
@@ -5525,16 +5525,16 @@ SkadaDB = {
 								["name"] = "Hunter's Mark",
 								["active"] = 0,
 							},
-							["Aimed Shot"] = {
-								["id"] = 49050,
-								["uptime"] = 165,
-								["name"] = "Aimed Shot",
-								["active"] = 0,
-							},
 							["Piercing Shots"] = {
 								["id"] = 63468,
 								["uptime"] = 276,
 								["name"] = "Piercing Shots",
+								["active"] = 0,
+							},
+							["Aimed Shot"] = {
+								["id"] = 49050,
+								["uptime"] = 165,
+								["name"] = "Aimed Shot",
 								["active"] = 0,
 							},
 							["Serpent Sting"] = {
@@ -5550,27 +5550,6 @@ SkadaDB = {
 						["time"] = 321,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 19073,
-								["spells"] = {
-									[34074] = 6373,
-									[20268] = 12700,
-								},
-							},
-							[2] = {
-								["amount"] = 8300,
-								["spells"] = {
-									[34952] = 8300,
-								},
-							},
-							[4] = {
-								["amount"] = 21,
-								["spells"] = {
-									[57894] = 21,
-								},
-							},
-						},
 						["overhealing"] = 69787,
 						["damage"] = 3096362,
 						["damagespells"] = {
@@ -5590,27 +5569,6 @@ SkadaDB = {
 								["PARRY"] = 0,
 								["critical"] = 16,
 								["hit"] = 11,
-								["EVADE"] = 0,
-								["RESIST"] = 0,
-								["BLOCK"] = 0,
-								["ABSORB"] = 0,
-							},
-							["Aimed Shot"] = {
-								["DODGE"] = 0,
-								["REFLECT"] = 0,
-								["crushing"] = 0,
-								["IMMUNE"] = 0,
-								["glancing"] = 0,
-								["totalhits"] = 23,
-								["MISS"] = 0,
-								["damage"] = 157567,
-								["DEFLECT"] = 0,
-								["id"] = 49050,
-								["max"] = 10437,
-								["min"] = 3103,
-								["PARRY"] = 0,
-								["critical"] = 14,
-								["hit"] = 9,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -5653,6 +5611,27 @@ SkadaDB = {
 								["PARRY"] = 0,
 								["critical"] = 40,
 								["hit"] = 186,
+								["EVADE"] = 0,
+								["RESIST"] = 0,
+								["BLOCK"] = 0,
+								["ABSORB"] = 0,
+							},
+							["Wild Quiver Auto Shot"] = {
+								["DODGE"] = 0,
+								["REFLECT"] = 0,
+								["crushing"] = 0,
+								["IMMUNE"] = 0,
+								["glancing"] = 0,
+								["totalhits"] = 22,
+								["MISS"] = 0,
+								["damage"] = 108744,
+								["DEFLECT"] = 0,
+								["id"] = 53254,
+								["max"] = 7372,
+								["min"] = 2265,
+								["PARRY"] = 0,
+								["critical"] = 14,
+								["hit"] = 8,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -5763,22 +5742,22 @@ SkadaDB = {
 								["BLOCK"] = 0,
 								["ABSORB"] = 0,
 							},
-							["Wild Quiver Auto Shot"] = {
+							["Aimed Shot"] = {
 								["DODGE"] = 0,
 								["REFLECT"] = 0,
 								["crushing"] = 0,
 								["IMMUNE"] = 0,
 								["glancing"] = 0,
-								["totalhits"] = 22,
+								["totalhits"] = 23,
 								["MISS"] = 0,
-								["damage"] = 108744,
+								["damage"] = 157567,
 								["DEFLECT"] = 0,
-								["id"] = 53254,
-								["max"] = 7372,
-								["min"] = 2265,
+								["id"] = 49050,
+								["max"] = 10437,
+								["min"] = 3103,
 								["PARRY"] = 0,
 								["critical"] = 14,
-								["hit"] = 8,
+								["hit"] = 9,
 								["EVADE"] = 0,
 								["RESIST"] = 0,
 								["BLOCK"] = 0,
@@ -5871,41 +5850,30 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 105760,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 19073,
+								["spells"] = {
+									[34074] = 6373,
+									[20268] = 12700,
+								},
+							},
+							[2] = {
+								["amount"] = 8300,
+								["spells"] = {
+									[34952] = 8300,
+								},
+							},
+							[4] = {
+								["amount"] = 21,
+								["spells"] = {
+									[57894] = 21,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Mend Pet"] = {
-								["min"] = 0,
-								["max"] = 0,
-								["name"] = "Mend Pet",
-								["critical"] = 0,
-								["id"] = 48990,
-								["healing"] = 0,
-								["overhealing"] = 1050,
-								["hits"] = 1,
-							},
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1187,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 9351,
-								["overhealing"] = 39674,
-								["hits"] = 43,
-							},
-							["Garzh: Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1016,
-								["name"] = "Garzh: Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 3663,
-								["overhealing"] = 29063,
-								["hits"] = 34,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -5929,7 +5897,40 @@ SkadaDB = {
 								["damage"] = 18570,
 							},
 						},
+						["healingspells"] = {
+							["Mend Pet"] = {
+								["min"] = 0,
+								["name"] = "Mend Pet",
+								["critical"] = 0,
+								["max"] = 0,
+								["id"] = 48990,
+								["healing"] = 0,
+								["overhealing"] = 1050,
+								["hits"] = 1,
+							},
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1187,
+								["id"] = 34299,
+								["healing"] = 9351,
+								["overhealing"] = 39674,
+								["hits"] = 43,
+							},
+							["Garzh: Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Garzh: Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1016,
+								["id"] = 34299,
+								["healing"] = 3663,
+								["overhealing"] = 29063,
+								["hits"] = 34,
+							},
+						},
 						["healing"] = 13014,
+						["name"] = "Bowbaby",
 						["healed"] = {
 							["Garzh"] = {
 								["amount"] = 3663,
@@ -5940,11 +5941,10 @@ SkadaDB = {
 								["class"] = "HUNTER",
 							},
 						},
-						["name"] = "Bowbaby",
+						["uptime"] = 1071,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1071,
 						["id"] = "0x070000000000615D",
 					}, -- [18]
 					{
@@ -5997,6 +5997,12 @@ SkadaDB = {
 						["time"] = 317,
 						["interrupts"] = 0,
 						["deathts"] = 0,
+						["overhealing"] = 499845,
+						["damage"] = 0,
+						["damagespells"] = {
+						},
+						["deaths"] = 0,
+						["damagetaken"] = 114795,
 						["power"] = {
 							{
 								["amount"] = 96,
@@ -6025,87 +6031,9 @@ SkadaDB = {
 								},
 							},
 						},
-						["overhealing"] = 499845,
-						["damage"] = 0,
-						["damagespells"] = {
-						},
-						["deaths"] = 0,
-						["damagetaken"] = 114795,
-						["deathlog"] = {
-						},
 						["totalabsorbs"] = 1803417,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Divine Hymn"] = {
-								["min"] = 0,
-								["max"] = 9375,
-								["name"] = "Divine Hymn",
-								["critical"] = 6,
-								["id"] = 64844,
-								["healing"] = 89913,
-								["overhealing"] = 3681,
-								["hits"] = 12,
-							},
-							["Penance"] = {
-								["min"] = 0,
-								["max"] = 6095,
-								["name"] = "Penance",
-								["critical"] = 7,
-								["id"] = 52985,
-								["healing"] = 15022,
-								["overhealing"] = 54331,
-								["hits"] = 12,
-							},
-							["Flash Heal"] = {
-								["min"] = 0,
-								["max"] = 8760,
-								["name"] = "Flash Heal",
-								["critical"] = 1,
-								["id"] = 48071,
-								["healing"] = 32996,
-								["overhealing"] = 5931,
-								["hits"] = 6,
-							},
-							["Blessed Healing"] = {
-								["min"] = 0,
-								["max"] = 783,
-								["name"] = "Blessed Healing",
-								["critical"] = 0,
-								["id"] = 70772,
-								["healing"] = 783,
-								["overhealing"] = 3000,
-								["hits"] = 5,
-							},
-							["Glyph of Power Word: Shield"] = {
-								["min"] = 0,
-								["max"] = 3783,
-								["name"] = "Glyph of Power Word: Shield",
-								["critical"] = 81,
-								["id"] = 56160,
-								["healing"] = 152601,
-								["overhealing"] = 340526,
-								["hits"] = 190,
-							},
-							["Prayer of Mending"] = {
-								["min"] = 0,
-								["max"] = 8290,
-								["name"] = "Prayer of Mending",
-								["critical"] = 14,
-								["id"] = 33110,
-								["healing"] = 158072,
-								["overhealing"] = 65966,
-								["hits"] = 35,
-							},
-							["Echoes of Light"] = {
-								["min"] = 0,
-								["max"] = 10473,
-								["name"] = "Echoes of Light",
-								["critical"] = 2,
-								["id"] = 71641,
-								["healing"] = 33399,
-								["overhealing"] = 26410,
-								["hits"] = 7,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -6129,7 +6057,80 @@ SkadaDB = {
 								["damage"] = 12665,
 							},
 						},
+						["healingspells"] = {
+							["Prayer of Mending"] = {
+								["min"] = 0,
+								["name"] = "Prayer of Mending",
+								["critical"] = 14,
+								["max"] = 8290,
+								["id"] = 33110,
+								["healing"] = 158072,
+								["overhealing"] = 65966,
+								["hits"] = 35,
+							},
+							["Divine Hymn"] = {
+								["min"] = 0,
+								["name"] = "Divine Hymn",
+								["critical"] = 6,
+								["max"] = 9375,
+								["id"] = 64844,
+								["healing"] = 89913,
+								["overhealing"] = 3681,
+								["hits"] = 12,
+							},
+							["Flash Heal"] = {
+								["min"] = 0,
+								["name"] = "Flash Heal",
+								["critical"] = 1,
+								["max"] = 8760,
+								["id"] = 48071,
+								["healing"] = 32996,
+								["overhealing"] = 5931,
+								["hits"] = 6,
+							},
+							["Blessed Healing"] = {
+								["min"] = 0,
+								["name"] = "Blessed Healing",
+								["critical"] = 0,
+								["max"] = 783,
+								["id"] = 70772,
+								["healing"] = 783,
+								["overhealing"] = 3000,
+								["hits"] = 5,
+							},
+							["Glyph of Power Word: Shield"] = {
+								["min"] = 0,
+								["name"] = "Glyph of Power Word: Shield",
+								["critical"] = 81,
+								["max"] = 3783,
+								["id"] = 56160,
+								["healing"] = 152601,
+								["overhealing"] = 340526,
+								["hits"] = 190,
+							},
+							["Penance"] = {
+								["min"] = 0,
+								["name"] = "Penance",
+								["critical"] = 7,
+								["max"] = 6095,
+								["id"] = 52985,
+								["healing"] = 15022,
+								["overhealing"] = 54331,
+								["hits"] = 12,
+							},
+							["Echoes of Light"] = {
+								["min"] = 0,
+								["name"] = "Echoes of Light",
+								["critical"] = 2,
+								["max"] = 10473,
+								["id"] = 71641,
+								["healing"] = 33399,
+								["overhealing"] = 26410,
+								["hits"] = 7,
+							},
+						},
 						["healing"] = 482786,
+						["name"] = "Delcatty",
 						["healed"] = {
 							["Rauna"] = {
 								["amount"] = 29317,
@@ -6219,24 +6220,23 @@ SkadaDB = {
 								["amount"] = 21322,
 								["class"] = "DRUID",
 							},
-							["Ggverybig"] = {
-								["amount"] = 34174,
-								["class"] = "PALADIN",
-							},
 							["Antonlr"] = {
 								["amount"] = 18508,
 								["class"] = "MAGE",
+							},
+							["Ggverybig"] = {
+								["amount"] = 34174,
+								["class"] = "PALADIN",
 							},
 							["Donaljtrump"] = {
 								["amount"] = 11307,
 								["class"] = "DRUID",
 							},
 						},
-						["name"] = "Delcatty",
+						["uptime"] = 464,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 464,
 						["id"] = "0x070000000028B61C",
 					}, -- [19]
 					{
@@ -6270,21 +6270,6 @@ SkadaDB = {
 						["time"] = 181,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 11541,
-								["spells"] = {
-									[68285] = 11200,
-									[71566] = 341,
-								},
-							},
-							[3] = {
-								["amount"] = 60,
-								["spells"] = {
-									[51178] = 60,
-								},
-							},
-						},
 						["overhealing"] = 15075,
 						["damage"] = 312919,
 						["damagespells"] = {
@@ -6395,21 +6380,24 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 37663,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 11541,
+								["spells"] = {
+									[68285] = 11200,
+									[71566] = 341,
+								},
+							},
+							[3] = {
+								["amount"] = 60,
+								["spells"] = {
+									[51178] = 60,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1005,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 1005,
-								["overhealing"] = 15075,
-								["hits"] = 16,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Burning Breath"] = {
@@ -6423,18 +6411,30 @@ SkadaDB = {
 								["damage"] = 28488,
 							},
 						},
+						["healingspells"] = {
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1005,
+								["id"] = 34299,
+								["healing"] = 1005,
+								["overhealing"] = 15075,
+								["hits"] = 16,
+							},
+						},
 						["healing"] = 1005,
+						["name"] = "Colmillar",
 						["healed"] = {
 							["Colmillar"] = {
 								["amount"] = 1005,
 								["class"] = "DRUID",
 							},
 						},
-						["name"] = "Colmillar",
+						["uptime"] = 80,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 80,
 						["id"] = "0x07000000004A933A",
 					}, -- [20]
 					{
@@ -6455,17 +6455,17 @@ SkadaDB = {
 								["name"] = "Aimed Shot",
 								["active"] = 0,
 							},
-							["시발: Sated"] = {
-								["id"] = 57724,
-								["uptime"] = 150,
-								["name"] = "시발: Sated",
-								["active"] = 1,
-							},
 							["Piercing Shots"] = {
 								["id"] = 63468,
 								["uptime"] = 192,
 								["name"] = "Piercing Shots",
 								["active"] = 0,
+							},
+							["시발: Sated"] = {
+								["id"] = 57724,
+								["uptime"] = 150,
+								["name"] = "시발: Sated",
+								["active"] = 1,
 							},
 							["Serpent Sting"] = {
 								["id"] = 49001,
@@ -6480,22 +6480,6 @@ SkadaDB = {
 						["time"] = 255,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 24758,
-								["spells"] = {
-									[58883] = 1938,
-									[64181] = 12920,
-									[20268] = 9900,
-								},
-							},
-							[4] = {
-								["amount"] = 2961,
-								["spells"] = {
-									[54131] = 2961,
-								},
-							},
-						},
 						["overhealing"] = 86559,
 						["damage"] = 1747282,
 						["damagespells"] = {
@@ -6754,41 +6738,25 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 37251,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 24758,
+								["spells"] = {
+									[20268] = 9900,
+									[58883] = 1938,
+									[64181] = 12920,
+								},
+							},
+							[4] = {
+								["amount"] = 2961,
+								["spells"] = {
+									[54131] = 2961,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["시발: Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 818,
-								["name"] = "시발: Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 2514,
-								["overhealing"] = 25879,
-								["hits"] = 27,
-							},
-							["시발: Bloodthirsty"] = {
-								["min"] = 0,
-								["max"] = 272,
-								["name"] = "시발: Bloodthirsty",
-								["critical"] = 0,
-								["id"] = 54131,
-								["healing"] = 8485,
-								["overhealing"] = 28517,
-								["hits"] = 141,
-							},
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1203,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 7395,
-								["overhealing"] = 32163,
-								["hits"] = 34,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -6807,7 +6775,40 @@ SkadaDB = {
 								["damage"] = 14088,
 							},
 						},
+						["healingspells"] = {
+							["시발: Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "시발: Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 818,
+								["id"] = 34299,
+								["healing"] = 2514,
+								["overhealing"] = 25879,
+								["hits"] = 27,
+							},
+							["시발: Bloodthirsty"] = {
+								["min"] = 0,
+								["name"] = "시발: Bloodthirsty",
+								["critical"] = 0,
+								["max"] = 272,
+								["id"] = 54131,
+								["healing"] = 8485,
+								["overhealing"] = 28517,
+								["hits"] = 141,
+							},
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1203,
+								["id"] = 34299,
+								["healing"] = 7395,
+								["overhealing"] = 32163,
+								["hits"] = 34,
+							},
+						},
 						["healing"] = 18394,
+						["name"] = "Rushshot",
 						["healed"] = {
 							["시발"] = {
 								["amount"] = 10999,
@@ -6818,11 +6819,10 @@ SkadaDB = {
 								["class"] = "HUNTER",
 							},
 						},
-						["name"] = "Rushshot",
+						["uptime"] = 804,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 804,
 						["id"] = "0x07000000003F3B34",
 					}, -- [21]
 					{
@@ -6874,16 +6874,6 @@ SkadaDB = {
 						["time"] = 260,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 75309,
-								["spells"] = {
-									[31930] = 26352,
-									[57669] = 38430,
-									[20268] = 10527,
-								},
-							},
-						},
 						["overhealing"] = 86504,
 						["damage"] = 2575736,
 						["damagespells"] = {
@@ -7121,41 +7111,19 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 173178,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 75309,
+								["spells"] = {
+									[31930] = 26352,
+									[57669] = 38430,
+									[20268] = 10527,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Flash of Light"] = {
-								["min"] = 0,
-								["max"] = 4102,
-								["name"] = "Flash of Light",
-								["critical"] = 0,
-								["id"] = 48785,
-								["healing"] = 4102,
-								["overhealing"] = 0,
-								["hits"] = 1,
-							},
-							["Divine Storm"] = {
-								["min"] = 0,
-								["max"] = 1093,
-								["name"] = "Divine Storm",
-								["critical"] = 0,
-								["id"] = 54172,
-								["healing"] = 21193,
-								["overhealing"] = 53963,
-								["hits"] = 129,
-							},
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1634,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 15127,
-								["overhealing"] = 32541,
-								["hits"] = 34,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -7179,7 +7147,40 @@ SkadaDB = {
 								["damage"] = 30771,
 							},
 						},
+						["healingspells"] = {
+							["Flash of Light"] = {
+								["min"] = 0,
+								["name"] = "Flash of Light",
+								["critical"] = 0,
+								["max"] = 4102,
+								["id"] = 48785,
+								["healing"] = 4102,
+								["overhealing"] = 0,
+								["hits"] = 1,
+							},
+							["Divine Storm"] = {
+								["min"] = 0,
+								["name"] = "Divine Storm",
+								["critical"] = 0,
+								["max"] = 1093,
+								["id"] = 54172,
+								["healing"] = 21193,
+								["overhealing"] = 53963,
+								["hits"] = 129,
+							},
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1634,
+								["id"] = 34299,
+								["healing"] = 15127,
+								["overhealing"] = 32541,
+								["hits"] = 34,
+							},
+						},
 						["healing"] = 40422,
+						["name"] = "Worldwideftw",
 						["healed"] = {
 							["Rauna"] = {
 								["amount"] = 893,
@@ -7245,8 +7246,8 @@ SkadaDB = {
 								["amount"] = 1266,
 								["class"] = "PALADIN",
 							},
-							["Surree"] = {
-								["amount"] = 588,
+							["Garzh"] = {
+								["amount"] = 1377,
 								["class"] = "WARRIOR",
 							},
 							["Worldwideftw"] = {
@@ -7257,25 +7258,25 @@ SkadaDB = {
 								["amount"] = 0,
 								["class"] = "DRUID",
 							},
-							["Garzh"] = {
-								["amount"] = 1377,
-								["class"] = "WARRIOR",
+							["Diekzro"] = {
+								["amount"] = 1695,
+								["class"] = "WARLOCK",
 							},
 							["Rushshot"] = {
 								["amount"] = 1076,
 								["class"] = "HUNTER",
 							},
-							["Diekzro"] = {
-								["amount"] = 1695,
-								["class"] = "WARLOCK",
+							["Antonlr"] = {
+								["amount"] = 1980,
+								["class"] = "MAGE",
 							},
 							["Ggverylong"] = {
 								["amount"] = 0,
 								["class"] = "DEATHKNIGHT",
 							},
-							["Antonlr"] = {
-								["amount"] = 1980,
-								["class"] = "MAGE",
+							["Bowbaby"] = {
+								["amount"] = 1588,
+								["class"] = "HUNTER",
 							},
 							["Kulhazard"] = {
 								["amount"] = 0,
@@ -7285,9 +7286,9 @@ SkadaDB = {
 								["amount"] = 292,
 								["class"] = "DRUID",
 							},
-							["Bowbaby"] = {
-								["amount"] = 1588,
-								["class"] = "HUNTER",
+							["Surree"] = {
+								["amount"] = 588,
+								["class"] = "WARRIOR",
 							},
 							["Eyestealer"] = {
 								["amount"] = 1474,
@@ -7298,11 +7299,10 @@ SkadaDB = {
 								["class"] = "WARRIOR",
 							},
 						},
-						["name"] = "Worldwideftw",
+						["uptime"] = 1108,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1108,
 						["id"] = "0x0700000000019060",
 					}, -- [22]
 					{
@@ -7330,17 +7330,6 @@ SkadaDB = {
 						["time"] = 279,
 						["interrupts"] = 0,
 						["deathts"] = 1573877854.308,
-						["power"] = {
-							[0] = {
-								["amount"] = 25270,
-								["spells"] = {
-									[12051] = 14776,
-									[42987] = 3427,
-									[20268] = 6067,
-									[67666] = 1000,
-								},
-							},
-						},
 						["overhealing"] = 0,
 						["damage"] = 1226090,
 						["damagespells"] = {
@@ -7431,11 +7420,20 @@ SkadaDB = {
 						},
 						["deaths"] = 1,
 						["damagetaken"] = 125121,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 25270,
+								["spells"] = {
+									[67666] = 1000,
+									[42987] = 3427,
+									[12051] = 14776,
+									[20268] = 6067,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -7459,14 +7457,16 @@ SkadaDB = {
 								["damage"] = 19032,
 							},
 						},
+						["healingspells"] = {
+						},
 						["healing"] = 0,
+						["name"] = "Antonlr",
 						["healed"] = {
 						},
-						["name"] = "Antonlr",
+						["uptime"] = 249,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 249,
 						["id"] = "0x0700000000154A0F",
 					}, -- [23]
 					{
@@ -7499,17 +7499,17 @@ SkadaDB = {
 								["name"] = "Frostfire Bolt",
 								["active"] = 0,
 							},
-							["Sated"] = {
-								["id"] = 57724,
-								["uptime"] = 150,
-								["name"] = "Sated",
-								["active"] = 1,
-							},
 							["Living Bomb"] = {
 								["id"] = 55360,
 								["uptime"] = 210,
 								["name"] = "Living Bomb",
 								["active"] = 0,
+							},
+							["Sated"] = {
+								["id"] = 57724,
+								["uptime"] = 150,
+								["name"] = "Sated",
+								["active"] = 1,
 							},
 							["Improved Scorch"] = {
 								["id"] = 22959,
@@ -7524,16 +7524,6 @@ SkadaDB = {
 						["time"] = 301,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 16029,
-								["spells"] = {
-									[29077] = 8619,
-									[67545] = 4420,
-									[20268] = 2990,
-								},
-							},
-						},
 						["overhealing"] = 0,
 						["damage"] = 750732,
 						["damagespells"] = {
@@ -7707,11 +7697,19 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 166269,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 16029,
+								["spells"] = {
+									[29077] = 8619,
+									[67545] = 4420,
+									[20268] = 2990,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -7735,14 +7733,16 @@ SkadaDB = {
 								["damage"] = 18187,
 							},
 						},
+						["healingspells"] = {
+						},
 						["healing"] = 0,
+						["name"] = "Reindemkal",
 						["healed"] = {
 						},
-						["name"] = "Reindemkal",
+						["uptime"] = 1010,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1010,
 						["id"] = "0x0700000000486350",
 					}, -- [24]
 					{
@@ -7794,15 +7794,6 @@ SkadaDB = {
 						["time"] = 278,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-							[0] = {
-								["amount"] = 34664,
-								["spells"] = {
-									[20268] = 3864,
-									[53506] = 30800,
-								},
-							},
-						},
 						["overhealing"] = 0,
 						["damage"] = 996317,
 						["damagespells"] = {
@@ -7956,11 +7947,18 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 110216,
-						["deathlog"] = {
+						["power"] = {
+							[0] = {
+								["amount"] = 34664,
+								["spells"] = {
+									[20268] = 3864,
+									[53506] = 30800,
+								},
+							},
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -7984,14 +7982,16 @@ SkadaDB = {
 								["damage"] = 21054,
 							},
 						},
+						["healingspells"] = {
+						},
 						["healing"] = 0,
+						["name"] = "Rhaigorn",
 						["healed"] = {
 						},
-						["name"] = "Rhaigorn",
+						["uptime"] = 1075,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 1075,
 						["id"] = "0x07000000004D0D1A",
 					}, -- [25]
 					{
@@ -8026,8 +8026,6 @@ SkadaDB = {
 						["time"] = 245,
 						["interrupts"] = 0,
 						["deathts"] = 0,
-						["power"] = {
-						},
 						["overhealing"] = 38152,
 						["damage"] = 976195,
 						["damagespells"] = {
@@ -8284,41 +8282,11 @@ SkadaDB = {
 						},
 						["deaths"] = 0,
 						["damagetaken"] = 228903,
-						["deathlog"] = {
+						["power"] = {
 						},
 						["totalabsorbs"] = 9083,
 						["maxhp"] = 0,
-						["healingspells"] = {
-							["Blood Presence"] = {
-								["min"] = 0,
-								["max"] = 557,
-								["name"] = "Blood Presence",
-								["critical"] = 0,
-								["id"] = 50475,
-								["healing"] = 16157,
-								["overhealing"] = 0,
-								["hits"] = 111,
-							},
-							["Improved Leader of the Pack"] = {
-								["min"] = 0,
-								["max"] = 1719,
-								["name"] = "Improved Leader of the Pack",
-								["critical"] = 0,
-								["id"] = 34299,
-								["healing"] = 15261,
-								["overhealing"] = 26562,
-								["hits"] = 25,
-							},
-							["Unholy Strength"] = {
-								["min"] = 0,
-								["max"] = 1288,
-								["name"] = "Unholy Strength",
-								["critical"] = 0,
-								["id"] = 53365,
-								["healing"] = 11361,
-								["overhealing"] = 11590,
-								["hits"] = 18,
-							},
+						["deathlog"] = {
 						},
 						["damagetakenspells"] = {
 							["Frozen Orb"] = {
@@ -8342,18 +8310,50 @@ SkadaDB = {
 								["damage"] = 29227,
 							},
 						},
+						["healingspells"] = {
+							["Blood Presence"] = {
+								["min"] = 0,
+								["name"] = "Blood Presence",
+								["critical"] = 0,
+								["max"] = 557,
+								["id"] = 50475,
+								["healing"] = 16157,
+								["overhealing"] = 0,
+								["hits"] = 111,
+							},
+							["Improved Leader of the Pack"] = {
+								["min"] = 0,
+								["name"] = "Improved Leader of the Pack",
+								["critical"] = 0,
+								["max"] = 1719,
+								["id"] = 34299,
+								["healing"] = 15261,
+								["overhealing"] = 26562,
+								["hits"] = 25,
+							},
+							["Unholy Strength"] = {
+								["min"] = 0,
+								["name"] = "Unholy Strength",
+								["critical"] = 0,
+								["max"] = 1288,
+								["id"] = 53365,
+								["healing"] = 11361,
+								["overhealing"] = 11590,
+								["hits"] = 18,
+							},
+						},
 						["healing"] = 42779,
+						["name"] = "Burningveil",
 						["healed"] = {
 							["Burningveil"] = {
 								["amount"] = 42779,
 								["class"] = "DEATHKNIGHT",
 							},
 						},
-						["name"] = "Burningveil",
+						["uptime"] = 501,
 						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 501,
 						["id"] = "0x07000000002B6235",
 					}, -- [26]
 				},
@@ -8429,15 +8429,6 @@ SkadaDB = {
 							["time"] = 144,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[6] = {
-									["amount"] = 182,
-									["spells"] = {
-										[50422] = 90,
-										[49088] = 92,
-									},
-								},
-							},
 							["overhealing"] = 14148,
 							["damage"] = 238153,
 							["damagespells"] = {
@@ -8546,6 +8537,27 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
+								["Thorns"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 7,
+									["MISS"] = 0,
+									["damage"] = 1331,
+									["DEFLECT"] = 0,
+									["id"] = 53307,
+									["max"] = 194,
+									["min"] = 167,
+									["PARRY"] = 0,
+									["critical"] = 0,
+									["hit"] = 7,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
 								["Heart Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -8588,27 +8600,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Thorns"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 7,
-									["MISS"] = 0,
-									["damage"] = 1331,
-									["DEFLECT"] = 0,
-									["id"] = 53307,
-									["max"] = 194,
-									["min"] = 167,
-									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 7,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Attack"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -8633,14 +8624,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 399796,
+							["power"] = {
+								[6] = {
+									["amount"] = 182,
+									["spells"] = {
+										[50422] = 90,
+										[49088] = 92,
+									},
+								},
+							},
 							["totalabsorbs"] = 11707,
 							["maxhp"] = 55632,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 2358,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 2358,
 									["id"] = 34299,
 									["healing"] = 9432,
 									["overhealing"] = 14148,
@@ -8679,8 +8679,8 @@ SkadaDB = {
 							["name"] = "Ggverylong",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 322,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B7216",
 							["first"] = 1573877751,
 						}, -- [1]
@@ -8712,16 +8712,6 @@ SkadaDB = {
 							["time"] = 148,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 205,
-									["spells"] = {
-										[29131] = 6,
-										[58362] = 90,
-										[12964] = 109,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 8190,
 							["damage"] = 1031149,
 							["damagespells"] = {
@@ -8767,22 +8757,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Chaos Bane"] = {
+								["Attack"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 7,
-									["MISS"] = 0,
-									["damage"] = 13056,
+									["glancing"] = 32,
+									["totalhits"] = 125,
+									["MISS"] = 19,
+									["damage"] = 549659,
 									["DEFLECT"] = 0,
-									["id"] = 71904,
-									["max"] = 2331,
-									["min"] = 1107,
+									["id"] = 6603,
+									["max"] = 9574,
+									["min"] = 1672,
 									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 7,
+									["critical"] = 74,
+									["hit"] = 0,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -8809,22 +8799,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Attack"] = {
+								["Chaos Bane"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
-									["glancing"] = 32,
-									["totalhits"] = 125,
-									["MISS"] = 19,
-									["damage"] = 549659,
+									["glancing"] = 0,
+									["totalhits"] = 7,
+									["MISS"] = 0,
+									["damage"] = 13056,
 									["DEFLECT"] = 0,
-									["id"] = 6603,
-									["max"] = 9574,
-									["min"] = 1672,
+									["id"] = 71904,
+									["max"] = 2331,
+									["min"] = 1107,
 									["PARRY"] = 0,
-									["critical"] = 74,
-									["hit"] = 0,
+									["critical"] = 0,
+									["hit"] = 7,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -8854,14 +8844,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 134780,
+							["power"] = {
+								{
+									["amount"] = 205,
+									["spells"] = {
+										[29131] = 6,
+										[58362] = 90,
+										[12964] = 109,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 39056,
 							["healingspells"] = {
 								["Bloodthirst"] = {
 									["min"] = 0,
-									["max"] = 390,
 									["name"] = "Bloodthirst",
 									["critical"] = 0,
+									["max"] = 390,
 									["id"] = 23880,
 									["healing"] = 3510,
 									["overhealing"] = 8190,
@@ -8895,8 +8895,8 @@ SkadaDB = {
 							["name"] = "Nhm",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 291,
+							["dispells"] = 0,
 							["id"] = "0x070000000041C52F",
 							["first"] = 1573877751,
 						}, -- [2]
@@ -8952,16 +8952,6 @@ SkadaDB = {
 							["time"] = 155,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 15512,
-									["spells"] = {
-										[32553] = 4417,
-										[31818] = 4417,
-										[20268] = 6678,
-									},
-								},
-							},
 							["overhealing"] = 163709,
 							["damage"] = 1251540,
 							["damagespells"] = {
@@ -8986,27 +8976,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Haathun: Cleave"] = {
-									["DODGE"] = 1,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 28,
-									["MISS"] = 1,
-									["damage"] = 58410,
-									["DEFLECT"] = 0,
-									["id"] = 47994,
-									["max"] = 3732,
-									["min"] = 1009,
-									["PARRY"] = 0,
-									["critical"] = 7,
-									["hit"] = 19,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Corruption"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -9023,6 +8992,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 0,
 									["hit"] = 30,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Haathun: Cleave"] = {
+									["DODGE"] = 1,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 28,
+									["MISS"] = 1,
+									["damage"] = 58410,
+									["DEFLECT"] = 0,
+									["id"] = 47994,
+									["max"] = 3732,
+									["min"] = 1009,
+									["PARRY"] = 0,
+									["critical"] = 7,
+									["hit"] = 19,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -9136,14 +9126,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 63738,
+							["power"] = {
+								[0] = {
+									["amount"] = 15512,
+									["spells"] = {
+										[20268] = 6678,
+										[32553] = 4417,
+										[31818] = 4417,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 28017,
 							["healingspells"] = {
 								["Fel Synergy"] = {
 									["min"] = 0,
-									["max"] = 1444,
 									["name"] = "Fel Synergy",
 									["critical"] = 0,
+									["max"] = 1444,
 									["id"] = 54181,
 									["healing"] = 22451,
 									["overhealing"] = 138596,
@@ -9151,9 +9151,9 @@ SkadaDB = {
 								},
 								["Haathun: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 386,
 									["name"] = "Haathun: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 386,
 									["id"] = 34299,
 									["healing"] = 1093,
 									["overhealing"] = 14076,
@@ -9161,9 +9161,9 @@ SkadaDB = {
 								},
 								["Fel Armor"] = {
 									["min"] = 0,
-									["max"] = 772,
 									["name"] = "Fel Armor",
 									["critical"] = 0,
+									["max"] = 772,
 									["id"] = 47893,
 									["healing"] = 12895,
 									["overhealing"] = 11037,
@@ -9196,8 +9196,8 @@ SkadaDB = {
 							["name"] = "Diekzro",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 783,
+							["dispells"] = 0,
 							["id"] = "0x07000000001581C2",
 							["first"] = 1573877751,
 						}, -- [3]
@@ -9221,6 +9221,12 @@ SkadaDB = {
 							["time"] = 155,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 978210,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 30841,
 							["power"] = {
 								{
 									["amount"] = 68,
@@ -9249,20 +9255,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 978210,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 30841,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25422,
 							["healingspells"] = {
 								["Healing Touch"] = {
 									["min"] = 0,
-									["max"] = 9313,
 									["name"] = "Healing Touch",
 									["critical"] = 1,
+									["max"] = 9313,
 									["id"] = 48378,
 									["healing"] = 9313,
 									["overhealing"] = 9674,
@@ -9270,9 +9270,9 @@ SkadaDB = {
 								},
 								["Swiftmend"] = {
 									["min"] = 0,
-									["max"] = 14343,
 									["name"] = "Swiftmend",
 									["critical"] = 1,
+									["max"] = 14343,
 									["id"] = 18562,
 									["healing"] = 47675,
 									["overhealing"] = 1348,
@@ -9280,9 +9280,9 @@ SkadaDB = {
 								},
 								["Regrowth"] = {
 									["min"] = 0,
-									["max"] = 9166,
 									["name"] = "Regrowth",
 									["critical"] = 4,
+									["max"] = 9166,
 									["id"] = 48443,
 									["healing"] = 88607,
 									["overhealing"] = 130714,
@@ -9290,9 +9290,9 @@ SkadaDB = {
 								},
 								["Nourish"] = {
 									["min"] = 0,
-									["max"] = 12970,
 									["name"] = "Nourish",
 									["critical"] = 4,
+									["max"] = 12970,
 									["id"] = 50464,
 									["healing"] = 35428,
 									["overhealing"] = 28640,
@@ -9300,9 +9300,9 @@ SkadaDB = {
 								},
 								["Wild Growth"] = {
 									["min"] = 0,
-									["max"] = 1064,
 									["name"] = "Wild Growth",
 									["critical"] = 0,
+									["max"] = 1064,
 									["id"] = 53251,
 									["healing"] = 153586,
 									["overhealing"] = 142389,
@@ -9310,9 +9310,9 @@ SkadaDB = {
 								},
 								["Living Seed"] = {
 									["min"] = 0,
-									["max"] = 3960,
 									["name"] = "Living Seed",
 									["critical"] = 0,
+									["max"] = 3960,
 									["id"] = 48503,
 									["healing"] = 20294,
 									["overhealing"] = 3071,
@@ -9320,9 +9320,9 @@ SkadaDB = {
 								},
 								["Lifebloom"] = {
 									["min"] = 0,
-									["max"] = 10129,
 									["name"] = "Lifebloom",
 									["critical"] = 4,
+									["max"] = 10129,
 									["id"] = 48451,
 									["healing"] = 64464,
 									["overhealing"] = 142807,
@@ -9330,9 +9330,9 @@ SkadaDB = {
 								},
 								["Rejuvenation"] = {
 									["min"] = 0,
-									["max"] = 3051,
 									["name"] = "Rejuvenation",
 									["critical"] = 0,
+									["max"] = 3051,
 									["id"] = 48441,
 									["healing"] = 174892,
 									["overhealing"] = 385230,
@@ -9340,9 +9340,9 @@ SkadaDB = {
 								},
 								["Tranquility"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Tranquility",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 48445,
 									["healing"] = 0,
 									["overhealing"] = 134337,
@@ -9415,17 +9415,13 @@ SkadaDB = {
 									["amount"] = 17853,
 									["class"] = "DEATHKNIGHT",
 								},
-								["Bowbaby"] = {
-									["amount"] = 2588,
-									["class"] = "HUNTER",
+								["Pyreah"] = {
+									["amount"] = 3202,
+									["class"] = "PRIEST",
 								},
 								["Worldwideftw"] = {
 									["amount"] = 8231,
 									["class"] = "PALADIN",
-								},
-								["Pyreah"] = {
-									["amount"] = 3202,
-									["class"] = "PRIEST",
 								},
 								["Ggverylong"] = {
 									["amount"] = 112361,
@@ -9442,6 +9438,10 @@ SkadaDB = {
 								["Garzh"] = {
 									["amount"] = 0,
 									["class"] = "WARRIOR",
+								},
+								["Bowbaby"] = {
+									["amount"] = 2588,
+									["class"] = "HUNTER",
 								},
 								["Antonlr"] = {
 									["amount"] = 32981,
@@ -9470,8 +9470,8 @@ SkadaDB = {
 							["name"] = "Donaljtrump",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 150,
+							["dispells"] = 0,
 							["id"] = "0x07000000004379B3",
 							["first"] = 1573877751,
 						}, -- [4]
@@ -9539,18 +9539,6 @@ SkadaDB = {
 							["time"] = 146,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 37585,
-									["spells"] = {
-										[55382] = 600,
-										[34650] = 15210,
-										[20268] = 2367,
-										[57669] = 16900,
-										[71132] = 2508,
-									},
-								},
-							},
 							["overhealing"] = 120686,
 							["damage"] = 465419,
 							["damagespells"] = {
@@ -9746,14 +9734,26 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 40250,
+							["power"] = {
+								[0] = {
+									["amount"] = 37585,
+									["spells"] = {
+										[55382] = 600,
+										[34650] = 15210,
+										[20268] = 2367,
+										[57669] = 16900,
+										[71132] = 2508,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 24135,
 							["healingspells"] = {
 								["Improved Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 285,
 									["name"] = "Improved Devouring Plague",
 									["critical"] = 3,
+									["max"] = 285,
 									["id"] = 75999,
 									["healing"] = 285,
 									["overhealing"] = 3493,
@@ -9761,9 +9761,9 @@ SkadaDB = {
 								},
 								["Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 452,
 									["name"] = "Devouring Plague",
 									["critical"] = 0,
+									["max"] = 452,
 									["id"] = 48300,
 									["healing"] = 2910,
 									["overhealing"] = 9985,
@@ -9771,9 +9771,9 @@ SkadaDB = {
 								},
 								["Vampiric Embrace"] = {
 									["min"] = 0,
-									["max"] = 941,
 									["name"] = "Vampiric Embrace",
 									["critical"] = 0,
+									["max"] = 941,
 									["id"] = 15290,
 									["healing"] = 38935,
 									["overhealing"] = 107208,
@@ -9834,8 +9834,8 @@ SkadaDB = {
 							["name"] = "Pyreah",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 847,
+							["dispells"] = 0,
 							["id"] = "0x070000000041F326",
 							["first"] = 1573877751,
 						}, -- [5]
@@ -9885,35 +9885,6 @@ SkadaDB = {
 							["time"] = 155,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 16,
-									["spells"] = {
-										[63653] = 16,
-									},
-								}, -- [1]
-								[0] = {
-									["amount"] = 16364,
-									["spells"] = {
-										[47755] = 10934,
-										[63654] = 3160,
-										[67666] = 1500,
-										[71566] = 770,
-									},
-								},
-								[6] = {
-									["amount"] = 32,
-									["spells"] = {
-										[63652] = 32,
-									},
-								},
-								[3] = {
-									["amount"] = 64,
-									["spells"] = {
-										[63655] = 64,
-									},
-								},
-							},
 							["overhealing"] = 102502,
 							["damage"] = 8098,
 							["damagespells"] = {
@@ -9961,14 +9932,43 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 61246,
+							["power"] = {
+								{
+									["amount"] = 16,
+									["spells"] = {
+										[63653] = 16,
+									},
+								}, -- [1]
+								[0] = {
+									["amount"] = 16364,
+									["spells"] = {
+										[47755] = 10934,
+										[63654] = 3160,
+										[67666] = 1500,
+										[71566] = 770,
+									},
+								},
+								[6] = {
+									["amount"] = 32,
+									["spells"] = {
+										[63652] = 32,
+									},
+								},
+								[3] = {
+									["amount"] = 64,
+									["spells"] = {
+										[63655] = 64,
+									},
+								},
+							},
 							["totalabsorbs"] = 182173,
 							["maxhp"] = 25485,
 							["healingspells"] = {
 								["Renew"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Renew",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 48068,
 									["healing"] = 0,
 									["overhealing"] = 2013,
@@ -9976,9 +9976,9 @@ SkadaDB = {
 								},
 								["Penance"] = {
 									["min"] = 0,
-									["max"] = 5898,
 									["name"] = "Penance",
 									["critical"] = 6,
+									["max"] = 5898,
 									["id"] = 52985,
 									["healing"] = 31973,
 									["overhealing"] = 32010,
@@ -9986,9 +9986,9 @@ SkadaDB = {
 								},
 								["Flash Heal"] = {
 									["min"] = 0,
-									["max"] = 8377,
 									["name"] = "Flash Heal",
 									["critical"] = 9,
+									["max"] = 8377,
 									["id"] = 48071,
 									["healing"] = 87676,
 									["overhealing"] = 37751,
@@ -9996,9 +9996,9 @@ SkadaDB = {
 								},
 								["Holy Nova"] = {
 									["min"] = 0,
-									["max"] = 3172,
 									["name"] = "Holy Nova",
 									["critical"] = 6,
+									["max"] = 3172,
 									["id"] = 48076,
 									["healing"] = 22285,
 									["overhealing"] = 12004,
@@ -10006,9 +10006,9 @@ SkadaDB = {
 								},
 								["Glyph of Power Word: Shield"] = {
 									["min"] = 0,
-									["max"] = 2476,
 									["name"] = "Glyph of Power Word: Shield",
 									["critical"] = 12,
+									["max"] = 2476,
 									["id"] = 56160,
 									["healing"] = 36320,
 									["overhealing"] = 18724,
@@ -10085,13 +10085,13 @@ SkadaDB = {
 									["amount"] = 2476,
 									["class"] = "HUNTER",
 								},
-								["Bowbaby"] = {
-									["amount"] = 2433,
-									["class"] = "HUNTER",
-								},
 								["Reindemkal"] = {
 									["amount"] = 9614,
 									["class"] = "MAGE",
+								},
+								["Bowbaby"] = {
+									["amount"] = 2433,
+									["class"] = "HUNTER",
 								},
 								["Antonlr"] = {
 									["amount"] = 1622,
@@ -10121,8 +10121,8 @@ SkadaDB = {
 							["name"] = "Angeliito",
 							["failevents"] = {
 							},
-							["dispells"] = 3,
 							["uptime"] = 264,
+							["dispells"] = 3,
 							["id"] = "0x07000000004C496B",
 							["first"] = 1573877751,
 						}, -- [6]
@@ -10172,44 +10172,9 @@ SkadaDB = {
 							["time"] = 152,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 13300,
-									["spells"] = {
-										[68285] = 13300,
-									},
-								},
-								[3] = {
-									["amount"] = 300,
-									["spells"] = {
-										[51178] = 300,
-									},
-								},
-							},
 							["overhealing"] = 14943,
 							["damage"] = 464128,
 							["damagespells"] = {
-								["Swipe (Cat)"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 2,
-									["MISS"] = 0,
-									["damage"] = 4663,
-									["DEFLECT"] = 0,
-									["id"] = 62078,
-									["max"] = 3273,
-									["min"] = 1390,
-									["PARRY"] = 0,
-									["critical"] = 1,
-									["hit"] = 1,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Shred"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -10226,6 +10191,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 6,
 									["hit"] = 2,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Rip"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 48,
+									["MISS"] = 0,
+									["damage"] = 99529,
+									["DEFLECT"] = 0,
+									["id"] = 49800,
+									["max"] = 3454,
+									["min"] = 357,
+									["PARRY"] = 0,
+									["critical"] = 30,
+									["hit"] = 18,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -10252,21 +10238,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Dazed"] = {
+								["Swipe (Cat)"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
-									["IMMUNE"] = 2,
+									["IMMUNE"] = 0,
 									["glancing"] = 0,
 									["totalhits"] = 2,
 									["MISS"] = 0,
-									["damage"] = 0,
+									["damage"] = 4663,
 									["DEFLECT"] = 0,
-									["id"] = 50259,
-									["max"] = 0,
+									["id"] = 62078,
+									["max"] = 3273,
+									["min"] = 1390,
 									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 0,
+									["critical"] = 1,
+									["hit"] = 1,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -10314,22 +10301,21 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Rip"] = {
+								["Dazed"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
-									["IMMUNE"] = 0,
+									["IMMUNE"] = 2,
 									["glancing"] = 0,
-									["totalhits"] = 48,
+									["totalhits"] = 2,
 									["MISS"] = 0,
-									["damage"] = 99529,
+									["damage"] = 0,
 									["DEFLECT"] = 0,
-									["id"] = 49800,
-									["max"] = 3454,
-									["min"] = 357,
+									["id"] = 50259,
+									["max"] = 0,
 									["PARRY"] = 0,
-									["critical"] = 30,
-									["hit"] = 18,
+									["critical"] = 0,
+									["hit"] = 0,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -10359,14 +10345,28 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 108963,
+							["power"] = {
+								[0] = {
+									["amount"] = 13300,
+									["spells"] = {
+										[68285] = 13300,
+									},
+								},
+								[3] = {
+									["amount"] = 300,
+									["spells"] = {
+										[51178] = 300,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 27622,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1170,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1170,
 									["id"] = 34299,
 									["healing"] = 7287,
 									["overhealing"] = 14943,
@@ -10395,8 +10395,8 @@ SkadaDB = {
 							["name"] = "Belalin",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 526,
+							["dispells"] = 0,
 							["id"] = "0x0700000000462DB4",
 							["first"] = 1573877752,
 						}, -- [7]
@@ -10450,6 +10450,12 @@ SkadaDB = {
 							["time"] = 154,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 206528,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 73732,
 							["power"] = {
 								{
 									["amount"] = 40,
@@ -10478,20 +10484,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 206528,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 73732,
 							["totalabsorbs"] = 1109624,
 							["maxhp"] = 24425,
 							["healingspells"] = {
 								["Glyph of Power Word: Shield"] = {
 									["min"] = 0,
-									["max"] = 3367,
 									["name"] = "Glyph of Power Word: Shield",
 									["critical"] = 49,
+									["max"] = 3367,
 									["id"] = 56160,
 									["healing"] = 124014,
 									["overhealing"] = 175750,
@@ -10499,9 +10499,9 @@ SkadaDB = {
 								},
 								["Echoes of Light"] = {
 									["min"] = 0,
-									["max"] = 10473,
 									["name"] = "Echoes of Light",
 									["critical"] = 1,
+									["max"] = 10473,
 									["id"] = 71641,
 									["healing"] = 24924,
 									["overhealing"] = 101,
@@ -10509,9 +10509,9 @@ SkadaDB = {
 								},
 								["Prayer of Mending"] = {
 									["min"] = 0,
-									["max"] = 7968,
 									["name"] = "Prayer of Mending",
 									["critical"] = 8,
+									["max"] = 7968,
 									["id"] = 33110,
 									["healing"] = 75786,
 									["overhealing"] = 30677,
@@ -10616,13 +10616,13 @@ SkadaDB = {
 									["amount"] = 7848,
 									["class"] = "DRUID",
 								},
-								["Donaljtrump"] = {
-									["amount"] = 5380,
-									["class"] = "DRUID",
-								},
 								["Antonlr"] = {
 									["amount"] = 12306,
 									["class"] = "MAGE",
+								},
+								["Donaljtrump"] = {
+									["amount"] = 5380,
+									["class"] = "DRUID",
 								},
 								["Reindemkal"] = {
 									["amount"] = 4307,
@@ -10632,8 +10632,8 @@ SkadaDB = {
 							["name"] = "Delcatty",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 305,
+							["dispells"] = 0,
 							["id"] = "0x070000000028B61C",
 							["first"] = 1573877752,
 						}, -- [8]
@@ -10665,16 +10665,6 @@ SkadaDB = {
 							["time"] = 143,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 418,
-									["spells"] = {
-										[29131] = 7,
-										[12964] = 91,
-										[58362] = 320,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 18045,
 							["damage"] = 1926663,
 							["damagespells"] = {
@@ -10699,6 +10689,27 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
+								["Heroic Strike"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 59,
+									["MISS"] = 0,
+									["damage"] = 475150,
+									["DEFLECT"] = 0,
+									["id"] = 47450,
+									["max"] = 14560,
+									["min"] = 4061,
+									["PARRY"] = 0,
+									["critical"] = 32,
+									["hit"] = 27,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
 								["Cleave"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -10715,27 +10726,6 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 6,
 									["hit"] = 4,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Deep Wounds"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 116,
-									["MISS"] = 0,
-									["damage"] = 282272,
-									["DEFLECT"] = 0,
-									["id"] = 12721,
-									["max"] = 4532,
-									["min"] = 260,
-									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 116,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -10783,22 +10773,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Heroic Strike"] = {
+								["Deep Wounds"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 59,
+									["totalhits"] = 116,
 									["MISS"] = 0,
-									["damage"] = 475150,
+									["damage"] = 282272,
 									["DEFLECT"] = 0,
-									["id"] = 47450,
-									["max"] = 14560,
-									["min"] = 4061,
+									["id"] = 12721,
+									["max"] = 4532,
+									["min"] = 260,
 									["PARRY"] = 0,
-									["critical"] = 32,
-									["hit"] = 27,
+									["critical"] = 0,
+									["hit"] = 116,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -10828,14 +10818,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 132328,
+							["power"] = {
+								{
+									["amount"] = 418,
+									["spells"] = {
+										[29131] = 7,
+										[12964] = 91,
+										[58362] = 320,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 40136,
 							["healingspells"] = {
 								["Bloodthirst"] = {
 									["min"] = 0,
-									["max"] = 401,
 									["name"] = "Bloodthirst",
 									["critical"] = 0,
+									["max"] = 401,
 									["id"] = 23880,
 									["healing"] = 20050,
 									["overhealing"] = 18045,
@@ -10864,8 +10864,8 @@ SkadaDB = {
 							["name"] = "Reloadedrage",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 304,
+							["dispells"] = 0,
 							["id"] = "0x070000000040BACA",
 							["first"] = 1573877752,
 						}, -- [9]
@@ -10921,15 +10921,6 @@ SkadaDB = {
 							["time"] = 154,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 180,
-									["spells"] = {
-										[34846] = 25,
-										[23602] = 155,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 40752,
 							["damage"] = 449681,
 							["damagespells"] = {
@@ -10975,43 +10966,42 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Shockwave"] = {
+								["Heroic Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 5,
+									["totalhits"] = 75,
 									["MISS"] = 0,
-									["damage"] = 33529,
+									["damage"] = 118495,
 									["DEFLECT"] = 0,
-									["id"] = 46968,
-									["max"] = 11107,
-									["min"] = 4334,
-									["PARRY"] = 0,
-									["critical"] = 2,
-									["hit"] = 3,
+									["id"] = 47450,
+									["max"] = 3016,
+									["min"] = 999,
+									["PARRY"] = 5,
+									["critical"] = 21,
+									["hit"] = 49,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Thunder Clap"] = {
+								["Silenced - Gag Order"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
-									["IMMUNE"] = 0,
+									["IMMUNE"] = 1,
 									["glancing"] = 0,
-									["totalhits"] = 9,
+									["totalhits"] = 1,
 									["MISS"] = 0,
-									["damage"] = 12460,
+									["damage"] = 0,
 									["DEFLECT"] = 0,
-									["id"] = 47502,
-									["max"] = 2633,
-									["min"] = 943,
+									["id"] = 18498,
+									["max"] = 0,
 									["PARRY"] = 0,
-									["critical"] = 2,
-									["hit"] = 7,
+									["critical"] = 0,
+									["hit"] = 0,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -11038,26 +11028,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Silenced - Gag Order"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 1,
-									["glancing"] = 0,
-									["totalhits"] = 1,
-									["MISS"] = 0,
-									["damage"] = 0,
-									["DEFLECT"] = 0,
-									["id"] = 18498,
-									["max"] = 0,
-									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 0,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Sunder Armor"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -11073,6 +11043,27 @@ SkadaDB = {
 									["PARRY"] = 1,
 									["critical"] = 0,
 									["hit"] = 0,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Thunder Clap"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 9,
+									["MISS"] = 0,
+									["damage"] = 12460,
+									["DEFLECT"] = 0,
+									["id"] = 47502,
+									["max"] = 2633,
+									["min"] = 943,
+									["PARRY"] = 0,
+									["critical"] = 2,
+									["hit"] = 7,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -11140,22 +11131,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Heroic Strike"] = {
+								["Shockwave"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 75,
+									["totalhits"] = 5,
 									["MISS"] = 0,
-									["damage"] = 118495,
+									["damage"] = 33529,
 									["DEFLECT"] = 0,
-									["id"] = 47450,
-									["max"] = 3016,
-									["min"] = 999,
-									["PARRY"] = 5,
-									["critical"] = 21,
-									["hit"] = 49,
+									["id"] = 46968,
+									["max"] = 11107,
+									["min"] = 4334,
+									["PARRY"] = 0,
+									["critical"] = 2,
+									["hit"] = 3,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -11227,14 +11218,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 559451,
+							["power"] = {
+								{
+									["amount"] = 180,
+									["spells"] = {
+										[34846] = 25,
+										[23602] = 155,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 58460,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 3221,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 3221,
 									["id"] = 34299,
 									["healing"] = 18099,
 									["overhealing"] = 26256,
@@ -11242,9 +11242,9 @@ SkadaDB = {
 								},
 								["Enraged Regeneration"] = {
 									["min"] = 0,
-									["max"] = 2416,
 									["name"] = "Enraged Regeneration",
 									["critical"] = 0,
+									["max"] = 2416,
 									["id"] = 55694,
 									["healing"] = 9664,
 									["overhealing"] = 14496,
@@ -11283,8 +11283,8 @@ SkadaDB = {
 							["name"] = "Surree",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 583,
+							["dispells"] = 0,
 							["id"] = "0x070000000021A5DA",
 							["first"] = 1573877752,
 						}, -- [10]
@@ -11309,16 +11309,16 @@ SkadaDB = {
 									["name"] = "Ignite",
 									["active"] = 0,
 								},
-								["Pyroblast"] = {
-									["id"] = 42891,
-									["uptime"] = 81,
-									["name"] = "Pyroblast",
-									["active"] = 0,
-								},
 								["Improved Scorch"] = {
 									["id"] = 22959,
 									["uptime"] = 54,
 									["name"] = "Improved Scorch",
+									["active"] = 0,
+								},
+								["Pyroblast"] = {
+									["id"] = 42891,
+									["uptime"] = 81,
+									["name"] = "Pyroblast",
 									["active"] = 0,
 								},
 								["Living Bomb"] = {
@@ -11334,17 +11334,6 @@ SkadaDB = {
 							["time"] = 150,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 14600,
-									["spells"] = {
-										[29077] = 6062,
-										[67545] = 2730,
-										[20268] = 2365,
-										[42987] = 3443,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 510605,
 							["damagespells"] = {
@@ -11498,6 +11487,17 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 42256,
+							["power"] = {
+								[0] = {
+									["amount"] = 14600,
+									["spells"] = {
+										[29077] = 6062,
+										[67545] = 2730,
+										[20268] = 2365,
+										[42987] = 3443,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 22018,
 							["healingspells"] = {
@@ -11520,8 +11520,8 @@ SkadaDB = {
 							["name"] = "Nagatolls",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 512,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B059A",
 							["first"] = 1573877752,
 						}, -- [11]
@@ -11565,14 +11565,6 @@ SkadaDB = {
 							["time"] = 142,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 330,
-									["spells"] = {
-										[35548] = 330,
-									},
-								},
-							},
 							["overhealing"] = 17932,
 							["damage"] = 1040830,
 							["damagespells"] = {
@@ -11767,14 +11759,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 119506,
+							["power"] = {
+								[3] = {
+									["amount"] = 330,
+									["spells"] = {
+										[35548] = 330,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 29269,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1240,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1240,
 									["id"] = 34299,
 									["healing"] = 8108,
 									["overhealing"] = 17932,
@@ -11808,8 +11808,8 @@ SkadaDB = {
 							["name"] = "Sapforever",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 481,
+							["dispells"] = 0,
 							["id"] = "0x0700000000435FB0",
 							["first"] = 1573877753,
 						}, -- [12]
@@ -11865,21 +11865,6 @@ SkadaDB = {
 							["time"] = 152,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[2] = {
-									["amount"] = 4275,
-									["spells"] = {
-										[34952] = 4275,
-									},
-								},
-								[0] = {
-									["amount"] = 8736,
-									["spells"] = {
-										[20268] = 6600,
-										[34074] = 2136,
-									},
-								},
-							},
 							["overhealing"] = 32092,
 							["damage"] = 1600233,
 							["damagespells"] = {
@@ -11899,27 +11884,6 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 10,
 									["hit"] = 3,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Steady Shot"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 49,
-									["MISS"] = 0,
-									["damage"] = 258468,
-									["DEFLECT"] = 0,
-									["id"] = 49052,
-									["max"] = 7007,
-									["min"] = 2164,
-									["PARRY"] = 0,
-									["critical"] = 40,
-									["hit"] = 9,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -11983,6 +11947,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 7,
 									["hit"] = 2,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Steady Shot"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 49,
+									["MISS"] = 0,
+									["damage"] = 258468,
+									["DEFLECT"] = 0,
+									["id"] = 49052,
+									["max"] = 7007,
+									["min"] = 2164,
+									["PARRY"] = 0,
+									["critical"] = 40,
+									["hit"] = 9,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -12180,14 +12165,29 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 80765,
+							["power"] = {
+								[2] = {
+									["amount"] = 4275,
+									["spells"] = {
+										[34952] = 4275,
+									},
+								},
+								[0] = {
+									["amount"] = 8736,
+									["spells"] = {
+										[20268] = 6600,
+										[34074] = 2136,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 28009,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1187,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1187,
 									["id"] = 34299,
 									["healing"] = 8260,
 									["overhealing"] = 17854,
@@ -12195,9 +12195,9 @@ SkadaDB = {
 								},
 								["Garzh: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1016,
 									["name"] = "Garzh: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1016,
 									["id"] = 34299,
 									["healing"] = 2018,
 									["overhealing"] = 14238,
@@ -12230,8 +12230,8 @@ SkadaDB = {
 							["name"] = "Bowbaby",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 688,
+							["dispells"] = 0,
 							["id"] = "0x070000000000615D",
 							["first"] = 1573877753,
 						}, -- [13]
@@ -12250,11 +12250,11 @@ SkadaDB = {
 									["name"] = "Sated",
 									["active"] = 1,
 								},
-								["Consecration"] = {
-									["id"] = 48819,
-									["uptime"] = 96,
-									["name"] = "Consecration",
-									["active"] = 0,
+								["Righteous Vengeance"] = {
+									["id"] = 61840,
+									["uptime"] = 148,
+									["name"] = "Righteous Vengeance",
+									["active"] = 1,
 								},
 								["Heart of the Crusader"] = {
 									["id"] = 54498,
@@ -12262,10 +12262,10 @@ SkadaDB = {
 									["name"] = "Heart of the Crusader",
 									["active"] = 0,
 								},
-								["Judgement of Justice"] = {
-									["id"] = 20184,
-									["uptime"] = 141,
-									["name"] = "Judgement of Justice",
+								["Consecration"] = {
+									["id"] = 48819,
+									["uptime"] = 96,
+									["name"] = "Consecration",
 									["active"] = 0,
 								},
 								["Blood Corruption"] = {
@@ -12280,11 +12280,11 @@ SkadaDB = {
 									["name"] = "Vindication",
 									["active"] = 1,
 								},
-								["Righteous Vengeance"] = {
-									["id"] = 61840,
-									["uptime"] = 148,
-									["name"] = "Righteous Vengeance",
-									["active"] = 1,
+								["Judgement of Justice"] = {
+									["id"] = 20184,
+									["uptime"] = 141,
+									["name"] = "Judgement of Justice",
+									["active"] = 0,
 								},
 							},
 							["absorbs"] = {
@@ -12293,18 +12293,6 @@ SkadaDB = {
 							["time"] = 153,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 62536,
-									["spells"] = {
-										[28730] = 620,
-										[20268] = 4611,
-										[54428] = 2580,
-										[57669] = 37157,
-										[31930] = 17568,
-									},
-								},
-							},
 							["overhealing"] = 50485,
 							["damage"] = 1424810,
 							["damagespells"] = {
@@ -12520,14 +12508,26 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 118609,
+							["power"] = {
+								[0] = {
+									["amount"] = 62536,
+									["spells"] = {
+										[28730] = 620,
+										[20268] = 4611,
+										[54428] = 2580,
+										[57669] = 37157,
+										[31930] = 17568,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 33809,
 							["healingspells"] = {
 								["Flash of Light"] = {
 									["min"] = 0,
-									["max"] = 4171,
 									["name"] = "Flash of Light",
 									["critical"] = 0,
+									["max"] = 4171,
 									["id"] = 48785,
 									["healing"] = 4171,
 									["overhealing"] = 0,
@@ -12535,9 +12535,9 @@ SkadaDB = {
 								},
 								["Divine Storm"] = {
 									["min"] = 0,
-									["max"] = 971,
 									["name"] = "Divine Storm",
 									["critical"] = 0,
+									["max"] = 971,
 									["id"] = 54172,
 									["healing"] = 23466,
 									["overhealing"] = 32654,
@@ -12545,9 +12545,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1719,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1719,
 									["id"] = 34299,
 									["healing"] = 13120,
 									["overhealing"] = 17831,
@@ -12625,36 +12625,36 @@ SkadaDB = {
 									["amount"] = 860,
 									["class"] = "DEATHKNIGHT",
 								},
-								["Antonlr"] = {
-									["amount"] = 0,
-									["class"] = "MAGE",
-								},
 								["시발"] = {
 									["amount"] = 0,
+									["class"] = "WARRIOR",
+								},
+								["Haathun"] = {
+									["amount"] = 586,
 									["class"] = "WARRIOR",
 								},
 								["Worldwideftw"] = {
 									["amount"] = 2467,
 									["class"] = "PALADIN",
 								},
-								["Haathun"] = {
-									["amount"] = 586,
-									["class"] = "WARRIOR",
-								},
 								["Reloadedrage"] = {
 									["amount"] = 915,
 									["class"] = "WARRIOR",
-								},
-								["Rushshot"] = {
-									["amount"] = 1315,
-									["class"] = "HUNTER",
 								},
 								["Rauna"] = {
 									["amount"] = 0,
 									["class"] = "SHAMAN",
 								},
+								["Rushshot"] = {
+									["amount"] = 1315,
+									["class"] = "HUNTER",
+								},
 								["Reindemkal"] = {
 									["amount"] = 699,
+									["class"] = "MAGE",
+								},
+								["Antonlr"] = {
+									["amount"] = 0,
 									["class"] = "MAGE",
 								},
 								["Bowbaby"] = {
@@ -12685,8 +12685,8 @@ SkadaDB = {
 							["name"] = "Vareline",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 859,
+							["dispells"] = 0,
 							["id"] = "0x070000000000B8EC",
 							["first"] = 1573877753,
 						}, -- [14]
@@ -12717,16 +12717,16 @@ SkadaDB = {
 									["name"] = "Frostfire Bolt",
 									["active"] = 0,
 								},
-								["Pyroblast"] = {
-									["id"] = 42891,
-									["uptime"] = 77,
-									["name"] = "Pyroblast",
-									["active"] = 0,
-								},
 								["Living Bomb"] = {
 									["id"] = 55360,
 									["uptime"] = 106,
 									["name"] = "Living Bomb",
+									["active"] = 0,
+								},
+								["Pyroblast"] = {
+									["id"] = 42891,
+									["uptime"] = 77,
+									["name"] = "Pyroblast",
 									["active"] = 0,
 								},
 								["Improved Scorch"] = {
@@ -12742,16 +12742,6 @@ SkadaDB = {
 							["time"] = 153,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 7758,
-									["spells"] = {
-										[29077] = 3923,
-										[67545] = 2080,
-										[20268] = 1755,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 347889,
 							["damagespells"] = {
@@ -12904,6 +12894,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 113362,
+							["power"] = {
+								[0] = {
+									["amount"] = 7758,
+									["spells"] = {
+										[29077] = 3923,
+										[67545] = 2080,
+										[20268] = 1755,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 24608,
 							["healingspells"] = {
@@ -12926,8 +12926,8 @@ SkadaDB = {
 							["name"] = "Reindemkal",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 546,
+							["dispells"] = 0,
 							["id"] = "0x0700000000486350",
 							["first"] = 1573877753,
 						}, -- [15]
@@ -12952,17 +12952,17 @@ SkadaDB = {
 									["name"] = "Aimed Shot",
 									["active"] = 0,
 								},
-								["시발: Sated"] = {
-									["id"] = 57724,
-									["uptime"] = 150,
-									["name"] = "시발: Sated",
-									["active"] = 1,
-								},
 								["Piercing Shots"] = {
 									["id"] = 63468,
 									["uptime"] = 99,
 									["name"] = "Piercing Shots",
 									["active"] = 0,
+								},
+								["시발: Sated"] = {
+									["id"] = 57724,
+									["uptime"] = 150,
+									["name"] = "시발: Sated",
+									["active"] = 1,
 								},
 								["Serpent Sting"] = {
 									["id"] = 49001,
@@ -12977,22 +12977,6 @@ SkadaDB = {
 							["time"] = 148,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[4] = {
-									["amount"] = 1827,
-									["spells"] = {
-										[54131] = 1827,
-									},
-								},
-								[0] = {
-									["amount"] = 12198,
-									["spells"] = {
-										[20268] = 3800,
-										[58883] = 1938,
-										[64181] = 6460,
-									},
-								},
-							},
 							["overhealing"] = 54129,
 							["damage"] = 921671,
 							["damagespells"] = {
@@ -13251,14 +13235,30 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 20129,
+							["power"] = {
+								[4] = {
+									["amount"] = 1827,
+									["spells"] = {
+										[54131] = 1827,
+									},
+								},
+								[0] = {
+									["amount"] = 12198,
+									["spells"] = {
+										[64181] = 6460,
+										[20268] = 3800,
+										[58883] = 1938,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 28399,
 							["healingspells"] = {
 								["시발: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 648,
 									["name"] = "시발: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 648,
 									["id"] = 34299,
 									["healing"] = 958,
 									["overhealing"] = 17555,
@@ -13266,9 +13266,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1203,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1203,
 									["id"] = 34299,
 									["healing"] = 6288,
 									["overhealing"] = 17772,
@@ -13276,9 +13276,9 @@ SkadaDB = {
 								},
 								["시발: Bloodthirsty"] = {
 									["min"] = 0,
-									["max"] = 272,
 									["name"] = "시발: Bloodthirsty",
 									["critical"] = 0,
+									["max"] = 272,
 									["id"] = 54131,
 									["healing"] = 4862,
 									["overhealing"] = 18802,
@@ -13311,8 +13311,8 @@ SkadaDB = {
 							["name"] = "Rushshot",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 574,
+							["dispells"] = 0,
 							["id"] = "0x07000000003F3B34",
 							["first"] = 1573877753,
 						}, -- [16]
@@ -13368,15 +13368,6 @@ SkadaDB = {
 							["time"] = 147,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 16918,
-									["spells"] = {
-										[53506] = 15400,
-										[20268] = 1518,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 490485,
 							["damagespells"] = {
@@ -13530,6 +13521,15 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 74309,
+							["power"] = {
+								[0] = {
+									["amount"] = 16918,
+									["spells"] = {
+										[53506] = 15400,
+										[20268] = 1518,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 21392,
 							["healingspells"] = {
@@ -13552,8 +13552,8 @@ SkadaDB = {
 							["name"] = "Rhaigorn",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 643,
+							["dispells"] = 0,
 							["id"] = "0x07000000004D0D1A",
 							["first"] = 1573877754,
 						}, -- [17]
@@ -13597,35 +13597,25 @@ SkadaDB = {
 							["time"] = 141,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 1035,
-									["spells"] = {
-										[51637] = 480,
-										[25046] = 30,
-										[14181] = 525,
-									},
-								},
-							},
 							["overhealing"] = 17597,
 							["damage"] = 1120195,
 							["damagespells"] = {
-								["Deadly Poison IX"] = {
+								["Garrote"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 45,
+									["totalhits"] = 12,
 									["MISS"] = 0,
-									["damage"] = 79109,
+									["damage"] = 11772,
 									["DEFLECT"] = 0,
-									["id"] = 57970,
-									["max"] = 2014,
-									["min"] = 1207,
+									["id"] = 48676,
+									["max"] = 1005,
+									["min"] = 957,
 									["PARRY"] = 0,
 									["critical"] = 0,
-									["hit"] = 45,
+									["hit"] = 12,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -13646,6 +13636,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 0,
 									["hit"] = 0,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Instant Poison IX"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 211,
+									["MISS"] = 0,
+									["damage"] = 334037,
+									["DEFLECT"] = 0,
+									["id"] = 57965,
+									["max"] = 2241,
+									["min"] = 1072,
+									["PARRY"] = 0,
+									["critical"] = 73,
+									["hit"] = 138,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -13672,43 +13683,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Garrote"] = {
+								["Deadly Poison IX"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 12,
+									["totalhits"] = 45,
 									["MISS"] = 0,
-									["damage"] = 11772,
+									["damage"] = 79109,
 									["DEFLECT"] = 0,
-									["id"] = 48676,
-									["max"] = 1005,
-									["min"] = 957,
+									["id"] = 57970,
+									["max"] = 2014,
+									["min"] = 1207,
 									["PARRY"] = 0,
 									["critical"] = 0,
-									["hit"] = 12,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 211,
-									["MISS"] = 0,
-									["damage"] = 334037,
-									["DEFLECT"] = 0,
-									["id"] = 57965,
-									["max"] = 2241,
-									["min"] = 1072,
-									["PARRY"] = 0,
-									["critical"] = 73,
-									["hit"] = 138,
+									["hit"] = 45,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -13779,14 +13769,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 89963,
+							["power"] = {
+								[3] = {
+									["amount"] = 1035,
+									["spells"] = {
+										[51637] = 480,
+										[25046] = 30,
+										[14181] = 525,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 30529,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1423,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1423,
 									["id"] = 34299,
 									["healing"] = 13709,
 									["overhealing"] = 17597,
@@ -13820,8 +13820,8 @@ SkadaDB = {
 							["name"] = "Kimkary",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 325,
+							["dispells"] = 0,
 							["id"] = "0x070000000000A61E",
 							["first"] = 1573877754,
 						}, -- [18]
@@ -13877,8 +13877,6 @@ SkadaDB = {
 							["time"] = 151,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 69442,
 							["damage"] = 1131616,
 							["damagespells"] = {
@@ -13898,6 +13896,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 16,
 									["hit"] = 22,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Icy Touch"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 7,
+									["MISS"] = 1,
+									["damage"] = 15624,
+									["DEFLECT"] = 0,
+									["id"] = 49909,
+									["max"] = 4693,
+									["min"] = 1693,
+									["PARRY"] = 0,
+									["critical"] = 2,
+									["hit"] = 4,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -13924,43 +13943,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Eyestealer: Claw"] = {
+								["Death Coil"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 36,
+									["totalhits"] = 24,
 									["MISS"] = 0,
-									["damage"] = 47403,
+									["damage"] = 104525,
 									["DEFLECT"] = 0,
-									["id"] = 47468,
-									["max"] = 2416,
-									["min"] = 1034,
+									["id"] = 47632,
+									["max"] = 8652,
+									["min"] = 2916,
 									["PARRY"] = 0,
 									["critical"] = 4,
-									["hit"] = 32,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Icy Touch"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 7,
-									["MISS"] = 1,
-									["damage"] = 15624,
-									["DEFLECT"] = 0,
-									["id"] = 49909,
-									["max"] = 4693,
-									["min"] = 1693,
-									["PARRY"] = 0,
-									["critical"] = 2,
-									["hit"] = 4,
+									["hit"] = 20,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -14008,22 +14006,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Death Coil"] = {
+								["Eyestealer: Claw"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 24,
+									["totalhits"] = 36,
 									["MISS"] = 0,
-									["damage"] = 104525,
+									["damage"] = 47403,
 									["DEFLECT"] = 0,
-									["id"] = 47632,
-									["max"] = 8652,
-									["min"] = 2916,
+									["id"] = 47468,
+									["max"] = 2416,
+									["min"] = 1034,
 									["PARRY"] = 0,
 									["critical"] = 4,
-									["hit"] = 20,
+									["hit"] = 32,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -14200,14 +14198,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 128981,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 33732,
 							["healingspells"] = {
 								["Eyestealer: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1409,
 									["name"] = "Eyestealer: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1409,
 									["id"] = 34299,
 									["healing"] = 2101,
 									["overhealing"] = 19034,
@@ -14215,9 +14215,9 @@ SkadaDB = {
 								},
 								["Unholy Strength"] = {
 									["min"] = 0,
-									["max"] = 1071,
 									["name"] = "Unholy Strength",
 									["critical"] = 0,
+									["max"] = 1071,
 									["id"] = 53365,
 									["healing"] = 3213,
 									["overhealing"] = 6426,
@@ -14225,9 +14225,9 @@ SkadaDB = {
 								},
 								["Blood Presence"] = {
 									["min"] = 0,
-									["max"] = 316,
 									["name"] = "Blood Presence",
 									["critical"] = 0,
+									["max"] = 316,
 									["id"] = 50475,
 									["healing"] = 13775,
 									["overhealing"] = 55,
@@ -14235,9 +14235,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1429,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1429,
 									["id"] = 34299,
 									["healing"] = 10258,
 									["overhealing"] = 16893,
@@ -14245,9 +14245,9 @@ SkadaDB = {
 								},
 								["Drain Life"] = {
 									["min"] = 0,
-									["max"] = 3541,
 									["name"] = "Drain Life",
 									["critical"] = 0,
+									["max"] = 3541,
 									["id"] = 71838,
 									["healing"] = 18640,
 									["overhealing"] = 27034,
@@ -14285,8 +14285,8 @@ SkadaDB = {
 							["name"] = "Kulhazard",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 802,
+							["dispells"] = 0,
 							["id"] = "0x07000000004D1BB4",
 							["first"] = 1573877754,
 						}, -- [19]
@@ -14310,6 +14310,12 @@ SkadaDB = {
 							["time"] = 152,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 704568,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 40950,
 							["power"] = {
 								[0] = {
 									["amount"] = 10700,
@@ -14318,20 +14324,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 704568,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 40950,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 26534,
 							["healingspells"] = {
 								["Riptide"] = {
 									["min"] = 0,
-									["max"] = 3871,
 									["name"] = "Riptide",
 									["critical"] = 0,
+									["max"] = 3871,
 									["id"] = 61301,
 									["healing"] = 9912,
 									["overhealing"] = 10536,
@@ -14339,9 +14339,9 @@ SkadaDB = {
 								},
 								["Chain Heal"] = {
 									["min"] = 0,
-									["max"] = 13105,
 									["name"] = "Chain Heal",
 									["critical"] = 67,
+									["max"] = 13105,
 									["id"] = 55459,
 									["healing"] = 644235,
 									["overhealing"] = 451386,
@@ -14349,9 +14349,9 @@ SkadaDB = {
 								},
 								["Healing Stream Totem: Healing Stream Totem"] = {
 									["min"] = 0,
-									["max"] = 574,
 									["name"] = "Healing Stream Totem: Healing Stream Totem",
 									["critical"] = 0,
+									["max"] = 574,
 									["id"] = 52042,
 									["healing"] = 55168,
 									["overhealing"] = 143998,
@@ -14359,9 +14359,9 @@ SkadaDB = {
 								},
 								["Earth Shield"] = {
 									["min"] = 0,
-									["max"] = 5389,
 									["name"] = "Earth Shield",
 									["critical"] = 9,
+									["max"] = 5389,
 									["id"] = 379,
 									["healing"] = 61854,
 									["overhealing"] = 26899,
@@ -14369,9 +14369,9 @@ SkadaDB = {
 								},
 								["Earthliving"] = {
 									["min"] = 0,
-									["max"] = 1068,
 									["name"] = "Earthliving",
 									["critical"] = 0,
+									["max"] = 1068,
 									["id"] = 52000,
 									["healing"] = 53634,
 									["overhealing"] = 71749,
@@ -14456,25 +14456,25 @@ SkadaDB = {
 									["amount"] = 36549,
 									["class"] = "PALADIN",
 								},
-								["Bowbaby"] = {
-									["amount"] = 43787,
-									["class"] = "HUNTER",
-								},
 								["Burningveil"] = {
 									["amount"] = 37191,
 									["class"] = "DEATHKNIGHT",
-								},
-								["Rushshot"] = {
-									["amount"] = 3457,
-									["class"] = "HUNTER",
 								},
 								["Haathun"] = {
 									["amount"] = 822,
 									["class"] = "WARRIOR",
 								},
+								["Rushshot"] = {
+									["amount"] = 3457,
+									["class"] = "HUNTER",
+								},
 								["Rauna"] = {
 									["amount"] = 6447,
 									["class"] = "SHAMAN",
+								},
+								["Bowbaby"] = {
+									["amount"] = 43787,
+									["class"] = "HUNTER",
 								},
 								["Antonlr"] = {
 									["amount"] = 29636,
@@ -14504,8 +14504,8 @@ SkadaDB = {
 							["name"] = "Rauna",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 150,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C757C",
 							["first"] = 1573877754,
 						}, -- [20]
@@ -14537,17 +14537,6 @@ SkadaDB = {
 							["time"] = 152,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 19611,
-									["spells"] = {
-										[20272] = 14516,
-										[20168] = 3208,
-										[55382] = 1800,
-										[20268] = 87,
-									},
-								},
-							},
 							["overhealing"] = 2315318,
 							["damage"] = 3390,
 							["damagespells"] = {
@@ -14575,14 +14564,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 108400,
+							["power"] = {
+								[0] = {
+									["amount"] = 19611,
+									["spells"] = {
+										[20272] = 14516,
+										[20168] = 3208,
+										[55382] = 1800,
+										[20268] = 87,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 28009,
 							["healingspells"] = {
 								["Holy Light"] = {
 									["min"] = 0,
-									["max"] = 21999,
 									["name"] = "Holy Light",
 									["critical"] = 38,
+									["max"] = 21999,
 									["id"] = 48782,
 									["healing"] = 278740,
 									["overhealing"] = 977273,
@@ -14590,9 +14590,9 @@ SkadaDB = {
 								},
 								["Fountain of Light"] = {
 									["min"] = 0,
-									["max"] = 272,
 									["name"] = "Fountain of Light",
 									["critical"] = 0,
+									["max"] = 272,
 									["id"] = 71866,
 									["healing"] = 9545,
 									["overhealing"] = 9223,
@@ -14600,9 +14600,9 @@ SkadaDB = {
 								},
 								["Twilight Renewal"] = {
 									["min"] = 0,
-									["max"] = 434,
 									["name"] = "Twilight Renewal",
 									["critical"] = 0,
+									["max"] = 434,
 									["id"] = 75493,
 									["healing"] = 77668,
 									["overhealing"] = 48492,
@@ -14610,9 +14610,9 @@ SkadaDB = {
 								},
 								["Judgement of Light"] = {
 									["min"] = 0,
-									["max"] = 1239,
 									["name"] = "Judgement of Light",
 									["critical"] = 0,
+									["max"] = 1239,
 									["id"] = 20267,
 									["healing"] = 68204,
 									["overhealing"] = 27951,
@@ -14620,9 +14620,9 @@ SkadaDB = {
 								},
 								["Beacon of Light"] = {
 									["min"] = 0,
-									["max"] = 29186,
 									["name"] = "Beacon of Light",
 									["critical"] = 0,
+									["max"] = 29186,
 									["id"] = 53654,
 									["healing"] = 167754,
 									["overhealing"] = 1046693,
@@ -14630,9 +14630,9 @@ SkadaDB = {
 								},
 								["Glyph of Holy Light"] = {
 									["min"] = 0,
-									["max"] = 6253,
 									["name"] = "Glyph of Holy Light",
 									["critical"] = 0,
+									["max"] = 6253,
 									["id"] = 54968,
 									["healing"] = 158073,
 									["overhealing"] = 205686,
@@ -14717,25 +14717,25 @@ SkadaDB = {
 									["amount"] = 203116,
 									["class"] = "WARRIOR",
 								},
-								["시발"] = {
-									["amount"] = 782,
-									["class"] = "WARRIOR",
-								},
-								["Garzh"] = {
-									["amount"] = 659,
-									["class"] = "WARRIOR",
-								},
-								["Worldwideftw"] = {
-									["amount"] = 23086,
+								["Shadowfiend"] = {
+									["amount"] = 1635,
 									["class"] = "PALADIN",
 								},
 								["Rauna"] = {
 									["amount"] = 12715,
 									["class"] = "SHAMAN",
 								},
-								["Shadowfiend"] = {
-									["amount"] = 1635,
+								["Worldwideftw"] = {
+									["amount"] = 23086,
 									["class"] = "PALADIN",
+								},
+								["Antonlr"] = {
+									["amount"] = 10885,
+									["class"] = "MAGE",
+								},
+								["시발"] = {
+									["amount"] = 782,
+									["class"] = "WARRIOR",
 								},
 								["Rushshot"] = {
 									["amount"] = 2160,
@@ -14748,9 +14748,9 @@ SkadaDB = {
 								["Mirror Image"] = {
 									["amount"] = 3848,
 								},
-								["Antonlr"] = {
-									["amount"] = 10885,
-									["class"] = "MAGE",
+								["Bowbaby"] = {
+									["amount"] = 11508,
+									["class"] = "HUNTER",
 								},
 								["Kulhazard"] = {
 									["amount"] = 22395,
@@ -14760,9 +14760,9 @@ SkadaDB = {
 									["amount"] = 37133,
 									["class"] = "DRUID",
 								},
-								["Bowbaby"] = {
-									["amount"] = 11508,
-									["class"] = "HUNTER",
+								["Garzh"] = {
+									["amount"] = 659,
+									["class"] = "WARRIOR",
 								},
 								["Eyestealer"] = {
 									["amount"] = 2428,
@@ -14776,8 +14776,8 @@ SkadaDB = {
 							["name"] = "Ggverybig",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 165,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C019C",
 							["first"] = 1573877754,
 						}, -- [21]
@@ -14809,17 +14809,17 @@ SkadaDB = {
 							["time"] = 151,
 							["interrupts"] = 0,
 							["deathts"] = 1573877854.308,
+							["overhealing"] = 0,
 							["power"] = {
 								[0] = {
 									["amount"] = 17206,
 									["spells"] = {
+										[20268] = 1930,
 										[12051] = 14776,
 										[67666] = 500,
-										[20268] = 1930,
 									},
 								},
 							},
-							["overhealing"] = 0,
 							["damage"] = 534370,
 							["damagespells"] = {
 								["Arcane Blast"] = {
@@ -15036,12 +15036,12 @@ SkadaDB = {
 							["healed"] = {
 							},
 							["name"] = "Antonlr",
+							["uptime"] = 159,
 							["failevents"] = {
 							},
 							["dispells"] = 0,
-							["uptime"] = 159,
-							["id"] = "0x0700000000154A0F",
 							["first"] = 1573877755,
+							["id"] = "0x0700000000154A0F",
 						}, -- [22]
 						{
 							["last"] = 1573877904,
@@ -15078,8 +15078,6 @@ SkadaDB = {
 							["time"] = 149,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 18060,
 							["damage"] = 514949,
 							["damagespells"] = {
@@ -15336,14 +15334,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 124149,
+							["power"] = {
+							},
 							["totalabsorbs"] = 9083,
 							["maxhp"] = 40566,
 							["healingspells"] = {
 								["Blood Presence"] = {
 									["min"] = 0,
-									["max"] = 502,
 									["name"] = "Blood Presence",
 									["critical"] = 0,
+									["max"] = 502,
 									["id"] = 50475,
 									["healing"] = 11636,
 									["overhealing"] = 0,
@@ -15351,9 +15351,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1719,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1719,
 									["id"] = 34299,
 									["healing"] = 12015,
 									["overhealing"] = 10332,
@@ -15361,9 +15361,9 @@ SkadaDB = {
 								},
 								["Unholy Strength"] = {
 									["min"] = 0,
-									["max"] = 1288,
 									["name"] = "Unholy Strength",
 									["critical"] = 0,
+									["max"] = 1288,
 									["id"] = 53365,
 									["healing"] = 9016,
 									["overhealing"] = 7728,
@@ -15392,8 +15392,8 @@ SkadaDB = {
 							["name"] = "Burningveil",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 319,
+							["dispells"] = 0,
 							["id"] = "0x07000000002B6235",
 							["first"] = 1573877755,
 						}, -- [23]
@@ -15449,16 +15449,6 @@ SkadaDB = {
 							["time"] = 146,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 40435,
-									["spells"] = {
-										[31930] = 13176,
-										[57669] = 22039,
-										[20268] = 5220,
-									},
-								},
-							},
 							["overhealing"] = 41438,
 							["damage"] = 1357538,
 							["damagespells"] = {
@@ -15696,14 +15686,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 114322,
+							["power"] = {
+								[0] = {
+									["amount"] = 40435,
+									["spells"] = {
+										[31930] = 13176,
+										[57669] = 22039,
+										[20268] = 5220,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 32134,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1362,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1362,
 									["id"] = 34299,
 									["healing"] = 10769,
 									["overhealing"] = 14291,
@@ -15711,9 +15711,9 @@ SkadaDB = {
 								},
 								["Divine Storm"] = {
 									["min"] = 0,
-									["max"] = 1093,
 									["name"] = "Divine Storm",
 									["critical"] = 0,
+									["max"] = 1093,
 									["id"] = 54172,
 									["healing"] = 17846,
 									["overhealing"] = 27147,
@@ -15790,9 +15790,9 @@ SkadaDB = {
 									["amount"] = 588,
 									["class"] = "WARRIOR",
 								},
-								["Ggverylong"] = {
-									["amount"] = 0,
-									["class"] = "DEATHKNIGHT",
+								["Ggverybig"] = {
+									["amount"] = 1266,
+									["class"] = "PALADIN",
 								},
 								["Haathun"] = {
 									["amount"] = 0,
@@ -15802,29 +15802,29 @@ SkadaDB = {
 									["amount"] = 11325,
 									["class"] = "PALADIN",
 								},
-								["Reindemkal"] = {
-									["amount"] = 0,
-									["class"] = "MAGE",
-								},
 								["시발"] = {
 									["amount"] = 142,
 									["class"] = "WARRIOR",
-								},
-								["Rushshot"] = {
-									["amount"] = 1076,
-									["class"] = "HUNTER",
 								},
 								["Donaljtrump"] = {
 									["amount"] = 338,
 									["class"] = "DRUID",
 								},
-								["Garzh"] = {
-									["amount"] = 847,
-									["class"] = "WARRIOR",
+								["Rushshot"] = {
+									["amount"] = 1076,
+									["class"] = "HUNTER",
 								},
 								["Bowbaby"] = {
 									["amount"] = 1588,
 									["class"] = "HUNTER",
+								},
+								["Garzh"] = {
+									["amount"] = 847,
+									["class"] = "WARRIOR",
+								},
+								["Antonlr"] = {
+									["amount"] = 893,
+									["class"] = "MAGE",
 								},
 								["Kulhazard"] = {
 									["amount"] = 0,
@@ -15834,24 +15834,24 @@ SkadaDB = {
 									["amount"] = 292,
 									["class"] = "DRUID",
 								},
-								["Ggverybig"] = {
-									["amount"] = 1266,
-									["class"] = "PALADIN",
+								["Reindemkal"] = {
+									["amount"] = 0,
+									["class"] = "MAGE",
 								},
 								["Eyestealer"] = {
 									["amount"] = 1474,
 									["class"] = "ROGUE",
 								},
-								["Antonlr"] = {
-									["amount"] = 893,
-									["class"] = "MAGE",
+								["Ggverylong"] = {
+									["amount"] = 0,
+									["class"] = "DEATHKNIGHT",
 								},
 							},
 							["name"] = "Worldwideftw",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 643,
+							["dispells"] = 0,
 							["id"] = "0x0700000000019060",
 							["first"] = 1573877757,
 						}, -- [24]
@@ -15869,14 +15869,14 @@ SkadaDB = {
 							["time"] = 76,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 0,
 							["damage"] = 0,
 							["damagespells"] = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 28488,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 23737,
 							["healingspells"] = {
@@ -15894,8 +15894,8 @@ SkadaDB = {
 							["name"] = "Colmillar",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004A933A",
 							["first"] = 1573877766,
 						}, -- [25]
@@ -16284,15 +16284,6 @@ SkadaDB = {
 							["time"] = 57,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 90,
-									["spells"] = {
-										[23602] = 65,
-										[34846] = 25,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 7146,
 							["damage"] = 175221,
 							["damagespells"] = {
@@ -16338,22 +16329,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Shockwave"] = {
+								["Thorns"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 2,
+									["totalhits"] = 6,
 									["MISS"] = 0,
-									["damage"] = 8553,
+									["damage"] = 1058,
 									["DEFLECT"] = 0,
-									["id"] = 46968,
-									["max"] = 4507,
-									["min"] = 4046,
+									["id"] = 53307,
+									["max"] = 185,
+									["min"] = 159,
 									["PARRY"] = 0,
 									["critical"] = 0,
-									["hit"] = 2,
+									["hit"] = 6,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -16380,22 +16371,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Thorns"] = {
+								["Shockwave"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 6,
+									["totalhits"] = 2,
 									["MISS"] = 0,
-									["damage"] = 1058,
+									["damage"] = 8553,
 									["DEFLECT"] = 0,
-									["id"] = 53307,
-									["max"] = 185,
-									["min"] = 159,
+									["id"] = 46968,
+									["max"] = 4507,
+									["min"] = 4046,
 									["PARRY"] = 0,
 									["critical"] = 0,
-									["hit"] = 6,
+									["hit"] = 2,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -16571,14 +16562,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 119014,
+							["power"] = {
+								{
+									["amount"] = 90,
+									["spells"] = {
+										[23602] = 65,
+										[34846] = 25,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 56205,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 2382,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 2382,
 									["id"] = 34299,
 									["healing"] = 4764,
 									["overhealing"] = 7146,
@@ -16612,8 +16612,8 @@ SkadaDB = {
 							["name"] = "Surree",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 184,
+							["dispells"] = 0,
 							["id"] = "0x070000000021A5DA",
 							["first"] = 1573877669,
 						}, -- [1]
@@ -16656,8 +16656,6 @@ SkadaDB = {
 							["time"] = 55,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 55438,
 							["damage"] = 337195,
 							["damagespells"] = {
@@ -16682,27 +16680,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Immolate"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 15,
-									["MISS"] = 0,
-									["damage"] = 37240,
-									["DEFLECT"] = 0,
-									["id"] = 47811,
-									["max"] = 3376,
-									["min"] = 1226,
-									["PARRY"] = 0,
-									["critical"] = 10,
-									["hit"] = 5,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Corruption"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -16719,6 +16696,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 0,
 									["hit"] = 11,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Immolate"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 15,
+									["MISS"] = 0,
+									["damage"] = 37240,
+									["DEFLECT"] = 0,
+									["id"] = 47811,
+									["max"] = 3376,
+									["min"] = 1226,
+									["PARRY"] = 0,
+									["critical"] = 10,
+									["hit"] = 5,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -16832,14 +16830,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25694,
 							["healingspells"] = {
 								["Fel Armor"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Fel Armor",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 47893,
 									["healing"] = 0,
 									["overhealing"] = 8496,
@@ -16847,9 +16847,9 @@ SkadaDB = {
 								},
 								["Haathun: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Haathun: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 2566,
@@ -16857,9 +16857,9 @@ SkadaDB = {
 								},
 								["Fel Synergy"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Fel Synergy",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 54181,
 									["healing"] = 0,
 									["overhealing"] = 44376,
@@ -16882,8 +16882,8 @@ SkadaDB = {
 							["name"] = "Diekzro",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 145,
+							["dispells"] = 0,
 							["id"] = "0x07000000001581C2",
 							["first"] = 1573877669,
 						}, -- [2]
@@ -16914,18 +16914,10 @@ SkadaDB = {
 							["time"] = 58,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[6] = {
-									["amount"] = 30,
-									["spells"] = {
-										[50422] = 30,
-									},
-								},
-							},
 							["overhealing"] = 4526,
 							["damage"] = 88051,
 							["damagespells"] = {
-								["Rune Strike"] = {
+								["Heart Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
@@ -16933,14 +16925,14 @@ SkadaDB = {
 									["glancing"] = 0,
 									["totalhits"] = 6,
 									["MISS"] = 0,
-									["damage"] = 16749,
+									["damage"] = 10443,
 									["DEFLECT"] = 0,
-									["id"] = 56815,
-									["max"] = 3078,
-									["min"] = 2523,
+									["id"] = 55262,
+									["max"] = 2161,
+									["min"] = 771,
 									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 6,
+									["critical"] = 1,
+									["hit"] = 5,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -16988,7 +16980,7 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Heart Strike"] = {
+								["Plague Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
@@ -16996,11 +16988,11 @@ SkadaDB = {
 									["glancing"] = 0,
 									["totalhits"] = 6,
 									["MISS"] = 0,
-									["damage"] = 10443,
+									["damage"] = 7373,
 									["DEFLECT"] = 0,
-									["id"] = 55262,
-									["max"] = 2161,
-									["min"] = 771,
+									["id"] = 49921,
+									["max"] = 2010,
+									["min"] = 1010,
 									["PARRY"] = 0,
 									["critical"] = 1,
 									["hit"] = 5,
@@ -17030,7 +17022,7 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Plague Strike"] = {
+								["Rune Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
@@ -17038,14 +17030,14 @@ SkadaDB = {
 									["glancing"] = 0,
 									["totalhits"] = 6,
 									["MISS"] = 0,
-									["damage"] = 7373,
+									["damage"] = 16749,
 									["DEFLECT"] = 0,
-									["id"] = 49921,
-									["max"] = 2010,
-									["min"] = 1010,
+									["id"] = 56815,
+									["max"] = 3078,
+									["min"] = 2523,
 									["PARRY"] = 0,
-									["critical"] = 1,
-									["hit"] = 5,
+									["critical"] = 0,
+									["hit"] = 6,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -17096,14 +17088,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 188321,
+							["power"] = {
+								[6] = {
+									["amount"] = 30,
+									["spells"] = {
+										[50422] = 30,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 53377,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 2263,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 2263,
 									["id"] = 34299,
 									["healing"] = 4526,
 									["overhealing"] = 4526,
@@ -17137,8 +17137,8 @@ SkadaDB = {
 							["name"] = "Ggverylong",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 75,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B7216",
 							["first"] = 1573877669,
 						}, -- [3]
@@ -17181,20 +17181,6 @@ SkadaDB = {
 							["time"] = 51,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 4900,
-									["spells"] = {
-										[68285] = 4900,
-									},
-								},
-								[3] = {
-									["amount"] = 60,
-									["spells"] = {
-										[51178] = 60,
-									},
-								},
-							},
 							["overhealing"] = 7518,
 							["damage"] = 180807,
 							["damagespells"] = {
@@ -17368,14 +17354,28 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 4900,
+									["spells"] = {
+										[68285] = 4900,
+									},
+								},
+								[3] = {
+									["amount"] = 60,
+									["spells"] = {
+										[51178] = 60,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25367,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 7518,
@@ -17394,8 +17394,8 @@ SkadaDB = {
 							["name"] = "Belalin",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 134,
+							["dispells"] = 0,
 							["id"] = "0x0700000000462DB4",
 							["first"] = 1573877670,
 						}, -- [4]
@@ -17438,15 +17438,6 @@ SkadaDB = {
 							["time"] = 51,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 2193,
-									["spells"] = {
-										[29077] = 1478,
-										[67545] = 715,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 108198,
 							["damagespells"] = {
@@ -17537,6 +17528,15 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 2193,
+									["spells"] = {
+										[29077] = 1478,
+										[67545] = 715,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 22353,
 							["healingspells"] = {
@@ -17549,8 +17549,8 @@ SkadaDB = {
 							["name"] = "Reindemkal",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 146,
+							["dispells"] = 0,
 							["id"] = "0x0700000000486350",
 							["first"] = 1573877670,
 						}, -- [5]
@@ -17593,15 +17593,6 @@ SkadaDB = {
 							["time"] = 51,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 3078,
-									["spells"] = {
-										[29077] = 2168,
-										[67545] = 910,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 170597,
 							["damagespells"] = {
@@ -17713,6 +17704,15 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 3078,
+									["spells"] = {
+										[29077] = 2168,
+										[67545] = 910,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 19763,
 							["healingspells"] = {
@@ -17725,8 +17725,8 @@ SkadaDB = {
 							["name"] = "Nagatolls",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 130,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B059A",
 							["first"] = 1573877670,
 						}, -- [6]
@@ -17744,6 +17744,12 @@ SkadaDB = {
 							["time"] = 51,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 149183,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 0,
 							["power"] = {
 								[0] = {
 									["amount"] = 2096,
@@ -17753,20 +17759,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 149183,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 0,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 24279,
 							["healingspells"] = {
 								["Riptide"] = {
 									["min"] = 0,
-									["max"] = 3877,
 									["name"] = "Riptide",
 									["critical"] = 1,
+									["max"] = 3877,
 									["id"] = 61301,
 									["healing"] = 5046,
 									["overhealing"] = 6820,
@@ -17774,9 +17774,9 @@ SkadaDB = {
 								},
 								["Ancestral Awakening"] = {
 									["min"] = 0,
-									["max"] = 1165,
 									["name"] = "Ancestral Awakening",
 									["critical"] = 0,
+									["max"] = 1165,
 									["id"] = 52752,
 									["healing"] = 1165,
 									["overhealing"] = 853,
@@ -17784,9 +17784,9 @@ SkadaDB = {
 								},
 								["Chain Heal"] = {
 									["min"] = 0,
-									["max"] = 12429,
 									["name"] = "Chain Heal",
 									["critical"] = 4,
+									["max"] = 12429,
 									["id"] = 55459,
 									["healing"] = 60760,
 									["overhealing"] = 69062,
@@ -17794,9 +17794,9 @@ SkadaDB = {
 								},
 								["Healing Stream Totem: Healing Stream Totem"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Healing Stream Totem: Healing Stream Totem",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 52042,
 									["healing"] = 0,
 									["overhealing"] = 61226,
@@ -17804,9 +17804,9 @@ SkadaDB = {
 								},
 								["Earth Shield"] = {
 									["min"] = 0,
-									["max"] = 4540,
 									["name"] = "Earth Shield",
 									["critical"] = 1,
+									["max"] = 4540,
 									["id"] = 379,
 									["healing"] = 16648,
 									["overhealing"] = 3027,
@@ -17814,9 +17814,9 @@ SkadaDB = {
 								},
 								["Earthliving"] = {
 									["min"] = 0,
-									["max"] = 923,
 									["name"] = "Earthliving",
 									["critical"] = 0,
+									["max"] = 923,
 									["id"] = 52000,
 									["healing"] = 3524,
 									["overhealing"] = 8195,
@@ -17863,8 +17863,8 @@ SkadaDB = {
 							["name"] = "Rauna",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C757C",
 							["first"] = 1573877674,
 						}, -- [7]
@@ -17890,6 +17890,12 @@ SkadaDB = {
 							["time"] = 45,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 67540,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 0,
 							["power"] = {
 								{
 									["amount"] = 16,
@@ -17911,20 +17917,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 67540,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 0,
 							["totalabsorbs"] = 55703,
 							["maxhp"] = 22170,
 							["healingspells"] = {
 								["Penance"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Penance",
 									["critical"] = 3,
+									["max"] = 0,
 									["id"] = 52985,
 									["healing"] = 0,
 									["overhealing"] = 33315,
@@ -17932,9 +17932,9 @@ SkadaDB = {
 								},
 								["Flash Heal"] = {
 									["min"] = 0,
-									["max"] = 6113,
 									["name"] = "Flash Heal",
 									["critical"] = 0,
+									["max"] = 6113,
 									["id"] = 48071,
 									["healing"] = 6113,
 									["overhealing"] = 0,
@@ -17942,9 +17942,9 @@ SkadaDB = {
 								},
 								["Blessed Healing"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Blessed Healing",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 70772,
 									["healing"] = 0,
 									["overhealing"] = 2217,
@@ -17952,9 +17952,9 @@ SkadaDB = {
 								},
 								["Glyph of Power Word: Shield"] = {
 									["min"] = 0,
-									["max"] = 2100,
 									["name"] = "Glyph of Power Word: Shield",
 									["critical"] = 2,
+									["max"] = 2100,
 									["id"] = 56160,
 									["healing"] = 2100,
 									["overhealing"] = 12402,
@@ -17962,9 +17962,9 @@ SkadaDB = {
 								},
 								["Echoes of Light"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Echoes of Light",
 									["critical"] = 1,
+									["max"] = 0,
 									["id"] = 71641,
 									["healing"] = 0,
 									["overhealing"] = 11683,
@@ -17972,9 +17972,9 @@ SkadaDB = {
 								},
 								["Prayer of Mending"] = {
 									["min"] = 0,
-									["max"] = 5572,
 									["name"] = "Prayer of Mending",
 									["critical"] = 1,
+									["max"] = 5572,
 									["id"] = 33110,
 									["healing"] = 10684,
 									["overhealing"] = 7923,
@@ -18005,8 +18005,8 @@ SkadaDB = {
 							["name"] = "Delcatty",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 42,
+							["dispells"] = 0,
 							["id"] = "0x070000000028B61C",
 							["first"] = 1573877674,
 						}, -- [8]
@@ -18024,6 +18024,12 @@ SkadaDB = {
 							["time"] = 53,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 233980,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 0,
 							["power"] = {
 								{
 									["amount"] = 12,
@@ -18052,20 +18058,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 233980,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 0,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 23167,
 							["healingspells"] = {
 								["Lifebloom"] = {
 									["min"] = 0,
-									["max"] = 3618,
 									["name"] = "Lifebloom",
 									["critical"] = 2,
+									["max"] = 3618,
 									["id"] = 48451,
 									["healing"] = 17667,
 									["overhealing"] = 40424,
@@ -18073,9 +18073,9 @@ SkadaDB = {
 								},
 								["Swiftmend"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Swiftmend",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 18562,
 									["healing"] = 0,
 									["overhealing"] = 9943,
@@ -18083,9 +18083,9 @@ SkadaDB = {
 								},
 								["Regrowth"] = {
 									["min"] = 0,
-									["max"] = 4781,
 									["name"] = "Regrowth",
 									["critical"] = 1,
+									["max"] = 4781,
 									["id"] = 48443,
 									["healing"] = 13195,
 									["overhealing"] = 34772,
@@ -18093,9 +18093,9 @@ SkadaDB = {
 								},
 								["Nourish"] = {
 									["min"] = 0,
-									["max"] = 2215,
 									["name"] = "Nourish",
 									["critical"] = 1,
+									["max"] = 2215,
 									["id"] = 50464,
 									["healing"] = 2215,
 									["overhealing"] = 28110,
@@ -18103,9 +18103,9 @@ SkadaDB = {
 								},
 								["Rejuvenation"] = {
 									["min"] = 0,
-									["max"] = 2485,
 									["name"] = "Rejuvenation",
 									["critical"] = 0,
+									["max"] = 2485,
 									["id"] = 48441,
 									["healing"] = 20635,
 									["overhealing"] = 55631,
@@ -18113,9 +18113,9 @@ SkadaDB = {
 								},
 								["Wild Growth"] = {
 									["min"] = 0,
-									["max"] = 960,
 									["name"] = "Wild Growth",
 									["critical"] = 0,
+									["max"] = 960,
 									["id"] = 53251,
 									["healing"] = 6502,
 									["overhealing"] = 63410,
@@ -18123,9 +18123,9 @@ SkadaDB = {
 								},
 								["Living Seed"] = {
 									["min"] = 0,
-									["max"] = 4265,
 									["name"] = "Living Seed",
 									["critical"] = 0,
+									["max"] = 4265,
 									["id"] = 48503,
 									["healing"] = 5049,
 									["overhealing"] = 1690,
@@ -18180,8 +18180,8 @@ SkadaDB = {
 							["name"] = "Donaljtrump",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004379B3",
 							["first"] = 1573877674,
 						}, -- [9]
@@ -18206,15 +18206,6 @@ SkadaDB = {
 							["time"] = 50,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 5020,
-									["spells"] = {
-										[20272] = 3820,
-										[55382] = 1200,
-									},
-								},
-							},
 							["overhealing"] = 692195,
 							["damage"] = 2077,
 							["damagespells"] = {
@@ -18242,14 +18233,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 5020,
+									["spells"] = {
+										[20272] = 3820,
+										[55382] = 1200,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25754,
 							["healingspells"] = {
 								["Judgement of Light"] = {
 									["min"] = 0,
-									["max"] = 1191,
 									["name"] = "Judgement of Light",
 									["critical"] = 0,
+									["max"] = 1191,
 									["id"] = 20267,
 									["healing"] = 4764,
 									["overhealing"] = 37644,
@@ -18257,9 +18257,9 @@ SkadaDB = {
 								},
 								["Holy Light"] = {
 									["min"] = 0,
-									["max"] = 21138,
 									["name"] = "Holy Light",
 									["critical"] = 10,
+									["max"] = 21138,
 									["id"] = 48782,
 									["healing"] = 65933,
 									["overhealing"] = 245164,
@@ -18267,9 +18267,9 @@ SkadaDB = {
 								},
 								["Beacon of Light"] = {
 									["min"] = 0,
-									["max"] = 14090,
 									["name"] = "Beacon of Light",
 									["critical"] = 0,
+									["max"] = 14090,
 									["id"] = 53654,
 									["healing"] = 27529,
 									["overhealing"] = 247711,
@@ -18277,9 +18277,9 @@ SkadaDB = {
 								},
 								["Glyph of Holy Light"] = {
 									["min"] = 0,
-									["max"] = 2348,
 									["name"] = "Glyph of Holy Light",
 									["critical"] = 0,
+									["max"] = 2348,
 									["id"] = 54968,
 									["healing"] = 13976,
 									["overhealing"] = 161676,
@@ -18370,8 +18370,8 @@ SkadaDB = {
 							["name"] = "Ggverybig",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 8,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C019C",
 							["first"] = 1573877674,
 						}, -- [10]
@@ -18408,14 +18408,6 @@ SkadaDB = {
 							["time"] = 47,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 165,
-									["spells"] = {
-										[35548] = 165,
-									},
-								},
-							},
 							["overhealing"] = 8008,
 							["damage"] = 330574,
 							["damagespells"] = {
@@ -18589,14 +18581,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[3] = {
+									["amount"] = 165,
+									["spells"] = {
+										[35548] = 165,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 27014,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 8008,
@@ -18615,8 +18615,8 @@ SkadaDB = {
 							["name"] = "Sapforever",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 114,
+							["dispells"] = 0,
 							["id"] = "0x0700000000435FB0",
 							["first"] = 1573877675,
 						}, -- [11]
@@ -18647,39 +18647,9 @@ SkadaDB = {
 							["time"] = 46,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 296,
-									["spells"] = {
-										[51637] = 146,
-										[14181] = 150,
-									},
-								},
-							},
 							["overhealing"] = 9219,
 							["damage"] = 329167,
 							["damagespells"] = {
-								["Mutilate"] = {
-									["DODGE"] = 1,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 21,
-									["MISS"] = 0,
-									["damage"] = 48128,
-									["DEFLECT"] = 0,
-									["id"] = 48665,
-									["max"] = 4213,
-									["min"] = 980,
-									["PARRY"] = 0,
-									["critical"] = 13,
-									["hit"] = 7,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Instant Poison IX"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -18717,6 +18687,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 0,
 									["hit"] = 6,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Mutilate"] = {
+									["DODGE"] = 1,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 21,
+									["MISS"] = 0,
+									["damage"] = 48128,
+									["DEFLECT"] = 0,
+									["id"] = 48665,
+									["max"] = 4213,
+									["min"] = 980,
+									["PARRY"] = 0,
+									["critical"] = 13,
+									["hit"] = 7,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -18808,14 +18799,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[3] = {
+									["amount"] = 296,
+									["spells"] = {
+										[51637] = 146,
+										[14181] = 150,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 28274,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 9219,
@@ -18834,8 +18834,8 @@ SkadaDB = {
 							["name"] = "Kimkary",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 61,
+							["dispells"] = 0,
 							["id"] = "0x070000000000A61E",
 							["first"] = 1573877675,
 						}, -- [12]
@@ -18890,16 +18890,6 @@ SkadaDB = {
 							["time"] = 51,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 18534,
-									["spells"] = {
-										[71132] = 684,
-										[57669] = 17250,
-										[55382] = 600,
-									},
-								},
-							},
 							["overhealing"] = 53122,
 							["damage"] = 151213,
 							["damagespells"] = {
@@ -19053,14 +19043,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 4437,
+							["power"] = {
+								[0] = {
+									["amount"] = 18534,
+									["spells"] = {
+										[71132] = 684,
+										[57669] = 17250,
+										[55382] = 600,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 21880,
 							["healingspells"] = {
 								["Improved Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Devouring Plague",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 75999,
 									["healing"] = 0,
 									["overhealing"] = 830,
@@ -19068,9 +19068,9 @@ SkadaDB = {
 								},
 								["Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 148,
 									["name"] = "Devouring Plague",
 									["critical"] = 0,
+									["max"] = 148,
 									["id"] = 48300,
 									["healing"] = 281,
 									["overhealing"] = 3940,
@@ -19078,9 +19078,9 @@ SkadaDB = {
 								},
 								["Vampiric Embrace"] = {
 									["min"] = 0,
-									["max"] = 294,
 									["name"] = "Vampiric Embrace",
 									["critical"] = 0,
+									["max"] = 294,
 									["id"] = 15290,
 									["healing"] = 677,
 									["overhealing"] = 48352,
@@ -19124,8 +19124,8 @@ SkadaDB = {
 							["name"] = "Pyreah",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 224,
+							["dispells"] = 0,
 							["id"] = "0x070000000041F326",
 							["first"] = 1573877676,
 						}, -- [13]
@@ -19143,16 +19143,16 @@ SkadaDB = {
 									["name"] = "Aimed Shot",
 									["active"] = 0,
 								},
-								["Hunter's Mark"] = {
-									["id"] = 53338,
-									["uptime"] = 10,
-									["name"] = "Hunter's Mark",
-									["active"] = 0,
-								},
 								["Piercing Shots"] = {
 									["id"] = 63468,
 									["uptime"] = 33,
 									["name"] = "Piercing Shots",
+									["active"] = 0,
+								},
+								["Hunter's Mark"] = {
+									["id"] = 53338,
+									["uptime"] = 10,
+									["name"] = "Hunter's Mark",
 									["active"] = 0,
 								},
 								["Serpent Sting"] = {
@@ -19168,20 +19168,6 @@ SkadaDB = {
 							["time"] = 49,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[2] = {
-									["amount"] = 1050,
-									["spells"] = {
-										[34952] = 1050,
-									},
-								},
-								[0] = {
-									["amount"] = 1424,
-									["spells"] = {
-										[34074] = 1424,
-									},
-								},
-							},
 							["overhealing"] = 11121,
 							["damage"] = 367323,
 							["damagespells"] = {
@@ -19461,14 +19447,28 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[2] = {
+									["amount"] = 1050,
+									["spells"] = {
+										[34952] = 1050,
+									},
+								},
+								[0] = {
+									["amount"] = 1424,
+									["spells"] = {
+										[34074] = 1424,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25754,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 6546,
@@ -19476,9 +19476,9 @@ SkadaDB = {
 								},
 								["Garzh: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Garzh: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 4575,
@@ -19501,8 +19501,8 @@ SkadaDB = {
 							["name"] = "Bowbaby",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 106,
+							["dispells"] = 0,
 							["id"] = "0x070000000000615D",
 							["first"] = 1573877678,
 						}, -- [14]
@@ -19551,16 +19551,6 @@ SkadaDB = {
 							["time"] = 48,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 11683,
-									["spells"] = {
-										[31930] = 5490,
-										[57669] = 5677,
-										[54428] = 516,
-									},
-								},
-							},
 							["overhealing"] = 18895,
 							["damage"] = 295295,
 							["damagespells"] = {
@@ -19756,14 +19746,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 11683,
+									["spells"] = {
+										[31930] = 5490,
+										[57669] = 5677,
+										[54428] = 516,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 31554,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 8022,
@@ -19771,9 +19771,9 @@ SkadaDB = {
 								},
 								["Divine Storm"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Divine Storm",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 54172,
 									["healing"] = 0,
 									["overhealing"] = 10873,
@@ -19828,9 +19828,9 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "DEATHKNIGHT",
 								},
-								["Reindemkal"] = {
+								["Diekzro"] = {
 									["amount"] = 0,
-									["class"] = "MAGE",
+									["class"] = "WARLOCK",
 								},
 								["Rauna"] = {
 									["amount"] = 0,
@@ -19848,24 +19848,24 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "WARRIOR",
 								},
-								["Diekzro"] = {
+								["Bowbaby"] = {
 									["amount"] = 0,
-									["class"] = "WARLOCK",
+									["class"] = "HUNTER",
 								},
 								["Eyestealer"] = {
 									["amount"] = 0,
 									["class"] = "ROGUE",
 								},
-								["Bowbaby"] = {
+								["Reindemkal"] = {
 									["amount"] = 0,
-									["class"] = "HUNTER",
+									["class"] = "MAGE",
 								},
 							},
 							["name"] = "Vareline",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 165,
+							["dispells"] = 0,
 							["id"] = "0x070000000000B8EC",
 							["first"] = 1573877678,
 						}, -- [15]
@@ -19891,17 +19891,6 @@ SkadaDB = {
 							["time"] = 46,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 1969,
-									["spells"] = {
-										[47755] = 781,
-										[63654] = 468,
-										[67666] = 500,
-										[71566] = 220,
-									},
-								},
-							},
 							["overhealing"] = 59792,
 							["damage"] = 3209,
 							["damagespells"] = {
@@ -19929,14 +19918,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 1969,
+									["spells"] = {
+										[47755] = 781,
+										[63654] = 468,
+										[67666] = 500,
+										[71566] = 220,
+									},
+								},
+							},
 							["totalabsorbs"] = 5848,
 							["maxhp"] = 23230,
 							["healingspells"] = {
 								["Holy Nova"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Holy Nova",
 									["critical"] = 2,
+									["max"] = 0,
 									["id"] = 48076,
 									["healing"] = 0,
 									["overhealing"] = 22161,
@@ -19944,9 +19944,9 @@ SkadaDB = {
 								},
 								["Glyph of Power Word: Shield"] = {
 									["min"] = 0,
-									["max"] = 2314,
 									["name"] = "Glyph of Power Word: Shield",
 									["critical"] = 5,
+									["max"] = 2314,
 									["id"] = 56160,
 									["healing"] = 2314,
 									["overhealing"] = 18781,
@@ -19954,9 +19954,9 @@ SkadaDB = {
 								},
 								["Penance"] = {
 									["min"] = 0,
-									["max"] = 5532,
 									["name"] = "Penance",
 									["critical"] = 2,
+									["max"] = 5532,
 									["id"] = 52985,
 									["healing"] = 9179,
 									["overhealing"] = 6098,
@@ -19964,9 +19964,9 @@ SkadaDB = {
 								},
 								["Flash Heal"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Flash Heal",
 									["critical"] = 1,
+									["max"] = 0,
 									["id"] = 48071,
 									["healing"] = 0,
 									["overhealing"] = 12752,
@@ -20033,8 +20033,8 @@ SkadaDB = {
 							["name"] = "Angeliito",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 29,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C496B",
 							["first"] = 1573877678,
 						}, -- [16]
@@ -20059,8 +20059,6 @@ SkadaDB = {
 							["time"] = 36,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 0,
 							["damage"] = 133249,
 							["damagespells"] = {
@@ -20109,6 +20107,8 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 20393,
 							["healingspells"] = {
@@ -20121,8 +20121,8 @@ SkadaDB = {
 							["name"] = "Antonlr",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 19,
+							["dispells"] = 0,
 							["id"] = "0x0700000000154A0F",
 							["first"] = 1573877681,
 						}, -- [17]
@@ -20165,14 +20165,6 @@ SkadaDB = {
 							["time"] = 38,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[6] = {
-									["amount"] = 20,
-									["spells"] = {
-										[50163] = 20,
-									},
-								},
-							},
 							["overhealing"] = 10153,
 							["damage"] = 113729,
 							["damagespells"] = {
@@ -20192,27 +20184,6 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 2,
 									["hit"] = 2,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Blood Plague"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 4,
-									["MISS"] = 0,
-									["damage"] = 5072,
-									["DEFLECT"] = 0,
-									["id"] = 55078,
-									["max"] = 1268,
-									["min"] = 1268,
-									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 4,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -20260,6 +20231,27 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
+								["Blood-Caked Strike"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 2,
+									["MISS"] = 0,
+									["damage"] = 3659,
+									["DEFLECT"] = 0,
+									["id"] = 50463,
+									["max"] = 1848,
+									["min"] = 1811,
+									["PARRY"] = 0,
+									["critical"] = 0,
+									["hit"] = 2,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
 								["Drain Life"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -20302,22 +20294,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Blood-Caked Strike"] = {
+								["Eyestealer: Attack"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 2,
+									["glancing"] = 4,
+									["totalhits"] = 11,
 									["MISS"] = 0,
-									["damage"] = 3659,
+									["damage"] = 10537,
 									["DEFLECT"] = 0,
-									["id"] = 50463,
-									["max"] = 1848,
-									["min"] = 1811,
+									["id"] = 6603,
+									["max"] = 1812,
+									["min"] = 717,
 									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 2,
+									["critical"] = 2,
+									["hit"] = 5,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -20344,43 +20336,43 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Necrosis"] = {
+								["Blood Plague"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 5,
+									["totalhits"] = 4,
 									["MISS"] = 0,
-									["damage"] = 4505,
+									["damage"] = 5072,
 									["DEFLECT"] = 0,
-									["id"] = 51460,
-									["max"] = 1244,
-									["min"] = 530,
+									["id"] = 55078,
+									["max"] = 1268,
+									["min"] = 1268,
 									["PARRY"] = 0,
 									["critical"] = 0,
-									["hit"] = 5,
+									["hit"] = 4,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Eyestealer: Attack"] = {
+								["Frost Fever"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
-									["glancing"] = 4,
-									["totalhits"] = 11,
+									["glancing"] = 0,
+									["totalhits"] = 4,
 									["MISS"] = 0,
-									["damage"] = 10537,
+									["damage"] = 4930,
 									["DEFLECT"] = 0,
-									["id"] = 6603,
-									["max"] = 1812,
-									["min"] = 717,
+									["id"] = 55095,
+									["max"] = 1297,
+									["min"] = 1168,
 									["PARRY"] = 0,
-									["critical"] = 2,
-									["hit"] = 5,
+									["critical"] = 0,
+									["hit"] = 4,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -20449,22 +20441,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Frost Fever"] = {
+								["Necrosis"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 4,
+									["totalhits"] = 5,
 									["MISS"] = 0,
-									["damage"] = 4930,
+									["damage"] = 4505,
 									["DEFLECT"] = 0,
-									["id"] = 55095,
-									["max"] = 1297,
-									["min"] = 1168,
+									["id"] = 51460,
+									["max"] = 1244,
+									["min"] = 530,
 									["PARRY"] = 0,
 									["critical"] = 0,
-									["hit"] = 4,
+									["hit"] = 5,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -20494,14 +20486,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[6] = {
+									["amount"] = 20,
+									["spells"] = {
+										[50163] = 20,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 31477,
 							["healingspells"] = {
 								["Eyestealer: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Eyestealer: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 2626,
@@ -20509,9 +20509,9 @@ SkadaDB = {
 								},
 								["Drain Life"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Drain Life",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 71838,
 									["healing"] = 0,
 									["overhealing"] = 2859,
@@ -20519,9 +20519,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 2668,
@@ -20529,9 +20529,9 @@ SkadaDB = {
 								},
 								["Unholy Strength"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Unholy Strength",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 53365,
 									["healing"] = 0,
 									["overhealing"] = 2000,
@@ -20554,8 +20554,8 @@ SkadaDB = {
 							["name"] = "Kulhazard",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 46,
+							["dispells"] = 0,
 							["id"] = "0x07000000004D1BB4",
 							["first"] = 1573877683,
 						}, -- [18]
@@ -20580,36 +20580,25 @@ SkadaDB = {
 							["time"] = 38,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 76,
-									["spells"] = {
-										[29131] = 10,
-										[2687] = 20,
-										[58362] = 20,
-										[12964] = 26,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 3312,
 							["damage"] = 338497,
 							["damagespells"] = {
-								["Chaos Bane"] = {
+								["Heroic Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 3,
+									["totalhits"] = 7,
 									["MISS"] = 0,
-									["damage"] = 4066,
+									["damage"] = 45155,
 									["DEFLECT"] = 0,
-									["id"] = 71904,
-									["max"] = 2070,
-									["min"] = 945,
+									["id"] = 47450,
+									["max"] = 11433,
+									["min"] = 4007,
 									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 3,
+									["critical"] = 2,
+									["hit"] = 5,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -20636,22 +20625,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Heroic Strike"] = {
+								["Chaos Bane"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 7,
+									["totalhits"] = 3,
 									["MISS"] = 0,
-									["damage"] = 45155,
+									["damage"] = 4066,
 									["DEFLECT"] = 0,
-									["id"] = 47450,
-									["max"] = 11433,
-									["min"] = 4007,
+									["id"] = 71904,
+									["max"] = 2070,
+									["min"] = 945,
 									["PARRY"] = 0,
-									["critical"] = 2,
-									["hit"] = 5,
+									["critical"] = 0,
+									["hit"] = 3,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -20765,14 +20754,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								{
+									["amount"] = 76,
+									["spells"] = {
+										[29131] = 10,
+										[2687] = 20,
+										[58362] = 20,
+										[12964] = 26,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 36801,
 							["healingspells"] = {
 								["Bloodthirst"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Bloodthirst",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 23880,
 									["healing"] = 0,
 									["overhealing"] = 3312,
@@ -20791,8 +20791,8 @@ SkadaDB = {
 							["name"] = "Nhm",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 37,
+							["dispells"] = 0,
 							["id"] = "0x070000000041C52F",
 							["first"] = 1573877683,
 						}, -- [19]
@@ -20810,14 +20810,14 @@ SkadaDB = {
 							["time"] = 38,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 0,
 							["damage"] = 0,
 							["damagespells"] = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 26144,
 							["healingspells"] = {
@@ -20830,8 +20830,8 @@ SkadaDB = {
 							["name"] = "Rushshot",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000003F3B34",
 							["first"] = 1573877684,
 						}, -- [20]
@@ -20874,38 +20874,9 @@ SkadaDB = {
 							["time"] = 35,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 3520,
-									["spells"] = {
-										[53506] = 3520,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 99868,
 							["damagespells"] = {
-								["Starfire"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 2,
-									["MISS"] = 0,
-									["damage"] = 17092,
-									["DEFLECT"] = 0,
-									["id"] = 48465,
-									["max"] = 11928,
-									["min"] = 5164,
-									["PARRY"] = 0,
-									["critical"] = 1,
-									["hit"] = 1,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Wrath"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -20948,6 +20919,27 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
+								["Starfire"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 2,
+									["MISS"] = 0,
+									["damage"] = 17092,
+									["DEFLECT"] = 0,
+									["id"] = 48465,
+									["max"] = 11928,
+									["min"] = 5164,
+									["PARRY"] = 0,
+									["critical"] = 1,
+									["hit"] = 1,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
 								["Insect Swarm"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -20972,6 +20964,14 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 3520,
+									["spells"] = {
+										[53506] = 3520,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 19137,
 							["healingspells"] = {
@@ -20984,8 +20984,8 @@ SkadaDB = {
 							["name"] = "Rhaigorn",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 95,
+							["dispells"] = 0,
 							["id"] = "0x07000000004D0D1A",
 							["first"] = 1573877687,
 						}, -- [21]
@@ -21010,8 +21010,6 @@ SkadaDB = {
 							["time"] = 3,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 1623,
 							["damage"] = 14433,
 							["damagespells"] = {
@@ -21122,14 +21120,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 38311,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 1623,
@@ -21148,8 +21148,8 @@ SkadaDB = {
 							["name"] = "Burningveil",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 4,
+							["dispells"] = 0,
 							["id"] = "0x07000000002B6235",
 							["first"] = 1573877718,
 						}, -- [22]
@@ -21337,16 +21337,6 @@ SkadaDB = {
 							["time"] = 119,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 164,
-									["spells"] = {
-										[29131] = 4,
-										[23602] = 135,
-										[34846] = 25,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 34268,
 							["damage"] = 414290,
 							["damagespells"] = {
@@ -21371,21 +21361,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Sunder Armor"] = {
+								["Attack"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 1,
+									["glancing"] = 4,
+									["totalhits"] = 24,
 									["MISS"] = 0,
-									["damage"] = 0,
+									["damage"] = 21987,
 									["DEFLECT"] = 0,
-									["id"] = 7386,
-									["max"] = 0,
-									["PARRY"] = 1,
-									["critical"] = 0,
-									["hit"] = 0,
+									["id"] = 6603,
+									["max"] = 1954,
+									["min"] = 570,
+									["PARRY"] = 2,
+									["critical"] = 4,
+									["hit"] = 14,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -21433,22 +21424,21 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Attack"] = {
+								["Sunder Armor"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
-									["glancing"] = 4,
-									["totalhits"] = 24,
+									["glancing"] = 0,
+									["totalhits"] = 1,
 									["MISS"] = 0,
-									["damage"] = 21987,
+									["damage"] = 0,
 									["DEFLECT"] = 0,
-									["id"] = 6603,
-									["max"] = 1954,
-									["min"] = 570,
-									["PARRY"] = 2,
-									["critical"] = 4,
-									["hit"] = 14,
+									["id"] = 7386,
+									["max"] = 0,
+									["PARRY"] = 1,
+									["critical"] = 0,
+									["hit"] = 0,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -21603,14 +21593,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 268386,
+							["power"] = {
+								{
+									["amount"] = 164,
+									["spells"] = {
+										[29131] = 4,
+										[23602] = 135,
+										[34846] = 25,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 56205,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 2382,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 2382,
 									["id"] = 34299,
 									["healing"] = 9528,
 									["overhealing"] = 25250,
@@ -21618,9 +21618,9 @@ SkadaDB = {
 								},
 								["Enraged Regeneration"] = {
 									["min"] = 0,
-									["max"] = 1787,
 									["name"] = "Enraged Regeneration",
 									["critical"] = 0,
+									["max"] = 1787,
 									["id"] = 55694,
 									["healing"] = 8852,
 									["overhealing"] = 9018,
@@ -21654,8 +21654,8 @@ SkadaDB = {
 							["name"] = "Surree",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 395,
+							["dispells"] = 0,
 							["id"] = "0x070000000021A5DA",
 							["first"] = 1573877495,
 						}, -- [1]
@@ -21680,16 +21680,6 @@ SkadaDB = {
 							["time"] = 118,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 259,
-									["spells"] = {
-										[29131] = 10,
-										[58362] = 170,
-										[12964] = 79,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 6256,
 							["damage"] = 876077,
 							["damagespells"] = {
@@ -21885,14 +21875,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 109365,
+							["power"] = {
+								{
+									["amount"] = 259,
+									["spells"] = {
+										[29131] = 10,
+										[58362] = 170,
+										[12964] = 79,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 36801,
 							["healingspells"] = {
 								["Bloodthirst"] = {
 									["min"] = 0,
-									["max"] = 368,
 									["name"] = "Bloodthirst",
 									["critical"] = 0,
+									["max"] = 368,
 									["id"] = 23880,
 									["healing"] = 2576,
 									["overhealing"] = 6256,
@@ -21921,8 +21921,8 @@ SkadaDB = {
 							["name"] = "Nhm",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 105,
+							["dispells"] = 0,
 							["id"] = "0x070000000041C52F",
 							["first"] = 1573877496,
 						}, -- [2]
@@ -21940,6 +21940,12 @@ SkadaDB = {
 							["time"] = 120,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 572579,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 20993,
 							["power"] = {
 								[0] = {
 									["amount"] = 5564,
@@ -21948,20 +21954,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 572579,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 20993,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 24279,
 							["healingspells"] = {
 								["Riptide"] = {
 									["min"] = 0,
-									["max"] = 5766,
 									["name"] = "Riptide",
 									["critical"] = 4,
+									["max"] = 5766,
 									["id"] = 61301,
 									["healing"] = 38689,
 									["overhealing"] = 25046,
@@ -21969,9 +21969,9 @@ SkadaDB = {
 								},
 								["Ancestral Awakening"] = {
 									["min"] = 0,
-									["max"] = 3369,
 									["name"] = "Ancestral Awakening",
 									["critical"] = 0,
+									["max"] = 3369,
 									["id"] = 52752,
 									["healing"] = 14250,
 									["overhealing"] = 11070,
@@ -21979,9 +21979,9 @@ SkadaDB = {
 								},
 								["Chain Heal"] = {
 									["min"] = 0,
-									["max"] = 13868,
 									["name"] = "Chain Heal",
 									["critical"] = 36,
+									["max"] = 13868,
 									["id"] = 55459,
 									["healing"] = 295118,
 									["overhealing"] = 297585,
@@ -21989,9 +21989,9 @@ SkadaDB = {
 								},
 								["Lesser Healing Wave"] = {
 									["min"] = 0,
-									["max"] = 4763,
 									["name"] = "Lesser Healing Wave",
 									["critical"] = 5,
+									["max"] = 4763,
 									["id"] = 49276,
 									["healing"] = 18829,
 									["overhealing"] = 54594,
@@ -21999,9 +21999,9 @@ SkadaDB = {
 								},
 								["Healing Stream Totem: Healing Stream Totem"] = {
 									["min"] = 0,
-									["max"] = 617,
 									["name"] = "Healing Stream Totem: Healing Stream Totem",
 									["critical"] = 0,
+									["max"] = 617,
 									["id"] = 52042,
 									["healing"] = 24642,
 									["overhealing"] = 115382,
@@ -22009,9 +22009,9 @@ SkadaDB = {
 								},
 								["Earth Shield"] = {
 									["min"] = 0,
-									["max"] = 5332,
 									["name"] = "Earth Shield",
 									["critical"] = 9,
+									["max"] = 5332,
 									["id"] = 379,
 									["healing"] = 41607,
 									["overhealing"] = 18612,
@@ -22019,9 +22019,9 @@ SkadaDB = {
 								},
 								["Earthliving"] = {
 									["min"] = 0,
-									["max"] = 970,
 									["name"] = "Earthliving",
 									["critical"] = 0,
+									["max"] = 970,
 									["id"] = 52000,
 									["healing"] = 6451,
 									["overhealing"] = 50290,
@@ -22093,8 +22093,9 @@ SkadaDB = {
 									["amount"] = 6986,
 									["class"] = "PALADIN",
 								},
-								["Mirror Image"] = {
-									["amount"] = 1233,
+								["Pyreah"] = {
+									["amount"] = 7438,
+									["class"] = "PRIEST",
 								},
 								["Ggverybig"] = {
 									["amount"] = 60754,
@@ -22104,10 +22105,6 @@ SkadaDB = {
 									["amount"] = 9648,
 									["class"] = "HUNTER",
 								},
-								["Diekzro"] = {
-									["amount"] = 1493,
-									["class"] = "WARLOCK",
-								},
 								["Ggverylong"] = {
 									["amount"] = 20905,
 									["class"] = "DEATHKNIGHT",
@@ -22115,6 +22112,10 @@ SkadaDB = {
 								["Bowbaby"] = {
 									["amount"] = 13374,
 									["class"] = "HUNTER",
+								},
+								["Antonlr"] = {
+									["amount"] = 9544,
+									["class"] = "MAGE",
 								},
 								["Kulhazard"] = {
 									["amount"] = 20479,
@@ -22124,24 +22125,23 @@ SkadaDB = {
 									["amount"] = 4567,
 									["class"] = "DRUID",
 								},
-								["Pyreah"] = {
-									["amount"] = 7438,
-									["class"] = "PRIEST",
+								["Diekzro"] = {
+									["amount"] = 1493,
+									["class"] = "WARLOCK",
 								},
 								["Eyestealer"] = {
 									["amount"] = 2971,
 									["class"] = "ROGUE",
 								},
-								["Antonlr"] = {
-									["amount"] = 9544,
-									["class"] = "MAGE",
+								["Mirror Image"] = {
+									["amount"] = 1233,
 								},
 							},
 							["name"] = "Rauna",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C757C",
 							["first"] = 1573877496,
 						}, -- [3]
@@ -22178,20 +22178,6 @@ SkadaDB = {
 							["time"] = 120,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 11200,
-									["spells"] = {
-										[68285] = 11200,
-									},
-								},
-								[3] = {
-									["amount"] = 180,
-									["spells"] = {
-										[51178] = 180,
-									},
-								},
-							},
 							["overhealing"] = 16493,
 							["damage"] = 519600,
 							["damagespells"] = {
@@ -22344,14 +22330,28 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 26195,
+							["power"] = {
+								[0] = {
+									["amount"] = 11200,
+									["spells"] = {
+										[68285] = 11200,
+									},
+								},
+								[3] = {
+									["amount"] = 180,
+									["spells"] = {
+										[51178] = 180,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25367,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 691,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 691,
 									["id"] = 34299,
 									["healing"] = 691,
 									["overhealing"] = 16493,
@@ -22380,8 +22380,8 @@ SkadaDB = {
 							["name"] = "Belalin",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 264,
+							["dispells"] = 0,
 							["id"] = "0x0700000000462DB4",
 							["first"] = 1573877496,
 						}, -- [4]
@@ -22429,6 +22429,12 @@ SkadaDB = {
 							["time"] = 121,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 225777,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 41063,
 							["power"] = {
 								{
 									["amount"] = 40,
@@ -22457,40 +22463,34 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 225777,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 41063,
 							["totalabsorbs"] = 638090,
 							["maxhp"] = 22170,
 							["healingspells"] = {
+								["Prayer of Mending"] = {
+									["min"] = 0,
+									["name"] = "Prayer of Mending",
+									["critical"] = 5,
+									["max"] = 8290,
+									["id"] = 33110,
+									["healing"] = 71602,
+									["overhealing"] = 27366,
+									["hits"] = 16,
+								},
 								["Divine Hymn"] = {
 									["min"] = 0,
-									["max"] = 9375,
 									["name"] = "Divine Hymn",
 									["critical"] = 6,
+									["max"] = 9375,
 									["id"] = 64844,
 									["healing"] = 89913,
 									["overhealing"] = 3681,
 									["hits"] = 12,
 								},
-								["Penance"] = {
-									["min"] = 0,
-									["max"] = 6095,
-									["name"] = "Penance",
-									["critical"] = 4,
-									["id"] = 52985,
-									["healing"] = 15022,
-									["overhealing"] = 21016,
-									["hits"] = 6,
-								},
 								["Flash Heal"] = {
 									["min"] = 0,
-									["max"] = 8760,
 									["name"] = "Flash Heal",
 									["critical"] = 1,
+									["max"] = 8760,
 									["id"] = 48071,
 									["healing"] = 26883,
 									["overhealing"] = 5931,
@@ -22498,9 +22498,9 @@ SkadaDB = {
 								},
 								["Blessed Healing"] = {
 									["min"] = 0,
-									["max"] = 783,
 									["name"] = "Blessed Healing",
 									["critical"] = 0,
+									["max"] = 783,
 									["id"] = 70772,
 									["healing"] = 783,
 									["overhealing"] = 783,
@@ -22508,29 +22508,29 @@ SkadaDB = {
 								},
 								["Glyph of Power Word: Shield"] = {
 									["min"] = 0,
-									["max"] = 3783,
 									["name"] = "Glyph of Power Word: Shield",
 									["critical"] = 30,
+									["max"] = 3783,
 									["id"] = 56160,
 									["healing"] = 26487,
 									["overhealing"] = 152374,
 									["hits"] = 70,
 								},
-								["Prayer of Mending"] = {
+								["Penance"] = {
 									["min"] = 0,
-									["max"] = 8290,
-									["name"] = "Prayer of Mending",
-									["critical"] = 5,
-									["id"] = 33110,
-									["healing"] = 71602,
-									["overhealing"] = 27366,
-									["hits"] = 16,
+									["name"] = "Penance",
+									["critical"] = 4,
+									["max"] = 6095,
+									["id"] = 52985,
+									["healing"] = 15022,
+									["overhealing"] = 21016,
+									["hits"] = 6,
 								},
 								["Echoes of Light"] = {
 									["min"] = 0,
-									["max"] = 4287,
 									["name"] = "Echoes of Light",
 									["critical"] = 0,
+									["max"] = 4287,
 									["id"] = 71641,
 									["healing"] = 8475,
 									["overhealing"] = 14626,
@@ -22635,13 +22635,13 @@ SkadaDB = {
 									["amount"] = 13474,
 									["class"] = "DRUID",
 								},
-								["Ggverybig"] = {
-									["amount"] = 25372,
-									["class"] = "PALADIN",
-								},
 								["Antonlr"] = {
 									["amount"] = 6202,
 									["class"] = "MAGE",
+								},
+								["Ggverybig"] = {
+									["amount"] = 25372,
+									["class"] = "PALADIN",
 								},
 								["Donaljtrump"] = {
 									["amount"] = 5927,
@@ -22651,8 +22651,8 @@ SkadaDB = {
 							["name"] = "Delcatty",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 117,
+							["dispells"] = 0,
 							["id"] = "0x070000000028B61C",
 							["first"] = 1573877496,
 						}, -- [5]
@@ -22670,6 +22670,12 @@ SkadaDB = {
 							["time"] = 121,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 684614,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 26308,
 							["power"] = {
 								{
 									["amount"] = 44,
@@ -22698,20 +22704,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 684614,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 26308,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 23167,
 							["healingspells"] = {
 								["Lifebloom"] = {
 									["min"] = 0,
-									["max"] = 6700,
 									["name"] = "Lifebloom",
 									["critical"] = 2,
+									["max"] = 6700,
 									["id"] = 48451,
 									["healing"] = 21073,
 									["overhealing"] = 119853,
@@ -22719,9 +22719,9 @@ SkadaDB = {
 								},
 								["Swiftmend"] = {
 									["min"] = 0,
-									["max"] = 14698,
 									["name"] = "Swiftmend",
 									["critical"] = 1,
+									["max"] = 14698,
 									["id"] = 18562,
 									["healing"] = 22464,
 									["overhealing"] = 0,
@@ -22729,9 +22729,9 @@ SkadaDB = {
 								},
 								["Regrowth"] = {
 									["min"] = 0,
-									["max"] = 7752,
 									["name"] = "Regrowth",
 									["critical"] = 6,
+									["max"] = 7752,
 									["id"] = 48443,
 									["healing"] = 26641,
 									["overhealing"] = 133492,
@@ -22739,9 +22739,9 @@ SkadaDB = {
 								},
 								["Nourish"] = {
 									["min"] = 0,
-									["max"] = 8232,
 									["name"] = "Nourish",
 									["critical"] = 1,
+									["max"] = 8232,
 									["id"] = 50464,
 									["healing"] = 8232,
 									["overhealing"] = 13217,
@@ -22749,9 +22749,9 @@ SkadaDB = {
 								},
 								["Rejuvenation"] = {
 									["min"] = 0,
-									["max"] = 2897,
 									["name"] = "Rejuvenation",
 									["critical"] = 0,
+									["max"] = 2897,
 									["id"] = 48441,
 									["healing"] = 92434,
 									["overhealing"] = 283420,
@@ -22759,9 +22759,9 @@ SkadaDB = {
 								},
 								["Wild Growth"] = {
 									["min"] = 0,
-									["max"] = 1047,
 									["name"] = "Wild Growth",
 									["critical"] = 0,
+									["max"] = 1047,
 									["id"] = 53251,
 									["healing"] = 79837,
 									["overhealing"] = 131972,
@@ -22769,9 +22769,9 @@ SkadaDB = {
 								},
 								["Living Seed"] = {
 									["min"] = 0,
-									["max"] = 4673,
 									["name"] = "Living Seed",
 									["critical"] = 0,
+									["max"] = 4673,
 									["id"] = 48503,
 									["healing"] = 16527,
 									["overhealing"] = 2660,
@@ -22834,13 +22834,13 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "WARRIOR",
 								},
-								["Surree"] = {
-									["amount"] = 56876,
-									["class"] = "WARRIOR",
-								},
 								["Burningveil"] = {
 									["amount"] = 25721,
 									["class"] = "DEATHKNIGHT",
+								},
+								["Haathun"] = {
+									["amount"] = 351,
+									["class"] = "WARRIOR",
 								},
 								["Diekzro"] = {
 									["amount"] = 0,
@@ -22854,10 +22854,6 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "DRUID",
 								},
-								["Reloadedrage"] = {
-									["amount"] = 5799,
-									["class"] = "WARRIOR",
-								},
 								["Ggverylong"] = {
 									["amount"] = 28560,
 									["class"] = "DEATHKNIGHT",
@@ -22866,13 +22862,17 @@ SkadaDB = {
 									["amount"] = 14502,
 									["class"] = "PRIEST",
 								},
+								["Antonlr"] = {
+									["amount"] = 1981,
+									["class"] = "MAGE",
+								},
 								["Ggverybig"] = {
 									["amount"] = 25828,
 									["class"] = "PALADIN",
 								},
-								["Antonlr"] = {
-									["amount"] = 1981,
-									["class"] = "MAGE",
+								["Bowbaby"] = {
+									["amount"] = 2893,
+									["class"] = "HUNTER",
 								},
 								["Kulhazard"] = {
 									["amount"] = 6660,
@@ -22882,24 +22882,24 @@ SkadaDB = {
 									["amount"] = 483,
 									["class"] = "DRUID",
 								},
-								["Haathun"] = {
-									["amount"] = 351,
+								["Reloadedrage"] = {
+									["amount"] = 5799,
 									["class"] = "WARRIOR",
 								},
 								["Eyestealer"] = {
 									["amount"] = 904,
 									["class"] = "ROGUE",
 								},
-								["Bowbaby"] = {
-									["amount"] = 2893,
-									["class"] = "HUNTER",
+								["Surree"] = {
+									["amount"] = 56876,
+									["class"] = "WARRIOR",
 								},
 							},
 							["name"] = "Donaljtrump",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004379B3",
 							["first"] = 1573877496,
 						}, -- [6]
@@ -22941,6 +22941,12 @@ SkadaDB = {
 							["time"] = 119,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 135788,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 27342,
 							["power"] = {
 								{
 									["amount"] = 8,
@@ -22970,20 +22976,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 135788,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 27342,
 							["totalabsorbs"] = 204813,
 							["maxhp"] = 23230,
 							["healingspells"] = {
 								["Glyph of Power Word: Shield"] = {
 									["min"] = 0,
-									["max"] = 2553,
 									["name"] = "Glyph of Power Word: Shield",
 									["critical"] = 20,
+									["max"] = 2553,
 									["id"] = 56160,
 									["healing"] = 19266,
 									["overhealing"] = 67290,
@@ -22991,9 +22991,9 @@ SkadaDB = {
 								},
 								["Penance"] = {
 									["min"] = 0,
-									["max"] = 4872,
 									["name"] = "Penance",
 									["critical"] = 6,
+									["max"] = 4872,
 									["id"] = 52985,
 									["healing"] = 19179,
 									["overhealing"] = 28231,
@@ -23001,9 +23001,9 @@ SkadaDB = {
 								},
 								["Flash Heal"] = {
 									["min"] = 0,
-									["max"] = 8302,
 									["name"] = "Flash Heal",
 									["critical"] = 6,
+									["max"] = 8302,
 									["id"] = 48071,
 									["healing"] = 31603,
 									["overhealing"] = 40267,
@@ -23116,8 +23116,8 @@ SkadaDB = {
 							["name"] = "Angeliito",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 116,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C496B",
 							["first"] = 1573877496,
 						}, -- [7]
@@ -23142,17 +23142,6 @@ SkadaDB = {
 							["time"] = 121,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 23621,
-									["spells"] = {
-										[20272] = 7258,
-										[20168] = 12832,
-										[20268] = 1131,
-										[55382] = 2400,
-									},
-								},
-							},
 							["overhealing"] = 2120429,
 							["damage"] = 18258,
 							["damagespells"] = {
@@ -23201,14 +23190,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 132805,
+							["power"] = {
+								[0] = {
+									["amount"] = 23621,
+									["spells"] = {
+										[20272] = 7258,
+										[20168] = 12832,
+										[20268] = 1131,
+										[55382] = 2400,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25754,
 							["healingspells"] = {
 								["Holy Light"] = {
 									["min"] = 0,
-									["max"] = 21015,
 									["name"] = "Holy Light",
 									["critical"] = 19,
+									["max"] = 21015,
 									["id"] = 48782,
 									["healing"] = 94759,
 									["overhealing"] = 662745,
@@ -23216,29 +23216,19 @@ SkadaDB = {
 								},
 								["Fountain of Light"] = {
 									["min"] = 0,
-									["max"] = 329,
 									["name"] = "Fountain of Light",
 									["critical"] = 0,
+									["max"] = 329,
 									["id"] = 71866,
 									["healing"] = 27909,
 									["overhealing"] = 62612,
 									["hits"] = 327,
 								},
-								["Judgement of Light"] = {
-									["min"] = 0,
-									["max"] = 1548,
-									["name"] = "Judgement of Light",
-									["critical"] = 0,
-									["id"] = 20267,
-									["healing"] = 132945,
-									["overhealing"] = 524629,
-									["hits"] = 1037,
-								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 6015,
@@ -23246,19 +23236,29 @@ SkadaDB = {
 								},
 								["Beacon of Light"] = {
 									["min"] = 0,
-									["max"] = 18265,
 									["name"] = "Beacon of Light",
 									["critical"] = 0,
+									["max"] = 18265,
 									["id"] = 53654,
 									["healing"] = 76175,
 									["overhealing"] = 600511,
 									["hits"] = 39,
 								},
+								["Judgement of Light"] = {
+									["min"] = 0,
+									["name"] = "Judgement of Light",
+									["critical"] = 0,
+									["max"] = 1548,
+									["id"] = 20267,
+									["healing"] = 132945,
+									["overhealing"] = 524629,
+									["hits"] = 1037,
+								},
 								["Glyph of Holy Light"] = {
 									["min"] = 0,
-									["max"] = 3251,
 									["name"] = "Glyph of Holy Light",
 									["critical"] = 0,
+									["max"] = 3251,
 									["id"] = 54968,
 									["healing"] = 65845,
 									["overhealing"] = 263917,
@@ -23326,13 +23326,13 @@ SkadaDB = {
 									["amount"] = 2468,
 									["class"] = "WARRIOR",
 								},
-								["Surree"] = {
-									["amount"] = 88712,
-									["class"] = "WARRIOR",
-								},
 								["Burningveil"] = {
 									["amount"] = 25826,
 									["class"] = "DEATHKNIGHT",
+								},
+								["Garzh"] = {
+									["amount"] = 4697,
+									["class"] = "WARRIOR",
 								},
 								["Pyreah"] = {
 									["amount"] = 1589,
@@ -23346,17 +23346,13 @@ SkadaDB = {
 									["amount"] = 8170,
 									["class"] = "DRUID",
 								},
-								["Reloadedrage"] = {
-									["amount"] = 8915,
-									["class"] = "WARRIOR",
+								["Ggverylong"] = {
+									["amount"] = 115476,
+									["class"] = "DEATHKNIGHT",
 								},
 								["Rushshot"] = {
 									["amount"] = 3318,
 									["class"] = "HUNTER",
-								},
-								["Ggverylong"] = {
-									["amount"] = 115476,
-									["class"] = "DEATHKNIGHT",
 								},
 								["시발"] = {
 									["amount"] = 2920,
@@ -23366,6 +23362,10 @@ SkadaDB = {
 									["amount"] = 2629,
 									["class"] = "MAGE",
 								},
+								["Bowbaby"] = {
+									["amount"] = 3364,
+									["class"] = "HUNTER",
+								},
 								["Kulhazard"] = {
 									["amount"] = 8635,
 									["class"] = "DEATHKNIGHT",
@@ -23374,24 +23374,24 @@ SkadaDB = {
 									["amount"] = 6840,
 									["class"] = "DRUID",
 								},
-								["Garzh"] = {
-									["amount"] = 4697,
+								["Reloadedrage"] = {
+									["amount"] = 8915,
 									["class"] = "WARRIOR",
 								},
 								["Eyestealer"] = {
 									["amount"] = 7037,
 									["class"] = "ROGUE",
 								},
-								["Bowbaby"] = {
-									["amount"] = 3364,
-									["class"] = "HUNTER",
+								["Surree"] = {
+									["amount"] = 88712,
+									["class"] = "WARRIOR",
 								},
 							},
 							["name"] = "Ggverybig",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 73,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C019C",
 							["first"] = 1573877496,
 						}, -- [8]
@@ -23428,21 +23428,6 @@ SkadaDB = {
 							["time"] = 120,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[2] = {
-									["amount"] = 2975,
-									["spells"] = {
-										[34952] = 2975,
-									},
-								},
-								[0] = {
-									["amount"] = 8236,
-									["spells"] = {
-										[20268] = 6100,
-										[34074] = 2136,
-									},
-								},
-							},
 							["overhealing"] = 25524,
 							["damage"] = 1128806,
 							["damagespells"] = {
@@ -23572,27 +23557,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Aimed Shot"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 10,
-									["MISS"] = 0,
-									["damage"] = 74263,
-									["DEFLECT"] = 0,
-									["id"] = 49050,
-									["max"] = 10437,
-									["min"] = 3680,
-									["PARRY"] = 0,
-									["critical"] = 7,
-									["hit"] = 3,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Wild Quiver Auto Shot"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -23609,6 +23573,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 4,
 									["hit"] = 4,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Aimed Shot"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 10,
+									["MISS"] = 0,
+									["damage"] = 74263,
+									["DEFLECT"] = 0,
+									["id"] = 49050,
+									["max"] = 10437,
+									["min"] = 3680,
+									["PARRY"] = 0,
+									["critical"] = 7,
+									["hit"] = 3,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -23701,14 +23686,29 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 24995,
+							["power"] = {
+								[2] = {
+									["amount"] = 2975,
+									["spells"] = {
+										[34952] = 2975,
+									},
+								},
+								[0] = {
+									["amount"] = 8236,
+									["spells"] = {
+										[20268] = 6100,
+										[34074] = 2136,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25754,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1091,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1091,
 									["id"] = 34299,
 									["healing"] = 1091,
 									["overhealing"] = 15274,
@@ -23716,9 +23716,9 @@ SkadaDB = {
 								},
 								["Garzh: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 915,
 									["name"] = "Garzh: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 915,
 									["id"] = 34299,
 									["healing"] = 1645,
 									["overhealing"] = 10250,
@@ -23751,8 +23751,8 @@ SkadaDB = {
 							["name"] = "Bowbaby",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 277,
+							["dispells"] = 0,
 							["id"] = "0x070000000000615D",
 							["first"] = 1573877497,
 						}, -- [9]
@@ -23789,21 +23789,6 @@ SkadaDB = {
 							["time"] = 111,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 11541,
-									["spells"] = {
-										[68285] = 11200,
-										[71566] = 341,
-									},
-								},
-								[3] = {
-									["amount"] = 60,
-									["spells"] = {
-										[51178] = 60,
-									},
-								},
-							},
 							["overhealing"] = 15075,
 							["damage"] = 312919,
 							["damagespells"] = {
@@ -23914,14 +23899,29 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 9175,
+							["power"] = {
+								[0] = {
+									["amount"] = 11541,
+									["spells"] = {
+										[68285] = 11200,
+										[71566] = 341,
+									},
+								},
+								[3] = {
+									["amount"] = 60,
+									["spells"] = {
+										[51178] = 60,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 23737,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1005,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1005,
 									["id"] = 34299,
 									["healing"] = 1005,
 									["overhealing"] = 15075,
@@ -23945,8 +23945,8 @@ SkadaDB = {
 							["name"] = "Colmillar",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 80,
+							["dispells"] = 0,
 							["id"] = "0x07000000004A933A",
 							["first"] = 1573877497,
 						}, -- [10]
@@ -23971,17 +23971,6 @@ SkadaDB = {
 							["time"] = 110,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 238,
-									["spells"] = {
-										[29131] = 10,
-										[2687] = 20,
-										[12964] = 58,
-										[58362] = 150,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 21168,
 							["damage"] = 1077551,
 							["damagespells"] = {
@@ -24135,14 +24124,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 34523,
+							["power"] = {
+								{
+									["amount"] = 238,
+									["spells"] = {
+										[29131] = 10,
+										[2687] = 20,
+										[12964] = 58,
+										[58362] = 150,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 37881,
 							["healingspells"] = {
 								["Bloodthirst"] = {
 									["min"] = 0,
-									["max"] = 378,
 									["name"] = "Bloodthirst",
 									["critical"] = 0,
+									["max"] = 378,
 									["id"] = 23880,
 									["healing"] = 4914,
 									["overhealing"] = 21168,
@@ -24171,8 +24171,8 @@ SkadaDB = {
 							["name"] = "Reloadedrage",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 102,
+							["dispells"] = 0,
 							["id"] = "0x070000000040BACA",
 							["first"] = 1573877498,
 						}, -- [11]
@@ -24184,10 +24184,10 @@ SkadaDB = {
 								["Koralon the Flame Watcher"] = 981461,
 							},
 							["auras"] = {
-								["Consecration"] = {
-									["id"] = 48819,
-									["uptime"] = 71,
-									["name"] = "Consecration",
+								["Righteous Vengeance"] = {
+									["id"] = 61840,
+									["uptime"] = 104,
+									["name"] = "Righteous Vengeance",
 									["active"] = 0,
 								},
 								["Heart of the Crusader"] = {
@@ -24196,10 +24196,10 @@ SkadaDB = {
 									["name"] = "Heart of the Crusader",
 									["active"] = 0,
 								},
-								["Judgement of Justice"] = {
-									["id"] = 20184,
-									["uptime"] = 107,
-									["name"] = "Judgement of Justice",
+								["Consecration"] = {
+									["id"] = 48819,
+									["uptime"] = 71,
+									["name"] = "Consecration",
 									["active"] = 0,
 								},
 								["Blood Corruption"] = {
@@ -24214,10 +24214,10 @@ SkadaDB = {
 									["name"] = "Vindication",
 									["active"] = 0,
 								},
-								["Righteous Vengeance"] = {
-									["id"] = 61840,
-									["uptime"] = 104,
-									["name"] = "Righteous Vengeance",
+								["Judgement of Justice"] = {
+									["id"] = 20184,
+									["uptime"] = 107,
+									["name"] = "Judgement of Justice",
 									["active"] = 0,
 								},
 							},
@@ -24227,18 +24227,6 @@ SkadaDB = {
 							["time"] = 118,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 34179,
-									["spells"] = {
-										[28730] = 620,
-										[20268] = 4524,
-										[54428] = 1032,
-										[57669] = 14827,
-										[31930] = 13176,
-									},
-								},
-							},
 							["overhealing"] = 52203,
 							["damage"] = 981461,
 							["damagespells"] = {
@@ -24475,24 +24463,46 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 37536,
+							["power"] = {
+								[0] = {
+									["amount"] = 34179,
+									["spells"] = {
+										[28730] = 620,
+										[20268] = 4524,
+										[54428] = 1032,
+										[57669] = 14827,
+										[31930] = 13176,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 31554,
 							["healingspells"] = {
 								["Flash of Light"] = {
 									["min"] = 0,
-									["max"] = 5635,
 									["name"] = "Flash of Light",
 									["critical"] = 1,
+									["max"] = 5635,
 									["id"] = 48785,
 									["healing"] = 5635,
 									["overhealing"] = 0,
 									["hits"] = 1,
 								},
+								["Improved Leader of the Pack"] = {
+									["min"] = 0,
+									["name"] = "Improved Leader of the Pack",
+									["critical"] = 0,
+									["max"] = 1604,
+									["id"] = 34299,
+									["healing"] = 2941,
+									["overhealing"] = 17915,
+									["hits"] = 15,
+								},
 								["Sheath of Light"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Sheath of Light",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 54203,
 									["healing"] = 0,
 									["overhealing"] = 2685,
@@ -24500,23 +24510,13 @@ SkadaDB = {
 								},
 								["Divine Storm"] = {
 									["min"] = 0,
-									["max"] = 1108,
 									["name"] = "Divine Storm",
 									["critical"] = 0,
+									["max"] = 1108,
 									["id"] = 54172,
 									["healing"] = 5909,
 									["overhealing"] = 31603,
 									["hits"] = 60,
-								},
-								["Improved Leader of the Pack"] = {
-									["min"] = 0,
-									["max"] = 1604,
-									["name"] = "Improved Leader of the Pack",
-									["critical"] = 0,
-									["id"] = 34299,
-									["healing"] = 2941,
-									["overhealing"] = 17915,
-									["hits"] = 15,
 								},
 							},
 							["damagetakenspells"] = {
@@ -24637,8 +24637,8 @@ SkadaDB = {
 							["name"] = "Vareline",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 424,
+							["dispells"] = 0,
 							["id"] = "0x070000000000B8EC",
 							["first"] = 1573877498,
 						}, -- [12]
@@ -24693,16 +24693,6 @@ SkadaDB = {
 							["time"] = 112,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 6078,
-									["spells"] = {
-										[29077] = 3218,
-										[67545] = 1625,
-										[20268] = 1235,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 294645,
 							["damagespells"] = {
@@ -24835,6 +24825,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 52907,
+							["power"] = {
+								[0] = {
+									["amount"] = 6078,
+									["spells"] = {
+										[29077] = 3218,
+										[67545] = 1625,
+										[20268] = 1235,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 22353,
 							["healingspells"] = {
@@ -24857,8 +24857,8 @@ SkadaDB = {
 							["name"] = "Reindemkal",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 318,
+							["dispells"] = 0,
 							["id"] = "0x0700000000486350",
 							["first"] = 1573877498,
 						}, -- [13]
@@ -24913,17 +24913,6 @@ SkadaDB = {
 							["time"] = 118,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 30576,
-									["spells"] = {
-										[71132] = 1406,
-										[57669] = 25875,
-										[20268] = 2695,
-										[55382] = 600,
-									},
-								},
-							},
 							["overhealing"] = 106713,
 							["damage"] = 361996,
 							["damagespells"] = {
@@ -25077,14 +25066,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 49582,
+							["power"] = {
+								[0] = {
+									["amount"] = 30576,
+									["spells"] = {
+										[71132] = 1406,
+										[57669] = 25875,
+										[20268] = 2695,
+										[55382] = 600,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 21880,
 							["healingspells"] = {
 								["Improved Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 280,
 									["name"] = "Improved Devouring Plague",
 									["critical"] = 3,
+									["max"] = 280,
 									["id"] = 75999,
 									["healing"] = 280,
 									["overhealing"] = 1790,
@@ -25092,9 +25092,9 @@ SkadaDB = {
 								},
 								["Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 462,
 									["name"] = "Devouring Plague",
 									["critical"] = 0,
+									["max"] = 462,
 									["id"] = 48300,
 									["healing"] = 2136,
 									["overhealing"] = 8502,
@@ -25102,9 +25102,9 @@ SkadaDB = {
 								},
 								["Vampiric Embrace"] = {
 									["min"] = 0,
-									["max"] = 544,
 									["name"] = "Vampiric Embrace",
 									["critical"] = 0,
+									["max"] = 544,
 									["id"] = 15290,
 									["healing"] = 20095,
 									["overhealing"] = 96421,
@@ -25158,8 +25158,8 @@ SkadaDB = {
 							["name"] = "Pyreah",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 535,
+							["dispells"] = 0,
 							["id"] = "0x070000000041F326",
 							["first"] = 1573877499,
 						}, -- [14]
@@ -25202,8 +25202,6 @@ SkadaDB = {
 							["time"] = 116,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 80724,
 							["damage"] = 782424,
 							["damagespells"] = {
@@ -25525,14 +25523,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 50598,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 31477,
 							["healingspells"] = {
 								["Eyestealer: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 274,
 									["name"] = "Eyestealer: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 274,
 									["id"] = 34299,
 									["healing"] = 274,
 									["overhealing"] = 11543,
@@ -25540,9 +25540,9 @@ SkadaDB = {
 								},
 								["Unholy Strength"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Unholy Strength",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 53365,
 									["healing"] = 0,
 									["overhealing"] = 11000,
@@ -25550,9 +25550,9 @@ SkadaDB = {
 								},
 								["Blood Presence"] = {
 									["min"] = 0,
-									["max"] = 337,
 									["name"] = "Blood Presence",
 									["critical"] = 0,
+									["max"] = 337,
 									["id"] = 50475,
 									["healing"] = 3298,
 									["overhealing"] = 160,
@@ -25560,9 +25560,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1334,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1334,
 									["id"] = 34299,
 									["healing"] = 3794,
 									["overhealing"] = 14882,
@@ -25570,9 +25570,9 @@ SkadaDB = {
 								},
 								["Drain Life"] = {
 									["min"] = 0,
-									["max"] = 1867,
 									["name"] = "Drain Life",
 									["critical"] = 0,
+									["max"] = 1867,
 									["id"] = 71838,
 									["healing"] = 2192,
 									["overhealing"] = 43139,
@@ -25605,8 +25605,8 @@ SkadaDB = {
 							["name"] = "Kulhazard",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 387,
+							["dispells"] = 0,
 							["id"] = "0x07000000004D1BB4",
 							["first"] = 1573877499,
 						}, -- [15]
@@ -25649,14 +25649,6 @@ SkadaDB = {
 							["time"] = 115,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 6300,
-									["spells"] = {
-										[20268] = 6300,
-									},
-								},
-							},
 							["overhealing"] = 128945,
 							["damage"] = 876654,
 							["damagespells"] = {
@@ -25681,27 +25673,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Haathun: Attack"] = {
-									["DODGE"] = 1,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 13,
-									["totalhits"] = 69,
-									["MISS"] = 1,
-									["damage"] = 129982,
-									["DEFLECT"] = 0,
-									["id"] = 6603,
-									["max"] = 3788,
-									["min"] = 921,
-									["PARRY"] = 0,
-									["critical"] = 13,
-									["hit"] = 41,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Corruption"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -25718,6 +25689,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 0,
 									["hit"] = 25,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Haathun: Attack"] = {
+									["DODGE"] = 1,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 13,
+									["totalhits"] = 69,
+									["MISS"] = 1,
+									["damage"] = 129982,
+									["DEFLECT"] = 0,
+									["id"] = 6603,
+									["max"] = 3788,
+									["min"] = 921,
+									["PARRY"] = 0,
+									["critical"] = 13,
+									["hit"] = 41,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -25831,14 +25823,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 12775,
+							["power"] = {
+								[0] = {
+									["amount"] = 6300,
+									["spells"] = {
+										[20268] = 6300,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25694,
 							["healingspells"] = {
 								["Fel Armor"] = {
 									["min"] = 0,
-									["max"] = 708,
 									["name"] = "Fel Armor",
 									["critical"] = 0,
+									["max"] = 708,
 									["id"] = 47893,
 									["healing"] = 3540,
 									["overhealing"] = 13452,
@@ -25846,9 +25846,9 @@ SkadaDB = {
 								},
 								["Fel Synergy"] = {
 									["min"] = 0,
-									["max"] = 1567,
 									["name"] = "Fel Synergy",
 									["critical"] = 0,
+									["max"] = 1567,
 									["id"] = 54181,
 									["healing"] = 6284,
 									["overhealing"] = 106934,
@@ -25856,9 +25856,9 @@ SkadaDB = {
 								},
 								["Haathun: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1283,
 									["name"] = "Haathun: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1283,
 									["id"] = 34299,
 									["healing"] = 2988,
 									["overhealing"] = 8559,
@@ -25891,8 +25891,8 @@ SkadaDB = {
 							["name"] = "Diekzro",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 375,
+							["dispells"] = 0,
 							["id"] = "0x07000000001581C2",
 							["first"] = 1573877499,
 						}, -- [16]
@@ -25941,16 +25941,6 @@ SkadaDB = {
 							["time"] = 117,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 34874,
-									["spells"] = {
-										[31930] = 13176,
-										[57669] = 16391,
-										[20268] = 5307,
-									},
-								},
-							},
 							["overhealing"] = 45066,
 							["damage"] = 1218198,
 							["damagespells"] = {
@@ -26188,14 +26178,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 58856,
+							["power"] = {
+								[0] = {
+									["amount"] = 34874,
+									["spells"] = {
+										[31930] = 13176,
+										[57669] = 16391,
+										[20268] = 5307,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 32134,
 							["healingspells"] = {
 								["Flash of Light"] = {
 									["min"] = 0,
-									["max"] = 4102,
 									["name"] = "Flash of Light",
 									["critical"] = 0,
+									["max"] = 4102,
 									["id"] = 48785,
 									["healing"] = 4102,
 									["overhealing"] = 0,
@@ -26203,9 +26203,9 @@ SkadaDB = {
 								},
 								["Divine Storm"] = {
 									["min"] = 0,
-									["max"] = 1087,
 									["name"] = "Divine Storm",
 									["critical"] = 0,
+									["max"] = 1087,
 									["id"] = 54172,
 									["healing"] = 3347,
 									["overhealing"] = 26816,
@@ -26213,9 +26213,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1634,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1634,
 									["id"] = 34299,
 									["healing"] = 4358,
 									["overhealing"] = 18250,
@@ -26288,8 +26288,8 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "PALADIN",
 								},
-								["Surree"] = {
-									["amount"] = 0,
+								["Garzh"] = {
+									["amount"] = 530,
 									["class"] = "WARRIOR",
 								},
 								["Worldwideftw"] = {
@@ -26300,25 +26300,25 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "DRUID",
 								},
-								["Garzh"] = {
-									["amount"] = 530,
-									["class"] = "WARRIOR",
+								["Diekzro"] = {
+									["amount"] = 0,
+									["class"] = "WARLOCK",
 								},
 								["Rushshot"] = {
 									["amount"] = 0,
 									["class"] = "HUNTER",
 								},
-								["Diekzro"] = {
-									["amount"] = 0,
-									["class"] = "WARLOCK",
+								["Antonlr"] = {
+									["amount"] = 1087,
+									["class"] = "MAGE",
 								},
 								["Ggverylong"] = {
 									["amount"] = 0,
 									["class"] = "DEATHKNIGHT",
 								},
-								["Antonlr"] = {
-									["amount"] = 1087,
-									["class"] = "MAGE",
+								["Bowbaby"] = {
+									["amount"] = 0,
+									["class"] = "HUNTER",
 								},
 								["Kulhazard"] = {
 									["amount"] = 0,
@@ -26328,9 +26328,9 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "DRUID",
 								},
-								["Bowbaby"] = {
+								["Surree"] = {
 									["amount"] = 0,
-									["class"] = "HUNTER",
+									["class"] = "WARRIOR",
 								},
 								["Eyestealer"] = {
 									["amount"] = 0,
@@ -26344,8 +26344,8 @@ SkadaDB = {
 							["name"] = "Worldwideftw",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 465,
+							["dispells"] = 0,
 							["id"] = "0x0700000000019060",
 							["first"] = 1573877500,
 						}, -- [17]
@@ -26382,35 +26382,25 @@ SkadaDB = {
 							["time"] = 116,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 647,
-									["spells"] = {
-										[51637] = 332,
-										[25046] = 15,
-										[14181] = 300,
-									},
-								},
-							},
 							["overhealing"] = 17121,
 							["damage"] = 756725,
 							["damagespells"] = {
-								["Garrote"] = {
+								["Instant Poison IX"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 12,
+									["totalhits"] = 141,
 									["MISS"] = 0,
-									["damage"] = 11820,
+									["damage"] = 223068,
 									["DEFLECT"] = 0,
-									["id"] = 48676,
-									["max"] = 986,
-									["min"] = 984,
+									["id"] = 57965,
+									["max"] = 2355,
+									["min"] = 1081,
 									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 12,
+									["critical"] = 47,
+									["hit"] = 94,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -26436,48 +26426,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Deadly Poison IX"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 33,
-									["MISS"] = 0,
-									["damage"] = 58413,
-									["DEFLECT"] = 0,
-									["id"] = 57970,
-									["max"] = 2075,
-									["min"] = 1243,
-									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 33,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Instant Poison IX"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 141,
-									["MISS"] = 0,
-									["damage"] = 223068,
-									["DEFLECT"] = 0,
-									["id"] = 57965,
-									["max"] = 2355,
-									["min"] = 1081,
-									["PARRY"] = 0,
-									["critical"] = 47,
-									["hit"] = 94,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Mutilate"] = {
 									["DODGE"] = 2,
 									["REFLECT"] = 0,
@@ -26494,6 +26442,48 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 30,
 									["hit"] = 15,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Garrote"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 12,
+									["MISS"] = 0,
+									["damage"] = 11820,
+									["DEFLECT"] = 0,
+									["id"] = 48676,
+									["max"] = 986,
+									["min"] = 984,
+									["PARRY"] = 0,
+									["critical"] = 0,
+									["hit"] = 12,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Deadly Poison IX"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 33,
+									["MISS"] = 0,
+									["damage"] = 58413,
+									["DEFLECT"] = 0,
+									["id"] = 57970,
+									["max"] = 2075,
+									["min"] = 1243,
+									["PARRY"] = 0,
+									["critical"] = 0,
+									["hit"] = 33,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -26564,14 +26554,24 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 95894,
+							["power"] = {
+								[3] = {
+									["amount"] = 647,
+									["spells"] = {
+										[51637] = 332,
+										[25046] = 15,
+										[14181] = 300,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 28274,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1449,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1449,
 									["id"] = 34299,
 									["healing"] = 5400,
 									["overhealing"] = 17121,
@@ -26600,8 +26600,8 @@ SkadaDB = {
 							["name"] = "Kimkary",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 140,
+							["dispells"] = 0,
 							["id"] = "0x070000000000A61E",
 							["first"] = 1573877500,
 						}, -- [18]
@@ -26638,14 +26638,6 @@ SkadaDB = {
 							["time"] = 112,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 375,
-									["spells"] = {
-										[35548] = 375,
-									},
-								},
-							},
 							["overhealing"] = 18304,
 							["damage"] = 828191,
 							["damagespells"] = {
@@ -26819,14 +26811,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 22550,
+							["power"] = {
+								[3] = {
+									["amount"] = 375,
+									["spells"] = {
+										[35548] = 375,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 27014,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1259,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1259,
 									["id"] = 34299,
 									["healing"] = 1259,
 									["overhealing"] = 18304,
@@ -26850,8 +26850,8 @@ SkadaDB = {
 							["name"] = "Sapforever",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 266,
+							["dispells"] = 0,
 							["id"] = "0x0700000000435FB0",
 							["first"] = 1573877500,
 						}, -- [19]
@@ -26888,21 +26888,6 @@ SkadaDB = {
 							["time"] = 108,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 12560,
-									["spells"] = {
-										[20268] = 6100,
-										[64181] = 6460,
-									},
-								},
-								[4] = {
-									["amount"] = 1134,
-									["spells"] = {
-										[54131] = 1134,
-									},
-								},
-							},
 							["overhealing"] = 32430,
 							["damage"] = 825611,
 							["damagespells"] = {
@@ -27161,14 +27146,29 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 17122,
+							["power"] = {
+								[0] = {
+									["amount"] = 12560,
+									["spells"] = {
+										[20268] = 6100,
+										[64181] = 6460,
+									},
+								},
+								[4] = {
+									["amount"] = 1134,
+									["spells"] = {
+										[54131] = 1134,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 26144,
 							["healingspells"] = {
 								["시발: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 818,
 									["name"] = "시발: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 818,
 									["id"] = 34299,
 									["healing"] = 1556,
 									["overhealing"] = 8324,
@@ -27176,9 +27176,9 @@ SkadaDB = {
 								},
 								["시발: Bloodthirsty"] = {
 									["min"] = 0,
-									["max"] = 247,
 									["name"] = "시발: Bloodthirsty",
 									["critical"] = 0,
+									["max"] = 247,
 									["id"] = 54131,
 									["healing"] = 3623,
 									["overhealing"] = 9715,
@@ -27186,9 +27186,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1107,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1107,
 									["id"] = 34299,
 									["healing"] = 1107,
 									["overhealing"] = 14391,
@@ -27216,8 +27216,8 @@ SkadaDB = {
 							["name"] = "Rushshot",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 230,
+							["dispells"] = 0,
 							["id"] = "0x07000000003F3B34",
 							["first"] = 1573877500,
 						}, -- [20]
@@ -27261,16 +27261,6 @@ SkadaDB = {
 							["time"] = 116,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 8620,
-									["spells"] = {
-										[29077] = 5175,
-										[67545] = 1950,
-										[20268] = 1495,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 396002,
 							["damagespells"] = {
@@ -27382,6 +27372,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 44515,
+							["power"] = {
+								[0] = {
+									["amount"] = 8620,
+									["spells"] = {
+										[29077] = 5175,
+										[67545] = 1950,
+										[20268] = 1495,
+									},
+								},
+							},
 							["totalabsorbs"] = 18019,
 							["maxhp"] = 19763,
 							["healingspells"] = {
@@ -27404,8 +27404,8 @@ SkadaDB = {
 							["name"] = "Nagatolls",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 281,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B059A",
 							["first"] = 1573877500,
 						}, -- [21]
@@ -27448,15 +27448,6 @@ SkadaDB = {
 							["time"] = 108,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 14226,
-									["spells"] = {
-										[20268] = 2346,
-										[53506] = 11880,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 405964,
 							["damagespells"] = {
@@ -27568,6 +27559,15 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 35907,
+							["power"] = {
+								[0] = {
+									["amount"] = 14226,
+									["spells"] = {
+										[20268] = 2346,
+										[53506] = 11880,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 19137,
 							["healingspells"] = {
@@ -27590,8 +27590,8 @@ SkadaDB = {
 							["name"] = "Rhaigorn",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 337,
+							["dispells"] = 0,
 							["id"] = "0x07000000004D0D1A",
 							["first"] = 1573877501,
 						}, -- [22]
@@ -27616,16 +27616,6 @@ SkadaDB = {
 							["time"] = 109,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 8064,
-									["spells"] = {
-										[42987] = 3427,
-										[20268] = 4137,
-										[67666] = 500,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 558471,
 							["damagespells"] = {
@@ -27716,6 +27706,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 26275,
+							["power"] = {
+								[0] = {
+									["amount"] = 8064,
+									["spells"] = {
+										[42987] = 3427,
+										[20268] = 4137,
+										[67666] = 500,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 20393,
 							["healingspells"] = {
@@ -27738,8 +27738,8 @@ SkadaDB = {
 							["name"] = "Antonlr",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 71,
+							["dispells"] = 0,
 							["id"] = "0x0700000000154A0F",
 							["first"] = 1573877501,
 						}, -- [23]
@@ -27770,8 +27770,6 @@ SkadaDB = {
 							["time"] = 114,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 18469,
 							["damage"] = 446813,
 							["damagespells"] = {
@@ -28008,14 +28006,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 104754,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 38311,
 							["healingspells"] = {
 								["Blood Presence"] = {
 									["min"] = 0,
-									["max"] = 557,
 									["name"] = "Blood Presence",
 									["critical"] = 0,
+									["max"] = 557,
 									["id"] = 50475,
 									["healing"] = 4521,
 									["overhealing"] = 0,
@@ -28023,9 +28023,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1623,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1623,
 									["id"] = 34299,
 									["healing"] = 3246,
 									["overhealing"] = 14607,
@@ -28033,9 +28033,9 @@ SkadaDB = {
 								},
 								["Unholy Strength"] = {
 									["min"] = 0,
-									["max"] = 1217,
 									["name"] = "Unholy Strength",
 									["critical"] = 0,
+									["max"] = 1217,
 									["id"] = 53365,
 									["healing"] = 2345,
 									["overhealing"] = 3862,
@@ -28064,8 +28064,8 @@ SkadaDB = {
 							["name"] = "Burningveil",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 178,
+							["dispells"] = 0,
 							["id"] = "0x07000000002B6235",
 							["first"] = 1573877502,
 						}, -- [24]
@@ -28096,14 +28096,6 @@ SkadaDB = {
 							["time"] = 110,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[6] = {
-									["amount"] = 10,
-									["spells"] = {
-										[50422] = 10,
-									},
-								},
-							},
 							["overhealing"] = 13404,
 							["damage"] = 167187,
 							["damagespells"] = {
@@ -28236,14 +28228,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 190537,
+							["power"] = {
+								[6] = {
+									["amount"] = 10,
+									["spells"] = {
+										[50422] = 10,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 53377,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 2022,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 2022,
 									["id"] = 34299,
 									["healing"] = 2437,
 									["overhealing"] = 13404,
@@ -28277,8 +28277,8 @@ SkadaDB = {
 							["name"] = "Ggverylong",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 161,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B7216",
 							["first"] = 1573877503,
 						}, -- [25]
@@ -28487,14 +28487,6 @@ SkadaDB = {
 							["time"] = 34,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[6] = {
-									["amount"] = 30,
-									["spells"] = {
-										[50422] = 30,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 59182,
 							["damagespells"] = {
@@ -28627,6 +28619,14 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 72976,
+							["power"] = {
+								[6] = {
+									["amount"] = 30,
+									["spells"] = {
+										[50422] = 30,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 52877,
 							["healingspells"] = {
@@ -28649,8 +28649,8 @@ SkadaDB = {
 							["name"] = "Ggverylong",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B7216",
 							["first"] = 1573877091,
 						}, -- [1]
@@ -28662,16 +28662,16 @@ SkadaDB = {
 								["Flame Warder"] = 62972,
 							},
 							["auras"] = {
+								["Mind Trauma"] = {
+									["id"] = 48301,
+									["uptime"] = 11,
+									["name"] = "Mind Trauma",
+									["active"] = 0,
+								},
 								["Devouring Plague"] = {
 									["id"] = 48300,
 									["uptime"] = 5,
 									["name"] = "Devouring Plague",
-									["active"] = 0,
-								},
-								["Vampiric Touch"] = {
-									["id"] = 48160,
-									["uptime"] = 13,
-									["name"] = "Vampiric Touch",
 									["active"] = 0,
 								},
 								["Mind Flay"] = {
@@ -28680,10 +28680,10 @@ SkadaDB = {
 									["name"] = "Mind Flay",
 									["active"] = 0,
 								},
-								["Mind Trauma"] = {
-									["id"] = 48301,
-									["uptime"] = 11,
-									["name"] = "Mind Trauma",
+								["Vampiric Touch"] = {
+									["id"] = 48160,
+									["uptime"] = 13,
+									["name"] = "Vampiric Touch",
 									["active"] = 0,
 								},
 							},
@@ -28693,15 +28693,6 @@ SkadaDB = {
 							["time"] = 34,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 7237,
-									["spells"] = {
-										[57669] = 7009,
-										[71132] = 228,
-									},
-								},
-							},
 							["overhealing"] = 1998,
 							["damage"] = 62972,
 							["damagespells"] = {
@@ -28855,14 +28846,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 7237,
+									["spells"] = {
+										[57669] = 7009,
+										[71132] = 228,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 20830,
 							["healingspells"] = {
 								["Improved Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Devouring Plague",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 75999,
 									["healing"] = 0,
 									["overhealing"] = 266,
@@ -28870,9 +28870,9 @@ SkadaDB = {
 								},
 								["Devouring Plague"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Devouring Plague",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 48300,
 									["healing"] = 0,
 									["overhealing"] = 1732,
@@ -28891,8 +28891,8 @@ SkadaDB = {
 							["name"] = "Pyreah",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 34,
+							["dispells"] = 0,
 							["id"] = "0x070000000041F326",
 							["first"] = 1573877091,
 						}, -- [2]
@@ -28910,6 +28910,12 @@ SkadaDB = {
 							["time"] = 35,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 132124,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 0,
 							["power"] = {
 								[0] = {
 									["amount"] = 5007,
@@ -28932,20 +28938,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 132124,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 0,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 23167,
 							["healingspells"] = {
 								["Lifebloom"] = {
 									["min"] = 0,
-									["max"] = 3391,
 									["name"] = "Lifebloom",
 									["critical"] = 2,
+									["max"] = 3391,
 									["id"] = 48451,
 									["healing"] = 11140,
 									["overhealing"] = 31978,
@@ -28953,9 +28953,9 @@ SkadaDB = {
 								},
 								["Swiftmend"] = {
 									["min"] = 0,
-									["max"] = 8739,
 									["name"] = "Swiftmend",
 									["critical"] = 1,
+									["max"] = 8739,
 									["id"] = 18562,
 									["healing"] = 8739,
 									["overhealing"] = 5902,
@@ -28963,9 +28963,9 @@ SkadaDB = {
 								},
 								["Regrowth"] = {
 									["min"] = 0,
-									["max"] = 4757,
 									["name"] = "Regrowth",
 									["critical"] = 3,
+									["max"] = 4757,
 									["id"] = 48443,
 									["healing"] = 18264,
 									["overhealing"] = 37146,
@@ -28973,9 +28973,9 @@ SkadaDB = {
 								},
 								["Rejuvenation"] = {
 									["min"] = 0,
-									["max"] = 2673,
 									["name"] = "Rejuvenation",
 									["critical"] = 0,
+									["max"] = 2673,
 									["id"] = 48441,
 									["healing"] = 10068,
 									["overhealing"] = 50897,
@@ -28983,9 +28983,9 @@ SkadaDB = {
 								},
 								["Wild Growth"] = {
 									["min"] = 0,
-									["max"] = 816,
 									["name"] = "Wild Growth",
 									["critical"] = 0,
+									["max"] = 816,
 									["id"] = 53251,
 									["healing"] = 816,
 									["overhealing"] = 6201,
@@ -28993,9 +28993,9 @@ SkadaDB = {
 								},
 								["Living Seed"] = {
 									["min"] = 0,
-									["max"] = 4655,
 									["name"] = "Living Seed",
 									["critical"] = 0,
+									["max"] = 4655,
 									["id"] = 48503,
 									["healing"] = 12395,
 									["overhealing"] = 0,
@@ -29034,8 +29034,8 @@ SkadaDB = {
 							["name"] = "Donaljtrump",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004379B3",
 							["first"] = 1573877091,
 						}, -- [3]
@@ -29053,6 +29053,12 @@ SkadaDB = {
 							["time"] = 34,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 164170,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 0,
 							["power"] = {
 								[0] = {
 									["amount"] = 3432,
@@ -29062,20 +29068,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 164170,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 0,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 24754,
 							["healingspells"] = {
 								["Glyph of Holy Light"] = {
 									["min"] = 0,
-									["max"] = 2390,
 									["name"] = "Glyph of Holy Light",
 									["critical"] = 0,
+									["max"] = 2390,
 									["id"] = 54968,
 									["healing"] = 10246,
 									["overhealing"] = 40984,
@@ -29083,9 +29083,9 @@ SkadaDB = {
 								},
 								["Holy Light"] = {
 									["min"] = 0,
-									["max"] = 10454,
 									["name"] = "Holy Light",
 									["critical"] = 3,
+									["max"] = 10454,
 									["id"] = 48782,
 									["healing"] = 23391,
 									["overhealing"] = 68729,
@@ -29093,9 +29093,9 @@ SkadaDB = {
 								},
 								["Beacon of Light"] = {
 									["min"] = 0,
-									["max"] = 18657,
 									["name"] = "Beacon of Light",
 									["critical"] = 0,
+									["max"] = 18657,
 									["id"] = 53654,
 									["healing"] = 39569,
 									["overhealing"] = 52553,
@@ -29103,9 +29103,9 @@ SkadaDB = {
 								},
 								["Fountain of Light"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Fountain of Light",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 71866,
 									["healing"] = 0,
 									["overhealing"] = 1904,
@@ -29128,13 +29128,13 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "WARRIOR",
 								},
+								["Haathun"] = {
+									["amount"] = 0,
+									["class"] = "WARRIOR",
+								},
 								["Vareline"] = {
 									["amount"] = 0,
 									["class"] = "PALADIN",
-								},
-								["Ggverylong"] = {
-									["amount"] = 49815,
-									["class"] = "DEATHKNIGHT",
 								},
 								["Sapforever"] = {
 									["amount"] = 0,
@@ -29144,16 +29144,16 @@ SkadaDB = {
 									["amount"] = 0,
 									["class"] = "WARRIOR",
 								},
-								["Haathun"] = {
-									["amount"] = 0,
-									["class"] = "WARRIOR",
+								["Ggverylong"] = {
+									["amount"] = 49815,
+									["class"] = "DEATHKNIGHT",
 								},
 							},
 							["name"] = "Ggverybig",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C019C",
 							["first"] = 1573877091,
 						}, -- [4]
@@ -29178,36 +29178,25 @@ SkadaDB = {
 							["time"] = 34,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 7883,
-									["spells"] = {
-										[31930] = 2196,
-										[57669] = 4684,
-										[54428] = 456,
-										[28730] = 547,
-									},
-								},
-							},
 							["overhealing"] = 6086,
 							["damage"] = 156748,
 							["damagespells"] = {
-								["Judgement of Corruption"] = {
+								["Consecration"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 2,
+									["totalhits"] = 16,
 									["MISS"] = 0,
-									["damage"] = 17342,
+									["damage"] = 9509,
 									["DEFLECT"] = 0,
-									["id"] = 53733,
-									["max"] = 9127,
-									["min"] = 8215,
+									["id"] = 48819,
+									["max"] = 650,
+									["min"] = 520,
 									["PARRY"] = 0,
-									["critical"] = 2,
-									["hit"] = 0,
+									["critical"] = 0,
+									["hit"] = 16,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -29276,22 +29265,43 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Consecration"] = {
+								["Righteous Vengeance"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 16,
+									["totalhits"] = 6,
 									["MISS"] = 0,
-									["damage"] = 9509,
+									["damage"] = 8243,
 									["DEFLECT"] = 0,
-									["id"] = 48819,
-									["max"] = 650,
-									["min"] = 520,
+									["id"] = 61840,
+									["max"] = 1811,
+									["min"] = 1023,
 									["PARRY"] = 0,
 									["critical"] = 0,
-									["hit"] = 16,
+									["hit"] = 6,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Judgement of Corruption"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 2,
+									["MISS"] = 0,
+									["damage"] = 17342,
+									["DEFLECT"] = 0,
+									["id"] = 53733,
+									["max"] = 9127,
+									["min"] = 8215,
+									["PARRY"] = 0,
+									["critical"] = 2,
+									["hit"] = 0,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -29313,27 +29323,6 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 3,
 									["hit"] = 1,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Righteous Vengeance"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 6,
-									["MISS"] = 0,
-									["damage"] = 8243,
-									["DEFLECT"] = 0,
-									["id"] = 61840,
-									["max"] = 1811,
-									["min"] = 1023,
-									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 6,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -29363,14 +29352,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 18376,
+							["power"] = {
+								[0] = {
+									["amount"] = 7883,
+									["spells"] = {
+										[31930] = 2196,
+										[57669] = 4684,
+										[54428] = 456,
+										[28730] = 547,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 30964,
 							["healingspells"] = {
 								["Divine Storm"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Divine Storm",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 54172,
 									["healing"] = 0,
 									["overhealing"] = 3462,
@@ -29378,9 +29378,9 @@ SkadaDB = {
 								},
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 1312,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 1312,
 									["id"] = 34299,
 									["healing"] = 1312,
 									["overhealing"] = 2624,
@@ -29444,8 +29444,8 @@ SkadaDB = {
 							["name"] = "Vareline",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 15,
+							["dispells"] = 0,
 							["id"] = "0x070000000000B8EC",
 							["first"] = 1573877092,
 						}, -- [5]
@@ -29476,14 +29476,6 @@ SkadaDB = {
 							["time"] = 25,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 120,
-									["spells"] = {
-										[35548] = 120,
-									},
-								},
-							},
 							["overhealing"] = 3996,
 							["damage"] = 179412,
 							["damagespells"] = {
@@ -29657,14 +29649,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[3] = {
+									["amount"] = 120,
+									["spells"] = {
+										[35548] = 120,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 23584,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 3996,
@@ -29683,8 +29683,8 @@ SkadaDB = {
 							["name"] = "Sapforever",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 17,
+							["dispells"] = 0,
 							["id"] = "0x0700000000435FB0",
 							["first"] = 1573877093,
 						}, -- [6]
@@ -29703,8 +29703,6 @@ SkadaDB = {
 							["time"] = 4,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 0,
 							["damage"] = 5492,
 							["damagespells"] = {
@@ -29753,6 +29751,8 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 0,
 							["healingspells"] = {
@@ -29765,8 +29765,8 @@ SkadaDB = {
 							["name"] = "Haathun",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0xF1400CFE35000003",
 							["first"] = 1573877095,
 						}, -- [7]
@@ -29791,8 +29791,6 @@ SkadaDB = {
 							["time"] = 30,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 4116,
 							["damage"] = 50635,
 							["damagespells"] = {
@@ -29858,22 +29856,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Shield Slam"] = {
+								["Heroic Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 4,
+									["totalhits"] = 10,
 									["MISS"] = 0,
-									["damage"] = 13854,
+									["damage"] = 14428,
 									["DEFLECT"] = 0,
-									["id"] = 47488,
-									["max"] = 5859,
-									["min"] = 2656,
+									["id"] = 47450,
+									["max"] = 2494,
+									["min"] = 981,
 									["PARRY"] = 0,
-									["critical"] = 1,
-									["hit"] = 3,
+									["critical"] = 3,
+									["hit"] = 7,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -29900,22 +29898,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Heroic Strike"] = {
+								["Shield Slam"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 10,
+									["totalhits"] = 4,
 									["MISS"] = 0,
-									["damage"] = 14428,
+									["damage"] = 13854,
 									["DEFLECT"] = 0,
-									["id"] = 47450,
-									["max"] = 2494,
-									["min"] = 981,
+									["id"] = 47488,
+									["max"] = 5859,
+									["min"] = 2656,
 									["PARRY"] = 0,
-									["critical"] = 3,
-									["hit"] = 7,
+									["critical"] = 1,
+									["hit"] = 3,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -29945,14 +29943,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 51612,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 48555,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 4116,
@@ -29976,8 +29976,8 @@ SkadaDB = {
 							["name"] = "Surree",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 10,
+							["dispells"] = 0,
 							["id"] = "0x070000000021A5DA",
 							["first"] = 1573877096,
 						}, -- [8]
@@ -29996,15 +29996,6 @@ SkadaDB = {
 							["time"] = 22,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[3] = {
-									["amount"] = 141,
-									["spells"] = {
-										[51637] = 66,
-										[14181] = 75,
-									},
-								},
-							},
 							["overhealing"] = 3483,
 							["damage"] = 147033,
 							["damagespells"] = {
@@ -30116,14 +30107,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[3] = {
+									["amount"] = 141,
+									["spells"] = {
+										[51637] = 66,
+										[14181] = 75,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 24924,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 3483,
@@ -30142,8 +30142,8 @@ SkadaDB = {
 							["name"] = "Kimkary",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x070000000000A61E",
 							["first"] = 1573877096,
 						}, -- [9]
@@ -30168,17 +30168,6 @@ SkadaDB = {
 							["time"] = 21,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 58,
-									["spells"] = {
-										[29131] = 10,
-										[2687] = 20,
-										[58362] = 20,
-										[12964] = 8,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 1986,
 							["damage"] = 132356,
 							["damagespells"] = {
@@ -30308,27 +30297,6 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Execute"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 1,
-									["MISS"] = 0,
-									["damage"] = 11690,
-									["DEFLECT"] = 0,
-									["id"] = 20647,
-									["max"] = 11690,
-									["min"] = 11690,
-									["PARRY"] = 0,
-									["critical"] = 1,
-									["hit"] = 0,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
 								["Heroic Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -30345,6 +30313,27 @@ SkadaDB = {
 									["PARRY"] = 0,
 									["critical"] = 2,
 									["hit"] = 2,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
+								["Execute"] = {
+									["DODGE"] = 0,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 1,
+									["MISS"] = 0,
+									["damage"] = 11690,
+									["DEFLECT"] = 0,
+									["id"] = 20647,
+									["max"] = 11690,
+									["min"] = 11690,
+									["PARRY"] = 0,
+									["critical"] = 1,
+									["hit"] = 0,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -30374,14 +30363,25 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								{
+									["amount"] = 58,
+									["spells"] = {
+										[29131] = 10,
+										[2687] = 20,
+										[58362] = 20,
+										[12964] = 8,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 33181,
 							["healingspells"] = {
 								["Bloodthirst"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Bloodthirst",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 23880,
 									["healing"] = 0,
 									["overhealing"] = 1986,
@@ -30400,8 +30400,8 @@ SkadaDB = {
 							["name"] = "Nhm",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 10,
+							["dispells"] = 0,
 							["id"] = "0x070000000041C52F",
 							["first"] = 1573877098,
 						}, -- [10]
@@ -30421,14 +30421,6 @@ SkadaDB = {
 							["time"] = 21,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 88,
-									["spells"] = {
-										[71566] = 88,
-									},
-								},
-							},
 							["overhealing"] = 46532,
 							["damage"] = 8625,
 							["damagespells"] = {
@@ -30456,14 +30448,22 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 88,
+									["spells"] = {
+										[71566] = 88,
+									},
+								},
+							},
 							["totalabsorbs"] = 2159,
 							["maxhp"] = 22770,
 							["healingspells"] = {
 								["Holy Nova"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Holy Nova",
 									["critical"] = 6,
+									["max"] = 0,
 									["id"] = 48076,
 									["healing"] = 0,
 									["overhealing"] = 39334,
@@ -30471,9 +30471,9 @@ SkadaDB = {
 								},
 								["Flash Heal"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Flash Heal",
 									["critical"] = 1,
+									["max"] = 0,
 									["id"] = 48071,
 									["healing"] = 0,
 									["overhealing"] = 7198,
@@ -30508,8 +30508,8 @@ SkadaDB = {
 							["name"] = "Angeliito",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C496B",
 							["first"] = 1573877098,
 						}, -- [11]
@@ -30528,15 +30528,6 @@ SkadaDB = {
 							["time"] = 18,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								{
-									["amount"] = 72,
-									["spells"] = {
-										[12964] = 12,
-										[58362] = 60,
-									},
-								}, -- [1]
-							},
 							["overhealing"] = 4173,
 							["damage"] = 186856,
 							["damagespells"] = {
@@ -30561,22 +30552,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Execute"] = {
+								["Heroic Strike"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 2,
+									["totalhits"] = 8,
 									["MISS"] = 0,
-									["damage"] = 11809,
+									["damage"] = 56546,
 									["DEFLECT"] = 0,
-									["id"] = 20647,
-									["max"] = 8260,
-									["min"] = 3549,
+									["id"] = 47450,
+									["max"] = 8415,
+									["min"] = 3701,
 									["PARRY"] = 0,
-									["critical"] = 1,
-									["hit"] = 1,
+									["critical"] = 6,
+									["hit"] = 2,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -30603,7 +30594,7 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Slam"] = {
+								["Execute"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
@@ -30611,14 +30602,14 @@ SkadaDB = {
 									["glancing"] = 0,
 									["totalhits"] = 2,
 									["MISS"] = 0,
-									["damage"] = 7685,
+									["damage"] = 11809,
 									["DEFLECT"] = 0,
-									["id"] = 50783,
-									["max"] = 3847,
-									["min"] = 3838,
+									["id"] = 20647,
+									["max"] = 8260,
+									["min"] = 3549,
 									["PARRY"] = 0,
-									["critical"] = 0,
-									["hit"] = 2,
+									["critical"] = 1,
+									["hit"] = 1,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -30645,21 +30636,21 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Heroic Strike"] = {
+								["Slam"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 8,
+									["totalhits"] = 2,
 									["MISS"] = 0,
-									["damage"] = 56546,
+									["damage"] = 7685,
 									["DEFLECT"] = 0,
-									["id"] = 47450,
-									["max"] = 8415,
-									["min"] = 3701,
+									["id"] = 50783,
+									["max"] = 3847,
+									["min"] = 3838,
 									["PARRY"] = 0,
-									["critical"] = 6,
+									["critical"] = 0,
 									["hit"] = 2,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
@@ -30690,14 +30681,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								{
+									["amount"] = 72,
+									["spells"] = {
+										[12964] = 12,
+										[58362] = 60,
+									},
+								}, -- [1]
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 32111,
 							["healingspells"] = {
 								["Bloodthirst"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Bloodthirst",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 23880,
 									["healing"] = 0,
 									["overhealing"] = 4173,
@@ -30716,8 +30716,8 @@ SkadaDB = {
 							["name"] = "Reloadedrage",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x070000000040BACA",
 							["first"] = 1573877100,
 						}, -- [12]
@@ -30742,20 +30742,6 @@ SkadaDB = {
 							["time"] = 18,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 1530,
-									["spells"] = {
-										[68285] = 1530,
-									},
-								},
-								[3] = {
-									["amount"] = 60,
-									["spells"] = {
-										[51178] = 60,
-									},
-								},
-							},
 							["overhealing"] = 2763,
 							["damage"] = 83299,
 							["damagespells"] = {
@@ -30888,14 +30874,28 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 1530,
+									["spells"] = {
+										[68285] = 1530,
+									},
+								},
+								[3] = {
+									["amount"] = 60,
+									["spells"] = {
+										[51178] = 60,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 21747,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 2763,
@@ -30914,8 +30914,8 @@ SkadaDB = {
 							["name"] = "Belalin",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 18,
+							["dispells"] = 0,
 							["id"] = "0x0700000000462DB4",
 							["first"] = 1573877100,
 						}, -- [13]
@@ -30952,8 +30952,6 @@ SkadaDB = {
 							["time"] = 18,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 15410,
 							["damage"] = 123317,
 							["damagespells"] = {
@@ -30972,27 +30970,6 @@ SkadaDB = {
 									["min"] = 1124,
 									["PARRY"] = 0,
 									["critical"] = 1,
-									["hit"] = 5,
-									["EVADE"] = 0,
-									["RESIST"] = 0,
-									["BLOCK"] = 0,
-									["ABSORB"] = 0,
-								},
-								["Blood Plague"] = {
-									["DODGE"] = 0,
-									["REFLECT"] = 0,
-									["crushing"] = 0,
-									["IMMUNE"] = 0,
-									["glancing"] = 0,
-									["totalhits"] = 5,
-									["MISS"] = 0,
-									["damage"] = 5605,
-									["DEFLECT"] = 0,
-									["id"] = 55078,
-									["max"] = 1121,
-									["min"] = 1121,
-									["PARRY"] = 0,
-									["critical"] = 0,
 									["hit"] = 5,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
@@ -31041,6 +31018,27 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
+								["Blood Strike"] = {
+									["DODGE"] = 1,
+									["REFLECT"] = 0,
+									["crushing"] = 0,
+									["IMMUNE"] = 0,
+									["glancing"] = 0,
+									["totalhits"] = 3,
+									["MISS"] = 0,
+									["damage"] = 7932,
+									["DEFLECT"] = 0,
+									["id"] = 49930,
+									["max"] = 4002,
+									["min"] = 3930,
+									["PARRY"] = 0,
+									["critical"] = 2,
+									["hit"] = 0,
+									["EVADE"] = 0,
+									["RESIST"] = 0,
+									["BLOCK"] = 0,
+									["ABSORB"] = 0,
+								},
 								["Drain Life"] = {
 									["DODGE"] = 0,
 									["REFLECT"] = 0,
@@ -31083,22 +31081,22 @@ SkadaDB = {
 									["BLOCK"] = 0,
 									["ABSORB"] = 0,
 								},
-								["Blood Strike"] = {
-									["DODGE"] = 1,
+								["Blood Plague"] = {
+									["DODGE"] = 0,
 									["REFLECT"] = 0,
 									["crushing"] = 0,
 									["IMMUNE"] = 0,
 									["glancing"] = 0,
-									["totalhits"] = 3,
+									["totalhits"] = 5,
 									["MISS"] = 0,
-									["damage"] = 7932,
+									["damage"] = 5605,
 									["DEFLECT"] = 0,
-									["id"] = 49930,
-									["max"] = 4002,
-									["min"] = 3930,
+									["id"] = 55078,
+									["max"] = 1121,
+									["min"] = 1121,
 									["PARRY"] = 0,
-									["critical"] = 2,
-									["hit"] = 0,
+									["critical"] = 0,
+									["hit"] = 5,
 									["EVADE"] = 0,
 									["RESIST"] = 0,
 									["BLOCK"] = 0,
@@ -31275,14 +31273,16 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 30477,
 							["healingspells"] = {
 								["Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 2584,
@@ -31290,9 +31290,9 @@ SkadaDB = {
 								},
 								["Drain Life"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Drain Life",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 71838,
 									["healing"] = 0,
 									["overhealing"] = 7146,
@@ -31300,9 +31300,9 @@ SkadaDB = {
 								},
 								["Eyestealer: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Eyestealer: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 3744,
@@ -31310,9 +31310,9 @@ SkadaDB = {
 								},
 								["Unholy Strength"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Unholy Strength",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 53365,
 									["healing"] = 0,
 									["overhealing"] = 1936,
@@ -31335,8 +31335,8 @@ SkadaDB = {
 							["name"] = "Kulhazard",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 52,
+							["dispells"] = 0,
 							["id"] = "0x07000000004D1BB4",
 							["first"] = 1573877100,
 						}, -- [14]
@@ -31361,15 +31361,6 @@ SkadaDB = {
 							["time"] = 24,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 24864,
-									["spells"] = {
-										[31818] = 12432,
-										[32553] = 12432,
-									},
-								},
-							},
 							["overhealing"] = 21268,
 							["damage"] = 126774,
 							["damagespells"] = {
@@ -31460,14 +31451,23 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 24864,
+									["spells"] = {
+										[31818] = 12432,
+										[32553] = 12432,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 25086,
 							["healingspells"] = {
 								["Haathun: Improved Leader of the Pack"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Haathun: Improved Leader of the Pack",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 34299,
 									["healing"] = 0,
 									["overhealing"] = 2256,
@@ -31475,9 +31475,9 @@ SkadaDB = {
 								},
 								["Fel Armor"] = {
 									["min"] = 0,
-									["max"] = 691,
 									["name"] = "Fel Armor",
 									["critical"] = 0,
+									["max"] = 691,
 									["id"] = 47893,
 									["healing"] = 691,
 									["overhealing"] = 2764,
@@ -31485,9 +31485,9 @@ SkadaDB = {
 								},
 								["Fel Synergy"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Fel Synergy",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 54181,
 									["healing"] = 0,
 									["overhealing"] = 16248,
@@ -31510,8 +31510,8 @@ SkadaDB = {
 							["name"] = "Diekzro",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 2,
+							["dispells"] = 0,
 							["id"] = "0x07000000001581C2",
 							["first"] = 1573877100,
 						}, -- [15]
@@ -31529,6 +31529,12 @@ SkadaDB = {
 							["time"] = 23,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 53935,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 0,
 							["power"] = {
 								[0] = {
 									["amount"] = 428,
@@ -31537,20 +31543,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 53935,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 0,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 21659,
 							["healingspells"] = {
 								["Riptide"] = {
 									["min"] = 0,
-									["max"] = 1155,
 									["name"] = "Riptide",
 									["critical"] = 0,
+									["max"] = 1155,
 									["id"] = 61301,
 									["healing"] = 1155,
 									["overhealing"] = 4620,
@@ -31558,9 +31558,9 @@ SkadaDB = {
 								},
 								["Ancestral Awakening"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Ancestral Awakening",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 52752,
 									["healing"] = 0,
 									["overhealing"] = 6028,
@@ -31568,9 +31568,9 @@ SkadaDB = {
 								},
 								["Chain Heal"] = {
 									["min"] = 0,
-									["max"] = 4744,
 									["name"] = "Chain Heal",
 									["critical"] = 1,
+									["max"] = 4744,
 									["id"] = 55459,
 									["healing"] = 4744,
 									["overhealing"] = 12135,
@@ -31578,9 +31578,9 @@ SkadaDB = {
 								},
 								["Earthliving"] = {
 									["min"] = 0,
-									["max"] = 897,
 									["name"] = "Earthliving",
 									["critical"] = 0,
+									["max"] = 897,
 									["id"] = 52000,
 									["healing"] = 1748,
 									["overhealing"] = 2553,
@@ -31588,9 +31588,9 @@ SkadaDB = {
 								},
 								["Earth Shield"] = {
 									["min"] = 0,
-									["max"] = 4933,
 									["name"] = "Earth Shield",
 									["critical"] = 2,
+									["max"] = 4933,
 									["id"] = 379,
 									["healing"] = 13155,
 									["overhealing"] = 0,
@@ -31598,9 +31598,9 @@ SkadaDB = {
 								},
 								["Lesser Healing Wave"] = {
 									["min"] = 0,
-									["max"] = 3574,
 									["name"] = "Lesser Healing Wave",
 									["critical"] = 2,
+									["max"] = 3574,
 									["id"] = 49276,
 									["healing"] = 5417,
 									["overhealing"] = 28599,
@@ -31635,8 +31635,8 @@ SkadaDB = {
 							["name"] = "Rauna",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000004C757C",
 							["first"] = 1573877101,
 						}, -- [16]
@@ -31654,14 +31654,14 @@ SkadaDB = {
 							["time"] = 16,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 0,
 							["damage"] = 0,
 							["damagespells"] = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 31984,
 							["healingspells"] = {
@@ -31674,8 +31674,8 @@ SkadaDB = {
 							["name"] = "Worldwideftw",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x0700000000019060",
 							["first"] = 1573877101,
 						}, -- [17]
@@ -31706,14 +31706,6 @@ SkadaDB = {
 							["time"] = 16,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-								[0] = {
-									["amount"] = 65,
-									["spells"] = {
-										[67545] = 65,
-									},
-								},
-							},
 							["overhealing"] = 0,
 							["damage"] = 13257,
 							["damagespells"] = {
@@ -31804,6 +31796,14 @@ SkadaDB = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+								[0] = {
+									["amount"] = 65,
+									["spells"] = {
+										[67545] = 65,
+									},
+								},
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 0,
 							["healingspells"] = {
@@ -31816,8 +31816,8 @@ SkadaDB = {
 							["name"] = "Nagatolls",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 14,
+							["dispells"] = 0,
 							["id"] = "0x07000000004B059A",
 							["first"] = 1573877102,
 						}, -- [18]
@@ -31835,14 +31835,14 @@ SkadaDB = {
 							["time"] = 0,
 							["interrupts"] = 0,
 							["deathts"] = 0,
-							["power"] = {
-							},
 							["overhealing"] = 0,
 							["damage"] = 0,
 							["damagespells"] = {
 							},
 							["deaths"] = 0,
 							["damagetaken"] = 0,
+							["power"] = {
+							},
 							["totalabsorbs"] = 0,
 							["maxhp"] = 21374,
 							["healingspells"] = {
@@ -31855,8 +31855,8 @@ SkadaDB = {
 							["name"] = "Rushshot",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x07000000003F3B34",
 							["first"] = 1573877108,
 						}, -- [19]
@@ -31874,6 +31874,12 @@ SkadaDB = {
 							["time"] = 1,
 							["interrupts"] = 0,
 							["deathts"] = 0,
+							["overhealing"] = 1050,
+							["damage"] = 0,
+							["damagespells"] = {
+							},
+							["deaths"] = 0,
+							["damagetaken"] = 0,
 							["power"] = {
 								[4] = {
 									["amount"] = 21,
@@ -31888,20 +31894,14 @@ SkadaDB = {
 									},
 								},
 							},
-							["overhealing"] = 1050,
-							["damage"] = 0,
-							["damagespells"] = {
-							},
-							["deaths"] = 0,
-							["damagetaken"] = 0,
 							["totalabsorbs"] = 0,
 							["maxhp"] = 0,
 							["healingspells"] = {
 								["Mend Pet"] = {
 									["min"] = 0,
-									["max"] = 0,
 									["name"] = "Mend Pet",
 									["critical"] = 0,
+									["max"] = 0,
 									["id"] = 48990,
 									["healing"] = 0,
 									["overhealing"] = 1050,
@@ -31920,8 +31920,8 @@ SkadaDB = {
 							["name"] = "Bowbaby",
 							["failevents"] = {
 							},
-							["dispells"] = 0,
 							["uptime"] = 0,
+							["dispells"] = 0,
 							["id"] = "0x070000000000615D",
 							["first"] = 1573877123,
 						}, -- [20]

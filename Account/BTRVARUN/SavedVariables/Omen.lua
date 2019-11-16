@@ -31,9 +31,9 @@ Omen3DB = {
 				["Font"] = "ABF",
 			},
 			["Bar"] = {
+				["Texture"] = "Armory",
 				["Font"] = "ABF",
 				["FontSize"] = 14,
-				["Texture"] = "Armory",
 				["Spacing"] = 1,
 			},
 		},
