@@ -1,0 +1,159 @@
+MACRO 120 " Recount" Ability_Ambush
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+qdw
+END
+MACRO 116 "avoidance" INV_Misc_QuestionMark
+/run ChatFrame1:AddMessage(format("Avoidance with Stoneskin Gargoyle: %.2f%%", GetDodgeChance() + GetParryChance() + 6 + 1/(0.0625 + 0.956/(floor(GetCombatRatingBonus(CR_DEFENSE_SKILL))*0.04))))
+END
+MACRO 150 "barkskin" INV_Misc_QuestionMark
+#showtooltip
+/cast Barkskin
+/use Corroded Skeleton Key
+END
+MACRO 148 "berserk" INV_Misc_QuestionMark
+#showtooltip
+/cast Berserking(Racial)
+/cast Death Wish
+/use Aldriana's Gloves of Secrecy
+END
+MACRO 166 "bt cleave" INV_Misc_QuestionMark
+#showtooltip bloodthirst
+/startattack
+/cast bloodrage
+/cast bloodthirst
+/cast cleave
+END
+MACRO 167 "bt hs" INV_Misc_QuestionMark
+#showtooltip bloodthirst
+/startattack
+/cast bloodrage
+/cast bloodthirst
+/cast heroic strike
+END
+MACRO 171 "charge" INV_Misc_QuestionMark
+#showtooltip intercept
+/cast bloodrage
+/cast intercept
+END
+MACRO 149 "charge" INV_Misc_QuestionMark
+#showtooltip
+/cast feral charge - cat
+/startattack
+END
+MACRO 134 "corruptionnopet" INV_Misc_QuestionMark
+#showtooltip Corruption
+/cast Corruption(Rank 10)
+/cast !Shadow Cleave(Demon)
+END
+MACRO 137 "dl" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] drain life
+END
+MACRO 157 "dl" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+/cast drain life
+END
+MACRO 141 "dm" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=self] devour magic
+END
+MACRO 2 "ds" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus,harm,exists][target] concussive shot
+END
+MACRO 136 "felguard" INV_Misc_QuestionMark
+#showtooltip Summon felguard
+/cast Fel Domination
+/cast Summon felguard
+END
+MACRO 118 "FLASK" Ability_Mage_ConjureFoodRank12
+/run nf="Flask!: ";for i=1,GetNumRaidMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,"Flask")or strfind(ufl,"Distilled")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i).." ";end;end;end;SendChatMessage(nf,"raid");
+END
+MACRO 1 "focus" Ability_BackStab
+/focus
+END
+MACRO 170 "get weapons" INV_Misc_QuestionMark
+#showtooltip berserker stance
+/stopcasting
+/equipslot 16 Shadowmourne
+/equipslot 17 Glorenzelg, High-Blade of the Silver Hand
+/cast berserker stance
+END
+MACRO 160 "glove" INV_Misc_QuestionMark
+#showtooltip
+/use 10
+/petattack
+END
+MACRO 139 "haunt" INV_Misc_QuestionMark
+#showtooltip haunt
+/use 10
+/cast haunt
+/petattack
+END
+MACRO 146 "hauntfocus" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] haunt
+END
+MACRO 162 "incinerate" INV_Misc_QuestionMark
+#showtooltip
+/cast incinerate
+/cast Shadow Cleave(Demon)
+/cast Demonic Empowerment
+END
+MACRO 117 "inferno" Ability_Mage_FireStarter
+/target living inferno
+END
+MACRO 164 "intervene" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] intervene
+END
+MACRO 127 "max cam" Ability_CheapShot
+/script SetCVar("cameraDistanceMax",50) 
+END
+MACRO 158 "meta" INV_Misc_QuestionMark
+#showtooltip metamorphosis
+/cast metamorphosis
+/cast Blood Fury(Racial)
+/cast Immolation Aura(Demon)
+/cast Shadow Cleave(Demon)
+END
+MACRO 152 "petattack" Ability_BackStab
+/petattack
+END
+MACRO 145 "recount" Ability_BackStab
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 130 "repop" INV_Misc_QuestionMark
+/script RepopMe();
+END
+MACRO 138 "salv" Ability_BullRush
+/s Give me Hand of Salvation!
+END
+MACRO 131 "setfocus" Ability_Creature_Cursed_03
+/focus
+END
+MACRO 165 "st" INV_Misc_QuestionMark
+#showtooltip Shattering Throw
+/Cast Battle Stance
+/Cast Shattering Throw
+END
+MACRO 169 "sw" INV_Misc_QuestionMark
+#showtooltip Shield Wall
+/stopcasting
+/cast Defensive Stance
+/equipslot 16 Shadowmourne
+/equipslot 17 Icecrown Glacial Wall
+/cast Shield Wall
+END
+MACRO 135 "target focus" Ability_Creature_Cursed_05
+/target focus
+END
+MACRO 172 "Time-lost" INV_Misc_QuestionMark
+/tar Time
+END
+MACRO 168 "ww" INV_Misc_QuestionMark
+#showtooltip whirlwind
+/cast bloodrage
+/cast whirlwind
+END
