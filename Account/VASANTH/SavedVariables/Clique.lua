@@ -3,9 +3,12 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
+		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
 		["Immutability - Icecrown"] = "Immutability - Icecrown",
 	},
 	["profiles"] = {
+		["Milkmycow - Icecrown"] = {
+		},
 		["Immutability - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {

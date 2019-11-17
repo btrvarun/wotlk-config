@@ -2,6 +2,7 @@
 SkadaDB = {
 	["profileKeys"] = {
 		["Kkthnx - Lordaeron"] = "Default",
+		["Milkmycow - Icecrown"] = "Default",
 		["Immutability - Icecrown"] = "Default",
 	},
 	["profiles"] = {
