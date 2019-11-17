@@ -3,45 +3,12 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
-		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
 	},
 	["profiles"] = {
-		["Invariably - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Renew",
-						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
-					},
-					["2"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Power Word: Shield",
-						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
-					},
-				},
-			},
-			["blacklist"] = {
-				["ElvUF_TargetTarget"] = true,
-				["ElvUF_Target"] = true,
-				["TargetFrame"] = true,
-				["PetFrame"] = true,
-				["FocusFrame"] = true,
-				["ElvUF_Player"] = true,
-				["ElvUF_TargetTargetTarget"] = true,
-				["PlayerFrame"] = true,
-			},
-		},
-		["Dreamstar - Icecrown"] = {
-		},
 		["Bowbaby - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {
@@ -115,6 +82,39 @@ CliqueDB = {
 				["ElvUF_Target"] = true,
 				["PlayerFrame"] = true,
 			},
+		},
+		["Invariably - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Renew",
+						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
+					},
+					["2"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Power Word: Shield",
+						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
+					},
+				},
+			},
+			["blacklist"] = {
+				["ElvUF_TargetTarget"] = true,
+				["ElvUF_Target"] = true,
+				["TargetFrame"] = true,
+				["PetFrame"] = true,
+				["FocusFrame"] = true,
+				["ElvUF_Player"] = true,
+				["ElvUF_TargetTargetTarget"] = true,
+				["PlayerFrame"] = true,
+			},
+		},
+		["Dreamstar - Icecrown"] = {
 		},
 	},
 }

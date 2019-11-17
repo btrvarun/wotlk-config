@@ -1,6 +1,5 @@
 MACRO 16777224 "as" INV_Misc_QuestionMark
 #showtooltip aimed shot
-/petattack
 /cancelaura deterrence
 /cast !aspect of the dragonhawk
 /cast aimed shot
@@ -19,7 +18,6 @@ MACRO 16777221 "cds" INV_Misc_QuestionMark
 END
 MACRO 16777218 "chimera" INV_Misc_QuestionMark
 #showtooltip chimera shot
-/petattack
 /cast !aspect of the dragonhawk
 /cancelaura deterrence
 /cast chimera shot
@@ -56,11 +54,14 @@ MACRO 16777217 "ss" INV_Misc_QuestionMark
 END
 MACRO 16777219 "ss" INV_Misc_QuestionMark
 #showtooltip steady shot
-/petattack
 /cancelaura deterrence
 /cast steady shot
 /cast silencing shot
 /cast Kill Command
+END
+MACRO 16777230 "tranq" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] tranquilizing shot
 END
 MACRO 16777226 "viper" INV_Misc_QuestionMark
 #showtooltip

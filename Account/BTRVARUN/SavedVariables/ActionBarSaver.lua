@@ -855,8 +855,8 @@ ActionBarSaverDB = {
 				"spell|36||Call Pet||883", -- [66]
 				"macro|67||dragonhawk|Interface\\Icons\\Spell_Nature_WispSplode|#showtooltip/n/cast !aspect of the dragonhawk", -- [67]
 				"macro|68||viper|Interface\\Icons\\Ability_Hunter_AspectoftheViper|#showtooltip/n/cast !aspect of the viper", -- [68]
-				"spell|82||Distracting Shot|Rank 1|20736", -- [69]
-				"spell|120||Tranquilizing Shot||19801", -- [70]
+				"spell|120||Tranquilizing Shot||19801", -- [69]
+				"macro|70||tranq|Interface\\Icons\\Spell_Nature_Drowsy|#showtooltip/n/cast [@focus] tranquilizing shot", -- [70]
 				"spell|101||Readiness||23989", -- [71]
 				"macro|72||pack|Interface\\Icons\\Ability_Mount_WhiteTiger|#showtooltip/n/cast !aspect of the pack", -- [72]
 			},
