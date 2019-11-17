@@ -24,24 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"how was goa", -- [1]
-			"Relationship", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Relationship", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			154, -- [11]
-			"0x0700000000432C68", -- [12]
-			0, -- [13]
-			[51] = 1573835627,
-			[50] = "CHAT_MSG_WHISPER",
-			[52] = "|cffc41e3aRelationship|r",
-		}, -- [1]
-		{
 			"ive never been there", -- [1]
 			"Relationship", -- [2]
 			"", -- [3]
@@ -58,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1573835634,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [2]
+		}, -- [1]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -76,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1573835634,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [3]
+		}, -- [2]
 		{
 			"it was awesome", -- [1]
 			"Relationship", -- [2]
@@ -94,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1573835636,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [4]
+		}, -- [3]
 		{
 			"beaches trekking", -- [1]
 			"Relationship", -- [2]
@@ -112,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1573835650,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [5]
+		}, -- [4]
 		{
 			"and driving mostly", -- [1]
 			"Relationship", -- [2]
@@ -130,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1573835657,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [6]
+		}, -- [5]
 		{
 			"cool place", -- [1]
 			"Relationship", -- [2]
@@ -148,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1573835665,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [7]
+		}, -- [6]
 		{
 			"i hardly drink so i cant go clubbing and shit", -- [1]
 			"Relationship", -- [2]
@@ -166,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1573835689,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [8]
+		}, -- [7]
 		{
 			"nice", -- [1]
 			"Relationship", -- [2]
@@ -184,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1573835778,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [9]
+		}, -- [8]
 		{
 			"my semester end exam is like in 2 months", -- [1]
 			"Relationship", -- [2]
@@ -202,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1573835858,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [10]
+		}, -- [9]
 		{
 			"till then no college, no attendance", -- [1]
 			"Relationship", -- [2]
@@ -220,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1573835868,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [11]
+		}, -- [10]
 		{
 			"im like playing 24x7", -- [1]
 			"Relationship", -- [2]
@@ -238,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1573835871,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [12]
+		}, -- [11]
 		{
 			"now", -- [1]
 			"Relationship", -- [2]
@@ -256,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1573835873,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [13]
+		}, -- [12]
 		{
 			"i only leave my house when i go to gym", -- [1]
 			"Relationship", -- [2]
@@ -274,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1573835884,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [14]
+		}, -- [13]
 		{
 			"other then that FULL power", -- [1]
 			"Relationship", -- [2]
@@ -292,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1573835890,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [15]
+		}, -- [14]
 		{
 			"lol", -- [1]
 			"Relationship", -- [2]
@@ -310,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1573835924,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [16]
+		}, -- [15]
 		{
 			"dafug", -- [1]
 			"Relationship", -- [2]
@@ -328,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1573835955,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [17]
+		}, -- [16]
 		{
 			"its like college classes last for another 1 month", -- [1]
 			"Relationship", -- [2]
@@ -346,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1573835967,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [18]
+		}, -- [17]
 		{
 			"but there is no attendance", -- [1]
 			"Relationship", -- [2]
@@ -364,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1573835975,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [19]
+		}, -- [18]
 		{
 			"but this game is a black hole", -- [1]
 			"Relationship", -- [2]
@@ -382,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1573835989,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [20]
+		}, -- [19]
 		{
 			"depressing af", -- [1]
 			"Relationship", -- [2]
@@ -400,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1573836000,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [21]
+		}, -- [20]
 		{
 			"only people jebaiting teachers into revealing questions from final paper", -- [1]
 			"Relationship", -- [2]
@@ -418,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1573836007,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [22]
+		}, -- [21]
 		{
 			"why is it depressing xD", -- [1]
 			"Relationship", -- [2]
@@ -436,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1573836015,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [23]
+		}, -- [22]
 		{
 			"idk when i was looking for a job in the us", -- [1]
 			"Relationship", -- [2]
@@ -454,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1573836028,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [24]
+		}, -- [23]
 		{
 			"like 20 months ago", -- [1]
 			"Relationship", -- [2]
@@ -472,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1573836043,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [25]
+		}, -- [24]
 		{
 			"i was gaming 24x7 ", -- [1]
 			"Relationship", -- [2]
@@ -490,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1573836049,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [26]
+		}, -- [25]
 		{
 			"like craaaaaaaaaaaaaaaaaaaaaaaaaazy", -- [1]
 			"Relationship", -- [2]
@@ -508,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1573836056,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [27]
+		}, -- [26]
 		{
 			"didn't eat didn't sleep", -- [1]
 			"Relationship", -- [2]
@@ -526,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1573836060,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [28]
+		}, -- [27]
 		{
 			"didn't go out", -- [1]
 			"Relationship", -- [2]
@@ -544,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1573836063,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [29]
+		}, -- [28]
 		{
 			"any heal for 2s?", -- [1]
 			"Primezero", -- [2]
@@ -562,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1573836066,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffc69b6dPrimezero|r",
-		}, -- [30]
+		}, -- [29]
 		{
 			"my depression and anxiety got a hold of me", -- [1]
 			"Relationship", -- [2]
@@ -580,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1573836074,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [31]
+		}, -- [30]
 		{
 			"terrible time", -- [1]
 			"Relationship", -- [2]
@@ -598,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1573836121,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [32]
+		}, -- [31]
 		{
 			"but i was coping through gaming", -- [1]
 			"Relationship", -- [2]
@@ -616,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1573836131,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [33]
+		}, -- [32]
 		{
 			"ye", -- [1]
 			"Relationship", -- [2]
@@ -634,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1573836153,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [34]
+		}, -- [33]
 		{
 			"can u like stay logged in on shaman for another 5 mins?", -- [1]
 			"Relationship", -- [2]
@@ -652,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1573836202,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [35]
+		}, -- [34]
 		{
 			"i need to logout on this", -- [1]
 			"Relationship", -- [2]
@@ -670,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1573836205,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [36]
+		}, -- [35]
 		{
 			"kay", -- [1]
 			"Relationship", -- [2]
@@ -688,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1573836208,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [37]
+		}, -- [36]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:1998:0700000000250BEE:1:11:15:19:4294967295:4294967295:4294967295:4294967295|h[Dalaran Cooking Award]|h|r!", -- [1]
 			"Sorenpriest", -- [2]
@@ -706,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1573836422,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "|cffffffffSorenpriest|r",
-		}, -- [38]
+		}, -- [37]
 		{
 			"im currently farming an insane amount of gold and coins", -- [1]
 			"Relationship", -- [2]
@@ -724,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1573836506,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [39]
+		}, -- [38]
 		{
 			"im like stocking up on coins before gold squish", -- [1]
 			"Relationship", -- [2]
@@ -742,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1573836521,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [40]
+		}, -- [39]
 		{
 			"after that will gift u some ", -- [1]
 			"Relationship", -- [2]
@@ -760,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1573836538,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [41]
+		}, -- [40]
 		{
 			"lel how many do you have", -- [1]
 			"Relationship", -- [2]
@@ -778,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1573836553,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [42]
+		}, -- [41]
 		{
 			"im farming like 10 coins/day", -- [1]
 			"Relationship", -- [2]
@@ -796,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1573836591,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [43]
+		}, -- [42]
 		{
 			"i have currently 189 coins", -- [1]
 			"Relationship", -- [2]
@@ -814,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1573836599,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [44]
+		}, -- [43]
 		{
 			"rofl damn", -- [1]
 			"Relationship", -- [2]
@@ -832,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1573836605,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [45]
+		}, -- [44]
 		{
 			"like i said", -- [1]
 			"Relationship", -- [2]
@@ -850,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1573836613,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [46]
+		}, -- [45]
 		{
 			"full power", -- [1]
 			"Relationship", -- [2]
@@ -868,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1573836615,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [47]
+		}, -- [46]
 		{
 			"making coins before gold squish", -- [1]
 			"Relationship", -- [2]
@@ -886,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1573836622,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [48]
+		}, -- [47]
 		{
 			"few days before/after gold squish making coins will be hard", -- [1]
 			"Relationship", -- [2]
@@ -904,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1573836634,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [49]
+		}, -- [48]
 		{
 			"cus stuff is reseting", -- [1]
 			"Relationship", -- [2]
@@ -922,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1573836641,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [50]
+		}, -- [49]
 		{
 			"ye", -- [1]
 			"Relationship", -- [2]
@@ -940,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1573836647,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [51]
+		}, -- [50]
 		{
 			"just gear up new toons", -- [1]
 			"Relationship", -- [2]
@@ -958,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1573836664,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [52]
+		}, -- [51]
 		{
 			"so that you have one of everything", -- [1]
 			"Relationship", -- [2]
@@ -976,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1573836669,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [53]
+		}, -- [52]
 		{
 			"ye im doing that", -- [1]
 			"Relationship", -- [2]
@@ -994,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1573836676,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [54]
+		}, -- [53]
 		{
 			"making mage,warlock,boomy,hunter,bear", -- [1]
 			"Relationship", -- [2]
@@ -1012,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1573836701,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [55]
+		}, -- [54]
 		{
 			"all of them in progreess", -- [1]
 			"Relationship", -- [2]
@@ -1030,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1573836706,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [56]
+		}, -- [55]
 		{
 			"need to get boosted 1 at a time in blood oath", -- [1]
 			"Relationship", -- [2]
@@ -1048,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1573836716,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [57]
+		}, -- [56]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1066,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1573836716,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [58]
+		}, -- [57]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1084,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1573836719,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [59]
+		}, -- [58]
 		{
 			"thing is", -- [1]
 			"Relationship", -- [2]
@@ -1102,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1573836729,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [60]
+		}, -- [59]
 		{
 			"once i get core raider in blood oath", -- [1]
 			"Relationship", -- [2]
@@ -1120,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1573836734,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [61]
+		}, -- [60]
 		{
 			"getting boosted is gonna be a walk in the park", -- [1]
 			"Relationship", -- [2]
@@ -1138,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1573836744,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [62]
+		}, -- [61]
 		{
 			"currently 1 rank away from it", -- [1]
 			"Relationship", -- [2]
@@ -1156,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1573836751,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [63]
+		}, -- [62]
 		{
 			"lel ye", -- [1]
 			"Relationship", -- [2]
@@ -1174,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1573836751,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [64]
+		}, -- [63]
 		{
 			"i need a lock and a rogue", -- [1]
 			"Relationship", -- [2]
@@ -1192,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1573836761,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [65]
+		}, -- [64]
 		{
 			"these guys wont make that x.x", -- [1]
 			"Relationship", -- [2]
@@ -1210,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1573836772,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [66]
+		}, -- [65]
 		{
 			"keep making toons that i already have", -- [1]
 			"Relationship", -- [2]
@@ -1228,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1573836778,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [67]
+		}, -- [66]
 		{
 			"whose account is that char anhedonic on?", -- [1]
 			"Relationship", -- [2]
@@ -1246,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1573836796,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [68]
+		}, -- [67]
 		{
 			"that's my friend's account", -- [1]
 			"Relationship", -- [2]
@@ -1264,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1573836811,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [69]
+		}, -- [68]
 		{
 			"only acc that isn't mine", -- [1]
 			"Relationship", -- [2]
@@ -1282,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1573836815,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [70]
+		}, -- [69]
 		{
 			"rip", -- [1]
 			"Relationship", -- [2]
@@ -1300,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1573836816,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [71]
+		}, -- [70]
 		{
 			"rip", -- [1]
 			"Relationship", -- [2]
@@ -1318,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1573836820,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [72]
+		}, -- [71]
 		{
 			"the one which the anemic mage was on", -- [1]
 			"Relationship", -- [2]
@@ -1336,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1573836832,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [73]
+		}, -- [72]
 		{
 			"the bis mage", -- [1]
 			"Relationship", -- [2]
@@ -1354,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1573836834,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [74]
+		}, -- [73]
 		{
 			"almost bis", -- [1]
 			"Relationship", -- [2]
@@ -1372,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1573836842,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [75]
+		}, -- [74]
 		{
 			"in the balance account there's another 5.8k mage", -- [1]
 			"Relationship", -- [2]
@@ -1390,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1573836858,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [76]
+		}, -- [75]
 		{
 			"ye", -- [1]
 			"Relationship", -- [2]
@@ -1408,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1573836874,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [77]
+		}, -- [76]
 		{
 			"i dont see them gearing or doing anything", -- [1]
 			"Relationship", -- [2]
@@ -1426,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1573836881,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [78]
+		}, -- [77]
 		{
 			"they just waste time and do some pepega stuff", -- [1]
 			"Relationship", -- [2]
@@ -1444,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1573836890,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [79]
+		}, -- [78]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1462,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1573836891,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [80]
+		}, -- [79]
 		{
 			"ye their concept of fun", -- [1]
 			"Relationship", -- [2]
@@ -1480,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1573836903,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [81]
+		}, -- [80]
 		{
 			"like farming mounts/achievements and doing 10 mans with 5 pugs", -- [1]
 			"Relationship", -- [2]
@@ -1498,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1573836916,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [82]
+		}, -- [81]
 		{
 			"its aids, i saw them recruiting 5kgs foricc 10 man", -- [1]
 			"Relationship", -- [2]
@@ -1516,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1573836937,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [83]
+		}, -- [82]
 		{
 			"definitely gonna be wipefest", -- [1]
 			"Relationship", -- [2]
@@ -1534,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1573836944,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [84]
+		}, -- [83]
 		{
 			"they just keep complaining that you use their accounts. i'm lke, just use binder and abs, but they complain about that also", -- [1]
 			"Relationship", -- [2]
@@ -1552,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1573836973,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [85]
+		}, -- [84]
 		{
 			"ikr, binder and abs god tier addons", -- [1]
 			"Relationship", -- [2]
@@ -1570,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1573836996,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [86]
+		}, -- [85]
 		{
 			"so mindvoice - fuck these guys i'll just 2fa my accounts so that they dont pepega it", -- [1]
 			"Relationship", -- [2]
@@ -1588,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1573837000,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [87]
+		}, -- [86]
 		{
 			"ikr ", -- [1]
 			"Relationship", -- [2]
@@ -1606,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1573837027,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [88]
+		}, -- [87]
 		{
 			"i dont use that boomy because he'll start crying about key binds", -- [1]
 			"Relationship", -- [2]
@@ -1624,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1573837046,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [89]
+		}, -- [88]
 		{
 			"and he hardly uses any", -- [1]
 			"Relationship", -- [2]
@@ -1642,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1573837050,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [90]
+		}, -- [89]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1660,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1573837055,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [91]
+		}, -- [90]
 		{
 			"do u have any free account", -- [1]
 			"Relationship", -- [2]
@@ -1678,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1573837128,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [92]
+		}, -- [91]
 		{
 			"with 1 char having herbalism", -- [1]
 			"Relationship", -- [2]
@@ -1696,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1573837133,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [93]
+		}, -- [92]
 		{
 			"im currently doing this herb farm on 2 ulduar ids and wanna expand my operations more", -- [1]
 			"Relationship", -- [2]
@@ -1714,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1573837150,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [94]
+		}, -- [93]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1732,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1573837151,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [95]
+		}, -- [94]
 		{
 			"this id, and on immutability one", -- [1]
 			"Relationship", -- [2]
@@ -1750,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1573837167,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [96]
+		}, -- [95]
 		{
 			"that milkmycow char", -- [1]
 			"Relationship", -- [2]
@@ -1768,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1573837172,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [97]
+		}, -- [96]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1786,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1573837173,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [98]
+		}, -- [97]
 		{
 			"nop", -- [1]
 			"Relationship", -- [2]
@@ -1804,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1573837175,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [99]
+		}, -- [98]
 		{
 			"they are using some toon or the other", -- [1]
 			"Relationship", -- [2]
@@ -1822,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1573837182,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [100]
+		}, -- [99]
 		{
 			"the warrior account actually has a herb toon", -- [1]
 			"Relationship", -- [2]
@@ -1840,7 +1822,7 @@ ElvCharacterDB = {
 			[51] = 1573837236,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [101]
+		}, -- [100]
 		{
 			"the name is herbivore", -- [1]
 			"Relationship", -- [2]
@@ -1858,7 +1840,7 @@ ElvCharacterDB = {
 			[51] = 1573837239,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [102]
+		}, -- [101]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1876,7 +1858,7 @@ ElvCharacterDB = {
 			[51] = 1573837242,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [103]
+		}, -- [102]
 		{
 			"damn xD", -- [1]
 			"Relationship", -- [2]
@@ -1894,7 +1876,7 @@ ElvCharacterDB = {
 			[51] = 1573837246,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [104]
+		}, -- [103]
 		{
 			"collect vp on it then", -- [1]
 			"Relationship", -- [2]
@@ -1912,7 +1894,7 @@ ElvCharacterDB = {
 			[51] = 1573837255,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [105]
+		}, -- [104]
 		{
 			"and switch to horde", -- [1]
 			"Relationship", -- [2]
@@ -1930,7 +1912,7 @@ ElvCharacterDB = {
 			[51] = 1573837258,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [106]
+		}, -- [105]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -1948,7 +1930,7 @@ ElvCharacterDB = {
 			[51] = 1573837259,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [107]
+		}, -- [106]
 		{
 			"ye", -- [1]
 			"Relationship", -- [2]
@@ -1966,7 +1948,7 @@ ElvCharacterDB = {
 			[51] = 1573837319,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [108]
+		}, -- [107]
 		{
 			"im like creating a monopoly on ap flasks", -- [1]
 			"Relationship", -- [2]
@@ -1984,7 +1966,7 @@ ElvCharacterDB = {
 			[51] = 1573837354,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [109]
+		}, -- [108]
 		{
 			"undercutting everyone on it", -- [1]
 			"Relationship", -- [2]
@@ -2002,7 +1984,7 @@ ElvCharacterDB = {
 			[51] = 1573837366,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [110]
+		}, -- [109]
 		{
 			"and posting 40 flasks each hour", -- [1]
 			"Relationship", -- [2]
@@ -2020,7 +2002,7 @@ ElvCharacterDB = {
 			[51] = 1573837374,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [111]
+		}, -- [110]
 		{
 			"xD", -- [1]
 			"Relationship", -- [2]
@@ -2038,7 +2020,7 @@ ElvCharacterDB = {
 			[51] = 1573837375,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [112]
+		}, -- [111]
 		{
 			"lol", -- [1]
 			"Relationship", -- [2]
@@ -2056,7 +2038,7 @@ ElvCharacterDB = {
 			[51] = 1573837442,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [113]
+		}, -- [112]
 		{
 			"stay logged in on shaman for another 5 mins", -- [1]
 			"Relationship", -- [2]
@@ -2074,7 +2056,7 @@ ElvCharacterDB = {
 			[51] = 1573837696,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [114]
+		}, -- [113]
 		{
 			"brb", -- [1]
 			"Relationship", -- [2]
@@ -2092,7 +2074,7 @@ ElvCharacterDB = {
 			[51] = 1573837704,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffc41e3aRelationship|r",
-		}, -- [115]
+		}, -- [114]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:2191:07000000004436C8:1:11:15:19:4294967295:4294967295:4294967295:4294967295|h[Ancient Courtyard Protector]|h|r!", -- [1]
 			"Swaggy", -- [2]
@@ -2110,7 +2092,7 @@ ElvCharacterDB = {
 			[51] = 1573837790,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "|cff9382c9Swaggy|r",
-		}, -- [116]
+		}, -- [115]
 		{
 			"this is annoyign as fuck.. i cant hand in 2 quests.. no idea why", -- [1]
 			"Shathakrahe", -- [2]
@@ -2128,7 +2110,7 @@ ElvCharacterDB = {
 			[51] = 1573837955,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfff48cbaShathakrahe|r",
-		}, -- [117]
+		}, -- [116]
 		{
 			"wich one", -- [1]
 			"Epirionqt", -- [2]
@@ -2146,7 +2128,7 @@ ElvCharacterDB = {
 			[51] = 1573837968,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffff7c0aEpirionqt|r",
-		}, -- [118]
+		}, -- [117]
 		{
 			" |cff808080|Hquest:8348:60|h[Signet of the Dukes]|h|r |cff808080|Hquest:8807:60|h[Scrying Materials]|h|r", -- [1]
 			"Shathakrahe", -- [2]
@@ -2164,7 +2146,7 @@ ElvCharacterDB = {
 			[51] = 1573837993,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfff48cbaShathakrahe|r",
-		}, -- [119]
+		}, -- [118]
 		{
 			"both are labeled as complete, have all the items for both... but no luck", -- [1]
 			"Shathakrahe", -- [2]
@@ -2182,7 +2164,7 @@ ElvCharacterDB = {
 			[51] = 1573838009,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfff48cbaShathakrahe|r",
-		}, -- [120]
+		}, -- [119]
 		{
 			"tried relog ? ", -- [1]
 			"Bumpey", -- [2]
@@ -2200,7 +2182,7 @@ ElvCharacterDB = {
 			[51] = 1573838039,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff68ccefBumpey|r",
-		}, -- [121]
+		}, -- [120]
 		{
 			"idk", -- [1]
 			"Epirionqt", -- [2]
@@ -2218,7 +2200,7 @@ ElvCharacterDB = {
 			[51] = 1573838044,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffff7c0aEpirionqt|r",
-		}, -- [122]
+		}, -- [121]
 		{
 			"or look @ reputation ", -- [1]
 			"Bumpey", -- [2]
@@ -2236,7 +2218,7 @@ ElvCharacterDB = {
 			[51] = 1573838051,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff68ccefBumpey|r",
-		}, -- [123]
+		}, -- [122]
 		{
 			"if its on war", -- [1]
 			"Bumpey", -- [2]
@@ -2254,7 +2236,7 @@ ElvCharacterDB = {
 			[51] = 1573838054,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff68ccefBumpey|r",
-		}, -- [124]
+		}, -- [123]
 		{
 			"you prolly cant turn it ", -- [1]
 			"Bumpey", -- [2]
@@ -2272,7 +2254,7 @@ ElvCharacterDB = {
 			[51] = 1573838059,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff68ccefBumpey|r",
-		}, -- [125]
+		}, -- [124]
 		{
 			"it resets sometimes ", -- [1]
 			"Bumpey", -- [2]
@@ -2290,7 +2272,7 @@ ElvCharacterDB = {
 			[51] = 1573838067,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff68ccefBumpey|r",
-		}, -- [126]
+		}, -- [125]
 		{
 			"not at war, tried to relog", -- [1]
 			"Shathakrahe", -- [2]
@@ -2308,6 +2290,24 @@ ElvCharacterDB = {
 			[51] = 1573838468,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfff48cbaShathakrahe|r",
+		}, -- [126]
+		{
+			"mersi", -- [1]
+			"Dramwoll", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			498, -- [11]
+			"0x070000000025CD3F", -- [12]
+			0, -- [13]
+			[51] = 1573951971,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff0070ddDramwoll|r",
 		}, -- [127]
 	},
 }
