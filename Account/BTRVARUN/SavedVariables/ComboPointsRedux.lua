@@ -3,6 +3,7 @@ CPRDB2 = {
 	["profileKeys"] = {
 		["Bowbaby - Icecrown"] = "Default",
 		["Kamakshi - Icecrown"] = "Default",
+		["Ingrate - Icecrown"] = "Default",
 		["Garzh - Icecrown"] = "Default",
 		["Invariably - Icecrown"] = "Default",
 		["Dreamstar - Icecrown"] = "Default",
