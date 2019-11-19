@@ -1,67 +1,67 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/w Relationship shaman", -- [1]
-		"/w Relationship toon?", -- [2]
-		"/w Drjayresto vdw", -- [3]
-		"/w Drjayresto bql also remaining", -- [4]
-		"/w Drjayresto lightarray went afk for a bit", -- [5]
-		"/w Drjayresto only you go in and finish this we just yolo outside", -- [6]
-		"/w Drjayresto xd", -- [7]
-		"/w Drjayresto killing abom when suppressors are alive", -- [8]
-		"/w Drjayresto sigh", -- [9]
-		"/w Drjayresto ikr no prio", -- [10]
-		"/dbm pull 20", -- [11]
-		"/s pala?", -- [12]
-		"/s tank?", -- [13]
-		"/dbm pull 5", -- [14]
-		"/w Drjayresto fade is stil raiding xd", -- [15]
-		"/w Madrastra go dps", -- [16]
-		"/raid chill", -- [17]
-		"/dbm pull 10", -- [18]
-		"/dbm pull 15", -- [19]
-		"/rw RO", -- [20]
+		"/w Relationship toon?", -- [1]
+		"/w Drjayresto vdw", -- [2]
+		"/w Drjayresto bql also remaining", -- [3]
+		"/w Drjayresto lightarray went afk for a bit", -- [4]
+		"/w Drjayresto only you go in and finish this we just yolo outside", -- [5]
+		"/w Drjayresto xd", -- [6]
+		"/w Drjayresto killing abom when suppressors are alive", -- [7]
+		"/w Drjayresto sigh", -- [8]
+		"/w Drjayresto ikr no prio", -- [9]
+		"/dbm pull 20", -- [10]
+		"/s pala?", -- [11]
+		"/s tank?", -- [12]
+		"/dbm pull 5", -- [13]
+		"/w Drjayresto fade is stil raiding xd", -- [14]
+		"/w Madrastra go dps", -- [15]
+		"/raid chill", -- [16]
+		"/dbm pull 10", -- [17]
+		"/dbm pull 15", -- [18]
+		"/rw RO", -- [19]
+		"/abs restore cat", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"roll", -- [1]
-			"Anemicc", -- [2]
+			"International EU Guild PvE Progression Endgame content <K H A L I L> LF Hpriest for Second group that able to show up weekends at 4.45PM ST For 10HC progresstion.GS 6k.", -- [1]
+			"Bombalife", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1026, -- [11]
-			"0x07000000004BC333", -- [12]
+			264, -- [11]
+			"0x0700000000012CB7", -- [12]
 			0, -- [13]
-			[51] = 1573968959,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574130941,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Bombalife|r",
 		}, -- [1]
 		{
-			"Pull in 20 sec", -- [1]
-			"Garzh", -- [2]
+			"WTB Eternal Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1030, -- [11]
-			"0x0700000000003290", -- [12]
+			266, -- [11]
+			"0x070000000039BF6F", -- [12]
 			0, -- [13]
-			[51] = 1573969110,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130942,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
 		}, -- [2]
 		{
-			"Pull in 7 sec", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -70,17 +70,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1031, -- [11]
-			"0x0700000000003290", -- [12]
+			279, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969123,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130955,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [3]
 		{
-			"Pull in 5 sec", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"BOR VIL TI LU KO Hir RU goth ash Ealdor ve gloin E Wos BUR U far y lo Thor NE", -- [1]
+			"Daabura", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -88,34 +88,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1032, -- [11]
-			"0x0700000000003290", -- [12]
+			281, -- [11]
+			"0x070000000048A883", -- [12]
 			0, -- [13]
-			[51] = 1573969125,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130955,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddDaabura|r",
 		}, -- [4]
 		{
-			"Pull in 3 sec", -- [1]
-			"Garzh", -- [2]
+			"WTS |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r700g each", -- [1]
+			"Jackycan", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1033, -- [11]
-			"0x0700000000003290", -- [12]
+			288, -- [11]
+			"0x070000000039BBC0", -- [12]
 			0, -- [13]
-			[51] = 1573969127,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130963,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Jackycan|r",
 		}, -- [5]
 		{
-			"Pull in 2 sec", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -124,16 +124,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1034, -- [11]
-			"0x0700000000003290", -- [12]
+			289, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969128,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130963,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [6]
 		{
-			"Pull in 1 sec", -- [1]
-			"Garzh", -- [2]
+			"Gente para farm icc anillo necesitamos tanke y helers!!", -- [1]
+			"Handsomejack", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -142,53 +142,53 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1035, -- [11]
-			"0x0700000000003290", -- [12]
+			296, -- [11]
+			"0x070000000045505F", -- [12]
 			0, -- [13]
-			[51] = 1573969129,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130971,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefHandsomejack|r",
 		}, -- [7]
 		{
-			"Pull now!", -- [1]
-			"Garzh", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1036, -- [11]
-			"0x0700000000003290", -- [12]
+			297, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573969130,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130971,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [8]
 		{
-			"wait", -- [1]
-			"Anemicc", -- [2]
+			"LFG ZG MOUNT RUN", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1037, -- [11]
-			"0x07000000004BC333", -- [12]
+			301, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573969133,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574130977,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [9]
 		{
-			"pala afk", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"BOR E uden ash uden manDOs far Lo ve ti vrum RE SE ", -- [1]
+			"Ahmen", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -196,16 +196,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1038, -- [11]
-			"0x07000000004BC333", -- [12]
+			302, -- [11]
+			"0x07000000004D02A8", -- [12]
 			0, -- [13]
-			[51] = 1573969135,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574130978,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAhmen|r",
 		}, -- [10]
 		{
-			"pala?", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -214,16 +214,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1039, -- [11]
-			"0x0700000000003290", -- [12]
+			311, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969136,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574130988,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [11]
 		{
-			"tank?", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -232,34 +232,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1040, -- [11]
-			"0x0700000000003290", -- [12]
+			323, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969137,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131000,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [12]
 		{
-			"bite lightarray->evilfrost->then whoever", -- [1]
-			"Anemicc", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1041, -- [11]
-			"0x07000000004BC333", -- [12]
+			338, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573969174,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131021,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [13]
 		{
-			"Pull in 5 sec", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -268,17 +268,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1042, -- [11]
-			"0x0700000000003290", -- [12]
+			340, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969183,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131023,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [14]
 		{
-			"Pull in 3 sec", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"BOR VIL TI LU KO Hir RU goth ash Ealdor ve gloin E Wos BUR U far y lo Thor NE", -- [1]
+			"Daabura", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -286,35 +286,35 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1043, -- [11]
-			"0x0700000000003290", -- [12]
+			379, -- [11]
+			"0x070000000048A883", -- [12]
 			0, -- [13]
-			[51] = 1573969185,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131062,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddDaabura|r",
 		}, -- [15]
 		{
-			"Pull in 2 sec", -- [1]
-			"Garzh", -- [2]
+			"WTB Eternal Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1044, -- [11]
-			"0x0700000000003290", -- [12]
+			380, -- [11]
+			"0x070000000039BF6F", -- [12]
 			0, -- [13]
-			[51] = 1573969186,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131063,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
 		}, -- [16]
 		{
-			"Pull in 1 sec", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"VIL SE LU KO Y RE KO GOTH GOTH LON ASH LU ASH GOTH KO MOD FORTHIS E LU Agol va ras Goth Noth TI danieb ", -- [1]
+			"Yahooi", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -322,17 +322,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1046, -- [11]
-			"0x0700000000003290", -- [12]
+			381, -- [11]
+			"0x07000000000239C5", -- [12]
 			0, -- [13]
-			[51] = 1573969187,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131063,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dYahooi|r",
 		}, -- [17]
 		{
-			"Pull now!", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"VIL SE LU KO Y RE KO GOTH GOTH LON ASH LU ASH GOTH KO MOD FORTHIS E LU Ras Garde va Vohl", -- [1]
+			"Deontay", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -340,34 +340,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1047, -- [11]
-			"0x0700000000003290", -- [12]
+			388, -- [11]
+			"0x07000000000DE006", -- [12]
 			0, -- [13]
-			[51] = 1573969188,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131067,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaDeontay|r",
 		}, -- [18]
 		{
-			"bugged", -- [1]
-			"Lightarray", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1094, -- [11]
-			"0x070000000041FBB7", -- [12]
+			396, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573969293,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131071,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [19]
 		{
-			"keys", -- [1]
-			"Lightarray", -- [2]
+			"LFG ZG mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -376,52 +376,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1098, -- [11]
-			"0x070000000041FBB7", -- [12]
+			397, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573969294,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131072,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [20]
 		{
-			"fuck my life", -- [1]
-			"Lightarray", -- [2]
+			"lf tank/ranged icc 25 man icc nm/h link highest ach and 5.7+ gs for inv ", -- [1]
+			"Slanter", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1104, -- [11]
-			"0x070000000041FBB7", -- [12]
+			422, -- [11]
+			"0x07000000002DA811", -- [12]
 			0, -- [13]
-			[51] = 1573969296,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131083,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffSlanter|r",
 		}, -- [21]
 		{
-			"bug on war", -- [1]
-			"Circi", -- [2]
+			"lfg ZG mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1113, -- [11]
-			"0x0700000000191445", -- [12]
+			442, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573969322,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574131094,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [22]
 		{
-			"wipe", -- [1]
-			"Circi", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -430,17 +430,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1115, -- [11]
-			"0x0700000000191445", -- [12]
+			450, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969342,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574131099,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [23]
 		{
-			"warr bite bar bug", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"BOR E uden ash uden manDOs far Lo ve ti vrum LO SE ", -- [1]
+			"Ahmen", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -448,16 +448,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1118, -- [11]
-			"0x07000000004BC333", -- [12]
+			465, -- [11]
+			"0x07000000004D02A8", -- [12]
 			0, -- [13]
-			[51] = 1573969349,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131112,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAhmen|r",
 		}, -- [24]
 		{
-			"Casting Ancestral Spirit on Garzh!", -- [1]
-			"Drjayresto", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -466,34 +466,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1119, -- [11]
-			"0x0700000000102466", -- [12]
+			474, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969361,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddDrjayresto|r",
+			[51] = 1574131116,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [25]
 		{
-			"hunt when link on you run to the person who you are linked to", -- [1]
-			"Anemicc", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1121, -- [11]
-			"0x07000000004BC333", -- [12]
+			483, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573969520,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131122,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [26]
 		{
-			"when you get flame run out of the raid to wall", -- [1]
-			"Anemicc", -- [2]
+			"Lfm Heals and rdps's for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 17/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -502,16 +502,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1122, -- [11]
-			"0x07000000004BC333", -- [12]
+			487, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573969529,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131125,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [27]
 		{
-			"fish", -- [1]
-			"Anemicc", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -520,16 +520,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1125, -- [11]
-			"0x07000000004BC333", -- [12]
+			502, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969613,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131136,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [28]
 		{
-			"Pull in 15 sec", -- [1]
-			"Garzh", -- [2]
+			"LF JC", -- [1]
+			"Wariocc", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -538,35 +538,35 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1126, -- [11]
-			"0x0700000000003290", -- [12]
+			503, -- [11]
+			"0x070000000000AEEF", -- [12]
 			0, -- [13]
-			[51] = 1573969629,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131136,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dWariocc|r",
 		}, -- [29]
 		{
-			"buff priest", -- [1]
-			"Madrastra", -- [2]
+			"lf tank/ranged icc 25 man icc nm/h link highest ach and 5.7+ gs for inv ", -- [1]
+			"Slanter", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1127, -- [11]
-			"0x0700000000317B53", -- [12]
+			507, -- [11]
+			"0x07000000002DA811", -- [12]
 			0, -- [13]
-			[51] = 1573969634,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaMadrastra|r",
+			[51] = 1574131139,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffSlanter|r",
 		}, -- [30]
 		{
-			"buff", -- [1]
-			"Madrastra", -- [2]
-			"Orcish", -- [3]
+			"Minakshi waves at you.", -- [1]
+			"Minakshi", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -574,34 +574,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1128, -- [11]
-			"0x0700000000317B53", -- [12]
+			0, -- [11]
+			"0x07000000001A6034", -- [12]
 			0, -- [13]
-			[51] = 1573969636,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaMadrastra|r",
+			[51] = 1574131140,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cfff48cbaMinakshi|r",
 		}, -- [31]
 		{
-			"Pull in 7 sec", -- [1]
-			"Garzh", -- [2]
+			"LFG ZG mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1129, -- [11]
-			"0x0700000000003290", -- [12]
+			512, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573969637,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131141,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [32]
 		{
-			"Pull in 5 sec", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -610,17 +610,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1130, -- [11]
-			"0x0700000000003290", -- [12]
+			516, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969639,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131144,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [33]
 		{
-			"Pull in 3 sec", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"Minakshi slaps you across the face. Ouch!", -- [1]
+			"Minakshi", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -628,17 +628,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1131, -- [11]
-			"0x0700000000003290", -- [12]
+			0, -- [11]
+			"0x07000000001A6034", -- [12]
 			0, -- [13]
-			[51] = 1573969641,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131146,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "|cfff48cbaMinakshi|r",
 		}, -- [34]
 		{
-			"Pull in 2 sec", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"FAR Nevrenrothas Landowar Mod Wirsh Nevrenrothas Regenthor Mod Wirsh", -- [1]
+			"Camiila", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -646,16 +646,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1132, -- [11]
-			"0x0700000000003290", -- [12]
+			522, -- [11]
+			"0x070000000043268A", -- [12]
 			0, -- [13]
-			[51] = 1573969642,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131148,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Camiila|r",
 		}, -- [35]
 		{
-			"Pull in 1 sec", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -664,17 +664,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1133, -- [11]
-			"0x0700000000003290", -- [12]
+			529, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969643,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131152,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [36]
 		{
-			"Pull now!", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"BOR E uden ash uden manDOs far Lo ve ti vrum LO SE ", -- [1]
+			"Ahmen", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -682,16 +682,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1134, -- [11]
-			"0x0700000000003290", -- [12]
+			533, -- [11]
+			"0x07000000004D02A8", -- [12]
 			0, -- [13]
-			[51] = 1573969644,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131153,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAhmen|r",
 		}, -- [37]
 		{
-			"niiiice", -- [1]
-			"Kairasprime", -- [2]
+			"Lfm Heals and rdps's for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 17/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -700,34 +700,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1242, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			554, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573969852,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131165,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [38]
 		{
-			"roll |cffa335ee|Hitem:51548:0:0:0:0:0:0:0:80|h[Collar of Haughty Disdain]|h|r", -- [1]
-			"Circi", -- [2]
+			"lf tank/ranged icc 25 man icc nm/h link highest ach and 5.7+ gs for inv ", -- [1]
+			"Slanter", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1243, -- [11]
-			"0x0700000000191445", -- [12]
+			562, -- [11]
+			"0x07000000002DA811", -- [12]
 			0, -- [13]
-			[51] = 1573969863,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574131170,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffSlanter|r",
 		}, -- [39]
 		{
-			"os ", -- [1]
-			"Circi", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -736,52 +736,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1244, -- [11]
-			"0x0700000000191445", -- [12]
+			566, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969872,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574131171,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [40]
 		{
-			"who doesnt know sindy tactics?", -- [1]
-			"Anemicc", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1245, -- [11]
-			"0x07000000004BC333", -- [12]
+			567, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573969881,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131172,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [41]
 		{
-			"mee", -- [1]
-			"Kairasprime", -- [2]
+			"WTB Eternal Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1248, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			581, -- [11]
+			"0x070000000039BF6F", -- [12]
 			0, -- [13]
-			[51] = 1573969897,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131183,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
 		}, -- [42]
 		{
-			" |cffa335ee|Hitem:51552:0:0:0:0:0:0:0:80|h[Shoulderpads of the Searing Kiss]|h|r any1 want ?", -- [1]
-			"Circi", -- [2]
+			"Lfm Heals and rdps's for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -790,17 +790,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1249, -- [11]
-			"0x0700000000191445", -- [12]
+			587, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573969901,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574131187,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [43]
 		{
-			"we will do one try and see else RO ", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"FAR Nevrenrothas Landowar Mod Wirsh Nevrenrothas Regenthor Mod Wirsh", -- [1]
+			"Camiila", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -808,34 +808,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1250, -- [11]
-			"0x07000000004BC333", -- [12]
+			590, -- [11]
+			"0x070000000043268A", -- [12]
 			0, -- [13]
-			[51] = 1573969952,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131188,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Camiila|r",
 		}, -- [44]
 		{
-			"Press Yes if you dont know sindy tactics", -- [1]
-			"Lightarray", -- [2]
+			"NEED 1 more ZG mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1251, -- [11]
-			"0x070000000041FBB7", -- [12]
+			594, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573969974,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131191,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [45]
 		{
-			"cool", -- [1]
-			"Lightarray", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -844,16 +844,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1253, -- [11]
-			"0x070000000041FBB7", -- [12]
+			596, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573969985,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131192,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [46]
 		{
-			"rofl", -- [1]
-			"Anemicc", -- [2]
+			"Lfm Heals and rdps's for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -862,16 +862,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1254, -- [11]
-			"0x07000000004BC333", -- [12]
+			603, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573969989,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131196,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [47]
 		{
-			"Interrupted Frostwarden Sorceress's |cff71d5ff|Hspell:71318|h[Frostbolt]|h|r!", -- [1]
-			"Garzh", -- [2]
+			"Need 1 more ZG mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -880,52 +880,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1260, -- [11]
-			"0x0700000000003290", -- [12]
+			613, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573970092,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131205,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [48]
 		{
-			"fade is stil raiding xd", -- [1]
-			"Drjayresto", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Drjayresto", -- [5]
+			"lf all icc 25 man icc nm/h link highest ach and 5.7+ gs for inv ", -- [1]
+			"Slanter", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1268, -- [11]
-			"0x0700000000102466", -- [12]
+			621, -- [11]
+			"0x07000000002DA811", -- [12]
 			0, -- [13]
-			[51] = 1573970168,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-			[52] = "|cff0070ddDrjayresto|r",
+			[51] = 1574131211,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffSlanter|r",
 		}, -- [49]
 		{
-			"ye", -- [1]
-			"Drjayresto", -- [2]
-			"", -- [3]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
-			"Drjayresto", -- [5]
+			"", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1274, -- [11]
-			"0x0700000000102466", -- [12]
+			622, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970185,
-			[50] = "CHAT_MSG_WHISPER",
-			[52] = "|cff0070ddDrjayresto|r",
+			[51] = 1574131211,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [50]
 		{
-			"wtf", -- [1]
-			"Kairasprime", -- [2]
+			"lf all icc 25 man icc nm/h link highest ach and 5.7+ gs for inv ", -- [1]
+			"Slanter", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -934,34 +934,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1278, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			636, -- [11]
+			"0x07000000002DA811", -- [12]
 			0, -- [13]
-			[51] = 1573970488,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131218,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffSlanter|r",
 		}, -- [51]
 		{
-			"jumpscare", -- [1]
-			"Kairasprime", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1279, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			642, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573970494,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131222,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [52]
 		{
-			"okay so general rules", -- [1]
-			"Anemicc", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -970,16 +970,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1282, -- [11]
-			"0x07000000004BC333", -- [12]
+			659, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970511,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131232,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [53]
 		{
-			"shes a dragon so avoid her front and the tail", -- [1]
-			"Anemicc", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -988,17 +988,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1283, -- [11]
-			"0x07000000004BC333", -- [12]
+			672, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970520,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131240,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [54]
 		{
-			"see star", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"VIL SE LU KO Y RE KO GOTH GOTH LON ASH LU ASH GOTH KO MOD FORTHIS E LU Ras Garde va Vohl", -- [1]
+			"Deontay", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1006,16 +1006,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1285, -- [11]
-			"0x07000000004BC333", -- [12]
+			682, -- [11]
+			"0x07000000000DE006", -- [12]
 			0, -- [13]
-			[51] = 1573970536,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131247,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaDeontay|r",
 		}, -- [55]
 		{
-			"she will go in air phase", -- [1]
-			"Anemicc", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1024,34 +1024,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1286, -- [11]
-			"0x07000000004BC333", -- [12]
+			683, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970542,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131247,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [56]
 		{
-			"goo", -- [1]
-			"Evilfrost", -- [2]
+			"LFM zg mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1287, -- [11]
-			"0x07000000000184A7", -- [12]
+			688, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573970542,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aEvilfrost|r",
+			[51] = 1574131250,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [57]
 		{
-			"im {star}", -- [1]
-			"Lightarray", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1060,16 +1060,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1288, -- [11]
-			"0x070000000041FBB7", -- [12]
+			697, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970546,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131258,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [58]
 		{
-			"im sleeping", -- [1]
-			"Evilfrost", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1078,34 +1078,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1289, -- [11]
-			"0x07000000000184A7", -- [12]
+			701, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970551,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aEvilfrost|r",
+			[51] = 1574131263,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [59]
 		{
-			"where she will mark two ppl ", -- [1]
-			"Anemicc", -- [2]
+			"ffs que up for RDF", -- [1]
+			"Cantlosmebro", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1290, -- [11]
-			"0x07000000004BC333", -- [12]
+			710, -- [11]
+			"0x070000000040FF01", -- [12]
 			0, -- [13]
-			[51] = 1573970555,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131269,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Cantlosmebro|r",
 		}, -- [60]
 		{
-			"who ever gets marked go away from raid", -- [1]
-			"Anemicc", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1114,52 +1114,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1291, -- [11]
-			"0x07000000004BC333", -- [12]
+			713, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970563,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131271,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [61]
 		{
-			"you will get frozen", -- [1]
-			"Anemicc", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1292, -- [11]
-			"0x07000000004BC333", -- [12]
+			715, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573970567,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131272,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [62]
 		{
-			"when she pulls you in run out", -- [1]
-			"Anemicc", -- [2]
+			"LFM zg mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1293, -- [11]
-			"0x07000000004BC333", -- [12]
+			724, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573970577,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131279,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [63]
 		{
-			"dbm will say blistering cold", -- [1]
-			"Anemicc", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1168,17 +1168,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1294, -- [11]
-			"0x07000000004BC333", -- [12]
+			725, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970582,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131279,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [64]
 		{
-			"see star", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"BOR E uden ash uden manDOs far Lo ve ti vrum LO SE ", -- [1]
+			"Ahmen", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1186,34 +1186,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1299, -- [11]
-			"0x07000000004BC333", -- [12]
+			728, -- [11]
+			"0x07000000004D02A8", -- [12]
 			0, -- [13]
-			[51] = 1573970604,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131280,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAhmen|r",
 		}, -- [65]
 		{
-			"if I am marked for frozen beacon", -- [1]
-			"Anemicc", -- [2]
+			"ffs que up for RDF HC", -- [1]
+			"Cantlosmebro", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1300, -- [11]
-			"0x07000000004BC333", -- [12]
+			736, -- [11]
+			"0x070000000040FF01", -- [12]
 			0, -- [13]
-			[51] = 1573970610,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131290,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Cantlosmebro|r",
 		}, -- [66]
 		{
-			"i have to run ahead of group", -- [1]
-			"Anemicc", -- [2]
+			"LF JCW", -- [1]
+			"Wariocc", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1222,16 +1222,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1301, -- [11]
-			"0x07000000004BC333", -- [12]
+			739, -- [11]
+			"0x070000000000AEEF", -- [12]
 			0, -- [13]
-			[51] = 1573970615,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131292,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dWariocc|r",
 		}, -- [67]
 		{
-			"BOM pls", -- [1]
-			"Lightarray", -- [2]
+			"LFM zg mount run", -- [1]
+			"Yackattack", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1240,16 +1240,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1303, -- [11]
-			"0x070000000041FBB7", -- [12]
+			743, -- [11]
+			"0x070000000035DF6D", -- [12]
 			0, -- [13]
-			[51] = 1573970634,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131297,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Yackattack|r",
 		}, -- [68]
 		{
-			"hopefully if beacon comes on the ppl who know what to do", -- [1]
-			"Anemicc", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1258,17 +1258,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1304, -- [11]
-			"0x07000000004BC333", -- [12]
+			744, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970648,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131297,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [69]
 		{
-			"just see what we do and do it", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"FAR Nevrenrothas Landowar Mod Wirsh Nevrenrothas Regenthor Mod Wirsh", -- [1]
+			"Camiila", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1276,34 +1276,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1305, -- [11]
-			"0x07000000004BC333", -- [12]
+			748, -- [11]
+			"0x070000000043268A", -- [12]
 			0, -- [13]
-			[51] = 1573970654,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131301,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Camiila|r",
 		}, -- [70]
 		{
-			"go dps", -- [1]
-			"Madrastra", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Madrastra", -- [5]
-			"AFK", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"WTB Eternal Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1306, -- [11]
-			"0x0700000000317B53", -- [12]
+			749, -- [11]
+			"0x070000000039BF6F", -- [12]
 			0, -- [13]
-			[51] = 1573970664,
-			[50] = "CHAT_MSG_WHISPER_INFORM",
-			[52] = "|cfff48cbaMadrastra|r",
+			[51] = 1574131303,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
 		}, -- [71]
 		{
-			"k", -- [1]
-			"Kairasprime", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1312,16 +1312,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1308, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			757, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970664,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131311,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [72]
 		{
-			"BOM pls", -- [1]
-			"Lightarray", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1330,16 +1330,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1309, -- [11]
-			"0x070000000041FBB7", -- [12]
+			762, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970667,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131315,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [73]
 		{
-			"one sec mage went to pee", -- [1]
-			"Anemicc", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1348,34 +1348,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1310, -- [11]
-			"0x07000000004BC333", -- [12]
+			766, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970686,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131321,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [74]
 		{
-			"BOK pls", -- [1]
-			"Lightarray", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1311, -- [11]
-			"0x070000000041FBB7", -- [12]
+			768, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573970687,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131322,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [75]
 		{
-			"other war is off?", -- [1]
-			"Evilfrost", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1384,16 +1384,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1313, -- [11]
-			"0x07000000000184A7", -- [12]
+			782, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970734,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aEvilfrost|r",
+			[51] = 1574131337,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [76]
 		{
-			"madarastra?", -- [1]
-			"Anemicc", -- [2]
+			"Need 2 Tanks,DPS(Spriest,warr,boomie) for icc 10 N min gs 5.5 ", -- [1]
+			"Elbatsy", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1402,17 +1402,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1314, -- [11]
-			"0x07000000004BC333", -- [12]
+			784, -- [11]
+			"0x07000000004CB9BD", -- [12]
 			0, -- [13]
-			[51] = 1573970735,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131338,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Elbatsy|r",
 		}, -- [77]
 		{
-			"yea", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"Need 2 Tanks,DPS(Spriest,warr,boomie) for icc 10 N min gs 5.5 ", -- [1]
+			"Elbatsy", -- [2]
+			"", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1420,34 +1420,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1315, -- [11]
-			"0x07000000004BC333", -- [12]
+			786, -- [11]
+			"0x07000000004CB9BD", -- [12]
 			0, -- [13]
-			[51] = 1573970745,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131340,
+			[50] = "CHAT_MSG_EMOTE",
+			[52] = "|cffaad372Elbatsy|r",
 		}, -- [78]
 		{
-			".-.", -- [1]
-			"Kairasprime", -- [2]
+			"Need 2 Tanks, 1 heal and rest DPS for ToC 10 GS 5.2k+", -- [1]
+			"Kyetaclysm", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"1. General - Dalaran", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
 			0, -- [10]
-			1316, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			793, -- [11]
+			"0x07000000004C5C9B", -- [12]
 			0, -- [13]
-			[51] = 1573970749,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131359,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aKyetaclysm|r",
 		}, -- [79]
 		{
-			"but I think we can attempt without the warr", -- [1]
-			"Anemicc", -- [2]
+			"Need 2 Tanks, 1 heal and rest DPS for ToC 10 GS 5.2k+", -- [1]
+			"Kyetaclysm", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1456,17 +1456,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1317, -- [11]
-			"0x07000000004BC333", -- [12]
+			794, -- [11]
+			"0x07000000004C5C9B", -- [12]
 			0, -- [13]
-			[51] = 1573970755,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131361,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aKyetaclysm|r",
 		}, -- [80]
 		{
-			"2 off rly -.-", -- [1]
-			"Kairasprime", -- [2]
-			"Orcish", -- [3]
+			"BOR E uden ash uden manDOs far Lo ve ti vrum LO SE ", -- [1]
+			"Ahmen", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1474,16 +1474,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1318, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			795, -- [11]
+			"0x07000000004D02A8", -- [12]
 			0, -- [13]
-			[51] = 1573970758,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131361,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAhmen|r",
 		}, -- [81]
 		{
-			"only one off", -- [1]
-			"Anemicc", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1492,16 +1492,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1319, -- [11]
-			"0x07000000004BC333", -- [12]
+			796, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970762,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131364,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [82]
 		{
-			"chill", -- [1]
-			"Garzh", -- [2]
+			"LF JCW", -- [1]
+			"Wariocc", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1510,17 +1510,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1320, -- [11]
-			"0x0700000000003290", -- [12]
+			797, -- [11]
+			"0x070000000000AEEF", -- [12]
 			0, -- [13]
-			[51] = 1573970764,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131364,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dWariocc|r",
 		}, -- [83]
 		{
-			"k", -- [1]
-			"Kairasprime", -- [2]
-			"Orcish", -- [3]
+			"BOR WersHAesire Thor Bor goth nud y borne ve", -- [1]
+			"Genghiskan", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1528,16 +1528,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1321, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			798, -- [11]
+			"0x07000000003C65B7", -- [12]
 			0, -- [13]
-			[51] = 1573970775,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131365,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddGenghiskan|r",
 		}, -- [84]
 		{
-			"yeah we can do it 9", -- [1]
-			"Evilfrost", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 20/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1546,34 +1546,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1322, -- [11]
-			"0x07000000000184A7", -- [12]
+			799, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970778,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aEvilfrost|r",
+			[51] = 1574131370,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [85]
 		{
-			"Pull in 10 sec", -- [1]
-			"Garzh", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1324, -- [11]
-			"0x0700000000003290", -- [12]
+			800, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573970782,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131372,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [86]
 		{
-			"Pull in 7 sec", -- [1]
-			"Garzh", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 21/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1582,17 +1582,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1325, -- [11]
-			"0x0700000000003290", -- [12]
+			801, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573970785,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131376,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [87]
 		{
-			"Pull in 5 sec", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"BOR WersHAesire Thor Bor goth nud y borne ve", -- [1]
+			"Genghiskan", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1600,16 +1600,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1326, -- [11]
-			"0x0700000000003290", -- [12]
+			802, -- [11]
+			"0x07000000003C65B7", -- [12]
 			0, -- [13]
-			[51] = 1573970787,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131379,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddGenghiskan|r",
 		}, -- [88]
 		{
-			"Pull in 3 sec", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1618,35 +1618,35 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1328, -- [11]
-			"0x0700000000003290", -- [12]
+			804, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970789,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131382,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [89]
 		{
-			"Pull in 2 sec", -- [1]
-			"Garzh", -- [2]
+			"lf all icc 25 man icc nm/h link highest ach and 5.7+ gs for inv ", -- [1]
+			"Slanter", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1329, -- [11]
-			"0x0700000000003290", -- [12]
+			805, -- [11]
+			"0x07000000002DA811", -- [12]
 			0, -- [13]
-			[51] = 1573970790,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131387,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffSlanter|r",
 		}, -- [90]
 		{
-			"Pull in 1 sec", -- [1]
-			"Garzh", -- [2]
-			"Orcish", -- [3]
+			"BOR WersHAesire Thor Bor goth nud y borne ve ", -- [1]
+			"Genghiskan", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1654,16 +1654,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1330, -- [11]
-			"0x0700000000003290", -- [12]
+			806, -- [11]
+			"0x07000000003C65B7", -- [12]
 			0, -- [13]
-			[51] = 1573970791,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131392,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddGenghiskan|r",
 		}, -- [91]
 		{
-			"Pull now!", -- [1]
-			"Garzh", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1672,16 +1672,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1331, -- [11]
-			"0x0700000000003290", -- [12]
+			807, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970792,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131395,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [92]
 		{
-			"wait", -- [1]
-			"Lightarray", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1690,34 +1690,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1361, -- [11]
-			"0x070000000041FBB7", -- [12]
+			811, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573970889,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131408,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [93]
 		{
-			"sorry", -- [1]
-			"Madrastra", -- [2]
-			"Orcish", -- [3]
+			"BOR WersHAesire Thor Bor goth nud y borne ve ", -- [1]
+			"Genghiskan", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
-			"AFK", -- [6]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1401, -- [11]
-			"0x0700000000317B53", -- [12]
+			812, -- [11]
+			"0x07000000003C65B7", -- [12]
 			0, -- [13]
-			[51] = 1573971034,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaMadrastra|r",
+			[51] = 1574131412,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddGenghiskan|r",
 		}, -- [94]
 		{
-			"Tomb on me!", -- [1]
-			"Drjayresto", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1726,16 +1726,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1436, -- [11]
-			"0x0700000000102466", -- [12]
+			813, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573971106,
+			[51] = 1574131416,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddDrjayresto|r",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [95]
 		{
-			"BL", -- [1]
-			"Lightarray", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 21/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1744,53 +1744,53 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1457, -- [11]
-			"0x070000000041FBB7", -- [12]
+			815, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573971137,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131418,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [96]
 		{
-			"break mine", -- [1]
-			"Lightarray", -- [2]
+			"Buying all [Frozen Orb]70G each ,Eternal Air300G/stack,Eternal Life480G/stack,Eternal Shadow2k/stack,Eternal Life2,2k/stack.North 72-80 lvl Green/blue items 10g/per item. You can C.O.D me anytime 24/7.", -- [1]
+			"Zhasni", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1472, -- [11]
-			"0x070000000041FBB7", -- [12]
+			817, -- [11]
+			"0x07000000002B0738", -- [12]
 			0, -- [13]
-			[51] = 1573971154,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131422,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [97]
 		{
-			"Tomb on me!", -- [1]
-			"Drjayresto", -- [2]
+			"WTB Eternal Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1476, -- [11]
-			"0x0700000000102466", -- [12]
+			818, -- [11]
+			"0x070000000039BF6F", -- [12]
 			0, -- [13]
-			[51] = 1573971155,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddDrjayresto|r",
+			[51] = 1574131423,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
 		}, -- [98]
 		{
-			"fuuuck", -- [1]
-			"Kairasprime", -- [2]
-			"Orcish", -- [3]
+			"BOR WersHAesire Thor Bor goth nud y borne ve ", -- [1]
+			"Genghiskan", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1798,16 +1798,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1479, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			819, -- [11]
+			"0x07000000003C65B7", -- [12]
 			0, -- [13]
-			[51] = 1573971156,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131431,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddGenghiskan|r",
 		}, -- [99]
 		{
-			"want to try one more time ?", -- [1]
-			"Circi", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1816,16 +1816,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1497, -- [11]
-			"0x0700000000191445", -- [12]
+			820, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573971217,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574131439,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [100]
 		{
-			"sure", -- [1]
-			"Kairasprime", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1834,17 +1834,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1498, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			821, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573971240,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131439,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [101]
 		{
-			"madarastra you can go ret", -- [1]
-			"Anemicc", -- [2]
-			"Orcish", -- [3]
+			"BOR WersHAesire Thor Bor goth nud y borne ve ", -- [1]
+			"Genghiskan", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1852,35 +1852,35 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1501, -- [11]
-			"0x07000000004BC333", -- [12]
+			822, -- [11]
+			"0x07000000003C65B7", -- [12]
 			0, -- [13]
-			[51] = 1573971251,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131443,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddGenghiskan|r",
 		}, -- [102]
 		{
-			"dudu can solo it", -- [1]
-			"Anemicc", -- [2]
+			"lf all icc 25 man icc nm/h link highest ach and 5.7+ gs for inv ", -- [1]
+			"Slanter", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			1502, -- [11]
-			"0x07000000004BC333", -- [12]
+			823, -- [11]
+			"0x07000000002DA811", -- [12]
 			0, -- [13]
-			[51] = 1573971255,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131446,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffSlanter|r",
 		}, -- [103]
 		{
-			"FISH HERE", -- [1]
-			"Kairasprime", -- [2]
-			"Orcish", -- [3]
+			"majis aetwinter", -- [1]
+			"Lokito", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1888,16 +1888,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1505, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			824, -- [11]
+			"0x07000000002EEBB6", -- [12]
 			0, -- [13]
-			[51] = 1573971282,
+			[51] = 1574131447,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaKairasprime|r",
+			[52] = "|cffff7c0aLokito|r",
 		}, -- [104]
 		{
-			"did you guys see where to place the frost tombs hopefully", -- [1]
-			"Anemicc", -- [2]
+			"LF JC!!", -- [1]
+			"Wariocc", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1906,17 +1906,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1506, -- [11]
-			"0x07000000004BC333", -- [12]
+			825, -- [11]
+			"0x070000000000AEEF", -- [12]
 			0, -- [13]
-			[51] = 1573971287,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131448,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dWariocc|r",
 		}, -- [105]
 		{
-			"yep", -- [1]
-			"Kairasprime", -- [2]
-			"Orcish", -- [3]
+			"BOR E uden ROGESH ADOR EYNES ash uden NANDIGE ROGESH ASH VE FORTHIS manDOs far Lo ve ti vrum AN SE", -- [1]
+			"Ahmen", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1924,16 +1924,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1509, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			826, -- [11]
+			"0x07000000004D02A8", -- [12]
 			0, -- [13]
-			[51] = 1573971304,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131449,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAhmen|r",
 		}, -- [106]
 		{
-			"BOK pls", -- [1]
-			"Lightarray", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1942,16 +1942,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1510, -- [11]
-			"0x070000000041FBB7", -- [12]
+			827, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573971304,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131450,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [107]
 		{
-			"rebuff", -- [1]
-			"Circi", -- [2]
+			"Lfm Hpaly Mage Rpaladin for icc 25nm/hc |cffffff00|Hachievement:4608:070000000003E5FD:1:4:15:18:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r w/me Gs/spec link ach or no INV B/P reserved 21/25", -- [1]
+			"Ligita", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1960,16 +1960,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1511, -- [11]
-			"0x0700000000191445", -- [12]
+			828, -- [11]
+			"0x070000000003E5FD", -- [12]
 			0, -- [13]
-			[51] = 1573971318,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574131451,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff9382c9Ligita|r",
 		}, -- [108]
 		{
-			"Frost and Conc Aura", -- [1]
-			"Lightarray", -- [2]
+			"TANK HEAL JOIN RHC", -- [1]
+			"Targaryengot", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1978,17 +1978,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1512, -- [11]
-			"0x070000000041FBB7", -- [12]
+			830, -- [11]
+			"0x0700000000249619", -- [12]
 			0, -- [13]
-			[51] = 1573971320,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131454,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aTargaryengot|r",
 		}, -- [109]
 		{
-			"We dont need devo aura", -- [1]
-			"Lightarray", -- [2]
-			"Orcish", -- [3]
+			"majis veldbarad goibon", -- [1]
+			"Lokito", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1996,16 +1996,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1513, -- [11]
-			"0x070000000041FBB7", -- [12]
+			831, -- [11]
+			"0x07000000002EEBB6", -- [12]
 			0, -- [13]
-			[51] = 1573971333,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131456,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aLokito|r",
 		}, -- [110]
 		{
-			"guys", -- [1]
-			"Lightarray", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2014,16 +2014,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1514, -- [11]
-			"0x070000000041FBB7", -- [12]
+			832, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573971335,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131459,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [111]
 		{
-			"pls", -- [1]
-			"Lightarray", -- [2]
+			"LFM ICC 25 NM/HC Link Achiev Class&GS 5.7++ inspect at memo.", -- [1]
+			"Haloheals", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2032,34 +2032,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1515, -- [11]
-			"0x070000000041FBB7", -- [12]
+			833, -- [11]
+			"0x07000000004046E9", -- [12]
 			0, -- [13]
-			[51] = 1573971336,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131463,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaHaloheals|r",
 		}, -- [112]
 		{
-			"Pull in 15 sec", -- [1]
-			"Garzh", -- [2]
+			"Need 2 Tanks, 1 heal and rest DPS for ToC 10 GS 5.2k+", -- [1]
+			"Kyetaclysm", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"1. General - Dalaran", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
 			0, -- [10]
-			1516, -- [11]
-			"0x0700000000003290", -- [12]
+			838, -- [11]
+			"0x07000000004C5C9B", -- [12]
 			0, -- [13]
-			[51] = 1573971350,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131469,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aKyetaclysm|r",
 		}, -- [113]
 		{
-			"change devo aura to conc", -- [1]
-			"Anemicc", -- [2]
+			"can i heal?", -- [1]
+			"Divert", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2068,16 +2068,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1517, -- [11]
-			"0x07000000004BC333", -- [12]
+			873, -- [11]
+			"0x07000000004D0958", -- [12]
 			0, -- [13]
-			[51] = 1573971352,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffffffffAnemicc|r",
+			[51] = 1574131485,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDivert|r",
 		}, -- [114]
 		{
-			"i'm frost", -- [1]
-			"Kairasprime", -- [2]
+			"should have queued as healer lol", -- [1]
+			"Divert", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2086,16 +2086,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1518, -- [11]
-			"0x07000000004CC3EE", -- [12]
+			876, -- [11]
+			"0x07000000004D0958", -- [12]
 			0, -- [13]
-			[51] = 1573971353,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKairasprime|r",
+			[51] = 1574131491,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDivert|r",
 		}, -- [115]
 		{
-			"remove Devo aura and get Con aura", -- [1]
-			"Lightarray", -- [2]
+			"dont have dps spec", -- [1]
+			"Bosha", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2104,16 +2104,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1519, -- [11]
-			"0x070000000041FBB7", -- [12]
+			878, -- [11]
+			"0x07000000002C2F38", -- [12]
 			0, -- [13]
-			[51] = 1573971353,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
+			[51] = 1574131503,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffBosha|r",
 		}, -- [116]
 		{
-			"Pull in 7 sec", -- [1]
-			"Garzh", -- [2]
+			"ah alright", -- [1]
+			"Divert", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2122,16 +2122,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1520, -- [11]
-			"0x0700000000003290", -- [12]
+			879, -- [11]
+			"0x07000000004D0958", -- [12]
 			0, -- [13]
-			[51] = 1573971358,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131508,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDivert|r",
 		}, -- [117]
 		{
-			"Pull in 5 sec", -- [1]
-			"Garzh", -- [2]
+			"holy/disc", -- [1]
+			"Bosha", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2140,16 +2140,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1521, -- [11]
-			"0x0700000000003290", -- [12]
+			880, -- [11]
+			"0x07000000002C2F38", -- [12]
 			0, -- [13]
-			[51] = 1573971360,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131508,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffBosha|r",
 		}, -- [118]
 		{
-			"Pull in 3 sec", -- [1]
-			"Garzh", -- [2]
+			"druid u coming ?", -- [1]
+			"Bosha", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2158,16 +2158,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1523, -- [11]
-			"0x0700000000003290", -- [12]
+			882, -- [11]
+			"0x07000000002C2F38", -- [12]
 			0, -- [13]
-			[51] = 1573971362,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131534,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffBosha|r",
 		}, -- [119]
 		{
-			"Pull in 2 sec", -- [1]
-			"Garzh", -- [2]
+			"lol my friend doesn't have dps spec either lmfao", -- [1]
+			"Divert", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2176,16 +2176,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1524, -- [11]
-			"0x0700000000003290", -- [12]
+			883, -- [11]
+			"0x07000000004D0958", -- [12]
 			0, -- [13]
-			[51] = 1573971363,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131534,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDivert|r",
 		}, -- [120]
 		{
-			"Pull in 1 sec", -- [1]
-			"Garzh", -- [2]
+			"i can spec some in and see what's up lol", -- [1]
+			"Divert", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2194,16 +2194,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1525, -- [11]
-			"0x0700000000003290", -- [12]
+			884, -- [11]
+			"0x07000000004D0958", -- [12]
 			0, -- [13]
-			[51] = 1573971364,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131555,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDivert|r",
 		}, -- [121]
 		{
-			"Pull now!", -- [1]
-			"Garzh", -- [2]
+			"better than nothing :)", -- [1]
+			"Divert", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2212,16 +2212,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1526, -- [11]
-			"0x0700000000003290", -- [12]
+			886, -- [11]
+			"0x07000000004D0958", -- [12]
 			0, -- [13]
-			[51] = 1573971365,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffff7c0aGarzh|r",
+			[51] = 1574131560,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDivert|r",
 		}, -- [122]
 		{
-			"Tomb on me!", -- [1]
-			"Drjayresto", -- [2]
+			"u can go feral", -- [1]
+			"Bosha", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2230,15 +2230,15 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1573, -- [11]
-			"0x0700000000102466", -- [12]
+			903, -- [11]
+			"0x07000000002C2F38", -- [12]
 			0, -- [13]
-			[51] = 1573971542,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddDrjayresto|r",
+			[51] = 1574131803,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffBosha|r",
 		}, -- [123]
 		{
-			"RO", -- [1]
+			"Interrupted Argent Priestess's |cff71d5ff|Hspell:67289|h[Holy Smite]|h|r!", -- [1]
 			"Garzh", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
@@ -2248,16 +2248,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1586, -- [11]
+			917, -- [11]
 			"0x0700000000003290", -- [12]
 			0, -- [13]
-			[51] = 1573971554,
-			[50] = "CHAT_MSG_RAID_WARNING",
+			[51] = 1574131850,
+			[50] = "CHAT_MSG_PARTY_LEADER",
 			[52] = "|cffff7c0aGarzh|r",
 		}, -- [124]
 		{
-			"WTS |cffa335ee|Hitem:49904:0:0:0:0:0:0:0:80|h[Pillars of Might]|h|r |cffa335ee|Hitem:47590:0:0:0:0:0:0:0:80|h[Titanium Razorplate]|h|r", -- [1]
-			"Abelkrp", -- [2]
+			"sorry, my bad", -- [1]
+			"Aegonsax", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2266,16 +2266,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1618, -- [11]
-			"0x070000000048C368", -- [12]
+			918, -- [11]
+			"0x0700000000420F8B", -- [12]
 			0, -- [13]
-			[51] = 1573971569,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaAbelkrp|r",
+			[51] = 1574131893,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aAegonsax|r",
 		}, -- [125]
 		{
-			"ro", -- [1]
-			"Circi", -- [2]
+			"ty", -- [1]
+			"Divert", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2284,16 +2284,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1620, -- [11]
-			"0x0700000000191445", -- [12]
+			1002, -- [11]
+			"0x07000000004D0958", -- [12]
 			0, -- [13]
-			[51] = 1573971571,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff68ccefCirci|r",
+			[51] = 1574132191,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaDivert|r",
 		}, -- [126]
 		{
-			"WTB |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r 90G each", -- [1]
-			"Duolifs", -- [2]
+			"ty", -- [1]
+			"Taidra", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2302,12 +2302,12 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			1645, -- [11]
-			"0x07000000003BCEA1", -- [12]
+			1006, -- [11]
+			"0x07000000004DE476", -- [12]
 			0, -- [13]
-			[51] = 1573971590,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefDuolifs|r",
+			[51] = 1574132199,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfffff468Taidra|r",
 		}, -- [127]
 	},
 }
