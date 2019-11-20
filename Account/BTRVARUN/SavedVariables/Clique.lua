@@ -3,60 +3,13 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
-		["Dreamstar - Icecrown"] = "Dreamstar - Icecrown",
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
 	},
 	["profiles"] = {
-		["Bowbaby - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Misdirection",
-						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
-					},
-				},
-			},
-		},
 		["Ingrate - Icecrown"] = {
-		},
-		["Dreamstar - Icecrown"] = {
-		},
-		["Invariably - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Renew",
-						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
-					},
-					["2"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Power Word: Shield",
-						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
-					},
-				},
-			},
-			["blacklist"] = {
-				["ElvUF_TargetTarget"] = true,
-				["ElvUF_Target"] = true,
-				["TargetFrame"] = true,
-				["PetFrame"] = true,
-				["FocusFrame"] = true,
-				["ElvUF_Player"] = true,
-				["ElvUF_TargetTargetTarget"] = true,
-				["PlayerFrame"] = true,
-			},
 		},
 		["Garzh - Icecrown"] = {
 			["clicksets"] = {
@@ -116,6 +69,50 @@ CliqueDB = {
 				["FocusFrame"] = true,
 				["ElvUF_Focus"] = true,
 				["ElvUF_Target"] = true,
+				["PlayerFrame"] = true,
+			},
+		},
+		["Bowbaby - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Misdirection",
+						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
+					},
+				},
+			},
+		},
+		["Invariably - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Renew",
+						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
+					},
+					["2"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Power Word: Shield",
+						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
+					},
+				},
+			},
+			["blacklist"] = {
+				["ElvUF_TargetTarget"] = true,
+				["ElvUF_Target"] = true,
+				["TargetFrame"] = true,
+				["PetFrame"] = true,
+				["FocusFrame"] = true,
+				["ElvUF_Player"] = true,
+				["ElvUF_TargetTargetTarget"] = true,
 				["PlayerFrame"] = true,
 			},
 		},

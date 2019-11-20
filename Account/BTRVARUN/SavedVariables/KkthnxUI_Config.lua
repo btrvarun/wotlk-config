@@ -4,7 +4,7 @@ GUIConfigAll = {
 		["Garzh"] = false,
 		["Invariably"] = false,
 		["Bowbaby"] = false,
-		["Dreamstar"] = false,
+		["Ingrate"] = false,
 		["Kamakshi"] = false,
 	},
 }

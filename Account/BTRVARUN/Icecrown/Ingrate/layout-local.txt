@@ -1,15 +1,22 @@
 Version: 1
+Frame: WorldMapScreenAnchor
+FrameLevel: 0
+Anchor: TOPLEFT
+X: 10
+Y: -118
+W: 1
+H: 1
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
-X: -151
+X: -195
 Y: -7
 W: 26
 H: 26
@@ -20,3 +27,10 @@ X: -166
 Y: 280
 W: 1
 H: 1
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: BOTTOMLEFT
+X: 4
+Y: 223
+W: 450
+H: 33

@@ -56,7 +56,7 @@ BeanCounterDB = {
 				}, -- [1]
 			},
 		},
-		["Dreamstar"] = {
+		["Ingrate"] = {
 			["vendorsell"] = {
 			},
 			["completedAuctions"] = {

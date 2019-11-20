@@ -1,4 +1,3 @@
-SET autoClearAFK "0"
 SET lootUnderMouse "0"
 SET autoLootDefault "1"
 SET showTargetOfTarget "1"

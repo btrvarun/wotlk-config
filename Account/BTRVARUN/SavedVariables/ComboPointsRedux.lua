@@ -6,7 +6,6 @@ CPRDB2 = {
 		["Ingrate - Icecrown"] = "Default",
 		["Garzh - Icecrown"] = "Default",
 		["Invariably - Icecrown"] = "Default",
-		["Dreamstar - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
