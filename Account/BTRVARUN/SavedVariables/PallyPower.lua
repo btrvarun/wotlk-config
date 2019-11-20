@@ -4,18 +4,18 @@ PallyPowerDB = {
 		["Default"] = {
 			["cBuffNeedSpecial"] = {
 				["b"] = 0.5,
-				["t"] = 0.8,
+				["t"] = 0.69,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
-				["t"] = 0.8,
+				["t"] = 0.69,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
 			["cBuffNeedSome"] = {
-				["t"] = 0.8,
+				["t"] = 0.69,
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
@@ -23,10 +23,10 @@ PallyPowerDB = {
 				["frameLocked"] = true,
 			},
 			["cBuffGood"] = {
-				["b"] = 0.06,
-				["t"] = 0.8,
-				["g"] = 0.06,
-				["r"] = 0.06,
+				["b"] = 0.05098039215686274,
+				["t"] = 0.69,
+				["g"] = 0.05098039215686274,
+				["r"] = 0.05098039215686274,
 			},
 			["disable"] = false,
 		},
@@ -147,6 +147,19 @@ PallyPower_Assignments = {
 		1, -- [7]
 		1, -- [8]
 		1, -- [9]
+		2, -- [10]
+		2, -- [11]
+	},
+	["Lalpala"] = {
+		2, -- [1]
+		2, -- [2]
+		0, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		0, -- [7]
+		0, -- [8]
+		2, -- [9]
 		2, -- [10]
 		2, -- [11]
 	},
@@ -371,18 +384,18 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Azurelane"] = {
-		3, -- [1]
-		3, -- [2]
+	["Vaglef"] = {
+		2, -- [1]
+		2, -- [2]
 		3, -- [3]
 		3, -- [4]
 		3, -- [5]
-		3, -- [6]
+		0, -- [6]
 		3, -- [7]
 		3, -- [8]
 		3, -- [9]
-		3, -- [10]
-		3, -- [11]
+		2, -- [10]
+		2, -- [11]
 	},
 	["Kyvy"] = {
 		3, -- [1]
@@ -410,7 +423,7 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Talset"] = {
+	["Plnru"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -423,16 +436,16 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Chuichui"] = {
+	["Mosypala"] = {
 		2, -- [1]
 		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
+		0, -- [3]
+		2, -- [4]
+		2, -- [5]
 		2, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
+		0, -- [7]
+		0, -- [8]
+		2, -- [9]
 		2, -- [10]
 		2, -- [11]
 	},
@@ -462,19 +475,6 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Fishqs"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
-		4, -- [11]
-	},
 	["Errorpaladin"] = {
 		1, -- [1]
 		3, -- [2]
@@ -487,6 +487,19 @@ PallyPower_Assignments = {
 		1, -- [9]
 		1, -- [10]
 		3, -- [11]
+	},
+	["Fishqs"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
+		4, -- [10]
+		4, -- [11]
 	},
 	["Infine"] = {
 		0, -- [1]
@@ -501,20 +514,20 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Mosypala"] = {
+	["Chuichui"] = {
 		2, -- [1]
 		2, -- [2]
-		0, -- [3]
-		2, -- [4]
-		2, -- [5]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
 		2, -- [6]
-		0, -- [7]
-		0, -- [8]
-		2, -- [9]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
 		2, -- [10]
 		2, -- [11]
 	},
-	["Plnru"] = {
+	["Talset"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -540,18 +553,18 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Vaglef"] = {
-		2, -- [1]
-		2, -- [2]
+	["Azurelane"] = {
+		3, -- [1]
+		3, -- [2]
 		3, -- [3]
 		3, -- [4]
 		3, -- [5]
-		0, -- [6]
+		3, -- [6]
 		3, -- [7]
 		3, -- [8]
 		3, -- [9]
-		2, -- [10]
-		2, -- [11]
+		3, -- [10]
+		3, -- [11]
 	},
 }
 PallyPower_NormalAssignments = {
@@ -572,6 +585,8 @@ PallyPower_NormalAssignments = {
 	["Zuulith"] = {
 	},
 	["Philliphus"] = {
+	},
+	["Lalpala"] = {
 	},
 	["Nerwaa"] = {
 	},
@@ -610,33 +625,33 @@ PallyPower_NormalAssignments = {
 	},
 	["Hojjaa"] = {
 	},
-	["Azurelane"] = {
+	["Vaglef"] = {
 	},
 	["Kyvy"] = {
 	},
 	["Valerik"] = {
 	},
-	["Talset"] = {
+	["Plnru"] = {
 	},
-	["Chuichui"] = {
+	["Mosypala"] = {
 	},
 	["Heavenlord"] = {
 	},
 	["Jantherqt"] = {
 	},
-	["Fishqs"] = {
-	},
 	["Errorpaladin"] = {
+	},
+	["Fishqs"] = {
 	},
 	["Infine"] = {
 	},
-	["Mosypala"] = {
+	["Chuichui"] = {
 	},
-	["Plnru"] = {
+	["Talset"] = {
 	},
 	["Sosuke"] = {
 	},
-	["Vaglef"] = {
+	["Azurelane"] = {
 	},
 }
 PallyPower_AuraAssignments = {
@@ -649,6 +664,7 @@ PallyPower_AuraAssignments = {
 	["Holydoc"] = 6,
 	["Zuulith"] = 1,
 	["Philliphus"] = 4,
+	["Lalpala"] = 2,
 	["Nerwaa"] = 0,
 	["Xqxq"] = 0,
 	["Betsy"] = 2,
@@ -666,20 +682,20 @@ PallyPower_AuraAssignments = {
 	["Denii"] = 0,
 	["Royalscepte"] = 0,
 	["Hojjaa"] = 0,
-	["Azurelane"] = 1,
+	["Vaglef"] = 3,
 	["Kyvy"] = 1,
 	["Valerik"] = 1,
-	["Talset"] = 0,
-	["Chuichui"] = 1,
+	["Plnru"] = 0,
+	["Mosypala"] = 1,
 	["Heavenlord"] = 2,
 	["Jantherqt"] = 3,
-	["Fishqs"] = 3,
 	["Errorpaladin"] = 1,
+	["Fishqs"] = 3,
 	["Infine"] = 5,
-	["Mosypala"] = 1,
-	["Plnru"] = 0,
+	["Chuichui"] = 1,
+	["Talset"] = 0,
 	["Sosuke"] = 1,
-	["Vaglef"] = 3,
+	["Azurelane"] = 1,
 }
 PallyPower_SavedPresets = {
 }

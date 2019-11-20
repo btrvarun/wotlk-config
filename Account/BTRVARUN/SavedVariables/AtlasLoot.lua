@@ -27,44 +27,44 @@ AtlasLootDB = {
 	},
 }
 AtlasLootWishList = {
+	["Shared"] = {
+	},
 	["Options"] = {
 		["Garzh"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Invariably"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Bowbaby"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Dreamstar"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Ingrate"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
-	},
-	["Shared"] = {
 	},
 	["Own"] = {
 		["Garzh"] = {

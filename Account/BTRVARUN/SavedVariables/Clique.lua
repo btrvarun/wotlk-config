@@ -30,6 +30,13 @@ CliqueDB = {
 		["Invariably - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Renew",
+						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
+					},
 					["2"] = {
 						["type"] = "spell",
 						["modifier"] = "",
@@ -38,24 +45,17 @@ CliqueDB = {
 						["arg1"] = "Power Word: Shield",
 						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
 					},
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Renew",
-						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
-					},
 				},
 			},
 			["blacklist"] = {
 				["ElvUF_TargetTarget"] = true,
 				["ElvUF_Target"] = true,
-				["PlayerFrame"] = true,
+				["TargetFrame"] = true,
 				["PetFrame"] = true,
 				["FocusFrame"] = true,
 				["ElvUF_Player"] = true,
 				["ElvUF_TargetTargetTarget"] = true,
-				["TargetFrame"] = true,
+				["PlayerFrame"] = true,
 			},
 		},
 		["Garzh - Icecrown"] = {
@@ -111,12 +111,12 @@ CliqueDB = {
 			["blacklist"] = {
 				["ElvUF_TargetTarget"] = true,
 				["ElvUF_Player"] = true,
-				["PlayerFrame"] = true,
+				["TargetFrame"] = true,
 				["ElvUF_FocusTarget"] = true,
 				["FocusFrame"] = true,
 				["ElvUF_Focus"] = true,
 				["ElvUF_Target"] = true,
-				["TargetFrame"] = true,
+				["PlayerFrame"] = true,
 			},
 		},
 	},
