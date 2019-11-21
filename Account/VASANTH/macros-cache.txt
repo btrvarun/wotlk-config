@@ -49,6 +49,11 @@ MACRO 131 "ds" INV_Misc_QuestionMark
 /cancelaura divine shield
 /cancelaura hand of protection
 END
+MACRO 151 "ds" INV_Misc_QuestionMark
+#showtooltip
+/cast divine shield
+/cancelaura divine shield
+END
 MACRO 137 "ds cancel" Ability_Druid_GaleWinds
 /cancelaura divine sacrifice
 END
@@ -152,7 +157,4 @@ MACRO 146 "taunt" INV_Misc_QuestionMark
 /cancelaura hand of protection
 /cancelaura divine shield
 /cast hand of reckoning
-END
-MACRO 151 "trade" INV_Misc_QuestionMark
-/trade
 END

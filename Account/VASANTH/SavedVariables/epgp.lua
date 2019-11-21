@@ -13,23 +13,23 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["loot"] = {
-		},
 		["gptooltip"] = {
 		},
 		["announce"] = {
 		},
-	},
-	["profileKeys"] = {
-		["Immutability - Icecrown"] = "Fade",
+		["loot"] = {
+		},
 	},
 	["global"] = {
 		["last_version"] = "5.5.19",
 	},
+	["profileKeys"] = {
+		["Immutability - Icecrown"] = "Fade",
+	},
 	["profiles"] = {
-		["Immutability - Icecrown"] = {
-		},
 		["Fade"] = {
+		},
+		["Immutability - Icecrown"] = {
 		},
 	},
 }

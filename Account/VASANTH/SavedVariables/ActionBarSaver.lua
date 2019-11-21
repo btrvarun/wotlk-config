@@ -14,7 +14,7 @@ ActionBarSaverDB = {
 				"spell|133||Shield of Righteousness|Rank 2|61411", -- [3]
 				"spell|114||Hammer of the Righteous||53595", -- [4]
 				"spell|157||Hammer of Wrath|Rank 6|48806", -- [5]
-				"spell|103||Divine Protection||498", -- [6]
+				"macro|6||salv|Interface\\Icons\\Spell_Holy_SealOfSalvation|#showtooltip/n/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of salvation", -- [6]
 				"spell|135||Avenging Wrath||31884", -- [7]
 				"spell|32||Consecration|Rank 8|48819", -- [8]
 				"spell|119||Hand of Reckoning||62124", -- [9]
@@ -47,7 +47,7 @@ ActionBarSaverDB = {
 				"macro|36||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [36]
 				nil, -- [37]
 				"spell|91||Seal of Wisdom||20166", -- [38]
-				"macro|39||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade", -- [39]
+				"macro|39||ds|Interface\\Icons\\Spell_Holy_DivineIntervention|#showtooltip/n/cast divine shield/n/cancelaura divine shield", -- [39]
 				"spell|129||Righteous Fury||25780", -- [40]
 				"item|33445||Honeymint Tea", -- [41]
 				"spell|158||Judgement of Justice||53407", -- [42]
@@ -60,7 +60,7 @@ ActionBarSaverDB = {
 				"spell|104||Divine Sacrifice||64205", -- [49]
 				"spell|74||Holy Wrath|Rank 5|48817", -- [50]
 				"macro|51||judgement of lig|Interface\\Icons\\Spell_Holy_RighteousFury|#showtooltip/n/startattack/n/cast judgement of light", -- [51]
-				"item|54589||Glowing Twilight Scale", -- [52]
+				"item|50364||Sindragosa's Flawless Fang", -- [52]
 				"macro|53||hop|Interface\\Icons\\Spell_Holy_SealOfProtection|#showtooltip/n/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of protection", -- [53]
 				"macro|54||ssself|Interface\\Icons\\Ability_Paladin_BlessedMending|#showtooltip/n/cast [target=player] Sacred shield", -- [54]
 				"spell|130||Seal of Justice||20164", -- [55]
@@ -70,7 +70,7 @@ ActionBarSaverDB = {
 				"item|40093||Indestructible Potion", -- [59]
 				"spell|2||Arcane Torrent|Racial|28730", -- [60]
 				"macro|61||hos|Interface\\Icons\\Spell_Holy_SealOfSacrifice|#showtooltip/n/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of sacrifice", -- [61]
-				"macro|62||salv|Interface\\Icons\\Spell_Holy_SealOfSalvation|#showtooltip/n/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of salvation", -- [62]
+				"spell|103||Divine Protection||498", -- [62]
 				"spell|129||Righteous Fury||25780", -- [63]
 				"macro|64||loh|Interface\\Icons\\Spell_Holy_LayOnHands|#showtooltip/n/cast [target=mouseover,help,exists] [help,exists] [target=player] lay on hands", -- [64]
 				"macro|65||hof|Interface\\Icons\\Spell_Holy_SealOfValor|#showtooltip/n/cast [target=mouseover,help,exists] [help,exists] [target=player] hand of freedom", -- [65]
@@ -78,9 +78,9 @@ ActionBarSaverDB = {
 				"spell|127||Holy Shield|Rank 6|48952", -- [67]
 				"macro|68||rd|Interface\\Icons\\INV_Shoulder_37|#showtooltip/n/cast [target=mouseover,help,exists] [help,exists] [target=player] Righteous Defense", -- [68]
 				"macro|69||self salv|Interface\\Icons\\Spell_Holy_SealOfSalvation|#showtooltip/n/cast [target=player] hand of salvation", -- [69]
-				"spell|105||Divine Shield||642", -- [70]
+				"macro|70||ds|Interface\\Icons\\Spell_Holy_DivineIntervention|#showtooltip/n/cast divine shield/n/cancelaura divine shield", -- [70]
 				"spell|33||Divine Plea||54428", -- [71]
-				"item|50625||Grinning Skull Greatboots", -- [72]
+				"item|54579||Treads of Impending Resurrection", -- [72]
 				[111] = "item|36894||Fel Healthstone",
 			},
 			["holy"] = {
@@ -165,13 +165,13 @@ ActionBarSaverDB = {
 		},
 		["WARLOCK"] = {
 		},
-		["ROGUE"] = {
+		["HUNTER"] = {
 		},
 		["DRUID"] = {
 		},
 		["SHAMAN"] = {
 		},
-		["HUNTER"] = {
+		["ROGUE"] = {
 		},
 	},
 	["spellSubs"] = {

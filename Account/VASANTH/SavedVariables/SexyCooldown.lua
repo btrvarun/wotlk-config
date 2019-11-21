@@ -1,20 +1,16 @@
 
 SexyCooldownDB = {
+	["global"] = {
+		["dbVersion"] = 3,
+	},
 	["profileKeys"] = {
 		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
 		["Immutability - Icecrown"] = "Immutability - Icecrown",
-	},
-	["global"] = {
-		["dbVersion"] = 3,
 	},
 	["profiles"] = {
 		["Milkmycow - Icecrown"] = {
 			["bars"] = {
 				{
-					["blacklist"] = {
-					},
-					["events"] = {
-					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -26,6 +22,10 @@ SexyCooldownDB = {
 						},
 						["width"] = 449.9999930245016,
 					},
+					["events"] = {
+					},
+					["blacklist"] = {
+					},
 				}, -- [1]
 			},
 		},
@@ -33,16 +33,6 @@ SexyCooldownDB = {
 			["bars"] = {
 				{
 					["events"] = {
-					},
-					["blacklist"] = {
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -54,10 +44,20 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 						["height"] = 33.00000088903411,
-						["lock"] = true,
+						["font"] = "Continuum Medium",
 						["backgroundColor"] = {
 						},
-						["font"] = "Continuum Medium",
+						["lock"] = true,
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},

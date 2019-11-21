@@ -37,8 +37,8 @@ H: 1
 Frame: PallyPowerConfigFrame
 FrameLevel: 9
 Anchor: CENTER
-X: -116
-Y: 26
+X: 0
+Y: 0
 W: 1170
 H: 960
 Frame: SexyCooldownBar 0
