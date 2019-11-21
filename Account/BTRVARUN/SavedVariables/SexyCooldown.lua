@@ -98,7 +98,7 @@ SexyCooldownDB = {
 						["height"] = 33.00000088903411,
 						["width"] = 449.9999930245016,
 						["y"] = 199.9995650571569,
-						["font"] = "Continuum Medium",
+						["font"] = "Segoe UI",
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},

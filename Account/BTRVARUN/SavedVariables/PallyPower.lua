@@ -215,6 +215,19 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Immio"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
+	},
 	["Nerfado"] = {
 		3, -- [1]
 		3, -- [2]
@@ -384,6 +397,19 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Chuichui"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		2, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+		2, -- [11]
+	},
 	["Vaglef"] = {
 		2, -- [1]
 		2, -- [2]
@@ -514,18 +540,18 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Chuichui"] = {
+	["Misfitreborn"] = {
 		2, -- [1]
 		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		2, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
 		2, -- [10]
-		2, -- [11]
+		1, -- [11]
 	},
 	["Talset"] = {
 		0, -- [1]
@@ -596,6 +622,8 @@ PallyPower_NormalAssignments = {
 	},
 	["Redhaswings"] = {
 	},
+	["Immio"] = {
+	},
 	["Nerfado"] = {
 	},
 	["Rubinartdog"] = {
@@ -625,6 +653,8 @@ PallyPower_NormalAssignments = {
 	},
 	["Hojjaa"] = {
 	},
+	["Chuichui"] = {
+	},
 	["Vaglef"] = {
 	},
 	["Kyvy"] = {
@@ -645,7 +675,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Infine"] = {
 	},
-	["Chuichui"] = {
+	["Misfitreborn"] = {
 	},
 	["Talset"] = {
 	},
@@ -669,6 +699,7 @@ PallyPower_AuraAssignments = {
 	["Xqxq"] = 0,
 	["Betsy"] = 2,
 	["Redhaswings"] = 1,
+	["Immio"] = 0,
 	["Nerfado"] = 1,
 	["Rubinartdog"] = 3,
 	["Argentaluce"] = 1,
@@ -682,6 +713,7 @@ PallyPower_AuraAssignments = {
 	["Denii"] = 0,
 	["Royalscepte"] = 0,
 	["Hojjaa"] = 0,
+	["Chuichui"] = 1,
 	["Vaglef"] = 3,
 	["Kyvy"] = 1,
 	["Valerik"] = 1,
@@ -692,7 +724,7 @@ PallyPower_AuraAssignments = {
 	["Errorpaladin"] = 1,
 	["Fishqs"] = 3,
 	["Infine"] = 5,
-	["Chuichui"] = 1,
+	["Misfitreborn"] = 3,
 	["Talset"] = 0,
 	["Sosuke"] = 1,
 	["Azurelane"] = 1,
