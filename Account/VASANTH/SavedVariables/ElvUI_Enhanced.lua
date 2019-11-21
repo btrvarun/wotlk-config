@@ -1,11 +1,11 @@
 
 EnhancedDB = {
-	["UnitClass"] = {
+	["UnitTitle"] = {
 	},
 	["NPCList"] = {
 	},
 	["GuildList"] = {
 	},
-	["UnitTitle"] = {
+	["UnitClass"] = {
 	},
 }
