@@ -1,13 +1,13 @@
 
 SexyCooldownDB = {
+	["global"] = {
+		["dbVersion"] = 3,
+	},
 	["profileKeys"] = {
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
-	},
-	["global"] = {
-		["dbVersion"] = 3,
 	},
 	["profiles"] = {
 		["Ingrate - Icecrown"] = {
@@ -15,21 +15,7 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-						["width"] = 449.9999930245016,
-						["y"] = 199.999915199823,
-						["x"] = -731.0000218155294,
-						["name"] = "Bar 0",
-						["lock"] = true,
-						["height"] = 33.00000088903411,
-						["font"] = "Continuum Medium",
-						["backgroundColor"] = {
-						},
-						["texture"] = "ElvUI Norm",
+					["blacklist"] = {
 					},
 					["eventColors"] = {
 					},
@@ -39,7 +25,21 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 					},
-					["blacklist"] = {
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["lock"] = true,
+						["width"] = 449.9999930245016,
+						["y"] = 199.999915199823,
+						["x"] = -731.0000218155294,
+						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["font"] = "Continuum Medium",
+						["backgroundColor"] = {
+						},
+						["texture"] = "ElvUI Norm",
 					},
 				}, -- [1]
 			},
@@ -48,6 +48,16 @@ SexyCooldownDB = {
 			["bars"] = {
 				{
 					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -59,20 +69,10 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 						["height"] = 33.00000088903411,
-						["lock"] = true,
+						["font"] = "Continuum Medium",
 						["backgroundColor"] = {
 						},
-						["font"] = "Continuum Medium",
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
+						["lock"] = true,
 					},
 				}, -- [1]
 			},
@@ -82,7 +82,21 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["blacklist"] = {
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["font"] = "Segoe UI",
+						["width"] = 449.9999930245016,
+						["y"] = 199.9995650571569,
+						["x"] = -726.9999044630265,
+						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["orientation"] = "LEFT_TO_RIGHT",
+						["lock"] = true,
+						["backgroundColor"] = {
+						},
+						["height"] = 33.00000088903411,
 					},
 					["eventColors"] = {
 					},
@@ -92,21 +106,7 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["orientation"] = "LEFT_TO_RIGHT",
-						["width"] = 449.9999930245016,
-						["y"] = 199.9995650571569,
-						["x"] = -726.9999044630265,
-						["name"] = "Bar 0",
-						["borderColor"] = {
-						},
-						["height"] = 33.00000088903411,
-						["lock"] = true,
-						["backgroundColor"] = {
-						},
-						["font"] = "Segoe UI",
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -116,21 +116,7 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["font"] = "Continuum Medium",
-						["width"] = 449.9999930245016,
-						["y"] = 200.500058983994,
-						["x"] = -731.9998541984055,
-						["name"] = "Bar 0",
-						["borderColor"] = {
-						},
-						["height"] = 33.00000088903411,
-						["lock"] = true,
-						["backgroundColor"] = {
-						},
-						["orientation"] = "LEFT_TO_RIGHT",
+					["blacklist"] = {
 					},
 					["eventColors"] = {
 					},
@@ -140,7 +126,21 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 					},
-					["blacklist"] = {
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["orientation"] = "LEFT_TO_RIGHT",
+						["width"] = 449.9999930245016,
+						["y"] = 200.500058983994,
+						["font"] = "Continuum Medium",
+						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["lock"] = true,
+						["backgroundColor"] = {
+						},
+						["x"] = -731.9998541984055,
 					},
 				}, -- [1]
 			},
