@@ -1,11 +1,4 @@
 Version: 1
-Frame: InterfaceOptionsFrame
-FrameLevel: 15
-Anchor: CENTER
-X: 301
-Y: 61
-W: 648
-H: 520
 Frame: FocusFrame
 FrameLevel: 7
 Anchor: TOPLEFT
