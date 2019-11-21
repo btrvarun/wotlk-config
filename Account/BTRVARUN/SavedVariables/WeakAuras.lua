@@ -95,9 +95,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "readiness",
 			["numTriggers"] = 1,
+			["id"] = "readiness",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["parent"] = "cooldowns",
@@ -200,10 +200,10 @@ WeakAurasSaved = {
 			["untrigger"] = {
 			},
 			["id"] = "berserk - timer",
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
 			["color"] = {
@@ -300,9 +300,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "lacerate",
 			["numTriggers"] = 1,
+			["id"] = "lacerate",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["parent"] = "rotation helper - cat/bear",
@@ -401,10 +401,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["xOffset"] = 0,
 			["id"] = "aspect of the viper",
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -468,13 +468,13 @@ WeakAurasSaved = {
 			},
 			["selfPoint"] = "CENTER",
 			["id"] = "shadowform",
-			["discrete_rotation"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 200,
 			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["discrete_rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -585,10 +585,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["selfPoint"] = "CENTER",
 			["id"] = "vampiric touch 2",
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -688,9 +688,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "rapid fire 2",
 			["inverse"] = false,
+			["id"] = "rapid fire 2",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["xOffset"] = 0,
@@ -803,8 +803,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["numTriggers"] = 1,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -896,10 +896,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["xOffset"] = 0,
 			["id"] = "hunter's mark",
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -945,6 +945,8 @@ WeakAurasSaved = {
 			["background"] = "None",
 			["expanded"] = false,
 			["constantFactor"] = "RADIUS",
+			["id"] = "rotation helper - cat/bear",
+			["borderOffset"] = 16,
 			["trigger"] = {
 				["unit"] = "player",
 				["type"] = "aura",
@@ -952,8 +954,16 @@ WeakAurasSaved = {
 				["names"] = {
 				},
 			},
-			["borderOffset"] = 16,
-			["id"] = "rotation helper - cat/bear",
+			["selfPoint"] = "CENTER",
+			["align"] = "CENTER",
+			["stagger"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 460.0000325523259,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["backgroundInset"] = 0,
+			["height"] = 40.00002680779787,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -968,16 +978,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["align"] = "CENTER",
-			["rotation"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 460.0000325523259,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["backgroundInset"] = 0,
-			["height"] = 40.00002680779787,
-			["selfPoint"] = "CENTER",
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -1098,8 +1098,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["xOffset"] = 0,
 			["parent"] = "cooldowns",
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["stickyDuration"] = false,
 			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1200,9 +1200,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "call of the wild",
 			["inverse"] = false,
+			["id"] = "call of the wild",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["parent"] = "cooldowns",
@@ -1272,13 +1272,13 @@ WeakAurasSaved = {
 				},
 				["debuffType"] = "HELPFUL",
 			},
-			["width"] = 200,
-			["frameStrata"] = 1,
 			["desaturate"] = false,
-			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 200,
+			["discrete_rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["discrete_rotation"] = 0,
+			["rotation"] = 0,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -1335,6 +1335,9 @@ WeakAurasSaved = {
 				},
 			},
 			["constantFactor"] = "RADIUS",
+			["selfPoint"] = "CENTER",
+			["borderOffset"] = 16,
+			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -1349,18 +1352,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
-			["selfPoint"] = "CENTER",
-			["id"] = "beast mode",
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 64.00000437678335,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["rotation"] = 0,
-			["height"] = 525.9999818089943,
 			["trigger"] = {
 				["names"] = {
 				},
@@ -1368,6 +1359,15 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 				["unit"] = "player",
 			},
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 64.00000437678335,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["stagger"] = 0,
+			["height"] = 525.9999818089943,
+			["id"] = "beast mode",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -1471,8 +1471,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["BFgloss"] = 0,
 			["xOffset"] = 0,
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1578,9 +1578,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "spriest gloves",
 			["numTriggers"] = 1,
+			["id"] = "spriest gloves",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["parent"] = "cooldowns",
@@ -1687,8 +1687,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["numTriggers"] = 1,
 			["parent"] = "beast mode",
-			["BFgloss"] = 0,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1890,8 +1890,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["inverse"] = false,
 			["BFgloss"] = 0,
+			["inverse"] = false,
 			["parent"] = "beast mode",
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1989,8 +1989,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["numTriggers"] = 1,
 			["parent"] = "rotation helper - hunt",
-			["inverse"] = false,
 			["BFgloss"] = 0,
+			["inverse"] = false,
 			["xOffset"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Ability_Hunter_AspectoftheViper",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -2089,10 +2089,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["xOffset"] = 0,
 			["id"] = "kill shot",
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2189,9 +2189,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "demoralizing roar/shot 2",
 			["inverse"] = false,
+			["id"] = "demoralizing roar/shot 2",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["color"] = {
@@ -2294,8 +2294,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["numTriggers"] = 1,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -2400,8 +2400,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["BFgloss"] = 0,
 			["xOffset"] = 0,
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -2512,8 +2512,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["xOffset"] = 0,
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["actions"] = {
 				["start"] = {
 				},
@@ -2618,8 +2618,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["numTriggers"] = 1,
 			["xOffset"] = 0,
-			["inverse"] = false,
 			["BFgloss"] = 0,
+			["inverse"] = false,
 			["icon"] = true,
 			["displayIcon"] = "Interface\\Icons\\Spell_Shadow_DevouringPlague",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -2680,9 +2680,9 @@ WeakAurasSaved = {
 			},
 			["selfPoint"] = "CENTER",
 			["id"] = "trueshot aura",
-			["desaturate"] = false,
-			["frameStrata"] = 1,
 			["width"] = 200,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
@@ -2782,10 +2782,10 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["id"] = "serpent sting",
-			["inverse"] = false,
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["numTriggers"] = 1,
+			["inverse"] = false,
 			["parent"] = "rotation helper - hunt",
 			["BFgloss"] = 0,
 			["animation"] = {
@@ -2902,10 +2902,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["xOffset"] = 0,
 			["id"] = "rake",
-			["numTriggers"] = 1,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["inverse"] = false,
+			["numTriggers"] = 1,
 			["parent"] = "rotation helper - cat/bear",
 			["BFgloss"] = 0,
 			["yOffset"] = 0,
@@ -2966,11 +2966,11 @@ WeakAurasSaved = {
 			},
 			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
-			["width"] = 200,
+			["desaturate"] = false,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -3090,9 +3090,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "berserk",
 			["inverse"] = false,
+			["id"] = "berserk",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["color"] = {
@@ -3313,8 +3313,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["xOffset"] = 0,
 			["parent"] = "cooldowns",
-			["numTriggers"] = 1,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["stickyDuration"] = false,
 			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -3412,8 +3412,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["numTriggers"] = 1,
 			["xOffset"] = 0,
-			["BFgloss"] = 0,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["selfPoint"] = "CENTER",
 			["displayIcon"] = "Interface\\Icons\\Ability_Hunter_Quickshot",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -3523,8 +3523,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["xOffset"] = 0,
 			["parent"] = "cooldowns",
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["desaturate"] = true,
 			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -3609,9 +3609,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "enrage",
 			["BFgloss"] = 0,
+			["id"] = "enrage",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["color"] = {
@@ -3722,9 +3722,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "berserking 2",
 			["numTriggers"] = 1,
+			["id"] = "berserking 2",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["color"] = {
@@ -3837,9 +3837,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "bestial wrath 2",
 			["numTriggers"] = 1,
+			["id"] = "bestial wrath 2",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["xOffset"] = 0,
@@ -3960,8 +3960,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["xOffset"] = 0,
-			["numTriggers"] = 1,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["desaturate"] = false,
 			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -4001,6 +4001,8 @@ WeakAurasSaved = {
 			["background"] = "None",
 			["expanded"] = true,
 			["constantFactor"] = "RADIUS",
+			["id"] = "rotation helper - hunt",
+			["borderOffset"] = 16,
 			["trigger"] = {
 				["unit"] = "player",
 				["type"] = "aura",
@@ -4008,8 +4010,16 @@ WeakAurasSaved = {
 				["names"] = {
 				},
 			},
-			["borderOffset"] = 16,
-			["id"] = "rotation helper - hunt",
+			["selfPoint"] = "CENTER",
+			["align"] = "CENTER",
+			["stagger"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 334.0000737214441,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["backgroundInset"] = 0,
+			["height"] = 40.00002680779787,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4024,16 +4034,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["align"] = "CENTER",
-			["rotation"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 334.0000737214441,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["backgroundInset"] = 0,
-			["height"] = 40.00002680779787,
-			["selfPoint"] = "CENTER",
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -4150,9 +4150,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "tiger's fury 2",
 			["numTriggers"] = 1,
+			["id"] = "tiger's fury 2",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["xOffset"] = 0,
@@ -4250,8 +4250,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["BFgloss"] = 0,
 			["xOffset"] = 0,
-			["numTriggers"] = 1,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4355,8 +4355,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["BFgloss"] = 0,
 			["xOffset"] = 0,
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["parent"] = "rotation helper - priest",
 			["stickyDuration"] = false,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -4451,10 +4451,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["icon"] = true,
 			["id"] = "shadow word: pain 2",
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4507,6 +4507,8 @@ WeakAurasSaved = {
 			["background"] = "None",
 			["expanded"] = false,
 			["constantFactor"] = "RADIUS",
+			["id"] = "cooldowns",
+			["borderOffset"] = 16,
 			["trigger"] = {
 				["unit"] = "player",
 				["type"] = "aura",
@@ -4514,8 +4516,16 @@ WeakAurasSaved = {
 				["names"] = {
 				},
 			},
-			["borderOffset"] = 16,
-			["id"] = "cooldowns",
+			["selfPoint"] = "CENTER",
+			["align"] = "CENTER",
+			["stagger"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 64.00019695524975,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["backgroundInset"] = 0,
+			["height"] = 1185.999982082543,
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -4530,16 +4540,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["align"] = "CENTER",
-			["rotation"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 64.00019695524975,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["backgroundInset"] = 0,
-			["height"] = 1185.999982082543,
-			["selfPoint"] = "CENTER",
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -4644,10 +4644,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["parent"] = "rotation helper - priest",
 			["id"] = "devouring plague",
-			["numTriggers"] = 1,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["inverse"] = false,
+			["numTriggers"] = 1,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -4749,10 +4749,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["xOffset"] = 0,
 			["id"] = "savage roar",
-			["numTriggers"] = 1,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["inverse"] = false,
+			["numTriggers"] = 1,
 			["parent"] = "rotation helper - cat/bear",
 			["BFgloss"] = 0,
 			["yOffset"] = 0,
@@ -4846,8 +4846,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["numTriggers"] = 1,
 			["parent"] = "beast mode",
-			["BFgloss"] = 0,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["untrigger"] = {
 			},
 			["stickyDuration"] = false,
@@ -4960,8 +4960,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["yOffset"] = 0,
 			["xOffset"] = 0,
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["desaturate"] = true,
 			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -5024,11 +5024,11 @@ WeakAurasSaved = {
 			},
 			["anchorPoint"] = "CENTER",
 			["frameStrata"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
-			["width"] = 200,
+			["desaturate"] = false,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -5137,10 +5137,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["yOffset"] = 0,
 			["id"] = "shadow weaving",
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
 			["parent"] = "beast mode",
@@ -5171,18 +5171,18 @@ WeakAurasSaved = {
 				},
 				["debuffType"] = "HARMFUL",
 				["type"] = "status",
-				["subeventSuffix"] = "_CAST_START",
 				["custom_type"] = "event",
+				["subeventSuffix"] = "_CAST_START",
 				["custom_hide"] = "timed",
 				["spellName"] = 50213,
-				["use_itemName"] = true,
+				["event"] = "Cooldown Progress (Spell)",
 				["use_behavior"] = true,
 				["use_unit"] = true,
 				["use_spellName"] = true,
 				["inverse"] = true,
 				["use_inverse"] = true,
 				["unevent"] = "auto",
-				["event"] = "Cooldown Progress (Spell)",
+				["use_itemName"] = true,
 				["unit"] = "target",
 				["subeventPrefix"] = "SPELL",
 			},
@@ -5243,8 +5243,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["numTriggers"] = 1,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -5429,10 +5429,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["stickyDuration"] = false,
 			["id"] = "sharpened twilight scale",
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
 			["actions"] = {
@@ -5538,9 +5538,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "shadowfiend 2",
 			["inverse"] = false,
+			["id"] = "shadowfiend 2",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 64,
 			["color"] = {
@@ -5590,6 +5590,9 @@ WeakAurasSaved = {
 				},
 			},
 			["constantFactor"] = "RADIUS",
+			["selfPoint"] = "CENTER",
+			["borderOffset"] = 16,
+			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -5604,18 +5607,6 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
-			["selfPoint"] = "CENTER",
-			["id"] = "rotation helper - priest",
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 250.0000077961454,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["rotation"] = 0,
-			["height"] = 40.00002680779787,
 			["trigger"] = {
 				["names"] = {
 				},
@@ -5623,6 +5614,15 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 				["unit"] = "player",
 			},
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 250.0000077961454,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["stagger"] = 0,
+			["height"] = 40.00002680779787,
+			["id"] = "rotation helper - priest",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -5727,8 +5727,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["numTriggers"] = 1,
 			["parent"] = "beast mode",
-			["BFgloss"] = 0,
 			["inverse"] = false,
+			["BFgloss"] = 0,
 			["untrigger"] = {
 			},
 			["stickyDuration"] = false,
@@ -5840,8 +5840,8 @@ WeakAurasSaved = {
 			["width"] = 64,
 			["parent"] = "cooldowns",
 			["xOffset"] = 0,
-			["numTriggers"] = 1,
 			["inverse"] = false,
+			["numTriggers"] = 1,
 			["desaturate"] = true,
 			["displayIcon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -5902,13 +5902,13 @@ WeakAurasSaved = {
 			},
 			["selfPoint"] = "CENTER",
 			["id"] = "cat form",
-			["discrete_rotation"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 200,
 			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["discrete_rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -6020,9 +6020,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["inverse"] = false,
-			["id"] = "rip 2",
 			["numTriggers"] = 1,
+			["id"] = "rip 2",
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["parent"] = "rotation helper - cat/bear",
@@ -6121,10 +6121,10 @@ WeakAurasSaved = {
 			["untrigger"] = {
 			},
 			["id"] = "phylactery of the nameless lich",
-			["BFgloss"] = 0,
+			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 64,
-			["inverse"] = false,
+			["BFgloss"] = 0,
 			["xOffset"] = 0,
 			["numTriggers"] = 1,
 			["color"] = {
@@ -6189,13 +6189,13 @@ WeakAurasSaved = {
 				},
 				["debuffType"] = "HELPFUL",
 			},
-			["desaturate"] = false,
-			["frameStrata"] = 1,
 			["width"] = 200,
-			["discrete_rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["rotation"] = 0,
+			["discrete_rotation"] = 0,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -6312,9 +6312,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "mangle 2",
 			["inverse"] = false,
+			["id"] = "mangle 2",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["parent"] = "rotation helper - cat/bear",
@@ -6376,13 +6376,13 @@ WeakAurasSaved = {
 				},
 				["debuffType"] = "HELPFUL",
 			},
-			["desaturate"] = false,
-			["frameStrata"] = 1,
 			["width"] = 200,
-			["discrete_rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["rotation"] = 0,
+			["discrete_rotation"] = 0,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -6501,8 +6501,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["xOffset"] = 0,
 			["parent"] = "rotation helper - cat/bear",
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["desaturate"] = true,
 			["displayIcon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -6742,9 +6742,9 @@ WeakAurasSaved = {
 				["name"] = "T.N.T.",
 				["icon"] = "Interface\\Icons\\INV_Misc_Bomb_05",
 			},
-			[3.13] = {
-				["name"] = "Lock and Load",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_LockAndLoad",
+			[1.2] = {
+				["name"] = "Invigoration",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Invigeration",
 			},
 			[1.06] = {
 				["name"] = "Improved Revive Pet",
@@ -6754,17 +6754,17 @@ WeakAurasSaved = {
 				["name"] = "Improved Hunter's Mark",
 				["icon"] = "Interface\\Icons\\Ability_Hunter_SniperShot",
 			},
-			[1.16] = {
-				["name"] = "Frenzy",
-				["icon"] = "Interface\\Icons\\INV_Misc_MonsterClaw_03",
-			},
-			[1.2] = {
-				["name"] = "Invigoration",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Invigeration",
-			},
 			[3.05] = {
 				["name"] = "Entrapment",
 				["icon"] = "Interface\\Icons\\Spell_Nature_StrangleVines",
+			},
+			[3.13] = {
+				["name"] = "Lock and Load",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_LockAndLoad",
+			},
+			[1.16] = {
+				["name"] = "Frenzy",
+				["icon"] = "Interface\\Icons\\INV_Misc_MonsterClaw_03",
 			},
 			[2.18] = {
 				["name"] = "Piercing Shots",
@@ -6778,13 +6778,13 @@ WeakAurasSaved = {
 				["name"] = "Focused Aim",
 				["icon"] = "Interface\\Icons\\Ability_Hunter_FocusedAim",
 			},
-			[2.26] = {
-				["name"] = "Marked for Death",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Assassinate",
-			},
 			[2.03] = {
 				["name"] = "Lethal Shots",
 				["icon"] = "Interface\\Icons\\Ability_SearingArrow",
+			},
+			[2.26] = {
+				["name"] = "Marked for Death",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Assassinate",
 			},
 			[2.09] = {
 				["name"] = "Aimed Shot",
@@ -7066,29 +7066,29 @@ WeakAurasSaved = {
 				["name"] = "Mana Tide Totem",
 				["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental",
 			},
-			[2.01] = {
-				["name"] = "Enhancing Totems",
-				["icon"] = "Interface\\Icons\\Spell_Nature_EarthBindTotem",
+			[2.05] = {
+				["name"] = "Thundering Strikes",
+				["icon"] = "Interface\\Icons\\Ability_ThunderBolt",
 			},
 			[1.02] = {
 				["name"] = "Concussion",
 				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
 			},
-			[2.05] = {
-				["name"] = "Thundering Strikes",
-				["icon"] = "Interface\\Icons\\Ability_ThunderBolt",
-			},
-			[1.2] = {
-				["name"] = "Lightning Overload",
-				["icon"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
+			[2.01] = {
+				["name"] = "Enhancing Totems",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EarthBindTotem",
 			},
 			[3.13] = {
 				["name"] = "Nature's Swiftness",
 				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
 			},
-			[1.16] = {
-				["name"] = "Elemental Mastery",
-				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+			[1.2] = {
+				["name"] = "Lightning Overload",
+				["icon"] = "Interface\\Icons\\Spell_Nature_LightningOverload",
+			},
+			[3.05] = {
+				["name"] = "Tidal Focus",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ManaRecharge",
 			},
 			[2.22] = {
 				["name"] = "Static Shock",
@@ -7106,9 +7106,9 @@ WeakAurasSaved = {
 				["name"] = "Nature's Blessing",
 				["icon"] = "Interface\\Icons\\Spell_Nature_NatureBlessing",
 			},
-			[2.26] = {
-				["name"] = "Shamanistic Rage",
-				["icon"] = "Interface\\Icons\\Spell_Nature_ShamanRage",
+			[2.03] = {
+				["name"] = "Ancestral Knowledge",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
 			},
 			[1.22] = {
 				["name"] = "Totem of Wrath",
@@ -7166,9 +7166,9 @@ WeakAurasSaved = {
 				["name"] = "Shamanistic Focus",
 				["icon"] = "Interface\\Icons\\Spell_Nature_ElementalAbsorption",
 			},
-			[2.03] = {
-				["name"] = "Ancestral Knowledge",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_GrimWard",
+			[2.26] = {
+				["name"] = "Shamanistic Rage",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ShamanRage",
 			},
 			[3.22] = {
 				["name"] = "Ancestral Awakening",
@@ -7182,9 +7182,9 @@ WeakAurasSaved = {
 				["name"] = "Frozen Power",
 				["icon"] = "Interface\\Icons\\Spell_Fire_BlueCano",
 			},
-			[3.05] = {
-				["name"] = "Tidal Focus",
-				["icon"] = "Interface\\Icons\\Spell_Frost_ManaRecharge",
+			[1.16] = {
+				["name"] = "Elemental Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
 			},
 			[1.06] = {
 				["name"] = "Reverberation",
@@ -7402,9 +7402,9 @@ WeakAurasSaved = {
 				["name"] = "Twin Disciplines",
 				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfVengeance",
 			},
-			[3.13] = {
-				["name"] = "Silence",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
+			[1.2] = {
+				["name"] = "Improved Flash Heal",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Chastise",
 			},
 			[2.05] = {
 				["name"] = "Divine Fury",
@@ -7414,13 +7414,13 @@ WeakAurasSaved = {
 				["name"] = "Lightwell",
 				["icon"] = "Interface\\Icons\\Spell_Holy_SummonLightwell",
 			},
-			[1.2] = {
-				["name"] = "Improved Flash Heal",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Chastise",
+			[3.13] = {
+				["name"] = "Silence",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
 			},
-			[3.05] = {
-				["name"] = "Improved Shadow Word: Pain",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			[1.16] = {
+				["name"] = "Focused Power",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FocusedPower",
 			},
 			[1.17] = {
 				["name"] = "Enlightenment",
@@ -7438,21 +7438,21 @@ WeakAurasSaved = {
 				["name"] = "Improved Power Word: Fortitude",
 				["icon"] = "Interface\\Icons\\Spell_Holy_WordFortitude",
 			},
-			[2.03] = {
-				["name"] = "Holy Specialization",
-				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfSalvation",
+			[2.26] = {
+				["name"] = "Divine Providence",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
 			},
-			[1.1] = {
-				["name"] = "Absolution",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Absolution",
+			[3.01] = {
+				["name"] = "Spirit Tap",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
 			},
 			[1.14] = {
 				["name"] = "Mental Strength",
 				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
 			},
-			[3.01] = {
-				["name"] = "Spirit Tap",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			[1.1] = {
+				["name"] = "Absolution",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Absolution",
 			},
 			[1.22] = {
 				["name"] = "Rapture",
@@ -7494,9 +7494,9 @@ WeakAurasSaved = {
 				["name"] = "Improved Healing",
 				["icon"] = "Interface\\Icons\\Spell_Holy_Heal02",
 			},
-			[2.26] = {
-				["name"] = "Divine Providence",
-				["icon"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
+			[2.03] = {
+				["name"] = "Holy Specialization",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfSalvation",
 			},
 			[2.09] = {
 				["name"] = "Holy Reach",
@@ -7514,9 +7514,9 @@ WeakAurasSaved = {
 				["name"] = "Serendipity",
 				["icon"] = "Interface\\Icons\\Spell_Holy_Serendipity",
 			},
-			[1.16] = {
-				["name"] = "Focused Power",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_FocusedPower",
+			[3.05] = {
+				["name"] = "Improved Shadow Word: Pain",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
 			},
 			[1.06] = {
 				["name"] = "Martyrdom",
@@ -7752,9 +7752,9 @@ WeakAurasSaved = {
 				["name"] = "Gift of Nature",
 				["icon"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
 			},
-			[2.05] = {
-				["name"] = "Thick Hide",
-				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			[2.01] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
 			},
 			[3.05] = {
 				["name"] = "Subtlety",
@@ -7860,9 +7860,9 @@ WeakAurasSaved = {
 				["name"] = "Survival of the Fittest",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Enrage",
 			},
-			[2.01] = {
-				["name"] = "Ferocity",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			[2.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
 			},
 			[1.02] = {
 				["name"] = "Genesis",
@@ -8068,21 +8068,21 @@ WeakAurasSaved = {
 				["name"] = "Judgements of the Wise",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementoftheWise",
 			},
-			[2.01] = {
-				["name"] = "Divinity",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+			[2.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 			},
-			[1.16] = {
-				["name"] = "Holy Power",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[1.2] = {
 				["name"] = "Sacred Cleansing",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[3.05] = {
-				["name"] = "Improved Blessing of Might",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[1.06] = {
 				["name"] = "Aura Mastery",
@@ -8128,9 +8128,9 @@ WeakAurasSaved = {
 				["name"] = "Two-Handed Weapon Specialization",
 				["icon"] = "Interface\\Icons\\INV_Hammer_04",
 			},
-			[3.18] = {
-				["name"] = "Repentance",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			[3.26] = {
+				["name"] = "Divine Storm",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
 			},
 			[1.01] = {
 				["name"] = "Spiritual Focus",
@@ -8152,9 +8152,9 @@ WeakAurasSaved = {
 				["name"] = "Improved Lay on Hands",
 				["icon"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 			},
-			[3.26] = {
-				["name"] = "Divine Storm",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
+			[3.18] = {
+				["name"] = "Repentance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 			},
 			[1.23] = {
 				["name"] = "Judgements of the Pure",
@@ -8188,9 +8188,9 @@ WeakAurasSaved = {
 				["name"] = "Sacred Duty",
 				["icon"] = "Interface\\Icons\\Spell_Holy_DivineIntervention",
 			},
-			[2.05] = {
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			[2.01] = {
+				["name"] = "Divinity",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
 			},
 			[3.17] = {
 				["name"] = "The Art of War",

@@ -95,18 +95,18 @@ SexyCooldownDB = {
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["orientation"] = "LEFT_TO_RIGHT",
+						["height"] = 33.00000088903411,
 						["width"] = 449.9999930245016,
 						["y"] = 199.9995650571569,
-						["x"] = -726.9999044630265,
+						["font"] = "Continuum Medium",
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
-						["height"] = 33.00000088903411,
+						["orientation"] = "LEFT_TO_RIGHT",
 						["lock"] = true,
 						["backgroundColor"] = {
 						},
-						["font"] = "Continuum Medium",
+						["x"] = -726.9999044630265,
 					},
 				}, -- [1]
 			},
@@ -119,18 +119,18 @@ SexyCooldownDB = {
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["font"] = "Continuum Medium",
+						["x"] = -731.9998541984055,
 						["width"] = 449.9999930245016,
 						["y"] = 200.500058983994,
-						["x"] = -731.9998541984055,
+						["font"] = "Continuum Medium",
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
-						["height"] = 33.00000088903411,
+						["orientation"] = "LEFT_TO_RIGHT",
 						["lock"] = true,
 						["backgroundColor"] = {
 						},
-						["orientation"] = "LEFT_TO_RIGHT",
+						["height"] = 33.00000088903411,
 					},
 					["eventColors"] = {
 					},
