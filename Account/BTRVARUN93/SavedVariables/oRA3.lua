@@ -15,10 +15,13 @@ oRA3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Flynnrider - Icecrown"] = "Default",
 		["Herbivore - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["lastSelectedList"] = 1,
+			["lastSelectedPanel"] = "Checks",
 		},
 	},
 }

@@ -22,6 +22,7 @@ MACRO 166 "bt cleave" INV_Misc_QuestionMark
 /cast bloodrage
 /cast bloodthirst
 /cast cleave
+/use Aldriana's Gloves of Secrecy
 END
 MACRO 167 "bt hs" INV_Misc_QuestionMark
 #showtooltip bloodthirst
@@ -29,6 +30,7 @@ MACRO 167 "bt hs" INV_Misc_QuestionMark
 /cast bloodrage
 /cast bloodthirst
 /cast heroic strike
+/use Aldriana's Gloves of Secrecy
 END
 MACRO 171 "charge" INV_Misc_QuestionMark
 #showtooltip intercept
