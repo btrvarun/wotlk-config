@@ -117,24 +117,24 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
+		["loot"] = {
+		},
 		["announce"] = {
 		},
 		["gptooltip"] = {
 		},
-		["loot"] = {
-		},
+	},
+	["global"] = {
+		["last_version"] = "5.5.19",
 	},
 	["profileKeys"] = {
 		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 		["Circi - Icecrown"] = "Disappointments",
 	},
-	["global"] = {
-		["last_version"] = "5.5.19",
-	},
 	["profiles"] = {
-		["Circi - Icecrown"] = {
-		},
 		["Disappointments"] = {
+		},
+		["Circi - Icecrown"] = {
 		},
 	},
 }

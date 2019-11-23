@@ -1,11 +1,11 @@
 
 SexyCooldownDB = {
+	["global"] = {
+		["dbVersion"] = 3,
+	},
 	["profileKeys"] = {
 		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 		["Circi - Icecrown"] = "Circi - Icecrown",
-	},
-	["global"] = {
-		["dbVersion"] = 3,
 	},
 	["profiles"] = {
 		["Fatpotato - Icecrown"] = {
@@ -13,7 +13,16 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["blacklist"] = {
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
 					},
 					["eventColors"] = {
 					},
@@ -23,16 +32,7 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-						["height"] = 33.00000088903411,
-						["name"] = "Bar 0",
-						["backgroundColor"] = {
-						},
-						["width"] = 449.9999930245016,
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -40,6 +40,10 @@ SexyCooldownDB = {
 		["Circi - Icecrown"] = {
 			["bars"] = {
 				{
+					["blacklist"] = {
+					},
+					["events"] = {
+					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -50,10 +54,6 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
-					},
-					["events"] = {
-					},
-					["blacklist"] = {
 					},
 				}, -- [1]
 			},

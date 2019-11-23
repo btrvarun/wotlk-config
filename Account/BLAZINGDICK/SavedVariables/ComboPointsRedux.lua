@@ -15,6 +15,12 @@ CPRDB2 = {
 						["point"] = "CENTER",
 						["anchor"] = "CENTER",
 					},
+					["textPos"] = {
+						["y"] = 208,
+						["x"] = 363,
+						["point"] = "CENTER",
+						["anchor"] = "CENTER",
+					},
 				},
 			},
 		},

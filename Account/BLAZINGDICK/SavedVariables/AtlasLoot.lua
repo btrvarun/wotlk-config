@@ -15,28 +15,28 @@ AtlasLootDB = {
 	},
 }
 AtlasLootWishList = {
-	["Options"] = {
-		["Fatpotato"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Circi"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-	},
 	["Shared"] = {
 	},
-	["Own"] = {
-		["Fatpotato"] = {
-		},
+	["Options"] = {
 		["Circi"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Fatpotato"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+	},
+	["Own"] = {
+		["Circi"] = {
+		},
+		["Fatpotato"] = {
 		},
 	},
 }
