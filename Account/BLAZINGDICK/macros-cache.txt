@@ -24,12 +24,6 @@ MACRO 166 "bp" INV_Misc_QuestionMark
 /use blood tap
 /use blood presence
 END
-MACRO 167 "bs" INV_Misc_QuestionMark
-#showtooltip bone shield
-/use rune tap
-/use bone shield
-/cancelaura hand of protection
-END
 MACRO 163 "bs" INV_Misc_QuestionMark
 #showtooltip
 /cast blood strike
@@ -37,11 +31,18 @@ MACRO 163 "bs" INV_Misc_QuestionMark
 /startattack
 /cancelaura hand of protection
 END
+MACRO 167 "bs" INV_Misc_QuestionMark
+#showtooltip bone shield
+/use rune tap
+/use bone shield
+/cancelaura hand of protection
+END
+MACRO 173 "burst" Ability_BackStab
+/use Avenging Wrath
+/Use Mark of Supremacy
+END
 MACRO 141 "cancelaura" INV_Misc_QuestionMark
 /cancelaura  ice block
-END
-MACRO 158 "cancelform" Ability_CheapShot
-/cancelform
 END
 MACRO 156 "cat" INV_Misc_QuestionMark
 #showtooltip cat form

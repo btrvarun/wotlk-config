@@ -1,0 +1,29 @@
+
+EPGP_DB = {
+	["namespaces"] = {
+		["log"] = {
+		},
+		["ui"] = {
+		},
+		["boss"] = {
+		},
+		["whisper"] = {
+		},
+		["warnings"] = {
+		},
+		["ldb"] = {
+		},
+		["gptooltip"] = {
+		},
+		["announce"] = {
+		},
+		["loot"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
+	},
+	["global"] = {
+		["last_version"] = "5.5.19",
+	},
+}
