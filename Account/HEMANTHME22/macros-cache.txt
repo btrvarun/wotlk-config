@@ -1,0 +1,112 @@
+MACRO 155 "abolish poison" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Abolish Poison;Abolish Poison
+END
+MACRO 138 "bear form+cds" INV_Misc_QuestionMark
+#showtooltip dire bear form
+/cast  [nostance:1] Dire Bear Form
+/cast Barkskin
+/cast Nature's Grasp(Rank 8)
+/cast enrage
+/cast Frenzied Regeneration
+END
+MACRO 132 "berserk" INV_Misc_QuestionMark
+#showtooltip
+/castsequence reset=120 berserk, Idol of the Crying Moon
+END
+MACRO 139 "bf" INV_Misc_QuestionMark
+#showtooltip dire bear form
+/cast  [nostance:1] Dire Bear Form
+END
+MACRO 142 "ca" Ability_CheapShot
+/cancelform
+END
+MACRO 140 "cf" INV_Misc_QuestionMark
+#showtooltip cat form
+/cast  [nostance:3] Cat Form
+/cast dash
+END
+MACRO 131 "combatlog" Ability_Creature_Cursed_02
+/run local f = CreateFrame("frame" , nil, UIParent) f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 147 "Decursive" INV_Misc_QuestionMark
+/script Dcr:Println('No spell available')
+END
+MACRO 144 "follow focus" Ability_Creature_Disease_05
+/follow focus
+END
+MACRO 153 "healing touch" INV_Misc_QuestionMark
+#showtooltip healing touch
+/cast Nature's Swiftness
+/cast [@mouseover,exists] Healing Touch(Rank 15);Healing Touch(Rank 15)
+END
+MACRO 127 "hop" Ability_Creature_Cursed_02
+/cancelaura hand of protection
+END
+MACRO 145 "innervate" INV_Misc_QuestionMark
+#showtooltip innervate
+/cast [target=Incompilable] Innervate;Innervate
+END
+MACRO 128 "libramswap" INV_Misc_QuestionMark
+#showtooltip
+/equip [noworn:Idol of the Crying Moon] Idol of the Crying Moon
+/equip [noworn:Idol of Mutilation] Idol of Mutilation
+END
+MACRO 154 "lifebloom" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] lifebloom;lifebloom
+END
+MACRO 133 "mangle" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast mangle (cat)
+END
+MACRO 130 "maxcameradist" INV_Misc_QuestionMark
+/script SetCVar("cameraDistanceMax",30) 
+END
+MACRO 156 "moonfire" INV_Misc_QuestionMark
+#showtooltip
+/target wicked spirit
+/cast moonfire
+END
+MACRO 148 "nourish" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] nourish;nourish
+END
+MACRO 134 "rake" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast rake
+END
+MACRO 149 "rejuv" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Rejuvenation;Rejuvenation
+END
+MACRO 150 "remove curse" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Remove Curse;Remove Curse
+END
+MACRO 143 "setfocus" Ability_Creature_Cursed_05
+/focus
+END
+MACRO 137 "stun" INV_Misc_QuestionMark
+#showtooltip bash
+/cast enrage
+/cast bash
+END
+MACRO 151 "swiftmend" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Swiftmend;Swiftmend
+END
+MACRO 141 "tol" INV_Misc_QuestionMark
+#showtooltip tree of life
+/cast  [nostance:5] tree of life
+END
+MACRO 146 "travel form" INV_Misc_QuestionMark
+#showtooltip travel form
+/cast  [nostance:1] travel Form
+END
+MACRO 152 "wildgrowth" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Wild Growth(Rank 4);Wild Growth(Rank 4)
+END

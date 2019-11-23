@@ -24,330 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"LFM |cffffff00|Hachievement:694:07000000001ACDC1:1:8:25:19:0:0:0:0|h[Serpentshrine Cavern]|h|r Need DPS Only, come for Achieve/transmog/etc - can summon infront of boss. ", -- [1]
-			"Tainswife", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			521, -- [11]
-			"0x07000000001ACDC1", -- [12]
-			0, -- [13]
-			[51] = 1574485131,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddTainswife|r",
-		}, -- [1]
-		{
-			"WTB|cffa335ee|Hitem:36922:0:0:0:0:0:0:0:80|h[King's Amber]|h|r220G |cff0070dd|Hitem:36921:0:0:0:0:0:0:0:80|h[Autumn's Glow]|h|r|cff0070dd|Hitem:36918:0:0:0:0:0:0:0:80|h[Scarlet Ruby]|h|r110G|cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r240G just COD ", -- [1]
-			"Duolifs", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			522, -- [11]
-			"0x07000000003BCEA1", -- [12]
-			0, -- [13]
-			[51] = 1574485138,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefDuolifs|r",
-		}, -- [2]
-		{
-			"--- <Storm> --We're recruiting competent players! --We are 12/12hc on ICC10man and 12/12hc on ICC25man -- 4:45pm ST raids ---- http://storm-moltenwow.shivtr.com/ - EPGP system-- Requirements: Apply on our website!", -- [1]
-			"Cancerina", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			523, -- [11]
-			"0x07000000001B197E", -- [12]
-			0, -- [13]
-			[51] = 1574485139,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaCancerina|r",
-		}, -- [3]
-		{
-			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
-			"Asashigure", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			524, -- [11]
-			"0x070000000039BF6F", -- [12]
-			0, -- [13]
-			[51] = 1574485140,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefAsashigure|r",
-		}, -- [4]
-		{
-			"LF 1 healer or 1 dps for icc 10 nm min 5.4kgs!! @plagueworks, replacing leavers!", -- [1]
-			"Trampita", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			525, -- [11]
-			"0x07000000004C9CE9", -- [12]
-			0, -- [13]
-			[51] = 1574485145,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Trampita|r",
-		}, -- [5]
-		{
-			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
-			"Archmage", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			526, -- [11]
-			"0x070000000003600A", -- [12]
-			0, -- [13]
-			[51] = 1574485151,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefArchmage|r",
-		}, -- [6]
-		{
-			"WTS BiS Holy pala 6.6k gs with |cffff8000|Hitem:46017:2666:0:0:0:0:0:0:80|h[Val'anyr, Hammer of Ancient Kings]|h|r!! for 200coins!! w mee for info", -- [1]
-			"Typoon", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			527, -- [11]
-			"0x07000000003EC322", -- [12]
-			0, -- [13]
-			[51] = 1574485161,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaTypoon|r",
-		}, -- [7]
-		{
-			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
-			"Cloth", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			528, -- [11]
-			"0x070000000016B443", -- [12]
-			0, -- [13]
-			[51] = 1574485169,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaCloth|r",
-		}, -- [8]
-		{
-			"LFM |cffffff00|Hachievement:694:07000000001ACDC1:1:8:25:19:0:0:0:0|h[Serpentshrine Cavern]|h|r Need DPS Only, come for Achieve/transmog/etc - can summon infront of boss. ", -- [1]
-			"Tainswife", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			529, -- [11]
-			"0x07000000001ACDC1", -- [12]
-			0, -- [13]
-			[51] = 1574485177,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddTainswife|r",
-		}, -- [9]
-		{
-			"Buying all [Frozen Orb]70G each,Northrend items only lvl 75-80 Green/Blue 10G each item..Cod me anytime 24/7. Add me for future.", -- [1]
-			"Zhasni", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"DND", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			530, -- [11]
-			"0x07000000002B0738", -- [12]
-			0, -- [13]
-			[51] = 1574485179,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dZhasni|r",
-		}, -- [10]
-		{
-			"LF 1 healer or 1 dps for icc 10 nm min 5.4kgs!! @plagueworks, replacing leavers!", -- [1]
-			"Trampita", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			531, -- [11]
-			"0x07000000004C9CE9", -- [12]
-			0, -- [13]
-			[51] = 1574485190,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Trampita|r",
-		}, -- [11]
-		{
-			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
-			"Archmage", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			532, -- [11]
-			"0x070000000003600A", -- [12]
-			0, -- [13]
-			[51] = 1574485197,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefArchmage|r",
-		}, -- [12]
-		{
-			"WTB|cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G|cff0070dd|Hitem:36930:0:0:0:0:0:0:0:80|h[Monarch Topaz]|h|r|cff0070dd|Hitem:36924:0:0:0:0:0:0:0:80|h[Sky Sapphire]|h|r40G|cff0070dd|Hitem:36927:0:0:0:0:0:0:0:80|h[Twilight Opal]|h|r20G just COD ", -- [1]
-			"Duolifs", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			533, -- [11]
-			"0x07000000003BCEA1", -- [12]
-			0, -- [13]
-			[51] = 1574485201,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefDuolifs|r",
-		}, -- [13]
-		{
-			"WTS |cffffd000|Htrade:51313:450:450:7000000002F7043:4/67b+a8f5Z7vsynvbJPAAAAAAWCFsAAyVyCRgjl2JNHFm+88oT|h[Enchanting]|h|r", -- [1]
-			"Zekjul", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			534, -- [11]
-			"0x07000000002F7043", -- [12]
-			0, -- [13]
-			[51] = 1574485204,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefZekjul|r",
-		}, -- [14]
-		{
-			"WTS |cffffd000|Htrade:51309:450:450:7000000002F7043:4+//vroI2/jB4/Px07CxtzBIyV3nNzlLAAAAAYAB4DAIBAAAAAFAAAAAi//iGCOrJw/FgwAAAA|h[Tailoring]|h|r", -- [1]
-			"Zekjul", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			535, -- [11]
-			"0x07000000002F7043", -- [12]
-			0, -- [13]
-			[51] = 1574485204,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefZekjul|r",
-		}, -- [15]
-		{
-			"u fell asleep lol", -- [1]
-			"Mooshoo", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			536, -- [11]
-			"0x0700000000014F4D", -- [12]
-			0, -- [13]
-			[51] = 1574485213,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aMooshoo|r",
-		}, -- [16]
-		{
-			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
-			"Cloth", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			537, -- [11]
-			"0x070000000016B443", -- [12]
-			0, -- [13]
-			[51] = 1574485215,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaCloth|r",
-		}, -- [17]
-		{
-			"i*", -- [1]
-			"Mooshoo", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			538, -- [11]
-			"0x0700000000014F4D", -- [12]
-			0, -- [13]
-			[51] = 1574485215,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffff7c0aMooshoo|r",
-		}, -- [18]
-		{
 			"WTB all |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r70G each , Northrend items lvl 75-80 Green and Blue 10G each item. Cod me anytime 24/7.", -- [1]
 			"Zhasni", -- [2]
 			"Orcish", -- [3]
@@ -364,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1574485217,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [19]
+		}, -- [1]
 		{
 			"was talking to myself", -- [1]
 			"Mooshoo", -- [2]
@@ -382,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1574485227,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffff7c0aMooshoo|r",
-		}, -- [20]
+		}, -- [2]
 		{
 			"Buying all [Frozen Orb]70G each,Northrend items only lvl 75-80 Green/Blue 10G each item..Cod me anytime 24/7. Add me for future.", -- [1]
 			"Zhasni", -- [2]
@@ -400,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1574485229,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [21]
+		}, -- [3]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -418,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1574485243,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [22]
+		}, -- [4]
 		{
 			"icc 10 need dps 5.7+ at bpc replace afk", -- [1]
 			"Ferito", -- [2]
@@ -436,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1574485246,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aFerito|r",
-		}, -- [23]
+		}, -- [5]
 		{
 			"WTB |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 270g /w me or COD", -- [1]
 			"Nazgulx", -- [2]
@@ -454,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1574485255,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aNazgulx|r",
-		}, -- [24]
+		}, -- [6]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -472,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1574485260,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [25]
+		}, -- [7]
 		{
 			"WTB all |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r70G each , Northrend items lvl 75-80 Green and Blue 10G each item. Cod me anytime 24/7.", -- [1]
 			"Zhasni", -- [2]
@@ -490,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1574485262,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [26]
+		}, -- [8]
 		{
 			"WTB|cffa335ee|Hitem:36934:0:0:0:0:0:0:0:80|h[Eye of Zul]|h|r150G|cffa335ee|Hitem:36931:0:0:0:0:0:0:0:80|h[Ametrine]|h|r220G|cffa335ee|Hitem:36925:0:0:0:0:0:0:0:80|h[Majestic Zircon]|h|r|cffa335ee|Hitem:36928:0:0:0:0:0:0:0:80|h[Dreadstone]|h|r180G just COD ", -- [1]
 			"Duolifs", -- [2]
@@ -508,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1574485263,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [27]
+		}, -- [9]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -526,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1574485266,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [28]
+		}, -- [10]
 		{
 			"LF 1 HEALER FOS POS NM FARM", -- [1]
 			"Malanor", -- [2]
@@ -544,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1574485274,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefMalanor|r",
-		}, -- [29]
+		}, -- [11]
 		{
 			"Buying all [Frozen Orb]70G each,Northrend items only lvl 75-80 Green/Blue 10G each item..Cod me anytime 24/7. Add me for future.", -- [1]
 			"Zhasni", -- [2]
@@ -562,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1574485279,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [30]
+		}, -- [12]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Shadoo", -- [2]
@@ -580,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1574485282,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [31]
+		}, -- [13]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -598,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1574485289,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [32]
+		}, -- [14]
 		{
 			"LFM DPS POS HC", -- [1]
 			"Sindratank", -- [2]
@@ -616,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1574485289,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSindratank|r",
-		}, -- [33]
+		}, -- [15]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Shadoo", -- [2]
@@ -634,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1574485292,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [34]
+		}, -- [16]
 		{
 			"WTB all |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r70G each , Northrend items lvl 75-80 Green and Blue 10G each item. Cod me anytime 24/7.", -- [1]
 			"Zhasni", -- [2]
@@ -652,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1574485307,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [35]
+		}, -- [17]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -670,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1574485311,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [36]
+		}, -- [18]
 		{
 			"WTB|cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r80G/stack|cff1eff00|Hitem:35624:0:0:0:0:0:0:0:80|h[Eternal Earth]|h|r160G/stack|cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r300G/stack just COD ", -- [1]
 			"Duolifs", -- [2]
@@ -688,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1574485325,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [37]
+		}, -- [19]
 		{
 			"Buying all [Frozen Orb]70G each,Northrend items only lvl 75-80 Green/Blue 10G each item..Cod me anytime 24/7. Add me for future.", -- [1]
 			"Zhasni", -- [2]
@@ -706,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1574485330,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [38]
+		}, -- [20]
 		{
 			"icc 10 need dps 5.7+ at bpc repalce afk", -- [1]
 			"Ferito", -- [2]
@@ -724,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1574485336,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aFerito|r",
-		}, -- [39]
+		}, -- [21]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -742,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1574485336,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [40]
+		}, -- [22]
 		{
 			"--- <Storm> --We're recruiting competent players! --We are 12/12hc on ICC10man and 12/12hc on ICC25man -- 4:45pm ST raids ---- http://storm-moltenwow.shivtr.com/ - EPGP system-- Requirements: Apply on our website!", -- [1]
 			"Cancerina", -- [2]
@@ -760,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1574485341,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCancerina|r",
-		}, -- [41]
+		}, -- [23]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Shadoo", -- [2]
@@ -778,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1574485349,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [42]
+		}, -- [24]
 		{
 			"WTB all |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r70G each , Northrend items lvl 75-80 Green and Blue 10G each item. Cod me anytime 24/7.", -- [1]
 			"Zhasni", -- [2]
@@ -796,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1574485352,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [43]
+		}, -- [25]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -814,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1574485357,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [44]
+		}, -- [26]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -832,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1574486718,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [45]
+		}, -- [27]
 		{
 			"BOR MOD SE Hir faergas ash Eynes E VOHL TI SE ", -- [1]
 			"Lliiffee", -- [2]
@@ -850,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1574486718,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaLliiffee|r",
-		}, -- [46]
+		}, -- [28]
 		{
 			"bor vil bur dana bur wos goth ash ash regen", -- [1]
 			"Lostinsauce", -- [2]
@@ -868,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1574486725,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Lostinsauce|r",
-		}, -- [47]
+		}, -- [29]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH!!! ILL BUY ALL YOU HAVE!!!!", -- [1]
 			"Shadoo", -- [2]
@@ -886,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1574486729,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [48]
+		}, -- [30]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -904,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1574486738,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [49]
+		}, -- [31]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -922,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1574486742,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [50]
+		}, -- [32]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -940,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1574486744,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [51]
+		}, -- [33]
 		{
 			"--- <Storm> --We're recruiting competent players! --We are 12/12hc on ICC10man and 12/12hc on ICC25man -- 4:45pm ST raids ---- http://storm-moltenwow.shivtr.com/ - EPGP system-- Requirements: Apply on our website!", -- [1]
 			"Cancerina", -- [2]
@@ -958,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1574486745,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCancerina|r",
-		}, -- [52]
+		}, -- [34]
 		{
 			"bor rufTOs bor hir goth Lithtos E TI uden ruff nud kaelsig Vohl ", -- [1]
 			"Kyokai", -- [2]
@@ -976,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1574486755,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Kyokai|r",
-		}, -- [53]
+		}, -- [35]
 		{
 			"BAN LOOT <---- GUILD latina enfocada en PVE recluta jugadores activos y con ganas de avanzar, W+me para +info", -- [1]
 			"Rxmerx", -- [2]
@@ -994,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1574486758,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddRxmerx|r",
-		}, -- [54]
+		}, -- [36]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -1012,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1574486763,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [55]
+		}, -- [37]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
 			"Shadoo", -- [2]
@@ -1030,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1574486764,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [56]
+		}, -- [38]
 		{
 			"lf enchanting/jwc !", -- [1]
 			"Rwagg", -- [2]
@@ -1048,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1574486774,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dRwagg|r",
-		}, -- [57]
+		}, -- [39]
 		{
 			"lf enchanting/jwc !", -- [1]
 			"Rwagg", -- [2]
@@ -1066,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1574486775,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dRwagg|r",
-		}, -- [58]
+		}, -- [40]
 		{
 			"lf enchanting/jwc !", -- [1]
 			"Rwagg", -- [2]
@@ -1084,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1574486777,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dRwagg|r",
-		}, -- [59]
+		}, -- [41]
 		{
 			"lf enchanting/jwc !", -- [1]
 			"Rwagg", -- [2]
@@ -1102,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1574486778,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dRwagg|r",
-		}, -- [60]
+		}, -- [42]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -1120,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1574486783,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [61]
+		}, -- [43]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -1138,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1574486784,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [62]
+		}, -- [44]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -1156,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1574486785,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [63]
+		}, -- [45]
 		{
 			"bor vil bur dana bur wos goth ash ash regen", -- [1]
 			"Lostinsauce", -- [2]
@@ -1174,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1574486785,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Lostinsauce|r",
-		}, -- [64]
+		}, -- [46]
 		{
 			"--- <Storm> --We're recruiting competent players! --We are 12/12hc on ICC10man and 12/12hc on ICC25man -- 4:45pm ST raids ---- http://storm-moltenwow.shivtr.com/ - EPGP system-- Requirements: Apply on our website!", -- [1]
 			"Cancerina", -- [2]
@@ -1192,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1574486806,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCancerina|r",
-		}, -- [65]
+		}, -- [47]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -1210,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1574486809,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [66]
+		}, -- [48]
 		{
 			"WTS |cff0070dd|Hitem:47556:0:0:0:0:0:0:0:80|h[Crusader Orb]|h|r x2 for 495 Gold", -- [1]
 			"Damnknifeear", -- [2]
@@ -1228,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1574486810,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffDamnknifeear|r",
-		}, -- [67]
+		}, -- [49]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
 			"Shadoo", -- [2]
@@ -1246,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1574486813,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [68]
+		}, -- [50]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:19|h[Primordial Saronite]|h|r650g |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:19|h[Cardinal Ruby]|h|r 280g |cff1eff00|Hitem:35624:0:0:0:0:0:0:0:19|h[Eternal Earth]|h|r8g each", -- [1]
 			"Stickykey", -- [2]
@@ -1264,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1574486816,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Stickykey|r",
-		}, -- [69]
+		}, -- [51]
 		{
 			"BAN LOOT <---- GUILD latina enfocada en PVE recluta jugadores activos y con ganas de avanzar, W+me para +info", -- [1]
 			"Rxmerx", -- [2]
@@ -1282,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1574486818,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddRxmerx|r",
-		}, -- [70]
+		}, -- [52]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -1300,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1574486821,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [71]
+		}, -- [53]
 		{
 			"lf enchanting/jwc !", -- [1]
 			"Rwagg", -- [2]
@@ -1318,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1574486821,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dRwagg|r",
-		}, -- [72]
+		}, -- [54]
 		{
 			"BOR MOD SE Hir faergas ash Eynes E VOHL SE SE ", -- [1]
 			"Lliiffee", -- [2]
@@ -1336,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1574486822,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaLliiffee|r",
-		}, -- [73]
+		}, -- [55]
 		{
 			"bor rufTOs bor hir goth Lithtos E TI uden ruff nud kaelsig Vohl ", -- [1]
 			"Kyokai", -- [2]
@@ -1354,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1574486825,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Kyokai|r",
-		}, -- [74]
+		}, -- [56]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -1372,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1574486828,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [75]
+		}, -- [57]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -1390,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1574486830,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [76]
+		}, -- [58]
 		{
 			"LF ARENA PARTNER ROGUE 6K/OR ENHA SHAMAN 6K", -- [1]
 			"Proxor", -- [2]
@@ -1408,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1574486833,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Proxor|r",
-		}, -- [77]
+		}, -- [59]
 		{
 			"bor vil bur dana bur wos goth ash ash regen", -- [1]
 			"Lostinsauce", -- [2]
@@ -1426,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1574486837,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Lostinsauce|r",
-		}, -- [78]
+		}, -- [60]
 		{
 			"ONLY DPS POS FARM", -- [1]
 			"Sindratank", -- [2]
@@ -1444,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1574486843,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSindratank|r",
-		}, -- [79]
+		}, -- [61]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -1462,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1574486844,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [80]
+		}, -- [62]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
 			"Shadoo", -- [2]
@@ -1480,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1574486855,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [81]
+		}, -- [63]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -1498,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1574486855,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [82]
+		}, -- [64]
 		{
 			"me and my gf need lving guuld", -- [1]
 			"Kaldrogoh", -- [2]
@@ -1516,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1574486865,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffKaldrogoh|r",
-		}, -- [83]
+		}, -- [65]
 		{
 			"--- <Storm> --We're recruiting competent players! --We are 12/12hc on ICC10man and 12/12hc on ICC25man -- 4:45pm ST raids ---- http://storm-moltenwow.shivtr.com/ - EPGP system-- Requirements: Apply on our website!", -- [1]
 			"Cancerina", -- [2]
@@ -1534,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1574486867,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCancerina|r",
-		}, -- [84]
+		}, -- [66]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -1552,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1574486869,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [85]
+		}, -- [67]
 		{
 			"selling |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r", -- [1]
 			"Exceased", -- [2]
@@ -1570,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1574486873,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefExceased|r",
-		}, -- [86]
+		}, -- [68]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -1588,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1574486876,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [87]
+		}, -- [69]
 		{
 			"Mdps Rogue 5.4 LFG Icc10/25 ", -- [1]
 			"Drutah", -- [2]
@@ -1606,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1574486876,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Drutah|r",
-		}, -- [88]
+		}, -- [70]
 		{
 			"BAN LOOT <---- GUILD latina enfocada en PVE recluta jugadores activos y con ganas de avanzar, W+me para +info", -- [1]
 			"Rxmerx", -- [2]
@@ -1624,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1574486878,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddRxmerx|r",
-		}, -- [89]
+		}, -- [71]
 		{
 			"WTS |cff0070dd|Hitem:47556:0:0:0:0:0:0:0:80|h[Crusader Orb]|h|r 250g each", -- [1]
 			"Damnknifeear", -- [2]
@@ -1642,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1574486882,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffDamnknifeear|r",
-		}, -- [90]
+		}, -- [72]
 		{
 			"VIL SE MOD RU HIR GOTH NUD E GOTH KAELSIG RE NE ", -- [1]
 			"Drougoo", -- [2]
@@ -1660,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1574486888,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDrougoo|r",
-		}, -- [91]
+		}, -- [73]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -1678,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1574486893,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [92]
+		}, -- [74]
 		{
 			"bor rufTOs bor hir goth Lithtos E TI uden ruff nud kaelsig Vohl ", -- [1]
 			"Kyokai", -- [2]
@@ -1696,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1574486895,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Kyokai|r",
-		}, -- [93]
+		}, -- [75]
 		{
 			"lf enchanting/jwc !", -- [1]
 			"Rwagg", -- [2]
@@ -1714,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1574486896,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dRwagg|r",
-		}, -- [94]
+		}, -- [76]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:694:070000000046F341:1:11:23:19:4294967295:4294967295:4294967295:4294967295|h[Serpentshrine Cavern]|h|r!", -- [1]
 			"Ministern", -- [2]
@@ -1732,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1574486896,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "|cffffffffMinistern|r",
-		}, -- [95]
+		}, -- [77]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
 			"Shadoo", -- [2]
@@ -1750,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1574486897,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [96]
+		}, -- [78]
 		{
 			"lf enchanting/jwc !", -- [1]
 			"Rwagg", -- [2]
@@ -1768,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1574486897,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dRwagg|r",
-		}, -- [97]
+		}, -- [79]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -1786,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1574486901,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [98]
+		}, -- [80]
 		{
 			"VIL SE MOD RU HIR GOTH NUD E GOTH KAELSIG RE NE ", -- [1]
 			"Drougoo", -- [2]
@@ -1804,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1574486902,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDrougoo|r",
-		}, -- [99]
+		}, -- [81]
 		{
 			"DPS PALADIN 5K FOR ALL", -- [1]
 			"Gergon", -- [2]
@@ -1822,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1574486906,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGergon|r",
-		}, -- [100]
+		}, -- [82]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:19|h[Primordial Saronite]|h|r650g |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:19|h[Cardinal Ruby]|h|r 280g |cff1eff00|Hitem:35624:0:0:0:0:0:0:0:19|h[Eternal Earth]|h|r8g each", -- [1]
 			"Stickykey", -- [2]
@@ -1840,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1574486919,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Stickykey|r",
-		}, -- [101]
+		}, -- [83]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH!!! ILL BUY ALL YOU HAVE!!!!", -- [1]
 			"Shadoo", -- [2]
@@ -1858,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1574486920,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [102]
+		}, -- [84]
 		{
 			"me and my gf need leveling guild please inv", -- [1]
 			"Kaldrogoh", -- [2]
@@ -1876,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1574486921,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffKaldrogoh|r",
-		}, -- [103]
+		}, -- [85]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -1894,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1574486922,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [104]
+		}, -- [86]
 		{
 			"Mdps Rogue 5.4 LFG Icc10/25 ", -- [1]
 			"Drutah", -- [2]
@@ -1912,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1574486924,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Drutah|r",
-		}, -- [105]
+		}, -- [87]
 		{
 			"bor vil bur dana bur wos goth ash ash regen", -- [1]
 			"Lostinsauce", -- [2]
@@ -1930,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1574486925,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Lostinsauce|r",
-		}, -- [106]
+		}, -- [88]
 		{
 			"LF ALL TOC 10NM SCROLL RUN 5.3K+ /W ME GS AND ACH (GROUP LOOT) |cffffff00|Hachievement:3917:0700000000492508:1:9:2:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (10 player)]|h|r", -- [1]
 			"Silveena", -- [2]
@@ -1948,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1574486927,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Silveena|r",
-		}, -- [107]
+		}, -- [89]
 		{
 			"--- <Storm> --We're recruiting competent players! --We are 12/12hc on ICC10man and 12/12hc on ICC25man -- 4:45pm ST raids ---- http://storm-moltenwow.shivtr.com/ - EPGP system-- Requirements: Apply on our website!", -- [1]
 			"Cancerina", -- [2]
@@ -1966,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1574486928,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCancerina|r",
-		}, -- [108]
+		}, -- [90]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
 			"Shadoo", -- [2]
@@ -1984,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1574486928,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [109]
+		}, -- [91]
 		{
 			"DPS PALADIN 5K FOR ALL", -- [1]
 			"Gergon", -- [2]
@@ -2002,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1574486935,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaGergon|r",
-		}, -- [110]
+		}, -- [92]
 		{
 			"VIL SE MOD RU HIR GOTH NUD E GOTH KAELSIG RE NE ", -- [1]
 			"Drougoo", -- [2]
@@ -2020,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1574486935,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDrougoo|r",
-		}, -- [111]
+		}, -- [93]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -2038,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1574486936,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [112]
+		}, -- [94]
 		{
 			"BAN LOOT <---- GUILD latina enfocada en PVE recluta jugadores activos y con ganas de avanzar, W+me para +info", -- [1]
 			"Rxmerx", -- [2]
@@ -2056,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1574486939,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddRxmerx|r",
-		}, -- [113]
+		}, -- [95]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -2074,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1574486941,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [114]
+		}, -- [96]
 		{
 			"LF ALL TOC 10NM SCROLL RUN 5.3K+ /W ME GS AND ACH (GROUP LOOT) |cffffff00|Hachievement:3917:0700000000492508:1:9:2:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (10 player)]|h|r", -- [1]
 			"Silveena", -- [2]
@@ -2092,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1574486942,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Silveena|r",
-		}, -- [115]
+		}, -- [97]
 		{
 			"WTS Belf DK called Saamuel(SM/STS hc), has invincible,Raven lord, LoD/rs25hc/Tailoring and engineering, can add more itemsatm price is 169 coins./W me for more info!", -- [1]
 			"Archmage", -- [2]
@@ -2110,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1574486947,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefArchmage|r",
-		}, -- [116]
+		}, -- [98]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
 			"Shadoo", -- [2]
@@ -2128,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1574486947,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefShadoo|r",
-		}, -- [117]
+		}, -- [99]
 		{
 			"DPS PALADIN 5K FOR ALL", -- [1]
 			"Gergon", -- [2]
@@ -2146,7 +1822,7 @@ ElvCharacterDB = {
 			[51] = 1574486957,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaGergon|r",
-		}, -- [118]
+		}, -- [100]
 		{
 			"LF ALL TOC 10NM SCROLL RUN 5.3K+ /W ME GS AND ACH (GROUP LOOT) |cffffff00|Hachievement:3917:0700000000492508:1:9:2:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (10 player)]|h|r", -- [1]
 			"Silveena", -- [2]
@@ -2164,7 +1840,7 @@ ElvCharacterDB = {
 			[51] = 1574486958,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Silveena|r",
-		}, -- [119]
+		}, -- [101]
 		{
 			"DPS PALADIN 5K FOR ALL", -- [1]
 			"Gergon", -- [2]
@@ -2182,7 +1858,7 @@ ElvCharacterDB = {
 			[51] = 1574486961,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaGergon|r",
-		}, -- [120]
+		}, -- [102]
 		{
 			"DPS PALADIN 5K FOR ALL", -- [1]
 			"Gergon", -- [2]
@@ -2200,7 +1876,7 @@ ElvCharacterDB = {
 			[51] = 1574486964,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaGergon|r",
-		}, -- [121]
+		}, -- [103]
 		{
 			"LFM ICC 25 NM NEED 3 HEALER 4 MDPS (RET ROGUE CAT WARR) 5 RDPS ( HUNTER LOCK BOOMY SP ELEM ) MIN 5.7K GS (BOE PS RSS )", -- [1]
 			"Tanhil", -- [2]
@@ -2218,7 +1894,7 @@ ElvCharacterDB = {
 			[51] = 1574486967,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaTanhil|r",
-		}, -- [122]
+		}, -- [104]
 		{
 			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
 			"Cloth", -- [2]
@@ -2236,7 +1912,7 @@ ElvCharacterDB = {
 			[51] = 1574486968,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCloth|r",
-		}, -- [123]
+		}, -- [105]
 		{
 			"ONLY DPS POS FARM", -- [1]
 			"Sindratank", -- [2]
@@ -2254,7 +1930,7 @@ ElvCharacterDB = {
 			[51] = 1574486974,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSindratank|r",
-		}, -- [124]
+		}, -- [106]
 		{
 			" need guld inmv", -- [1]
 			"Kaldrogoh", -- [2]
@@ -2272,7 +1948,7 @@ ElvCharacterDB = {
 			[51] = 1574486974,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffKaldrogoh|r",
-		}, -- [125]
+		}, -- [107]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:19|h[Primordial Saronite]|h|r650g |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:19|h[Cardinal Ruby]|h|r 280g |cff1eff00|Hitem:35624:0:0:0:0:0:0:0:19|h[Eternal Earth]|h|r8g each", -- [1]
 			"Stickykey", -- [2]
@@ -2290,7 +1966,7 @@ ElvCharacterDB = {
 			[51] = 1574486987,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Stickykey|r",
-		}, -- [126]
+		}, -- [108]
 		{
 			"Mdps Rogue 5.4 LFG Icc10/25 ", -- [1]
 			"Drutah", -- [2]
@@ -2308,6 +1984,330 @@ ElvCharacterDB = {
 			[51] = 1574486989,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Drutah|r",
+		}, -- [109]
+		{
+			"which is better |cffa335ee|Hitem:51873:3232:0:0:0:0:0:0:80|h[Shuffling Shoes]|h|r or |cffa335ee|Hitem:49993:3232:3587:3563:0:0:0:0:80|h[Necrophotic Greaves]|h|r for resto shamman???", -- [1]
+			"Teryjaki", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			7273, -- [11]
+			"0x0700000000427DE9", -- [12]
+			0, -- [13]
+			[51] = 1574491649,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddTeryjaki|r",
+		}, -- [110]
+		{
+			"LFM ICC 25 NM NEED 1 tank ( dk dudu )mt 1HEALER ( rdudu ) 1 RDPS ( BOOMY ) 1 mdps (ret ) MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			7283, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574491660,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [111]
+		{
+			"LFM ICC 25 NM NEED 1 tank ( dk dudu )mt 1HEALER ( rdudu ) 1 RDPS ( BOOMY ) 1 mdps (ret ) MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			7285, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574491662,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [112]
+		{
+			" 10ICC随缘H团5900速推来1MT", -- [1]
+			"Cnzsl", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			7286, -- [11]
+			"0x070000000049F53C", -- [12]
+			0, -- [13]
+			[51] = 1574491662,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaCnzsl|r",
+		}, -- [113]
+		{
+			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
+			"Cloth", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			7287, -- [11]
+			"0x070000000016B443", -- [12]
+			0, -- [13]
+			[51] = 1574491663,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaCloth|r",
+		}, -- [114]
+		{
+			"BAN LOOT <---- GUILD latina enfocada en PVE recluta jugadores activos y con ganas de avanzar, W+me para +info.", -- [1]
+			"Dahimery", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			7293, -- [11]
+			"0x0700000000326A6E", -- [12]
+			0, -- [13]
+			[51] = 1574491667,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aDahimery|r",
+		}, -- [115]
+		{
+			"Selling female belf paladin named \"Platebabe\" with 3 BIS gears + |cffa335ee|Hitem:50735:0:0:0:0:0:0:0:80|h[Oathbinder, Charge of the Ranger-General]|h|r for minimun price 103 coins. /w me for more info on name change etc.", -- [1]
+			"Isuckballs", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			7295, -- [11]
+			"0x07000000004DBF8B", -- [12]
+			0, -- [13]
+			[51] = 1574491668,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddIsuckballs|r",
+		}, -- [116]
+		{
+			"BOR MOD SE MELKA GOTH GOTH ash goth VOHL agol va barad ", -- [1]
+			"Raidenocro", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			7304, -- [11]
+			"0x07000000004C3B8D", -- [12]
+			0, -- [13]
+			[51] = 1574491674,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dRaidenocro|r",
+		}, -- [117]
+		{
+			"Fried Rice guild is looking for members to fill our progression raids must be atleast 5.5k GS. Raid time is 8am ST, must have discord. /w for more info or visit friedrice.shivtr.com", -- [1]
+			"Jboom", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			7309, -- [11]
+			"0x0700000000032A35", -- [12]
+			0, -- [13]
+			[51] = 1574491682,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Jboom|r",
+		}, -- [118]
+		{
+			"WTB ---> |cffa335ee|Hitem:49994:0:0:0:0:0:0:0:80|h[The Lady's Brittle Bracers]|h|r", -- [1]
+			"Mikaassa", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			9310, -- [11]
+			"0x07000000004D0103", -- [12]
+			0, -- [13]
+			[51] = 1574492991,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefMikaassa|r",
+		}, -- [119]
+		{
+			"Selling female belf paladin named \"Platebabe\" with 3 BIS gears + |cffa335ee|Hitem:50735:0:0:0:0:0:0:0:80|h[Oathbinder, Charge of the Ranger-General]|h|r for minimun price 103 coins. /w me for more info on name change etc.", -- [1]
+			"Isuckballs", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			9313, -- [11]
+			"0x07000000004DBF8B", -- [12]
+			0, -- [13]
+			[51] = 1574492995,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddIsuckballs|r",
+		}, -- [120]
+		{
+			" LFM icc 10 n w me rolle and gs + achive (boe+ prim ress ) gunship / fest hc TANK AND HEALER ", -- [1]
+			"Fiatmultipla", -- [2]
+			"Orcish", -- [3]
+			"4. LookingForGroup", -- [4]
+			"", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			9315, -- [11]
+			"0x07000000004B719D", -- [12]
+			0, -- [13]
+			[51] = 1574492995,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Fiatmultipla|r",
+		}, -- [121]
+		{
+			"WTS a BiS Rshaman with valanyr and RS items called Titanmlg(Has Raven Lord/Invincible/Headless Horseman/Love Rocket,LoD/Rs/Bane, Engineering and Elixir + Transmutation master,3.5k ach points. Price is set on 198 coins!Can add items.", -- [1]
+			"Cloth", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			9318, -- [11]
+			"0x070000000016B443", -- [12]
+			0, -- [13]
+			[51] = 1574492998,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaCloth|r",
+		}, -- [122]
+		{
+			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
+			"Duolifs", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9321, -- [11]
+			"0x07000000003BCEA1", -- [12]
+			0, -- [13]
+			[51] = 1574493001,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefDuolifs|r",
+		}, -- [123]
+		{
+			" |cffffff00|Hquest:24588:80|h[XT-002 Deconstructor Must Die!]|h|r LF1M Tank + RDPS AND GOOD TO GO ! PM ", -- [1]
+			"Eardane", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			9323, -- [11]
+			"0x070000000024A911", -- [12]
+			0, -- [13]
+			[51] = 1574493002,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dEardane|r",
+		}, -- [124]
+		{
+			"5k+", -- [1]
+			"Eardane", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			9328, -- [11]
+			"0x070000000024A911", -- [12]
+			0, -- [13]
+			[51] = 1574493004,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dEardane|r",
+		}, -- [125]
+		{
+			" LFM icc 10 n w me rolle and gs + achive (boe+ prim ress ) gunship / fest hc TANK AND HEALER ", -- [1]
+			"Fiatmultipla", -- [2]
+			"Orcish", -- [3]
+			"4. LookingForGroup", -- [4]
+			"", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			9332, -- [11]
+			"0x07000000004B719D", -- [12]
+			0, -- [13]
+			[51] = 1574493007,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Fiatmultipla|r",
+		}, -- [126]
+		{
+			"LFM icc 10 n w me rolle and gs + achive (boe+ prim ress ) gunship / fest hc TANK AND HEALER ", -- [1]
+			"Fiatmultipla", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			9337, -- [11]
+			"0x07000000004B719D", -- [12]
+			0, -- [13]
+			[51] = 1574493012,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Fiatmultipla|r",
 		}, -- [127]
 	},
 }
