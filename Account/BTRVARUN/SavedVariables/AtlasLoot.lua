@@ -2,6 +2,7 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
+		["Impasse - Icecrown"] = "Impasse - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
@@ -9,6 +10,9 @@ AtlasLootDB = {
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
 	},
 	["profiles"] = {
+		["Impasse - Icecrown"] = {
+			["AtlasType"] = "Unknown",
+		},
 		["Bowbaby - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
@@ -27,22 +31,31 @@ AtlasLootDB = {
 	},
 }
 AtlasLootWishList = {
+	["Shared"] = {
+	},
 	["Options"] = {
 		["Ingrate"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Invariably"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Invariably"] = {
+		["Bowbaby"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Bowbaby"] = {
+		["Impasse"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -53,18 +66,16 @@ AtlasLootWishList = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Kamakshi"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
-	},
-	["Shared"] = {
 	},
 	["Own"] = {
 		["Ingrate"] = {
@@ -72,6 +83,8 @@ AtlasLootWishList = {
 		["Invariably"] = {
 		},
 		["Bowbaby"] = {
+		},
+		["Impasse"] = {
 		},
 		["Garzh"] = {
 		},

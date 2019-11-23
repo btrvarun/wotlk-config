@@ -1,6 +1,7 @@
 
 CPRDB2 = {
 	["profileKeys"] = {
+		["Impasse - Icecrown"] = "Default",
 		["Bowbaby - Icecrown"] = "Default",
 		["Kamakshi - Icecrown"] = "Default",
 		["Ingrate - Icecrown"] = "Default",
