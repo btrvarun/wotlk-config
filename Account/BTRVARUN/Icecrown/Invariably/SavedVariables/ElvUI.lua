@@ -15,644 +15,14 @@ ElvCharacterDB = {
 		"/abs restore disc", -- [12]
 		"/macro", -- [13]
 		"/abs save disc", -- [14]
-		"/abs restore shadow", -- [15]
-		"/w Floridda yo", -- [16]
-		"/w Floridda vendor", -- [17]
-		"/w Floridda xd", -- [18]
-		"/w Floridda ill see", -- [19]
-		"/w Floridda nope too late", -- [20]
+		"/w Floridda yo", -- [15]
+		"/w Floridda vendor", -- [16]
+		"/w Floridda xd", -- [17]
+		"/w Floridda ill see", -- [18]
+		"/w Floridda nope too late", -- [19]
+		"/abs restore shadow", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"squishy", -- [1]
-			"Gurang", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12055, -- [11]
-			"0x07000000004240C7", -- [12]
-			0, -- [13]
-			[51] = 1572646763,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddGurang|r",
-		}, -- [1]
-		{
-			"lol", -- [1]
-			"Gurang", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12057, -- [11]
-			"0x07000000004240C7", -- [12]
-			0, -- [13]
-			[51] = 1572646764,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddGurang|r",
-		}, -- [2]
-		{
-			"to much dmg", -- [1]
-			"Gurang", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12062, -- [11]
-			"0x07000000004240C7", -- [12]
-			0, -- [13]
-			[51] = 1572646774,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddGurang|r",
-		}, -- [3]
-		{
-			"yeah he got pushed back", -- [1]
-			"Invariably", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12064, -- [11]
-			"0x070000000005CC9C", -- [12]
-			0, -- [13]
-			[51] = 1572646781,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffInvariably|r",
-		}, -- [4]
-		{
-			"lost the orbs", -- [1]
-			"Invariably", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12065, -- [11]
-			"0x070000000005CC9C", -- [12]
-			0, -- [13]
-			[51] = 1572646784,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffInvariably|r",
-		}, -- [5]
-		{
-			"LFM foS/poS 3k++ gs", -- [1]
-			"Hixsagon", -- [2]
-			"Orcish", -- [3]
-			"1. General - Icecrown", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Icecrown", -- [9]
-			0, -- [10]
-			12069, -- [11]
-			"0x07000000004A42D9", -- [12]
-			0, -- [13]
-			[51] = 1572646794,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHixsagon|r",
-		}, -- [6]
-		{
-			"pala left", -- [1]
-			"Uxi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12070, -- [11]
-			"0x07000000004BC36D", -- [12]
-			0, -- [13]
-			[51] = 1572646798,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffaad372Uxi|r",
-		}, -- [7]
-		{
-			"LFM foS/poS 3k++ gs", -- [1]
-			"Hixsagon", -- [2]
-			"Orcish", -- [3]
-			"1. General - Icecrown", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Icecrown", -- [9]
-			0, -- [10]
-			12071, -- [11]
-			"0x07000000004A42D9", -- [12]
-			0, -- [13]
-			[51] = 1572646806,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHixsagon|r",
-		}, -- [8]
-		{
-			"please try to spread when vortex comes", -- [1]
-			"Kurokishi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12072, -- [11]
-			"0x070000000041EDEB", -- [12]
-			0, -- [13]
-			[51] = 1572646808,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aKurokishi|r",
-		}, -- [9]
-		{
-			"range was /range 8 ", -- [1]
-			"Kurokishi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12075, -- [11]
-			"0x070000000041EDEB", -- [12]
-			0, -- [13]
-			[51] = 1572646836,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aKurokishi|r",
-		}, -- [10]
-		{
-			"right ?", -- [1]
-			"Kurokishi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12076, -- [11]
-			"0x070000000041EDEB", -- [12]
-			0, -- [13]
-			[51] = 1572646837,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aKurokishi|r",
-		}, -- [11]
-		{
-			"yes", -- [1]
-			"Rapunzzel", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12077, -- [11]
-			"0x07000000004C6013", -- [12]
-			0, -- [13]
-			[51] = 1572646843,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [12]
-		{
-			"i got knocked back and lost orbs", -- [1]
-			"Rapunzzel", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12078, -- [11]
-			"0x07000000004C6013", -- [12]
-			0, -- [13]
-			[51] = 1572646852,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [13]
-		{
-			"LFM 1 MAIN TANK FOR ICC 10NM /w me GS (have summon in front of boss)", -- [1]
-			"Khorgar", -- [2]
-			"Orcish", -- [3]
-			"1. General - Icecrown Citadel", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Icecrown Citadel", -- [9]
-			0, -- [10]
-			12080, -- [11]
-			"0x07000000004CC30D", -- [12]
-			0, -- [13]
-			[51] = 1572646876,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dKhorgar|r",
-		}, -- [14]
-		{
-			"dey ferradith logged in today", -- [1]
-			"Uxi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12081, -- [11]
-			"0x07000000004BC36D", -- [12]
-			0, -- [13]
-			[51] = 1572646884,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffaad372Uxi|r",
-		}, -- [15]
-		{
-			"on alliance", -- [1]
-			"Uxi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12082, -- [11]
-			"0x07000000004BC36D", -- [12]
-			0, -- [13]
-			[51] = 1572646886,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffaad372Uxi|r",
-		}, -- [16]
-		{
-			"he logs da", -- [1]
-			"Anhedonic", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12083, -- [11]
-			"0x07000000004C9C67", -- [12]
-			0, -- [13]
-			[51] = 1572646890,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfffff468Anhedonic|r",
-		}, -- [17]
-		{
-			"to check if we stole shit", -- [1]
-			"Invariably", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12084, -- [11]
-			"0x070000000005CC9C", -- [12]
-			0, -- [13]
-			[51] = 1572646897,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffffffffInvariably|r",
-		}, -- [18]
-		{
-			"lmao", -- [1]
-			"Uxi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12085, -- [11]
-			"0x07000000004BC36D", -- [12]
-			0, -- [13]
-			[51] = 1572646901,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffaad372Uxi|r",
-		}, -- [19]
-		{
-			"come eat fish", -- [1]
-			"Minakshi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12086, -- [11]
-			"0x07000000001A6034", -- [12]
-			0, -- [13]
-			[51] = 1572646905,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaMinakshi|r",
-		}, -- [20]
-		{
-			"please stop dmg on the 0HP bosses", -- [1]
-			"Kurokishi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12087, -- [11]
-			"0x070000000041EDEB", -- [12]
-			0, -- [13]
-			[51] = 1572646968,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aKurokishi|r",
-		}, -- [21]
-		{
-			"and do not aoe on keleth", -- [1]
-			"Kurokishi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12088, -- [11]
-			"0x070000000041EDEB", -- [12]
-			0, -- [13]
-			[51] = 1572646974,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aKurokishi|r",
-		}, -- [22]
-		{
-			"LFM 1 MAIN TANK 5,6k GS+ FOR ICC 10NM /w me GS (have summon in front of the first boss)", -- [1]
-			"Khorgar", -- [2]
-			"Orcish", -- [3]
-			"1. General - Icecrown Citadel", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Icecrown Citadel", -- [9]
-			0, -- [10]
-			12114, -- [11]
-			"0x07000000004CC30D", -- [12]
-			0, -- [13]
-			[51] = 1572647026,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dKhorgar|r",
-		}, -- [23]
-		{
-			"we are gonna try 9 ? ", -- [1]
-			"Bghell", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12115, -- [11]
-			"0x07000000004CA0FA", -- [12]
-			0, -- [13]
-			[51] = 1572647026,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff9382c9Bghell|r",
-		}, -- [24]
-		{
-			",yes", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12116, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647029,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [25]
-		{
-			"yep", -- [1]
-			"Anhedonic", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12117, -- [11]
-			"0x07000000004C9C67", -- [12]
-			0, -- [13]
-			[51] = 1572647031,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfffff468Anhedonic|r",
-		}, -- [26]
-		{
-			"its doable", -- [1]
-			"Anhedonic", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12118, -- [11]
-			"0x07000000004C9C67", -- [12]
-			0, -- [13]
-			[51] = 1572647033,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfffff468Anhedonic|r",
-		}, -- [27]
-		{
-			"Pull in 10 sec", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12120, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647072,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [28]
-		{
-			"Pull in 7 sec", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12121, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647075,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [29]
-		{
-			"Pull in 5 sec", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12122, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647077,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [30]
-		{
-			"Pull in 3 sec", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12123, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647079,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [31]
-		{
-			"Pull in 2 sec", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12124, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647080,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [32]
-		{
-			"Pull in 1 sec", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12125, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647081,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [33]
-		{
-			"Pull now!", -- [1]
-			"Legionrage", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12126, -- [11]
-			"0x07000000004C80CE", -- [12]
-			0, -- [13]
-			[51] = 1572647082,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [34]
-		{
-			"i got killed by a kinetic lol", -- [1]
-			"Kurokishi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			12159, -- [11]
-			"0x070000000041EDEB", -- [12]
-			0, -- [13]
-			[51] = 1572647178,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aKurokishi|r",
-		}, -- [35]
 		{
 			"LFM FOR POS HC Need 3 Dps 1 Healer 4,5 k ++++ W me Gs - Spec", -- [1]
 			"Shadowpaw", -- [2]
@@ -670,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1572647236,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aShadowpaw|r",
-		}, -- [36]
+		}, -- [1]
 		{
 			"yeah it wasnt hitting", -- [1]
 			"Uxi", -- [2]
@@ -688,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1572647250,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [37]
+		}, -- [2]
 		{
 			"i think my macros just focus the pet on 1", -- [1]
 			"Uxi", -- [2]
@@ -706,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1572647259,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [38]
+		}, -- [3]
 		{
 			"Vw ", -- [1]
 			"Legionrage", -- [2]
@@ -724,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1572647266,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [39]
+		}, -- [4]
 		{
 			"yeah i was hitting orb", -- [1]
 			"Uxi", -- [2]
@@ -742,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1572647276,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [40]
+		}, -- [5]
 		{
 			"2 were falling", -- [1]
 			"Uxi", -- [2]
@@ -760,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1572647279,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [41]
+		}, -- [6]
 		{
 			"you can fly inside", -- [1]
 			"Uxi", -- [2]
@@ -778,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1572647716,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [42]
+		}, -- [7]
 		{
 			"there was somthing with portals here ??? ", -- [1]
 			"Bghell", -- [2]
@@ -796,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1572647717,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Bghell|r",
-		}, -- [43]
+		}, -- [8]
 		{
 			"priest buffs", -- [1]
 			"Rapunzzel", -- [2]
@@ -814,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1572647723,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [44]
+		}, -- [9]
 		{
 			"we just dps", -- [1]
 			"Rapunzzel", -- [2]
@@ -832,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1572647729,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [45]
+		}, -- [10]
 		{
 			"fish", -- [1]
 			"Minakshi", -- [2]
@@ -850,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1572647732,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaMinakshi|r",
-		}, -- [46]
+		}, -- [11]
 		{
 			"who's gonna heal outside?", -- [1]
 			"Gurang", -- [2]
@@ -868,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1572647732,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff0070ddGurang|r",
-		}, -- [47]
+		}, -- [12]
 		{
 			"healers take portals", -- [1]
 			"Rapunzzel", -- [2]
@@ -886,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1572647732,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [48]
+		}, -- [13]
 		{
 			"k", -- [1]
 			"Uxi", -- [2]
@@ -904,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1572647733,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [49]
+		}, -- [14]
 		{
 			"just kill mobs ", -- [1]
 			"Anhedonic", -- [2]
@@ -922,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1572647733,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Anhedonic|r",
-		}, -- [50]
+		}, -- [15]
 		{
 			"healers will take portals", -- [1]
 			"Anhedonic", -- [2]
@@ -940,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1572647736,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Anhedonic|r",
-		}, -- [51]
+		}, -- [16]
 		{
 			"ok", -- [1]
 			"Bghell", -- [2]
@@ -958,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1572647740,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Bghell|r",
-		}, -- [52]
+		}, -- [17]
 		{
 			"can you gbok me", -- [1]
 			"Gurang", -- [2]
@@ -976,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1572647823,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff0070ddGurang|r",
-		}, -- [53]
+		}, -- [18]
 		{
 			"thx", -- [1]
 			"Gurang", -- [2]
@@ -994,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1572647832,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cff0070ddGurang|r",
-		}, -- [54]
+		}, -- [19]
 		{
 			"RDPS zombie", -- [1]
 			"Rapunzzel", -- [2]
@@ -1012,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1572647868,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [55]
+		}, -- [20]
 		{
 			"zombie", -- [1]
 			"Rapunzzel", -- [2]
@@ -1030,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1572647892,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffc41e3aRapunzzel|r",
-		}, -- [56]
+		}, -- [21]
 		{
 			"i died", -- [1]
 			"Uxi", -- [2]
@@ -1048,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1572648065,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [57]
+		}, -- [22]
 		{
 			"Ro Thx for coming ", -- [1]
 			"Legionrage", -- [2]
@@ -1066,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1572648109,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffc69b6dLegionrage|r",
-		}, -- [58]
+		}, -- [23]
 		{
 			"ty", -- [1]
 			"Kurokishi", -- [2]
@@ -1084,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1572648112,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aKurokishi|r",
-		}, -- [59]
+		}, -- [24]
 		{
 			"ty", -- [1]
 			"Bghell", -- [2]
@@ -1102,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1572648116,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Bghell|r",
-		}, -- [60]
+		}, -- [25]
 		{
 			"gg", -- [1]
 			"Uxi", -- [2]
@@ -1120,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1572648120,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffaad372Uxi|r",
-		}, -- [61]
+		}, -- [26]
 		{
 			" LFM TOC 25 need Rogs and Hunter and Lock --full on Tanks and Healer 23/25 ", -- [1]
 			"Altoker", -- [2]
@@ -1138,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1572684541,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aAltoker|r",
-		}, -- [62]
+		}, -- [27]
 		{
 			"LFM |cffffff00|Hachievement:4397:070000000022D519:1:5:31:18:4294967295:4294967295:4294967295:4294967295|h[Onyxia's Lair (25 player)]|h|r 5k++ GS MOUNT RUN %% Tank ring ress %% NEED HUNT MAGE LOCK ", -- [1]
 			"Monumentum", -- [2]
@@ -1156,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1572684561,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaMonumentum|r",
-		}, -- [63]
+		}, -- [28]
 		{
 			"BOR E faergas Y ash MOD SE y lo ve borne Nandige Ador Vrum GOTH MELKA LO SE goth vohl ealdor rogesh", -- [1]
 			"Zeinaa", -- [2]
@@ -1174,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1572684563,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Zeinaa|r",
-		}, -- [64]
+		}, -- [29]
 		{
 			" LFM TOC 25 need Rogs and Hunter and Lock --full on Tanks and Healer 23/25 ", -- [1]
 			"Altoker", -- [2]
@@ -1192,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1572684568,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aAltoker|r",
-		}, -- [65]
+		}, -- [30]
 		{
 			"<TOC 25 > 5.4+ LF 1 RSHAMAN <BOE/ORB/PAT RESS >W/ME GS ACHIVE |cffffff00|Hachievement:3916:07000000004395D5:1:5:15:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Creeddles", -- [2]
@@ -1210,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1572685235,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Creeddles|r",
-		}, -- [66]
+		}, -- [31]
 		{
 			"LFM ICC25N/H 5.7+ NO ACHV NO INV p/b ress NeeD ALL!!! |cffffff00|Hachievement:4637:070000000011D9BB:1:1:6:18:4294967295:4294967295:4294967295:4294967295|h[Heroic: Fall of the Lich King (25 player)]|h|r", -- [1]
 			"Breakbrave", -- [2]
@@ -1228,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1572685241,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Breakbrave|r",
-		}, -- [67]
+		}, -- [32]
 		{
 			"Icc 25 Nm / Hc Need Disco / Tank / Dps 5.7k+ B / P Resvd |cffffff00|Hachievement:4584:070000000000C855:1:8:26:15:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Electroboy", -- [2]
@@ -1246,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1572685254,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddElectroboy|r",
-		}, -- [68]
+		}, -- [33]
 		{
 			"LFM 1Heal and 1Tank for FOS & POS HC /w me spec + gs", -- [1]
 			"Khorgar", -- [2]
@@ -1264,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1572685257,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dKhorgar|r",
-		}, -- [69]
+		}, -- [34]
 		{
 			"LU agol uden ash nud VIL SE Y RE ko far mandos Re Ko gloinador vrum BuR veld Andovis vandarwos E Re ealdor ", -- [1]
 			"Notyourdaddy", -- [2]
@@ -1282,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1572685258,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dNotyourdaddy|r",
-		}, -- [70]
+		}, -- [35]
 		{
 			"FAR novaedi uden Kaelsig BOR melka WaldiR Skilde Novas ASH nagan RAS KO Cynewalden Garde KO bur ash Eloderung Nevren KO an bur agol TI barad ash noth algos aziris", -- [1]
 			"Visla", -- [2]
@@ -1300,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1572685258,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffVisla|r",
-		}, -- [71]
+		}, -- [36]
 		{
 			"BOR nud MOD SE melka goth goth O agol ador ash ", -- [1]
 			"Barugames", -- [2]
@@ -1318,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1572685258,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dBarugames|r",
-		}, -- [72]
+		}, -- [37]
 		{
 			"Need 1tank 1dps rdf hc", -- [1]
 			"Puddinwtf", -- [2]
@@ -1336,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1572685262,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaPuddinwtf|r",
-		}, -- [73]
+		}, -- [38]
 		{
 			"WTS 50k gold 14coins check warmane trade! +free 2k if you /w me after you buy", -- [1]
 			"Palastill", -- [2]
@@ -1354,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1573182851,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaPalastill|r",
-		}, -- [74]
+		}, -- [39]
 		{
 			"VIL TI MOD RU HIR Y RE KO GOTH O ADOR ENGOTH GLOIN LO ", -- [1]
 			"Drougoo", -- [2]
@@ -1372,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1573182851,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDrougoo|r",
-		}, -- [75]
+		}, -- [40]
 		{
 			"BOR VIL NUD GOTH ASH UDEN ASH ME E Y ", -- [1]
 			"Bloodfrost", -- [2]
@@ -1390,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1573182853,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBloodfrost|r",
-		}, -- [76]
+		}, -- [41]
 		{
 			"VIL TI MOD RU HIR Y RE KO GOTH O ADOR ENGOTH GLOIN LO ", -- [1]
 			"Drougoo", -- [2]
@@ -1408,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1573182868,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDrougoo|r",
-		}, -- [77]
+		}, -- [42]
 		{
 			"BOR nud VIL NUd bor hir E E Goth O Valesh y ve borne Bur Far ", -- [1]
 			"Steelblade", -- [2]
@@ -1426,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1573182880,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Steelblade|r",
-		}, -- [78]
+		}, -- [43]
 		{
 			"BOR VIL NUD GOTH ASH O UDEN ASH ME E Y ", -- [1]
 			"Bloodfrost", -- [2]
@@ -1444,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1573182894,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBloodfrost|r",
-		}, -- [79]
+		}, -- [44]
 		{
 			"Queue RDFn ", -- [1]
 			"Slashrmcgirk", -- [2]
@@ -1462,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1573182918,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Slashrmcgirk|r",
-		}, -- [80]
+		}, -- [45]
 		{
 			"LFM icc 10 N/hc 8/10 Need ALL 6.0+ |cffffff00|Hachievement:4532:07000000004B430A:1:10:10:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r /w gs spec", -- [1]
 			"Stelica", -- [2]
@@ -1480,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1573182923,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddStelica|r",
-		}, -- [81]
+		}, -- [46]
 		{
 			"LFM icc 10 N/hc 8/10 Need ALL 6.0+ |cffffff00|Hachievement:4532:07000000004B430A:1:10:10:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r /w gs spec", -- [1]
 			"Stelica", -- [2]
@@ -1498,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1573182925,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddStelica|r",
-		}, -- [82]
+		}, -- [47]
 		{
 			"LFM icc 10 N/hc 8/10 Need ALL 6.0+ |cffffff00|Hachievement:4532:07000000004B430A:1:10:10:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r /w gs spec", -- [1]
 			"Stelica", -- [2]
@@ -1516,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1573182928,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddStelica|r",
-		}, -- [83]
+		}, -- [48]
 		{
 			"LFM icc 10 N/hc 8/10 Need ALL 6.0+ |cffffff00|Hachievement:4532:07000000004B430A:1:10:10:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r /w gs spec", -- [1]
 			"Stelica", -- [2]
@@ -1534,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1573182930,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddStelica|r",
-		}, -- [84]
+		}, -- [49]
 		{
 			"VIL TI MOD RU HIR Y RE KO GOTH O ADOR veld nandige ENGOTH GLOIN LO ", -- [1]
 			"Drougoo", -- [2]
@@ -1552,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1573182930,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDrougoo|r",
-		}, -- [85]
+		}, -- [50]
 		{
 			"WTS 50k gold 14coins check warmane trade! +free 2k if you /w me after you buy", -- [1]
 			"Palastill", -- [2]
@@ -1570,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1573182935,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaPalastill|r",
-		}, -- [86]
+		}, -- [51]
 		{
 			"WTB Eternal Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 220g, send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -1588,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1573182941,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [87]
+		}, -- [52]
 		{
 			"BOR VIL NUD GOTH ASH O UDEN ASH ME E Y ", -- [1]
 			"Bloodfrost", -- [2]
@@ -1606,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1573182941,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBloodfrost|r",
-		}, -- [88]
+		}, -- [53]
 		{
 			"WTS |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|rx19 for 320g", -- [1]
 			"Darkshadowe", -- [2]
@@ -1624,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1573182945,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Darkshadowe|r",
-		}, -- [89]
+		}, -- [54]
 		{
 			"Heal que rdf hc", -- [1]
 			"Headhuntah", -- [2]
@@ -1642,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1573182950,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Headhuntah|r",
-		}, -- [90]
+		}, -- [55]
 		{
 			"DPS que rdf hc", -- [1]
 			"Headhuntah", -- [2]
@@ -1660,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1573182953,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Headhuntah|r",
-		}, -- [91]
+		}, -- [56]
 		{
 			"BOR VIL NUD GOTH ASH O UDEN ASH ME E Y ", -- [1]
 			"Bloodfrost", -- [2]
@@ -1678,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1573182956,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBloodfrost|r",
-		}, -- [92]
+		}, -- [57]
 		{
 			"dps que rdf hc", -- [1]
 			"Headhuntah", -- [2]
@@ -1696,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1573182956,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Headhuntah|r",
-		}, -- [93]
+		}, -- [58]
 		{
 			"WTB |cffa335ee|Hitem:50182:0:0:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r 17K gold whisp me", -- [1]
 			"Caduces", -- [2]
@@ -1714,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1573182959,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffCaduces|r",
-		}, -- [94]
+		}, -- [59]
 		{
 			"WTS |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|rx20 for 320g", -- [1]
 			"Darkshadowe", -- [2]
@@ -1732,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1573182968,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Darkshadowe|r",
-		}, -- [95]
+		}, -- [60]
 		{
 			"VIL TI MOD RU HIR Y RE KO GOTH O ADOR veld nandige ENGOTH GLOIN LO ", -- [1]
 			"Drougoo", -- [2]
@@ -1750,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1573182985,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDrougoo|r",
-		}, -- [96]
+		}, -- [61]
 		{
 			"BOR VIL NUD GOTH ASH O UDEN ASH ME E Y ", -- [1]
 			"Bloodfrost", -- [2]
@@ -1768,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1573183001,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBloodfrost|r",
-		}, -- [97]
+		}, -- [62]
 		{
 			"Tank reg fd", -- [1]
 			"Skimirok", -- [2]
@@ -1786,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1573183341,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aSkimirok|r",
-		}, -- [98]
+		}, -- [63]
 		{
 			"yo", -- [1]
 			"Floridda", -- [2]
@@ -1804,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1573184581,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [99]
+		}, -- [64]
 		{
 			"yo", -- [1]
 			"Floridda", -- [2]
@@ -1822,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1573184589,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [100]
+		}, -- [65]
 		{
 			"there were lockboxes on the priest", -- [1]
 			"Floridda", -- [2]
@@ -1840,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1573184597,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [101]
+		}, -- [66]
 		{
 			"did u vendor them or u still have dem", -- [1]
 			"Floridda", -- [2]
@@ -1858,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1573184602,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [102]
+		}, -- [67]
 		{
 			"vendor", -- [1]
 			"Floridda", -- [2]
@@ -1876,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1573184608,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [103]
+		}, -- [68]
 		{
 			"xd", -- [1]
 			"Floridda", -- [2]
@@ -1894,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1573184609,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [104]
+		}, -- [69]
 		{
 			"can u buy them back", -- [1]
 			"Floridda", -- [2]
@@ -1912,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1573184615,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [105]
+		}, -- [70]
 		{
 			"check xD", -- [1]
 			"Floridda", -- [2]
@@ -1930,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1573184617,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [106]
+		}, -- [71]
 		{
 			"ill see", -- [1]
 			"Floridda", -- [2]
@@ -1948,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1573184626,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [107]
+		}, -- [72]
 		{
 			"WTB |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r --> 230g each send COD need many", -- [1]
 			"Eatmybolt", -- [2]
@@ -1966,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1573184662,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [108]
+		}, -- [73]
 		{
 			"LFM VOA10 F+F NEED RDPS CLASS RUN PST GS", -- [1]
 			"Klaner", -- [2]
@@ -1984,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1573184668,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aKlaner|r",
-		}, -- [109]
+		}, -- [74]
 		{
 			"nope too late", -- [1]
 			"Floridda", -- [2]
@@ -2002,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1573184670,
 			[50] = "CHAT_MSG_WHISPER_INFORM",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [110]
+		}, -- [75]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r->600g each send COD", -- [1]
 			"Eatmybolt", -- [2]
@@ -2020,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1573184672,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [111]
+		}, -- [76]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r->600g each send COD", -- [1]
 			"Eatmybolt", -- [2]
@@ -2038,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1573184672,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [112]
+		}, -- [77]
 		{
 			"rip", -- [1]
 			"Floridda", -- [2]
@@ -2056,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1573184674,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cff0070ddFloridda|r",
-		}, -- [113]
+		}, -- [78]
 		{
 			"BOR ERGIN MOD BUR DANIEB VRUM LANDOWAR GOTH NUD E U EYNES LO VE ROTHAS Dana va ras Lithtos SE danieb ", -- [1]
 			"Falanar", -- [2]
@@ -2074,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1573184675,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Falanar|r",
-		}, -- [114]
+		}, -- [79]
 		{
 			"SE SE Goth nud Ne ve Y borne ash ealdor Ras Lordaere Gloinador SE danieb ", -- [1]
 			"Danotheus", -- [2]
@@ -2092,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1573184675,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aDanotheus|r",
-		}, -- [115]
+		}, -- [80]
 		{
 			"WTB |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r --> 230g each send COD need many", -- [1]
 			"Eatmybolt", -- [2]
@@ -2110,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1573184692,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [116]
+		}, -- [81]
 		{
 			"BOR ERGIN MOD BUR DANIEB VRUM LANDOWAR GOTH NUD E U EYNES LO VE ROTHAS Dana va ras Lithtos SE danieb ", -- [1]
 			"Falanar", -- [2]
@@ -2128,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1573184697,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Falanar|r",
-		}, -- [117]
+		}, -- [82]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r->600g each send COD", -- [1]
 			"Eatmybolt", -- [2]
@@ -2146,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1573184702,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [118]
+		}, -- [83]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r->600g each send COD", -- [1]
 			"Eatmybolt", -- [2]
@@ -2164,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1573184702,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [119]
+		}, -- [84]
 		{
 			"SE SE Goth nud Ne ve Y borne ash ealdor Ras Lordaere Gloinador SE danieb ", -- [1]
 			"Danotheus", -- [2]
@@ -2182,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1573184703,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aDanotheus|r",
-		}, -- [120]
+		}, -- [85]
 		{
 			"BOR ERGIN MOD BUR DANIEB VRUM LANDOWAR GOTH NUD E U EYNES LO VE ROTHAS Dana va ras Lithtos SE danieb ", -- [1]
 			"Falanar", -- [2]
@@ -2200,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1573184708,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Falanar|r",
-		}, -- [121]
+		}, -- [86]
 		{
 			"VIL TI MOD GOTH O AGOL ADOR RAS VE E E Y LO THOR ASH VE TI BUR VRUM ", -- [1]
 			"Qwf", -- [2]
@@ -2218,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1573184711,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefQwf|r",
-		}, -- [122]
+		}, -- [87]
 		{
 			"SE SE Goth nud Ne ve Y borne ash ealdor Ras Lordaere Gloinador SE danieb ", -- [1]
 			"Danotheus", -- [2]
@@ -2236,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1573184712,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aDanotheus|r",
-		}, -- [123]
+		}, -- [88]
 		{
 			"VIL TI MOD GOTH O AGOL ADOR RAS VE E E Y LO THOR ASH VE TI BUR VRUM ", -- [1]
 			"Qwf", -- [2]
@@ -2254,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1573184714,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefQwf|r",
-		}, -- [124]
+		}, -- [89]
 		{
 			"WTB |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r --> 230g each send COD need many", -- [1]
 			"Eatmybolt", -- [2]
@@ -2272,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1573184722,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [125]
+		}, -- [90]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r->600g each send COD", -- [1]
 			"Eatmybolt", -- [2]
@@ -2290,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1573184732,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
-		}, -- [126]
+		}, -- [91]
 		{
 			"WTB|cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r->600g each send COD", -- [1]
 			"Eatmybolt", -- [2]
@@ -2308,6 +1678,636 @@ ElvCharacterDB = {
 			[51] = 1573184732,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefEatmybolt|r",
+		}, -- [92]
+		{
+			"BOR GARDE melka goth goth nud far Vohl ", -- [1]
+			"Candywood", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			16, -- [11]
+			"0x0700000000484D09", -- [12]
+			0, -- [13]
+			[51] = 1574486453,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefCandywood|r",
+		}, -- [93]
+		{
+			"LFM ICC 25 NM NEED 1 MT 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			17, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574486455,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [94]
+		{
+			"bor rufTOs bor hir goth Lithtos E TI", -- [1]
+			"Kyokai", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			19, -- [11]
+			"0x07000000004D24CD", -- [12]
+			0, -- [13]
+			[51] = 1574486455,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Kyokai|r",
+		}, -- [95]
+		{
+			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"0x070000000039BF6F", -- [12]
+			0, -- [13]
+			[51] = 1574486461,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
+		}, -- [96]
+		{
+			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
+			"Shadoo", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			24, -- [11]
+			"0x070000000000BB1D", -- [12]
+			0, -- [13]
+			[51] = 1574486463,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefShadoo|r",
+		}, -- [97]
+		{
+			"BOR GARDE melka goth goth nud far Vohl ", -- [1]
+			"Candywood", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"0x0700000000484D09", -- [12]
+			0, -- [13]
+			[51] = 1574486470,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefCandywood|r",
+		}, -- [98]
+		{
+			"BOR MOD SE Hir faergas ash Eynes E VOHL TI SE ", -- [1]
+			"Lliiffee", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			33, -- [11]
+			"0x070000000041A190", -- [12]
+			0, -- [13]
+			[51] = 1574486478,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaLliiffee|r",
+		}, -- [99]
+		{
+			"WTS |cff0070dd|Hitem:2567:0:0:0:0:0:0:0:40|h[Evocator's Blade]|h|r", -- [1]
+			"Hahanjing", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			39, -- [11]
+			"0x07000000004DD844", -- [12]
+			0, -- [13]
+			[51] = 1574486488,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Hahanjing|r",
+		}, -- [100]
+		{
+			"LFM ICC 25 NM NEED 1 MT 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574486494,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [101]
+		{
+			"LU AGOL ASH DANA ", -- [1]
+			"Molestito", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"0x07000000004CA3B9", -- [12]
+			0, -- [13]
+			[51] = 1574486516,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefMolestito|r",
+		}, -- [102]
+		{
+			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574486529,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [103]
+		{
+			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			47, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574486532,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [104]
+		{
+			"bor vil bur dana bur wos goth ash ash regen", -- [1]
+			"Lostinsauce", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"0x07000000004E42DC", -- [12]
+			0, -- [13]
+			[51] = 1574486532,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Lostinsauce|r",
+		}, -- [105]
+		{
+			"bor rufTOs bor hir goth Lithtos E TI", -- [1]
+			"Kyokai", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"0x07000000004D24CD", -- [12]
+			0, -- [13]
+			[51] = 1574486547,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Kyokai|r",
+		}, -- [106]
+		{
+			"wts 400 |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 140 |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r", -- [1]
+			"Foonzy", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			50, -- [11]
+			"0x07000000004D0CE9", -- [12]
+			0, -- [13]
+			[51] = 1574486550,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaFoonzy|r",
+		}, -- [107]
+		{
+			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
+			"Shadoo", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			51, -- [11]
+			"0x070000000000BB1D", -- [12]
+			0, -- [13]
+			[51] = 1574486552,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefShadoo|r",
+		}, -- [108]
+		{
+			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			52, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574486561,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [109]
+		{
+			"bor vil bur dana bur wos goth ash ash regen", -- [1]
+			"Lostinsauce", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			53, -- [11]
+			"0x07000000004E42DC", -- [12]
+			0, -- [13]
+			[51] = 1574486564,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Lostinsauce|r",
+		}, -- [110]
+		{
+			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			56, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574486566,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [111]
+		{
+			"BOR MOD SE Hir faergas ash Eynes E VOHL TI SE ", -- [1]
+			"Lliiffee", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			57, -- [11]
+			"0x070000000041A190", -- [12]
+			0, -- [13]
+			[51] = 1574486567,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaLliiffee|r",
+		}, -- [112]
+		{
+			"lf enchanting/jwc !", -- [1]
+			"Rwagg", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			58, -- [11]
+			"0x0700000000009D2E", -- [12]
+			0, -- [13]
+			[51] = 1574486573,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dRwagg|r",
+		}, -- [113]
+		{
+			"hola gente", -- [1]
+			"Nuicer", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			59, -- [11]
+			"0x07000000004C59F1", -- [12]
+			0, -- [13]
+			[51] = 1574486576,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffffffffNuicer|r",
+		}, -- [114]
+		{
+			"LU AGOL ASH DANA ", -- [1]
+			"Molestito", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			60, -- [11]
+			"0x07000000004CA3B9", -- [12]
+			0, -- [13]
+			[51] = 1574486579,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefMolestito|r",
+		}, -- [115]
+		{
+			"lf enchanting/jwc !", -- [1]
+			"Rwagg", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			61, -- [11]
+			"0x0700000000009D2E", -- [12]
+			0, -- [13]
+			[51] = 1574486579,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dRwagg|r",
+		}, -- [116]
+		{
+			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			62, -- [11]
+			"0x070000000039BF6F", -- [12]
+			0, -- [13]
+			[51] = 1574486581,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
+		}, -- [117]
+		{
+			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
+			"Shadoo", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			63, -- [11]
+			"0x070000000000BB1D", -- [12]
+			0, -- [13]
+			[51] = 1574486583,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefShadoo|r",
+		}, -- [118]
+		{
+			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
+			"Shadoo", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			71, -- [11]
+			"0x070000000000BB1D", -- [12]
+			0, -- [13]
+			[51] = 1574486617,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefShadoo|r",
+		}, -- [119]
+		{
+			"bor vil bur dana bur wos goth ash ash regen", -- [1]
+			"Lostinsauce", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			74, -- [11]
+			"0x07000000004E42DC", -- [12]
+			0, -- [13]
+			[51] = 1574486619,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Lostinsauce|r",
+		}, -- [120]
+		{
+			"LFM ICC 25 NM NEED 3 HEALER REST DPS MIN 5.7K GS (BOE PS RSS )", -- [1]
+			"Tanhil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			81, -- [11]
+			"0x07000000004D3B69", -- [12]
+			0, -- [13]
+			[51] = 1574486623,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaTanhil|r",
+		}, -- [121]
+		{
+			"BOR MOD SE Hir faergas ash Eynes E VOHL TI SE ", -- [1]
+			"Lliiffee", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			83, -- [11]
+			"0x070000000041A190", -- [12]
+			0, -- [13]
+			[51] = 1574486624,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaLliiffee|r",
+		}, -- [122]
+		{
+			"wts 400 |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 140 |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r", -- [1]
+			"Foonzy", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			85, -- [11]
+			"0x07000000004D0CE9", -- [12]
+			0, -- [13]
+			[51] = 1574486625,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaFoonzy|r",
+		}, -- [123]
+		{
+			"LU AGOL ASH DANA ", -- [1]
+			"Molestito", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			115, -- [11]
+			"0x07000000004CA3B9", -- [12]
+			0, -- [13]
+			[51] = 1574486641,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefMolestito|r",
+		}, -- [124]
+		{
+			"WTB [Netherweave Cloth]", -- [1]
+			"Sewqin", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			122, -- [11]
+			"0x07000000004B0BE3", -- [12]
+			0, -- [13]
+			[51] = 1574486647,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefSewqin|r",
+		}, -- [125]
+		{
+			"WTB |cffffffff|Hitem:21877:0:0:0:0:0:0:0:80|h[Netherweave Cloth]|h|r", -- [1]
+			"Sewqin", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			133, -- [11]
+			"0x07000000004B0BE3", -- [12]
+			0, -- [13]
+			[51] = 1574486660,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefSewqin|r",
+		}, -- [126]
+		{
+			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 600 EACH !!! ILL BUY ALL YOU HAVE!!!", -- [1]
+			"Shadoo", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			157, -- [11]
+			"0x070000000000BB1D", -- [12]
+			0, -- [13]
+			[51] = 1574486685,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefShadoo|r",
 		}, -- [127]
 	},
 }
