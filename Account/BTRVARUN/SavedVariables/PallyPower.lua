@@ -111,6 +111,19 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
+	["Holah"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
+		1, -- [11]
+	},
 	["Holydoc"] = {
 		3, -- [1]
 		3, -- [2]
@@ -357,6 +370,19 @@ PallyPower_Assignments = {
 		3, -- [9]
 		3, -- [10]
 		3, -- [11]
+	},
+	["Mistyk"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
+		1, -- [11]
 	},
 	["Denii"] = {
 		0, -- [1]
@@ -606,6 +632,8 @@ PallyPower_NormalAssignments = {
 	},
 	["Unknwon"] = {
 	},
+	["Holah"] = {
+	},
 	["Holydoc"] = {
 	},
 	["Zuulith"] = {
@@ -646,6 +674,8 @@ PallyPower_NormalAssignments = {
 	["Immutability"] = {
 	},
 	["Eradicatiion"] = {
+	},
+	["Mistyk"] = {
 	},
 	["Denii"] = {
 	},
@@ -691,6 +721,7 @@ PallyPower_AuraAssignments = {
 	["Phsycopally"] = 1,
 	["Momofuku"] = 1,
 	["Unknwon"] = 1,
+	["Holah"] = 2,
 	["Holydoc"] = 6,
 	["Zuulith"] = 1,
 	["Philliphus"] = 4,
@@ -710,6 +741,7 @@ PallyPower_AuraAssignments = {
 	["Sunweli"] = 1,
 	["Immutability"] = 1,
 	["Eradicatiion"] = 1,
+	["Mistyk"] = 3,
 	["Denii"] = 0,
 	["Royalscepte"] = 0,
 	["Hojjaa"] = 0,

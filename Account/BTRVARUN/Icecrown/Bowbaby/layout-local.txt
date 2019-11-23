@@ -76,3 +76,10 @@ X: 103
 Y: -23
 W: 1
 H: 1
+Frame: LootMasterUIFrame
+FrameLevel: 11
+Anchor: CENTER
+X: 0
+Y: 105
+W: 700
+H: 123
