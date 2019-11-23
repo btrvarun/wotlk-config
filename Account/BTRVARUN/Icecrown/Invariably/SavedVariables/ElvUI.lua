@@ -1,532 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/sexycooldowns", -- [1]
-		"/w Immutability yee", -- [2]
-		"/w Immutability fade?  raid?", -- [3]
-		"/w Immutability nah", -- [4]
-		"/w Immutability yeah", -- [5]
-		"/w Immutability you started the raid?", -- [6]
-		"/raid yeah he got pushed back", -- [7]
-		"/raid lost the orbs", -- [8]
-		"/raid to check if we stole shit", -- [9]
-		"/abs restore disc", -- [10]
-		"/macro", -- [11]
-		"/abs save disc", -- [12]
-		"/w Floridda yo", -- [13]
-		"/w Floridda vendor", -- [14]
-		"/w Floridda xd", -- [15]
-		"/w Floridda ill see", -- [16]
-		"/w Floridda nope too late", -- [17]
-		"/abs restore shadow", -- [18]
-		"/atlasloot", -- [19]
-		"/wa", -- [20]
+		"/w Immutability yee", -- [1]
+		"/w Immutability fade?  raid?", -- [2]
+		"/w Immutability nah", -- [3]
+		"/w Immutability yeah", -- [4]
+		"/w Immutability you started the raid?", -- [5]
+		"/raid yeah he got pushed back", -- [6]
+		"/raid lost the orbs", -- [7]
+		"/raid to check if we stole shit", -- [8]
+		"/abs restore disc", -- [9]
+		"/macro", -- [10]
+		"/abs save disc", -- [11]
+		"/w Floridda yo", -- [12]
+		"/w Floridda vendor", -- [13]
+		"/w Floridda xd", -- [14]
+		"/w Floridda ill see", -- [15]
+		"/w Floridda nope too late", -- [16]
+		"/abs restore shadow", -- [17]
+		"/atlasloot", -- [18]
+		"/wa", -- [19]
+		"/time", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
-			"Failure", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10272, -- [11]
-			"0x070000000018FD35", -- [12]
-			0, -- [13]
-			[51] = 1574493531,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aFailure|r",
-		}, -- [1]
-		{
-			"lf guild accepting new player", -- [1]
-			"Vizio", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10274, -- [11]
-			"0x07000000004E63A8", -- [12]
-			0, -- [13]
-			[51] = 1574493532,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaVizio|r",
-		}, -- [2]
-		{
-			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
-			"Asashigure", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10297, -- [11]
-			"0x070000000039BF6F", -- [12]
-			0, -- [13]
-			[51] = 1574493545,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefAsashigure|r",
-		}, -- [3]
-		{
-			"NEED ALL TRANSMORG RUN |cffffff00|Hachievement:694:07000000003FE028:1:11:16:19:4294967295:0:0:0|h[Serpentshrine Cavern]|h|rPRIEST MARK RESS) /W ME FOR INVITE", -- [1]
-			"Invitemdps", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10306, -- [11]
-			"0x07000000003FE028", -- [12]
-			0, -- [13]
-			[51] = 1574493554,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Invitemdps|r",
-		}, -- [4]
-		{
-			"hir ash wos wos engoth se", -- [1]
-			"Theknights", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10320, -- [11]
-			"0x07000000004D6F86", -- [12]
-			0, -- [13]
-			[51] = 1574493566,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dTheknights|r",
-		}, -- [5]
-		{
-			"NEED ALL TRANSMORG RUN |cffffff00|Hachievement:694:07000000003FE028:1:11:16:19:4294967295:0:0:0|h[Serpentshrine Cavern]|h|rPRIEST MARK RESS) /W ME FOR INVITE", -- [1]
-			"Invitemdps", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10323, -- [11]
-			"0x07000000003FE028", -- [12]
-			0, -- [13]
-			[51] = 1574493570,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Invitemdps|r",
-		}, -- [6]
-		{
-			"Help", -- [1]
-			"Kissthetank", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10332, -- [11]
-			"0x07000000004E6913", -- [12]
-			0, -- [13]
-			[51] = 1574493574,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aKissthetank|r",
-		}, -- [7]
-		{
-			" LFM 10ICC HC NEED 1healerPLAL", -- [1]
-			"Cnzsl", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10333, -- [11]
-			"0x070000000049F53C", -- [12]
-			0, -- [13]
-			[51] = 1574493574,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaCnzsl|r",
-		}, -- [8]
-		{
-			"why i am still silenced XD", -- [1]
-			"Kissthetank", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10339, -- [11]
-			"0x07000000004E6913", -- [12]
-			0, -- [13]
-			[51] = 1574493578,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aKissthetank|r",
-		}, -- [9]
-		{
-			"LFM icc 10 n w me rolle and gs + achive (boe+ prim ress ) gunship / fest hc shaman HEALER + 1 dps ", -- [1]
-			"Fiatmultipla", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10340, -- [11]
-			"0x07000000004B719D", -- [12]
-			0, -- [13]
-			[51] = 1574493579,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [10]
-		{
-			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
-			"Failure", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10353, -- [11]
-			"0x070000000018FD35", -- [12]
-			0, -- [13]
-			[51] = 1574493587,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aFailure|r",
-		}, -- [11]
-		{
-			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
-			"Duolifs", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10366, -- [11]
-			"0x07000000003BCEA1", -- [12]
-			0, -- [13]
-			[51] = 1574493601,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefDuolifs|r",
-		}, -- [12]
-		{
-			" LFM 10ICC HC NEED 1healerPLAL", -- [1]
-			"Cnzsl", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10374, -- [11]
-			"0x070000000049F53C", -- [12]
-			0, -- [13]
-			[51] = 1574493608,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaCnzsl|r",
-		}, -- [13]
-		{
-			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
-			"Failure", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10418, -- [11]
-			"0x070000000018FD35", -- [12]
-			0, -- [13]
-			[51] = 1574493640,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aFailure|r",
-		}, -- [14]
-		{
-			"LAST 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
-			"Fiatmultipla", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10421, -- [11]
-			"0x07000000004B719D", -- [12]
-			0, -- [13]
-			[51] = 1574493643,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [15]
-		{
-			"LAST 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
-			"Fiatmultipla", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10442, -- [11]
-			"0x07000000004B719D", -- [12]
-			0, -- [13]
-			[51] = 1574493663,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [16]
-		{
-			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
-			"Asashigure", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10446, -- [11]
-			"0x070000000039BF6F", -- [12]
-			0, -- [13]
-			[51] = 1574493665,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefAsashigure|r",
-		}, -- [17]
-		{
-			"LAST 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
-			"Fiatmultipla", -- [2]
-			"Orcish", -- [3]
-			"4. LookingForGroup", -- [4]
-			"", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			10459, -- [11]
-			"0x07000000004B719D", -- [12]
-			0, -- [13]
-			[51] = 1574493677,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [18]
-		{
-			"LFM VOA 10M need 1 Tank & DPS !! Frost ONLY !! Fast RUN !! pm me spec and gs ~", -- [1]
-			"Elementrike", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			10461, -- [11]
-			"0x07000000004ADC58", -- [12]
-			0, -- [13]
-			[51] = 1574493677,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddElementrike|r",
-		}, -- [19]
-		{
-			"LFM VOA 10M need 1 Tank & DPS !! Frost ONLY !! Fast RUN !! pm me spec and gs ~", -- [1]
-			"Elementrike", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10465, -- [11]
-			"0x07000000004ADC58", -- [12]
-			0, -- [13]
-			[51] = 1574493679,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddElementrike|r",
-		}, -- [20]
-		{
-			"LFM VOA 10M need 1 Tank & DPS !! Frost ONLY !! Fast RUN !! pm me spec and gs ~", -- [1]
-			"Elementrike", -- [2]
-			"Orcish", -- [3]
-			"3. LocalDefense - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			22, -- [7]
-			3, -- [8]
-			"LocalDefense - Dalaran", -- [9]
-			0, -- [10]
-			10468, -- [11]
-			"0x07000000004ADC58", -- [12]
-			0, -- [13]
-			[51] = 1574493681,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddElementrike|r",
-		}, -- [21]
-		{
-			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
-			"Failure", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10505, -- [11]
-			"0x070000000018FD35", -- [12]
-			0, -- [13]
-			[51] = 1574493715,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aFailure|r",
-		}, -- [22]
-		{
-			"im a sick fuck i like a quick fuck", -- [1]
-			"Jaylen", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10506, -- [11]
-			"0x07000000002F110E", -- [12]
-			0, -- [13]
-			[51] = 1574493715,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffJaylen|r",
-		}, -- [23]
-		{
-			"WTS |cffa335ee|Hitem:42101:0:0:0:0:0:0:0:80|h[Ebonweave Robe]|h|r & |cffa335ee|Hitem:42111:0:0:0:0:0:0:0:80|h[Ebonweave Gloves]|h|r PST", -- [1]
-			"Jaylen", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10508, -- [11]
-			"0x07000000002F110E", -- [12]
-			0, -- [13]
-			[51] = 1574493717,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffJaylen|r",
-		}, -- [24]
-		{
-			"WTS |cffa335ee|Hitem:42101:0:0:0:0:0:0:0:80|h[Ebonweave Robe]|h|r & |cffa335ee|Hitem:42111:0:0:0:0:0:0:0:80|h[Ebonweave Gloves]|h|r PST", -- [1]
-			"Jaylen", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			10509, -- [11]
-			"0x07000000002F110E", -- [12]
-			0, -- [13]
-			[51] = 1574493718,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffJaylen|r",
-		}, -- [25]
-		{
-			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
-			"Duolifs", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			10512, -- [11]
-			"0x07000000003BCEA1", -- [12]
-			0, -- [13]
-			[51] = 1574493721,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefDuolifs|r",
-		}, -- [26]
-		{
-			"LAST 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
-			"Fiatmultipla", -- [2]
-			"Orcish", -- [3]
-			"4. LookingForGroup", -- [4]
-			"", -- [5]
-			"", -- [6]
-			26, -- [7]
-			4, -- [8]
-			"LookingForGroup", -- [9]
-			0, -- [10]
-			10514, -- [11]
-			"0x07000000004B719D", -- [12]
-			0, -- [13]
-			[51] = 1574493722,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [27]
-		{
-			"LFM VOA 10M need 1 Tank & DPS !! Frost ONLY !! Fast RUN !! pm me spec and gs ~", -- [1]
-			"Elementrike", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			10516, -- [11]
-			"0x07000000004ADC58", -- [12]
-			0, -- [13]
-			[51] = 1574493728,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddElementrike|r",
-		}, -- [28]
 		{
 			"LFM VOA 10M need 1 Tank & DPS !! Frost ONLY !! Fast RUN !! pm me spec and gs ~", -- [1]
 			"Elementrike", -- [2]
@@ -544,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1574493730,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddElementrike|r",
-		}, -- [29]
+		}, -- [1]
 		{
 			"LFM VOA 10M need 1 Tank & DPS !! Frost ONLY !! Fast RUN !! pm me spec and gs ~", -- [1]
 			"Elementrike", -- [2]
@@ -562,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1574493732,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddElementrike|r",
-		}, -- [30]
+		}, -- [2]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -580,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1574493785,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [31]
+		}, -- [3]
 		{
 			"LAST 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -598,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1574493788,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [32]
+		}, -- [4]
 		{
 			"LAST 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -616,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1574493796,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [33]
+		}, -- [5]
 		{
 			"LAST 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -634,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1574493805,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [34]
+		}, -- [6]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -652,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1574493806,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [35]
+		}, -- [7]
 		{
 			" last 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -670,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1574493816,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [36]
+		}, -- [8]
 		{
 			" last 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -688,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1574493831,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [37]
+		}, -- [9]
 		{
 			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
 			"Duolifs", -- [2]
@@ -706,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1574493841,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [38]
+		}, -- [10]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -724,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1574493842,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [39]
+		}, -- [11]
 		{
 			"WTS |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|rx2 500g", -- [1]
 			"Shige", -- [2]
@@ -742,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1574493852,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aShige|r",
-		}, -- [40]
+		}, -- [12]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -760,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1574493859,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [41]
+		}, -- [13]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -778,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1574493877,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [42]
+		}, -- [14]
 		{
 			"last 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -796,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1574493889,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [43]
+		}, -- [15]
 		{
 			"LFM VOA 10M need 1 Tank or heal & DPS !! Frost ONLY !! Fast RUN !! pm me spec and gs ~", -- [1]
 			"Elementrike", -- [2]
@@ -814,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1574493893,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddElementrike|r",
-		}, -- [44]
+		}, -- [16]
 		{
 			"last 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -832,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1574493894,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [45]
+		}, -- [17]
 		{
 			"LU UDEN Veld ras Mandosdaegil Thor Bor ", -- [1]
 			"Jblack", -- [2]
@@ -850,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1574493900,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefJblack|r",
-		}, -- [46]
+		}, -- [18]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -868,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1574493905,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [47]
+		}, -- [19]
 		{
 			"wtb eternal fire 55g", -- [1]
 			"Damascena", -- [2]
@@ -886,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1574493915,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffDamascena|r",
-		}, -- [48]
+		}, -- [20]
 		{
 			"co ai vn ko", -- [1]
 			"Palxiu", -- [2]
@@ -904,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1574493920,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaPalxiu|r",
-		}, -- [49]
+		}, -- [21]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -922,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1574493921,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [50]
+		}, -- [22]
 		{
 			"last 2 SPOTS ICC 10N/HC need 2 healers 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -940,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1574493924,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [51]
+		}, -- [23]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -958,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1574493927,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [52]
+		}, -- [24]
 		{
 			"LU O VALESH ASH O ASH Veld ras Mandosdaegil Thor Bor ", -- [1]
 			"Jblack", -- [2]
@@ -976,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1574493955,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefJblack|r",
-		}, -- [53]
+		}, -- [25]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -994,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1574493959,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [54]
+		}, -- [26]
 		{
 			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
 			"Duolifs", -- [2]
@@ -1012,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1574493961,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [55]
+		}, -- [27]
 		{
 			"LU O VALESH Veld ras Mandosdaegil Thor Bor ", -- [1]
 			"Jblack", -- [2]
@@ -1030,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1574493985,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefJblack|r",
-		}, -- [56]
+		}, -- [28]
 		{
 			"last SPOT ICC 10N/HC need healer 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1048,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1574493999,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [57]
+		}, -- [29]
 		{
 			"LU O VALESH Veld ras Mandosdaegil Thor Bor ", -- [1]
 			"Jblack", -- [2]
@@ -1066,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1574494002,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefJblack|r",
-		}, -- [58]
+		}, -- [30]
 		{
 			"last SPOT ICC 10N/HC need healer 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1084,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1574494003,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [59]
+		}, -- [31]
 		{
 			"o", -- [1]
 			"Oc", -- [2]
@@ -1102,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1574494004,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaOc|r",
-		}, -- [60]
+		}, -- [32]
 		{
 			"ve y ", -- [1]
 			"Oc", -- [2]
@@ -1120,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1574494006,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cfff48cbaOc|r",
-		}, -- [61]
+		}, -- [33]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1138,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1574494009,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [62]
+		}, -- [34]
 		{
 			"last SPOT ICC 10N/HC need healer 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1156,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1574494010,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [63]
+		}, -- [35]
 		{
 			"last SPOT ICC 10N/HC need healer 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1174,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1574494016,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [64]
+		}, -- [36]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -1192,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1574494025,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [65]
+		}, -- [37]
 		{
 			"last SPOT ICC 10N/HC need healer 5,5 min ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1210,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1574494027,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [66]
+		}, -- [38]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1228,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1574494028,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [67]
+		}, -- [39]
 		{
 			"last SPOT ICC 10N/HC need healer 5,5 min DRUID PERFC ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1246,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1574494052,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [68]
+		}, -- [40]
 		{
 			"wts |cffffffff|Hitem:40110:0:0:0:0:0:0:0:80|h[Haunted Memento]|h|r", -- [1]
 			"Subpoena", -- [2]
@@ -1264,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1574494061,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffSubpoena|r",
-		}, -- [69]
+		}, -- [41]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1282,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1574494064,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [70]
+		}, -- [42]
 		{
 			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
 			"Duolifs", -- [2]
@@ -1300,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1574494081,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [71]
+		}, -- [43]
 		{
 			"last SPOT ICC 10N/HC need healer 5,5 min DRUID PERFC ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1318,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1574494083,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [72]
+		}, -- [44]
 		{
 			" LAST SPOT ICC 10N/HC need healer 5,5 min DRUID PERFC ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1336,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1574494094,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [73]
+		}, -- [45]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -1354,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1574494100,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [74]
+		}, -- [46]
 		{
 			" LAST SPOT ICC 10N/HC need healer 5,5 min DRUID/SHAM PERFC ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1372,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1574494105,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [75]
+		}, -- [47]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1390,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1574494108,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [76]
+		}, -- [48]
 		{
 			" LAST SPOT ICC 10N/HC need healer 5,5 min DRUID/SHAM PERFC ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1408,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1574494109,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [77]
+		}, -- [49]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1426,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1574494132,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [78]
+		}, -- [50]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -1444,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1574494137,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [79]
+		}, -- [51]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -1462,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1574494145,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [80]
+		}, -- [52]
 		{
 			"LFG ICC10/ICC25 runs 5.4 fury warr ", -- [1]
 			"Maznyochka", -- [2]
@@ -1480,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1574494153,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMaznyochka|r",
-		}, -- [81]
+		}, -- [53]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1498,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1574494156,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [82]
+		}, -- [54]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -1516,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1574494192,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [83]
+		}, -- [55]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1534,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1574494195,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [84]
+		}, -- [56]
 		{
 			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
 			"Duolifs", -- [2]
@@ -1552,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1574494201,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [85]
+		}, -- [57]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1570,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1574494224,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [86]
+		}, -- [58]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1588,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1574494244,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [87]
+		}, -- [59]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -1606,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1574494249,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [88]
+		}, -- [60]
 		{
 			"LF mage for portal to dala, paying fee! /from Thunder Bluff", -- [1]
 			"Rothvak", -- [2]
@@ -1624,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1574494261,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddRothvak|r",
-		}, -- [89]
+		}, -- [61]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -1642,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1574494265,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [90]
+		}, -- [62]
 		{
 			"any weekly", -- [1]
 			"Kratosaa", -- [2]
@@ -1660,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1574494267,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefKratosaa|r",
-		}, -- [91]
+		}, -- [63]
 		{
 			"last spot icc 10 n need tank ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1678,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1574494281,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [92]
+		}, -- [64]
 		{
 			"Daca Esti ROMAN Si Iti Plac Femeile,Bautura,Discutiile De Cacat Ca Intre Prieteni Si Nu Ti-ai Gasit Locul Altundeva,Te Asteptam Alaturi De Noi!!!!!! Suntem La Inceput Dar Vom Fi Cineva Intr-o Zi :D <<<<ROMANIAN ANGELS>>>>Recruteaza!", -- [1]
 			"Cleeu", -- [2]
@@ -1696,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1574494286,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aCleeu|r",
-		}, -- [93]
+		}, -- [65]
 		{
 			"last spot icc 10 n need tank ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1714,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1574494287,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [94]
+		}, -- [66]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1732,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1574494288,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [95]
+		}, -- [67]
 		{
 			" LAST spot icc 10 n need tank ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1750,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1574494294,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [96]
+		}, -- [68]
 		{
 			"LF mage for portal to dala, paying fee! /from Thunder Bluff", -- [1]
 			"Rothvak", -- [2]
@@ -1768,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1574494313,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddRothvak|r",
-		}, -- [97]
+		}, -- [69]
 		{
 			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
 			"Duolifs", -- [2]
@@ -1786,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1574494321,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [98]
+		}, -- [70]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1804,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1574494323,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [99]
+		}, -- [71]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1822,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1574494338,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [100]
+		}, -- [72]
 		{
 			" LAST spot icc 10 n need tank ", -- [1]
 			"Fiatmultipla", -- [2]
@@ -1840,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1574494346,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Fiatmultipla|r",
-		}, -- [101]
+		}, -- [73]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -1858,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1574494347,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [102]
+		}, -- [74]
 		{
 			"Daca Esti ROMAN Si Iti Plac Femeile,Bautura,Discutiile De Cacat Ca Intre Prieteni Si Nu Ti-ai Gasit Locul Altundeva,Te Asteptam Alaturi De Noi!!!!!! Suntem La Inceput Dar Vom Fi Cineva Intr-o Zi :D <<<<ROMANIAN ANGELS>>>>Recruteaza!", -- [1]
 			"Cleeu", -- [2]
@@ -1876,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1574494359,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aCleeu|r",
-		}, -- [103]
+		}, -- [75]
 		{
 			"Daca Esti ROMAN Si Iti Plac Femeile,Bautura,Discutiile De Cacat Ca Intre Prieteni Si Nu Ti-ai Gasit Locul Altundeva,Te Asteptam Alaturi De Noi!!!!!! Suntem La Inceput Dar Vom Fi Cineva Intr-o Zi :D <<<<ROMANIAN ANGELS>>>>Recruteaza!", -- [1]
 			"Cleeu", -- [2]
@@ -1894,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1574494362,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aCleeu|r",
-		}, -- [104]
+		}, -- [76]
 		{
 			"lFM BLAKWING NEED ALL GS 5K+ W/ME |cffffff00|Hachievement:685:07000000004807A0:1:10:21:19:0:0:0:0|h[Blackwing Lair]|h|r", -- [1]
 			"Blackrog", -- [2]
@@ -1912,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1574494371,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Blackrog|r",
-		}, -- [105]
+		}, -- [77]
 		{
 			"WTS |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Drakshadow", -- [2]
@@ -1930,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1574494372,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [106]
+		}, -- [78]
 		{
 			"lFM BLAKWING NEED ALL GS 5K+ W/ME ", -- [1]
 			"Blackrog", -- [2]
@@ -1948,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1574494381,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Blackrog|r",
-		}, -- [107]
+		}, -- [79]
 		{
 			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -1966,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1574494385,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [108]
+		}, -- [80]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -1984,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1574494393,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [109]
+		}, -- [81]
 		{
 			"LF mage for portal to dala, paying fee! /from Thunder Bluff", -- [1]
 			"Rothvak", -- [2]
@@ -2002,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1574494398,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddRothvak|r",
-		}, -- [110]
+		}, -- [82]
 		{
 			"FAR Ras Bornevalesh", -- [1]
 			"Seksapilnata", -- [2]
@@ -2020,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1574494403,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffSeksapilnata|r",
-		}, -- [111]
+		}, -- [83]
 		{
 			"lFM BLAKWING NEED ALL GS 5K+ W/ME |cffffff00|Hachievement:685:07000000004807A0:1:10:21:19:0:0:0:0|h[Blackwing Lair]|h|r", -- [1]
 			"Blackrog", -- [2]
@@ -2038,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1574494407,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Blackrog|r",
-		}, -- [112]
+		}, -- [84]
 		{
 			"LFG VOA10 WAR 6.4", -- [1]
 			"Xinon", -- [2]
@@ -2056,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1574494419,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dXinon|r",
-		}, -- [113]
+		}, -- [85]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -2074,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1574494427,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [114]
+		}, -- [86]
 		{
 			"lFM BLAKWING NEED ALL GS 5K+ W/ME |cffffff00|Hachievement:685:07000000004807A0:1:10:21:19:0:0:0:0|h[Blackwing Lair]|h|r", -- [1]
 			"Blackrog", -- [2]
@@ -2092,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1574494440,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Blackrog|r",
-		}, -- [115]
+		}, -- [87]
 		{
 			"FAR WERSHAESIRE", -- [1]
 			"Craaby", -- [2]
@@ -2110,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1574494440,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aCraaby|r",
-		}, -- [116]
+		}, -- [88]
 		{
 			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
 			"Duolifs", -- [2]
@@ -2128,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1574494441,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefDuolifs|r",
-		}, -- [117]
+		}, -- [89]
 		{
 			"LFG VOA10 WAR 6.4", -- [1]
 			"Xinon", -- [2]
@@ -2146,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1574494455,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dXinon|r",
-		}, -- [118]
+		}, -- [90]
 		{
 			"lFM BLAKWING NEED ALL GS 5K+ W/ME ", -- [1]
 			"Blackrog", -- [2]
@@ -2164,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1574494466,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Blackrog|r",
-		}, -- [119]
+		}, -- [91]
 		{
 			"WTS |cffffffff|Hitem:33568:0:0:0:0:0:0:0:80|h[Borean Leather]|h|r x 22 Stacks", -- [1]
 			"Ramaphosa", -- [2]
@@ -2182,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1574494473,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Ramaphosa|r",
-		}, -- [120]
+		}, -- [92]
 		{
 			"WTS |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r 750 EACH!!!", -- [1]
 			"Drakshadow", -- [2]
@@ -2200,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1574494474,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDrakshadow|r",
-		}, -- [121]
+		}, -- [93]
 		{
 			"WTS [Borean Leather] x 22 Stacks", -- [1]
 			"Ramaphosa", -- [2]
@@ -2218,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1574494479,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Ramaphosa|r",
-		}, -- [122]
+		}, -- [94]
 		{
 			"BOR VIL SE ROTHAS HIR E Me Goth nud E Y U Cynegold LO SE O Lithtos ko Lordaere SE danieb ", -- [1]
 			"Failure", -- [2]
@@ -2236,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1574494483,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aFailure|r",
-		}, -- [123]
+		}, -- [95]
 		{
 			"LFM need all for TOC 10normal fast run (Carry 1 Fri) [Call of the Crusade (10 player)] 5.5kgs+ /w me for inv ", -- [1]
 			"Monowarx", -- [2]
@@ -2254,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1574494484,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMonowarx|r",
-		}, -- [124]
+		}, -- [96]
 		{
 			"lFM BLAKWING NEED ALL GS 5K+ W/ME |cffffff00|Hachievement:685:07000000004807A0:1:10:21:19:0:0:0:0|h[Blackwing Lair]|h|r", -- [1]
 			"Blackrog", -- [2]
@@ -2272,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1574494489,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Blackrog|r",
-		}, -- [125]
+		}, -- [97]
 		{
 			"lFM BLAKWING NEED ALL GS 5K+ W/ME |cffffff00|Hachievement:685:07000000004807A0:1:10:21:19:0:0:0:0|h[Blackwing Lair]|h|r", -- [1]
 			"Blackrog", -- [2]
@@ -2290,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1574494497,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Blackrog|r",
-		}, -- [126]
+		}, -- [98]
 		{
 			"WTS [Borean Leather] x 22 Stacks", -- [1]
 			"Ramaphosa", -- [2]
@@ -2308,6 +1804,510 @@ ElvCharacterDB = {
 			[51] = 1574494498,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Ramaphosa|r",
+		}, -- [99]
+		{
+			"Need all for Onyxia 25 Whisp me for inv 5.4 gs need whisp me for inv Mount and PRiest Head res", -- [1]
+			"Aizalith", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1266, -- [11]
+			"0x07000000002418EA", -- [12]
+			0, -- [13]
+			[51] = 1574504035,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffAizalith|r",
+		}, -- [100]
+		{
+			"Buying all Frozen Orb70G each,Eternal Fire1k/stack,Eternal Shadow 800G/stack.Nortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime.", -- [1]
+			"Zhasni", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1270, -- [11]
+			"0x07000000002B0738", -- [12]
+			0, -- [13]
+			[51] = 1574504039,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
+		}, -- [101]
+		{
+			"WTS |cffa335ee|Hitem:52025:0:0:0:0:0:0:0:80|h[Vanquisher's Mark of Sanctification]|h|r", -- [1]
+			"Nazri", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1281, -- [11]
+			"0x0700000000309C29", -- [12]
+			0, -- [13]
+			[51] = 1574504061,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Nazri|r",
+		}, -- [102]
+		{
+			"ViL SE Eynes hir ador hir Goth E agol Y uden ador ash E Y Bur Vrum cynegold Dana va ras Lithtos SE danieb ", -- [1]
+			"Heero", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1282, -- [11]
+			"0x0700000000008E2F", -- [12]
+			0, -- [13]
+			[51] = 1574504061,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddHeero|r",
+		}, -- [103]
+		{
+			"NEED ALL <ICC 10N/HC> 5.5K+ (B+P RESS) /W ME GS CLASS ACHIVE |cffffff00|Hachievement:4532:0700000000287856:1:11:17:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r ", -- [1]
+			"Thlemsama", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1283, -- [11]
+			"0x0700000000287856", -- [12]
+			0, -- [13]
+			[51] = 1574504061,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefThlemsama|r",
+		}, -- [104]
+		{
+			"NEED ALL <ICC 10N/HC> 5.5K+ (B+P RESS) /W ME GS CLASS ACHIVE |cffffff00|Hachievement:4532:0700000000287856:1:11:17:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r", -- [1]
+			"Thlemsama", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1284, -- [11]
+			"0x0700000000287856", -- [12]
+			0, -- [13]
+			[51] = 1574504061,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefThlemsama|r",
+		}, -- [105]
+		{
+			"NEED 1ROUGE 4RDPS 4HEAL FOR ICC 25NM (GUNSHIP HC) MIN GS 5,7+KGS W/ME GS ACHIV AND CALSS MIN ACIHV |cffffff00|Hachievement:4605:070000000039E9F0:0:0:0:-1:3:0:0:0|h[The Plagueworks (25 player)]|h|r (BOE PRIMO RESS) GOOD RUN FRESH RUN!!", -- [1]
+			"Arisonitha", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1285, -- [11]
+			"0x070000000039E9F0", -- [12]
+			0, -- [13]
+			[51] = 1574504061,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaArisonitha|r",
+		}, -- [106]
+		{
+			"<Light Infusion>End of Game Social/Friendly guild Farming Weekly Icc25/Icc10/Rs10/25/Uld We are raiding only 3 day Thursday-Saturday-Sunday 18:00 ST . We are using Discord and Epgp . Wisp me for info or apply https://lightinfusion.shivtr.com/", -- [1]
+			"Tyranus", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1287, -- [11]
+			"0x07000000002C6A9C", -- [12]
+			0, -- [13]
+			[51] = 1574504062,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dTyranus|r",
+		}, -- [107]
+		{
+			"LFM FOS POS hc gs 4500 NEED 2dps+1tank", -- [1]
+			"Darkwarrio", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1289, -- [11]
+			"0x07000000004E101B", -- [12]
+			0, -- [13]
+			[51] = 1574504065,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dDarkwarrio|r",
+		}, -- [108]
+		{
+			"ViL SE Eynes hir ador hir Goth E agol Y uden ador ash E Y Bur Vrum cynegold y ruftos ve vandar Dana va ras Lithtos SE danieb ", -- [1]
+			"Heero", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1301, -- [11]
+			"0x0700000000008E2F", -- [12]
+			0, -- [13]
+			[51] = 1574504086,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddHeero|r",
+		}, -- [109]
+		{
+			"NEED 2MDPS(ROUGE/DRUID) 3RDPS 4HEAL FOR ICC 25NM (GUNSHIP HC) MIN GS 5,7+KGS W/ME GS ACHIV AND CALSS MIN ACIHV |cffffff00|Hachievement:4605:070000000039E9F0:0:0:0:-1:3:0:0:0|h[The Plagueworks (25 player)]|h|r (BOE PRIMO RESS) GOOD RUN FRESH RUN!!", -- [1]
+			"Arisonitha", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1302, -- [11]
+			"0x070000000039E9F0", -- [12]
+			0, -- [13]
+			[51] = 1574504087,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaArisonitha|r",
+		}, -- [110]
+		{
+			"NEED ALL <ICC 10N/HC> 5.5K+ (B+P RESS) /W ME GS CLASS ACHIVE |cffffff00|Hachievement:4532:0700000000287856:1:11:17:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r", -- [1]
+			"Thlemsama", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1303, -- [11]
+			"0x0700000000287856", -- [12]
+			0, -- [13]
+			[51] = 1574504088,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefThlemsama|r",
+		}, -- [111]
+		{
+			"Buying all Frozen Orb70G each,Eternal Fire1k/stack,Eternal Shadow 800G/stack.Nortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime.", -- [1]
+			"Zhasni", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1304, -- [11]
+			"0x07000000002B0738", -- [12]
+			0, -- [13]
+			[51] = 1574504089,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
+		}, -- [112]
+		{
+			"NEED 2MDPS(ROUGE/DRUID) 3RDPS 4HEAL FOR ICC 25NM (GUNSHIP HC) MIN GS 5,7+KGS W/ME GS ACHIV AND CALSS MIN ACIHV |cffffff00|Hachievement:4605:070000000039E9F0:0:0:0:-1:3:0:0:0|h[The Plagueworks (25 player)]|h|r (BOE PRIMO RESS) GOOD RUN FRESH RUN!!", -- [1]
+			"Arisonitha", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1305, -- [11]
+			"0x070000000039E9F0", -- [12]
+			0, -- [13]
+			[51] = 1574504092,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaArisonitha|r",
+		}, -- [113]
+		{
+			"NEED ALL <ICC 10N/HC> 5.5K+ (B+P RESS) /W ME GS CLASS ACHIVE |cffffff00|Hachievement:4532:0700000000287856:1:11:17:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r ", -- [1]
+			"Thlemsama", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1307, -- [11]
+			"0x0700000000287856", -- [12]
+			0, -- [13]
+			[51] = 1574504095,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefThlemsama|r",
+		}, -- [114]
+		{
+			"LFM RS 25n need 3Heals+Dps(CTS reserved!) atm! w/me with gs/achiv |cffffff00|Hachievement:4815:07000000001AD120:1:10:8:19:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r ", -- [1]
+			"Makeitright", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1308, -- [11]
+			"0x07000000001AD120", -- [12]
+			0, -- [13]
+			[51] = 1574504096,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddMakeitright|r",
+		}, -- [115]
+		{
+			"LFM FOS POS hc gs 4500 NEED 2dps+1tank", -- [1]
+			"Darkwarrio", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1310, -- [11]
+			"0x07000000004E101B", -- [12]
+			0, -- [13]
+			[51] = 1574504100,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dDarkwarrio|r",
+		}, -- [116]
+		{
+			"LFM RS 25n need 3Heals+Dps(CTS reserved!) atm! w/me with gs/achiv |cffffff00|Hachievement:4815:07000000001AD120:1:10:8:19:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r ", -- [1]
+			"Makeitright", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1311, -- [11]
+			"0x07000000001AD120", -- [12]
+			0, -- [13]
+			[51] = 1574504101,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddMakeitright|r",
+		}, -- [117]
+		{
+			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1312, -- [11]
+			"0x070000000039BF6F", -- [12]
+			0, -- [13]
+			[51] = 1574504111,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
+		}, -- [118]
+		{
+			"NEED 2MDPS(ROUGE/DRUID) 3RDPS 4HEAL FOR ICC 25NM (GUNSHIP HC) MIN GS 5,7+KGS W/ME GS ACHIV AND CALSS MIN ACIHV |cffffff00|Hachievement:4605:070000000039E9F0:0:0:0:-1:3:0:0:0|h[The Plagueworks (25 player)]|h|r (BOE PRIMO RESS) GOOD RUN FRESH RUN!!", -- [1]
+			"Arisonitha", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1313, -- [11]
+			"0x070000000039E9F0", -- [12]
+			0, -- [13]
+			[51] = 1574504111,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaArisonitha|r",
+		}, -- [119]
+		{
+			"MOD SE GOTH NUD DANA MELKA ADOR NUD RUFF VRUM ", -- [1]
+			"Shekshipower", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1315, -- [11]
+			"0x07000000003AF69A", -- [12]
+			0, -- [13]
+			[51] = 1574504115,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Shekshipower|r",
+		}, -- [120]
+		{
+			"NEED ALL <ICC 10N/HC> 5.5K+ (B+P RESS) /W ME GS CLASS ACHIVE |cffffff00|Hachievement:4532:0700000000287856:1:11:17:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r ", -- [1]
+			"Thlemsama", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1316, -- [11]
+			"0x0700000000287856", -- [12]
+			0, -- [13]
+			[51] = 1574504118,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefThlemsama|r",
+		}, -- [121]
+		{
+			"NEED ALL <ICC 10N/HC> 5.5K+ (B+P RESS) /W ME GS CLASS ACHIVE |cffffff00|Hachievement:4532:0700000000287856:1:11:17:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r", -- [1]
+			"Thlemsama", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1317, -- [11]
+			"0x0700000000287856", -- [12]
+			0, -- [13]
+			[51] = 1574504119,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefThlemsama|r",
+		}, -- [122]
+		{
+			"LFM FOS POS hc gs 4500 NEED 2dps+1tank", -- [1]
+			"Darkwarrio", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1318, -- [11]
+			"0x07000000004E101B", -- [12]
+			0, -- [13]
+			[51] = 1574504119,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dDarkwarrio|r",
+		}, -- [123]
+		{
+			"NEED 2MDPS(ROUGE/DRUID) 3RDPS 4HEAL FOR ICC 25NM (GUNSHIP HC) MIN GS 5,7+KGS W/ME GS ACHIV AND CALSS MIN ACIHV |cffffff00|Hachievement:4605:070000000039E9F0:0:0:0:-1:3:0:0:0|h[The Plagueworks (25 player)]|h|r (BOE PRIMO RESS) GOOD RUN FRESH RUN!!", -- [1]
+			"Arisonitha", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1321, -- [11]
+			"0x070000000039E9F0", -- [12]
+			0, -- [13]
+			[51] = 1574504133,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaArisonitha|r",
+		}, -- [124]
+		{
+			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
+			"Duolifs", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1322, -- [11]
+			"0x07000000003BCEA1", -- [12]
+			0, -- [13]
+			[51] = 1574504133,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefDuolifs|r",
+		}, -- [125]
+		{
+			"LFM FOS POS hc gs 4500 NEED 2dps+1tank", -- [1]
+			"Darkwarrio", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1323, -- [11]
+			"0x07000000004E101B", -- [12]
+			0, -- [13]
+			[51] = 1574504135,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dDarkwarrio|r",
+		}, -- [126]
+		{
+			"Buying all Frozen Orb70G each,Eternal Fire1k/stack,Eternal Shadow 800G/stack.Nortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime.", -- [1]
+			"Zhasni", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			1324, -- [11]
+			"0x07000000002B0738", -- [12]
+			0, -- [13]
+			[51] = 1574504139,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dZhasni|r",
 		}, -- [127]
 	},
 }
