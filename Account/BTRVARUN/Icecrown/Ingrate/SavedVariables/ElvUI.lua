@@ -723,5 +723,293 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aIgnaz|r",
 		}, -- [40]
+		{
+			"wtb dk glyphs", -- [1]
+			"Lastella", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13846, -- [11]
+			"0x0700000000497129", -- [12]
+			0, -- [13]
+			[51] = 1574497195,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Lastella",
+		}, -- [41]
+		{
+			"LFM Troll Rogue or Dwarf", -- [1]
+			"Kraitu", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13851, -- [11]
+			"0x07000000004969F4", -- [12]
+			0, -- [13]
+			[51] = 1574497197,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aKraitu|r",
+		}, -- [42]
+		{
+			"WTB|cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r90G/each，|cffffffff|Hitem:36905:0:0:0:0:0:0:0:80|h[Lichbloom]|h|r25G/each |cff0070dd|Hitem:42225:0:0:0:0:0:0:0:80|h[Dragon's Eye]|h|r150G/each just C O D ", -- [1]
+			"Duolifs", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13859, -- [11]
+			"0x07000000003BCEA1", -- [12]
+			0, -- [13]
+			[51] = 1574497201,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefDuolifs|r",
+		}, -- [43]
+		{
+			" LFM |cffffff00|Hachievement:692:070000000036E99E:1:4:25:19:0:0:0:0|h[Gruul's Lair]|h|r Need Healer and DPS ! |cffa335ee|Hitem:29763:0:0:0:0:0:0:0:80|h[Pauldrons of the Fallen Champion]|h|r Res ! ", -- [1]
+			"Edgestorm", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			13871, -- [11]
+			"0x070000000036E99E", -- [12]
+			0, -- [13]
+			[51] = 1574497206,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Edgestorm",
+		}, -- [44]
+		{
+			"LFM need 1 heal and dps for VOA 10 m fire + Frost /w me gs for inv ", -- [1]
+			"Monowarx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13872, -- [11]
+			"0x07000000004164C4", -- [12]
+			0, -- [13]
+			[51] = 1574497206,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dMonowarx|r",
+		}, -- [45]
+		{
+			"LFM need 1 heal and dps for VOA 10 m fire + Frost /w me gs for inv ", -- [1]
+			"Monowarx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13904, -- [11]
+			"0x07000000004164C4", -- [12]
+			0, -- [13]
+			[51] = 1574497223,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dMonowarx|r",
+		}, -- [46]
+		{
+			"wtb dk glyphs", -- [1]
+			"Lastella", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13914, -- [11]
+			"0x0700000000497129", -- [12]
+			0, -- [13]
+			[51] = 1574497228,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aLastella|r",
+		}, -- [47]
+		{
+			"Buying all Frozen Orb70G each,Eternal Fire1k/stack,Eternal Shadow 800G/stack.Nortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime.", -- [1]
+			"Zhasni", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13929, -- [11]
+			"0x07000000002B0738", -- [12]
+			0, -- [13]
+			[51] = 1574497235,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Zhasni",
+		}, -- [48]
+		{
+			"lfm ICC 10n/hc 5.2+ run, no res /w me spec, need heal (pref rshaman) and rdps 8/10", -- [1]
+			"Qyxyf", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13935, -- [11]
+			"0x07000000003CB1AD", -- [12]
+			0, -- [13]
+			[51] = 1574497237,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Qyxyf",
+		}, -- [49]
+		{
+			"WTS Engineering and |cffffd000|Htrade:51311:450:450:70000000036926F:8/////////j///////////////9///////////////////////////////////////////////////////////////////D|h[Jewelcrafting]|h|r. Whisper me if you (don't) have mats. Every recipe learned and ready!", -- [1]
+			"Vianove", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13957, -- [11]
+			"0x070000000036926F", -- [12]
+			0, -- [13]
+			[51] = 1574497249,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Vianove",
+		}, -- [50]
+		{
+			"LFM VOA 25 NEED ALL", -- [1]
+			"Willcouta", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			13975, -- [11]
+			"0x0700000000310CAA", -- [12]
+			0, -- [13]
+			[51] = 1574497258,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dWillcouta|r",
+		}, -- [51]
+		{
+			"WTB Eternal Fire 50g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 650g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13986, -- [11]
+			"0x070000000039BF6F", -- [12]
+			0, -- [13]
+			[51] = 1574497267,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Asashigure",
+		}, -- [52]
+		{
+			"Buying all Frozen Orb70G each,Eternal Fire1k/stack,Eternal Shadow 800G/stack.Nortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime.", -- [1]
+			"Zhasni", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13990, -- [11]
+			"0x07000000002B0738", -- [12]
+			0, -- [13]
+			[51] = 1574497285,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Zhasni",
+		}, -- [53]
+		{
+			"<K H A L I L> Looking for experiences raiders for our Bane Groups.>LoD. Raiding on weekends 4:45 PM ST. Apply, or /w Bombalife @https://khalil.wowhordes.com/", -- [1]
+			"Bombalife", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13992, -- [11]
+			"0x0700000000012CB7", -- [12]
+			0, -- [13]
+			[51] = 1574497288,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Bombalife",
+		}, -- [54]
+		{
+			"wtb dk glyphs", -- [1]
+			"Lastella", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13993, -- [11]
+			"0x0700000000497129", -- [12]
+			0, -- [13]
+			[51] = 1574497290,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Lastella",
+		}, -- [55]
+		{
+			"lfm ICC 10n/hc 5.2+ run, no res /w me spec, need heal (pref rshaman) and rdps 8/10", -- [1]
+			"Qyxyf", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			13995, -- [11]
+			"0x07000000003CB1AD", -- [12]
+			0, -- [13]
+			[51] = 1574497294,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Qyxyf",
+		}, -- [56]
 	},
 }

@@ -2,7 +2,7 @@ Version: 1
 Frame: ChannelPulloutTab
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -18
+X: 68
 Y: -151
 W: 107
 H: 26

@@ -58,9 +58,10 @@ oRA3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Bowbaby - Icecrown"] = "Default",
+		["Kamakshi - Icecrown"] = "Default",
 		["Ingrate - Icecrown"] = "Default",
 		["Garzh - Icecrown"] = "Default",
-		["Bowbaby - Icecrown"] = "Default",
 		["Invariably - Icecrown"] = "Default",
 	},
 	["profiles"] = {

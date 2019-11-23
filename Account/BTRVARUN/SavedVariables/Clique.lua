@@ -3,12 +3,28 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
 	},
 	["profiles"] = {
+		["Bowbaby - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Misdirection",
+						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
+					},
+				},
+			},
+		},
+		["Kamakshi - Icecrown"] = {
+		},
 		["Ingrate - Icecrown"] = {
 		},
 		["Garzh - Icecrown"] = {
@@ -70,19 +86,6 @@ CliqueDB = {
 				["ElvUF_Focus"] = true,
 				["ElvUF_Target"] = true,
 				["TargetFrame"] = true,
-			},
-		},
-		["Bowbaby - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Misdirection",
-						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
-					},
-				},
 			},
 		},
 		["Invariably - Icecrown"] = {

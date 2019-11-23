@@ -1,64 +1,69 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_200000"] = 1000,
+	["_10000"] = 200,
 	["_50000"] = 500,
-	["STARTING_DISCOUNT"] = 5,
+	["_500"] = 5,
 	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["_500"] = 5,
-	["_10000"] = 200,
+	["STARTING_DISCOUNT"] = 5,
+	["_200000"] = 1000,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
-	["Icy Dragonscale"] = {
-		["5949300"] = "34600:20",
-		["5949301"] = "34600:20",
-		["is"] = "38557:0",
+	["Frostweave Bag"] = {
+		["is"] = "41599:0",
+		["5949413"] = "1107500:1",
 	},
 	["Arctic Fur"] = {
 		["5927796"] = "2397500:1",
 		["is"] = "44128:0",
 		["5949300"] = "2377500:1",
 	},
+	["Icy Dragonscale"] = {
+		["5949300"] = "34600:20",
+		["5949301"] = "34600:20",
+		["is"] = "38557:0",
+	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"frostweave cloth", -- [1]
-			"netherweave", -- [2]
-			"neatherweave", -- [3]
-			"bolt of netherweave", -- [4]
-			"knothide leather", -- [5]
-			"runecloth", -- [6]
-			"mageweave cloth", -- [7]
-			"mageweave", -- [8]
-			"silk cloth", -- [9]
-			"wool cloth", -- [10]
-			"linen cloth", -- [11]
-			"heartseeker", -- [12]
-			"Delicate cardinal", -- [13]
-			"scarlet ruby", -- [14]
-			"Greater intellect", -- [15]
-			"runed cardinal", -- [16]
-			"superior potency", -- [17]
-			"cardinal ruby", -- [18]
-			"Death", -- [19]
-			"feint", -- [20]
-			"mend ", -- [21]
-			"revive pet", -- [22]
-			"steady", -- [23]
-			"bestial wrath", -- [24]
-			"Iceblade Arrow", -- [25]
-			"powerful stat", -- [26]
-			"scope", -- [27]
-			"relentless", -- [28]
-			"monarch topaz", -- [29]
-			"Arctic fur", -- [30]
-			"knothide", -- [31]
-			"rugged leather", -- [32]
-			"thick leather", -- [33]
-			"heavy leather", -- [34]
-			"medium leather", -- [35]
+			"moonshroud", -- [1]
+			"frostweave cloth", -- [2]
+			"netherweave", -- [3]
+			"neatherweave", -- [4]
+			"bolt of netherweave", -- [5]
+			"knothide leather", -- [6]
+			"runecloth", -- [7]
+			"mageweave cloth", -- [8]
+			"mageweave", -- [9]
+			"silk cloth", -- [10]
+			"wool cloth", -- [11]
+			"linen cloth", -- [12]
+			"heartseeker", -- [13]
+			"Delicate cardinal", -- [14]
+			"scarlet ruby", -- [15]
+			"Greater intellect", -- [16]
+			"runed cardinal", -- [17]
+			"superior potency", -- [18]
+			"cardinal ruby", -- [19]
+			"Death", -- [20]
+			"feint", -- [21]
+			"mend ", -- [22]
+			"revive pet", -- [23]
+			"steady", -- [24]
+			"bestial wrath", -- [25]
+			"Iceblade Arrow", -- [26]
+			"powerful stat", -- [27]
+			"scope", -- [28]
+			"relentless", -- [29]
+			"monarch topaz", -- [30]
+			"Arctic fur", -- [31]
+			"knothide", -- [32]
+			"rugged leather", -- [33]
+			"thick leather", -- [34]
+			"heavy leather", -- [35]
+			"medium leather", -- [36]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -115,6 +120,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Scarlet Ruby"] = 1319998,
 		["Bolt of Mageweave"] = 44400,
 		["Four of Undeath"] = 3990000,
+		["Moonshroud Gloves"] = 3500000,
 		["Linen Cloth"] = 115,
 		["Black Mageweave Leggings"] = 100000,
 		["Seven of Undeath"] = 2200000,
@@ -126,6 +132,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Pattern: Death-warmed Belt"] = 30330000,
 		["Netherweave Pants"] = 348000,
 		["Glyph of Feign Death"] = 267186,
+		["Pattern: Royal Moonshroud Bracers"] = 12990000,
 		["Arctic Fur"] = 2379900,
 		["Bold Cardinal Ruby"] = 3290000,
 		["Deadly Monarch Topaz"] = 480500,
@@ -157,100 +164,106 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Schematic: Sniper Scope"] = 199500,
 		["Glyph of Death Coil"] = 132697,
 		["Fractured Scarlet Ruby"] = 1900000,
+		["Heartseeker Scope"] = 1754000,
+		["Flashing Cardinal Ruby"] = 3492500,
 		["Inscribed Monarch Topaz"] = 500000,
 		["Death-warmed Belt"] = 64990000,
+		["Pattern: Enchanted Mageweave Pouch"] = 103500,
+		["Scroll of Enchant Weapon - Deathfrost"] = 6400000,
 		["Etched Monarch Topaz"] = 680750,
+		["Pattern: Royal Moonshroud Robe"] = 14990000,
 		["Glyph of Steady Shot"] = 129496,
 		["Pattern: Red Mageweave Gloves"] = 119500,
 		["Glyph of Bestial Wrath"] = 256899,
-		["Heartseeker Scope"] = 1754000,
+		["Imbued Netherweave Tunic"] = 12819073,
+		["Royal Moonshroud Robe"] = 43009900,
 		["Pattern: Rugged Leather Pants"] = 2800,
-		["Flashing Cardinal Ruby"] = 3492500,
-		["Pattern: Enchanted Mageweave Pouch"] = 103500,
-		["Scroll of Enchant Weapon - Deathfrost"] = 6400000,
+		["Eight of Undeath"] = 2600000,
+		["Elixir of Greater Intellect"] = 12000,
+		["Runecloth Belt"] = 50000,
 		["Runecloth Pants"] = 200000,
 		["Netherweave Cloth"] = 8800,
 		["Black Mageweave Shoulders"] = 249000,
-		["Pattern: Runecloth Bag"] = 406750,
+		["Pattern: Imbued Netherweave Bag"] = 963500,
 		["Pattern: Netherweave Tunic"] = 424500,
 		["Bright Cardinal Ruby"] = 3480000,
 		["Flask of Pure Death"] = 200000,
-		["Pattern: Imbued Netherweave Bag"] = 963500,
-		["Eight of Undeath"] = 2600000,
-		["Black Mageweave Headband"] = 150000,
-		["Elixir of Greater Intellect"] = 12000,
-		["Runecloth Belt"] = 50000,
-		["Runed Cardinal Ruby"] = 3303333,
-		["Idol of Death"] = 5000000,
 		["Ichor of Undeath"] = 10000,
+		["Bracers of Swift Death"] = 39769999,
+		["Black Mageweave Headband"] = 150000,
+		["Runed Scarlet Ruby"] = 1937500,
+		["Heavy Knothide Leather"] = 607000,
+		["Runed Cardinal Ruby"] = 3303333,
+		["Delicate Scarlet Ruby"] = 1650000,
+		["Netherweave Bag"] = 212000,
 		["Icy Dragonscale"] = 34600,
 		["Knothide Leather Scraps"] = 10300,
 		["Heavy Netherweave Bandage"] = 7500,
-		["Bracers of Swift Death"] = 39769999,
-		["Netherweave Robe"] = 289000,
-		["Runed Scarlet Ruby"] = 1937500,
-		["Heavy Knothide Leather"] = 607000,
-		["Delicate Scarlet Ruby"] = 1650000,
-		["Design: Stalwart Monarch Topaz"] = 1010000,
-		["Diamond-cut Refractor Scope"] = 12979,
 		["Red Mageweave Shoulders"] = 300000,
-		["Rugged Leather"] = 31125,
-		["Steady Forest Emerald"] = 889550,
+		["Netherweave Robe"] = 289000,
 		["Glyph of Revive Pet"] = 389797,
 		["Glinting Monarch Topaz"] = 947500,
-		["Veiled Monarch Topaz"] = 900050,
-		["Reckless Monarch Topaz"] = 579998,
-		["Design: Inscribed Monarch Topaz"] = 150000,
+		["Red Mageweave Bag"] = 79500,
+		["Design: Stalwart Monarch Topaz"] = 1010000,
+		["Design: Etched Monarch Topaz"] = 90000,
 		["Stark Monarch Topaz"] = 1127335,
+		["Rugged Leather"] = 31125,
+		["Relentless Earthsiege Diamond"] = 2007900,
+		["Reckless Monarch Topaz"] = 579998,
+		["Bolt of Silk Cloth"] = 8999,
+		["Delicate Cardinal Ruby"] = 3780000,
+		["Veiled Monarch Topaz"] = 900050,
+		["Design: Inscribed Monarch Topaz"] = 150000,
+		["Silk Cloth"] = 700,
 		["Cardinal Ruby"] = 3240000,
 		["Pattern: Red Mageweave Shoulders"] = 550000,
-		["Relentless Earthsiege Diamond"] = 2007900,
-		["Knothide Armor Kit"] = 49400,
+		["Kaleidoscope Chain"] = 2704811,
+		["Runecloth"] = 2490,
 		["Pattern: Runecloth Tunic"] = 89500,
 		["Plans: Heartseeker"] = 117700,
 		["Fractured Cardinal Ruby"] = 3300000,
-		["Bolt of Silk Cloth"] = 8999,
+		["Glyph of Feint"] = 9499,
 		["Heavy Leather"] = 28999,
 		["Bright Scarlet Ruby"] = 1788799,
-		["Delicate Cardinal Ruby"] = 3780000,
-		["Silk Cloth"] = 700,
-		["Runecloth"] = 2490,
-		["Darkmoon Card: Death"] = 26900000,
-		["Glyph of Feint"] = 9499,
-		["Kaleidoscope Chain"] = 2704811,
+		["Knothide Armor Kit"] = 49400,
 		["Black Mageweave Gloves"] = 99500,
+		["Black Mageweave Boots"] = 40000,
+		["Steady Forest Emerald"] = 889550,
+		["Darkmoon Card: Death"] = 26900000,
+		["Royal Moonshroud Bracers"] = 29439999,
+		["Wool Cloth"] = 9500,
 		["Pattern: Heavy Knothide Leather"] = 1099900,
 		["Orange Mageweave Shirt"] = 396000,
 		["Fierce Monarch Topaz"] = 741250,
-		["Wool Cloth"] = 9500,
+		["Bolt of Runecloth"] = 12000,
 		["The Bringer of Death"] = 964275,
 		["Pattern: Runecloth Shoulders"] = 76480,
 		["Durable Monarch Topaz"] = 910000,
-		["Bolt of Runecloth"] = 12000,
-		["Black Mageweave Boots"] = 40000,
-		["Design: Etched Monarch Topaz"] = 90000,
-		["Legplates of Painful Death"] = 118770000,
-		["Red Mageweave Bag"] = 79500,
+		["Diamond-cut Refractor Scope"] = 12979,
 		["Pattern: Red Mageweave Headband"] = 500000,
-		["Netherweave Boots"] = 209000,
-		["Black Mageweave Vest"] = 199999,
-		["Netherweave Bag"] = 212000,
-		["Scroll of Enchant Shield - Greater Intellect"] = 1420000,
 		["Glyph of Dark Death"] = 152773,
+		["Legplates of Painful Death"] = 118770000,
+		["Black Mageweave Vest"] = 199999,
+		["Idol of Death"] = 5000000,
+		["Netherweave Boots"] = 209000,
 		["Enchanted Runecloth Bag"] = 2800000,
 		["Bold Scarlet Ruby"] = 2057700,
-		["Accurate Scope"] = 989000,
-		["Two of Undeath"] = 2844500,
+		["Scroll of Enchant Shield - Greater Intellect"] = 1420000,
+		["Pattern: Runecloth Bag"] = 406750,
 		["Netherweave Net"] = 50000,
 		["Netherweave Tunic"] = 290000,
-		["Imbued Netherweave Tunic"] = 12819073,
+		["Accurate Scope"] = 989000,
+		["Two of Undeath"] = 2844500,
+		["Moonshroud"] = 580000,
 		["Frostweave Cloth"] = 5200,
+		["Moonshroud Robe"] = 6990000,
+		["Frostweave Bag"] = 1110000,
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
-	["Garzh"] = {
-		["firstSeen"] = 1570975141,
+	["Ingrate"] = {
+		["firstSeen"] = 1574177488,
 		["firstVersion"] = "2.6.3",
 	},
 	["Invariably"] = {
@@ -262,10 +275,13 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1570971530,
 		["firstVersion"] = "2.6.3",
 	},
-	["Ingrate"] = {
-		["firstSeen"] = 1574177488,
+	["Garzh"] = {
+		["firstSeen"] = 1570975141,
 		["firstVersion"] = "2.6.3",
-		["guid"] = "0x0700000000049519",
+	},
+	["Kamakshi"] = {
+		["firstSeen"] = 1574496897,
+		["firstVersion"] = "2.6.3",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {
