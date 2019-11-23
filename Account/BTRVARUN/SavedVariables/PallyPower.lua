@@ -371,18 +371,18 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Mistyk"] = {
-		0, -- [1]
-		0, -- [2]
-		1, -- [3]
-		1, -- [4]
-		1, -- [5]
-		1, -- [6]
-		1, -- [7]
-		1, -- [8]
-		1, -- [9]
-		0, -- [10]
-		1, -- [11]
+	["Vaglef"] = {
+		2, -- [1]
+		2, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		0, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		2, -- [10]
+		2, -- [11]
 	},
 	["Denii"] = {
 		0, -- [1]
@@ -423,18 +423,18 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Vaglef"] = {
-		2, -- [1]
-		2, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		0, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		2, -- [10]
-		2, -- [11]
+	["Mistyk"] = {
+		0, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		0, -- [10]
+		1, -- [11]
 	},
 	["Chuichui"] = {
 		2, -- [1]
@@ -675,7 +675,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Eradicatiion"] = {
 	},
-	["Mistyk"] = {
+	["Vaglef"] = {
 	},
 	["Denii"] = {
 	},
@@ -683,7 +683,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Hojjaa"] = {
 	},
-	["Vaglef"] = {
+	["Mistyk"] = {
 	},
 	["Chuichui"] = {
 	},
@@ -741,11 +741,11 @@ PallyPower_AuraAssignments = {
 	["Sunweli"] = 1,
 	["Immutability"] = 1,
 	["Eradicatiion"] = 1,
-	["Mistyk"] = 3,
+	["Vaglef"] = 3,
 	["Denii"] = 0,
 	["Royalscepte"] = 0,
 	["Hojjaa"] = 0,
-	["Vaglef"] = 3,
+	["Mistyk"] = 3,
 	["Chuichui"] = 1,
 	["Kyvy"] = 1,
 	["Valerik"] = 1,

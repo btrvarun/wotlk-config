@@ -14,7 +14,9 @@ AtlasLootDB = {
 			["AtlasType"] = "Unknown",
 		},
 		["Bowbaby - Icecrown"] = {
+			["BigraidHeroic"] = true,
 			["AtlasType"] = "Unknown",
+			["LastBoss"] = "ICCRotface",
 		},
 		["Kamakshi - Icecrown"] = {
 			["AtlasType"] = "Unknown",

@@ -34,7 +34,7 @@ DBM_SavedOptions = {
 			["r"] = 0.6705882352941176,
 		}, -- [4]
 	},
-	["RangeFrameY"] = -50,
+	["RangeFrameY"] = 79.00016871131975,
 	["SpecialWarningFont"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
 	["SpamBlockRaidWarning"] = true,
 	["ShowFakedRaidWarnings"] = false,
@@ -50,15 +50,15 @@ DBM_SavedOptions = {
 	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
 	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
 	["ShowMinimapButton"] = false,
-	["SpecialWarningX"] = 0,
 	["RangeFrameSound2"] = "none",
+	["SpecialWarningX"] = 0,
 	["SpecialWarningY"] = 75,
 	["RaidWarningPosition"] = {
 		["Y"] = -185,
 		["X"] = 0,
 		["Point"] = "TOP",
 	},
-	["RangeFrameX"] = 244,
+	["RangeFrameX"] = 249.0000003419362,
 	["Enabled"] = true,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
