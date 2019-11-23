@@ -43,13 +43,6 @@ MACRO 16777227 "pack" INV_Misc_QuestionMark
 #showtooltip
 /cast !aspect of the pack
 END
-MACRO 16777219 "ss" INV_Misc_QuestionMark
-#showtooltip steady shot
-/cancelaura deterrence
-/cast steady shot
-/cast silencing shot
-/cast Kill Command
-END
 MACRO 16777217 "ss" INV_Misc_QuestionMark
 #showtooltip serpent sting
 /petattack
@@ -58,6 +51,13 @@ MACRO 16777217 "ss" INV_Misc_QuestionMark
 /cast serpent sting
 /cast kill command
 /cast silencing shot
+END
+MACRO 16777219 "ss" INV_Misc_QuestionMark
+#showtooltip steady shot
+/cancelaura deterrence
+/cast steady shot
+/cast silencing shot
+/cast Kill Command
 END
 MACRO 16777231 "target shambling" Ability_BullRush
 /focus shambling horror
