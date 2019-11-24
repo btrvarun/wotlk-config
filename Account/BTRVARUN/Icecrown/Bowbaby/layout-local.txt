@@ -19,11 +19,11 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: AtlasLootDefaultFrame
 FrameLevel: 46
-Anchor: LEFT
-X: 273
+Anchor: CENTER
+X: -230
 Y: 32
 W: 600
 H: 690
@@ -43,9 +43,9 @@ W: 32
 H: 32
 Frame: PallyPowerFrame
 FrameLevel: 1
-Anchor: RIGHT
+Anchor: TOPRIGHT
 X: -26
-Y: 272
+Y: -229
 W: 1
 H: 1
 Frame: SexyCooldownBar 0
@@ -57,9 +57,9 @@ W: 450
 H: 33
 Frame: TellMeWhen_Group1
 FrameLevel: 39
-Anchor: LEFT
+Anchor: TOPLEFT
 X: 138
-Y: 154
+Y: -151
 W: 1
 H: 1
 Frame: TellMeWhen_Group2
