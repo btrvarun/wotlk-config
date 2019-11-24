@@ -14,11 +14,11 @@ Y: -118
 W: 1
 H: 1
 Frame: ColorPickerFrame
-FrameLevel: 1
+FrameLevel: 23
 Anchor: CENTER
 X: 0
 Y: 0
-W: 365
+W: 405
 H: 240
 Frame: AtlasLootDefaultFrame
 FrameLevel: 46
@@ -50,11 +50,11 @@ W: 1
 H: 1
 Frame: SexyCooldownBar 0
 FrameLevel: 1
-Anchor: LEFT
-X: 8
-Y: 200
-W: 450
-H: 33
+Anchor: RIGHT
+X: -447
+Y: -3
+W: 40
+H: 300
 Frame: TellMeWhen_Group1
 FrameLevel: 39
 Anchor: TOPLEFT
@@ -76,3 +76,10 @@ X: 103
 Y: -23
 W: 1
 H: 1
+Frame: DBM_GUI_OptionsFrame
+FrameLevel: 5
+Anchor: CENTER
+X: -258
+Y: 58
+W: 720
+H: 500
