@@ -1233,7 +1233,7 @@ EPGP_DB = {
 					},
 					["snapshot"] = {
 						["guild_info"] = "@BASE_GP:500\n@DECAY_P:10%\n@MIN_EP:300\n@EXTRAS_P:50",
-						["time"] = 1574632920,
+						["time"] = 1574647080,
 						["roster_info"] = {
 							{
 								"Dicoo", -- [1]
@@ -1256,9 +1256,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [4]
 							{
-								"Colasgwapo", -- [1]
-								"PALADIN", -- [2]
-								"540,0", -- [3]
+								"Dealingsushi", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Assasinsushi", -- [3]
 							}, -- [5]
 							{
 								"Diefool", -- [1]
@@ -1321,8 +1321,8 @@ EPGP_DB = {
 								"Fariin", -- [3]
 							}, -- [17]
 							{
-								"Lilhunter", -- [1]
-								"HUNTER", -- [2]
+								"Orthuul", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [18]
 							{
@@ -1411,9 +1411,9 @@ EPGP_DB = {
 								"Croarne", -- [3]
 							}, -- [35]
 							{
-								"Azmar", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Azmir", -- [3]
+								"Zozy", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
 							}, -- [36]
 							{
 								"Alliancedown", -- [1]
@@ -1506,9 +1506,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [54]
 							{
-								"Holah", -- [1]
-								"PALADIN", -- [2]
-								"5105,2400", -- [3]
+								"Hoepe", -- [1]
+								"DRUID", -- [2]
+								"Hoeney", -- [3]
 							}, -- [55]
 							{
 								"Hisokamorou", -- [1]
@@ -1521,14 +1521,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [57]
 							{
-								"Hoepe", -- [1]
-								"DRUID", -- [2]
-								"Hoeney", -- [3]
-							}, -- [58]
-							{
 								"Hoeney", -- [1]
 								"PALADIN", -- [2]
 								"5870,474", -- [3]
+							}, -- [58]
+							{
+								"Hoeley", -- [1]
+								"ROGUE", -- [2]
+								"Hoeney", -- [3]
 							}, -- [59]
 							{
 								"Archemis", -- [1]
@@ -1536,9 +1536,9 @@ EPGP_DB = {
 								"Ministern", -- [3]
 							}, -- [60]
 							{
-								"Hoeley", -- [1]
-								"ROGUE", -- [2]
-								"Hoeney", -- [3]
+								"Enork", -- [1]
+								"WARRIOR", -- [2]
+								"5400,173", -- [3]
 							}, -- [61]
 							{
 								"Enorc", -- [1]
@@ -1546,9 +1546,9 @@ EPGP_DB = {
 								"Enork", -- [3]
 							}, -- [62]
 							{
-								"Fariin", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
+								"Shambling", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"5285,824", -- [3]
 							}, -- [63]
 							{
 								"Tyrianth", -- [1]
@@ -1576,9 +1576,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [68]
 							{
-								"Shambling", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"5285,824", -- [3]
+								"Nugga", -- [1]
+								"PRIEST", -- [2]
+								"5285,0", -- [3]
 							}, -- [69]
 							{
 								"Bobohunter", -- [1]
@@ -1586,9 +1586,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [70]
 							{
-								"Nugga", -- [1]
-								"PRIEST", -- [2]
-								"5285,0", -- [3]
+								"Colasgwapo", -- [1]
+								"PALADIN", -- [2]
+								"540,0", -- [3]
 							}, -- [71]
 							{
 								"Metalfox", -- [1]
@@ -1601,9 +1601,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [73]
 							{
-								"Chopeskara", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
+								"Aimhigh", -- [1]
+								"HUNTER", -- [2]
+								"Shambling", -- [3]
 							}, -- [74]
 							{
 								"Akeye", -- [1]
@@ -1621,9 +1621,9 @@ EPGP_DB = {
 								"Enork", -- [3]
 							}, -- [77]
 							{
-								"Aimhigh", -- [1]
-								"HUNTER", -- [2]
-								"Shambling", -- [3]
+								"Zanami", -- [1]
+								"PALADIN", -- [2]
+								"Ttwo", -- [3]
 							}, -- [78]
 							{
 								"Fossaknight", -- [1]
@@ -1631,14 +1631,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [79]
 							{
-								"Zhiet", -- [1]
-								"HUNTER", -- [2]
-								"Enork", -- [3]
-							}, -- [80]
-							{
 								"Yrsha", -- [1]
 								"ROGUE", -- [2]
 								"0,0", -- [3]
+							}, -- [80]
+							{
+								"Vspec", -- [1]
+								"DRUID", -- [2]
+								"5220,670", -- [3]
 							}, -- [81]
 							{
 								"Zaikhun", -- [1]
@@ -1651,9 +1651,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [83]
 							{
-								"Vspec", -- [1]
-								"DRUID", -- [2]
-								"5220,670", -- [3]
+								"Bernardino", -- [1]
+								"MAGE", -- [2]
+								"", -- [3]
 							}, -- [84]
 							{
 								"Spectron", -- [1]
@@ -1681,44 +1681,44 @@ EPGP_DB = {
 								"5310,2945", -- [3]
 							}, -- [89]
 							{
-								"Trixerakal", -- [1]
-								"WARRIOR", -- [2]
+								"Lilhunter", -- [1]
+								"HUNTER", -- [2]
 								"0,0", -- [3]
 							}, -- [90]
-							{
-								"Banshy", -- [1]
-								"MAGE", -- [2]
-								"Vspec", -- [3]
-							}, -- [91]
 							{
 								"Ttwo", -- [1]
 								"WARRIOR", -- [2]
 								"0,0", -- [3]
-							}, -- [92]
+							}, -- [91]
 							{
-								"Bernardino", -- [1]
-								"MAGE", -- [2]
-								"", -- [3]
-							}, -- [93]
+								"Ophachia", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
+							}, -- [92]
 							{
 								"Tequillaa", -- [1]
 								"DEATHKNIGHT", -- [2]
 								"4860,2039", -- [3]
-							}, -- [94]
+							}, -- [93]
 							{
 								"Tankodroom", -- [1]
 								"DRUID", -- [2]
 								"1080,0", -- [3]
+							}, -- [94]
+							{
+								"Zhiet", -- [1]
+								"HUNTER", -- [2]
+								"Enork", -- [3]
 							}, -- [95]
 							{
-								"Whitetrash", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
+								"Mindcrasher", -- [1]
+								"SHAMAN", -- [2]
+								"Vspec", -- [3]
 							}, -- [96]
 							{
-								"Imres", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"4320,614", -- [3]
+								"Holah", -- [1]
+								"PALADIN", -- [2]
+								"5105,2400", -- [3]
 							}, -- [97]
 							{
 								"Bymbo", -- [1]
@@ -1726,13 +1726,13 @@ EPGP_DB = {
 								"Albakira", -- [3]
 							}, -- [98]
 							{
-								"Illneverheal", -- [1]
-								"PALADIN", -- [2]
+								"Gemle", -- [1]
+								"WARRIOR", -- [2]
 								"0,0", -- [3]
 							}, -- [99]
 							{
-								"Mezo", -- [1]
-								"MAGE", -- [2]
+								"Whitetrash", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [100]
 							{
@@ -1741,14 +1741,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [101]
 							{
-								"Hiroshima", -- [1]
-								"MAGE", -- [2]
-								"0,0", -- [3]
-							}, -- [102]
-							{
 								"Ryoke", -- [1]
 								"WARLOCK", -- [2]
 								"0,0", -- [3]
+							}, -- [102]
+							{
+								"Ammanamon", -- [1]
+								"DRUID", -- [2]
+								"2340,670", -- [3]
 							}, -- [103]
 							{
 								"Thenecromanc", -- [1]
@@ -1756,9 +1756,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [104]
 							{
-								"Ophachia", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
+								"Nunfortunate", -- [1]
+								"PRIEST", -- [2]
+								"4680,3625", -- [3]
 							}, -- [105]
 							{
 								"Dawnranger", -- [1]
@@ -1771,9 +1771,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [107]
 							{
-								"Nunfortunate", -- [1]
-								"PRIEST", -- [2]
-								"4680,3625", -- [3]
+								"Nagtar", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
 							}, -- [108]
 							{
 								"Defiak", -- [1]
@@ -1781,14 +1781,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [109]
 							{
-								"Nagtar", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
-							}, -- [110]
-							{
 								"Ministern", -- [1]
 								"PRIEST", -- [2]
 								"540,0", -- [3]
+							}, -- [110]
+							{
+								"Mezo", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
 							}, -- [111]
 							{
 								"Priesist", -- [1]
@@ -1821,8 +1821,8 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [117]
 							{
-								"Adelayd", -- [1]
-								"WARLOCK", -- [2]
+								"Illneverheal", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [118]
 							{
@@ -1831,14 +1831,14 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [119]
 							{
-								"Gemle", -- [1]
-								"WARRIOR", -- [2]
+								"Fariin", -- [1]
+								"SHAMAN", -- [2]
 								"0,0", -- [3]
 							}, -- [120]
 							{
-								"Flynnrider", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"2880,650", -- [3]
+								"Fairplay", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
 							}, -- [121]
 							{
 								"Kuhblut", -- [1]
@@ -1856,9 +1856,9 @@ EPGP_DB = {
 								"Ammanamon", -- [3]
 							}, -- [124]
 							{
-								"Fairplay", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
+								"Ektensia", -- [1]
+								"MAGE", -- [2]
+								"5535,1088", -- [3]
 							}, -- [125]
 							{
 								"Azmir", -- [1]
@@ -1866,24 +1866,24 @@ EPGP_DB = {
 								"3060,650", -- [3]
 							}, -- [126]
 							{
-								"Enork", -- [1]
-								"WARRIOR", -- [2]
-								"5400,173", -- [3]
-							}, -- [127]
-							{
-								"Ektensia", -- [1]
-								"MAGE", -- [2]
-								"5535,1088", -- [3]
-							}, -- [128]
-							{
 								"Darial", -- [1]
 								"SHAMAN", -- [2]
 								"0,0", -- [3]
+							}, -- [127]
+							{
+								"Freexyz", -- [1]
+								"WARLOCK", -- [2]
+								"", -- [3]
+							}, -- [128]
+							{
+								"Chopeskara", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
 							}, -- [129]
 							{
-								"Nitsu", -- [1]
-								"WARRIOR", -- [2]
-								"Vspec", -- [3]
+								"Chibraxx", -- [1]
+								"DRUID", -- [2]
+								"0,0", -- [3]
 							}, -- [130]
 							{
 								"Voxra", -- [1]
@@ -1901,14 +1901,14 @@ EPGP_DB = {
 								"Angrysushi", -- [3]
 							}, -- [133]
 							{
-								"Chibraxx", -- [1]
-								"DRUID", -- [2]
+								"Anneliauer", -- [1]
+								"PALADIN", -- [2]
 								"0,0", -- [3]
 							}, -- [134]
 							{
-								"Reshicho", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
+								"Accy", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Sukanahuj", -- [3]
 							}, -- [135]
 							{
 								"Meowpussi", -- [1]
@@ -1931,14 +1931,14 @@ EPGP_DB = {
 								"Holah", -- [3]
 							}, -- [139]
 							{
-								"Anneliauer", -- [1]
-								"PALADIN", -- [2]
+								"Adelayd", -- [1]
+								"WARLOCK", -- [2]
 								"0,0", -- [3]
 							}, -- [140]
 							{
-								"Ammanamon", -- [1]
-								"DRUID", -- [2]
-								"2340,670", -- [3]
+								"Imres", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"4320,614", -- [3]
 							}, -- [141]
 							{
 								"Tigard", -- [1]
@@ -1976,9 +1976,9 @@ EPGP_DB = {
 								"2340,1541", -- [3]
 							}, -- [148]
 							{
-								"Zanami", -- [1]
-								"PALADIN", -- [2]
-								"Ttwo", -- [3]
+								"Labartu", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
 							}, -- [149]
 							{
 								"Spindle", -- [1]
@@ -2006,9 +2006,9 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [154]
 							{
-								"Orthuul", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
+								"Whiskeylol", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Fairplay", -- [3]
 							}, -- [155]
 							{
 								"Makalia", -- [1]
@@ -2031,44 +2031,44 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [159]
 							{
-								"Whiskeylol", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Fairplay", -- [3]
+								"Fariinough", -- [1]
+								"PALADIN", -- [2]
+								"Fariin", -- [3]
 							}, -- [160]
-							{
-								"Assist", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Kama", -- [3]
-							}, -- [161]
 							{
 								"Voidmancer", -- [1]
 								"PRIEST", -- [2]
 								"Xinoiler", -- [3]
-							}, -- [162]
-							{
-								"Skareto", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
-							}, -- [163]
+							}, -- [161]
 							{
 								"Themaniak", -- [1]
 								"DEATHKNIGHT", -- [2]
 								"Holah", -- [3]
-							}, -- [164]
+							}, -- [162]
 							{
-								"Antihealer", -- [1]
+								"Haete", -- [1]
 								"WARLOCK", -- [2]
-								"Xinoiler", -- [3]
-							}, -- [165]
+								"0,0", -- [3]
+							}, -- [163]
+							{
+								"Azmar", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Azmir", -- [3]
+							}, -- [164]
 							{
 								"Stiffbone", -- [1]
 								"MAGE", -- [2]
 								"Voxra", -- [3]
+							}, -- [165]
+							{
+								"Warrsock", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
 							}, -- [166]
 							{
-								"Mjenner", -- [1]
-								"DRUID", -- [2]
-								"Nugga", -- [3]
+								"Nitsu", -- [1]
+								"WARRIOR", -- [2]
+								"Vspec", -- [3]
 							}, -- [167]
 							{
 								"Cirno", -- [1]
@@ -2081,19 +2081,19 @@ EPGP_DB = {
 								"5310,1633", -- [3]
 							}, -- [169]
 							{
-								"Warrsock", -- [1]
-								"WARLOCK", -- [2]
+								"Hiroshima", -- [1]
+								"MAGE", -- [2]
 								"0,0", -- [3]
 							}, -- [170]
 							{
-								"Azlone", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
+								"Dawnwalker", -- [1]
+								"PALADIN", -- [2]
+								"Dawnranger", -- [3]
 							}, -- [171]
 							{
-								"Dealingsushi", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Assasinsushi", -- [3]
+								"Mjenner", -- [1]
+								"DRUID", -- [2]
+								"Nugga", -- [3]
 							}, -- [172]
 							{
 								"Shredshot", -- [1]
@@ -2101,9 +2101,9 @@ EPGP_DB = {
 								"Shredy", -- [3]
 							}, -- [173]
 							{
-								"Mindcrasher", -- [1]
-								"SHAMAN", -- [2]
-								"Vspec", -- [3]
+								"Trixerakal", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
 							}, -- [174]
 							{
 								"Valiiena", -- [1]
@@ -2141,9 +2141,9 @@ EPGP_DB = {
 								"Azmir", -- [3]
 							}, -- [181]
 							{
-								"Freexyz", -- [1]
-								"WARLOCK", -- [2]
-								"", -- [3]
+								"Flynnrider", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"2880,650", -- [3]
 							}, -- [182]
 							{
 								"Kogiana", -- [1]
@@ -2191,9 +2191,9 @@ EPGP_DB = {
 								"Spectron", -- [3]
 							}, -- [191]
 							{
-								"Accy", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Sukanahuj", -- [3]
+								"Antihealer", -- [1]
+								"WARLOCK", -- [2]
+								"Xinoiler", -- [3]
 							}, -- [192]
 							{
 								"Tinydickdps", -- [1]
@@ -2201,14 +2201,14 @@ EPGP_DB = {
 								"Sukanahuj", -- [3]
 							}, -- [193]
 							{
-								"Labartu", -- [1]
+								"Assist", -- [1]
 								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
+								"Kama", -- [3]
 							}, -- [194]
 							{
-								"Fariinough", -- [1]
+								"Arthanus", -- [1]
 								"PALADIN", -- [2]
-								"Fariin", -- [3]
+								"Tankodroom", -- [3]
 							}, -- [195]
 							{
 								"Sandarius", -- [1]
@@ -2231,14 +2231,14 @@ EPGP_DB = {
 								"Dawnranger", -- [3]
 							}, -- [199]
 							{
-								"Kokonino", -- [1]
-								"DEATHKNIGHT", -- [2]
+								"Reshicho", -- [1]
+								"HUNTER", -- [2]
 								"0,0", -- [3]
 							}, -- [200]
 							{
-								"Dawnwalker", -- [1]
-								"PALADIN", -- [2]
-								"Dawnranger", -- [3]
+								"Kokonino", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
 							}, -- [201]
 							{
 								"Forta", -- [1]
@@ -2251,9 +2251,9 @@ EPGP_DB = {
 								"Vspec", -- [3]
 							}, -- [203]
 							{
-								"Zozy", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
+								"Banshy", -- [1]
+								"MAGE", -- [2]
+								"Vspec", -- [3]
 							}, -- [204]
 							{
 								"Minakshi", -- [1]
@@ -2271,9 +2271,9 @@ EPGP_DB = {
 								"2520,841", -- [3]
 							}, -- [207]
 							{
-								"Benenheim", -- [1]
-								"HUNTER", -- [2]
-								"Ammanamon", -- [3]
+								"Arnaq", -- [1]
+								"MAGE", -- [2]
+								"Enork", -- [3]
 							}, -- [208]
 							{
 								"Bowbaby", -- [1]
@@ -2281,19 +2281,19 @@ EPGP_DB = {
 								"2250,1071", -- [3]
 							}, -- [209]
 							{
-								"Haete", -- [1]
-								"WARLOCK", -- [2]
+								"Skareto", -- [1]
+								"DEATHKNIGHT", -- [2]
 								"0,0", -- [3]
 							}, -- [210]
 							{
-								"Arthanus", -- [1]
-								"PALADIN", -- [2]
-								"Tankodroom", -- [3]
+								"Azlone", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
 							}, -- [211]
 							{
-								"Arnaq", -- [1]
-								"MAGE", -- [2]
-								"Enork", -- [3]
+								"Benenheim", -- [1]
+								"HUNTER", -- [2]
+								"Ammanamon", -- [3]
 							}, -- [212]
 							{
 								"Zhork", -- [1]
@@ -2310,6 +2310,7 @@ EPGP_DB = {
 				},
 				["Disappointments"] = {
 					["snapshot"] = {
+						["time"] = 1574646780,
 						["roster_info"] = {
 							{
 								"Hollowcard", -- [1]
@@ -2317,97 +2318,91 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [1]
 							{
-								"Anemicc", -- [1]
-								"PRIEST", -- [2]
-								"", -- [3]
-							}, -- [2]
-							{
 								"Realist", -- [1]
 								"PALADIN", -- [2]
 								"", -- [3]
-							}, -- [3]
+							}, -- [2]
 							{
 								"Jedihunter", -- [1]
 								"HUNTER", -- [2]
 								"", -- [3]
-							}, -- [4]
+							}, -- [3]
 							{
 								"Incompilable", -- [1]
 								"DRUID", -- [2]
 								"", -- [3]
-							}, -- [5]
+							}, -- [4]
 							{
 								"Dandanakka", -- [1]
 								"WARLOCK", -- [2]
 								"", -- [3]
-							}, -- [6]
+							}, -- [5]
 							{
 								"Fengshu", -- [1]
 								"ROGUE", -- [2]
 								"", -- [3]
-							}, -- [7]
+							}, -- [6]
 							{
 								"Kushkax", -- [1]
 								"HUNTER", -- [2]
 								"", -- [3]
-							}, -- [8]
+							}, -- [7]
 							{
 								"Legionrage", -- [1]
 								"WARRIOR", -- [2]
 								"", -- [3]
-							}, -- [9]
+							}, -- [8]
 							{
 								"Kissable", -- [1]
 								"HUNTER", -- [2]
 								"", -- [3]
-							}, -- [10]
+							}, -- [9]
 							{
 								"Camphor", -- [1]
 								"WARLOCK", -- [2]
 								"", -- [3]
-							}, -- [11]
+							}, -- [10]
 							{
 								"Twevilbaby", -- [1]
 								"SHAMAN", -- [2]
 								"", -- [3]
-							}, -- [12]
+							}, -- [11]
 							{
 								"Jediwarrior", -- [1]
 								"WARRIOR", -- [2]
 								"", -- [3]
-							}, -- [13]
+							}, -- [12]
 							{
 								"Angeleyes", -- [1]
 								"DRUID", -- [2]
 								"", -- [3]
-							}, -- [14]
+							}, -- [13]
 							{
 								"Circi", -- [1]
 								"MAGE", -- [2]
 								"", -- [3]
-							}, -- [15]
+							}, -- [14]
 							{
 								"Invariably", -- [1]
 								"PRIEST", -- [2]
 								"", -- [3]
-							}, -- [16]
+							}, -- [15]
 							{
 								"Anemicsage", -- [1]
 								"DRUID", -- [2]
 								"", -- [3]
-							}, -- [17]
+							}, -- [16]
 							{
 								"Morfilia", -- [1]
 								"PALADIN", -- [2]
 								"", -- [3]
-							}, -- [18]
+							}, -- [17]
 							{
 								"Othelloo", -- [1]
 								"PALADIN", -- [2]
 								"", -- [3]
-							}, -- [19]
+							}, -- [18]
 						},
-						["time"] = 1574484300,
 					},
 				},
 			},
@@ -2422,9 +2417,9 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["gptooltip"] = {
-		},
 		["announce"] = {
+		},
+		["gptooltip"] = {
 		},
 		["loot"] = {
 		},

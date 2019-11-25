@@ -44,8 +44,8 @@ H: 32
 Frame: PallyPowerFrame
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: -26
-Y: -229
+X: -34
+Y: -188
 W: 1
 H: 1
 Frame: SexyCooldownBar 0
