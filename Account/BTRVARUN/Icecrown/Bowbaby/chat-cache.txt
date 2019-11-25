@@ -133,7 +133,6 @@ END
 
 CHANNELS
 LookingForGroup
-tamilsangam
 END
 
 ZONECHANNELS 2097153

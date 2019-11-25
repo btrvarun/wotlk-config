@@ -1011,5 +1011,23 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Qyxyf",
 		}, -- [56]
+		{
+			"NEED 2RDPS 2TANK 1HEAL FOR TOC 10NM 5,2+KGS MIN ACHIV |cffffff00|Hachievement:3917:070000000039E9F0:1:9:18:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (10 player)]|h|r!5/10", -- [1]
+			"Arisonitha", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			523, -- [11]
+			"0x070000000039E9F0", -- [12]
+			0, -- [13]
+			[51] = 1574685451,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaArisonitha|r",
+		}, -- [57]
 	},
 }

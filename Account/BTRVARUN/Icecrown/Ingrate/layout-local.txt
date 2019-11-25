@@ -18,8 +18,8 @@ FrameLevel: 3
 Anchor: TOPRIGHT
 X: -195
 Y: -7
-W: 26
-H: 26
+W: 32
+H: 32
 Frame: PallyPowerFrame
 FrameLevel: 1
 Anchor: RIGHT
