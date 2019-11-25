@@ -14,11 +14,11 @@ Y: -118
 W: 1
 H: 1
 Frame: ColorPickerFrame
-FrameLevel: 23
+FrameLevel: 9
 Anchor: CENTER
 X: 0
 Y: 0
-W: 405
+W: 365
 H: 240
 Frame: AtlasLootDefaultFrame
 FrameLevel: 46
@@ -76,10 +76,3 @@ X: 103
 Y: -23
 W: 1
 H: 1
-Frame: DBM_GUI_OptionsFrame
-FrameLevel: 5
-Anchor: CENTER
-X: -258
-Y: 58
-W: 720
-H: 500
