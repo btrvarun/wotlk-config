@@ -24,8 +24,8 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["EdgeSize"] = 1,
 				["BarInset"] = 1,
+				["EdgeSize"] = 1,
 			},
 			["TitleBar"] = {
 				["Height"] = 22,
@@ -33,16 +33,18 @@ Omen3DB = {
 				["Font"] = "ABF",
 			},
 			["Bar"] = {
-				["Spacing"] = 1,
+				["Texture"] = "Armory",
 				["Font"] = "Ubuntu",
 				["FontSize"] = 14,
-				["Texture"] = "Armory",
+				["Spacing"] = 1,
 			},
 		},
 		["Bowbaby - Icecrown"] = {
-			["PositionW"] = 200.0000727640228,
-			["PositionH"] = 81.99999849548074,
-			["PositionY"] = 141.1666247566868,
+			["PositionW"] = 244.9999880322331,
+			["Shown"] = true,
+			["PositionH"] = 126.0000288594151,
+			["VGrip2"] = 139.4802291194318,
+			["PositionY"] = 370.9995792133156,
 			["Locked"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
@@ -55,18 +57,18 @@ Omen3DB = {
 				["UseShowWith"] = false,
 			},
 			["FrameStrata"] = "2-LOW",
+			["VGrip1"] = 103.0940823926235,
+			["PositionX"] = 1568.999650746368,
 			["TitleBar"] = {
-				["FontSize"] = 15,
-				["Font"] = "ABF",
+				["FontSize"] = 14,
+				["Font"] = "PT Sans Narrow",
 				["Height"] = 22,
 			},
-			["Shown"] = true,
-			["PositionX"] = 1142.499972952847,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["Spacing"] = 1,
 				["Texture"] = "Armory",
-				["Font"] = "Ubuntu",
+				["Font"] = "PT Sans Narrow",
 			},
 		},
 		["Kamakshi - Icecrown"] = {
@@ -85,8 +87,8 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["BarInset"] = 1,
 				["EdgeSize"] = 1,
+				["BarInset"] = 1,
 			},
 			["PositionX"] = 847.5000148742246,
 			["Bar"] = {
@@ -108,8 +110,8 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["BarInset"] = 1,
 				["EdgeSize"] = 1,
+				["BarInset"] = 1,
 			},
 			["TitleBar"] = {
 				["Height"] = 22,
@@ -141,15 +143,15 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["BarInset"] = 1,
 				["EdgeSize"] = 1,
+				["BarInset"] = 1,
 			},
 			["PositionX"] = 1142.499972952847,
 			["Bar"] = {
-				["Texture"] = "Armory",
+				["Spacing"] = 1,
 				["Font"] = "ABF",
 				["FontSize"] = 14,
-				["Spacing"] = 1,
+				["Texture"] = "Armory",
 			},
 		},
 	},

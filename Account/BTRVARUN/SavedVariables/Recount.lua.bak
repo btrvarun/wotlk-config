@@ -1,0 +1,24 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+	},
+	["profiles"] = {
+		["Bowbaby - Icecrown"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}
