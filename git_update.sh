@@ -1,4 +1,4 @@
-!/bin/bash
+!/usr/bin/bash
 
 # pushing profiles into profiles repo
 git -C C:/Wow/WTF add .
