@@ -40,11 +40,11 @@ Omen3DB = {
 			},
 		},
 		["Bowbaby - Icecrown"] = {
-			["PositionW"] = 244.9999880322331,
+			["PositionW"] = 245.9999954864422,
 			["Shown"] = true,
-			["PositionH"] = 126.0000288594151,
-			["VGrip2"] = 139.4802291194318,
-			["PositionY"] = 370.9995792133156,
+			["PositionH"] = 130.0000499226848,
+			["VGrip2"] = 140.0495404486057,
+			["PositionY"] = 370.9995091847824,
 			["Locked"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
@@ -54,16 +54,17 @@ Omen3DB = {
 				["hide"] = true,
 			},
 			["ShowWith"] = {
+				["Alone"] = true,
 				["UseShowWith"] = false,
 			},
 			["FrameStrata"] = "2-LOW",
-			["VGrip1"] = 103.0940823926235,
-			["PositionX"] = 1568.999650746368,
+			["VGrip1"] = 103.5148777228825,
 			["TitleBar"] = {
 				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
 				["Height"] = 22,
 			},
+			["PositionX"] = 1568.999650746368,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["Spacing"] = 1,
@@ -99,15 +100,18 @@ Omen3DB = {
 			["MinimapIcon"] = {
 				["hide"] = true,
 			},
-			["PositionW"] = 200.0000727640228,
+			["PositionW"] = 245.9999954864422,
+			["Shown"] = true,
 			["ShowWith"] = {
+				["Alone"] = true,
 				["UseShowWith"] = false,
 			},
 			["FrameStrata"] = "2-LOW",
-			["PositionH"] = 81.99999849548074,
-			["PositionY"] = 141.1666247566868,
-			["PositionX"] = 1142.499972952847,
-			["Shown"] = true,
+			["PositionH"] = 130.0000499226848,
+			["VGrip2"] = 140.0495404486057,
+			["PositionY"] = 370.9995091847824,
+			["PositionX"] = 1568.999650746368,
+			["VGrip1"] = 103.5148777228825,
 			["Locked"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
@@ -115,13 +119,14 @@ Omen3DB = {
 			},
 			["TitleBar"] = {
 				["Height"] = 22,
-				["FontSize"] = 15,
-				["Font"] = "ABF",
+				["FontSize"] = 14,
+				["Font"] = "PT Sans Narrow",
 			},
 			["Bar"] = {
-				["FontSize"] = 14,
-				["Font"] = "ABF",
 				["Spacing"] = 1,
+				["Font"] = "PT Sans Narrow",
+				["FontSize"] = 14,
+				["Texture"] = "Armory",
 			},
 		},
 		["Invariably - Icecrown"] = {

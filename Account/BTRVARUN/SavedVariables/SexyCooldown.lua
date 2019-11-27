@@ -72,9 +72,9 @@ SexyCooldownDB = {
 						["font"] = "Continuum Medium",
 						["name"] = "Bar 0",
 						["advancedOptions"] = true,
-						["orientation"] = "BOTTOM_TO_TOP",
-						["x"] = 492.9998933842937,
 						["height"] = 40.00000054709792,
+						["x"] = 492.9998933842937,
+						["orientation"] = "BOTTOM_TO_TOP",
 						["borderColor"] = {
 							["a"] = 1,
 							["r"] = 0.3019607843137255,
@@ -146,19 +146,35 @@ SexyCooldownDB = {
 					["events"] = {
 					},
 					["bar"] = {
+						["outline"] = "OUTLINE",
 						["fontColor"] = {
 						},
-						["width"] = 449.9999930245016,
-						["y"] = 232.9999511031238,
-						["x"] = -731.0002669153956,
-						["name"] = "Bar 0",
-						["borderColor"] = {
-						},
-						["height"] = 33.00000088903411,
+						["borderSize"] = 4,
+						["fontsize"] = 14,
 						["lock"] = true,
+						["inactiveAlpha"] = 0,
 						["backgroundColor"] = {
+							["a"] = 1,
+							["b"] = 0.6784313725490196,
+							["g"] = 0.2705882352941176,
+							["r"] = 0.2,
 						},
+						["texture"] = "Armory",
+						["borderColor"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.5215686274509804,
+							["r"] = 0.3019607843137255,
+						},
+						["width"] = 299.9999953496677,
+						["y"] = 12.99981679058544,
 						["font"] = "Continuum Medium",
+						["name"] = "Bar 0",
+						["orientation"] = "BOTTOM_TO_TOP",
+						["height"] = 70.00000533420467,
+						["x"] = 481.4988272614241,
+						["advancedOptions"] = true,
+						["flexible"] = false,
 					},
 					["eventColors"] = {
 					},
@@ -181,18 +197,18 @@ SexyCooldownDB = {
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["x"] = -731.9998541984055,
+						["font"] = "Continuum Medium",
 						["width"] = 449.9999930245016,
 						["y"] = 200.500058983994,
-						["font"] = "Continuum Medium",
+						["x"] = -731.9998541984055,
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
-						["orientation"] = "LEFT_TO_RIGHT",
+						["height"] = 33.00000088903411,
 						["lock"] = true,
 						["backgroundColor"] = {
 						},
-						["height"] = 33.00000088903411,
+						["orientation"] = "LEFT_TO_RIGHT",
 					},
 					["eventColors"] = {
 					},

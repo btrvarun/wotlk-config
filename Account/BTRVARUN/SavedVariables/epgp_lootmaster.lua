@@ -9,5 +9,7 @@ EPGPLootMaster = {
 	["profiles"] = {
 		["Bowbaby - Icecrown"] = {
 		},
+		["Garzh - Icecrown"] = {
+		},
 	},
 }

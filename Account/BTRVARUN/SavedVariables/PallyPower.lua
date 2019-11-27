@@ -228,6 +228,19 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Bronkoyotte"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		2, -- [4]
+		2, -- [5]
+		2, -- [6]
+		1, -- [7]
+		1, -- [8]
+		2, -- [9]
+		2, -- [10]
+		2, -- [11]
+	},
 	["Immio"] = {
 		0, -- [1]
 		0, -- [2]
@@ -358,19 +371,6 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Eradicatiion"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		3, -- [11]
-	},
 	["Vaglef"] = {
 		2, -- [1]
 		2, -- [2]
@@ -383,6 +383,32 @@ PallyPower_Assignments = {
 		3, -- [9]
 		2, -- [10]
 		2, -- [11]
+	},
+	["Darkkami"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
+	["Eradicatiion"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
 	},
 	["Denii"] = {
 		0, -- [1]
@@ -650,6 +676,8 @@ PallyPower_NormalAssignments = {
 	},
 	["Redhaswings"] = {
 	},
+	["Bronkoyotte"] = {
+	},
 	["Immio"] = {
 	},
 	["Nerfado"] = {
@@ -673,9 +701,11 @@ PallyPower_NormalAssignments = {
 	},
 	["Immutability"] = {
 	},
-	["Eradicatiion"] = {
-	},
 	["Vaglef"] = {
+	},
+	["Darkkami"] = {
+	},
+	["Eradicatiion"] = {
 	},
 	["Denii"] = {
 	},
@@ -730,6 +760,7 @@ PallyPower_AuraAssignments = {
 	["Xqxq"] = 0,
 	["Betsy"] = 2,
 	["Redhaswings"] = 1,
+	["Bronkoyotte"] = 1,
 	["Immio"] = 0,
 	["Nerfado"] = 1,
 	["Rubinartdog"] = 3,
@@ -740,8 +771,9 @@ PallyPower_AuraAssignments = {
 	["Rshaam"] = 2,
 	["Sunweli"] = 1,
 	["Immutability"] = 1,
-	["Eradicatiion"] = 1,
 	["Vaglef"] = 3,
+	["Darkkami"] = 5,
+	["Eradicatiion"] = 1,
 	["Denii"] = 0,
 	["Royalscepte"] = 0,
 	["Hojjaa"] = 0,

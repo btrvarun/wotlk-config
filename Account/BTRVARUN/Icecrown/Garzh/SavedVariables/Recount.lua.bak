@@ -1,0 +1,7354 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Warmaul Champion"] = {
+			["GUID"] = "0xF1300047E203F7D0",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"???", -- [29]
+				"???", -- [30]
+				"???", -- [31]
+				"???", -- [32]
+				"???", -- [33]
+				"???", -- [34]
+				"???", -- [35]
+				"???", -- [36]
+				"???", -- [37]
+				"???", -- [38]
+				"???", -- [39]
+				"???", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
+			},
+			["LastAttackedBy"] = "Danilla",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					6164, -- [1]
+				},
+				["TimeDamage"] = {
+					18.91, -- [1]
+				},
+				["DamageTaken"] = {
+					80959, -- [1]
+				},
+				["ActiveTime"] = {
+					18.91, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 283,
+			["level"] = -1,
+			["LastDamageAbility"] = "Piercing Shots (DoT)",
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["LastAbility"] = 3758.695,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["ActiveTime"] = 1574739571,
+				["TimeDamage"] = 1574739571,
+				["OVERALL"] = 1574739571,
+				["DamageTaken"] = 1574739571,
+				["Damage"] = 1574739570,
+			},
+			["NextEventNum"] = 27,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+			},
+			["LastEvents"] = {
+				"Riyadi Melee Warmaul Champion Hit -478 (Physical)", -- [1]
+				"Danilla Steady Shot Warmaul Champion Crit -4120 (Physical)", -- [2]
+				"Danilla Arcane Shot Warmaul Champion Crit -4351 (Arcane)", -- [3]
+				"Riyadi Bite Warmaul Champion Hit -437 (Physical)", -- [4]
+				"Warmaul Champion Melee Riyadi Miss", -- [5]
+				"Danilla Serpent Sting (DoT) Warmaul Champion Tick -696 (Nature)", -- [6]
+				"Danilla Auto Shot Warmaul Champion Crit -3606 (Physical)", -- [7]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -283 (Physical)", -- [8]
+				"Riyadi Melee Warmaul Champion Hit -480 (Physical)", -- [9]
+				"Danilla Chimera Shot Warmaul Champion Hit -2822 (Nature)", -- [10]
+				"Riyadi Bite Warmaul Champion Crit -844 (Physical)", -- [11]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -283 (Physical)", -- [12]
+				"Warmaul Champion Melee Riyadi Hit -588 (Physical)", -- [13]
+				"Danilla Chimera Shot - Serpent Warmaul Champion Crit -3302 (Nature)", -- [14]
+				"Riyadi Melee Warmaul Champion Hit -481 (Physical)", -- [15]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -283 (Physical)", -- [16]
+				"Riyadi Bite Warmaul Champion Hit -407 (Physical)", -- [17]
+				"Danilla Auto Shot Warmaul Champion Crit -3842 (Physical)", -- [18]
+				"Danilla Aimed Shot Warmaul Champion Hit -2466 (Physical)", -- [19]
+				"Warmaul Champion Melee Riyadi Hit -586 (Physical)", -- [20]
+				"Danilla Serpent Sting (DoT) Warmaul Champion Crit -1591 (Nature)", -- [21]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -283 (Physical)", -- [22]
+				"Riyadi Bite Warmaul Champion Crit -924 (Physical)", -- [23]
+				"Riyadi Melee Warmaul Champion Crit -1012 (Physical)", -- [24]
+				"Warmaul Champion Melee Riyadi Miss", -- [25]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -283 (Physical)", -- [26]
+				"Riyadi Bite Warmaul Champion Hit -401 (Physical)", -- [27]
+				"Danilla Serpent Sting (DoT) Warmaul Champion Tick -696 (Nature)", -- [28]
+				"Warmaul Champion Melee Riyadi Miss", -- [29]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -247 (Physical)", -- [30]
+				"Riyadi Melee Warmaul Champion Crit -900 (Physical)", -- [31]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -247 (Physical)", -- [32]
+				"Danilla Auto Shot Warmaul Champion Crit -3508 (Physical)", -- [33]
+				"Warmaul Champion Melee Riyadi Miss", -- [34]
+				"Riyadi Bite Warmaul Champion Crit -834 (Physical)", -- [35]
+				"Danilla Steady Shot Warmaul Champion Hit -1585 (Physical)", -- [36]
+				"Riyadi Melee Warmaul Champion Hit -490 (Physical)", -- [37]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -247 (Physical)", -- [38]
+				"Danilla Serpent Sting (DoT) Warmaul Champion Crit -1600 (Nature)", -- [39]
+				"Warmaul Champion Melee Riyadi Parry", -- [40]
+				"Riyadi Bite Warmaul Champion Hit -429 (Physical)", -- [41]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -247 (Physical)", -- [42]
+				"Riyadi Melee Warmaul Champion Hit -478 (Physical)", -- [43]
+				"Danilla Steady Shot Warmaul Champion Crit -3964 (Physical)", -- [44]
+				"Danilla Auto Shot Warmaul Champion Hit -1973 (Physical)", -- [45]
+				"Warmaul Champion Mortal Strike Riyadi Hit -1752 (Physical)", -- [46]
+				"Warmaul Champion Melee Riyadi Hit -564 (Physical)", -- [47]
+				"Danilla Piercing Shots (DoT) Warmaul Champion Tick -148 (Physical)", -- [48]
+				"Riyadi Bite Warmaul Champion Crit -918 (Physical)", -- [49]
+				"Warmaul Champion Sundering Cleave Riyadi Dodge (Physical)", -- [50]
+			},
+			["Name"] = "Warmaul Champion",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				false, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				3753.645, -- [1]
+				3753.762, -- [2]
+				3753.978, -- [3]
+				3754.396, -- [4]
+				3754.495, -- [5]
+				3754.712, -- [6]
+				3754.745, -- [7]
+				3754.761, -- [8]
+				3755.178, -- [9]
+				3755.578, -- [10]
+				3755.678, -- [11]
+				3755.778, -- [12]
+				3755.929, -- [13]
+				3756.345, -- [14]
+				3756.728, -- [15]
+				3756.762, -- [16]
+				3756.895, -- [17]
+				3756.945, -- [18]
+				3757.128, -- [19]
+				3757.295, -- [20]
+				3757.695, -- [21]
+				3757.745, -- [22]
+				3758.178, -- [23]
+				3758.228, -- [24]
+				3758.695, -- [25]
+				3758.729, -- [26]
+				3748.695, -- [27]
+				3748.745, -- [28]
+				3748.879, -- [29]
+				3749.079, -- [30]
+				3749.428, -- [31]
+				3750.078, -- [32]
+				3750.312, -- [33]
+				3750.328, -- [34]
+				3750.428, -- [35]
+				3750.495, -- [36]
+				3750.962, -- [37]
+				3751.095, -- [38]
+				3751.711, -- [39]
+				3751.712, -- [40]
+				3751.945, -- [41]
+				3752.095, -- [42]
+				3752.095, -- [43]
+				3752.178, -- [44]
+				3752.612, -- [45]
+				3752.695, -- [46]
+				3753.095, -- [47]
+				3753.145, -- [48]
+				3753.161, -- [49]
+				3753.562, -- [50]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialBlock"] = {
+						["Aimed Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+					},
+					["TimeSpent"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Mortal Strike"] = {
+									["count"] = 1.11,
+								},
+								["Sundering Cleave"] = {
+									["count"] = 0.47,
+								},
+								["Melee"] = {
+									["count"] = 17.33,
+								},
+							},
+							["amount"] = 18.91,
+						},
+					},
+					["DamageTaken"] = 80959,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 18.91,
+					["ElementTaken"] = {
+						["Arcane"] = 8613,
+						["Physical"] = 43555,
+						["Melee"] = 5741,
+						["Nature"] = 23050,
+					},
+					["Damage"] = 6164,
+					["ElementTakenBlock"] = {
+						["Melee"] = 33,
+						["Physical"] = 132,
+					},
+					["Attacks"] = {
+						["Mortal Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1752,
+									["min"] = 1058,
+									["count"] = 2,
+									["amount"] = 2810,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2810,
+						},
+						["Sundering Cleave"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 588,
+									["min"] = 350,
+									["count"] = 7,
+									["amount"] = 3354,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 3354,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3354,
+								},
+								["Mortal Strike"] = {
+									["count"] = 2810,
+								},
+							},
+							["amount"] = 6164,
+						},
+					},
+					["TimeDamage"] = 18.91,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 3539,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 1978,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 5279,
+								},
+								["Auto Shot"] = {
+									["count"] = 18203,
+								},
+								["Arcane Shot"] = {
+									["count"] = 8613,
+								},
+								["Steady Shot"] = {
+									["count"] = 9669,
+								},
+								["Aimed Shot"] = {
+									["count"] = 4752,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 6379,
+								},
+								["Chimera Shot"] = {
+									["count"] = 9414,
+								},
+							},
+							["amount"] = 67826,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5741,
+								},
+								["Bite"] = {
+									["count"] = 7392,
+								},
+							},
+							["amount"] = 13133,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3354,
+						["Physical"] = 2810,
+					},
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 38,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["TimeDamaging"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Mortal Strike"] = {
+									["count"] = 1.11,
+								},
+								["Sundering Cleave"] = {
+									["count"] = 0.47,
+								},
+								["Melee"] = {
+									["count"] = 17.33,
+								},
+							},
+							["amount"] = 18.91,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Aimed Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+					},
+					["TimeSpent"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Mortal Strike"] = {
+									["count"] = 1.11,
+								},
+								["Sundering Cleave"] = {
+									["count"] = 0.47,
+								},
+								["Melee"] = {
+									["count"] = 17.33,
+								},
+							},
+							["amount"] = 18.91,
+						},
+					},
+					["DamageTaken"] = 80959,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 18.91,
+					["ElementTaken"] = {
+						["Arcane"] = 8613,
+						["Physical"] = 43555,
+						["Melee"] = 5741,
+						["Nature"] = 23050,
+					},
+					["Damage"] = 6164,
+					["ElementTakenBlock"] = {
+						["Melee"] = 33,
+						["Physical"] = 132,
+					},
+					["Attacks"] = {
+						["Mortal Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1752,
+									["min"] = 1058,
+									["count"] = 2,
+									["amount"] = 2810,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 2810,
+						},
+						["Sundering Cleave"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 588,
+									["min"] = 350,
+									["count"] = 7,
+									["amount"] = 3354,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 3354,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3354,
+								},
+								["Mortal Strike"] = {
+									["count"] = 2810,
+								},
+							},
+							["amount"] = 6164,
+						},
+					},
+					["TimeDamage"] = 18.91,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 3539,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 1978,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 5279,
+								},
+								["Auto Shot"] = {
+									["count"] = 18203,
+								},
+								["Arcane Shot"] = {
+									["count"] = 8613,
+								},
+								["Steady Shot"] = {
+									["count"] = 9669,
+								},
+								["Aimed Shot"] = {
+									["count"] = 4752,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 6379,
+								},
+								["Chimera Shot"] = {
+									["count"] = 9414,
+								},
+							},
+							["amount"] = 67826,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5741,
+								},
+								["Bite"] = {
+									["count"] = 7392,
+								},
+							},
+							["amount"] = 13133,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3354,
+						["Physical"] = 2810,
+					},
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 38,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["TimeDamaging"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Mortal Strike"] = {
+									["count"] = 1.11,
+								},
+								["Sundering Cleave"] = {
+									["count"] = 0.47,
+								},
+								["Melee"] = {
+									["count"] = 17.33,
+								},
+							},
+							["amount"] = 18.91,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1574739571,
+			["LastActive"] = 1574739571,
+		},
+		["Murkblood Twin"] = {
+			["GUID"] = "0xF1300047DF03F598",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"???", -- [29]
+				"???", -- [30]
+				"???", -- [31]
+				"???", -- [32]
+				"???", -- [33]
+				"???", -- [34]
+				"???", -- [35]
+				"???", -- [36]
+				"???", -- [37]
+				"???", -- [38]
+				"???", -- [39]
+				"???", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"MISC", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"MISC", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					2, -- [1]
+				},
+				["ActiveTime"] = {
+					20.68, -- [1]
+				},
+				["TimeDamage"] = {
+					20.68, -- [1]
+				},
+				["DamageTaken"] = {
+					96387, -- [1]
+				},
+				["Damage"] = {
+					8699, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 3631,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						false, -- [5]
+						true, -- [6]
+						true, -- [7]
+						true, -- [8]
+						false, -- [9]
+						false, -- [10]
+						false, -- [11]
+						true, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						true, -- [20]
+						true, -- [21]
+						false, -- [22]
+						false, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						true, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						true, -- [32]
+						false, -- [33]
+						false, -- [34]
+						true, -- [35]
+						true, -- [36]
+						true, -- [37]
+						true, -- [38]
+						true, -- [39]
+						true, -- [40]
+						false, -- [41]
+						false, -- [42]
+						true, -- [43]
+						true, -- [44]
+						true, -- [45]
+						true, -- [46]
+						false, -- [47]
+						true, -- [48]
+						true, -- [49]
+						true, -- [50]
+					},
+					["Messages"] = {
+						"Danilla Auto Shot Murkblood Twin Crit -4406 (Physical)", -- [1]
+						"Danilla Arcane Shot Murkblood Twin Crit -5155 (Arcane)", -- [2]
+						"Riyadi Bite Murkblood Twin Crit -1144 (Physical)", -- [3]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -396 (Physical)", -- [4]
+						"Murkblood Twin Melee Riyadi Miss", -- [5]
+						"Riyadi Melee Murkblood Twin Crit -1096 (Physical)", -- [6]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -396 (Physical)", -- [7]
+						"Riyadi Bite Murkblood Twin Hit -453 (Physical)", -- [8]
+						"Murkblood Twin Mutilate Riyadi Miss (Physical)", -- [9]
+						"Murkblood Twin Sinister Strike Riyadi Hit -530 (Physical)", -- [10]
+						"Murkblood Twin Melee Riyadi Miss", -- [11]
+						"Danilla Kill Shot Murkblood Twin Crit -17488 (Physical)", -- [12]
+						"Murkblood Twin Sinister Strike Riyadi Miss (Physical)", -- [13]
+						"Murkblood Twin dies.", -- [14]
+						"Danilla Auto Shot Murkblood Twin Crit -4008 (Physical)", -- [15]
+						"Riyadi Bite Murkblood Twin Crit -936 (Physical)", -- [16]
+						"Riyadi Melee Murkblood Twin Hit -553 (Physical)", -- [17]
+						"Danilla Auto Shot Murkblood Twin Crit -4090 (Physical)", -- [18]
+						"Danilla Chimera Shot Murkblood Twin Crit -7286 (Nature)", -- [19]
+						"Danilla Chimera Shot - Serpent Murkblood Twin Crit -3408 (Nature)", -- [20]
+						"Danilla Explosive Trap Effect Murkblood Twin Hit -1159 (Fire)", -- [21]
+						"Murkblood Twin Sinister Strike Danilla Hit -631 (Physical)", -- [22]
+						"Murkblood Twin Melee Danilla Hit -589 (Physical)", -- [23]
+						"Danilla Melee Murkblood Twin Hit -1668 (Physical)", -- [24]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [25]
+						"Riyadi Melee Murkblood Twin Hit -405 (Physical)", -- [26]
+						"Riyadi Bite Murkblood Twin Hit -342 (Physical)", -- [27]
+						"Danilla Serpent Sting (DoT) Murkblood Twin Tick -683 (Nature)", -- [28]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [29]
+						"Riyadi Bite Murkblood Twin Hit -353 (Physical)", -- [30]
+						"Danilla Explosive Trap Effect (DoT) Murkblood Twin Tick -610 (Fire)", -- [31]
+						"Riyadi Melee Murkblood Twin Crit -772 (Physical)", -- [32]
+						"Murkblood Twin Sinister Strike Riyadi Hit -537 (Physical)", -- [33]
+						"Murkblood Twin Melee Riyadi Hit -508 (Physical)", -- [34]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [35]
+						"Riyadi Bite Murkblood Twin Hit -360 (Physical)", -- [36]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [37]
+						"Riyadi Melee Murkblood Twin Crit -800 (Physical)", -- [38]
+						"Danilla Aimed Shot Murkblood Twin Hit -2183 (Physical)", -- [39]
+						"Danilla Explosive Trap Effect (DoT) Murkblood Twin Tick -610 (Fire)", -- [40]
+						"Murkblood Twin Sinister Strike Riyadi Parry (Physical)", -- [41]
+						"Murkblood Twin Melee Riyadi Hit -511 (Physical)", -- [42]
+						"Danilla Serpent Sting (DoT) Murkblood Twin Crit -1569 (Nature)", -- [43]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [44]
+						"Riyadi Bite Murkblood Twin Hit -330 (Physical)", -- [45]
+						"Danilla Auto Shot Murkblood Twin Crit -3256 (Physical)", -- [46]
+						"Murkblood Twin Eviscerate Riyadi Miss (Physical)", -- [47]
+						"Riyadi Melee Murkblood Twin Hit -385 (Physical)", -- [48]
+						"Danilla Arcane Shot Murkblood Twin Crit -3631 (Arcane)", -- [49]
+						"Murkblood Twin dies.", -- [50]
+					},
+					["DeathAt"] = 1574739431,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageTimes"] = {
+						-11.14899999999989, -- [1]
+						-11.09900000000016, -- [2]
+						-10.94900000000007, -- [3]
+						-10.81600000000026, -- [4]
+						-10.34999999999991, -- [5]
+						-9.983000000000175, -- [6]
+						-9.816000000000258, -- [7]
+						-9.749000000000251, -- [8]
+						-9.483000000000175, -- [9]
+						-9.432999999999993, -- [10]
+						-9.432000000000244, -- [11]
+						-9.398999999999887, -- [12]
+						-9.382999999999811, -- [13]
+						-9.382000000000062, -- [14]
+						-8.699000000000069, -- [15]
+						-8.483000000000175, -- [16]
+						-8.432999999999993, -- [17]
+						-6.481999999999971, -- [18]
+						-5.965000000000146, -- [19]
+						-5.632000000000062, -- [20]
+						-5.514999999999873, -- [21]
+						-5.33199999999988, -- [22]
+						-5.33199999999988, -- [23]
+						-5.014999999999873, -- [24]
+						-4.965999999999895, -- [25]
+						-4.965000000000146, -- [26]
+						-4.865999999999985, -- [27]
+						-4.231999999999971, -- [28]
+						-3.965999999999895, -- [29]
+						-3.59900000000016, -- [30]
+						-3.465999999999895, -- [31]
+						-3.416000000000167, -- [32]
+						-3.316000000000258, -- [33]
+						-3.316000000000258, -- [34]
+						-2.981999999999971, -- [35]
+						-2.182999999999993, -- [36]
+						-1.965999999999895, -- [37]
+						-1.865999999999985, -- [38]
+						-1.782000000000153, -- [39]
+						-1.499000000000251, -- [40]
+						-1.316000000000258, -- [41]
+						-1.315000000000055, -- [42]
+						-1.199000000000069, -- [43]
+						-0.9659999999998945, -- [44]
+						-0.9329999999999927, -- [45]
+						-0.8170000000000073, -- [46]
+						-0.650000000000091, -- [47]
+						-0.3000000000001819, -- [48]
+						-0.01400000000012369, -- [49]
+						0, -- [50]
+					},
+					["KilledBy"] = "Danilla",
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+						"???", -- [5]
+						"???", -- [6]
+						"???", -- [7]
+						"???", -- [8]
+						"???", -- [9]
+						"???", -- [10]
+						"???", -- [11]
+						"???", -- [12]
+						"???", -- [13]
+						"???", -- [14]
+						"???", -- [15]
+						"???", -- [16]
+						"???", -- [17]
+						"???", -- [18]
+						"???", -- [19]
+						"???", -- [20]
+						"???", -- [21]
+						"???", -- [22]
+						"???", -- [23]
+						"???", -- [24]
+						"???", -- [25]
+						"???", -- [26]
+						"???", -- [27]
+						"???", -- [28]
+						"???", -- [29]
+						"???", -- [30]
+						"???", -- [31]
+						"???", -- [32]
+						"???", -- [33]
+						"???", -- [34]
+						"???", -- [35]
+						"???", -- [36]
+						"???", -- [37]
+						"???", -- [38]
+						"???", -- [39]
+						"???", -- [40]
+						"???", -- [41]
+						"???", -- [42]
+						"???", -- [43]
+						"???", -- [44]
+						"???", -- [45]
+						"???", -- [46]
+						"???", -- [47]
+						"???", -- [48]
+						"???", -- [49]
+						"???", -- [50]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"MISC", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"DAMAGE", -- [43]
+						"DAMAGE", -- [44]
+						"DAMAGE", -- [45]
+						"DAMAGE", -- [46]
+						"DAMAGE", -- [47]
+						"DAMAGE", -- [48]
+						"DAMAGE", -- [49]
+						"MISC", -- [50]
+					},
+				}, -- [1]
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						false, -- [3]
+						true, -- [4]
+						true, -- [5]
+						true, -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						true, -- [10]
+						true, -- [11]
+						false, -- [12]
+						false, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						false, -- [17]
+						false, -- [18]
+						false, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						false, -- [23]
+						true, -- [24]
+						false, -- [25]
+						false, -- [26]
+						false, -- [27]
+						true, -- [28]
+						true, -- [29]
+						false, -- [30]
+						true, -- [31]
+						false, -- [32]
+						false, -- [33]
+						true, -- [34]
+						true, -- [35]
+						true, -- [36]
+						true, -- [37]
+						false, -- [38]
+						true, -- [39]
+						true, -- [40]
+						true, -- [41]
+						false, -- [42]
+						false, -- [43]
+						false, -- [44]
+						true, -- [45]
+						false, -- [46]
+						true, -- [47]
+						true, -- [48]
+						true, -- [49]
+						true, -- [50]
+					},
+					["Messages"] = {
+						"Riyadi Bite Murkblood Twin Hit -357 (Physical)", -- [1]
+						"Riyadi Melee Murkblood Twin Hit -360 (Physical)", -- [2]
+						"Murkblood Twin Melee Riyadi Miss", -- [3]
+						"Danilla Chimera Shot Murkblood Twin Crit -6865 (Nature)", -- [4]
+						"Danilla Auto Shot Murkblood Twin Hit -1913 (Physical)", -- [5]
+						"Riyadi Bite Murkblood Twin Hit -655 (Physical)", -- [6]
+						"Murkblood Twin Sinister Strike Riyadi Miss (Physical)", -- [7]
+						"Murkblood Twin Melee Riyadi Miss", -- [8]
+						"Murkblood Twin Sinister Strike Riyadi Hit -563 (Physical)", -- [9]
+						"Riyadi Melee Murkblood Twin Hit -425 (Physical)", -- [10]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -257 (Physical)", -- [11]
+						"Murkblood Twin Eviscerate Riyadi Miss (Physical)", -- [12]
+						"Murkblood Twin Melee Riyadi Miss", -- [13]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -257 (Physical)", -- [14]
+						"Riyadi Melee Murkblood Twin Hit -419 (Physical)", -- [15]
+						"Danilla Auto Shot Murkblood Twin Hit -2062 (Physical)", -- [16]
+						"Murkblood Twin Sinister Strike Riyadi Hit -550 (Physical)", -- [17]
+						"Murkblood Twin Melee Riyadi Parry", -- [18]
+						"Murkblood Twin Sinister Strike Riyadi Hit -565 (Physical)", -- [19]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -257 (Physical)", -- [20]
+						"Riyadi Melee Murkblood Twin Hit -435 (Physical)", -- [21]
+						"Danilla Aimed Shot Murkblood Twin Crit -6295 (Physical)", -- [22]
+						"Murkblood Twin Eviscerate Riyadi Miss (Physical)", -- [23]
+						"Riyadi Bite Murkblood Twin Hit -673 (Physical)", -- [24]
+						"Murkblood Twin Melee Riyadi Hit -545 (Physical)", -- [25]
+						"Murkblood Twin Mutilate Riyadi Hit -509 (Physical)", -- [26]
+						"Murkblood Twin Mutilate Riyadi Hit -1 (Physical)", -- [27]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -396 (Physical)", -- [28]
+						"Danilla Serpent Sting (DoT) Murkblood Twin Tick -783 (Nature)", -- [29]
+						"Murkblood Twin Sinister Strike Riyadi Hit -524 (Physical)", -- [30]
+						"Riyadi Melee Murkblood Twin Hit -544 (Physical)", -- [31]
+						"Murkblood Twin Melee Riyadi Hit -521 (Physical)", -- [32]
+						"Murkblood Twin Sinister Strike Riyadi Hit -543 (Physical)", -- [33]
+						"Danilla Auto Shot Murkblood Twin Crit -4406 (Physical)", -- [34]
+						"Danilla Arcane Shot Murkblood Twin Crit -5155 (Arcane)", -- [35]
+						"Riyadi Bite Murkblood Twin Crit -1144 (Physical)", -- [36]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -396 (Physical)", -- [37]
+						"Murkblood Twin Melee Riyadi Miss", -- [38]
+						"Riyadi Melee Murkblood Twin Crit -1096 (Physical)", -- [39]
+						"Danilla Piercing Shots (DoT) Murkblood Twin Tick -396 (Physical)", -- [40]
+						"Riyadi Bite Murkblood Twin Hit -453 (Physical)", -- [41]
+						"Murkblood Twin Mutilate Riyadi Miss (Physical)", -- [42]
+						"Murkblood Twin Sinister Strike Riyadi Hit -530 (Physical)", -- [43]
+						"Murkblood Twin Melee Riyadi Miss", -- [44]
+						"Danilla Kill Shot Murkblood Twin Crit -17488 (Physical)", -- [45]
+						"Murkblood Twin Sinister Strike Riyadi Miss (Physical)", -- [46]
+						"Murkblood Twin dies.", -- [47]
+						"Danilla Auto Shot Murkblood Twin Crit -4008 (Physical)", -- [48]
+						"Riyadi Bite Murkblood Twin Crit -936 (Physical)", -- [49]
+						"Riyadi Melee Murkblood Twin Hit -553 (Physical)", -- [50]
+					},
+					["DeathAt"] = 1574739422,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageTimes"] = {
+						-7.5, -- [1]
+						-7.367000000000189, -- [2]
+						-6.967000000000098, -- [3]
+						-6.766999999999825, -- [4]
+						-6.701000000000022, -- [5]
+						-6.284000000000106, -- [6]
+						-6.15099999999984, -- [7]
+						-6.067999999999756, -- [8]
+						-6.067000000000007, -- [9]
+						-5.967999999999847, -- [10]
+						-5.800999999999931, -- [11]
+						-5.650000000000091, -- [12]
+						-4.967000000000098, -- [13]
+						-4.766999999999825, -- [14]
+						-4.449999999999818, -- [15]
+						-4.201000000000022, -- [16]
+						-4.134000000000015, -- [17]
+						-4.050999999999931, -- [18]
+						-4.050000000000182, -- [19]
+						-3.800999999999931, -- [20]
+						-3.65099999999984, -- [21]
+						-3.400000000000091, -- [22]
+						-3.217000000000098, -- [23]
+						-3.166999999999916, -- [24]
+						-2.983999999999924, -- [25]
+						-2.733999999999924, -- [26]
+						-2.733999999999924, -- [27]
+						-2.434000000000197, -- [28]
+						-2.117000000000189, -- [29]
+						-2.117000000000189, -- [30]
+						-2.099999999999909, -- [31]
+						-2.067000000000007, -- [32]
+						-2.016999999999825, -- [33]
+						-1.766999999999825, -- [34]
+						-1.717000000000098, -- [35]
+						-1.567000000000007, -- [36]
+						-1.434000000000197, -- [37]
+						-0.9679999999998472, -- [38]
+						-0.6010000000001128, -- [39]
+						-0.4340000000001965, -- [40]
+						-0.3670000000001892, -- [41]
+						-0.1010000000001128, -- [42]
+						-0.05099999999993088, -- [43]
+						-0.0500000000001819, -- [44]
+						-0.01699999999982538, -- [45]
+						-0.0009999999997489795, -- [46]
+						0, -- [47]
+						0.6829999999999927, -- [48]
+						0.8989999999998872, -- [49]
+						0.9490000000000691, -- [50]
+					},
+					["KilledBy"] = "Riyadi",
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+						"???", -- [5]
+						"???", -- [6]
+						"???", -- [7]
+						"???", -- [8]
+						"???", -- [9]
+						"???", -- [10]
+						"???", -- [11]
+						"???", -- [12]
+						"???", -- [13]
+						"???", -- [14]
+						"???", -- [15]
+						"???", -- [16]
+						"???", -- [17]
+						"???", -- [18]
+						"???", -- [19]
+						"???", -- [20]
+						"???", -- [21]
+						"???", -- [22]
+						"???", -- [23]
+						"???", -- [24]
+						"???", -- [25]
+						"???", -- [26]
+						"???", -- [27]
+						"???", -- [28]
+						"???", -- [29]
+						"???", -- [30]
+						"???", -- [31]
+						"???", -- [32]
+						"???", -- [33]
+						"???", -- [34]
+						"???", -- [35]
+						"???", -- [36]
+						"???", -- [37]
+						"???", -- [38]
+						"???", -- [39]
+						"???", -- [40]
+						"???", -- [41]
+						"???", -- [42]
+						"???", -- [43]
+						"???", -- [44]
+						"???", -- [45]
+						"???", -- [46]
+						"???", -- [47]
+						"???", -- [48]
+						"???", -- [49]
+						"???", -- [50]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"DAMAGE", -- [43]
+						"DAMAGE", -- [44]
+						"DAMAGE", -- [45]
+						"DAMAGE", -- [46]
+						"MISC", -- [47]
+						"DAMAGE", -- [48]
+						"DAMAGE", -- [49]
+						"DAMAGE", -- [50]
+					},
+				}, -- [2]
+			},
+			["level"] = -1,
+			["LastDamageAbility"] = "Arcane Shot",
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["LastAbility"] = 3616.23,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["DeathCount"] = 1574739429,
+				["ActiveTime"] = 1574739429,
+				["TimeDamage"] = 1574739429,
+				["OVERALL"] = 1574739429,
+				["DamageTaken"] = 1574739429,
+				["Damage"] = 1574739428,
+			},
+			["NextEventNum"] = 40,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+			},
+			["LastEvents"] = {
+				"Danilla Kill Shot Murkblood Twin Crit -17488 (Physical)", -- [1]
+				"Murkblood Twin Sinister Strike Riyadi Miss (Physical)", -- [2]
+				"Murkblood Twin dies.", -- [3]
+				"Danilla Auto Shot Murkblood Twin Crit -4008 (Physical)", -- [4]
+				"Riyadi Bite Murkblood Twin Crit -936 (Physical)", -- [5]
+				"Riyadi Melee Murkblood Twin Hit -553 (Physical)", -- [6]
+				"Danilla Auto Shot Murkblood Twin Crit -4090 (Physical)", -- [7]
+				"Danilla Chimera Shot Murkblood Twin Crit -7286 (Nature)", -- [8]
+				"Danilla Chimera Shot - Serpent Murkblood Twin Crit -3408 (Nature)", -- [9]
+				"Danilla Explosive Trap Effect Murkblood Twin Hit -1159 (Fire)", -- [10]
+				"Murkblood Twin Sinister Strike Danilla Hit -631 (Physical)", -- [11]
+				"Murkblood Twin Melee Danilla Hit -589 (Physical)", -- [12]
+				"Danilla Melee Murkblood Twin Hit -1668 (Physical)", -- [13]
+				"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [14]
+				"Riyadi Melee Murkblood Twin Hit -405 (Physical)", -- [15]
+				"Riyadi Bite Murkblood Twin Hit -342 (Physical)", -- [16]
+				"Danilla Serpent Sting (DoT) Murkblood Twin Tick -683 (Nature)", -- [17]
+				"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [18]
+				"Riyadi Bite Murkblood Twin Hit -353 (Physical)", -- [19]
+				"Danilla Explosive Trap Effect (DoT) Murkblood Twin Tick -610 (Fire)", -- [20]
+				"Riyadi Melee Murkblood Twin Crit -772 (Physical)", -- [21]
+				"Murkblood Twin Sinister Strike Riyadi Hit -537 (Physical)", -- [22]
+				"Murkblood Twin Melee Riyadi Hit -508 (Physical)", -- [23]
+				"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [24]
+				"Riyadi Bite Murkblood Twin Hit -360 (Physical)", -- [25]
+				"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [26]
+				"Riyadi Melee Murkblood Twin Crit -800 (Physical)", -- [27]
+				"Danilla Aimed Shot Murkblood Twin Hit -2183 (Physical)", -- [28]
+				"Danilla Explosive Trap Effect (DoT) Murkblood Twin Tick -610 (Fire)", -- [29]
+				"Murkblood Twin Sinister Strike Riyadi Parry (Physical)", -- [30]
+				"Murkblood Twin Melee Riyadi Hit -511 (Physical)", -- [31]
+				"Danilla Serpent Sting (DoT) Murkblood Twin Crit -1569 (Nature)", -- [32]
+				"Danilla Piercing Shots (DoT) Murkblood Twin Tick -273 (Physical)", -- [33]
+				"Riyadi Bite Murkblood Twin Hit -330 (Physical)", -- [34]
+				"Danilla Auto Shot Murkblood Twin Crit -3256 (Physical)", -- [35]
+				"Murkblood Twin Eviscerate Riyadi Miss (Physical)", -- [36]
+				"Riyadi Melee Murkblood Twin Hit -385 (Physical)", -- [37]
+				"Danilla Arcane Shot Murkblood Twin Crit -3631 (Arcane)", -- [38]
+				"Murkblood Twin dies.", -- [39]
+				"Danilla Auto Shot Murkblood Twin Crit -4406 (Physical)", -- [40]
+				"Danilla Arcane Shot Murkblood Twin Crit -5155 (Arcane)", -- [41]
+				"Riyadi Bite Murkblood Twin Crit -1144 (Physical)", -- [42]
+				"Danilla Piercing Shots (DoT) Murkblood Twin Tick -396 (Physical)", -- [43]
+				"Murkblood Twin Melee Riyadi Miss", -- [44]
+				"Riyadi Melee Murkblood Twin Crit -1096 (Physical)", -- [45]
+				"Danilla Piercing Shots (DoT) Murkblood Twin Tick -396 (Physical)", -- [46]
+				"Riyadi Bite Murkblood Twin Hit -453 (Physical)", -- [47]
+				"Murkblood Twin Mutilate Riyadi Miss (Physical)", -- [48]
+				"Murkblood Twin Sinister Strike Riyadi Hit -530 (Physical)", -- [49]
+				"Murkblood Twin Melee Riyadi Miss", -- [50]
+			},
+			["Name"] = "Murkblood Twin",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				false, -- [30]
+				false, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				3607.481, -- [1]
+				3607.497, -- [2]
+				3607.498, -- [3]
+				3608.181, -- [4]
+				3608.397, -- [5]
+				3608.447, -- [6]
+				3610.398, -- [7]
+				3610.915, -- [8]
+				3611.248, -- [9]
+				3611.365, -- [10]
+				3611.548, -- [11]
+				3611.548, -- [12]
+				3611.865, -- [13]
+				3611.914, -- [14]
+				3611.915, -- [15]
+				3612.014, -- [16]
+				3612.648, -- [17]
+				3612.914, -- [18]
+				3613.281, -- [19]
+				3613.414, -- [20]
+				3613.464, -- [21]
+				3613.564, -- [22]
+				3613.564, -- [23]
+				3613.898, -- [24]
+				3614.697, -- [25]
+				3614.914, -- [26]
+				3615.014, -- [27]
+				3615.098, -- [28]
+				3615.381, -- [29]
+				3615.564, -- [30]
+				3615.565, -- [31]
+				3615.681, -- [32]
+				3615.914, -- [33]
+				3615.947, -- [34]
+				3616.063, -- [35]
+				3616.23, -- [36]
+				3616.58, -- [37]
+				3616.866, -- [38]
+				3616.88, -- [39]
+				3605.731, -- [40]
+				3605.781, -- [41]
+				3605.931, -- [42]
+				3606.064, -- [43]
+				3606.53, -- [44]
+				3606.897, -- [45]
+				3607.064, -- [46]
+				3607.131, -- [47]
+				3607.397, -- [48]
+				3607.447, -- [49]
+				3607.448, -- [50]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialBlock"] = {
+						["Kill Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+					},
+					["TimeSpent"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.91,
+								},
+								["Melee"] = {
+									["count"] = 6.69,
+								},
+								["Sinister Strike"] = {
+									["count"] = 7.459999999999999,
+								},
+								["Mutilate"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 17.18,
+						},
+					},
+					["DamageTaken"] = 96387,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 2,
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 20.68,
+					["ElementTaken"] = {
+						["Physical"] = 55714,
+						["Melee"] = 8914,
+						["Arcane"] = 8786,
+						["Fire"] = 2379,
+						["Nature"] = 20594,
+					},
+					["Damage"] = 8699,
+					["ElementTakenBlock"] = {
+						["Physical"] = 32,
+						["Nature"] = 32,
+					},
+					["Attacks"] = {
+						["Eviscerate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 589,
+									["min"] = 508,
+									["count"] = 6,
+									["amount"] = 3203,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 3203,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 631,
+									["min"] = 524,
+									["count"] = 9,
+									["amount"] = 4986,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 4986,
+						},
+						["Mutilate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 509,
+									["min"] = 1,
+									["count"] = 2,
+									["amount"] = 510,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 510,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["DamagedWho"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 631,
+								},
+								["Melee"] = {
+									["count"] = 589,
+								},
+							},
+							["amount"] = 1220,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2614,
+								},
+								["Sinister Strike"] = {
+									["count"] = 4355,
+								},
+								["Mutilate"] = {
+									["count"] = 510,
+								},
+							},
+							["amount"] = 7479,
+						},
+					},
+					["TimeDamage"] = 20.68,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 3324,
+								},
+								["Chimera Shot"] = {
+									["count"] = 14151,
+								},
+								["Melee"] = {
+									["count"] = 1668,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 3035,
+								},
+								["Auto Shot"] = {
+									["count"] = 19735,
+								},
+								["Arcane Shot"] = {
+									["count"] = 8786,
+								},
+								["Kill Shot"] = {
+									["count"] = 17488,
+								},
+								["Explosive Trap Effect"] = {
+									["count"] = 1159,
+								},
+								["Aimed Shot"] = {
+									["count"] = 8478,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 3408,
+								},
+								["Explosive Trap Effect (DoT)"] = {
+									["count"] = 1220,
+								},
+							},
+							["amount"] = 82452,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7246,
+								},
+								["Bite"] = {
+									["count"] = 6689,
+								},
+							},
+							["amount"] = 13935,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3203,
+						["Physical"] = 5496,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 11,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 32,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamaging"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.91,
+								},
+								["Melee"] = {
+									["count"] = 6.69,
+								},
+								["Sinister Strike"] = {
+									["count"] = 7.459999999999999,
+								},
+								["Mutilate"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 17.18,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Kill Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 32,
+									["min"] = 32,
+									["count"] = 1,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 32,
+						},
+					},
+					["TimeSpent"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.91,
+								},
+								["Melee"] = {
+									["count"] = 6.69,
+								},
+								["Sinister Strike"] = {
+									["count"] = 7.459999999999999,
+								},
+								["Mutilate"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 17.18,
+						},
+					},
+					["DamageTaken"] = 96387,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 2,
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 12,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Explosive Trap Effect (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 20.68,
+					["ElementTaken"] = {
+						["Physical"] = 55714,
+						["Melee"] = 8914,
+						["Arcane"] = 8786,
+						["Fire"] = 2379,
+						["Nature"] = 20594,
+					},
+					["Damage"] = 8699,
+					["ElementTakenBlock"] = {
+						["Physical"] = 32,
+						["Nature"] = 32,
+					},
+					["Attacks"] = {
+						["Eviscerate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 5,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 589,
+									["min"] = 508,
+									["count"] = 6,
+									["amount"] = 3203,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 3203,
+						},
+						["Sinister Strike"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 631,
+									["min"] = 524,
+									["count"] = 9,
+									["amount"] = 4986,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 4986,
+						},
+						["Mutilate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 509,
+									["min"] = 1,
+									["count"] = 2,
+									["amount"] = 510,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 510,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 18,
+						},
+					},
+					["DamagedWho"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 631,
+								},
+								["Melee"] = {
+									["count"] = 589,
+								},
+							},
+							["amount"] = 1220,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2614,
+								},
+								["Sinister Strike"] = {
+									["count"] = 4355,
+								},
+								["Mutilate"] = {
+									["count"] = 510,
+								},
+							},
+							["amount"] = 7479,
+						},
+					},
+					["TimeDamage"] = 20.68,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 3324,
+								},
+								["Chimera Shot"] = {
+									["count"] = 14151,
+								},
+								["Melee"] = {
+									["count"] = 1668,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 3035,
+								},
+								["Auto Shot"] = {
+									["count"] = 19735,
+								},
+								["Arcane Shot"] = {
+									["count"] = 8786,
+								},
+								["Kill Shot"] = {
+									["count"] = 17488,
+								},
+								["Explosive Trap Effect"] = {
+									["count"] = 1159,
+								},
+								["Aimed Shot"] = {
+									["count"] = 8478,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 3408,
+								},
+								["Explosive Trap Effect (DoT)"] = {
+									["count"] = 1220,
+								},
+							},
+							["amount"] = 82452,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7246,
+								},
+								["Bite"] = {
+									["count"] = 6689,
+								},
+							},
+							["amount"] = 13935,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3203,
+						["Physical"] = 5496,
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 11,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Hit"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 32,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamaging"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Sinister Strike"] = {
+									["count"] = 3.5,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Eviscerate"] = {
+									["count"] = 1.91,
+								},
+								["Melee"] = {
+									["count"] = 6.69,
+								},
+								["Sinister Strike"] = {
+									["count"] = 7.459999999999999,
+								},
+								["Mutilate"] = {
+									["count"] = 1.12,
+								},
+							},
+							["amount"] = 17.18,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1574739429,
+			["LastActive"] = 1574739429,
+		},
+		["Rokdar the Sundered Lord"] = {
+			["GUID"] = "0xF1300047E003F682",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"???", -- [29]
+				"???", -- [30]
+				"???", -- [31]
+				"???", -- [32]
+				"???", -- [33]
+				"???", -- [34]
+				"???", -- [35]
+				"???", -- [36]
+				"???", -- [37]
+				"???", -- [38]
+				"???", -- [39]
+				"???", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"MISC", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					15.14, -- [1]
+				},
+				["TimeDamage"] = {
+					15.14, -- [1]
+				},
+				["DamageTaken"] = {
+					92767, -- [1]
+				},
+				["Damage"] = {
+					3468, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 6300,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						false, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						true, -- [5]
+						false, -- [6]
+						true, -- [7]
+						true, -- [8]
+						true, -- [9]
+						true, -- [10]
+						false, -- [11]
+						false, -- [12]
+						true, -- [13]
+						true, -- [14]
+						true, -- [15]
+						true, -- [16]
+						true, -- [17]
+						false, -- [18]
+						true, -- [19]
+						true, -- [20]
+						true, -- [21]
+						true, -- [22]
+						true, -- [23]
+						true, -- [24]
+						false, -- [25]
+						true, -- [26]
+						true, -- [27]
+						true, -- [28]
+						true, -- [29]
+						true, -- [30]
+						true, -- [31]
+						false, -- [32]
+						true, -- [33]
+						true, -- [34]
+						true, -- [35]
+						true, -- [36]
+						true, -- [37]
+						false, -- [38]
+						true, -- [39]
+						true, -- [40]
+						true, -- [41]
+						true, -- [42]
+						true, -- [43]
+						false, -- [44]
+						false, -- [45]
+						true, -- [46]
+						true, -- [47]
+						true, -- [48]
+						true, -- [49]
+						true, -- [50]
+					},
+					["Messages"] = {
+						"Rokdar the Sundered Lord Melee Riyadi Miss", -- [1]
+						"Riyadi Bite Rokdar the Sundered Lord Hit -415 (Physical)", -- [2]
+						"Danilla Steady Shot Rokdar the Sundered Lord Crit -3840 (Physical)", -- [3]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [4]
+						"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -669 (Nature)", -- [5]
+						"Rokdar the Sundered Lord Melee Riyadi Parry", -- [6]
+						"Riyadi Bite Rokdar the Sundered Lord Hit -439 (Physical)", -- [7]
+						"Riyadi Melee Rokdar the Sundered Lord Hit -447 (Physical)", -- [8]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [9]
+						"Riyadi Bite Rokdar the Sundered Lord Hit -439 (Physical)", -- [10]
+						"Rokdar the Sundered Lord Melee Riyadi Hit -409 (Physical)", -- [11]
+						"Rokdar the Sundered Lord War Stomp Riyadi Miss (Physical)", -- [12]
+						"Riyadi Melee Rokdar the Sundered Lord Hit -500 (Physical)", -- [13]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [14]
+						"Riyadi Bite Rokdar the Sundered Lord Hit -462 (Physical)", -- [15]
+						"Danilla Arcane Shot Rokdar the Sundered Lord Crit -4161 (Arcane)", -- [16]
+						"Danilla Auto Shot Rokdar the Sundered Lord Crit -3714 (Physical)", -- [17]
+						"Rokdar the Sundered Lord Melee Riyadi Hit -432 (Physical)", -- [18]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [19]
+						"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -669 (Nature)", -- [20]
+						"Riyadi Melee Rokdar the Sundered Lord Hit -518 (Physical)", -- [21]
+						"Danilla Wild Quiver Auto Shot Rokdar the Sundered Lord Crit -4040 (Nature)", -- [22]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [23]
+						"Riyadi Bite Rokdar the Sundered Lord Hit -621 (Physical)", -- [24]
+						"Rokdar the Sundered Lord Melee Riyadi Hit -434 (Physical)", -- [25]
+						"Danilla Chimera Shot Rokdar the Sundered Lord Crit -6792 (Nature)", -- [26]
+						"Riyadi Melee Rokdar the Sundered Lord Hit -537 (Physical)", -- [27]
+						"Riyadi Bite Rokdar the Sundered Lord Crit -1090 (Physical)", -- [28]
+						"Danilla Chimera Shot - Serpent Rokdar the Sundered Lord Hit -1378 (Nature)", -- [29]
+						"Danilla Auto Shot Rokdar the Sundered Lord Crit -3914 (Physical)", -- [30]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [31]
+						"Rokdar the Sundered Lord Melee Riyadi Miss", -- [32]
+						"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -696 (Nature)", -- [33]
+						"Danilla Aimed Shot Rokdar the Sundered Lord Hit -2352 (Physical)", -- [34]
+						"Riyadi Melee Rokdar the Sundered Lord Hit -523 (Physical)", -- [35]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [36]
+						"Riyadi Bite Rokdar the Sundered Lord Crit -936 (Physical)", -- [37]
+						"Rokdar the Sundered Lord Melee Riyadi Miss", -- [38]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [39]
+						"Riyadi Bite Rokdar the Sundered Lord Crit -768 (Physical)", -- [40]
+						"Danilla Auto Shot Rokdar the Sundered Lord Hit -1928 (Physical)", -- [41]
+						"Riyadi Melee Rokdar the Sundered Lord Crit -878 (Physical)", -- [42]
+						"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [43]
+						"Rokdar the Sundered Lord Melee Riyadi Miss", -- [44]
+						"Rokdar the Sundered Lord Knock Away Riyadi Hit -425 (Physical)", -- [45]
+						"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -696 (Nature)", -- [46]
+						"Riyadi Bite Rokdar the Sundered Lord Hit -280 (Physical)", -- [47]
+						"Danilla Steady Shot Rokdar the Sundered Lord Crit -3974 (Physical)", -- [48]
+						"Danilla Kill Shot Rokdar the Sundered Lord Hit -6300 (Physical)", -- [49]
+						"Rokdar the Sundered Lord dies.", -- [50]
+					},
+					["DeathAt"] = 1574739488,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageTimes"] = {
+						-13.92100000000028, -- [1]
+						-13.721, -- [2]
+						-13.6210000000001, -- [3]
+						-12.654, -- [4]
+						-12.55400000000009, -- [5]
+						-12.50400000000036, -- [6]
+						-12.45400000000018, -- [7]
+						-12.404, -- [8]
+						-0.6710000000002765, -- [9]
+						-0.5040000000003602, -- [10]
+						-0.5040000000003602, -- [11]
+						-0.5040000000003602, -- [12]
+						-0.5040000000003602, -- [13]
+						-0.5030000000001564, -- [14]
+						-0.3380000000001928, -- [15]
+						-0.3370000000004438, -- [16]
+						-0.3370000000004438, -- [17]
+						-0.3370000000004438, -- [18]
+						-0.3360000000002401, -- [19]
+						-0.3360000000002401, -- [20]
+						-0.3360000000002401, -- [21]
+						-0.3350000000000364, -- [22]
+						-0.3350000000000364, -- [23]
+						-0.3350000000000364, -- [24]
+						-0.3350000000000364, -- [25]
+						-0.3340000000002874, -- [26]
+						-0.1710000000002765, -- [27]
+						-0.1700000000000728, -- [28]
+						-0.1700000000000728, -- [29]
+						-0.1690000000003238, -- [30]
+						-0.1690000000003238, -- [31]
+						-0.1690000000003238, -- [32]
+						-0.1690000000003238, -- [33]
+						-0.1680000000001201, -- [34]
+						-0.1680000000001201, -- [35]
+						-0.1680000000001201, -- [36]
+						-0.1680000000001201, -- [37]
+						-0.1670000000003711, -- [38]
+						-0.1670000000003711, -- [39]
+						-0.1670000000003711, -- [40]
+						-0.1660000000001674, -- [41]
+						-0.1660000000001674, -- [42]
+						-0.1660000000001674, -- [43]
+						-0.1650000000004184, -- [44]
+						-0.1650000000004184, -- [45]
+						-0.1630000000000109, -- [46]
+						-0.02100000000018554, -- [47]
+						-0.00400000000036016, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["KilledBy"] = "Danilla",
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+						"???", -- [5]
+						"???", -- [6]
+						"???", -- [7]
+						"???", -- [8]
+						"???", -- [9]
+						"???", -- [10]
+						"???", -- [11]
+						"???", -- [12]
+						"???", -- [13]
+						"???", -- [14]
+						"???", -- [15]
+						"???", -- [16]
+						"???", -- [17]
+						"???", -- [18]
+						"???", -- [19]
+						"???", -- [20]
+						"???", -- [21]
+						"???", -- [22]
+						"???", -- [23]
+						"???", -- [24]
+						"???", -- [25]
+						"???", -- [26]
+						"???", -- [27]
+						"???", -- [28]
+						"???", -- [29]
+						"???", -- [30]
+						"???", -- [31]
+						"???", -- [32]
+						"???", -- [33]
+						"???", -- [34]
+						"???", -- [35]
+						"???", -- [36]
+						"???", -- [37]
+						"???", -- [38]
+						"???", -- [39]
+						"???", -- [40]
+						"???", -- [41]
+						"???", -- [42]
+						"???", -- [43]
+						"???", -- [44]
+						"???", -- [45]
+						"???", -- [46]
+						"???", -- [47]
+						"???", -- [48]
+						"???", -- [49]
+						"???", -- [50]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"DAMAGE", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"DAMAGE", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"DAMAGE", -- [43]
+						"DAMAGE", -- [44]
+						"DAMAGE", -- [45]
+						"DAMAGE", -- [46]
+						"DAMAGE", -- [47]
+						"DAMAGE", -- [48]
+						"DAMAGE", -- [49]
+						"MISC", -- [50]
+					},
+				}, -- [1]
+			},
+			["level"] = -1,
+			["LastDamageAbility"] = "Kill Shot",
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["LastAbility"] = 3673.486,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["DeathCount"] = 1574739486,
+				["ActiveTime"] = 1574739486,
+				["TimeDamage"] = 1574739486,
+				["OVERALL"] = 1574739486,
+				["DamageTaken"] = 1574739486,
+				["Damage"] = 1574739486,
+			},
+			["NextEventNum"] = 30,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+			},
+			["LastEvents"] = {
+				"Danilla Wild Quiver Auto Shot Rokdar the Sundered Lord Crit -4040 (Nature)", -- [1]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [2]
+				"Riyadi Bite Rokdar the Sundered Lord Hit -621 (Physical)", -- [3]
+				"Rokdar the Sundered Lord Melee Riyadi Hit -434 (Physical)", -- [4]
+				"Danilla Chimera Shot Rokdar the Sundered Lord Crit -6792 (Nature)", -- [5]
+				"Riyadi Melee Rokdar the Sundered Lord Hit -537 (Physical)", -- [6]
+				"Riyadi Bite Rokdar the Sundered Lord Crit -1090 (Physical)", -- [7]
+				"Danilla Chimera Shot - Serpent Rokdar the Sundered Lord Hit -1378 (Nature)", -- [8]
+				"Danilla Auto Shot Rokdar the Sundered Lord Crit -3914 (Physical)", -- [9]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [10]
+				"Rokdar the Sundered Lord Melee Riyadi Miss", -- [11]
+				"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -696 (Nature)", -- [12]
+				"Danilla Aimed Shot Rokdar the Sundered Lord Hit -2352 (Physical)", -- [13]
+				"Riyadi Melee Rokdar the Sundered Lord Hit -523 (Physical)", -- [14]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [15]
+				"Riyadi Bite Rokdar the Sundered Lord Crit -936 (Physical)", -- [16]
+				"Rokdar the Sundered Lord Melee Riyadi Miss", -- [17]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [18]
+				"Riyadi Bite Rokdar the Sundered Lord Crit -768 (Physical)", -- [19]
+				"Danilla Auto Shot Rokdar the Sundered Lord Hit -1928 (Physical)", -- [20]
+				"Riyadi Melee Rokdar the Sundered Lord Crit -878 (Physical)", -- [21]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -386 (Physical)", -- [22]
+				"Rokdar the Sundered Lord Melee Riyadi Miss", -- [23]
+				"Rokdar the Sundered Lord Knock Away Riyadi Hit -425 (Physical)", -- [24]
+				"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -696 (Nature)", -- [25]
+				"Riyadi Bite Rokdar the Sundered Lord Hit -280 (Physical)", -- [26]
+				"Danilla Steady Shot Rokdar the Sundered Lord Crit -3974 (Physical)", -- [27]
+				"Danilla Kill Shot Rokdar the Sundered Lord Hit -6300 (Physical)", -- [28]
+				"Rokdar the Sundered Lord dies.", -- [29]
+				"Rokdar the Sundered Lord Melee Riyadi Miss", -- [30]
+				"Riyadi Bite Rokdar the Sundered Lord Hit -415 (Physical)", -- [31]
+				"Danilla Steady Shot Rokdar the Sundered Lord Crit -3840 (Physical)", -- [32]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [33]
+				"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -669 (Nature)", -- [34]
+				"Rokdar the Sundered Lord Melee Riyadi Parry", -- [35]
+				"Riyadi Bite Rokdar the Sundered Lord Hit -439 (Physical)", -- [36]
+				"Riyadi Melee Rokdar the Sundered Lord Hit -447 (Physical)", -- [37]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [38]
+				"Riyadi Bite Rokdar the Sundered Lord Hit -439 (Physical)", -- [39]
+				"Rokdar the Sundered Lord Melee Riyadi Hit -409 (Physical)", -- [40]
+				"Rokdar the Sundered Lord War Stomp Riyadi Miss (Physical)", -- [41]
+				"Riyadi Melee Rokdar the Sundered Lord Hit -500 (Physical)", -- [42]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [43]
+				"Riyadi Bite Rokdar the Sundered Lord Hit -462 (Physical)", -- [44]
+				"Danilla Arcane Shot Rokdar the Sundered Lord Crit -4161 (Arcane)", -- [45]
+				"Danilla Auto Shot Rokdar the Sundered Lord Crit -3714 (Physical)", -- [46]
+				"Rokdar the Sundered Lord Melee Riyadi Hit -432 (Physical)", -- [47]
+				"Danilla Piercing Shots (DoT) Rokdar the Sundered Lord Tick -353 (Physical)", -- [48]
+				"Danilla Serpent Sting (DoT) Rokdar the Sundered Lord Tick -669 (Nature)", -- [49]
+				"Riyadi Melee Rokdar the Sundered Lord Hit -518 (Physical)", -- [50]
+			},
+			["Name"] = "Rokdar the Sundered Lord",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				false, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				false, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				false, -- [35]
+				true, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				false, -- [47]
+				true, -- [48]
+				true, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				3673.316, -- [1]
+				3673.316, -- [2]
+				3673.316, -- [3]
+				3673.316, -- [4]
+				3673.317, -- [5]
+				3673.48, -- [6]
+				3673.481, -- [7]
+				3673.481, -- [8]
+				3673.482, -- [9]
+				3673.482, -- [10]
+				3673.482, -- [11]
+				3673.482, -- [12]
+				3673.483, -- [13]
+				3673.483, -- [14]
+				3673.483, -- [15]
+				3673.483, -- [16]
+				3673.484, -- [17]
+				3673.484, -- [18]
+				3673.484, -- [19]
+				3673.485, -- [20]
+				3673.485, -- [21]
+				3673.485, -- [22]
+				3673.486, -- [23]
+				3673.486, -- [24]
+				3673.488, -- [25]
+				3673.63, -- [26]
+				3673.647, -- [27]
+				3673.651, -- [28]
+				3673.651, -- [29]
+				3659.73, -- [30]
+				3659.93, -- [31]
+				3660.03, -- [32]
+				3660.997, -- [33]
+				3661.097, -- [34]
+				3661.147, -- [35]
+				3661.197, -- [36]
+				3661.247, -- [37]
+				3672.98, -- [38]
+				3673.147, -- [39]
+				3673.147, -- [40]
+				3673.147, -- [41]
+				3673.147, -- [42]
+				3673.148, -- [43]
+				3673.313, -- [44]
+				3673.314, -- [45]
+				3673.314, -- [46]
+				3673.314, -- [47]
+				3673.315, -- [48]
+				3673.315, -- [49]
+				3673.315, -- [50]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+					["TimeSpent"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Knock Away"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 14.79,
+								},
+								["War Stomp"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15.14,
+						},
+					},
+					["DamageTaken"] = 92767,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 15.14,
+					["ElementTaken"] = {
+						["Arcane"] = 5895,
+						["Physical"] = 56132,
+						["Melee"] = 6015,
+						["Nature"] = 24725,
+					},
+					["Damage"] = 3468,
+					["ElementTakenBlock"] = {
+						["Melee"] = 66,
+						["Physical"] = 33,
+					},
+					["Attacks"] = {
+						["Knock Away"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 425,
+									["min"] = 417,
+									["count"] = 2,
+									["amount"] = 842,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 842,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 434,
+									["min"] = 254,
+									["count"] = 7,
+									["amount"] = 2626,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 2626,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2626,
+								},
+								["Knock Away"] = {
+									["count"] = 842,
+								},
+							},
+							["amount"] = 3468,
+						},
+					},
+					["TimeDamage"] = 15.14,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 5217,
+								},
+								["Chimera Shot"] = {
+									["count"] = 12993,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 4936,
+								},
+								["Auto Shot"] = {
+									["count"] = 19999,
+								},
+								["Arcane Shot"] = {
+									["count"] = 5895,
+								},
+								["Steady Shot"] = {
+									["count"] = 7814,
+								},
+								["Kill Shot"] = {
+									["count"] = 6300,
+								},
+								["Aimed Shot"] = {
+									["count"] = 8114,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 2756,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 4040,
+								},
+							},
+							["amount"] = 78064,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6015,
+								},
+								["Bite"] = {
+									["count"] = 8688,
+								},
+							},
+							["amount"] = 14703,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2626,
+						["Physical"] = 842,
+					},
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 39,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["TimeDamaging"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Knock Away"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 14.79,
+								},
+								["War Stomp"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15.14,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+					["TimeSpent"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Knock Away"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 14.79,
+								},
+								["War Stomp"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15.14,
+						},
+					},
+					["DamageTaken"] = 92767,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Kill Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot - Serpent"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 15.14,
+					["ElementTaken"] = {
+						["Arcane"] = 5895,
+						["Physical"] = 56132,
+						["Melee"] = 6015,
+						["Nature"] = 24725,
+					},
+					["Damage"] = 3468,
+					["ElementTakenBlock"] = {
+						["Melee"] = 66,
+						["Physical"] = 33,
+					},
+					["Attacks"] = {
+						["Knock Away"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 425,
+									["min"] = 417,
+									["count"] = 2,
+									["amount"] = 842,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 842,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 434,
+									["min"] = 254,
+									["count"] = 7,
+									["amount"] = 2626,
+								},
+							},
+							["count"] = 12,
+							["amount"] = 2626,
+						},
+						["War Stomp"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2626,
+								},
+								["Knock Away"] = {
+									["count"] = 842,
+								},
+							},
+							["amount"] = 3468,
+						},
+					},
+					["TimeDamage"] = 15.14,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 5217,
+								},
+								["Chimera Shot"] = {
+									["count"] = 12993,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 4936,
+								},
+								["Auto Shot"] = {
+									["count"] = 19999,
+								},
+								["Arcane Shot"] = {
+									["count"] = 5895,
+								},
+								["Steady Shot"] = {
+									["count"] = 7814,
+								},
+								["Kill Shot"] = {
+									["count"] = 6300,
+								},
+								["Aimed Shot"] = {
+									["count"] = 8114,
+								},
+								["Chimera Shot - Serpent"] = {
+									["count"] = 2756,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 4040,
+								},
+							},
+							["amount"] = 78064,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 6015,
+								},
+								["Bite"] = {
+									["count"] = 8688,
+								},
+							},
+							["amount"] = 14703,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 2626,
+						["Physical"] = 842,
+					},
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 14,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 39,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 11,
+						},
+					},
+					["TimeDamaging"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Knock Away"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 14.79,
+								},
+								["War Stomp"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 15.14,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1574739486,
+			["LastActive"] = 1574739486,
+		},
+		["Skra'gath"] = {
+			["GUID"] = "0xF1300047E103F749",
+			["LastEventHealth"] = {
+				"???", -- [1]
+				"???", -- [2]
+				"???", -- [3]
+				"???", -- [4]
+				"???", -- [5]
+				"???", -- [6]
+				"???", -- [7]
+				"???", -- [8]
+				"???", -- [9]
+				"???", -- [10]
+				"???", -- [11]
+				"???", -- [12]
+				"???", -- [13]
+				"???", -- [14]
+				"???", -- [15]
+				"???", -- [16]
+				"???", -- [17]
+				"???", -- [18]
+				"???", -- [19]
+				"???", -- [20]
+				"???", -- [21]
+				"???", -- [22]
+				"???", -- [23]
+				"???", -- [24]
+				"???", -- [25]
+				"???", -- [26]
+				"???", -- [27]
+				"???", -- [28]
+				"???", -- [29]
+				"???", -- [30]
+				"???", -- [31]
+				"???", -- [32]
+				"???", -- [33]
+				"???", -- [34]
+				"???", -- [35]
+				"???", -- [36]
+				"???", -- [37]
+				"???", -- [38]
+				"???", -- [39]
+				"???", -- [40]
+				"???", -- [41]
+				"???", -- [42]
+				"???", -- [43]
+				"???", -- [44]
+				"???", -- [45]
+				"???", -- [46]
+				"???", -- [47]
+				"???", -- [48]
+				"???", -- [49]
+				"???", -- [50]
+			},
+			["LastEventType"] = {
+				"MISC", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"HEAL", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["DeathCount"] = {
+					1, -- [1]
+				},
+				["ActiveTime"] = {
+					13.32, -- [1]
+				},
+				["TimeDamage"] = {
+					13.32, -- [1]
+				},
+				["DamageTaken"] = {
+					59100, -- [1]
+				},
+				["Damage"] = {
+					2059, -- [1]
+				},
+			},
+			["enClass"] = "MOB",
+			["LastDamageTaken"] = 7389,
+			["DeathLogs"] = {
+				{
+					["MessageIncoming"] = {
+						true, -- [1]
+						true, -- [2]
+						true, -- [3]
+						true, -- [4]
+						false, -- [5]
+						false, -- [6]
+						true, -- [7]
+						true, -- [8]
+						false, -- [9]
+						true, -- [10]
+						true, -- [11]
+						true, -- [12]
+						true, -- [13]
+						true, -- [14]
+						false, -- [15]
+						true, -- [16]
+						true, -- [17]
+						true, -- [18]
+						true, -- [19]
+						false, -- [20]
+						true, -- [21]
+						false, -- [22]
+						true, -- [23]
+						true, -- [24]
+						true, -- [25]
+						true, -- [26]
+						true, -- [27]
+						false, -- [28]
+						false, -- [29]
+						true, -- [30]
+						true, -- [31]
+						true, -- [32]
+						true, -- [33]
+						true, -- [34]
+						false, -- [35]
+						true, -- [36]
+						true, -- [37]
+						true, -- [38]
+						true, -- [39]
+						true, -- [40]
+						false, -- [41]
+						true, -- [42]
+						true, -- [43]
+						true, -- [44]
+						true, -- [45]
+						true, -- [46]
+						true, -- [47]
+						false, -- [48]
+						true, -- [49]
+						true, -- [50]
+					},
+					["Messages"] = {
+						"Danilla Wild Quiver Auto Shot Skra'gath Crit -3744 (Nature)", -- [1]
+						"Danilla Chimera Shot Skra'gath Hit -2533 (Nature)", -- [2]
+						"Riyadi Melee Skra'gath Hit -440 (Physical)", -- [3]
+						"Skra'gath Draining Touch Skra'gath Hit +80", -- [4]
+						"Skra'gath Draining Touch Riyadi Hit -80 (20 resisted) (Shadow)", -- [5]
+						"Skra'gath Melee Riyadi Hit -196 (Physical)", -- [6]
+						"Riyadi Bite Skra'gath Hit -416 (Physical)", -- [7]
+						"Danilla Auto Shot Skra'gath Hit -1821 (Physical)", -- [8]
+						"Skra'gath Melee Riyadi Hit -197 (Physical)", -- [9]
+						"Riyadi Bite Skra'gath Hit -406 (Physical)", -- [10]
+						"Riyadi Melee Skra'gath Hit -452 (Physical)", -- [11]
+						"Danilla Auto Shot Skra'gath Crit -3464 (Physical)", -- [12]
+						"Riyadi Bite Skra'gath Hit -422 (Physical)", -- [13]
+						"Danilla Aimed Shot Skra'gath Crit -5750 (Physical)", -- [14]
+						"Skra'gath Melee Riyadi Hit -189 (Physical)", -- [15]
+						"Riyadi Melee Skra'gath Hit -469 (Physical)", -- [16]
+						"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [17]
+						"Riyadi Bite Skra'gath Crit -838 (Physical)", -- [18]
+						"Danilla Serpent Sting (DoT) Skra'gath Tick -669 (Nature)", -- [19]
+						"Skra'gath Melee Riyadi Hit -324 (Physical)", -- [20]
+						"Danilla Arcane Shot Skra'gath Crit -4039 (Arcane)", -- [21]
+						"Skra'gath Shadow Burst Riyadi Miss (Shadow)", -- [22]
+						"Riyadi Melee Skra'gath Hit -498 (Physical)", -- [23]
+						"Danilla Auto Shot Skra'gath Hit -1884 (Physical)", -- [24]
+						"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [25]
+						"Riyadi Bite Skra'gath Crit -942 (Physical)", -- [26]
+						"Skra'gath Draining Touch Skra'gath Hit +52", -- [27]
+						"Skra'gath Draining Touch Riyadi Hit -104 (68 resisted) (Shadow)", -- [28]
+						"Skra'gath Melee Riyadi Hit -321 (Physical)", -- [29]
+						"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [30]
+						"Riyadi Melee Skra'gath Hit -519 (Physical)", -- [31]
+						"Riyadi Bite Skra'gath Hit -447 (Physical)", -- [32]
+						"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [33]
+						"Danilla Auto Shot Skra'gath Crit -3541 (Physical)", -- [34]
+						"Skra'gath Melee Riyadi Hit -325 (Physical)", -- [35]
+						"Danilla Serpent Sting (DoT) Skra'gath Crit -1537 (Nature)", -- [36]
+						"Danilla Steady Shot Skra'gath Crit -4034 (Physical)", -- [37]
+						"Riyadi Melee Skra'gath Hit -542 (Physical)", -- [38]
+						"Riyadi Bite Skra'gath Crit -878 (Physical)", -- [39]
+						"Danilla Piercing Shots (DoT) Skra'gath Tick -258 (Physical)", -- [40]
+						"Skra'gath Melee Riyadi Hit -323 (Physical)", -- [41]
+						"Danilla Steady Shot Skra'gath Hit -1786 (Physical)", -- [42]
+						"Riyadi Bite Skra'gath Hit -453 (Physical)", -- [43]
+						"Danilla Auto Shot Skra'gath Hit -1892 (Physical)", -- [44]
+						"Danilla Piercing Shots (DoT) Skra'gath Tick -258 (Physical)", -- [45]
+						"Riyadi Melee Skra'gath Hit -528 (Physical)", -- [46]
+						"Danilla Wild Quiver Auto Shot Skra'gath Hit -1847 (Nature)", -- [47]
+						"Skra'gath Melee Riyadi Dodge", -- [48]
+						"Danilla Chimera Shot Skra'gath Crit -7389 (Nature)", -- [49]
+						"Skra'gath dies.", -- [50]
+					},
+					["DeathAt"] = 1574739526,
+					["HealthNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageTimes"] = {
+						-10.55299999999988, -- [1]
+						-10.33599999999979, -- [2]
+						-10.15299999999979, -- [3]
+						-10.15299999999979, -- [4]
+						-10.15200000000004, -- [5]
+						-10.15200000000004, -- [6]
+						-10.00199999999995, -- [7]
+						-9.686000000000149, -- [8]
+						-8.753000000000156, -- [9]
+						-8.735999999999876, -- [10]
+						-8.603000000000066, -- [11]
+						-7.585999999999785, -- [12]
+						-7.485999999999876, -- [13]
+						-7.402999999999793, -- [14]
+						-7.335999999999785, -- [15]
+						-7.103000000000066, -- [16]
+						-6.420000000000073, -- [17]
+						-6.186999999999898, -- [18]
+						-6.036999999999807, -- [19]
+						-5.952999999999975, -- [20]
+						-5.853000000000066, -- [21]
+						-5.570000000000164, -- [22]
+						-5.552999999999884, -- [23]
+						-5.485999999999876, -- [24]
+						-5.436999999999898, -- [25]
+						-4.952999999999975, -- [26]
+						-4.586999999999989, -- [27]
+						-4.585999999999785, -- [28]
+						-4.585999999999785, -- [29]
+						-4.436999999999898, -- [30]
+						-3.985999999999876, -- [31]
+						-3.56899999999996, -- [32]
+						-3.436000000000149, -- [33]
+						-3.2199999999998, -- [34]
+						-3.186000000000149, -- [35]
+						-3.019999999999982, -- [36]
+						-2.902999999999793, -- [37]
+						-2.452999999999975, -- [38]
+						-2.253000000000156, -- [39]
+						-1.936000000000149, -- [40]
+						-1.753000000000156, -- [41]
+						-1.253000000000156, -- [42]
+						-1.119000000000142, -- [43]
+						-1.085999999999785, -- [44]
+						-0.9360000000001492, -- [45]
+						-0.9360000000001492, -- [46]
+						-0.4529999999999745, -- [47]
+						-0.3200000000001637, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["KilledBy"] = "Danilla",
+					["Health"] = {
+						"???", -- [1]
+						"???", -- [2]
+						"???", -- [3]
+						"???", -- [4]
+						"???", -- [5]
+						"???", -- [6]
+						"???", -- [7]
+						"???", -- [8]
+						"???", -- [9]
+						"???", -- [10]
+						"???", -- [11]
+						"???", -- [12]
+						"???", -- [13]
+						"???", -- [14]
+						"???", -- [15]
+						"???", -- [16]
+						"???", -- [17]
+						"???", -- [18]
+						"???", -- [19]
+						"???", -- [20]
+						"???", -- [21]
+						"???", -- [22]
+						"???", -- [23]
+						"???", -- [24]
+						"???", -- [25]
+						"???", -- [26]
+						"???", -- [27]
+						"???", -- [28]
+						"???", -- [29]
+						"???", -- [30]
+						"???", -- [31]
+						"???", -- [32]
+						"???", -- [33]
+						"???", -- [34]
+						"???", -- [35]
+						"???", -- [36]
+						"???", -- [37]
+						"???", -- [38]
+						"???", -- [39]
+						"???", -- [40]
+						"???", -- [41]
+						"???", -- [42]
+						"???", -- [43]
+						"???", -- [44]
+						"???", -- [45]
+						"???", -- [46]
+						"???", -- [47]
+						"???", -- [48]
+						"???", -- [49]
+						"???", -- [50]
+					},
+					["EventNum"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						0, -- [6]
+						0, -- [7]
+						0, -- [8]
+						0, -- [9]
+						0, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						0, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+						0, -- [20]
+						0, -- [21]
+						0, -- [22]
+						0, -- [23]
+						0, -- [24]
+						0, -- [25]
+						0, -- [26]
+						0, -- [27]
+						0, -- [28]
+						0, -- [29]
+						0, -- [30]
+						0, -- [31]
+						0, -- [32]
+						0, -- [33]
+						0, -- [34]
+						0, -- [35]
+						0, -- [36]
+						0, -- [37]
+						0, -- [38]
+						0, -- [39]
+						0, -- [40]
+						0, -- [41]
+						0, -- [42]
+						0, -- [43]
+						0, -- [44]
+						0, -- [45]
+						0, -- [46]
+						0, -- [47]
+						0, -- [48]
+						0, -- [49]
+						0, -- [50]
+					},
+					["MessageType"] = {
+						"DAMAGE", -- [1]
+						"DAMAGE", -- [2]
+						"DAMAGE", -- [3]
+						"HEAL", -- [4]
+						"DAMAGE", -- [5]
+						"DAMAGE", -- [6]
+						"DAMAGE", -- [7]
+						"DAMAGE", -- [8]
+						"DAMAGE", -- [9]
+						"DAMAGE", -- [10]
+						"DAMAGE", -- [11]
+						"DAMAGE", -- [12]
+						"DAMAGE", -- [13]
+						"DAMAGE", -- [14]
+						"DAMAGE", -- [15]
+						"DAMAGE", -- [16]
+						"DAMAGE", -- [17]
+						"DAMAGE", -- [18]
+						"DAMAGE", -- [19]
+						"DAMAGE", -- [20]
+						"DAMAGE", -- [21]
+						"DAMAGE", -- [22]
+						"DAMAGE", -- [23]
+						"DAMAGE", -- [24]
+						"DAMAGE", -- [25]
+						"DAMAGE", -- [26]
+						"HEAL", -- [27]
+						"DAMAGE", -- [28]
+						"DAMAGE", -- [29]
+						"DAMAGE", -- [30]
+						"DAMAGE", -- [31]
+						"DAMAGE", -- [32]
+						"DAMAGE", -- [33]
+						"DAMAGE", -- [34]
+						"DAMAGE", -- [35]
+						"DAMAGE", -- [36]
+						"DAMAGE", -- [37]
+						"DAMAGE", -- [38]
+						"DAMAGE", -- [39]
+						"DAMAGE", -- [40]
+						"DAMAGE", -- [41]
+						"DAMAGE", -- [42]
+						"DAMAGE", -- [43]
+						"DAMAGE", -- [44]
+						"DAMAGE", -- [45]
+						"DAMAGE", -- [46]
+						"DAMAGE", -- [47]
+						"DAMAGE", -- [48]
+						"DAMAGE", -- [49]
+						"MISC", -- [50]
+					},
+				}, -- [1]
+			},
+			["level"] = -1,
+			["LastDamageAbility"] = "Chimera Shot",
+			["LastFightIn"] = 0,
+			["type"] = "Boss",
+			["LastAbility"] = 3711.196,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["DeathCount"] = 1574739524,
+				["ActiveTime"] = 1574739524,
+				["TimeDamage"] = 1574739524,
+				["OVERALL"] = 1574739524,
+				["DamageTaken"] = 1574739524,
+				["Damage"] = 1574739522,
+			},
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+				0, -- [9]
+				0, -- [10]
+				0, -- [11]
+				0, -- [12]
+				0, -- [13]
+				0, -- [14]
+				0, -- [15]
+				0, -- [16]
+				0, -- [17]
+				0, -- [18]
+				0, -- [19]
+				0, -- [20]
+				0, -- [21]
+				0, -- [22]
+				0, -- [23]
+				0, -- [24]
+				0, -- [25]
+				0, -- [26]
+				0, -- [27]
+				0, -- [28]
+				0, -- [29]
+				0, -- [30]
+				0, -- [31]
+				0, -- [32]
+				0, -- [33]
+				0, -- [34]
+				0, -- [35]
+				0, -- [36]
+				0, -- [37]
+				0, -- [38]
+				0, -- [39]
+				0, -- [40]
+				0, -- [41]
+				0, -- [42]
+				0, -- [43]
+				0, -- [44]
+				0, -- [45]
+				0, -- [46]
+				0, -- [47]
+				0, -- [48]
+				0, -- [49]
+				0, -- [50]
+			},
+			["LastEvents"] = {
+				"Skra'gath dies.", -- [1]
+				"Danilla Wild Quiver Auto Shot Skra'gath Crit -3744 (Nature)", -- [2]
+				"Danilla Chimera Shot Skra'gath Hit -2533 (Nature)", -- [3]
+				"Riyadi Melee Skra'gath Hit -440 (Physical)", -- [4]
+				"Skra'gath Draining Touch Skra'gath Hit +80", -- [5]
+				"Skra'gath Draining Touch Riyadi Hit -80 (20 resisted) (Shadow)", -- [6]
+				"Skra'gath Melee Riyadi Hit -196 (Physical)", -- [7]
+				"Riyadi Bite Skra'gath Hit -416 (Physical)", -- [8]
+				"Danilla Auto Shot Skra'gath Hit -1821 (Physical)", -- [9]
+				"Skra'gath Melee Riyadi Hit -197 (Physical)", -- [10]
+				"Riyadi Bite Skra'gath Hit -406 (Physical)", -- [11]
+				"Riyadi Melee Skra'gath Hit -452 (Physical)", -- [12]
+				"Danilla Auto Shot Skra'gath Crit -3464 (Physical)", -- [13]
+				"Riyadi Bite Skra'gath Hit -422 (Physical)", -- [14]
+				"Danilla Aimed Shot Skra'gath Crit -5750 (Physical)", -- [15]
+				"Skra'gath Melee Riyadi Hit -189 (Physical)", -- [16]
+				"Riyadi Melee Skra'gath Hit -469 (Physical)", -- [17]
+				"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [18]
+				"Riyadi Bite Skra'gath Crit -838 (Physical)", -- [19]
+				"Danilla Serpent Sting (DoT) Skra'gath Tick -669 (Nature)", -- [20]
+				"Skra'gath Melee Riyadi Hit -324 (Physical)", -- [21]
+				"Danilla Arcane Shot Skra'gath Crit -4039 (Arcane)", -- [22]
+				"Skra'gath Shadow Burst Riyadi Miss (Shadow)", -- [23]
+				"Riyadi Melee Skra'gath Hit -498 (Physical)", -- [24]
+				"Danilla Auto Shot Skra'gath Hit -1884 (Physical)", -- [25]
+				"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [26]
+				"Riyadi Bite Skra'gath Crit -942 (Physical)", -- [27]
+				"Skra'gath Draining Touch Skra'gath Hit +52", -- [28]
+				"Skra'gath Draining Touch Riyadi Hit -104 (68 resisted) (Shadow)", -- [29]
+				"Skra'gath Melee Riyadi Hit -321 (Physical)", -- [30]
+				"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [31]
+				"Riyadi Melee Skra'gath Hit -519 (Physical)", -- [32]
+				"Riyadi Bite Skra'gath Hit -447 (Physical)", -- [33]
+				"Danilla Piercing Shots (DoT) Skra'gath Tick -215 (Physical)", -- [34]
+				"Danilla Auto Shot Skra'gath Crit -3541 (Physical)", -- [35]
+				"Skra'gath Melee Riyadi Hit -325 (Physical)", -- [36]
+				"Danilla Serpent Sting (DoT) Skra'gath Crit -1537 (Nature)", -- [37]
+				"Danilla Steady Shot Skra'gath Crit -4034 (Physical)", -- [38]
+				"Riyadi Melee Skra'gath Hit -542 (Physical)", -- [39]
+				"Riyadi Bite Skra'gath Crit -878 (Physical)", -- [40]
+				"Danilla Piercing Shots (DoT) Skra'gath Tick -258 (Physical)", -- [41]
+				"Skra'gath Melee Riyadi Hit -323 (Physical)", -- [42]
+				"Danilla Steady Shot Skra'gath Hit -1786 (Physical)", -- [43]
+				"Riyadi Bite Skra'gath Hit -453 (Physical)", -- [44]
+				"Danilla Auto Shot Skra'gath Hit -1892 (Physical)", -- [45]
+				"Danilla Piercing Shots (DoT) Skra'gath Tick -258 (Physical)", -- [46]
+				"Riyadi Melee Skra'gath Hit -528 (Physical)", -- [47]
+				"Danilla Wild Quiver Auto Shot Skra'gath Hit -1847 (Nature)", -- [48]
+				"Skra'gath Melee Riyadi Dodge", -- [49]
+				"Danilla Chimera Shot Skra'gath Crit -7389 (Nature)", -- [50]
+			},
+			["Name"] = "Skra'gath",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				true, -- [9]
+				false, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				true, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				true, -- [46]
+				true, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				3711.516, -- [1]
+				3700.963, -- [2]
+				3701.18, -- [3]
+				3701.363, -- [4]
+				3701.363, -- [5]
+				3701.364, -- [6]
+				3701.364, -- [7]
+				3701.514, -- [8]
+				3701.83, -- [9]
+				3702.763, -- [10]
+				3702.78, -- [11]
+				3702.913, -- [12]
+				3703.93, -- [13]
+				3704.03, -- [14]
+				3704.113, -- [15]
+				3704.18, -- [16]
+				3704.413, -- [17]
+				3705.096, -- [18]
+				3705.329, -- [19]
+				3705.479, -- [20]
+				3705.563, -- [21]
+				3705.663, -- [22]
+				3705.946, -- [23]
+				3705.963, -- [24]
+				3706.03, -- [25]
+				3706.079, -- [26]
+				3706.563, -- [27]
+				3706.929, -- [28]
+				3706.93, -- [29]
+				3706.93, -- [30]
+				3707.079, -- [31]
+				3707.53, -- [32]
+				3707.947, -- [33]
+				3708.08, -- [34]
+				3708.296, -- [35]
+				3708.33, -- [36]
+				3708.496, -- [37]
+				3708.613, -- [38]
+				3709.063, -- [39]
+				3709.263, -- [40]
+				3709.58, -- [41]
+				3709.763, -- [42]
+				3710.263, -- [43]
+				3710.397, -- [44]
+				3710.43, -- [45]
+				3710.58, -- [46]
+				3710.58, -- [47]
+				3711.063, -- [48]
+				3711.196, -- [49]
+				3711.516, -- [50]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["PartialBlock"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 88,
+					},
+					["TimeSpent"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Shadow Burst"] = {
+									["count"] = 0.38,
+								},
+								["Melee"] = {
+									["count"] = 8.459999999999999,
+								},
+								["Draining Touch"] = {
+									["count"] = 4.48,
+								},
+							},
+							["amount"] = 13.32,
+						},
+					},
+					["DamageTaken"] = 59100,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.32,
+					["ElementTaken"] = {
+						["Arcane"] = 4039,
+						["Physical"] = 33894,
+						["Melee"] = 3448,
+						["Nature"] = 17719,
+					},
+					["Damage"] = 2059,
+					["ElementTakenBlock"] = {
+						["Physical"] = 99,
+					},
+					["ElementDone"] = {
+						["Melee"] = 1875,
+						["Shadow"] = 184,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Draining Touch"] = {
+									["count"] = 184,
+								},
+								["Melee"] = {
+									["count"] = 1875,
+								},
+							},
+							["amount"] = 2059,
+						},
+					},
+					["TimeDamage"] = 13.32,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 1376,
+								},
+								["Chimera Shot"] = {
+									["count"] = 9922,
+								},
+								["Steady Shot"] = {
+									["count"] = 5820,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 2206,
+								},
+								["Aimed Shot"] = {
+									["count"] = 5750,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 5591,
+								},
+								["Auto Shot"] = {
+									["count"] = 16146,
+								},
+								["Arcane Shot"] = {
+									["count"] = 4039,
+								},
+							},
+							["amount"] = 50850,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3448,
+								},
+								["Bite"] = {
+									["count"] = 4802,
+								},
+							},
+							["amount"] = 8250,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Burst"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 325,
+									["min"] = 189,
+									["count"] = 7,
+									["amount"] = 1875,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 1875,
+						},
+						["Draining Touch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 104,
+									["min"] = 80,
+									["count"] = 2,
+									["amount"] = 184,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 184,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamaging"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Shadow Burst"] = {
+									["count"] = 0.38,
+								},
+								["Melee"] = {
+									["count"] = 8.459999999999999,
+								},
+								["Draining Touch"] = {
+									["count"] = 4.48,
+								},
+							},
+							["amount"] = 13.32,
+						},
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 2,
+									["amount"] = 66,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 66,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 33,
+									["min"] = 33,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 88,
+					},
+					["TimeSpent"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Shadow Burst"] = {
+									["count"] = 0.38,
+								},
+								["Melee"] = {
+									["count"] = 8.459999999999999,
+								},
+								["Draining Touch"] = {
+									["count"] = 4.48,
+								},
+							},
+							["amount"] = 13.32,
+						},
+					},
+					["DamageTaken"] = 59100,
+					["PartialResist"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 1,
+					["PartialAbsorb"] = {
+						["Piercing Shots (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Wild Quiver Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 0,
+						},
+						["Serpent Sting (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+						["Arcane Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Bite"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 0,
+						},
+						["Aimed Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Steady Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Chimera Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.32,
+					["ElementTaken"] = {
+						["Arcane"] = 4039,
+						["Physical"] = 33894,
+						["Melee"] = 3448,
+						["Nature"] = 17719,
+					},
+					["Damage"] = 2059,
+					["ElementTakenBlock"] = {
+						["Physical"] = 99,
+					},
+					["ElementDone"] = {
+						["Melee"] = 1875,
+						["Shadow"] = 184,
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Draining Touch"] = {
+									["count"] = 184,
+								},
+								["Melee"] = {
+									["count"] = 1875,
+								},
+							},
+							["amount"] = 2059,
+						},
+					},
+					["TimeDamage"] = 13.32,
+					["WhoDamaged"] = {
+						["Danilla"] = {
+							["Details"] = {
+								["Piercing Shots (DoT)"] = {
+									["count"] = 1376,
+								},
+								["Chimera Shot"] = {
+									["count"] = 9922,
+								},
+								["Steady Shot"] = {
+									["count"] = 5820,
+								},
+								["Serpent Sting (DoT)"] = {
+									["count"] = 2206,
+								},
+								["Aimed Shot"] = {
+									["count"] = 5750,
+								},
+								["Wild Quiver Auto Shot"] = {
+									["count"] = 5591,
+								},
+								["Auto Shot"] = {
+									["count"] = 16146,
+								},
+								["Arcane Shot"] = {
+									["count"] = 4039,
+								},
+							},
+							["amount"] = 50850,
+						},
+						["Riyadi"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3448,
+								},
+								["Bite"] = {
+									["count"] = 4802,
+								},
+							},
+							["amount"] = 8250,
+						},
+					},
+					["Attacks"] = {
+						["Shadow Burst"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 325,
+									["min"] = 189,
+									["count"] = 7,
+									["amount"] = 1875,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 1875,
+						},
+						["Draining Touch"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 104,
+									["min"] = 80,
+									["count"] = 2,
+									["amount"] = 184,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 184,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 23,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamaging"] = {
+						["Riyadi"] = {
+							["Details"] = {
+								["Shadow Burst"] = {
+									["count"] = 0.38,
+								},
+								["Melee"] = {
+									["count"] = 8.459999999999999,
+								},
+								["Draining Touch"] = {
+									["count"] = 4.48,
+								},
+							},
+							["amount"] = 13.32,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1574739524,
+			["LastActive"] = 1574739524,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

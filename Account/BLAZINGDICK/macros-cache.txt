@@ -24,17 +24,17 @@ MACRO 166 "bp" INV_Misc_QuestionMark
 /use blood tap
 /use blood presence
 END
+MACRO 167 "bs" INV_Misc_QuestionMark
+#showtooltip bone shield
+/use rune tap
+/use bone shield
+/cancelaura hand of protection
+END
 MACRO 163 "bs" INV_Misc_QuestionMark
 #showtooltip
 /cast blood strike
 /petattack
 /startattack
-/cancelaura hand of protection
-END
-MACRO 167 "bs" INV_Misc_QuestionMark
-#showtooltip bone shield
-/use rune tap
-/use bone shield
 /cancelaura hand of protection
 END
 MACRO 173 "burst" Ability_BackStab

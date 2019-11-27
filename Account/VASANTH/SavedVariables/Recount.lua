@@ -5,6 +5,7 @@ RecountDB = {
 	},
 	["profiles"] = {
 		["Immutability - Icecrown"] = {
+			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
 					["h"] = 200.0000027354896,
@@ -18,6 +19,9 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
 		},
 	},

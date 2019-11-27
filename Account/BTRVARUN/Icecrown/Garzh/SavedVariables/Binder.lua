@@ -1,6 +1,6 @@
 
 BinderMinimapSettings = {
-	["yposition"] = 262.3999830860726,
-	["xposition"] = 547.55564299812,
+	["yposition"] = 240.8888933895895,
+	["xposition"] = 536.8888968198896,
 }
 showornot = 1

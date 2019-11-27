@@ -2,6 +2,7 @@
 RebirtherDB = {
 	["profileKeys"] = {
 		["Bowbaby - Icecrown"] = "Default",
+		["Garzh - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
