@@ -358,19 +358,6 @@ PallyPower_Assignments = {
 		4, -- [10]
 		4, -- [11]
 	},
-	["Immutability"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		4, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		3, -- [11]
-	},
 	["Vaglef"] = {
 		2, -- [1]
 		2, -- [2]
@@ -384,7 +371,46 @@ PallyPower_Assignments = {
 		2, -- [10]
 		2, -- [11]
 	},
+	["Aulo"] = {
+		2, -- [1]
+		2, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		2, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		2, -- [10]
+		1, -- [11]
+	},
+	["Immutability"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
 	["Darkkami"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
+	["Njenner"] = {
 		3, -- [1]
 		3, -- [2]
 		3, -- [3]
@@ -699,11 +725,21 @@ PallyPower_NormalAssignments = {
 	},
 	["Sunweli"] = {
 	},
-	["Immutability"] = {
-	},
 	["Vaglef"] = {
 	},
+	["Aulo"] = {
+	},
+	["Immutability"] = {
+	},
 	["Darkkami"] = {
+	},
+	["Njenner"] = {
+		[5] = {
+			["Capacity"] = 2,
+			["Chaoshavoc"] = 2,
+			["Hoeney"] = 2,
+			["Canaria"] = 2,
+		},
 	},
 	["Eradicatiion"] = {
 	},
@@ -770,9 +806,11 @@ PallyPower_AuraAssignments = {
 	["Hugixx"] = 5,
 	["Rshaam"] = 2,
 	["Sunweli"] = 1,
-	["Immutability"] = 1,
 	["Vaglef"] = 3,
+	["Aulo"] = 3,
+	["Immutability"] = 1,
 	["Darkkami"] = 5,
+	["Njenner"] = 5,
 	["Eradicatiion"] = 1,
 	["Denii"] = 0,
 	["Royalscepte"] = 0,

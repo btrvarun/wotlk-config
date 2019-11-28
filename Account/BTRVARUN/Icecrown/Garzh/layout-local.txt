@@ -59,8 +59,8 @@ Frame: SexyCooldownBar 0
 FrameLevel: 1
 Anchor: RIGHT
 X: -444
-Y: 13
-W: 70
+Y: -3
+W: 40
 H: 300
 Frame: SkadaBarWindowSkada
 FrameLevel: 103
@@ -83,10 +83,3 @@ X: -274
 Y: -45
 W: 1
 H: 1
-Frame: DBM_GUI_OptionsFrame
-FrameLevel: 5
-Anchor: CENTER
-X: 249
-Y: -28
-W: 720
-H: 500

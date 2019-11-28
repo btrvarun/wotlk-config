@@ -1,6 +1,0 @@
-
-SavedOptionsPerChar = {
-	["Install"] = false,
-}
-SavedPositions = {
-}

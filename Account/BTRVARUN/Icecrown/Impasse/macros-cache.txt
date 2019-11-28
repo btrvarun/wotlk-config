@@ -1,0 +1,5 @@
+MACRO 16777217 "sb" INV_Misc_QuestionMark
+#showtooltip
+/cast shadow bolt
+/petattack
+END

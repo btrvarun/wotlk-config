@@ -21,7 +21,7 @@ Y: 0
 W: 365
 H: 200
 Frame: AtlasLootDefaultFrame
-FrameLevel: 46
+FrameLevel: 42
 Anchor: CENTER
 X: -230
 Y: 32
@@ -98,7 +98,7 @@ Y: 32
 W: 1
 H: 1
 Frame: TellMeWhen_Group4
-FrameLevel: 42
+FrameLevel: 41
 Anchor: LEFT
 X: 103
 Y: -23

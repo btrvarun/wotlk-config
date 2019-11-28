@@ -1821,5 +1821,401 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aNyzul|r",
 		}, -- [101]
+		{
+			"lu Vil DAna ador se hir O valesh E Lu ve", -- [1]
+			"Renelak", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			91, -- [11]
+			"0x070000000043B79F", -- [12]
+			0, -- [13]
+			[51] = 1574864393,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaRenelak|r",
+		}, -- [102]
+		{
+			"lu Vil DAna ador se hir O valesh E Lu ve", -- [1]
+			"Renelak", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			92, -- [11]
+			"0x070000000043B79F", -- [12]
+			0, -- [13]
+			[51] = 1574864406,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaRenelak|r",
+		}, -- [103]
+		{
+			"ICC 25 N fresh! need 2 TANK and 3 HEAL Dps Rdps (8-9\\12) 5.6+ GS! (Blood ress! ) /w me gs and class! gems + ench", -- [1]
+			"Rallor", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			93, -- [11]
+			"0x070000000044834E", -- [12]
+			0, -- [13]
+			[51] = 1574864408,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aRallor|r",
+		}, -- [104]
+		{
+			"LFM TOC25 3 DPS +5.2k (whisp role + gs + achi) (B+O+P res) 22/25", -- [1]
+			"Fallowfield", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"0x07000000003816F1", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefFallowfield|r",
+		}, -- [105]
+		{
+			"WTB MECHANO HOG FOR 21K GOLD WHISP ME !", -- [1]
+			"Nynth", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			96, -- [11]
+			"0x07000000004C072F", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddNynth|r",
+		}, -- [106]
+		{
+			"NEED ALL FOR TOC 25n /w GS + ACH [Call of the Crusade (25 player)] ( boe / recipes res ) !!! 5.4k+", -- [1]
+			"Ninjager", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			97, -- [11]
+			"0x0700000000341F77", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Ninjager|r",
+		}, -- [107]
+		{
+			"LFM ICC 25 - 10/12 bosses run - Need Tanks + Healers + DPS /w me with GS + Spec [Bulwark of Smouldering Steel]++ [Althor's Abacus] b+p Res ", -- [1]
+			"Sethcor", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			98, -- [11]
+			"0x07000000004E1187", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddSethcor|r",
+		}, -- [108]
+		{
+			"WTS RET PALA < meykadeh> on trade system warmane - achivement 4130 - Wipon : Shadow murne - sharpend - feet.neck RS Hc - 4set 277- deadts choice Hc - Mount LK (Invihcible)-Works (Engineering-Tailor 450) cooking . fishing 450 - 3810 arena points (389 Coin)", -- [1]
+			"Darkeviill", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			99, -- [11]
+			"0x07000000001D5EF5", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Darkeviill|r",
+		}, -- [109]
+		{
+			"{star} <KJ Team> {star} Bulgarska Guildiq tursi igrachi s opit za raidovete ||RS,ICC,TOGC,NAXX,ULDUAR|| opitat ne e zaduljitelen no e s predimstvo ! /w za poveche informaciq ili mi pratete pismo|| {diamond}", -- [1]
+			"Zechetra", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			100, -- [11]
+			"0x070000000000C8A5", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaZechetra|r",
+		}, -- [110]
+		{
+			"{star} <KJ Team> {star} Bulgarska Guildiq tursi igrachi s opit za raidovete ||RS,ICC,TOGC,NAXX,ULDUAR|| opitat ne e zaduljitelen no e s predimstvo ! /w za poveche informaciq ili mi pratete pismo|| {diamond}", -- [1]
+			"Zechetra", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			101, -- [11]
+			"0x070000000000C8A5", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaZechetra|r",
+		}, -- [111]
+		{
+			"BOR MoD SE goth nud VIL Y Nud Borne ve raS E U Ti ergin KO Garde LO SE ", -- [1]
+			"Iji", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			102, -- [11]
+			"0x070000000041FCC4", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dIji|r",
+		}, -- [112]
+		{
+			"BOR MoD SE goth nud VIL Y Nud Borne ve raS E U Ti ergin KO Garde LO SE E E ", -- [1]
+			"Iji", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			103, -- [11]
+			"0x070000000041FCC4", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dIji|r",
+		}, -- [113]
+		{
+			" [El Trono Helado (10 j.)] LF **RAID Alt ** ICC 10 N **5.3Gs+ min (B+P=R) Need 2 Heal 2 Tank and 1 DPS **5/10**", -- [1]
+			"Ciielo", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			104, -- [11]
+			"0x07000000003D689F", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaCiielo|r",
+		}, -- [114]
+		{
+			"1", -- [1]
+			"Deadppool", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			105, -- [11]
+			"0x07000000004BCA52", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaDeadppool|r",
+		}, -- [115]
+		{
+			"LF ICC 25 HC/N 8/12 NeeD 1Tank 1Healdudu) Rest Dps 6.2 B/P res Link me Mini |cffffff00|Hachievement:4635:070000000028876C:1:4:4:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Frostwing Halls (25 player)]|h|r", -- [1]
+			"Kiingfuryx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			106, -- [11]
+			"0x070000000028876C", -- [12]
+			0, -- [13]
+			[51] = 1574864419,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dKiingfuryx|r",
+		}, -- [116]
+		{
+			" [El Trono Helado (10 j.)] LF **RAID Alt ** ICC 10 N **5.3Gs+ min (B+P=R) Need 2 Heal 2 Tank and 1 DPS **5/10**", -- [1]
+			"Irvanna", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			107, -- [11]
+			"0x070000000046D79F", -- [12]
+			0, -- [13]
+			[51] = 1574864420,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Irvanna|r",
+		}, -- [117]
+		{
+			"*Unknown Gentlemen* Guild is looking for core members. we need rdps / holy pala/demo warlock /rogue and resto dudu with +5.8kgs .w/me for more info.We do icc 10/25 , Toc 10/25 and rs 25 n for now . Raid Time is 11:00 am st ", -- [1]
+			"Unbruid", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			108, -- [11]
+			"0x07000000004C996F", -- [12]
+			0, -- [13]
+			[51] = 1574864422,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aUnbruid|r",
+		}, -- [118]
+		{
+			"LFM TOC25 3 DPS +5.2k (whisp role + gs + achi) (B+O+P res) 22/25", -- [1]
+			"Fallowfield", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			109, -- [11]
+			"0x07000000003816F1", -- [12]
+			0, -- [13]
+			[51] = 1574864423,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefFallowfield|r",
+		}, -- [119]
+		{
+			"{star} <KJ Team> {star} Bulgarska Guildiq tursi igrachi s opit za raidovete ||RS,ICC,TOGC,NAXX,ULDUAR|| opitat ne e zaduljitelen no e s predimstvo ! /w za poveche informaciq ili mi pratete pismo|| {diamond}", -- [1]
+			"Zechetra", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			110, -- [11]
+			"0x070000000000C8A5", -- [12]
+			0, -- [13]
+			[51] = 1574864427,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaZechetra|r",
+		}, -- [120]
+		{
+			"E ASH VOHL O FAERGAS DANA Y", -- [1]
+			"Majack", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			111, -- [11]
+			"0x07000000003871F3", -- [12]
+			0, -- [13]
+			[51] = 1574864429,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dMajack|r",
+		}, -- [121]
+		{
+			"LF ICC 25 HC/N 8/12 NeeD 1Tank 1Healdudu) Rest Dps 6.2 B/P res Link me Mini |cffffff00|Hachievement:4635:070000000028876C:1:4:4:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Frostwing Halls (25 player)]|h|r", -- [1]
+			"Kiingfuryx", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			112, -- [11]
+			"0x070000000028876C", -- [12]
+			0, -- [13]
+			[51] = 1574864430,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKiingfuryx|r",
+		}, -- [122]
+		{
+			"WTS |cffa335ee|Hitem:47257:0:0:0:0:0:0:0:80|h[Cloak of the Untamed Predator]|h|r", -- [1]
+			"Deadppool", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			113, -- [11]
+			"0x07000000004BCA52", -- [12]
+			0, -- [13]
+			[51] = 1574864432,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaDeadppool|r",
+		}, -- [123]
 	},
 }

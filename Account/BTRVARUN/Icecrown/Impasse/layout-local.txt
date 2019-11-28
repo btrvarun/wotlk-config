@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT
@@ -34,6 +34,27 @@ X: -60
 Y: 290
 W: 1
 H: 1
+Frame: Rebirths
+FrameLevel: 2
+Anchor: TOP
+X: -301
+Y: -2
+W: 120
+H: 20
+Frame: Innervates
+FrameLevel: 2
+Anchor: TOP
+X: -422
+Y: -2
+W: 120
+H: 20
+Frame: Recount_MainWindow
+FrameLevel: 30
+Anchor: BOTTOMRIGHT
+X: -6
+Y: 29
+W: 265
+H: 216
 Frame: SexyCooldownBar 0
 FrameLevel: 1
 Anchor: LEFT
