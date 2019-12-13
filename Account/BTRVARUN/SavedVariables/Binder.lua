@@ -12,37 +12,37 @@ Binder_Settings = {
 					["TheAction"] = "MOVEANDSTEER",
 				}, -- [2]
 				{
-					["TheAction"] = "MOVEFORWARD",
-					["BindingOne"] = "W",
 					["BindingTwo"] = "UP",
+					["BindingOne"] = "W",
+					["TheAction"] = "MOVEFORWARD",
 				}, -- [3]
 				{
-					["TheAction"] = "MOVEBACKWARD",
-					["BindingOne"] = "S",
 					["BindingTwo"] = "DOWN",
+					["BindingOne"] = "S",
+					["TheAction"] = "MOVEBACKWARD",
 				}, -- [4]
 				{
-					["TheAction"] = "TURNLEFT",
-					["BindingOne"] = "A",
 					["BindingTwo"] = "LEFT",
+					["BindingOne"] = "A",
+					["TheAction"] = "TURNLEFT",
 				}, -- [5]
 				{
-					["TheAction"] = "TURNRIGHT",
-					["BindingOne"] = "D",
 					["BindingTwo"] = "RIGHT",
+					["BindingOne"] = "D",
+					["TheAction"] = "TURNRIGHT",
 				}, -- [6]
 				{
-					["TheAction"] = "STRAFELEFT",
 					["BindingOne"] = "Q",
+					["TheAction"] = "STRAFELEFT",
 				}, -- [7]
 				{
-					["TheAction"] = "STRAFERIGHT",
 					["BindingOne"] = "E",
+					["TheAction"] = "STRAFERIGHT",
 				}, -- [8]
 				{
-					["TheAction"] = "JUMP",
-					["BindingOne"] = "SPACE",
 					["BindingTwo"] = "NUMPAD0",
+					["BindingOne"] = "SPACE",
+					["TheAction"] = "JUMP",
 				}, -- [9]
 				{
 					["TheAction"] = "SITORSTAND",
@@ -51,20 +51,20 @@ Binder_Settings = {
 					["TheAction"] = "TOGGLESHEATH",
 				}, -- [11]
 				{
-					["TheAction"] = "TOGGLEAUTORUN",
 					["BindingOne"] = "NUMLOCK",
+					["TheAction"] = "TOGGLEAUTORUN",
 				}, -- [12]
 				{
-					["TheAction"] = "PITCHUP",
 					["BindingOne"] = "INSERT",
+					["TheAction"] = "PITCHUP",
 				}, -- [13]
 				{
-					["TheAction"] = "PITCHDOWN",
 					["BindingOne"] = "DELETE",
+					["TheAction"] = "PITCHDOWN",
 				}, -- [14]
 				{
-					["TheAction"] = "TOGGLERUN",
 					["BindingOne"] = "NUMPADDIVIDE",
+					["TheAction"] = "TOGGLERUN",
 				}, -- [15]
 				{
 					["TheAction"] = "FOLLOWTARGET",
@@ -73,215 +73,215 @@ Binder_Settings = {
 					["TheAction"] = "HEADER_CHAT",
 				}, -- [17]
 				{
-					["TheAction"] = "OPENCHAT",
 					["BindingOne"] = "ENTER",
+					["TheAction"] = "OPENCHAT",
 				}, -- [18]
 				{
-					["TheAction"] = "OPENCHATSLASH",
 					["BindingOne"] = "/",
+					["TheAction"] = "OPENCHATSLASH",
 				}, -- [19]
 				{
-					["TheAction"] = "CHATPAGEUP",
 					["BindingOne"] = "PAGEUP",
+					["TheAction"] = "CHATPAGEUP",
 				}, -- [20]
 				{
-					["TheAction"] = "CHATPAGEDOWN",
 					["BindingOne"] = "PAGEDOWN",
+					["TheAction"] = "CHATPAGEDOWN",
 				}, -- [21]
 				{
-					["TheAction"] = "CHATBOTTOM",
 					["BindingOne"] = "SHIFT-PAGEDOWN",
+					["TheAction"] = "CHATBOTTOM",
 				}, -- [22]
 				{
 					["TheAction"] = "REPLY",
 				}, -- [23]
 				{
-					["TheAction"] = "REPLY2",
 					["BindingOne"] = "SHIFT-R",
+					["TheAction"] = "REPLY2",
 				}, -- [24]
 				{
-					["TheAction"] = "COMBATLOGPAGEUP",
 					["BindingOne"] = "CTRL-PAGEUP",
+					["TheAction"] = "COMBATLOGPAGEUP",
 				}, -- [25]
 				{
-					["TheAction"] = "COMBATLOGPAGEDOWN",
 					["BindingOne"] = "CTRL-PAGEDOWN",
+					["TheAction"] = "COMBATLOGPAGEDOWN",
 				}, -- [26]
 				{
-					["TheAction"] = "COMBATLOGBOTTOM",
 					["BindingOne"] = "CTRL-SHIFT-PAGEDOWN",
+					["TheAction"] = "COMBATLOGBOTTOM",
 				}, -- [27]
 				{
 					["TheAction"] = "HEADER_ACTIONBAR",
 				}, -- [28]
 				{
-					["TheAction"] = "ACTIONBUTTON1",
 					["BindingOne"] = "1",
+					["TheAction"] = "ACTIONBUTTON1",
 				}, -- [29]
 				{
-					["TheAction"] = "ACTIONBUTTON2",
 					["BindingOne"] = "2",
+					["TheAction"] = "ACTIONBUTTON2",
 				}, -- [30]
 				{
-					["TheAction"] = "ACTIONBUTTON3",
 					["BindingOne"] = "3",
+					["TheAction"] = "ACTIONBUTTON3",
 				}, -- [31]
 				{
-					["TheAction"] = "ACTIONBUTTON4",
 					["BindingOne"] = "4",
+					["TheAction"] = "ACTIONBUTTON4",
 				}, -- [32]
 				{
-					["TheAction"] = "ACTIONBUTTON5",
 					["BindingOne"] = "5",
+					["TheAction"] = "ACTIONBUTTON5",
 				}, -- [33]
 				{
-					["TheAction"] = "ACTIONBUTTON6",
-					["BindingOne"] = "6",
 					["BindingTwo"] = "Z",
+					["BindingOne"] = "6",
+					["TheAction"] = "ACTIONBUTTON6",
 				}, -- [34]
 				{
-					["TheAction"] = "ACTIONBUTTON7",
-					["BindingOne"] = "7",
 					["BindingTwo"] = "G",
+					["BindingOne"] = "7",
+					["TheAction"] = "ACTIONBUTTON7",
 				}, -- [35]
 				{
-					["TheAction"] = "ACTIONBUTTON8",
-					["BindingOne"] = "8",
 					["BindingTwo"] = "X",
+					["BindingOne"] = "8",
+					["TheAction"] = "ACTIONBUTTON8",
 				}, -- [36]
 				{
-					["TheAction"] = "ACTIONBUTTON9",
-					["BindingOne"] = "9",
 					["BindingTwo"] = "F",
+					["BindingOne"] = "9",
+					["TheAction"] = "ACTIONBUTTON9",
 				}, -- [37]
 				{
-					["TheAction"] = "ACTIONBUTTON10",
-					["BindingOne"] = "0",
 					["BindingTwo"] = "C",
+					["BindingOne"] = "0",
+					["TheAction"] = "ACTIONBUTTON10",
 				}, -- [38]
 				{
-					["TheAction"] = "ACTIONBUTTON11",
-					["BindingOne"] = "-",
 					["BindingTwo"] = "ALT-C",
+					["BindingOne"] = "-",
+					["TheAction"] = "ACTIONBUTTON11",
 				}, -- [39]
 				{
-					["TheAction"] = "ACTIONBUTTON12",
-					["BindingOne"] = "=",
 					["BindingTwo"] = "`",
+					["BindingOne"] = "=",
+					["TheAction"] = "ACTIONBUTTON12",
 				}, -- [40]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON1",
 					["BindingOne"] = "CTRL-F1",
+					["TheAction"] = "SHAPESHIFTBUTTON1",
 				}, -- [41]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON2",
 					["BindingOne"] = "CTRL-F2",
+					["TheAction"] = "SHAPESHIFTBUTTON2",
 				}, -- [42]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON3",
 					["BindingOne"] = "CTRL-F3",
+					["TheAction"] = "SHAPESHIFTBUTTON3",
 				}, -- [43]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON4",
 					["BindingOne"] = "CTRL-F4",
+					["TheAction"] = "SHAPESHIFTBUTTON4",
 				}, -- [44]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON5",
 					["BindingOne"] = "CTRL-F5",
+					["TheAction"] = "SHAPESHIFTBUTTON5",
 				}, -- [45]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON6",
 					["BindingOne"] = "CTRL-F6",
+					["TheAction"] = "SHAPESHIFTBUTTON6",
 				}, -- [46]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON7",
 					["BindingOne"] = "CTRL-F7",
+					["TheAction"] = "SHAPESHIFTBUTTON7",
 				}, -- [47]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON8",
 					["BindingOne"] = "CTRL-F8",
+					["TheAction"] = "SHAPESHIFTBUTTON8",
 				}, -- [48]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON9",
 					["BindingOne"] = "CTRL-F9",
+					["TheAction"] = "SHAPESHIFTBUTTON9",
 				}, -- [49]
 				{
-					["TheAction"] = "SHAPESHIFTBUTTON10",
 					["BindingOne"] = "CTRL-F10",
+					["TheAction"] = "SHAPESHIFTBUTTON10",
 				}, -- [50]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON1",
 					["BindingOne"] = "CTRL-1",
+					["TheAction"] = "BONUSACTIONBUTTON1",
 				}, -- [51]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON2",
 					["BindingOne"] = "CTRL-2",
+					["TheAction"] = "BONUSACTIONBUTTON2",
 				}, -- [52]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON3",
 					["BindingOne"] = "CTRL-3",
+					["TheAction"] = "BONUSACTIONBUTTON3",
 				}, -- [53]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON4",
 					["BindingOne"] = "CTRL-4",
+					["TheAction"] = "BONUSACTIONBUTTON4",
 				}, -- [54]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON5",
 					["BindingOne"] = "CTRL-5",
+					["TheAction"] = "BONUSACTIONBUTTON5",
 				}, -- [55]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON6",
 					["BindingOne"] = "CTRL-6",
+					["TheAction"] = "BONUSACTIONBUTTON6",
 				}, -- [56]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON7",
 					["BindingOne"] = "CTRL-7",
+					["TheAction"] = "BONUSACTIONBUTTON7",
 				}, -- [57]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON8",
 					["BindingOne"] = "CTRL-8",
+					["TheAction"] = "BONUSACTIONBUTTON8",
 				}, -- [58]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON9",
 					["BindingOne"] = "CTRL-9",
+					["TheAction"] = "BONUSACTIONBUTTON9",
 				}, -- [59]
 				{
-					["TheAction"] = "BONUSACTIONBUTTON10",
 					["BindingOne"] = "CTRL-0",
+					["TheAction"] = "BONUSACTIONBUTTON10",
 				}, -- [60]
 				{
-					["TheAction"] = "ACTIONPAGE1",
 					["BindingOne"] = "SHIFT-1",
+					["TheAction"] = "ACTIONPAGE1",
 				}, -- [61]
 				{
-					["TheAction"] = "ACTIONPAGE2",
 					["BindingOne"] = "SHIFT-2",
+					["TheAction"] = "ACTIONPAGE2",
 				}, -- [62]
 				{
-					["TheAction"] = "ACTIONPAGE3",
 					["BindingOne"] = "SHIFT-3",
+					["TheAction"] = "ACTIONPAGE3",
 				}, -- [63]
 				{
-					["TheAction"] = "ACTIONPAGE4",
 					["BindingOne"] = "SHIFT-4",
+					["TheAction"] = "ACTIONPAGE4",
 				}, -- [64]
 				{
-					["TheAction"] = "ACTIONPAGE5",
 					["BindingOne"] = "SHIFT-5",
+					["TheAction"] = "ACTIONPAGE5",
 				}, -- [65]
 				{
-					["TheAction"] = "ACTIONPAGE6",
 					["BindingOne"] = "SHIFT-6",
+					["TheAction"] = "ACTIONPAGE6",
 				}, -- [66]
 				{
-					["TheAction"] = "PREVIOUSACTIONPAGE",
-					["BindingOne"] = "SHIFT-UP",
 					["BindingTwo"] = "SHIFT-MOUSEWHEELUP",
+					["BindingOne"] = "SHIFT-UP",
+					["TheAction"] = "PREVIOUSACTIONPAGE",
 				}, -- [67]
 				{
-					["TheAction"] = "NEXTACTIONPAGE",
-					["BindingOne"] = "SHIFT-DOWN",
 					["BindingTwo"] = "SHIFT-MOUSEWHEELDOWN",
+					["BindingOne"] = "SHIFT-DOWN",
+					["TheAction"] = "NEXTACTIONPAGE",
 				}, -- [68]
 				{
 					["TheAction"] = "TOGGLEACTIONBARLOCK",
@@ -353,20 +353,20 @@ Binder_Settings = {
 					["TheAction"] = "HEADER_TARGETING",
 				}, -- [91]
 				{
-					["TheAction"] = "TARGETNEARESTENEMY",
 					["BindingOne"] = "TAB",
+					["TheAction"] = "TARGETNEARESTENEMY",
 				}, -- [92]
 				{
-					["TheAction"] = "TARGETPREVIOUSENEMY",
 					["BindingOne"] = "SHIFT-TAB",
+					["TheAction"] = "TARGETPREVIOUSENEMY",
 				}, -- [93]
 				{
-					["TheAction"] = "TARGETNEARESTFRIEND",
 					["BindingOne"] = "CTRL-TAB",
+					["TheAction"] = "TARGETNEARESTFRIEND",
 				}, -- [94]
 				{
-					["TheAction"] = "TARGETPREVIOUSFRIEND",
 					["BindingOne"] = "CTRL-SHIFT-TAB",
+					["TheAction"] = "TARGETPREVIOUSFRIEND",
 				}, -- [95]
 				{
 					["TheAction"] = "TARGETNEARESTENEMYPLAYER",
@@ -390,32 +390,32 @@ Binder_Settings = {
 					["TheAction"] = "TARGETPARTYMEMBER2",
 				}, -- [102]
 				{
-					["TheAction"] = "TARGETPARTYMEMBER3",
 					["BindingOne"] = "F4",
+					["TheAction"] = "TARGETPARTYMEMBER3",
 				}, -- [103]
 				{
-					["TheAction"] = "TARGETPARTYMEMBER4",
 					["BindingOne"] = "F5",
+					["TheAction"] = "TARGETPARTYMEMBER4",
 				}, -- [104]
 				{
-					["TheAction"] = "TARGETPET",
 					["BindingOne"] = "SHIFT-F1",
+					["TheAction"] = "TARGETPET",
 				}, -- [105]
 				{
-					["TheAction"] = "TARGETPARTYPET1",
 					["BindingOne"] = "SHIFT-F2",
+					["TheAction"] = "TARGETPARTYPET1",
 				}, -- [106]
 				{
-					["TheAction"] = "TARGETPARTYPET2",
 					["BindingOne"] = "SHIFT-F3",
+					["TheAction"] = "TARGETPARTYPET2",
 				}, -- [107]
 				{
-					["TheAction"] = "TARGETPARTYPET3",
 					["BindingOne"] = "SHIFT-F4",
+					["TheAction"] = "TARGETPARTYPET3",
 				}, -- [108]
 				{
-					["TheAction"] = "TARGETPARTYPET4",
 					["BindingOne"] = "SHIFT-F5",
+					["TheAction"] = "TARGETPARTYPET4",
 				}, -- [109]
 				{
 					["TheAction"] = "TARGETLASTHOSTILE",
@@ -424,16 +424,16 @@ Binder_Settings = {
 					["TheAction"] = "TARGETLASTTARGET",
 				}, -- [111]
 				{
-					["TheAction"] = "NAMEPLATES",
 					["BindingOne"] = "V",
+					["TheAction"] = "NAMEPLATES",
 				}, -- [112]
 				{
-					["TheAction"] = "FRIENDNAMEPLATES",
 					["BindingOne"] = "SHIFT-V",
+					["TheAction"] = "FRIENDNAMEPLATES",
 				}, -- [113]
 				{
-					["TheAction"] = "ALLNAMEPLATES",
 					["BindingOne"] = "CTRL-V",
+					["TheAction"] = "ALLNAMEPLATES",
 				}, -- [114]
 				{
 					["TheAction"] = "INTERACTMOUSEOVER",
@@ -451,8 +451,8 @@ Binder_Settings = {
 					["TheAction"] = "STARTATTACK",
 				}, -- [119]
 				{
-					["TheAction"] = "PETATTACK",
 					["BindingOne"] = "SHIFT-T",
+					["TheAction"] = "PETATTACK",
 				}, -- [120]
 				{
 					["TheAction"] = "FOCUSTARGET",
@@ -470,89 +470,89 @@ Binder_Settings = {
 					["TheAction"] = "HEADER_INTERFACE",
 				}, -- [125]
 				{
-					["TheAction"] = "TOGGLECHARACTER0",
 					["BindingOne"] = ".",
+					["TheAction"] = "TOGGLECHARACTER0",
 				}, -- [126]
 				{
-					["TheAction"] = "TOGGLEBACKPACK",
-					["BindingOne"] = "B",
 					["BindingTwo"] = "F12",
+					["BindingOne"] = "B",
+					["TheAction"] = "TOGGLEBACKPACK",
 				}, -- [127]
 				{
-					["TheAction"] = "TOGGLEBAG1",
 					["BindingOne"] = "F8",
+					["TheAction"] = "TOGGLEBAG1",
 				}, -- [128]
 				{
-					["TheAction"] = "TOGGLEBAG2",
 					["BindingOne"] = "F9",
+					["TheAction"] = "TOGGLEBAG2",
 				}, -- [129]
 				{
-					["TheAction"] = "TOGGLEBAG3",
 					["BindingOne"] = "F10",
+					["TheAction"] = "TOGGLEBAG3",
 				}, -- [130]
 				{
-					["TheAction"] = "TOGGLEBAG4",
 					["BindingOne"] = "F11",
+					["TheAction"] = "TOGGLEBAG4",
 				}, -- [131]
 				{
-					["TheAction"] = "OPENALLBAGS",
 					["BindingOne"] = "SHIFT-B",
+					["TheAction"] = "OPENALLBAGS",
 				}, -- [132]
 				{
 					["TheAction"] = "TOGGLEKEYRING",
 				}, -- [133]
 				{
-					["TheAction"] = "TOGGLESPELLBOOK",
 					["BindingOne"] = "P",
+					["TheAction"] = "TOGGLESPELLBOOK",
 				}, -- [134]
 				{
-					["TheAction"] = "TOGGLEPETBOOK",
 					["BindingOne"] = "SHIFT-I",
+					["TheAction"] = "TOGGLEPETBOOK",
 				}, -- [135]
 				{
 					["TheAction"] = "TOGGLEINSCRIPTION",
 				}, -- [136]
 				{
-					["TheAction"] = "TOGGLETALENTS",
 					["BindingOne"] = "N",
+					["TheAction"] = "TOGGLETALENTS",
 				}, -- [137]
 				{
-					["TheAction"] = "TOGGLECHARACTER4",
 					["BindingOne"] = "H",
+					["TheAction"] = "TOGGLECHARACTER4",
 				}, -- [138]
 				{
-					["TheAction"] = "TOGGLECHARACTER3",
 					["BindingOne"] = "SHIFT-P",
+					["TheAction"] = "TOGGLECHARACTER3",
 				}, -- [139]
 				{
-					["TheAction"] = "TOGGLECHARACTER2",
 					["BindingOne"] = "U",
+					["TheAction"] = "TOGGLECHARACTER2",
 				}, -- [140]
 				{
-					["TheAction"] = "TOGGLECHARACTER1",
 					["BindingOne"] = "K",
+					["TheAction"] = "TOGGLECHARACTER1",
 				}, -- [141]
 				{
-					["TheAction"] = "TOGGLEQUESTLOG",
 					["BindingOne"] = "L",
+					["TheAction"] = "TOGGLEQUESTLOG",
 				}, -- [142]
 				{
-					["TheAction"] = "TOGGLEGAMEMENU",
 					["BindingOne"] = "ESCAPE",
+					["TheAction"] = "TOGGLEGAMEMENU",
 				}, -- [143]
 				{
 					["TheAction"] = "TOGGLEMINIMAP",
 				}, -- [144]
 				{
-					["TheAction"] = "TOGGLEWORLDMAP",
 					["BindingOne"] = "M",
+					["TheAction"] = "TOGGLEWORLDMAP",
 				}, -- [145]
 				{
 					["TheAction"] = "TOGGLEWORLDMAPSIZE",
 				}, -- [146]
 				{
-					["TheAction"] = "TOGGLESOCIAL",
 					["BindingOne"] = "O",
+					["TheAction"] = "TOGGLESOCIAL",
 				}, -- [147]
 				{
 					["TheAction"] = "TOGGLEFRIENDSTAB",
@@ -570,34 +570,34 @@ Binder_Settings = {
 					["TheAction"] = "TOGGLERAIDTAB",
 				}, -- [152]
 				{
-					["TheAction"] = "TOGGLELFGPARENT",
 					["BindingOne"] = "I",
+					["TheAction"] = "TOGGLELFGPARENT",
 				}, -- [153]
 				{
 					["TheAction"] = "TOGGLELFRPARENT",
 				}, -- [154]
 				{
-					["TheAction"] = "TOGGLEWORLDSTATESCORES",
 					["BindingOne"] = "SHIFT-SPACE",
+					["TheAction"] = "TOGGLEWORLDSTATESCORES",
 				}, -- [155]
 				{
-					["TheAction"] = "TOGGLEBATTLEFIELDMINIMAP",
 					["BindingOne"] = "SHIFT-M",
+					["TheAction"] = "TOGGLEBATTLEFIELDMINIMAP",
 				}, -- [156]
 				{
 					["TheAction"] = "TOGGLEMINIMAPROTATION",
 				}, -- [157]
 				{
-					["TheAction"] = "TOGGLECHANNELPULLOUT",
 					["BindingOne"] = "SHIFT-O",
+					["TheAction"] = "TOGGLECHANNELPULLOUT",
 				}, -- [158]
 				{
-					["TheAction"] = "TOGGLEACHIEVEMENT",
 					["BindingOne"] = "Y",
+					["TheAction"] = "TOGGLEACHIEVEMENT",
 				}, -- [159]
 				{
-					["TheAction"] = "TOGGLESTATISTICS",
 					["BindingOne"] = "SHIFT-Y",
+					["TheAction"] = "TOGGLESTATISTICS",
 				}, -- [160]
 				{
 					["TheAction"] = "TOGGLECURRENCY",
@@ -615,62 +615,62 @@ Binder_Settings = {
 					["TheAction"] = "DISMOUNT",
 				}, -- [165]
 				{
-					["TheAction"] = "MINIMAPZOOMIN",
 					["BindingOne"] = "NUMPADPLUS",
+					["TheAction"] = "MINIMAPZOOMIN",
 				}, -- [166]
 				{
-					["TheAction"] = "MINIMAPZOOMOUT",
 					["BindingOne"] = "NUMPADMINUS",
+					["TheAction"] = "MINIMAPZOOMOUT",
 				}, -- [167]
 				{
-					["TheAction"] = "TOGGLEMUSIC",
 					["BindingOne"] = "CTRL-M",
+					["TheAction"] = "TOGGLEMUSIC",
 				}, -- [168]
 				{
-					["TheAction"] = "TOGGLESOUND",
 					["BindingOne"] = "CTRL-S",
+					["TheAction"] = "TOGGLESOUND",
 				}, -- [169]
 				{
-					["TheAction"] = "MASTERVOLUMEUP",
 					["BindingOne"] = "CTRL-=",
+					["TheAction"] = "MASTERVOLUMEUP",
 				}, -- [170]
 				{
-					["TheAction"] = "MASTERVOLUMEDOWN",
 					["BindingOne"] = "CTRL--",
+					["TheAction"] = "MASTERVOLUMEDOWN",
 				}, -- [171]
 				{
 					["TheAction"] = "TOGGLESELFMUTE",
 				}, -- [172]
 				{
-					["TheAction"] = "TOGGLEUI",
 					["BindingOne"] = "ALT-Z",
+					["TheAction"] = "TOGGLEUI",
 				}, -- [173]
 				{
-					["TheAction"] = "TOGGLEFPS",
 					["BindingOne"] = "CTRL-R",
+					["TheAction"] = "TOGGLEFPS",
 				}, -- [174]
 				{
-					["TheAction"] = "SCREENSHOT",
 					["BindingOne"] = "PRINTSCREEN",
+					["TheAction"] = "SCREENSHOT",
 				}, -- [175]
 				{
 					["TheAction"] = "HEADER_CAMERA",
 				}, -- [176]
 				{
-					["TheAction"] = "NEXTVIEW",
 					["BindingOne"] = "END",
+					["TheAction"] = "NEXTVIEW",
 				}, -- [177]
 				{
-					["TheAction"] = "PREVVIEW",
 					["BindingOne"] = "HOME",
+					["TheAction"] = "PREVVIEW",
 				}, -- [178]
 				{
-					["TheAction"] = "CAMERAZOOMIN",
 					["BindingOne"] = "MOUSEWHEELUP",
+					["TheAction"] = "CAMERAZOOMIN",
 				}, -- [179]
 				{
-					["TheAction"] = "CAMERAZOOMOUT",
 					["BindingOne"] = "MOUSEWHEELDOWN",
+					["TheAction"] = "CAMERAZOOMOUT",
 				}, -- [180]
 				{
 					["TheAction"] = "SETVIEW1",
@@ -724,78 +724,78 @@ Binder_Settings = {
 					["TheAction"] = "HEADER_MULTIACTIONBAR",
 				}, -- [197]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON1",
 					["BindingOne"] = "R",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON1",
 				}, -- [198]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON2",
 					["BindingOne"] = "T",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON2",
 				}, -- [199]
 				{
 					["TheAction"] = "MULTIACTIONBAR1BUTTON3",
 				}, -- [200]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON4",
 					["BindingOne"] = "ALT-1",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON4",
 				}, -- [201]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON5",
 					["BindingOne"] = "ALT-2",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON5",
 				}, -- [202]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON6",
 					["BindingOne"] = "ALT-3",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON6",
 				}, -- [203]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON7",
 					["BindingOne"] = "ALT-Q",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON7",
 				}, -- [204]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON8",
 					["BindingOne"] = "ALT-E",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON8",
 				}, -- [205]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON9",
 					["BindingOne"] = "ALT-BUTTON3",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON9",
 				}, -- [206]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON10",
 					["BindingOne"] = "BUTTON3",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON10",
 				}, -- [207]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON11",
 					["BindingOne"] = "BUTTON5",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON11",
 				}, -- [208]
 				{
-					["TheAction"] = "MULTIACTIONBAR1BUTTON12",
 					["BindingOne"] = "BUTTON4",
+					["TheAction"] = "MULTIACTIONBAR1BUTTON12",
 				}, -- [209]
 				{
 					["TheAction"] = "HEADER_BLANK4",
 				}, -- [210]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON1",
 					["BindingOne"] = "F1",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON1",
 				}, -- [211]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON2",
 					["BindingOne"] = "F2",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON2",
 				}, -- [212]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON3",
 					["BindingOne"] = "F3",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON3",
 				}, -- [213]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON4",
 					["BindingOne"] = "ALT-R",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON4",
 				}, -- [214]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON5",
 					["BindingOne"] = "ALT-T",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON5",
 				}, -- [215]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON6",
 					["BindingOne"] = "ALT-F",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON6",
 				}, -- [216]
 				{
 					["TheAction"] = "MULTIACTIONBAR2BUTTON7",
@@ -810,12 +810,12 @@ Binder_Settings = {
 					["TheAction"] = "MULTIACTIONBAR2BUTTON10",
 				}, -- [220]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON11",
 					["BindingOne"] = "ALT-BUTTON5",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON11",
 				}, -- [221]
 				{
-					["TheAction"] = "MULTIACTIONBAR2BUTTON12",
 					["BindingOne"] = "ALT-BUTTON4",
+					["TheAction"] = "MULTIACTIONBAR2BUTTON12",
 				}, -- [222]
 				{
 					["TheAction"] = "HEADER_BLANK5",
@@ -929,16 +929,16 @@ Binder_Settings = {
 					["TheAction"] = "HEADER_VEHICLE",
 				}, -- [259]
 				{
-					["TheAction"] = "VEHICLEEXIT",
 					["BindingOne"] = "NUMPAD5",
+					["TheAction"] = "VEHICLEEXIT",
 				}, -- [260]
 				{
-					["TheAction"] = "VEHICLEPREVSEAT",
 					["BindingOne"] = "NUMPAD1",
+					["TheAction"] = "VEHICLEPREVSEAT",
 				}, -- [261]
 				{
-					["TheAction"] = "VEHICLENEXTSEAT",
 					["BindingOne"] = "NUMPAD3",
+					["TheAction"] = "VEHICLENEXTSEAT",
 				}, -- [262]
 				{
 					["TheAction"] = "VEHICLEAIMUP",
@@ -947,12 +947,12 @@ Binder_Settings = {
 					["TheAction"] = "VEHICLEAIMDOWN",
 				}, -- [264]
 				{
-					["TheAction"] = "VEHICLEAIMINCREMENT",
 					["BindingOne"] = "CTRL-MOUSEWHEELUP",
+					["TheAction"] = "VEHICLEAIMINCREMENT",
 				}, -- [265]
 				{
-					["TheAction"] = "VEHICLEAIMDECREMENT",
 					["BindingOne"] = "CTRL-MOUSEWHEELDOWN",
+					["TheAction"] = "VEHICLEAIMDECREMENT",
 				}, -- [266]
 				{
 					["TheAction"] = "VEHICLECAMERAZOOMIN",
