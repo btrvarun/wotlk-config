@@ -9,6 +9,7 @@ CliqueDB = {
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
@@ -94,6 +95,13 @@ CliqueDB = {
 		["Invariably - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {
+					["Shift-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Shift-",
+						["button"] = "2",
+						["arg1"] = "Levitate",
+						["texture"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
+					},
 					["2"] = {
 						["type"] = "spell",
 						["modifier"] = "",
@@ -121,6 +129,8 @@ CliqueDB = {
 				["ElvUF_TargetTargetTarget"] = true,
 				["TargetFrame"] = true,
 			},
+		},
+		["Bowbaby - Unlimited WoW"] = {
 		},
 	},
 }

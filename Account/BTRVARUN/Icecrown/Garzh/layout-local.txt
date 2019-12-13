@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: RIGHT
@@ -59,7 +59,7 @@ Frame: SexyCooldownBar 0
 FrameLevel: 1
 Anchor: RIGHT
 X: -444
-Y: -3
+Y: 15
 W: 40
 H: 300
 Frame: SkadaBarWindowSkada

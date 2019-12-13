@@ -7,6 +7,7 @@ Omen3DB = {
 		["Ingrate - Icecrown"] = "Bowbaby - Icecrown",
 		["Garzh - Icecrown"] = "Bowbaby - Icecrown",
 		["Invariably - Icecrown"] = "Bowbaby - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
@@ -40,10 +41,10 @@ Omen3DB = {
 			},
 		},
 		["Bowbaby - Icecrown"] = {
-			["PositionW"] = 245.9999954864422,
+			["PositionW"] = 205.0002500921347,
 			["Shown"] = true,
-			["PositionH"] = 130.0000499226848,
-			["VGrip2"] = 140.0495404486057,
+			["PositionH"] = 133.0000635317455,
+			["VGrip2"] = 116.7081020136405,
 			["PositionY"] = 370.9995091847824,
 			["Locked"] = true,
 			["Background"] = {
@@ -58,17 +59,21 @@ Omen3DB = {
 				["UseShowWith"] = false,
 			},
 			["FrameStrata"] = "2-LOW",
-			["VGrip1"] = 103.5148777228825,
+			["VGrip1"] = 86.26251018399518,
 			["TitleBar"] = {
 				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
 				["Height"] = 22,
 			},
-			["PositionX"] = 1568.999650746368,
+			["PositionX"] = 1443.999279198496,
 			["Bar"] = {
 				["FontSize"] = 14,
+				["ShowHeadings"] = false,
+				["ShowValue"] = false,
 				["Spacing"] = 1,
+				["ShowAggroBar"] = false,
 				["Texture"] = "Armory",
+				["ShowTPS"] = false,
 				["Font"] = "PT Sans Narrow",
 			},
 		},
@@ -161,6 +166,10 @@ Omen3DB = {
 				["Font"] = "PT Sans Narrow",
 				["Spacing"] = 1,
 			},
+		},
+		["Bowbaby - Unlimited WoW"] = {
+			["PositionX"] = 847.5000148742246,
+			["PositionY"] = 614.9999624554056,
 		},
 	},
 }

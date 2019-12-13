@@ -10,6 +10,7 @@ SexyCooldownDB = {
 		["Ingrate - Icecrown"] = "Bowbaby - Icecrown",
 		["Garzh - Icecrown"] = "Bowbaby - Icecrown",
 		["Invariably - Icecrown"] = "Bowbaby - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
@@ -63,12 +64,12 @@ SexyCooldownDB = {
 							["r"] = 0.3019607843137255,
 						},
 						["width"] = 299.9999953496677,
-						["y"] = -2.999882305560959,
+						["y"] = 15.00021685593629,
 						["font"] = "Continuum Medium",
 						["name"] = "Bar 0",
 						["height"] = 40.00000054709792,
 						["orientation"] = "BOTTOM_TO_TOP",
-						["x"] = 492.9998933842937,
+						["x"] = 492.0005862154167,
 						["advancedOptions"] = true,
 						["borderSize"] = 4,
 					},
@@ -219,6 +220,27 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["font"] = "Continuum Medium",
+					},
+				}, -- [1]
+			},
+		},
+		["Bowbaby - Unlimited WoW"] = {
+			["bars"] = {
+				{
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 299.9999953496677,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 40.00000054709792,
+					},
+					["events"] = {
+					},
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},

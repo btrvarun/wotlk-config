@@ -8,6 +8,7 @@ AtlasLootDB = {
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
@@ -26,6 +27,9 @@ AtlasLootDB = {
 			["AtlasType"] = "Unknown",
 		},
 		["Invariably - Icecrown"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Bowbaby - Unlimited WoW"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},

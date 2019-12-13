@@ -1,11 +1,4 @@
 Version: 1
-Frame: InterfaceOptionsFrame
-FrameLevel: 16
-Anchor: BOTTOMLEFT
-X: 268
-Y: 122
-W: 648
-H: 520
 Frame: WorldMapScreenAnchor
 FrameLevel: 0
 Anchor: TOPLEFT
@@ -19,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 200
+H: 240
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
@@ -57,8 +50,8 @@ W: 265
 H: 216
 Frame: SexyCooldownBar 0
 FrameLevel: 1
-Anchor: BOTTOMLEFT
-X: 4
-Y: 223
-W: 450
-H: 33
+Anchor: RIGHT
+X: -448
+Y: 15
+W: 40
+H: 250

@@ -28,46 +28,47 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"Delicate scarlet", -- [1]
-			"enchant gloves", -- [2]
-			"heartseeker", -- [3]
-			"Delicate cardinal", -- [4]
-			"Gloves", -- [5]
-			"Iceblade Arrow", -- [6]
-			"eternal belt", -- [7]
-			"moonshroud", -- [8]
-			"frostweave cloth", -- [9]
-			"netherweave", -- [10]
-			"neatherweave", -- [11]
-			"bolt of netherweave", -- [12]
-			"knothide leather", -- [13]
-			"runecloth", -- [14]
-			"mageweave cloth", -- [15]
-			"mageweave", -- [16]
-			"silk cloth", -- [17]
-			"wool cloth", -- [18]
-			"linen cloth", -- [19]
-			"scarlet ruby", -- [20]
-			"Greater intellect", -- [21]
-			"runed cardinal", -- [22]
-			"superior potency", -- [23]
-			"cardinal ruby", -- [24]
-			"Death", -- [25]
-			"feint", -- [26]
-			"mend ", -- [27]
-			"revive pet", -- [28]
-			"steady", -- [29]
-			"bestial wrath", -- [30]
-			"powerful stat", -- [31]
-			"scope", -- [32]
-			"relentless", -- [33]
-			"monarch topaz", -- [34]
-			"Arctic fur", -- [35]
-			"knothide", -- [36]
-			"rugged leather", -- [37]
-			"thick leather", -- [38]
-			"heavy leather", -- [39]
-			"medium leather", -- [40]
+			"relentless earthsie", -- [1]
+			"Delicate scarlet", -- [2]
+			"enchant gloves", -- [3]
+			"heartseeker", -- [4]
+			"Delicate cardinal", -- [5]
+			"Gloves", -- [6]
+			"Iceblade Arrow", -- [7]
+			"eternal belt", -- [8]
+			"moonshroud", -- [9]
+			"frostweave cloth", -- [10]
+			"netherweave", -- [11]
+			"neatherweave", -- [12]
+			"bolt of netherweave", -- [13]
+			"knothide leather", -- [14]
+			"runecloth", -- [15]
+			"mageweave cloth", -- [16]
+			"mageweave", -- [17]
+			"silk cloth", -- [18]
+			"wool cloth", -- [19]
+			"linen cloth", -- [20]
+			"scarlet ruby", -- [21]
+			"Greater intellect", -- [22]
+			"runed cardinal", -- [23]
+			"superior potency", -- [24]
+			"cardinal ruby", -- [25]
+			"Death", -- [26]
+			"feint", -- [27]
+			"mend ", -- [28]
+			"revive pet", -- [29]
+			"steady", -- [30]
+			"bestial wrath", -- [31]
+			"powerful stat", -- [32]
+			"scope", -- [33]
+			"relentless", -- [34]
+			"monarch topaz", -- [35]
+			"Arctic fur", -- [36]
+			"knothide", -- [37]
+			"rugged leather", -- [38]
+			"thick leather", -- [39]
+			"heavy leather", -- [40]
+			"medium leather", -- [41]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -84,7 +85,6 @@ AUCTIONATOR_SHOPPING_LISTS = {
 	}, -- [2]
 }
 AUCTIONATOR_PRICE_DATABASE = {
-	["__dbversion"] = 2,
 	["Icecrown_Horde"] = {
 		["Scroll of Enchant Gloves - Fire Power"] = 10496600,
 		["Master's Gloves of the Whale"] = 1000000,
@@ -164,7 +164,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Delicate Scarlet Ruby"] = 1555555,
 		["Scroll of Enchant Gloves - Expertise"] = 1327500,
 		["Halgrind Gloves of Fire Protection"] = 300000,
-		["Relentless Earthsiege Diamond"] = 2007900,
+		["Relentless Earthsiege Diamond"] = 1150000,
 		["Mystical Gloves of the Whale"] = 250000,
 		["Death-warmed Belt"] = 64990000,
 		["Ghostwalker Gloves of Defense"] = 4226232,
@@ -419,12 +419,16 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Wool Cloth"] = 9500,
 		["Bolt of Runecloth"] = 12000,
 	},
+	["__dbversion"] = 2,
+	["Unlimited WoW_Horde"] = {
+	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Ingrate"] = {
 		["firstSeen"] = 1574177488,
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x0700000000049519",
 	},
 	["Invariably"] = {
 		["firstSeen"] = 1570975109,
@@ -440,6 +444,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Garzh"] = {
 		["firstSeen"] = 1570975141,
+		["guid"] = "0x0700000000003290",
 		["firstVersion"] = "2.6.3",
 	},
 	["Kamakshi"] = {

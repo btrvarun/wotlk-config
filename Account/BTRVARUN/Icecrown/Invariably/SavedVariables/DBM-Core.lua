@@ -34,7 +34,7 @@ DBM_SavedOptions = {
 			["r"] = 1,
 		}, -- [4]
 	},
-	["RangeFrameY"] = -50,
+	["RangeFrameY"] = 85.00007337950794,
 	["SpecialWarningFont"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
 	["SpamBlockRaidWarning"] = true,
 	["ShowFakedRaidWarnings"] = false,
@@ -58,7 +58,7 @@ DBM_SavedOptions = {
 		["X"] = 0,
 		["Point"] = "TOP",
 	},
-	["RangeFrameX"] = 244,
+	["RangeFrameX"] = 177.9999787999558,
 	["Enabled"] = true,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
@@ -70,11 +70,11 @@ DBM_SavedOptions = {
 	["RangeFrameSound1"] = "none",
 	["WarningIconLeft"] = false,
 	["RangeFrameLocked"] = false,
-	["HPFrameY"] = 50,
+	["HPFrameY"] = 50.00000068387239,
 	["FixCLEUOnCombatStart"] = false,
 	["DontShowBossAnnounces"] = false,
 	["AlwaysShowHealthFrame"] = false,
-	["HPFrameX"] = 100,
+	["HPFrameX"] = 100.0000013677448,
 	["ShowSpecialWarnings"] = true,
 	["SpamBlockBossWhispers"] = false,
 	["enabled"] = true,

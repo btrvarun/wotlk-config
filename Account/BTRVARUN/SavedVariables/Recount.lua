@@ -7,6 +7,7 @@ RecountDB = {
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
@@ -40,17 +41,16 @@ RecountDB = {
 			["Font"] = "PT Sans Narrow",
 		},
 		["Bowbaby - Icecrown"] = {
-			["GraphWindowY"] = 0,
+			["GraphWindowY"] = -51.99999370837397,
 			["MainWindow"] = {
 				["RowHeight"] = 17,
 				["Position"] = {
-					["y"] = -402.9998768345818,
+					["y"] = -403.0000168916482,
 					["h"] = 215.9999994529021,
 					["w"] = 264.9999970593487,
 					["x"] = 821.4996810077215,
 				},
 			},
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -63,14 +63,27 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -284.9999360579311,
 			["DetailWindowX"] = 370.0000269445724,
-			["GraphWindowX"] = 0,
+			["GraphWindowX"] = 77.00001374583513,
 			["Locked"] = true,
-			["LastInstanceName"] = "Gundrak",
-			["BarTexture"] = "Armory",
-			["Font"] = "PT Sans Narrow",
-			["CurDataSet"] = "CurrentFightData",
 			["BarTextColorSwap"] = false,
+			["LastInstanceName"] = "Vault of Archavon",
+			["BarTexture"] = "Armory",
+			["RealtimeWindows"] = {
+				["Realtime_Bowbaby_DAMAGE"] = {
+					"Bowbaby", -- [1]
+					"DAMAGE", -- [2]
+					"'s DPS", -- [3]
+					0, -- [4]
+					-3.501426671750963e-005, -- [5]
+					199.9999151998231, -- [6]
+					232.0000311845812, -- [7]
+					false, -- [8]
+				},
+			},
+			["CurDataSet"] = "LastFightData",
+			["ClampToScreen"] = true,
 			["FrameStrata"] = "2-LOW",
+			["Font"] = "PT Sans Narrow",
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -96,25 +109,33 @@ RecountDB = {
 		["Ingrate - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["RowHeight"] = 17,
 				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["y"] = -403.0000168916482,
+					["h"] = 215.9999994529021,
+					["w"] = 264.9999970593487,
+					["x"] = 821.4996810077215,
 				},
 			},
 			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Trial of the Crusader",
 			["FrameStrata"] = "2-LOW",
-			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
 						["a"] = 1,
 					},
 				},
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["ClampToScreen"] = true,
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "CurrentFightData",
+			["Font"] = "PT Sans Narrow",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -128,7 +149,7 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Pit of Saron",
+			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
 			["GraphWindowX"] = 0,
@@ -145,11 +166,42 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["CurDataSet"] = "LastFightData",
 			["Font"] = "PT Sans Narrow",
-			["BarTextColorSwap"] = false,
+			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Pit of Saron",
 		},
 		["Invariably - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["RowHeight"] = 16,
+				["Position"] = {
+					["y"] = -403.0000168916482,
+					["h"] = 215.9999994529021,
+					["w"] = 264.9999970593487,
+					["x"] = 821.4996810077215,
+				},
+			},
+			["DetailWindowX"] = 360.9999598566905,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["FrameStrata"] = "2-LOW",
+			["ClampToScreen"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -271.9999967174125,
+			["Locked"] = true,
+			["CurDataSet"] = "LastFightData",
+			["Font"] = "PT Sans Narrow",
+			["GraphWindowX"] = 0,
+		},
+		["Bowbaby - Unlimited WoW"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
@@ -157,9 +209,6 @@ RecountDB = {
 					["h"] = 200.0000027354896,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -168,9 +217,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["Locked"] = true,
-			["CurDataSet"] = "OverallData",
+			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

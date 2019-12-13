@@ -7,13 +7,18 @@ EPGPLootMaster = {
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
 		},
+		["Bowbaby - Icecrown"] = {
+		},
+		["Ingrate - Icecrown"] = {
+		},
 		["Garzh - Icecrown"] = {
 		},
-		["Bowbaby - Icecrown"] = {
+		["Invariably - Icecrown"] = {
 		},
 	},
 }

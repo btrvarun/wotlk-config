@@ -39,7 +39,7 @@ RecountPerCharDB = {
 				86.21681597764444, -- [2]
 			},
 			["type"] = "Self",
-			["LastAbility"] = 45997.519,
+			["LastAbility"] = 253322.421,
 			["Owner"] = false,
 			["UnitLockout"] = 1574841385,
 			["NextEventNum"] = 8,
