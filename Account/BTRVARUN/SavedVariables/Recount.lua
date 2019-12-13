@@ -65,8 +65,8 @@ RecountDB = {
 			["DetailWindowX"] = 370.0000269445724,
 			["GraphWindowX"] = 77.00001374583513,
 			["Locked"] = true,
-			["BarTextColorSwap"] = false,
 			["LastInstanceName"] = "Vault of Archavon",
+			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["RealtimeWindows"] = {
 				["Realtime_Bowbaby_DAMAGE"] = {
@@ -152,7 +152,7 @@ RecountDB = {
 			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -164,7 +164,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",

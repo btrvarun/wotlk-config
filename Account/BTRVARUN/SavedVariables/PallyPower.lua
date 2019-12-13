@@ -449,19 +449,6 @@ PallyPower_Assignments = {
 		3, -- [10]
 		2, -- [11]
 	},
-	["Heavenlord"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		3, -- [11]
-	},
 	["Powerpala"] = {
 		3, -- [1]
 		3, -- [2]
@@ -474,6 +461,19 @@ PallyPower_Assignments = {
 		2, -- [9]
 		3, -- [10]
 		1, -- [11]
+	},
+	["Heavenlord"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
 	},
 	["Mistyk"] = {
 		0, -- [1]
@@ -527,18 +527,18 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Sunweli"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
-		4, -- [11]
+	["Heavensfire"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
 	},
 	["Minakshi"] = {
 		0, -- [1]
@@ -592,18 +592,18 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
-	["Royalscepte"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		0, -- [11]
+	["Fishqs"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
+		4, -- [10]
+		4, -- [11]
 	},
 	["Njenner"] = {
 		3, -- [1]
@@ -644,18 +644,18 @@ PallyPower_Assignments = {
 		0, -- [10]
 		1, -- [11]
 	},
-	["Fishqs"] = {
-		4, -- [1]
-		4, -- [2]
-		4, -- [3]
-		4, -- [4]
-		4, -- [5]
-		4, -- [6]
-		4, -- [7]
-		4, -- [8]
-		4, -- [9]
-		4, -- [10]
-		4, -- [11]
+	["Royalscepte"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		0, -- [11]
 	},
 	["Hojjaa"] = {
 		3, -- [1]
@@ -748,18 +748,18 @@ PallyPower_Assignments = {
 		0, -- [10]
 		1, -- [11]
 	},
-	["Heavensfire"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-		0, -- [11]
+	["Sunweli"] = {
+		4, -- [1]
+		4, -- [2]
+		4, -- [3]
+		4, -- [4]
+		4, -- [5]
+		4, -- [6]
+		4, -- [7]
+		4, -- [8]
+		4, -- [9]
+		4, -- [10]
+		4, -- [11]
 	},
 	["Jantherqt"] = {
 		3, -- [1]
@@ -940,9 +940,9 @@ PallyPower_NormalAssignments = {
 	},
 	["Rakin"] = {
 	},
-	["Heavenlord"] = {
-	},
 	["Powerpala"] = {
+	},
+	["Heavenlord"] = {
 	},
 	["Mistyk"] = {
 	},
@@ -952,7 +952,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Rshaam"] = {
 	},
-	["Sunweli"] = {
+	["Heavensfire"] = {
 	},
 	["Minakshi"] = {
 	},
@@ -962,7 +962,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Immutability"] = {
 	},
-	["Royalscepte"] = {
+	["Fishqs"] = {
 	},
 	["Njenner"] = {
 		[5] = {
@@ -976,7 +976,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Denii"] = {
 	},
-	["Fishqs"] = {
+	["Royalscepte"] = {
 	},
 	["Hojjaa"] = {
 	},
@@ -992,7 +992,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Inngili"] = {
 	},
-	["Heavensfire"] = {
+	["Sunweli"] = {
 	},
 	["Jantherqt"] = {
 	},
@@ -1048,22 +1048,22 @@ PallyPower_AuraAssignments = {
 	["Argentaluce"] = 1,
 	["Mosypala"] = 1,
 	["Rakin"] = 3,
-	["Heavenlord"] = 2,
 	["Powerpala"] = 3,
+	["Heavenlord"] = 2,
 	["Mistyk"] = 3,
 	["Hugixx"] = 5,
 	["Kyvy"] = 1,
 	["Rshaam"] = 2,
-	["Sunweli"] = 1,
+	["Heavensfire"] = 0,
 	["Minakshi"] = 1,
 	["Tsipras"] = 0,
 	["Eradicatiion"] = 1,
 	["Immutability"] = 1,
-	["Royalscepte"] = 0,
+	["Fishqs"] = 3,
 	["Njenner"] = 0,
 	["Lightwell"] = 3,
 	["Denii"] = 0,
-	["Fishqs"] = 3,
+	["Royalscepte"] = 0,
 	["Hojjaa"] = 0,
 	["Plnru"] = 0,
 	["Errorpaladin"] = 1,
@@ -1071,7 +1071,7 @@ PallyPower_AuraAssignments = {
 	["Valerik"] = 1,
 	["Chuichui"] = 1,
 	["Inngili"] = 3,
-	["Heavensfire"] = 0,
+	["Sunweli"] = 1,
 	["Jantherqt"] = 3,
 	["Aulo"] = 3,
 	["Talset"] = 0,
