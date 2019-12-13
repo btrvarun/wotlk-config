@@ -1,31 +1,31 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/abs list", -- [1]
-		"/abs restore shadow", -- [2]
-		"/abs restore disc", -- [3]
-		"/abs save disc", -- [4]
-		"/abs restore holy", -- [5]
-		"/macro", -- [6]
-		"/abs save holy", -- [7]
-		"/time", -- [8]
-		"/clearfocus", -- [9]
-		"/w Nugga hey can you change my note to sp/holy?", -- [10]
-		"/w Nugga yup", -- [11]
-		"/w Nugga hey can you invite me as shadow?", -- [12]
-		"/w Floridda ye", -- [13]
-		"/w Floridda togc", -- [14]
-		"/w Floridda wait WHAT", -- [15]
-		"/w Floridda get a live-in girlfriend", -- [16]
-		"/w Floridda and then you'll turn into kayo", -- [17]
-		"/w Floridda xd", -- [18]
-		"/wa", -- [19]
-		"/moveui", -- [20]
+		"/w Nugga hey can you change my note to sp/holy?", -- [1]
+		"/w Nugga yup", -- [2]
+		"/w Nugga hey can you invite me as shadow?", -- [3]
+		"/w Floridda ye", -- [4]
+		"/w Floridda togc", -- [5]
+		"/w Floridda wait WHAT", -- [6]
+		"/w Floridda get a live-in girlfriend", -- [7]
+		"/w Floridda and then you'll turn into kayo", -- [8]
+		"/w Floridda xd", -- [9]
+		"/wa", -- [10]
+		"/moveui", -- [11]
+		"/sexycooldowns", -- [12]
+		"/dbm", -- [13]
+		"/w Projectkata hey can you fm me please?", -- [14]
+		"/w Projectkata change it to me?", -- [15]
+		"/w Projectkata rofl", -- [16]
+		"/w Zanahori trade albacutie", -- [17]
+		"/w Zanahori for flasks", -- [18]
+		"/epgp", -- [19]
+		"/w Fatsp swap glyph of dispersion for glyph of mind sear", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"keep*", -- [1]
-			"Crazymind", -- [2]
+			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
+			"Ticklemypick", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -34,17 +34,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			218, -- [11]
-			"0x0700000000300270", -- [12]
+			2835, -- [11]
+			"0x0700000000020E36", -- [12]
 			0, -- [13]
-			[51] = 1576263339,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc41e3aCrazymind|r",
+			[51] = 1576269368,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTicklemypick|r",
 		}, -- [1]
 		{
-			"Pull dans 5 sec", -- [1]
-			"Albacutie", -- [2]
-			"Orcish", -- [3]
+			"LU NUD NUD MOD TI E E ", -- [1]
+			"Panterix", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -52,16 +52,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			219, -- [11]
-			"0x070000000036C748", -- [12]
+			2841, -- [11]
+			"0x07000000004BA756", -- [12]
 			0, -- [13]
-			[51] = 1576263345,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff0070ddAlbacutie|r",
+			[51] = 1576269372,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aPanterix|r",
 		}, -- [2]
 		{
-			"Pull dans 3 sec", -- [1]
-			"Albacutie", -- [2]
+			"LFM ICC 25nm 4 dps5.7gs FULL GEM and ENCH LINK YOUR BEST ACHI", -- [1]
+			"Iamjustatank", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -70,16 +70,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			220, -- [11]
-			"0x070000000036C748", -- [12]
+			2844, -- [11]
+			"0x07000000003D1307", -- [12]
 			0, -- [13]
-			[51] = 1576263347,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff0070ddAlbacutie|r",
+			[51] = 1576269373,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaIamjustatank|r",
 		}, -- [3]
 		{
-			"Pull dans 2 sec", -- [1]
-			"Albacutie", -- [2]
+			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
+			"Shafrantiqta", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -88,34 +88,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			221, -- [11]
-			"0x070000000036C748", -- [12]
+			2845, -- [11]
+			"0x07000000000F4FD3", -- [12]
 			0, -- [13]
-			[51] = 1576263348,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff0070ddAlbacutie|r",
+			[51] = 1576269373,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaShafrantiqta|r",
 		}, -- [4]
 		{
-			"Pull dans 1 sec", -- [1]
-			"Albacutie", -- [2]
+			"LFM ICC25 nm/hc 6k gs need Healers ,Dps best achiev /w me B+P+SFS res! [The Light of Dawn]", -- [1]
+			"Murdo", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			222, -- [11]
-			"0x070000000036C748", -- [12]
+			2846, -- [11]
+			"0x07000000002A0C9F", -- [12]
 			0, -- [13]
-			[51] = 1576263349,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff0070ddAlbacutie|r",
+			[51] = 1576269373,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aMurdo|r",
 		}, -- [5]
 		{
-			"Pull maintenant!", -- [1]
-			"Albacutie", -- [2]
+			"LFM ICC25 nm/hc 6k gs need Healers ,Dps best achiev /w me B+P+SFS res! [The Light of Dawn]", -- [1]
+			"Murdo", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -124,1726 +124,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			223, -- [11]
-			"0x070000000036C748", -- [12]
+			2849, -- [11]
+			"0x07000000002A0C9F", -- [12]
 			0, -- [13]
-			[51] = 1576263350,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cff0070ddAlbacutie|r",
+			[51] = 1576269375,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aMurdo|r",
 		}, -- [6]
 		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
+			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
+			"Shafrantiqta", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			224, -- [11]
-			"0x0700000000158464", -- [12]
+			2850, -- [11]
+			"0x07000000000F4FD3", -- [12]
 			0, -- [13]
-			[51] = 1576263351,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
+			[51] = 1576269375,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaShafrantiqta|r",
 		}, -- [7]
 		{
-			"Dans?", -- [1]
-			"Kyznyqtx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			225, -- [11]
-			"0x07000000003ED99A", -- [12]
-			0, -- [13]
-			[51] = 1576263351,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKyznyqtx|r",
-		}, -- [8]
-		{
-			"DansGame?", -- [1]
-			"Kyznyqtx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			226, -- [11]
-			"0x07000000003ED99A", -- [12]
-			0, -- [13]
-			[51] = 1576263353,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaKyznyqtx|r",
-		}, -- [9]
-		{
-			"<TFK> Archemis casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			230, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263393,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [10]
-		{
-			"<TFK> Gzay casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on {rt2} Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			231, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263396,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [11]
-		{
-			"<TFK> Crazymind gains |cff71d5ff|Hspell:70654|h[Blood Armor]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			232, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263401,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [12]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:49016|h[Hysteria]|h|r on Lightarray", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			233, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263404,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [13]
-		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			234, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263408,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [14]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on {rt2} Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			235, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263409,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [15]
-		{
-			"<TFK> Albacutie used |cffa335ee|Hitem:54573:0:0:0:0:0:0:0:80|h[Glowing Twilight Scale]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			236, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263414,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [16]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:48707|h[Anti-Magic Shell]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			237, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263415,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [17]
-		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			238, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263418,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [18]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:48792|h[Icebound Fortitude]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			239, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263425,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [19]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:55233|h[Vampiric Blood]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			240, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263427,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [20]
-		{
-			"<TFK> Kyznyqtx casts |cff71d5ff|Hspell:10278|h[Hand of Protection]|h|r on {rt2} Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			241, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263440,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [21]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on {rt2} Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			242, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263442,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [22]
-		{
-			".", -- [1]
-			"Lightarray", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			243, -- [11]
-			"0x070000000041FBB7", -- [12]
-			0, -- [13]
-			[51] = 1576263443,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dLightarray|r",
-		}, -- [23]
-		{
-			"<TFK> Nugga casts |cff71d5ff|Hspell:10060|h[Power Infusion]|h|r on Invariably", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			244, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263444,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [24]
-		{
-			"CS", -- [1]
-			"Crazymind", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			246, -- [11]
-			"0x0700000000300270", -- [12]
-			0, -- [13]
-			[51] = 1576263462,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc41e3aCrazymind|r",
-		}, -- [25]
-		{
-			"CS", -- [1]
-			"Crazymind", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			247, -- [11]
-			"0x0700000000300270", -- [12]
-			0, -- [13]
-			[51] = 1576263463,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc41e3aCrazymind|r",
-		}, -- [26]
-		{
-			"CS", -- [1]
-			"Crazymind", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			248, -- [11]
-			"0x0700000000300270", -- [12]
-			0, -- [13]
-			[51] = 1576263464,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc41e3aCrazymind|r",
-		}, -- [27]
-		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			249, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263466,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [28]
-		{
-			"<TFK> Crazymind gains |cff71d5ff|Hspell:70654|h[Blood Armor]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			250, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263476,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [29]
-		{
-			"<TFK> Tequillaas casts |cff71d5ff|Hspell:29166|h[Innervate]|h|r on {rt1} Albacutie", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			251, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263480,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [30]
-		{
-			"innervate on Albacutie", -- [1]
-			"Tequillaas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			252, -- [11]
-			"0x07000000004A35FA", -- [12]
-			0, -- [13]
-			[51] = 1576263480,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aTequillaas|r",
-		}, -- [31]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:48707|h[Anti-Magic Shell]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			253, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263484,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [32]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on {rt2} Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			254, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263485,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [33]
-		{
-			"<TFK> Albacutie casts |cff71d5ff|Hspell:2825|h[Bloodlust]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			255, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263485,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [34]
-		{
-			"<TFK> Hoepe casts |cff71d5ff|Hspell:29166|h[Innervate]|h|r on {rt1} Albacutie", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			256, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263491,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [35]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:55233|h[Vampiric Blood]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			260, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263508,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [36]
-		{
-			"<TFK> Nugga used |cffa335ee|Hitem:54589:0:0:0:0:0:0:0:80|h[Glowing Twilight Scale]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			261, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263512,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [37]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			262, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263516,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [38]
-		{
-			"<TFK> Crazymind used |cffa335ee|Hitem:50361:0:0:0:0:0:0:0:80|h[Sindragosa's Flawless Fang]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			263, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263530,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [39]
-		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:19263|h[Deterrence]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			264, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263535,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [40]
-		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			265, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263539,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [41]
-		{
-			"<TFK> Acidmaw summons Slime Pool (|cff71d5ff|Hspell:67643|h[Slime Pool]|h|r)", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			266, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263541,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [42]
-		{
-			"<TFK> Nugga casts |cff71d5ff|Hspell:10060|h[Power Infusion]|h|r on Invariably", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			267, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263542,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [43]
-		{
-			"<TFK> Archemis casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			276, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263553,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [44]
-		{
-			"<TFK> Devotional casts |cff71d5ff|Hspell:64205|h[Divine Sacrifice]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			278, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263557,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [45]
-		{
-			"we have", -- [1]
-			"Kyznyqtx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			279, -- [11]
-			"0x07000000003ED99A", -- [12]
-			0, -- [13]
-			[51] = 1576263561,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKyznyqtx|r",
-		}, -- [46]
-		{
-			"2", -- [1]
-			"Kyznyqtx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			280, -- [11]
-			"0x07000000003ED99A", -- [12]
-			0, -- [13]
-			[51] = 1576263561,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKyznyqtx|r",
-		}, -- [47]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			282, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263562,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [48]
-		{
-			"on warlock spriest", -- [1]
-			"Kyznyqtx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			283, -- [11]
-			"0x07000000003ED99A", -- [12]
-			0, -- [13]
-			[51] = 1576263563,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKyznyqtx|r",
-		}, -- [49]
-		{
-			"<TFK> Nugga casts |cff71d5ff|Hspell:64901|h[Hymn of Hope]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			284, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263565,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [50]
-		{
-			"<TFK> Crazymind gains |cff71d5ff|Hspell:70654|h[Blood Armor]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			285, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263576,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [51]
-		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on {rt6} Devotional", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			286, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263577,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [52]
-		{
-			"Using MANA TIDE", -- [1]
-			"Albacutie", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			287, -- [11]
-			"0x070000000036C748", -- [12]
-			0, -- [13]
-			[51] = 1576263578,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddAlbacutie|r",
-		}, -- [53]
-		{
-			"<TFK> Albacutie casts |cff71d5ff|Hspell:16190|h[Mana Tide Totem]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			288, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263578,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [54]
-		{
-			"ye", -- [1]
-			"Kyznyqtx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			289, -- [11]
-			"0x07000000003ED99A", -- [12]
-			0, -- [13]
-			[51] = 1576263579,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKyznyqtx|r",
-		}, -- [55]
-		{
-			"<TFK> Kyznyqtx used |cffa335ee|Hitem:54589:0:0:0:0:0:0:0:80|h[Glowing Twilight Scale]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			290, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263584,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [56]
-		{
-			"<TFK> Archemis casts |cff71d5ff|Hspell:34477|h[Misdirection]|h|r on Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			291, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263589,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [57]
-		{
-			"<TFK> Crazymind used |cffa335ee|Hitem:50361:0:0:0:0:0:0:0:80|h[Sindragosa's Flawless Fang]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			292, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263590,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [58]
-		{
-			"<TFK> Kyznyqtx casts |cff71d5ff|Hspell:64205|h[Divine Sacrifice]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			293, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263594,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [59]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:49016|h[Hysteria]|h|r on Enork", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			294, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263601,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [60]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:55233|h[Vampiric Blood]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			295, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263608,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [61]
-		{
-			"klk", -- [1]
-			"Chloelol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			296, -- [11]
-			"0x070000000000AD14", -- [12]
-			0, -- [13]
-			[51] = 1576263610,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaChloelol|r",
-		}, -- [62]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			297, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263610,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [63]
-		{
-			"<TFK> Gzay casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			298, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263612,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [64]
-		{
-			"<TFK> Albacutie used |cffa335ee|Hitem:54573:0:0:0:0:0:0:0:80|h[Glowing Twilight Scale]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			299, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263613,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [65]
-		{
-			"<TFK> Zanahori casts |cff71d5ff|Hspell:19801|h[Tranquilizing Shot]|h|r on Icehowl", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			305, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263627,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [66]
-		{
-			"forzen", -- [1]
-			"Chloelol", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			306, -- [11]
-			"0x070000000000AD14", -- [12]
-			0, -- [13]
-			[51] = 1576263627,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaChloelol|r",
-		}, -- [67]
-		{
-			"<TFK> Archemis casts |cff71d5ff|Hspell:19801|h[Tranquilizing Shot]|h|r on Icehowl", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			307, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263628,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [68]
-		{
-			"<TFK> Kyznyqtx casts |cff71d5ff|Hspell:48788|h[Lay on Hands]|h|r on Nugga", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			310, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263629,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [69]
-		{
-			"<TFK> Crazymind gains |cff71d5ff|Hspell:70654|h[Blood Armor]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			311, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263638,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [70]
-		{
-			"<TFK> Tequillaas resurrects Kadreylx (|cff71d5ff|Hspell:48477|h[Rebirth]|h|r)", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			312, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263642,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [71]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:48707|h[Anti-Magic Shell]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			313, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263646,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [72]
-		{
-			"<TFK> Chloelol casts |cff71d5ff|Hspell:1044|h[Hand of Freedom]|h|r on Chloelol", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			314, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263646,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [73]
-		{
-			"<TFK> Chloelol casts |cff71d5ff|Hspell:31821|h[Aura Mastery]|h|r (Frost Resistance Aura)", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			315, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263650,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [74]
-		{
-			"<TFK> Gzay casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			316, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263650,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [75]
-		{
-			"WHY NOIT ME", -- [1]
-			"Necrolite", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			317, -- [11]
-			"0x07000000004C16C7", -- [12]
-			0, -- [13]
-			[51] = 1576263650,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff9382c9Necrolite|r",
-		}, -- [76]
-		{
-			"<TFK> Nugga used |cffa335ee|Hitem:54589:0:0:0:0:0:0:0:80|h[Glowing Twilight Scale]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			318, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263650,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [77]
-		{
-			"<TFK> Crazymind used |cffa335ee|Hitem:50361:0:0:0:0:0:0:0:80|h[Sindragosa's Flawless Fang]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			319, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263651,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [78]
-		{
-			"<TFK> Hoepe resurrects Invariably (|cff71d5ff|Hspell:48477|h[Rebirth]|h|r)", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			320, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263652,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [79]
-		{
-			"<TFK> Relzar resurrects Anhedonic (|cff71d5ff|Hspell:48477|h[Rebirth]|h|r)", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			321, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263655,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [80]
-		{
-			"<TFK> Nugga casts |cff71d5ff|Hspell:10060|h[Power Infusion]|h|r on Invariably", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263656,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [81]
-		{
-			"discrimination at its finest zhin", -- [1]
-			"Necrolite", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			323, -- [11]
-			"0x07000000004C16C7", -- [12]
-			0, -- [13]
-			[51] = 1576263671,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff9382c9Necrolite|r",
-		}, -- [82]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			324, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263673,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [83]
-		{
-			"<TFK> Crazymind casts |cff71d5ff|Hspell:55233|h[Vampiric Blood]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			325, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263677,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [84]
-		{
-			"<TFK> Tequillaas casts |cff71d5ff|Hspell:29166|h[Innervate]|h|r on Albacutie", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			326, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263685,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [85]
-		{
-			"innervate on Albacutie", -- [1]
-			"Tequillaas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			327, -- [11]
-			"0x07000000004A35FA", -- [12]
-			0, -- [13]
-			[51] = 1576263685,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aTequillaas|r",
-		}, -- [86]
-		{
-			"<TFK> Invariably casts |cff71d5ff|Hspell:47585|h[Dispersion]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			328, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263687,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [87]
-		{
-			"<TFK> Crazymind gains |cff71d5ff|Hspell:70654|h[Blood Armor]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263701,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [88]
-		{
-			"<TFK> Anhedonic casts |cff71d5ff|Hspell:57934|h[Tricks of the Trade]|h|r on Crazymind", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			335, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263706,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [89]
-		{
-			"<TFK> Hoepe casts |cff71d5ff|Hspell:29166|h[Innervate]|h|r on Nugga", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			337, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263709,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [90]
-		{
-			"<TFK> Kyznyqtx used |cffa335ee|Hitem:54589:0:0:0:0:0:0:0:80|h[Glowing Twilight Scale]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			339, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263710,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [91]
-		{
-			"<TFK> Kyznyqtx casts |cff71d5ff|Hspell:64205|h[Divine Sacrifice]|h|r", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			340, -- [11]
-			"0x0700000000158464", -- [12]
-			0, -- [13]
-			[51] = 1576263715,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
-		}, -- [92]
-		{
-			"Ressing Jaladreips", -- [1]
-			"Tequillaas", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			367, -- [11]
-			"0x07000000004A35FA", -- [12]
-			0, -- [13]
-			[51] = 1576263723,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aTequillaas|r",
-		}, -- [93]
-		{
-			"Displaying Loots for:Icehowl", -- [1]
-			"Nugga", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			368, -- [11]
-			"0x07000000003E0C50", -- [12]
-			0, -- [13]
-			[51] = 1576263723,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cffffffffNugga|r",
-		}, -- [94]
-		{
-			"1: |cffa335ee|Hitem:47417:0:0:0:0:0:0:0:80|h[Drape of the Refreshing Winds]|h|r", -- [1]
-			"Nugga", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			369, -- [11]
-			"0x07000000003E0C50", -- [12]
-			0, -- [13]
-			[51] = 1576263723,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cffffffffNugga|r",
-		}, -- [95]
-		{
-			"2: |cffa335ee|Hitem:47425:0:0:0:0:0:0:0:80|h[Flowing Robes of Ascent]|h|r", -- [1]
-			"Nugga", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			370, -- [11]
-			"0x07000000003E0C50", -- [12]
-			0, -- [13]
-			[51] = 1576263723,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cffffffffNugga|r",
-		}, -- [96]
-		{
-			"3: |cffa335ee|Hitem:47417:0:0:0:0:0:0:0:80|h[Drape of the Refreshing Winds]|h|r", -- [1]
-			"Nugga", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			371, -- [11]
-			"0x07000000003E0C50", -- [12]
-			0, -- [13]
-			[51] = 1576263723,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cffffffffNugga|r",
-		}, -- [97]
-		{
-			"4: |cffa335ee|Hitem:47242:0:0:0:0:0:0:0:80|h[Trophy of the Crusade]|h|r", -- [1]
-			"Nugga", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			372, -- [11]
-			"0x07000000003E0C50", -- [12]
-			0, -- [13]
-			[51] = 1576263723,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cffffffffNugga|r",
-		}, -- [98]
-		{
-			"5: |cff0070dd|Hitem:47556:0:0:0:0:0:0:0:80|h[Crusader Orb]|h|r", -- [1]
-			"Nugga", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			373, -- [11]
-			"0x07000000003E0C50", -- [12]
-			0, -- [13]
-			[51] = 1576263723,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cffffffffNugga|r",
-		}, -- [99]
-		{
-			"BAD DPS", -- [1]
-			"Projectkata", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			379, -- [11]
-			"0x07000000004979C0", -- [12]
-			0, -- [13]
-			[51] = 1576263744,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff68ccefProjectkata|r",
-		}, -- [100]
-		{
-			"shredyy", -- [1]
-			"Projectkata", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			381, -- [11]
-			"0x07000000004979C0", -- [12]
-			0, -- [13]
-			[51] = 1576263747,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff68ccefProjectkata|r",
-		}, -- [101]
-		{
-			"Enork gasps at Shredyy.", -- [1]
-			"Enork", -- [2]
+			"XD", -- [1]
+			"Arroweater", -- [2]
 			"", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1852,16 +160,1708 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x0700000000014DD9", -- [12]
+			2854, -- [11]
+			"0x07000000004E3DEB", -- [12]
 			0, -- [13]
-			[51] = 1576263750,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cffc69b6dEnork|r",
+			[51] = 1576269377,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Arroweater|r",
+		}, -- [8]
+		{
+			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
+			"Shafrantiqta", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2856, -- [11]
+			"0x07000000000F4FD3", -- [12]
+			0, -- [13]
+			[51] = 1576269378,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaShafrantiqta|r",
+		}, -- [9]
+		{
+			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
+			"Zipzapzop", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2861, -- [11]
+			"0x07000000004DF294", -- [12]
+			0, -- [13]
+			[51] = 1576269380,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZipzapzop|r",
+		}, -- [10]
+		{
+			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
+			"Zipzapzop", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2862, -- [11]
+			"0x07000000004DF294", -- [12]
+			0, -- [13]
+			[51] = 1576269381,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZipzapzop|r",
+		}, -- [11]
+		{
+			"nah she didnt actually", -- [1]
+			"Arroweater", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2864, -- [11]
+			"0x07000000004E3DEB", -- [12]
+			0, -- [13]
+			[51] = 1576269381,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Arroweater|r",
+		}, -- [12]
+		{
+			"Relliklaires won |cffa335ee|Hitem:47490:0:0:0:0:0:0:0:80|h[Maiden's Adoration]|h|r with 70.", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2865, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269382,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [13]
+		{
+			"ah ok bro :D ", -- [1]
+			"Fatsp", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Fatsp", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2866, -- [11]
+			"0x0700000000397CCE", -- [12]
+			0, -- [13]
+			[51] = 1576269382,
+			[50] = "CHAT_MSG_WHISPER",
+			[52] = "|cffffffffFatsp|r",
+		}, -- [14]
+		{
+			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
+			"Ticklemypick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2867, -- [11]
+			"0x0700000000020E36", -- [12]
+			0, -- [13]
+			[51] = 1576269382,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTicklemypick|r",
+		}, -- [15]
+		{
+			"LU Gothalgos ", -- [1]
+			"Alistey", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2874, -- [11]
+			"0x07000000004F1E6E", -- [12]
+			0, -- [13]
+			[51] = 1576269386,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Alistey|r",
+		}, -- [16]
+		{
+			"LFM ICC 10 N/HC NEED ALL - - LINK ANCHI + GS 5.8K MIN ", -- [1]
+			"Hordegate", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2876, -- [11]
+			"0x070000000049CF83", -- [12]
+			0, -- [13]
+			[51] = 1576269386,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddHordegate|r",
+		}, -- [17]
+		{
+			"BOR RUFTOs goth NUD E Lo faergas VE ash thor ruff uden Agol va ras Goth Noth TI danieb bur se cynegold", -- [1]
+			"Elonei", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2880, -- [11]
+			"0x07000000004CEFD3", -- [12]
+			0, -- [13]
+			[51] = 1576269388,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aElonei|r",
+		}, -- [18]
+		{
+			"LFM ICC 25 man dynamic run min 5.8k gs full gems n enchants, LINK LK KILL 25 man NEED 1 rDPS (semi guild boosting run) Beos + P reserved! sfs free roll, MEMO inspect", -- [1]
+			"Medc", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2881, -- [11]
+			"0x07000000001201E8", -- [12]
+			0, -- [13]
+			[51] = 1576269388,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Medc|r",
+		}, -- [19]
+		{
+			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000", -- [1]
+			"Yldz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2883, -- [11]
+			"0x070000000032AE00", -- [12]
+			0, -- [13]
+			[51] = 1576269389,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddYldz|r",
+		}, -- [20]
+		{
+			"LFM <<< ICC 25HC>>> 8/12HC (B+P+ sfs) Ress 6.2+ Best achiv! Need! MT 3 Helaers rest dps |cffffff00|Hachievement:4584:07000000002F61C7:1:9:19:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
+			"Problematiic", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2887, -- [11]
+			"0x07000000002F61C7", -- [12]
+			0, -- [13]
+			[51] = 1576269391,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dProblematiic|r",
+		}, -- [21]
+		{
+			"LFM ICC 10n/HC ~~~5.9+ K GS ~~~ VH INSPECT ~~~ ACHIEV OR NO INVITE ~~~ need 1 mdps and 1 rdps", -- [1]
+			"Muiemistaker", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2889, -- [11]
+			"0x07000000004DD9E5", -- [12]
+			0, -- [13]
+			[51] = 1576269392,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddMuiemistaker|r",
+		}, -- [22]
+		{
+			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
+			"Yldz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2891, -- [11]
+			"0x070000000032AE00", -- [12]
+			0, -- [13]
+			[51] = 1576269393,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddYldz|r",
+		}, -- [23]
+		{
+			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
+			"Yldz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2894, -- [11]
+			"0x070000000032AE00", -- [12]
+			0, -- [13]
+			[51] = 1576269394,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddYldz|r",
+		}, -- [24]
+		{
+			"BUR CYNEGOLD NUFF VIl", -- [1]
+			"Ragema", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2897, -- [11]
+			"0x07000000004ECF2F", -- [12]
+			0, -- [13]
+			[51] = 1576269395,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dRagema|r",
+		}, -- [25]
+		{
+			"ms |cffa335ee|Hitem:47478:0:0:0:0:0:0:0:80|h[Breeches of the Deepening Void]|h|r", -- [1]
+			"Nugga", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2901, -- [11]
+			"0x07000000003E0C50", -- [12]
+			0, -- [13]
+			[51] = 1576269396,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffffffffNugga|r",
+		}, -- [26]
+		{
+			"WTB |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 85g stacks |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:0|h[Scarlet Ruby]|h|r120g per |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r 400g stacks trade or COD", -- [1]
+			"Elektroist", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2902, -- [11]
+			"0x0700000000347A6D", -- [12]
+			0, -- [13]
+			[51] = 1576269396,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaElektroist|r",
+		}, -- [27]
+		{
+			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
+			"Ticklemypick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2903, -- [11]
+			"0x0700000000020E36", -- [12]
+			0, -- [13]
+			[51] = 1576269397,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTicklemypick|r",
+		}, -- [28]
+		{
+			"BOR VIL TI O Y noth Eynes vrum E E GOTH forthis ve garde lars E U Vrum RUFF VA", -- [1]
+			"Otecnaum", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2904, -- [11]
+			"0x07000000003762D5", -- [12]
+			0, -- [13]
+			[51] = 1576269397,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffOtecnaum|r",
+		}, -- [29]
+		{
+			"LFM ICC 10 N/HC NEED ALL - - LINK ANCHI + GS 5.8K MIN ", -- [1]
+			"Hordegate", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2908, -- [11]
+			"0x070000000049CF83", -- [12]
+			0, -- [13]
+			[51] = 1576269398,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddHordegate|r",
+		}, -- [30]
+		{
+			"NEED 2 MDPS 1 RDPS ICC 10 LK RUN, WISP ME BEST ACHIEV AND GS/SPEC", -- [1]
+			"Shinnock", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2909, -- [11]
+			"0x07000000000149E7", -- [12]
+			0, -- [13]
+			[51] = 1576269398,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aShinnock|r",
+		}, -- [31]
+		{
+			"LFm Icc 10 Hc Guild Run need 1 Prot Pala Shadow Pr LAst Spot gs + 6 k W/me Fast (Full Run )", -- [1]
+			"Deadlydevil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2910, -- [11]
+			"0x07000000004C3348", -- [12]
+			0, -- [13]
+			[51] = 1576269398,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaDeadlydevil|r",
+		}, -- [32]
+		{
+			"im the lucky charm samuel", -- [1]
+			"Ovrkill", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2911, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269399,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [33]
+		{
+			" LFM ICC 10hc @bane need rogue and tank(prot pala/dudu) 1resto shaman /w me ur gs and spec with achiv. [Discord is must]. ", -- [1]
+			"Redk", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2912, -- [11]
+			"0x07000000000B2805", -- [12]
+			0, -- [13]
+			[51] = 1576269399,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aRedk|r",
+		}, -- [34]
+		{
+			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
+			"Yldz", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2916, -- [11]
+			"0x070000000032AE00", -- [12]
+			0, -- [13]
+			[51] = 1576269400,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddYldz|r",
+		}, -- [35]
+		{
+			"NEED 2 MDPS 1 RDPS ICC 10 LK RUN, WISP ME BEST ACHIEV AND GS/SPEC", -- [1]
+			"Shinnock", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			2918, -- [11]
+			"0x07000000000149E7", -- [12]
+			0, -- [13]
+			[51] = 1576269401,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aShinnock|r",
+		}, -- [36]
+		{
+			":p", -- [1]
+			"Ovrkill", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2919, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269401,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [37]
+		{
+			"LFm Icc 10 Hc Guild Run need 1 Prot Pala Shadow Pr LAst Spot gs + 6 k W/me Fast (Full Run )", -- [1]
+			"Deadlydevil", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2921, -- [11]
+			"0x07000000004C3348", -- [12]
+			0, -- [13]
+			[51] = 1576269402,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaDeadlydevil|r",
+		}, -- [38]
+		{
+			"NEED 2 TANK 2 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
+			"Magoufre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2922, -- [11]
+			"0x070000000044847E", -- [12]
+			0, -- [13]
+			[51] = 1576269402,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefMagoufre|r",
+		}, -- [39]
+		{
+			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
+			"Yldz", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2923, -- [11]
+			"0x070000000032AE00", -- [12]
+			0, -- [13]
+			[51] = 1576269402,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddYldz|r",
+		}, -- [40]
+		{
+			"LFM ICC10N Alt run (boosting 1 rog). NEED 2 TANK 2 HEAL 2 DPS! min gs 5.3, gem,encha /w class,gs @memo", -- [1]
+			"Valkii", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2924, -- [11]
+			"0x07000000004DF876", -- [12]
+			0, -- [13]
+			[51] = 1576269402,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefValkii|r",
+		}, -- [41]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2926, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269402,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [42]
+		{
+			"NEED 2 MDPS 1 RDPS ICC 10 LK RUN, WISP ME BEST ACHIEV AND GS/SPEC", -- [1]
+			"Shinnock", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2927, -- [11]
+			"0x07000000000149E7", -- [12]
+			0, -- [13]
+			[51] = 1576269403,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aShinnock|r",
+		}, -- [43]
+		{
+			"LFM ICC 10 N/HC NEED ALL - LINK ACHI + GS 5.8K MIN /W ME ", -- [1]
+			"Boosan", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			2929, -- [11]
+			"0x0700000000490189", -- [12]
+			0, -- [13]
+			[51] = 1576269403,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aBoosan|r",
+		}, -- [44]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2930, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269404,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [45]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2933, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269405,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [46]
+		{
+			">Brazilian Vanguard< BR/PT Recruta todos players para o seu core de ICC/RS/TOC 25N/HC ( preferencia DUDU BOMY, WAR FURY, HUNTER MM e LOCK para MAIN CORE) e as demais classes para alts run.", -- [1]
+			"Tonguetied", -- [2]
+			"Orcish", -- [3]
+			"4. LookingForGroup", -- [4]
+			"", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			2939, -- [11]
+			"0x07000000004D2EBE", -- [12]
+			0, -- [13]
+			[51] = 1576269409,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaTonguetied|r",
+		}, -- [47]
+		{
+			"LFM ICC 25nm 4 dps5.7gs FULL GEM and ENCH LINK YOUR BEST ACHI", -- [1]
+			"Iamjustatank", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2944, -- [11]
+			"0x07000000003D1307", -- [12]
+			0, -- [13]
+			[51] = 1576269410,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaIamjustatank|r",
+		}, -- [48]
+		{
+			"os", -- [1]
+			"Nugga", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2945, -- [11]
+			"0x07000000003E0C50", -- [12]
+			0, -- [13]
+			[51] = 1576269410,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffffffffNugga|r",
+		}, -- [49]
+		{
+			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
+			"Ticklemypick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2946, -- [11]
+			"0x0700000000020E36", -- [12]
+			0, -- [13]
+			[51] = 1576269411,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTicklemypick|r",
+		}, -- [50]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2955, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269415,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [51]
+		{
+			"NEED 2 TANK 2 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
+			"Magoufre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2956, -- [11]
+			"0x070000000044847E", -- [12]
+			0, -- [13]
+			[51] = 1576269415,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefMagoufre|r",
+		}, -- [52]
+		{
+			"shhhhh", -- [1]
+			"Arroweater", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2957, -- [11]
+			"0x07000000004E3DEB", -- [12]
+			0, -- [13]
+			[51] = 1576269415,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Arroweater|r",
+		}, -- [53]
+		{
+			"Rolling ends in 10 seconds", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2958, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269415,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [54]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2962, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269417,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [55]
+		{
+			"can someone link me dps ?", -- [1]
+			"Dkayx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2965, -- [11]
+			"0x07000000004C70F1", -- [12]
+			0, -- [13]
+			[51] = 1576269419,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aDkayx|r",
+		}, -- [56]
+		{
+			"Rolling ends in 5 seconds", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2968, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269420,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [57]
+		{
+			"ms |cffa335ee|Hitem:47417:0:0:0:0:0:0:0:80|h[Drape of the Refreshing Winds]|h|r", -- [1]
+			"Nugga", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2970, -- [11]
+			"0x07000000003E0C50", -- [12]
+			0, -- [13]
+			[51] = 1576269421,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffffffffNugga|r",
+		}, -- [58]
+		{
+			"or thee healing reduction ", -- [1]
+			"Aola", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2972, -- [11]
+			"0x07000000004DCDDB", -- [12]
+			0, -- [13]
+			[51] = 1576269421,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffAola|r",
+		}, -- [59]
+		{
+			"think mine is bugged", -- [1]
+			"Dkayx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2973, -- [11]
+			"0x07000000004C70F1", -- [12]
+			0, -- [13]
+			[51] = 1576269422,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aDkayx|r",
+		}, -- [60]
+		{
+			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
+			"Ticklemypick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2980, -- [11]
+			"0x0700000000020E36", -- [12]
+			0, -- [13]
+			[51] = 1576269425,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTicklemypick|r",
+		}, -- [61]
+		{
+			"LFM ICC 25 man dynamic run min 5.8k gs full gems n enchants, LINK LK KILL 25 man NEED 1 rDPS (semi guild boosting run) Beos + P reserved! sfs free roll, MEMO inspect", -- [1]
+			"Medc", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2981, -- [11]
+			"0x07000000001201E8", -- [12]
+			0, -- [13]
+			[51] = 1576269425,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Medc|r",
+		}, -- [62]
+		{
+			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
+			"Zipzapzop", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2982, -- [11]
+			"0x07000000004DF294", -- [12]
+			0, -- [13]
+			[51] = 1576269425,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddZipzapzop|r",
+		}, -- [63]
+		{
+			"that works too", -- [1]
+			"Aola", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2986, -- [11]
+			"0x07000000004DCDDB", -- [12]
+			0, -- [13]
+			[51] = 1576269426,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffffffffAola|r",
+		}, -- [64]
+		{
+			"WTB |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 85g stacks |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:0|h[Scarlet Ruby]|h|r120g per |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r 400g stacks trade or COD", -- [1]
+			"Elektroist", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2987, -- [11]
+			"0x0700000000347A6D", -- [12]
+			0, -- [13]
+			[51] = 1576269426,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaElektroist|r",
+		}, -- [65]
+		{
+			"BOR VIL TI O Y noth Eynes vrum E E GOTH forthis ve garde lars E U Vrum RUFF VA", -- [1]
+			"Otecnaum", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2990, -- [11]
+			"0x07000000003762D5", -- [12]
+			0, -- [13]
+			[51] = 1576269427,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffOtecnaum|r",
+		}, -- [66]
+		{
+			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
+			"Zipzapzop", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2991, -- [11]
+			"0x07000000004DF294", -- [12]
+			0, -- [13]
+			[51] = 1576269427,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddZipzapzop|r",
+		}, -- [67]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			2994, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [68]
+		{
+			"NEED 2 TANK 2 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
+			"Magoufre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2995, -- [11]
+			"0x070000000044847E", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefMagoufre|r",
+		}, -- [69]
+		{
+			"Recount - Damage Done for Last Fight", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2997, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [70]
+		{
+			"1. Invariably 4371404 (13257.9, 8.2%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2998, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [71]
+		{
+			"2. Dkayx 3657599 (11253.8, 6.8%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			2999, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [72]
+		{
+			"3. Zanahori 3634672 (10831.3, 6.8%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3000, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [73]
+		{
+			"4. Shredyy 3383245 (10591.2, 6.3%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3001, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [74]
+		{
+			"5. Necrolite 3374580 (10065.9, 6.3%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3002, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [75]
+		{
+			"6. Odylak 3155953 (9132.6, 5.9%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3003, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [76]
+		{
+			"7. Fatsp 3071870 (9769.0, 5.7%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3004, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [77]
+		{
+			"8. Enork 3013999 (10050.7, 5.6%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3005, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [78]
+		{
+			"9. Jaladreips 2783569 (8501.3, 5.2%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3006, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [79]
+		{
+			"10. Chloelol 2731793 (7912.3, 5.1%)", -- [1]
+			"Odylak", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3007, -- [11]
+			"0x070000000014C3AC", -- [12]
+			0, -- [13]
+			[51] = 1576269429,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cff9382c9Odylak|r",
+		}, -- [80]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3010, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269430,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [81]
+		{
+			"os", -- [1]
+			"Nugga", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3013, -- [11]
+			"0x07000000003E0C50", -- [12]
+			0, -- [13]
+			[51] = 1576269431,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffffffffNugga|r",
+		}, -- [82]
+		{
+			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
+			"Yldz", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3017, -- [11]
+			"0x070000000032AE00", -- [12]
+			0, -- [13]
+			[51] = 1576269434,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddYldz|r",
+		}, -- [83]
+		{
+			"Recount - DPS for Overall Data", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3021, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [84]
+		{
+			"0. Total 192564.8 (100%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3022, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [85]
+		{
+			"1. Invariably 13573.6 (7%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3023, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [86]
+		{
+			"2. Spindle 13040.6 (6.7%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3024, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [87]
+		{
+			"3. Shredyy 11044.1 (5.7%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3025, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [88]
+		{
+			"4. Enork 10913.1 (5.6%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3026, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [89]
+		{
+			"5. Fatsp 10738.1 (5.5%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3027, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [90]
+		{
+			"6. Anhedonic 9790.2 (5%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3028, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [91]
+		{
+			"7. Zanahori 9480.3 (4.9%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3029, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [92]
+		{
+			"8. Relzar 8879.9 (4.6%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3030, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [93]
+		{
+			"9. Dkayx 8704.2 (4.5%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3031, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [94]
+		{
+			"10. Kadreylx 8623.7 (4.4%)", -- [1]
+			"Ovrkill", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3032, -- [11]
+			"0x0700000000141B8A", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cfffff468Ovrkill|r",
+		}, -- [95]
+		{
+			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
+			"Yldz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3036, -- [11]
+			"0x070000000032AE00", -- [12]
+			0, -- [13]
+			[51] = 1576269436,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddYldz|r",
+		}, -- [96]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3038, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269437,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [97]
+		{
+			" LFM ICC 10hc @bane need fwar rogue and tank(prot pala/dudu) 1resto shaman /w me ur gs and spec with achiv. [Discord is must]. ", -- [1]
+			"Redk", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3040, -- [11]
+			"0x07000000000B2805", -- [12]
+			0, -- [13]
+			[51] = 1576269438,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aRedk|r",
+		}, -- [98]
+		{
+			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
+			"Shafrantiqta", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3041, -- [11]
+			"0x07000000000F4FD3", -- [12]
+			0, -- [13]
+			[51] = 1576269439,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaShafrantiqta|r",
+		}, -- [99]
+		{
+			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
+			"Ticklemypick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3044, -- [11]
+			"0x0700000000020E36", -- [12]
+			0, -- [13]
+			[51] = 1576269439,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTicklemypick|r",
+		}, -- [100]
+		{
+			"LFM ICC 10n/HC ~~~5.9+ K GS ~~~ VH INSPECT ~~~ ACHIEV OR NO INVITE ~~~ need 1 mdps and 1 rdps", -- [1]
+			"Muiemistaker", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3048, -- [11]
+			"0x07000000004DD9E5", -- [12]
+			0, -- [13]
+			[51] = 1576269440,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddMuiemistaker|r",
+		}, -- [101]
+		{
+			"she is spectron", -- [1]
+			"Anhedonic", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3049, -- [11]
+			"0x07000000004C9C67", -- [12]
+			0, -- [13]
+			[51] = 1576269441,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffff468Anhedonic|r",
 		}, -- [102]
 		{
-			"<TFK> Albacutie prepares |cff71d5ff|Hspell:57426|h[Fish Feast]|h|r", -- [1]
-			"Devotional", -- [2]
+			"LFM ICC 10n/HC ~~~5.9+ K GS ~~~ VH INSPECT ~~~ ACHIEV OR NO INVITE ~~~ need 1 mdps and 1 rdps", -- [1]
+			"Muiemistaker", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1870,17 +1870,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			382, -- [11]
-			"0x0700000000158464", -- [12]
+			3050, -- [11]
+			"0x07000000004DD9E5", -- [12]
 			0, -- [13]
-			[51] = 1576263754,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaDevotional|r",
+			[51] = 1576269441,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddMuiemistaker|r",
 		}, -- [103]
 		{
-			"Albacutie prepares a Fish Feast!", -- [1]
-			"Devotional", -- [2]
-			"Orcish", -- [3]
+			"GOL VIL TI LU GOTH O AGOL O UDEN E ASH Y GOTH EYNES E VRUM", -- [1]
+			"Holygirld", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1888,16 +1888,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			383, -- [11]
-			"0x0700000000158464", -- [12]
+			3053, -- [11]
+			"0x07000000004E40FF", -- [12]
 			0, -- [13]
-			[51] = 1576263757,
-			[50] = "CHAT_MSG_RAID_WARNING",
-			[52] = "|cfff48cbaDevotional|r",
+			[51] = 1576269442,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffHolygirld|r",
 		}, -- [104]
 		{
-			"bought a pala?", -- [1]
-			"Enork", -- [2]
+			"WTB Eternal Fire 50g each, Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 675g, Frozen Orb 70g, Speed Potion 20g send me C.O.D", -- [1]
+			"Asashigure", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3054, -- [11]
+			"0x070000000039BF6F", -- [12]
+			0, -- [13]
+			[51] = 1576269443,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefAsashigure|r",
+		}, -- [105]
+		{
+			"ICC 25 Nm/hc Need Healers(shamy hpriest) & MDps 6K+ No KS- no inv (B+P+SFS RES) |cffffff00|Hachievement:4584:07000000002A0C9F:1:5:17:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
+			"Seibutis", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1906,15 +1924,195 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			384, -- [11]
-			"0x0700000000014DD9", -- [12]
+			3056, -- [11]
+			"0x07000000001CFDE4", -- [12]
 			0, -- [13]
-			[51] = 1576263768,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dEnork|r",
-		}, -- [105]
+			[51] = 1576269444,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aSeibutis|r",
+		}, -- [106]
 		{
-			"relog cos my skada and omen ded", -- [1]
+			"ms |cffa335ee|Hitem:47425:0:0:0:0:0:0:0:80|h[Flowing Robes of Ascent]|h|r", -- [1]
+			"Nugga", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3058, -- [11]
+			"0x07000000003E0C50", -- [12]
+			0, -- [13]
+			[51] = 1576269444,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffffffffNugga|r",
+		}, -- [107]
+		{
+			"thats overall lmao", -- [1]
+			"Dkayx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3060, -- [11]
+			"0x07000000004C70F1", -- [12]
+			0, -- [13]
+			[51] = 1576269445,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aDkayx|r",
+		}, -- [108]
+		{
+			"BOR RUFTOs goth Danieb Ruftvess Wirsh E Lo faergas VE ash thor ruff uden Agol va ras Goth Noth TI danieb bur se cynegold", -- [1]
+			"Elonei", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3061, -- [11]
+			"0x07000000004CEFD3", -- [12]
+			0, -- [13]
+			[51] = 1576269445,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aElonei|r",
+		}, -- [109]
+		{
+			"BOR VIL TI O Y noth Eynes vrum E E GOTH forthis ve garde lars E U Vrum RUFF VA", -- [1]
+			"Otecnaum", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3064, -- [11]
+			"0x07000000003762D5", -- [12]
+			0, -- [13]
+			[51] = 1576269446,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffOtecnaum|r",
+		}, -- [110]
+		{
+			"goth O melka ve algos nud vil TI lu ko E Lu", -- [1]
+			"Aanw", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3066, -- [11]
+			"0x070000000047BD7B", -- [12]
+			0, -- [13]
+			[51] = 1576269448,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddAanw|r",
+		}, -- [111]
+		{
+			"LU LORDAERE", -- [1]
+			"Elvenor", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3067, -- [11]
+			"0x07000000000148CF", -- [12]
+			0, -- [13]
+			[51] = 1576269449,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Elvenor|r",
+		}, -- [112]
+		{
+			"os", -- [1]
+			"Nugga", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3069, -- [11]
+			"0x07000000003E0C50", -- [12]
+			0, -- [13]
+			[51] = 1576269450,
+			[50] = "CHAT_MSG_RAID_WARNING",
+			[52] = "|cffffffffNugga|r",
+		}, -- [113]
+		{
+			"dont worry we can placate her anger soon", -- [1]
+			"Anhedonic", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3073, -- [11]
+			"0x07000000004C9C67", -- [12]
+			0, -- [13]
+			[51] = 1576269452,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffff468Anhedonic|r",
+		}, -- [114]
+		{
+			"LFM ICC 25 man dynamic run min 5.8k gs full gems n enchants, LINK LK KILL 25 man NEED 1 DPS (semi guild boosting run) Beos + P reserved! sfs free roll, MEMO inspect", -- [1]
+			"Medc", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3074, -- [11]
+			"0x07000000001201E8", -- [12]
+			0, -- [13]
+			[51] = 1576269452,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Medc|r",
+		}, -- [115]
+		{
+			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
+			"Ticklemypick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3076, -- [11]
+			"0x0700000000020E36", -- [12]
+			0, -- [13]
+			[51] = 1576269454,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aTicklemypick|r",
+		}, -- [116]
+		{
+			"overall dps is for plebs", -- [1]
 			"Necrolite", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
@@ -1924,232 +2122,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			385, -- [11]
+			3078, -- [11]
 			"0x07000000004C16C7", -- [12]
 			0, -- [13]
-			[51] = 1576263771,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1576269454,
+			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Necrolite|r",
-		}, -- [106]
-		{
-			"it's my brothers", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			386, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1576263777,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [107]
-		{
-			"might pls if possible", -- [1]
-			"Anhedonic", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			387, -- [11]
-			"0x07000000004C9C67", -- [12]
-			0, -- [13]
-			[51] = 1576263777,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Anhedonic|r",
-		}, -- [108]
-		{
-			"nice one", -- [1]
-			"Enork", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			389, -- [11]
-			"0x0700000000014DD9", -- [12]
-			0, -- [13]
-			[51] = 1576263785,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dEnork|r",
-		}, -- [109]
-		{
-			"yeah", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			390, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1576263796,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [110]
-		{
-			"carry us tomorrow?", -- [1]
-			"Enork", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			391, -- [11]
-			"0x0700000000014DD9", -- [12]
-			0, -- [13]
-			[51] = 1576263797,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dEnork|r",
-		}, -- [111]
-		{
-			"decent", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			392, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1576263799,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [112]
-		{
-			"i will", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			393, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1576263804,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [113]
-		{
-			"<3", -- [1]
-			"Enork", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			394, -- [11]
-			"0x0700000000014DD9", -- [12]
-			0, -- [13]
-			[51] = 1576263806,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dEnork|r",
-		}, -- [114]
-		{
-			"\"shreddymourne \"", -- [1]
-			"Kadreylx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			395, -- [11]
-			"0x07000000004C3DEF", -- [12]
-			0, -- [13]
-			[51] = 1576263806,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKadreylx|r",
-		}, -- [115]
-		{
-			"gave me a good chuckle", -- [1]
-			"Kadreylx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			396, -- [11]
-			"0x07000000004C3DEF", -- [12]
-			0, -- [13]
-			[51] = 1576263813,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKadreylx|r",
-		}, -- [116]
-		{
-			"donor :D ", -- [1]
-			"Crazymind", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			397, -- [11]
-			"0x0700000000300270", -- [12]
-			0, -- [13]
-			[51] = 1576263823,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc41e3aCrazymind|r",
 		}, -- [117]
 		{
-			"haha", -- [1]
-			"Hoepe", -- [2]
+			"WTB |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 85g stacks |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:0|h[Scarlet Ruby]|h|r120g per |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r 400g stacks trade or COD", -- [1]
+			"Elektroist", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			398, -- [11]
-			"0x070000000035A55B", -- [12]
+			3082, -- [11]
+			"0x0700000000347A6D", -- [12]
 			0, -- [13]
-			[51] = 1576263827,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aHoepe|r",
+			[51] = 1576269457,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaElektroist|r",
 		}, -- [118]
 		{
-			"donor kebab", -- [1]
-			"Kadreylx", -- [2]
+			"im here for 2 attempts, so guess odylak was correct", -- [1]
+			"Dkayx", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2158,105 +2158,33 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			399, -- [11]
-			"0x07000000004C3DEF", -- [12]
+			3083, -- [11]
+			"0x07000000004C70F1", -- [12]
 			0, -- [13]
-			[51] = 1576263828,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKadreylx|r",
+			[51] = 1576269458,
+			[50] = "CHAT_MSG_RAID",
+			[52] = "|cffc41e3aDkayx|r",
 		}, -- [119]
 		{
-			"not me :o", -- [1]
-			"Shredyy", -- [2]
+			"WTB |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r", -- [1]
+			"Bjjorrn", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			400, -- [11]
-			"0x07000000000B314F", -- [12]
+			3086, -- [11]
+			"0x07000000004D89C2", -- [12]
 			0, -- [13]
-			[51] = 1576263830,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaShredyy|r",
+			[51] = 1576269459,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Bjjorrn|r",
 		}, -- [120]
 		{
-			"stfu zalupa", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			401, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1576263840,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [121]
-		{
-			"ZALUPA", -- [1]
-			"Albacutie", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			402, -- [11]
-			"0x070000000036C748", -- [12]
-			0, -- [13]
-			[51] = 1576263845,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff0070ddAlbacutie|r",
-		}, -- [122]
-		{
-			"alo dolboyob :D ", -- [1]
-			"Crazymind", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			403, -- [11]
-			"0x0700000000300270", -- [12]
-			0, -- [13]
-			[51] = 1576263846,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc41e3aCrazymind|r",
-		}, -- [123]
-		{
-			"salupa lmao", -- [1]
-			"Kadreylx", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			404, -- [11]
-			"0x07000000004C3DEF", -- [12]
-			0, -- [13]
-			[51] = 1576263847,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaKadreylx|r",
-		}, -- [124]
-		{
-			"ZALUPA", -- [1]
+			"pls stop link during rolls", -- [1]
 			"Enork", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
@@ -2266,16 +2194,88 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			405, -- [11]
+			3089, -- [11]
 			"0x0700000000014DD9", -- [12]
 			0, -- [13]
-			[51] = 1576263848,
-			[50] = "CHAT_MSG_SAY",
+			[51] = 1576269462,
+			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc69b6dEnork|r",
+		}, -- [121]
+		{
+			"wahhhh", -- [1]
+			"Arroweater", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3090, -- [11]
+			"0x07000000004E3DEB", -- [12]
+			0, -- [13]
+			[51] = 1576269462,
+			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffaad372Arroweater|r",
+		}, -- [122]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3091, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269462,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [123]
+		{
+			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
+			"Sunsshiine", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			3093, -- [11]
+			"0x07000000004DB38F", -- [12]
+			0, -- [13]
+			[51] = 1576269463,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaSunsshiine|r",
+		}, -- [124]
+		{
+			"bor ash bor lu goth ador ash uden", -- [1]
+			"Kriid", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			3094, -- [11]
+			"0x0700000000373675", -- [12]
+			0, -- [13]
+			[51] = 1576269464,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaKriid|r",
 		}, -- [125]
 		{
-			"dolboyob", -- [1]
-			"Shredyy", -- [2]
+			"NEED 2 TANK 1 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
+			"Magoufre", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -2284,17 +2284,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			406, -- [11]
-			"0x07000000000B314F", -- [12]
+			3096, -- [11]
+			"0x070000000044847E", -- [12]
 			0, -- [13]
-			[51] = 1576263854,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaShredyy|r",
+			[51] = 1576269465,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefMagoufre|r",
 		}, -- [126]
 		{
-			"relog", -- [1]
-			"Tequillaas", -- [2]
-			"Orcish", -- [3]
+			"BUR CYNEGOLD NUFF VIl", -- [1]
+			"Ragema", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -2302,12 +2302,12 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			407, -- [11]
-			"0x07000000004A35FA", -- [12]
+			3097, -- [11]
+			"0x07000000004ECF2F", -- [12]
 			0, -- [13]
-			[51] = 1576263858,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aTequillaas|r",
+			[51] = 1576269465,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dRagema|r",
 		}, -- [127]
 	},
 }
