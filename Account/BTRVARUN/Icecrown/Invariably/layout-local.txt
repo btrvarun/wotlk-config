@@ -2,9 +2,9 @@ Version: 1
 Frame: ChannelPulloutTab
 FrameLevel: 1
 Anchor: TOPRIGHT
-X: 288
+X: 331
 Y: -151
-W: 112
+W: 107
 H: 26
 Frame: WorldMapScreenAnchor
 FrameLevel: 0
@@ -14,11 +14,11 @@ Y: -118
 W: 1
 H: 1
 Frame: ColorPickerFrame
-FrameLevel: 19
+FrameLevel: 9
 Anchor: CENTER
 X: 0
 Y: 0
-W: 405
+W: 365
 H: 240
 Frame: Binder_Frame
 FrameLevel: 1

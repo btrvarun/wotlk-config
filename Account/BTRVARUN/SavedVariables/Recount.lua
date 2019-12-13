@@ -36,9 +36,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["Font"] = "PT Sans Narrow",
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = -51.99999370837397,
@@ -55,20 +55,9 @@ RecountDB = {
 			["LastInstanceName"] = "Vault of Archavon",
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 77.00001374583513,
-			["RealtimeWindows"] = {
-				["Realtime_Bowbaby_DAMAGE"] = {
-					"Bowbaby", -- [1]
-					"DAMAGE", -- [2]
-					"'s DPS", -- [3]
-					0, -- [4]
-					-3.501426671750963e-005, -- [5]
-					199.9999151998231, -- [6]
-					232.0000311845812, -- [7]
-					false, -- [8]
-				},
-			},
+			["BarTextColorSwap"] = false,
 			["CurDataSet"] = "LastFightData",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -82,8 +71,19 @@ RecountDB = {
 			["DetailWindowY"] = -284.9999360579311,
 			["Locked"] = true,
 			["Font"] = "PT Sans Narrow",
-			["ClampToScreen"] = true,
-			["BarTextColorSwap"] = false,
+			["GraphWindowX"] = 77.00001374583513,
+			["RealtimeWindows"] = {
+				["Realtime_Bowbaby_DAMAGE"] = {
+					"Bowbaby", -- [1]
+					"DAMAGE", -- [2]
+					"'s DPS", -- [3]
+					0, -- [4]
+					-3.501426671750963e-005, -- [5]
+					199.9999151998231, -- [6]
+					232.0000311845812, -- [7]
+					false, -- [8]
+				},
+			},
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -101,10 +101,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Ingrate - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -133,9 +133,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
-			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "CurrentFightData",
+			["Font"] = "PT Sans Narrow",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -152,7 +152,7 @@ RecountDB = {
 			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["LastInstanceName"] = "Pit of Saron",
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -164,11 +164,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
-			["Locked"] = true,
-			["CurDataSet"] = "LastFightData",
-			["Font"] = "PT Sans Narrow",
 			["DetailWindowY"] = 0,
+			["Locked"] = true,
+			["Font"] = "PT Sans Narrow",
+			["CurDataSet"] = "LastFightData",
+			["LastInstanceName"] = "Pit of Saron",
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -196,7 +196,7 @@ RecountDB = {
 			["DetailWindowX"] = 360.9999598566905,
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["LastInstanceName"] = "Trial of the Crusader",
 			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
 			["FrameStrata"] = "2-LOW",
@@ -217,9 +217,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }
