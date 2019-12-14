@@ -5,7 +5,7 @@ Anchor: TOPRIGHT
 X: 374
 Y: -151
 W: 107
-H: 26
+H: 32
 Frame: WorldMapScreenAnchor
 FrameLevel: 0
 Anchor: TOPLEFT
@@ -19,7 +19,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: BOTTOMRIGHT
@@ -56,14 +56,14 @@ Y: -1
 W: 120
 H: 20
 Frame: Recount_MainWindow
-FrameLevel: 16
+FrameLevel: 30
 Anchor: BOTTOMRIGHT
 X: -6
 Y: 29
 W: 265
 H: 216
 Frame: Recount_DetailWindow
-FrameLevel: 21
+FrameLevel: 10
 Anchor: CENTER
 X: 76
 Y: 89
@@ -77,7 +77,7 @@ Y: 15
 W: 40
 H: 300
 Frame: SkadaBarWindowSkada
-FrameLevel: 61
+FrameLevel: 103
 Anchor: BOTTOMRIGHT
 X: -272
 Y: 221
@@ -104,10 +104,3 @@ X: -201
 Y: 5
 W: 1
 H: 1
-Frame: DBM_GUI_OptionsFrame
-FrameLevel: 5
-Anchor: CENTER
-X: 0
-Y: 0
-W: 720
-H: 500

@@ -19,46 +19,10 @@ ElvCharacterDB = {
 		"/w Projectkata rofl", -- [16]
 		"/w Zanahori trade albacutie", -- [17]
 		"/w Zanahori for flasks", -- [18]
-		"/epgp", -- [19]
-		"/w Fatsp swap glyph of dispersion for glyph of mind sear", -- [20]
+		"/w Fatsp swap glyph of dispersion for glyph of mind sear", -- [19]
+		"/epgp", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
-			"Ticklemypick", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2835, -- [11]
-			"0x0700000000020E36", -- [12]
-			0, -- [13]
-			[51] = 1576269368,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aTicklemypick|r",
-		}, -- [1]
-		{
-			"LU NUD NUD MOD TI E E ", -- [1]
-			"Panterix", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2841, -- [11]
-			"0x07000000004BA756", -- [12]
-			0, -- [13]
-			[51] = 1576269372,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aPanterix|r",
-		}, -- [2]
 		{
 			"LFM ICC 25nm 4 dps5.7gs FULL GEM and ENCH LINK YOUR BEST ACHI", -- [1]
 			"Iamjustatank", -- [2]
@@ -76,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1576269373,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIamjustatank|r",
-		}, -- [3]
+		}, -- [1]
 		{
 			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
 			"Shafrantiqta", -- [2]
@@ -94,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1576269373,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaShafrantiqta|r",
-		}, -- [4]
+		}, -- [2]
 		{
 			"LFM ICC25 nm/hc 6k gs need Healers ,Dps best achiev /w me B+P+SFS res! [The Light of Dawn]", -- [1]
 			"Murdo", -- [2]
@@ -112,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1576269373,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMurdo|r",
-		}, -- [5]
+		}, -- [3]
 		{
 			"LFM ICC25 nm/hc 6k gs need Healers ,Dps best achiev /w me B+P+SFS res! [The Light of Dawn]", -- [1]
 			"Murdo", -- [2]
@@ -130,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1576269375,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aMurdo|r",
-		}, -- [6]
+		}, -- [4]
 		{
 			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
 			"Shafrantiqta", -- [2]
@@ -148,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1576269375,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaShafrantiqta|r",
-		}, -- [7]
+		}, -- [5]
 		{
 			"XD", -- [1]
 			"Arroweater", -- [2]
@@ -166,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1576269377,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffaad372Arroweater|r",
-		}, -- [8]
+		}, -- [6]
 		{
 			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
 			"Shafrantiqta", -- [2]
@@ -184,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1576269378,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaShafrantiqta|r",
-		}, -- [9]
+		}, -- [7]
 		{
 			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
 			"Zipzapzop", -- [2]
@@ -202,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1576269380,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddZipzapzop|r",
-		}, -- [10]
+		}, -- [8]
 		{
 			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
 			"Zipzapzop", -- [2]
@@ -220,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1576269381,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddZipzapzop|r",
-		}, -- [11]
+		}, -- [9]
 		{
 			"nah she didnt actually", -- [1]
 			"Arroweater", -- [2]
@@ -238,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1576269381,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffaad372Arroweater|r",
-		}, -- [12]
+		}, -- [10]
 		{
 			"Relliklaires won |cffa335ee|Hitem:47490:0:0:0:0:0:0:0:80|h[Maiden's Adoration]|h|r with 70.", -- [1]
 			"Ovrkill", -- [2]
@@ -256,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1576269382,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [13]
+		}, -- [11]
 		{
 			"ah ok bro :D ", -- [1]
 			"Fatsp", -- [2]
@@ -274,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1576269382,
 			[50] = "CHAT_MSG_WHISPER",
 			[52] = "|cffffffffFatsp|r",
-		}, -- [14]
+		}, -- [12]
 		{
 			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
 			"Ticklemypick", -- [2]
@@ -292,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1576269382,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTicklemypick|r",
-		}, -- [15]
+		}, -- [13]
 		{
 			"LU Gothalgos ", -- [1]
 			"Alistey", -- [2]
@@ -310,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1576269386,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Alistey|r",
-		}, -- [16]
+		}, -- [14]
 		{
 			"LFM ICC 10 N/HC NEED ALL - - LINK ANCHI + GS 5.8K MIN ", -- [1]
 			"Hordegate", -- [2]
@@ -328,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1576269386,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddHordegate|r",
-		}, -- [17]
+		}, -- [15]
 		{
 			"BOR RUFTOs goth NUD E Lo faergas VE ash thor ruff uden Agol va ras Goth Noth TI danieb bur se cynegold", -- [1]
 			"Elonei", -- [2]
@@ -346,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1576269388,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aElonei|r",
-		}, -- [18]
+		}, -- [16]
 		{
 			"LFM ICC 25 man dynamic run min 5.8k gs full gems n enchants, LINK LK KILL 25 man NEED 1 rDPS (semi guild boosting run) Beos + P reserved! sfs free roll, MEMO inspect", -- [1]
 			"Medc", -- [2]
@@ -364,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1576269388,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Medc|r",
-		}, -- [19]
+		}, -- [17]
 		{
 			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000", -- [1]
 			"Yldz", -- [2]
@@ -382,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1576269389,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddYldz|r",
-		}, -- [20]
+		}, -- [18]
 		{
 			"LFM <<< ICC 25HC>>> 8/12HC (B+P+ sfs) Ress 6.2+ Best achiv! Need! MT 3 Helaers rest dps |cffffff00|Hachievement:4584:07000000002F61C7:1:9:19:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Problematiic", -- [2]
@@ -400,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1576269391,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dProblematiic|r",
-		}, -- [21]
+		}, -- [19]
 		{
 			"LFM ICC 10n/HC ~~~5.9+ K GS ~~~ VH INSPECT ~~~ ACHIEV OR NO INVITE ~~~ need 1 mdps and 1 rdps", -- [1]
 			"Muiemistaker", -- [2]
@@ -418,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1576269392,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddMuiemistaker|r",
-		}, -- [22]
+		}, -- [20]
 		{
 			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
 			"Yldz", -- [2]
@@ -436,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1576269393,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddYldz|r",
-		}, -- [23]
+		}, -- [21]
 		{
 			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
 			"Yldz", -- [2]
@@ -454,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1576269394,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddYldz|r",
-		}, -- [24]
+		}, -- [22]
 		{
 			"BUR CYNEGOLD NUFF VIl", -- [1]
 			"Ragema", -- [2]
@@ -472,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1576269395,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dRagema|r",
-		}, -- [25]
+		}, -- [23]
 		{
 			"ms |cffa335ee|Hitem:47478:0:0:0:0:0:0:0:80|h[Breeches of the Deepening Void]|h|r", -- [1]
 			"Nugga", -- [2]
@@ -490,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1576269396,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffffffffNugga|r",
-		}, -- [26]
+		}, -- [24]
 		{
 			"WTB |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 85g stacks |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:0|h[Scarlet Ruby]|h|r120g per |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r 400g stacks trade or COD", -- [1]
 			"Elektroist", -- [2]
@@ -508,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1576269396,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaElektroist|r",
-		}, -- [27]
+		}, -- [25]
 		{
 			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
 			"Ticklemypick", -- [2]
@@ -526,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1576269397,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTicklemypick|r",
-		}, -- [28]
+		}, -- [26]
 		{
 			"BOR VIL TI O Y noth Eynes vrum E E GOTH forthis ve garde lars E U Vrum RUFF VA", -- [1]
 			"Otecnaum", -- [2]
@@ -544,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1576269397,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffOtecnaum|r",
-		}, -- [29]
+		}, -- [27]
 		{
 			"LFM ICC 10 N/HC NEED ALL - - LINK ANCHI + GS 5.8K MIN ", -- [1]
 			"Hordegate", -- [2]
@@ -562,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1576269398,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddHordegate|r",
-		}, -- [30]
+		}, -- [28]
 		{
 			"NEED 2 MDPS 1 RDPS ICC 10 LK RUN, WISP ME BEST ACHIEV AND GS/SPEC", -- [1]
 			"Shinnock", -- [2]
@@ -580,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1576269398,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aShinnock|r",
-		}, -- [31]
+		}, -- [29]
 		{
 			"LFm Icc 10 Hc Guild Run need 1 Prot Pala Shadow Pr LAst Spot gs + 6 k W/me Fast (Full Run )", -- [1]
 			"Deadlydevil", -- [2]
@@ -598,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1576269398,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaDeadlydevil|r",
-		}, -- [32]
+		}, -- [30]
 		{
 			"im the lucky charm samuel", -- [1]
 			"Ovrkill", -- [2]
@@ -616,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1576269399,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [33]
+		}, -- [31]
 		{
 			" LFM ICC 10hc @bane need rogue and tank(prot pala/dudu) 1resto shaman /w me ur gs and spec with achiv. [Discord is must]. ", -- [1]
 			"Redk", -- [2]
@@ -634,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1576269399,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aRedk|r",
-		}, -- [34]
+		}, -- [32]
 		{
 			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
 			"Yldz", -- [2]
@@ -652,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1576269400,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddYldz|r",
-		}, -- [35]
+		}, -- [33]
 		{
 			"NEED 2 MDPS 1 RDPS ICC 10 LK RUN, WISP ME BEST ACHIEV AND GS/SPEC", -- [1]
 			"Shinnock", -- [2]
@@ -670,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1576269401,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aShinnock|r",
-		}, -- [36]
+		}, -- [34]
 		{
 			":p", -- [1]
 			"Ovrkill", -- [2]
@@ -688,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1576269401,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [37]
+		}, -- [35]
 		{
 			"LFm Icc 10 Hc Guild Run need 1 Prot Pala Shadow Pr LAst Spot gs + 6 k W/me Fast (Full Run )", -- [1]
 			"Deadlydevil", -- [2]
@@ -706,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1576269402,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaDeadlydevil|r",
-		}, -- [38]
+		}, -- [36]
 		{
 			"NEED 2 TANK 2 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
 			"Magoufre", -- [2]
@@ -724,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1576269402,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefMagoufre|r",
-		}, -- [39]
+		}, -- [37]
 		{
 			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
 			"Yldz", -- [2]
@@ -742,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1576269402,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddYldz|r",
-		}, -- [40]
+		}, -- [38]
 		{
 			"LFM ICC10N Alt run (boosting 1 rog). NEED 2 TANK 2 HEAL 2 DPS! min gs 5.3, gem,encha /w class,gs @memo", -- [1]
 			"Valkii", -- [2]
@@ -760,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1576269402,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefValkii|r",
-		}, -- [41]
+		}, -- [39]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -778,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1576269402,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [42]
+		}, -- [40]
 		{
 			"NEED 2 MDPS 1 RDPS ICC 10 LK RUN, WISP ME BEST ACHIEV AND GS/SPEC", -- [1]
 			"Shinnock", -- [2]
@@ -796,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1576269403,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aShinnock|r",
-		}, -- [43]
+		}, -- [41]
 		{
 			"LFM ICC 10 N/HC NEED ALL - LINK ACHI + GS 5.8K MIN /W ME ", -- [1]
 			"Boosan", -- [2]
@@ -814,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1576269403,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aBoosan|r",
-		}, -- [44]
+		}, -- [42]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -832,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1576269404,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [45]
+		}, -- [43]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -850,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1576269405,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [46]
+		}, -- [44]
 		{
 			">Brazilian Vanguard< BR/PT Recruta todos players para o seu core de ICC/RS/TOC 25N/HC ( preferencia DUDU BOMY, WAR FURY, HUNTER MM e LOCK para MAIN CORE) e as demais classes para alts run.", -- [1]
 			"Tonguetied", -- [2]
@@ -868,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1576269409,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaTonguetied|r",
-		}, -- [47]
+		}, -- [45]
 		{
 			"LFM ICC 25nm 4 dps5.7gs FULL GEM and ENCH LINK YOUR BEST ACHI", -- [1]
 			"Iamjustatank", -- [2]
@@ -886,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1576269410,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIamjustatank|r",
-		}, -- [48]
+		}, -- [46]
 		{
 			"os", -- [1]
 			"Nugga", -- [2]
@@ -904,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1576269410,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffffffffNugga|r",
-		}, -- [49]
+		}, -- [47]
 		{
 			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
 			"Ticklemypick", -- [2]
@@ -922,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1576269411,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTicklemypick|r",
-		}, -- [50]
+		}, -- [48]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -940,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1576269415,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [51]
+		}, -- [49]
 		{
 			"NEED 2 TANK 2 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
 			"Magoufre", -- [2]
@@ -958,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1576269415,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefMagoufre|r",
-		}, -- [52]
+		}, -- [50]
 		{
 			"shhhhh", -- [1]
 			"Arroweater", -- [2]
@@ -976,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1576269415,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffaad372Arroweater|r",
-		}, -- [53]
+		}, -- [51]
 		{
 			"Rolling ends in 10 seconds", -- [1]
 			"Ovrkill", -- [2]
@@ -994,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1576269415,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [54]
+		}, -- [52]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -1012,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1576269417,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [55]
+		}, -- [53]
 		{
 			"can someone link me dps ?", -- [1]
 			"Dkayx", -- [2]
@@ -1030,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1576269419,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aDkayx|r",
-		}, -- [56]
+		}, -- [54]
 		{
 			"Rolling ends in 5 seconds", -- [1]
 			"Ovrkill", -- [2]
@@ -1048,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1576269420,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [57]
+		}, -- [55]
 		{
 			"ms |cffa335ee|Hitem:47417:0:0:0:0:0:0:0:80|h[Drape of the Refreshing Winds]|h|r", -- [1]
 			"Nugga", -- [2]
@@ -1066,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1576269421,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffffffffNugga|r",
-		}, -- [58]
+		}, -- [56]
 		{
 			"or thee healing reduction ", -- [1]
 			"Aola", -- [2]
@@ -1084,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1576269421,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffAola|r",
-		}, -- [59]
+		}, -- [57]
 		{
 			"think mine is bugged", -- [1]
 			"Dkayx", -- [2]
@@ -1102,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1576269422,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aDkayx|r",
-		}, -- [60]
+		}, -- [58]
 		{
 			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
 			"Ticklemypick", -- [2]
@@ -1120,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1576269425,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTicklemypick|r",
-		}, -- [61]
+		}, -- [59]
 		{
 			"LFM ICC 25 man dynamic run min 5.8k gs full gems n enchants, LINK LK KILL 25 man NEED 1 rDPS (semi guild boosting run) Beos + P reserved! sfs free roll, MEMO inspect", -- [1]
 			"Medc", -- [2]
@@ -1138,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1576269425,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Medc|r",
-		}, -- [62]
+		}, -- [60]
 		{
 			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
 			"Zipzapzop", -- [2]
@@ -1156,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1576269425,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddZipzapzop|r",
-		}, -- [63]
+		}, -- [61]
 		{
 			"that works too", -- [1]
 			"Aola", -- [2]
@@ -1174,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1576269426,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffAola|r",
-		}, -- [64]
+		}, -- [62]
 		{
 			"WTB |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 85g stacks |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:0|h[Scarlet Ruby]|h|r120g per |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r 400g stacks trade or COD", -- [1]
 			"Elektroist", -- [2]
@@ -1192,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1576269426,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaElektroist|r",
-		}, -- [65]
+		}, -- [63]
 		{
 			"BOR VIL TI O Y noth Eynes vrum E E GOTH forthis ve garde lars E U Vrum RUFF VA", -- [1]
 			"Otecnaum", -- [2]
@@ -1210,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1576269427,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffOtecnaum|r",
-		}, -- [66]
+		}, -- [64]
 		{
 			"LFM TOC 10HC gs 5.6k need 1 Tank last spot and go", -- [1]
 			"Zipzapzop", -- [2]
@@ -1228,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1576269427,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddZipzapzop|r",
-		}, -- [67]
+		}, -- [65]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -1246,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [68]
+		}, -- [66]
 		{
 			"NEED 2 TANK 2 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
 			"Magoufre", -- [2]
@@ -1264,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefMagoufre|r",
-		}, -- [69]
+		}, -- [67]
 		{
 			"Recount - Damage Done for Last Fight", -- [1]
 			"Odylak", -- [2]
@@ -1282,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [70]
+		}, -- [68]
 		{
 			"1. Invariably 4371404 (13257.9, 8.2%)", -- [1]
 			"Odylak", -- [2]
@@ -1300,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [71]
+		}, -- [69]
 		{
 			"2. Dkayx 3657599 (11253.8, 6.8%)", -- [1]
 			"Odylak", -- [2]
@@ -1318,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [72]
+		}, -- [70]
 		{
 			"3. Zanahori 3634672 (10831.3, 6.8%)", -- [1]
 			"Odylak", -- [2]
@@ -1336,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [73]
+		}, -- [71]
 		{
 			"4. Shredyy 3383245 (10591.2, 6.3%)", -- [1]
 			"Odylak", -- [2]
@@ -1354,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [74]
+		}, -- [72]
 		{
 			"5. Necrolite 3374580 (10065.9, 6.3%)", -- [1]
 			"Odylak", -- [2]
@@ -1372,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [75]
+		}, -- [73]
 		{
 			"6. Odylak 3155953 (9132.6, 5.9%)", -- [1]
 			"Odylak", -- [2]
@@ -1390,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [76]
+		}, -- [74]
 		{
 			"7. Fatsp 3071870 (9769.0, 5.7%)", -- [1]
 			"Odylak", -- [2]
@@ -1408,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [77]
+		}, -- [75]
 		{
 			"8. Enork 3013999 (10050.7, 5.6%)", -- [1]
 			"Odylak", -- [2]
@@ -1426,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [78]
+		}, -- [76]
 		{
 			"9. Jaladreips 2783569 (8501.3, 5.2%)", -- [1]
 			"Odylak", -- [2]
@@ -1444,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [79]
+		}, -- [77]
 		{
 			"10. Chloelol 2731793 (7912.3, 5.1%)", -- [1]
 			"Odylak", -- [2]
@@ -1462,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1576269429,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Odylak|r",
-		}, -- [80]
+		}, -- [78]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -1480,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1576269430,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [81]
+		}, -- [79]
 		{
 			"os", -- [1]
 			"Nugga", -- [2]
@@ -1498,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1576269431,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffffffffNugga|r",
-		}, -- [82]
+		}, -- [80]
 		{
 			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
 			"Yldz", -- [2]
@@ -1516,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1576269434,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddYldz|r",
-		}, -- [83]
+		}, -- [81]
 		{
 			"Recount - DPS for Overall Data", -- [1]
 			"Ovrkill", -- [2]
@@ -1534,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [84]
+		}, -- [82]
 		{
 			"0. Total 192564.8 (100%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1552,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [85]
+		}, -- [83]
 		{
 			"1. Invariably 13573.6 (7%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1570,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [86]
+		}, -- [84]
 		{
 			"2. Spindle 13040.6 (6.7%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1588,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [87]
+		}, -- [85]
 		{
 			"3. Shredyy 11044.1 (5.7%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1606,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [88]
+		}, -- [86]
 		{
 			"4. Enork 10913.1 (5.6%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1624,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [89]
+		}, -- [87]
 		{
 			"5. Fatsp 10738.1 (5.5%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1642,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [90]
+		}, -- [88]
 		{
 			"6. Anhedonic 9790.2 (5%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1660,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [91]
+		}, -- [89]
 		{
 			"7. Zanahori 9480.3 (4.9%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1678,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [92]
+		}, -- [90]
 		{
 			"8. Relzar 8879.9 (4.6%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1696,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [93]
+		}, -- [91]
 		{
 			"9. Dkayx 8704.2 (4.5%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1714,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [94]
+		}, -- [92]
 		{
 			"10. Kadreylx 8623.7 (4.4%)", -- [1]
 			"Ovrkill", -- [2]
@@ -1732,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ovrkill|r",
-		}, -- [95]
+		}, -- [93]
 		{
 			"Lfm icc 10 hc Wis me 1x tank pala 1x pirist shadow Gs up +6000 : LK ", -- [1]
 			"Yldz", -- [2]
@@ -1750,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1576269436,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddYldz|r",
-		}, -- [96]
+		}, -- [94]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -1768,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1576269437,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [97]
+		}, -- [95]
 		{
 			" LFM ICC 10hc @bane need fwar rogue and tank(prot pala/dudu) 1resto shaman /w me ur gs and spec with achiv. [Discord is must]. ", -- [1]
 			"Redk", -- [2]
@@ -1786,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1576269438,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aRedk|r",
-		}, -- [98]
+		}, -- [96]
 		{
 			"LFM ICC 25 NM/HC NEED 4 DPS 5.8 gs min /w me gs and achi (BOE RES)", -- [1]
 			"Shafrantiqta", -- [2]
@@ -1804,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1576269439,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaShafrantiqta|r",
-		}, -- [99]
+		}, -- [97]
 		{
 			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
 			"Ticklemypick", -- [2]
@@ -1822,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1576269439,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTicklemypick|r",
-		}, -- [100]
+		}, -- [98]
 		{
 			"LFM ICC 10n/HC ~~~5.9+ K GS ~~~ VH INSPECT ~~~ ACHIEV OR NO INVITE ~~~ need 1 mdps and 1 rdps", -- [1]
 			"Muiemistaker", -- [2]
@@ -1840,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1576269440,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddMuiemistaker|r",
-		}, -- [101]
+		}, -- [99]
 		{
 			"she is spectron", -- [1]
 			"Anhedonic", -- [2]
@@ -1858,7 +1822,7 @@ ElvCharacterDB = {
 			[51] = 1576269441,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfffff468Anhedonic|r",
-		}, -- [102]
+		}, -- [100]
 		{
 			"LFM ICC 10n/HC ~~~5.9+ K GS ~~~ VH INSPECT ~~~ ACHIEV OR NO INVITE ~~~ need 1 mdps and 1 rdps", -- [1]
 			"Muiemistaker", -- [2]
@@ -1876,7 +1840,7 @@ ElvCharacterDB = {
 			[51] = 1576269441,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddMuiemistaker|r",
-		}, -- [103]
+		}, -- [101]
 		{
 			"GOL VIL TI LU GOTH O AGOL O UDEN E ASH Y GOTH EYNES E VRUM", -- [1]
 			"Holygirld", -- [2]
@@ -1894,7 +1858,7 @@ ElvCharacterDB = {
 			[51] = 1576269442,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffHolygirld|r",
-		}, -- [104]
+		}, -- [102]
 		{
 			"WTB Eternal Fire 50g each, Life 15g each, Netherweave Cloth 10g per Stack, Titansteel Bar 235g, Primordial Saronite 675g, Frozen Orb 70g, Speed Potion 20g send me C.O.D", -- [1]
 			"Asashigure", -- [2]
@@ -1912,7 +1876,7 @@ ElvCharacterDB = {
 			[51] = 1576269443,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefAsashigure|r",
-		}, -- [105]
+		}, -- [103]
 		{
 			"ICC 25 Nm/hc Need Healers(shamy hpriest) & MDps 6K+ No KS- no inv (B+P+SFS RES) |cffffff00|Hachievement:4584:07000000002A0C9F:1:5:17:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Seibutis", -- [2]
@@ -1930,7 +1894,7 @@ ElvCharacterDB = {
 			[51] = 1576269444,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aSeibutis|r",
-		}, -- [106]
+		}, -- [104]
 		{
 			"ms |cffa335ee|Hitem:47425:0:0:0:0:0:0:0:80|h[Flowing Robes of Ascent]|h|r", -- [1]
 			"Nugga", -- [2]
@@ -1948,7 +1912,7 @@ ElvCharacterDB = {
 			[51] = 1576269444,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffffffffNugga|r",
-		}, -- [107]
+		}, -- [105]
 		{
 			"thats overall lmao", -- [1]
 			"Dkayx", -- [2]
@@ -1966,7 +1930,7 @@ ElvCharacterDB = {
 			[51] = 1576269445,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aDkayx|r",
-		}, -- [108]
+		}, -- [106]
 		{
 			"BOR RUFTOs goth Danieb Ruftvess Wirsh E Lo faergas VE ash thor ruff uden Agol va ras Goth Noth TI danieb bur se cynegold", -- [1]
 			"Elonei", -- [2]
@@ -1984,7 +1948,7 @@ ElvCharacterDB = {
 			[51] = 1576269445,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aElonei|r",
-		}, -- [109]
+		}, -- [107]
 		{
 			"BOR VIL TI O Y noth Eynes vrum E E GOTH forthis ve garde lars E U Vrum RUFF VA", -- [1]
 			"Otecnaum", -- [2]
@@ -2002,7 +1966,7 @@ ElvCharacterDB = {
 			[51] = 1576269446,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffffffffOtecnaum|r",
-		}, -- [110]
+		}, -- [108]
 		{
 			"goth O melka ve algos nud vil TI lu ko E Lu", -- [1]
 			"Aanw", -- [2]
@@ -2020,7 +1984,7 @@ ElvCharacterDB = {
 			[51] = 1576269448,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddAanw|r",
-		}, -- [111]
+		}, -- [109]
 		{
 			"LU LORDAERE", -- [1]
 			"Elvenor", -- [2]
@@ -2038,7 +2002,7 @@ ElvCharacterDB = {
 			[51] = 1576269449,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Elvenor|r",
-		}, -- [112]
+		}, -- [110]
 		{
 			"os", -- [1]
 			"Nugga", -- [2]
@@ -2056,7 +2020,7 @@ ElvCharacterDB = {
 			[51] = 1576269450,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cffffffffNugga|r",
-		}, -- [113]
+		}, -- [111]
 		{
 			"dont worry we can placate her anger soon", -- [1]
 			"Anhedonic", -- [2]
@@ -2074,7 +2038,7 @@ ElvCharacterDB = {
 			[51] = 1576269452,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfffff468Anhedonic|r",
-		}, -- [114]
+		}, -- [112]
 		{
 			"LFM ICC 25 man dynamic run min 5.8k gs full gems n enchants, LINK LK KILL 25 man NEED 1 DPS (semi guild boosting run) Beos + P reserved! sfs free roll, MEMO inspect", -- [1]
 			"Medc", -- [2]
@@ -2092,7 +2056,7 @@ ElvCharacterDB = {
 			[51] = 1576269452,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Medc|r",
-		}, -- [115]
+		}, -- [113]
 		{
 			"WTS Gold and Random Accounts -- 80 lvI price 5$ --- 5k gs price $9.7 --- 6k gs cost 24.3$ _____ WаrmanеAccоunts.com", -- [1]
 			"Ticklemypick", -- [2]
@@ -2110,7 +2074,7 @@ ElvCharacterDB = {
 			[51] = 1576269454,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTicklemypick|r",
-		}, -- [116]
+		}, -- [114]
 		{
 			"overall dps is for plebs", -- [1]
 			"Necrolite", -- [2]
@@ -2128,7 +2092,7 @@ ElvCharacterDB = {
 			[51] = 1576269454,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff9382c9Necrolite|r",
-		}, -- [117]
+		}, -- [115]
 		{
 			"WTB |cffffffff|Hitem:36912:0:0:0:0:0:0:0:80|h[Saronite Ore]|h|r 85g stacks |cff0070dd|Hitem:36918:0:0:0:0:0:0:0:0|h[Scarlet Ruby]|h|r120g per |cff1eff00|Hitem:36910:0:0:0:0:0:0:0:80|h[Titanium Ore]|h|r 400g stacks trade or COD", -- [1]
 			"Elektroist", -- [2]
@@ -2146,7 +2110,7 @@ ElvCharacterDB = {
 			[51] = 1576269457,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaElektroist|r",
-		}, -- [118]
+		}, -- [116]
 		{
 			"im here for 2 attempts, so guess odylak was correct", -- [1]
 			"Dkayx", -- [2]
@@ -2164,7 +2128,7 @@ ElvCharacterDB = {
 			[51] = 1576269458,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aDkayx|r",
-		}, -- [119]
+		}, -- [117]
 		{
 			"WTB |cffa335ee|Hitem:44253:0:0:0:0:0:0:0:80|h[Darkmoon Card: Greatness]|h|r", -- [1]
 			"Bjjorrn", -- [2]
@@ -2182,7 +2146,7 @@ ElvCharacterDB = {
 			[51] = 1576269459,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Bjjorrn|r",
-		}, -- [120]
+		}, -- [118]
 		{
 			"pls stop link during rolls", -- [1]
 			"Enork", -- [2]
@@ -2200,7 +2164,7 @@ ElvCharacterDB = {
 			[51] = 1576269462,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc69b6dEnork|r",
-		}, -- [121]
+		}, -- [119]
 		{
 			"wahhhh", -- [1]
 			"Arroweater", -- [2]
@@ -2218,7 +2182,7 @@ ElvCharacterDB = {
 			[51] = 1576269462,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffaad372Arroweater|r",
-		}, -- [122]
+		}, -- [120]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -2236,7 +2200,7 @@ ElvCharacterDB = {
 			[51] = 1576269462,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [123]
+		}, -- [121]
 		{
 			"icc 10 normal wis me 1 healer +5500 lk run 9/10", -- [1]
 			"Sunsshiine", -- [2]
@@ -2254,7 +2218,7 @@ ElvCharacterDB = {
 			[51] = 1576269463,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSunsshiine|r",
-		}, -- [124]
+		}, -- [122]
 		{
 			"bor ash bor lu goth ador ash uden", -- [1]
 			"Kriid", -- [2]
@@ -2272,7 +2236,7 @@ ElvCharacterDB = {
 			[51] = 1576269464,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaKriid|r",
-		}, -- [125]
+		}, -- [123]
 		{
 			"NEED 2 TANK 1 HEAL |cffffff00|Hquest:26034:82|h[The Twilight Destroyer]|h|r 10 NM 5K5 GS ", -- [1]
 			"Magoufre", -- [2]
@@ -2290,7 +2254,7 @@ ElvCharacterDB = {
 			[51] = 1576269465,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefMagoufre|r",
-		}, -- [126]
+		}, -- [124]
 		{
 			"BUR CYNEGOLD NUFF VIl", -- [1]
 			"Ragema", -- [2]
@@ -2308,6 +2272,42 @@ ElvCharacterDB = {
 			[51] = 1576269465,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dRagema|r",
+		}, -- [125]
+		{
+			"LU E Faergas Rogesh Nandige Ruff hir Y nagan VE", -- [1]
+			"Filetxi", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			4, -- [11]
+			"0x0700000000004A80", -- [12]
+			0, -- [13]
+			[51] = 1576273604,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aFiletxi|r",
+		}, -- [126]
+		{
+			"LF VOA25 F+F! 2 HEAL 2 DPS! PREF SHAMAN! 5.2+ (rog pve, ress)", -- [1]
+			"Vlkr", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"0x07000000004E8201", -- [12]
+			0, -- [13]
+			[51] = 1576273622,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Vlkr|r",
 		}, -- [127]
 	},
 }
