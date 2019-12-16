@@ -51,13 +51,8 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
-			["DetailWindowX"] = 370.0000269445724,
-			["LastInstanceName"] = "Vault of Archavon",
-			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["BarTextColorSwap"] = false,
 			["ClampToScreen"] = true,
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -68,10 +63,12 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = -284.9999535650644,
+			["DetailWindowX"] = 370.0000269445724,
 			["GraphWindowX"] = 77.00001374583513,
 			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
-			["DetailWindowY"] = -284.9999360579311,
+			["LastInstanceName"] = "Vault of Archavon",
+			["BarTexture"] = "Armory",
 			["RealtimeWindows"] = {
 				["Realtime_Bowbaby_DAMAGE"] = {
 					"Bowbaby", -- [1]
@@ -84,6 +81,9 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
+			["CurDataSet"] = "LastFightData",
+			["Font"] = "PT Sans Narrow",
+			["BarTextColorSwap"] = false,
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -152,7 +152,7 @@ RecountDB = {
 			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -164,7 +164,7 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
@@ -181,6 +181,9 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
+			["DetailWindowX"] = 785.9999766115641,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["FrameStrata"] = "2-LOW",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -193,13 +196,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -277.9999539070006,
-			["DetailWindowX"] = 785.9999766115641,
-			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["LastInstanceName"] = "Trial of the Crusader",
+			["GraphWindowX"] = 0,
 			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
-			["FrameStrata"] = "2-LOW",
 		},
 		["Bowbaby - Unlimited WoW"] = {
 			["GraphWindowY"] = 0,

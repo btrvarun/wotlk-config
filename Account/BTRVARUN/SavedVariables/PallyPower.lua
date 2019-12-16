@@ -60,16 +60,16 @@ PallyPower_Assignments = {
 		1, -- [11]
 	},
 	["Aulo"] = {
-		2, -- [1]
-		2, -- [2]
+		0, -- [1]
+		0, -- [2]
 		1, -- [3]
 		1, -- [4]
 		1, -- [5]
-		2, -- [6]
+		1, -- [6]
 		1, -- [7]
 		1, -- [8]
 		1, -- [9]
-		2, -- [10]
+		1, -- [10]
 		1, -- [11]
 	},
 	["Mybest"] = {
@@ -393,9 +393,9 @@ PallyPower_Assignments = {
 		2, -- [6]
 		0, -- [7]
 		0, -- [8]
-		2, -- [9]
+		0, -- [9]
 		2, -- [10]
-		2, -- [11]
+		0, -- [11]
 	},
 	["Tsena"] = {
 		0, -- [1]
@@ -619,17 +619,17 @@ PallyPower_Assignments = {
 		3, -- [11]
 	},
 	["Relliklaires"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		3, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		3, -- [11]
+		1, -- [1]
+		1, -- [2]
+		1, -- [3]
+		1, -- [4]
+		1, -- [5]
+		1, -- [6]
+		1, -- [7]
+		1, -- [8]
+		1, -- [9]
+		1, -- [10]
+		1, -- [11]
 	},
 	["Errorpaladin"] = {
 		1, -- [1]
@@ -1088,7 +1088,7 @@ PallyPower_AuraAssignments = {
 	["Jantherqt"] = 3,
 	["Infine"] = 5,
 	["Athine"] = 2,
-	["Shredyy"] = 5,
+	["Shredyy"] = 3,
 	["Tsena"] = 3,
 	["Phsycopally"] = 1,
 	["Testoe"] = 3,
@@ -1106,7 +1106,7 @@ PallyPower_AuraAssignments = {
 	["Rshaam"] = 2,
 	["Sunweli"] = 1,
 	["Azurelane"] = 1,
-	["Relliklaires"] = 2,
+	["Relliklaires"] = 5,
 	["Errorpaladin"] = 1,
 	["Xuxiaoge"] = 1,
 	["Njenner"] = 0,
