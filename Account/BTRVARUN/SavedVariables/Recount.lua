@@ -51,7 +51,6 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
-			["FrameStrata"] = "2-LOW",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -63,11 +62,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -284.9999535650644,
+			["DetailWindowY"] = -284.9999360579311,
 			["DetailWindowX"] = 370.0000269445724,
 			["GraphWindowX"] = 77.00001374583513,
 			["Locked"] = true,
-			["LastInstanceName"] = "Vault of Archavon",
+			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["RealtimeWindows"] = {
 				["Realtime_Bowbaby_DAMAGE"] = {
@@ -81,9 +80,10 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["CurDataSet"] = "LastFightData",
 			["Font"] = "PT Sans Narrow",
-			["BarTextColorSwap"] = false,
+			["CurDataSet"] = "LastFightData",
+			["FrameStrata"] = "2-LOW",
+			["LastInstanceName"] = "Vault of Archavon",
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -149,10 +149,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["BarTextColorSwap"] = false,
+			["LastInstanceName"] = "Razorfen Kraul",
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 0,
+			["BarTextColorSwap"] = false,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -166,9 +166,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
+			["CurDataSet"] = "CurrentFightData",
 			["Font"] = "PT Sans Narrow",
-			["CurDataSet"] = "LastFightData",
-			["LastInstanceName"] = "Pit of Saron",
+			["GraphWindowX"] = 0,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,

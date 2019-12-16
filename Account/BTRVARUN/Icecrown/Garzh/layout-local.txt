@@ -12,7 +12,7 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: RIGHT
@@ -49,7 +49,7 @@ Y: -1
 W: 120
 H: 20
 Frame: Recount_MainWindow
-FrameLevel: 30
+FrameLevel: 26
 Anchor: BOTTOMRIGHT
 X: -6
 Y: 29
@@ -63,7 +63,7 @@ Y: 15
 W: 40
 H: 300
 Frame: SkadaBarWindowSkada
-FrameLevel: 103
+FrameLevel: 54
 Anchor: BOTTOMRIGHT
 X: -272
 Y: 221
