@@ -36,9 +36,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["Font"] = "PT Sans Narrow",
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = -51.99999370837397,
@@ -51,6 +51,7 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
+			["FrameStrata"] = "2-LOW",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -82,7 +83,6 @@ RecountDB = {
 			},
 			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
-			["FrameStrata"] = "2-LOW",
 			["LastInstanceName"] = "Vault of Archavon",
 		},
 		["Kamakshi - Icecrown"] = {
@@ -101,10 +101,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["DetailWindowX"] = 0,
 		},
 		["Ingrate - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -133,9 +133,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "CurrentFightData",
 			["Font"] = "PT Sans Narrow",
+			["CurDataSet"] = "CurrentFightData",
+			["GraphWindowX"] = 0,
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -152,7 +152,7 @@ RecountDB = {
 			["LastInstanceName"] = "Razorfen Kraul",
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["BarTextColorSwap"] = false,
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -166,9 +166,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["CurDataSet"] = "CurrentFightData",
 			["Font"] = "PT Sans Narrow",
-			["GraphWindowX"] = 0,
+			["CurDataSet"] = "CurrentFightData",
+			["BarTextColorSwap"] = false,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -197,9 +197,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = -277.9999539070006,
 			["Locked"] = true,
-			["GraphWindowX"] = 0,
-			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
+			["Font"] = "PT Sans Narrow",
+			["GraphWindowX"] = 0,
 		},
 		["Bowbaby - Unlimited WoW"] = {
 			["GraphWindowY"] = 0,
@@ -217,9 +217,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 	},
 }
