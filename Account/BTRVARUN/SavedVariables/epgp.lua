@@ -4152,11 +4152,11 @@ EPGP_DB = {
 					},
 					["snapshot"] = {
 						["guild_info"] = "@BASE_GP:500\n@DECAY_P:10%\n@MIN_EP:300\n@EXTRAS_P:50",
-						["time"] = 1576840080,
+						["time"] = 1576922820,
 						["roster_info"] = {
 							{
-								"Dicoo", -- [1]
-								"MAGE", -- [2]
+								"Sanahall", -- [1]
+								"PRIEST", -- [2]
 								"0,0", -- [3]
 							}, -- [1]
 							{
@@ -4207,7 +4207,7 @@ EPGP_DB = {
 							{
 								"Tankodroom", -- [1]
 								"DRUID", -- [2]
-								"422,0", -- [3]
+								"379,0", -- [3]
 							}, -- [11]
 							{
 								"Needlegun", -- [1]
@@ -4240,1155 +4240,1140 @@ EPGP_DB = {
 								"Urthemius", -- [3]
 							}, -- [17]
 							{
-								"Ttwo", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
-							}, -- [18]
-							{
-								"Albakira", -- [1]
-								"SHAMAN", -- [2]
-								"12409,2087", -- [3]
-							}, -- [19]
-							{
-								"Hoepe", -- [1]
-								"DRUID", -- [2]
+								"Hoerney", -- [1]
+								"PRIEST", -- [2]
 								"Hoeney", -- [3]
-							}, -- [20]
+							}, -- [18]
 							{
 								"Antihealer", -- [1]
 								"WARLOCK", -- [2]
 								"Xinoiler", -- [3]
-							}, -- [21]
+							}, -- [19]
 							{
 								"Banshy", -- [1]
 								"MAGE", -- [2]
 								"Vspec", -- [3]
-							}, -- [22]
+							}, -- [20]
 							{
-								"Warrsock", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [23]
-							{
-								"Hoeley", -- [1]
-								"ROGUE", -- [2]
+								"Hoepe", -- [1]
+								"DRUID", -- [2]
 								"Hoeney", -- [3]
-							}, -- [24]
-							{
-								"Mindcrasher", -- [1]
-								"SHAMAN", -- [2]
-								"Vspec", -- [3]
-							}, -- [25]
-							{
-								"Shambling", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"9942,1514", -- [3]
-							}, -- [26]
-							{
-								"Albaguette", -- [1]
-								"MAGE", -- [2]
-								"Albakira", -- [3]
-							}, -- [27]
-							{
-								"Mahuko", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
-							}, -- [28]
-							{
-								"Incompilable", -- [1]
-								"DRUID", -- [2]
-								"Flynnrider", -- [3]
-							}, -- [29]
-							{
-								"Nugga", -- [1]
-								"PRIEST", -- [2]
-								"12616,0", -- [3]
-							}, -- [30]
-							{
-								"Noobsham", -- [1]
-								"SHAMAN", -- [2]
-								"Nugga", -- [3]
-							}, -- [31]
-							{
-								"Mjenner", -- [1]
-								"DRUID", -- [2]
-								"Nugga", -- [3]
-							}, -- [32]
-							{
-								"Snarewitch", -- [1]
-								"MAGE", -- [2]
-								"Holah", -- [3]
-							}, -- [33]
-							{
-								"Vilager", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
-							}, -- [34]
-							{
-								"Kiralba", -- [1]
-								"SHAMAN", -- [2]
-								"Albakira", -- [3]
-							}, -- [35]
-							{
-								"Njenner", -- [1]
-								"PALADIN", -- [2]
-								"Nugga", -- [3]
-							}, -- [36]
-							{
-								"Jesuispriest", -- [1]
-								"PRIEST", -- [2]
-								"Zittar", -- [3]
-							}, -- [37]
-							{
-								"Ektensia", -- [1]
-								"MAGE", -- [2]
-								"12762,1880", -- [3]
-							}, -- [38]
-							{
-								"Mooshoo", -- [1]
-								"DRUID", -- [2]
-								"Enork", -- [3]
-							}, -- [39]
-							{
-								"Aimhigh", -- [1]
-								"HUNTER", -- [2]
-								"Shambling", -- [3]
-							}, -- [40]
-							{
-								"Vspec", -- [1]
-								"DRUID", -- [2]
-								"10993,1669", -- [3]
-							}, -- [41]
-							{
-								"Blanketgurl", -- [1]
-								"PRIEST", -- [2]
-								"Spectron", -- [3]
-							}, -- [42]
-							{
-								"Tequillaa", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"8224,3750", -- [3]
-							}, -- [43]
-							{
-								"Darial", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
-							}, -- [44]
-							{
-								"Henata", -- [1]
-								"ROGUE", -- [2]
-								"0,0", -- [3]
-							}, -- [45]
-							{
-								"Guryosoo", -- [1]
-								"WARRIOR", -- [2]
-								"Ministern", -- [3]
-							}, -- [46]
-							{
-								"Ministern", -- [1]
-								"PRIEST", -- [2]
-								"4200,412", -- [3]
-							}, -- [47]
-							{
-								"Hypersonic", -- [1]
-								"ROGUE", -- [2]
-								"3664,0", -- [3]
-							}, -- [48]
-							{
-								"Holah", -- [1]
-								"PALADIN", -- [2]
-								"9267,3142", -- [3]
-							}, -- [49]
-							{
-								"Nosecurar", -- [1]
-								"DRUID", -- [2]
-								"1710,695", -- [3]
-							}, -- [50]
-							{
-								"Hollowwreach", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Dawnranger", -- [3]
-							}, -- [51]
-							{
-								"Relzar", -- [1]
-								"DRUID", -- [2]
-								"5266,1687", -- [3]
-							}, -- [52]
-							{
-								"Gemle", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
-							}, -- [53]
-							{
-								"Devilscream", -- [1]
-								"WARRIOR", -- [2]
-								"364,0", -- [3]
-							}, -- [54]
-							{
-								"Klyx", -- [1]
-								"MAGE", -- [2]
-								"Fairplay", -- [3]
-							}, -- [55]
-							{
-								"Zozy", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [56]
-							{
-								"Alliancedown", -- [1]
-								"WARRIOR", -- [2]
-								"Shredy", -- [3]
-							}, -- [57]
-							{
-								"Wildfirejim", -- [1]
-								"MAGE", -- [2]
-								"2499,307", -- [3]
-							}, -- [58]
-							{
-								"Flynnrider", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"11320,2079", -- [3]
-							}, -- [59]
-							{
-								"Angrysushi", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
-							}, -- [60]
-							{
-								"Applevu", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
-							}, -- [61]
-							{
-								"Fatsp", -- [1]
-								"PRIEST", -- [2]
-								"2672,0", -- [3]
-							}, -- [62]
-							{
-								"Jesuisdruid", -- [1]
-								"DRUID", -- [2]
-								"Zittar", -- [3]
-							}, -- [63]
-							{
-								"Enork", -- [1]
-								"WARRIOR", -- [2]
-								"14404,170", -- [3]
-							}, -- [64]
-							{
-								"Frostruned", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Shambling", -- [3]
-							}, -- [65]
-							{
-								"Anhedonic", -- [1]
-								"ROGUE", -- [2]
-								"12340,3953", -- [3]
-							}, -- [66]
-							{
-								"Ammanamon", -- [1]
-								"DRUID", -- [2]
-								"1705,352", -- [3]
-							}, -- [67]
-							{
-								"Aolo", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Aola", -- [3]
-							}, -- [68]
-							{
-								"Saeya", -- [1]
-								"PALADIN", -- [2]
-								"Bernardino", -- [3]
-							}, -- [69]
-							{
-								"Kadreylx", -- [1]
-								"PALADIN", -- [2]
-								"1680,0", -- [3]
-							}, -- [70]
-							{
-								"Bernardino", -- [1]
-								"MAGE", -- [2]
-								"1248,0", -- [3]
-							}, -- [71]
-							{
-								"Holyxqt", -- [1]
-								"PALADIN", -- [2]
-								"Azmir", -- [3]
-							}, -- [72]
-							{
-								"Ekaterinanl", -- [1]
-								"ROGUE", -- [2]
-								"4052,0", -- [3]
-							}, -- [73]
-							{
-								"Veliko", -- [1]
-								"PRIEST", -- [2]
-								"567,0", -- [3]
-							}, -- [74]
-							{
-								"Holyfork", -- [1]
-								"PALADIN", -- [2]
-								"393,0", -- [3]
-							}, -- [75]
-							{
-								"Dawnwalker", -- [1]
-								"PALADIN", -- [2]
-								"Dawnranger", -- [3]
-							}, -- [76]
-							{
-								"Jesuiszittar", -- [1]
-								"MAGE", -- [2]
-								"Zittar", -- [3]
-							}, -- [77]
-							{
-								"Anneliauer", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
-							}, -- [78]
-							{
-								"Dasavage", -- [1]
-								"ROGUE", -- [2]
-								"0,0", -- [3]
-							}, -- [79]
-							{
-								"Blackj", -- [1]
-								"PRIEST", -- [2]
-								"Vspec", -- [3]
-							}, -- [80]
-							{
-								"Zipzapzop", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
-							}, -- [81]
-							{
-								"Gillion", -- [1]
-								"WARLOCK", -- [2]
-								"Holah", -- [3]
-							}, -- [82]
-							{
-								"Lightarray", -- [1]
-								"WARRIOR", -- [2]
-								"Flynnrider", -- [3]
-							}, -- [83]
-							{
-								"Nagtar", -- [1]
-								"WARRIOR", -- [2]
-								"50,0", -- [3]
-							}, -- [84]
-							{
-								"Veliiena", -- [1]
-								"MAGE", -- [2]
-								"Valiiena", -- [3]
-							}, -- [85]
-							{
-								"Narzgul", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
-							}, -- [86]
-							{
-								"Othelloo", -- [1]
-								"PALADIN", -- [2]
-								"Flynnrider", -- [3]
-							}, -- [87]
-							{
-								"Relliklaires", -- [1]
-								"PALADIN", -- [2]
-								"3392,4102", -- [3]
-							}, -- [88]
-							{
-								"Hisokamorou", -- [1]
-								"HUNTER", -- [2]
-								"1705,2113", -- [3]
-							}, -- [89]
-							{
-								"Bnm", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
-							}, -- [90]
-							{
-								"Jousinainen", -- [1]
-								"HUNTER", -- [2]
-								"Anneliauer", -- [3]
-							}, -- [91]
-							{
-								"Odylak", -- [1]
-								"WARLOCK", -- [2]
-								"2310,0", -- [3]
-							}, -- [92]
-							{
-								"Archemis", -- [1]
-								"HUNTER", -- [2]
-								"Ministern", -- [3]
-							}, -- [93]
-							{
-								"Angeleyes", -- [1]
-								"DRUID", -- [2]
-								"Flynnrider", -- [3]
-							}, -- [94]
-							{
-								"Enorc", -- [1]
-								"SHAMAN", -- [2]
-								"Enork", -- [3]
-							}, -- [95]
-							{
-								"Nielantiel", -- [1]
-								"MAGE", -- [2]
-								"4787,841", -- [3]
-							}, -- [96]
-							{
-								"Whiskeylol", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Fairplay", -- [3]
-							}, -- [97]
-							{
-								"Immutability", -- [1]
-								"PALADIN", -- [2]
-								"Bowbaby", -- [3]
-							}, -- [98]
-							{
-								"Mortitsu", -- [1]
-								"WARLOCK", -- [2]
-								"Fairplay", -- [3]
-							}, -- [99]
-							{
-								"Assist", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Hypersonic", -- [3]
-							}, -- [100]
-							{
-								"Sukanahuj", -- [1]
-								"ROGUE", -- [2]
-								"0,0", -- [3]
-							}, -- [101]
-							{
-								"Minakshi", -- [1]
-								"PALADIN", -- [2]
-								"6918,2199", -- [3]
-							}, -- [102]
-							{
-								"Bobohunter", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
-							}, -- [103]
-							{
-								"Malkiva", -- [1]
-								"ROGUE", -- [2]
-								"3306,0", -- [3]
-							}, -- [104]
-							{
-								"Metalfox", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
-							}, -- [105]
-							{
-								"Xinoiler", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"3109,0", -- [3]
-							}, -- [106]
-							{
-								"Themaniak", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Holah", -- [3]
-							}, -- [107]
-							{
-								"Melione", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
-							}, -- [108]
-							{
-								"Notofheaven", -- [1]
-								"WARLOCK", -- [2]
-								"Shambling", -- [3]
-							}, -- [109]
-							{
-								"Inngili", -- [1]
-								"PALADIN", -- [2]
-								"Enork", -- [3]
-							}, -- [110]
-							{
-								"Jaladreips", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"1080,0", -- [3]
-							}, -- [111]
-							{
-								"Diskspace", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [112]
-							{
-								"Ghox", -- [1]
-								"DRUID", -- [2]
-								"81,0", -- [3]
-							}, -- [113]
-							{
-								"Tequilab", -- [1]
-								"SHAMAN", -- [2]
-								"Tequillaa", -- [3]
-							}, -- [114]
-							{
-								"Zaikhun", -- [1]
-								"WARRIOR", -- [2]
-								"618,0", -- [3]
-							}, -- [115]
-							{
-								"Rapunzzel", -- [1]
-								"MAGE", -- [2]
-								"Flynnrider", -- [3]
-							}, -- [116]
-							{
-								"Freexyz", -- [1]
-								"WARLOCK", -- [2]
-								"2560,0", -- [3]
-							}, -- [117]
-							{
-								"Spectron", -- [1]
-								"PALADIN", -- [2]
-								"5484,966", -- [3]
-							}, -- [118]
-							{
-								"Digest", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
-							}, -- [119]
-							{
-								"Aola", -- [1]
-								"PRIEST", -- [2]
-								"2800,495", -- [3]
-							}, -- [120]
-							{
-								"Grumplelol", -- [1]
-								"DRUID", -- [2]
-								"Fairplay", -- [3]
-							}, -- [121]
-							{
-								"Fener", -- [1]
-								"DRUID", -- [2]
-								"12847,3030", -- [3]
-							}, -- [122]
-							{
-								"Almightyjuan", -- [1]
-								"WARRIOR", -- [2]
-								"Nugga", -- [3]
-							}, -- [123]
-							{
-								"Beladriembor", -- [1]
-								"PRIEST", -- [2]
-								"Odylak", -- [3]
-							}, -- [124]
-							{
-								"Fairplay", -- [1]
-								"WARLOCK", -- [2]
-								"688,0", -- [3]
-							}, -- [125]
-							{
-								"Priestina", -- [1]
-								"PRIEST", -- [2]
-								"Luminia", -- [3]
-							}, -- [126]
-							{
-								"Defiak", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
-							}, -- [127]
-							{
-								"Zhiet", -- [1]
-								"HUNTER", -- [2]
-								"Enork", -- [3]
-							}, -- [128]
-							{
-								"Fariin", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
-							}, -- [129]
-							{
-								"Imres", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"6830,2104", -- [3]
-							}, -- [130]
-							{
-								"Holahsmash", -- [1]
-								"WARRIOR", -- [2]
-								"Holah", -- [3]
-							}, -- [131]
-							{
-								"Chopeskara", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
-							}, -- [132]
-							{
-								"Tharkibuddah", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
-							}, -- [133]
-							{
-								"Poocket", -- [1]
-								"ROGUE", -- [2]
-								"Nunfortunate", -- [3]
-							}, -- [134]
-							{
-								"Luminia", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"1021,0", -- [3]
-							}, -- [135]
-							{
-								"Stiffbone", -- [1]
-								"MAGE", -- [2]
-								"Voxra", -- [3]
-							}, -- [136]
-							{
-								"Azlone", -- [1]
-								"PRIEST", -- [2]
-								"1937,0", -- [3]
-							}, -- [137]
-							{
-								"Akalvap", -- [1]
-								"MAGE", -- [2]
-								"2888,0", -- [3]
-							}, -- [138]
-							{
-								"Dawnranger", -- [1]
-								"HUNTER", -- [2]
-								"486,0", -- [3]
-							}, -- [139]
-							{
-								"Assasinsushi", -- [1]
-								"ROGUE", -- [2]
-								"0,0", -- [3]
-							}, -- [140]
-							{
-								"Yrsha", -- [1]
-								"ROGUE", -- [2]
-								"Bernardino", -- [3]
-							}, -- [141]
-							{
-								"Chloelol", -- [1]
-								"PALADIN", -- [2]
-								"7489,2095", -- [3]
-							}, -- [142]
-							{
-								"Warcha", -- [1]
-								"WARRIOR", -- [2]
-								"Hoeney", -- [3]
-							}, -- [143]
-							{
-								"Opheliia", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
-							}, -- [144]
-							{
-								"Gzay", -- [1]
-								"ROGUE", -- [2]
-								"1517,0", -- [3]
-							}, -- [145]
-							{
-								"Mofilux", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [146]
-							{
-								"Shugarrush", -- [1]
-								"WARRIOR", -- [2]
-								"8533,1235", -- [3]
-							}, -- [147]
-							{
-								"Mezo", -- [1]
-								"MAGE", -- [2]
-								"Gemle", -- [3]
-							}, -- [148]
-							{
-								"Smallprot", -- [1]
-								"PALADIN", -- [2]
-								"Moosolini", -- [3]
-							}, -- [149]
-							{
-								"Arnaq", -- [1]
-								"MAGE", -- [2]
-								"Enork", -- [3]
-							}, -- [150]
-							{
-								"Viiva", -- [1]
-								"MAGE", -- [2]
-								"Malkiva", -- [3]
-							}, -- [151]
-							{
-								"Legoflash", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
-							}, -- [152]
-							{
-								"Thebnm", -- [1]
-								"WARLOCK", -- [2]
-								"Bnm", -- [3]
-							}, -- [153]
-							{
-								"Enogue", -- [1]
-								"ROGUE", -- [2]
-								"Enork", -- [3]
-							}, -- [154]
-							{
-								"Kuhblut", -- [1]
-								"WARRIOR", -- [2]
-								"Fener", -- [3]
-							}, -- [155]
-							{
-								"Hoedey", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Hoeney", -- [3]
-							}, -- [156]
-							{
-								"Oriondel", -- [1]
-								"HUNTER", -- [2]
-								"Ammanamon", -- [3]
-							}, -- [157]
-							{
-								"Drool", -- [1]
-								"DRUID", -- [2]
-								"Ministern", -- [3]
-							}, -- [158]
-							{
-								"Azmir", -- [1]
-								"PRIEST", -- [2]
-								"5157,4105", -- [3]
-							}, -- [159]
-							{
-								"Kazus", -- [1]
-								"MAGE", -- [2]
-								"", -- [3]
-							}, -- [160]
-							{
-								"Kassaneiti", -- [1]
-								"ROGUE", -- [2]
-								"Anneliauer", -- [3]
-							}, -- [161]
-							{
-								"Silchasruin", -- [1]
-								"PALADIN", -- [2]
-								"Fener", -- [3]
-							}, -- [162]
-							{
-								"Shredyy", -- [1]
-								"PALADIN", -- [2]
-								"Shredy", -- [3]
-							}, -- [163]
-							{
-								"Voxra", -- [1]
-								"DRUID", -- [2]
-								"2000,1874", -- [3]
-							}, -- [164]
-							{
-								"Cptnecro", -- [1]
-								"PRIEST", -- [2]
-								"1976,0", -- [3]
-							}, -- [165]
-							{
-								"Priesist", -- [1]
-								"PRIEST", -- [2]
-								"Enork", -- [3]
-							}, -- [166]
-							{
-								"Niitsu", -- [1]
-								"PALADIN", -- [2]
-								"Vspec", -- [3]
-							}, -- [167]
-							{
-								"Reshicho", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
-							}, -- [168]
-							{
-								"Meowpussi", -- [1]
-								"DRUID", -- [2]
-								"Nugga", -- [3]
-							}, -- [169]
-							{
-								"Betonikala", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
-							}, -- [170]
-							{
-								"Omgbear", -- [1]
-								"DRUID", -- [2]
-								"607,0", -- [3]
-							}, -- [171]
-							{
-								"Curn", -- [1]
-								"PRIEST", -- [2]
-								"Holah", -- [3]
-							}, -- [172]
-							{
-								"Moosolini", -- [1]
-								"WARRIOR", -- [2]
-								"6585,172", -- [3]
-							}, -- [173]
-							{
-								"Nitsu", -- [1]
-								"WARRIOR", -- [2]
-								"Vspec", -- [3]
-							}, -- [174]
-							{
-								"Tigard", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
-							}, -- [175]
-							{
-								"Notzittar", -- [1]
-								"SHAMAN", -- [2]
-								"Zittar", -- [3]
-							}, -- [176]
-							{
-								"Invariably", -- [1]
-								"PRIEST", -- [2]
-								"Bowbaby", -- [3]
-							}, -- [177]
-							{
-								"Ovrkill", -- [1]
-								"ROGUE", -- [2]
-								"1517,0", -- [3]
-							}, -- [178]
-							{
-								"Ryoke", -- [1]
-								"WARLOCK", -- [2]
-								"243,0", -- [3]
-							}, -- [179]
-							{
-								"Sicilija", -- [1]
-								"SHAMAN", -- [2]
-								"Albakira", -- [3]
-							}, -- [180]
-							{
-								"Uxi", -- [1]
-								"HUNTER", -- [2]
-								"5814,1788", -- [3]
-							}, -- [181]
-							{
-								"Kogiana", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Projectkata", -- [3]
-							}, -- [182]
-							{
-								"Spindle", -- [1]
-								"MAGE", -- [2]
-								"Fener", -- [3]
-							}, -- [183]
-							{
-								"Garzh", -- [1]
-								"DRUID", -- [2]
-								"Bowbaby", -- [3]
-							}, -- [184]
-							{
-								"Cinaroll", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Spectron", -- [3]
-							}, -- [185]
-							{
-								"Tonyelcucuy", -- [1]
-								"HUNTER", -- [2]
-								"202,0", -- [3]
-							}, -- [186]
-							{
-								"Elohiim", -- [1]
-								"WARRIOR", -- [2]
-								"0,0", -- [3]
-							}, -- [187]
-							{
-								"Kaama", -- [1]
-								"DRUID", -- [2]
-								"Hypersonic", -- [3]
-							}, -- [188]
-							{
-								"Makalia", -- [1]
-								"DRUID", -- [2]
-								"0,0", -- [3]
-							}, -- [189]
-							{
-								"Artline", -- [1]
-								"DRUID", -- [2]
-								"Vspec", -- [3]
-							}, -- [190]
-							{
-								"Projectkata", -- [1]
-								"MAGE", -- [2]
-								"6853,1412", -- [3]
-							}, -- [191]
-							{
-								"Metalion", -- [1]
-								"SHAMAN", -- [2]
-								"0,0", -- [3]
-							}, -- [192]
-							{
-								"Insertcoinzx", -- [1]
-								"MAGE", -- [2]
-								"Bernardino", -- [3]
-							}, -- [193]
-							{
-								"Ingrate", -- [1]
-								"SHAMAN", -- [2]
-								"Bowbaby", -- [3]
-							}, -- [194]
-							{
-								"Ilirys", -- [1]
-								"WARLOCK", -- [2]
-								"Luminia", -- [3]
-							}, -- [195]
-							{
-								"Adelayd", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [196]
-							{
-								"Savageplug", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Malkiva", -- [3]
-							}, -- [197]
-							{
-								"Sanahall", -- [1]
-								"PRIEST", -- [2]
-								"0,0", -- [3]
-							}, -- [198]
-							{
-								"Fckerbear", -- [1]
-								"DRUID", -- [2]
-								"112,0", -- [3]
-							}, -- [199]
-							{
-								"Holahshred", -- [1]
-								"DRUID", -- [2]
-								"Holah", -- [3]
-							}, -- [200]
-							{
-								"Cirno", -- [1]
-								"WARRIOR", -- [2]
-								"Hypersonic", -- [3]
-							}, -- [201]
-							{
-								"Shredy", -- [1]
-								"PALADIN", -- [2]
-								"10908,1858", -- [3]
-							}, -- [202]
-							{
-								"Hiroshima", -- [1]
-								"MAGE", -- [2]
-								"0,0", -- [3]
-							}, -- [203]
-							{
-								"Rancors", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [204]
-							{
-								"Colasgwapo", -- [1]
-								"PALADIN", -- [2]
-								"393,0", -- [3]
-							}, -- [205]
-							{
-								"Voidmancer", -- [1]
-								"PRIEST", -- [2]
-								"Xinoiler", -- [3]
-							}, -- [206]
-							{
-								"Goxment", -- [1]
-								"PALADIN", -- [2]
-								"Ghox", -- [3]
-							}, -- [207]
-							{
-								"Valiiena", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"5492,2682", -- [3]
-							}, -- [208]
-							{
-								"Ogrishom", -- [1]
-								"WARRIOR", -- [2]
-								"393,0", -- [3]
-							}, -- [209]
-							{
-								"Dibaxqt", -- [1]
-								"PRIEST", -- [2]
-								"", -- [3]
-							}, -- [210]
-							{
-								"Deathbydot", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [211]
-							{
-								"Mixomatose", -- [1]
-								"DRUID", -- [2]
-								"450,0", -- [3]
-							}, -- [212]
-							{
-								"Xanaxorc", -- [1]
-								"HUNTER", -- [2]
-								"Fairplay", -- [3]
-							}, -- [213]
-							{
-								"Flayingbot", -- [1]
-								"DRUID", -- [2]
-								"Azmir", -- [3]
-							}, -- [214]
-							{
-								"Skarlegacy", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [215]
-							{
-								"Applestrudel", -- [1]
-								"PALADIN", -- [2]
-								"1903,3691", -- [3]
-							}, -- [216]
-							{
-								"Bodeine", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
-							}, -- [217]
-							{
-								"Tequillaas", -- [1]
-								"DRUID", -- [2]
-								"Tequillaa", -- [3]
-							}, -- [218]
-							{
-								"Darkhorses", -- [1]
-								"PRIEST", -- [2]
-								"Malkiva", -- [3]
-							}, -- [219]
-							{
-								"Deathfeast", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Minakshi", -- [3]
-							}, -- [220]
-							{
-								"Dawnwreacher", -- [1]
-								"HUNTER", -- [2]
-								"Dawnranger", -- [3]
-							}, -- [221]
-							{
-								"Canyoumangle", -- [1]
-								"DRUID", -- [2]
-								"Shambling", -- [3]
-							}, -- [222]
-							{
-								"Bymbo", -- [1]
-								"SHAMAN", -- [2]
-								"Albakira", -- [3]
-							}, -- [223]
-							{
-								"Arroweater", -- [1]
-								"HUNTER", -- [2]
-								"Spectron", -- [3]
-							}, -- [224]
-							{
-								"Croarne", -- [1]
-								"WARRIOR", -- [2]
-								"Fairplay", -- [3]
-							}, -- [225]
-							{
-								"Zorro", -- [1]
-								"HUNTER", -- [2]
-								"Anhedonic", -- [3]
-							}, -- [226]
-							{
-								"Crazymind", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Vspec", -- [3]
-							}, -- [227]
-							{
-								"Akeye", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"Bernardino", -- [3]
-							}, -- [228]
-							{
-								"Circi", -- [1]
-								"MAGE", -- [2]
-								"Minakshi", -- [3]
-							}, -- [229]
-							{
-								"Hoeney", -- [1]
-								"PALADIN", -- [2]
-								"15471,1262", -- [3]
-							}, -- [230]
-							{
-								"Aromaz", -- [1]
-								"HUNTER", -- [2]
-								"0,0", -- [3]
-							}, -- [231]
-							{
-								"Voidrunner", -- [1]
-								"WARLOCK", -- [2]
-								"Dawnranger", -- [3]
-							}, -- [232]
-							{
-								"Camphor", -- [1]
-								"WARLOCK", -- [2]
-								"Anhedonic", -- [3]
-							}, -- [233]
+							}, -- [21]
 							{
 								"Lhack", -- [1]
 								"WARLOCK", -- [2]
 								"Relliklaires", -- [3]
-							}, -- [234]
+							}, -- [22]
 							{
-								"Forta", -- [1]
+								"Ingrate", -- [1]
+								"SHAMAN", -- [2]
+								"Bowbaby", -- [3]
+							}, -- [23]
+							{
+								"Albaguette", -- [1]
+								"MAGE", -- [2]
+								"Albakira", -- [3]
+							}, -- [24]
+							{
+								"Mahuko", -- [1]
+								"HUNTER", -- [2]
+								"0,0", -- [3]
+							}, -- [25]
+							{
+								"Incompilable", -- [1]
+								"DRUID", -- [2]
+								"Flynnrider", -- [3]
+							}, -- [26]
+							{
+								"Shambling", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"9667,1312", -- [3]
+							}, -- [27]
+							{
+								"Noobsham", -- [1]
+								"SHAMAN", -- [2]
+								"Nugga", -- [3]
+							}, -- [28]
+							{
+								"Mjenner", -- [1]
+								"DRUID", -- [2]
+								"Nugga", -- [3]
+							}, -- [29]
+							{
+								"Snarewitch", -- [1]
+								"MAGE", -- [2]
+								"Holah", -- [3]
+							}, -- [30]
+							{
+								"Vilager", -- [1]
+								"HUNTER", -- [2]
+								"0,0", -- [3]
+							}, -- [31]
+							{
+								"Kiralba", -- [1]
+								"SHAMAN", -- [2]
+								"Albakira", -- [3]
+							}, -- [32]
+							{
+								"Njenner", -- [1]
+								"PALADIN", -- [2]
+								"Nugga", -- [3]
+							}, -- [33]
+							{
+								"Jesuispriest", -- [1]
+								"PRIEST", -- [2]
+								"Zittar", -- [3]
+							}, -- [34]
+							{
+								"Nugga", -- [1]
+								"PRIEST", -- [2]
+								"12054,0", -- [3]
+							}, -- [35]
+							{
+								"Enork", -- [1]
+								"WARRIOR", -- [2]
+								"13773,103", -- [3]
+							}, -- [36]
+							{
+								"Aimhigh", -- [1]
+								"HUNTER", -- [2]
+								"Shambling", -- [3]
+							}, -- [37]
+							{
+								"Vspec", -- [1]
+								"DRUID", -- [2]
+								"9893,1452", -- [3]
+							}, -- [38]
+							{
+								"Blanketgurl", -- [1]
+								"PRIEST", -- [2]
+								"Spectron", -- [3]
+							}, -- [39]
+							{
+								"Tequillaa", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"8211,3325", -- [3]
+							}, -- [40]
+							{
+								"Darial", -- [1]
+								"SHAMAN", -- [2]
+								"0,0", -- [3]
+							}, -- [41]
+							{
+								"Dicoo", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
+							}, -- [42]
+							{
+								"Ministern", -- [1]
+								"PRIEST", -- [2]
+								"3780,320", -- [3]
+							}, -- [43]
+							{
+								"Hypersonic", -- [1]
+								"ROGUE", -- [2]
+								"4107,0", -- [3]
+							}, -- [44]
+							{
+								"Holah", -- [1]
+								"PALADIN", -- [2]
+								"8340,2777", -- [3]
+							}, -- [45]
+							{
+								"Gemle", -- [1]
 								"WARRIOR", -- [2]
 								"0,0", -- [3]
-							}, -- [235]
+							}, -- [46]
+							{
+								"Nosecurar", -- [1]
+								"DRUID", -- [2]
+								"2349,575", -- [3]
+							}, -- [47]
+							{
+								"Hollowwreach", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Dawnranger", -- [3]
+							}, -- [48]
+							{
+								"Relzar", -- [1]
+								"DRUID", -- [2]
+								"5549,1468", -- [3]
+							}, -- [49]
+							{
+								"Bowbaby", -- [1]
+								"HUNTER", -- [2]
+								"8682,1489", -- [3]
+							}, -- [50]
+							{
+								"Devilscream", -- [1]
+								"WARRIOR", -- [2]
+								"1047,0", -- [3]
+							}, -- [51]
+							{
+								"Klyx", -- [1]
+								"MAGE", -- [2]
+								"Fairplay", -- [3]
+							}, -- [52]
+							{
+								"Zozy", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [53]
+							{
+								"Alliancedown", -- [1]
+								"WARRIOR", -- [2]
+								"Shredy", -- [3]
+							}, -- [54]
+							{
+								"Wildfirejim", -- [1]
+								"MAGE", -- [2]
+								"2249,226", -- [3]
+							}, -- [55]
+							{
+								"Anhedonic", -- [1]
+								"ROGUE", -- [2]
+								"12016,3507", -- [3]
+							}, -- [56]
+							{
+								"Angrysushi", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [57]
+							{
+								"Ektensia", -- [1]
+								"MAGE", -- [2]
+								"11485,1642", -- [3]
+							}, -- [58]
+							{
+								"Ammanamon", -- [1]
+								"DRUID", -- [2]
+								"1534,266", -- [3]
+							}, -- [59]
+							{
+								"Jesuisdruid", -- [1]
+								"DRUID", -- [2]
+								"Zittar", -- [3]
+							}, -- [60]
+							{
+								"Abidas", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [61]
+							{
+								"Frostruned", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Shambling", -- [3]
+							}, -- [62]
+							{
+								"Zaalbar", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Odylak", -- [3]
+							}, -- [63]
+							{
+								"Veliko", -- [1]
+								"PRIEST", -- [2]
+								"510,0", -- [3]
+							}, -- [64]
+							{
+								"Aolo", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Aulo", -- [3]
+							}, -- [65]
+							{
+								"Narzgul", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [66]
+							{
+								"Kadreylx", -- [1]
+								"PALADIN", -- [2]
+								"1512,0", -- [3]
+							}, -- [67]
+							{
+								"Holyxqt", -- [1]
+								"PALADIN", -- [2]
+								"Azmir", -- [3]
+							}, -- [68]
+							{
+								"Jaladreips", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"972,0", -- [3]
+							}, -- [69]
+							{
+								"Hoeley", -- [1]
+								"ROGUE", -- [2]
+								"Hoeney", -- [3]
+							}, -- [70]
+							{
+								"Insertcoinzx", -- [1]
+								"MAGE", -- [2]
+								"Bernardino", -- [3]
+							}, -- [71]
+							{
+								"Holyfork", -- [1]
+								"PALADIN", -- [2]
+								"353,0", -- [3]
+							}, -- [72]
+							{
+								"Dawnwalker", -- [1]
+								"PALADIN", -- [2]
+								"Dawnranger", -- [3]
+							}, -- [73]
+							{
+								"Jesuiszittar", -- [1]
+								"MAGE", -- [2]
+								"Zittar", -- [3]
+							}, -- [74]
+							{
+								"Ogrishom", -- [1]
+								"WARRIOR", -- [2]
+								"353,0", -- [3]
+							}, -- [75]
+							{
+								"Dasavage", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
+							}, -- [76]
+							{
+								"Blackj", -- [1]
+								"PRIEST", -- [2]
+								"Vspec", -- [3]
+							}, -- [77]
+							{
+								"Zipzapzop", -- [1]
+								"SHAMAN", -- [2]
+								"90,0", -- [3]
+							}, -- [78]
+							{
+								"Relliklaires", -- [1]
+								"PALADIN", -- [2]
+								"3052,3641", -- [3]
+							}, -- [79]
+							{
+								"Enogue", -- [1]
+								"ROGUE", -- [2]
+								"Enork", -- [3]
+							}, -- [80]
+							{
+								"Odylak", -- [1]
+								"WARLOCK", -- [2]
+								"2889,0", -- [3]
+							}, -- [81]
+							{
+								"Veliiena", -- [1]
+								"MAGE", -- [2]
+								"Valiiena", -- [3]
+							}, -- [82]
+							{
+								"Warrsock", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [83]
+							{
+								"Othelloo", -- [1]
+								"PALADIN", -- [2]
+								"Flynnrider", -- [3]
+							}, -- [84]
+							{
+								"Nagtar", -- [1]
+								"WARRIOR", -- [2]
+								"45,0", -- [3]
+							}, -- [85]
+							{
+								"Hisokamorou", -- [1]
+								"HUNTER", -- [2]
+								"1534,1851", -- [3]
+							}, -- [86]
+							{
+								"Bnm", -- [1]
+								"SHAMAN", -- [2]
+								"0,0", -- [3]
+							}, -- [87]
+							{
+								"Minakshi", -- [1]
+								"PALADIN", -- [2]
+								"7236,1929", -- [3]
+							}, -- [88]
+							{
+								"Malkiva", -- [1]
+								"ROGUE", -- [2]
+								"2975,0", -- [3]
+							}, -- [89]
+							{
+								"Archemis", -- [1]
+								"HUNTER", -- [2]
+								"Ministern", -- [3]
+							}, -- [90]
+							{
+								"Invariably", -- [1]
+								"PRIEST", -- [2]
+								"Bowbaby", -- [3]
+							}, -- [91]
+							{
+								"Enorc", -- [1]
+								"SHAMAN", -- [2]
+								"Enork", -- [3]
+							}, -- [92]
+							{
+								"Labartu", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [93]
+							{
+								"Whiskeylol", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Fairplay", -- [3]
+							}, -- [94]
+							{
+								"Immutability", -- [1]
+								"PALADIN", -- [2]
+								"Bowbaby", -- [3]
+							}, -- [95]
+							{
+								"Mortitsu", -- [1]
+								"WARLOCK", -- [2]
+								"Fairplay", -- [3]
+							}, -- [96]
+							{
+								"Assist", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Hypersonic", -- [3]
+							}, -- [97]
+							{
+								"Sukanahuj", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
+							}, -- [98]
+							{
+								"Ghox", -- [1]
+								"DRUID", -- [2]
+								"927,0", -- [3]
+							}, -- [99]
+							{
+								"Bobohunter", -- [1]
+								"HUNTER", -- [2]
+								"0,0", -- [3]
+							}, -- [100]
+							{
+								"Freexyz", -- [1]
+								"WARLOCK", -- [2]
+								"2304,0", -- [3]
+							}, -- [101]
+							{
+								"Metalfox", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
+							}, -- [102]
+							{
+								"Xinoiler", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"2798,0", -- [3]
+							}, -- [103]
+							{
+								"Fatsp", -- [1]
+								"PRIEST", -- [2]
+								"3214,0", -- [3]
+							}, -- [104]
+							{
+								"Melione", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
+							}, -- [105]
+							{
+								"Notofheaven", -- [1]
+								"WARLOCK", -- [2]
+								"Shambling", -- [3]
+							}, -- [106]
+							{
+								"Inngili", -- [1]
+								"PALADIN", -- [2]
+								"Enork", -- [3]
+							}, -- [107]
+							{
+								"Fairplay", -- [1]
+								"WARLOCK", -- [2]
+								"619,0", -- [3]
+							}, -- [108]
+							{
+								"Ekaterinanl", -- [1]
+								"ROGUE", -- [2]
+								"3646,0", -- [3]
+							}, -- [109]
+							{
+								"Stiffbone", -- [1]
+								"MAGE", -- [2]
+								"Voxra", -- [3]
+							}, -- [110]
+							{
+								"Tequilab", -- [1]
+								"SHAMAN", -- [2]
+								"Tequillaa", -- [3]
+							}, -- [111]
+							{
+								"Zaikhun", -- [1]
+								"WARRIOR", -- [2]
+								"556,0", -- [3]
+							}, -- [112]
+							{
+								"Rapunzzel", -- [1]
+								"MAGE", -- [2]
+								"Flynnrider", -- [3]
+							}, -- [113]
+							{
+								"Defiak", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
+							}, -- [114]
+							{
+								"Spectron", -- [1]
+								"PALADIN", -- [2]
+								"4935,819", -- [3]
+							}, -- [115]
+							{
+								"Digest", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [116]
+							{
+								"Holahshred", -- [1]
+								"DRUID", -- [2]
+								"Holah", -- [3]
+							}, -- [117]
+							{
+								"Grumplelol", -- [1]
+								"DRUID", -- [2]
+								"Fairplay", -- [3]
+							}, -- [118]
+							{
+								"Fener", -- [1]
+								"DRUID", -- [2]
+								"12372,2677", -- [3]
+							}, -- [119]
+							{
+								"Almightyjuan", -- [1]
+								"WARRIOR", -- [2]
+								"Nugga", -- [3]
+							}, -- [120]
+							{
+								"Beladriembor", -- [1]
+								"PRIEST", -- [2]
+								"Odylak", -- [3]
+							}, -- [121]
+							{
+								"Chopeskara", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
+							}, -- [122]
+							{
+								"Priestina", -- [1]
+								"PRIEST", -- [2]
+								"Luminia", -- [3]
+							}, -- [123]
+							{
+								"Azlone", -- [1]
+								"PRIEST", -- [2]
+								"1743,0", -- [3]
+							}, -- [124]
+							{
+								"Aola", -- [1]
+								"PRIEST", -- [2]
+								"Aulo", -- [3]
+							}, -- [125]
+							{
+								"Fariin", -- [1]
+								"SHAMAN", -- [2]
+								"0,0", -- [3]
+							}, -- [126]
+							{
+								"Imres", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"6867,1843", -- [3]
+							}, -- [127]
+							{
+								"Holahsmash", -- [1]
+								"WARRIOR", -- [2]
+								"Holah", -- [3]
+							}, -- [128]
+							{
+								"Yrsha", -- [1]
+								"ROGUE", -- [2]
+								"Bernardino", -- [3]
+							}, -- [129]
+							{
+								"Bymbo", -- [1]
+								"SHAMAN", -- [2]
+								"Albakira", -- [3]
+							}, -- [130]
+							{
+								"Poocket", -- [1]
+								"ROGUE", -- [2]
+								"Nunfortunate", -- [3]
+							}, -- [131]
+							{
+								"Warcha", -- [1]
+								"WARRIOR", -- [2]
+								"Hoeney", -- [3]
+							}, -- [132]
+							{
+								"Cinaroll", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Spectron", -- [3]
+							}, -- [133]
+							{
+								"Circi", -- [1]
+								"MAGE", -- [2]
+								"Minakshi", -- [3]
+							}, -- [134]
+							{
+								"Themaniak", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Holah", -- [3]
+							}, -- [135]
+							{
+								"Dawnranger", -- [1]
+								"HUNTER", -- [2]
+								"437,0", -- [3]
+							}, -- [136]
+							{
+								"Viiva", -- [1]
+								"MAGE", -- [2]
+								"Malkiva", -- [3]
+							}, -- [137]
+							{
+								"Goxment", -- [1]
+								"PALADIN", -- [2]
+								"Ghox", -- [3]
+							}, -- [138]
+							{
+								"Chloelol", -- [1]
+								"PALADIN", -- [2]
+								"7550,1835", -- [3]
+							}, -- [139]
+							{
+								"Priesist", -- [1]
+								"PRIEST", -- [2]
+								"Enork", -- [3]
+							}, -- [140]
+							{
+								"Silchasruin", -- [1]
+								"PALADIN", -- [2]
+								"Fener", -- [3]
+							}, -- [141]
+							{
+								"Gzay", -- [1]
+								"ROGUE", -- [2]
+								"1365,0", -- [3]
+							}, -- [142]
+							{
+								"Mofilux", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [143]
+							{
+								"Shugarrush", -- [1]
+								"WARRIOR", -- [2]
+								"7679,1061", -- [3]
+							}, -- [144]
+							{
+								"Mezo", -- [1]
+								"MAGE", -- [2]
+								"Gemle", -- [3]
+							}, -- [145]
+							{
+								"Smallprot", -- [1]
+								"PALADIN", -- [2]
+								"Moosolini", -- [3]
+							}, -- [146]
+							{
+								"Arnaq", -- [1]
+								"MAGE", -- [2]
+								"Enork", -- [3]
+							}, -- [147]
+							{
+								"Niitsu", -- [1]
+								"PALADIN", -- [2]
+								"Vspec", -- [3]
+							}, -- [148]
+							{
+								"Legoflash", -- [1]
+								"HUNTER", -- [2]
+								"810,0", -- [3]
+							}, -- [149]
+							{
+								"Nitsu", -- [1]
+								"WARRIOR", -- [2]
+								"Vspec", -- [3]
+							}, -- [150]
+							{
+								"Akwadk", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Projectkata", -- [3]
+							}, -- [151]
+							{
+								"Kuhblut", -- [1]
+								"WARRIOR", -- [2]
+								"Fener", -- [3]
+							}, -- [152]
+							{
+								"Hoedey", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Hoeney", -- [3]
+							}, -- [153]
+							{
+								"Oriondel", -- [1]
+								"HUNTER", -- [2]
+								"Ammanamon", -- [3]
+							}, -- [154]
+							{
+								"Drool", -- [1]
+								"DRUID", -- [2]
+								"Ministern", -- [3]
+							}, -- [155]
+							{
+								"Azmir", -- [1]
+								"PRIEST", -- [2]
+								"5451,3644", -- [3]
+							}, -- [156]
+							{
+								"Kazus", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
+							}, -- [157]
+							{
+								"Akalvap", -- [1]
+								"MAGE", -- [2]
+								"2599,0", -- [3]
+							}, -- [158]
+							{
+								"Mooshoo", -- [1]
+								"DRUID", -- [2]
+								"Enork", -- [3]
+							}, -- [159]
+							{
+								"Mindcrasher", -- [1]
+								"SHAMAN", -- [2]
+								"Vspec", -- [3]
+							}, -- [160]
+							{
+								"Voxra", -- [1]
+								"DRUID", -- [2]
+								"1800,1636", -- [3]
+							}, -- [161]
+							{
+								"Cptnecro", -- [1]
+								"PRIEST", -- [2]
+								"1778,0", -- [3]
+							}, -- [162]
+							{
+								"Lightarray", -- [1]
+								"WARRIOR", -- [2]
+								"Flynnrider", -- [3]
+							}, -- [163]
+							{
+								"Kassaneiti", -- [1]
+								"ROGUE", -- [2]
+								"Anneliauer", -- [3]
+							}, -- [164]
+							{
+								"Reshicho", -- [1]
+								"HUNTER", -- [2]
+								"0,0", -- [3]
+							}, -- [165]
+							{
+								"Meowpussi", -- [1]
+								"DRUID", -- [2]
+								"Nugga", -- [3]
+							}, -- [166]
+							{
+								"Betonikala", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
+							}, -- [167]
+							{
+								"Omgbear", -- [1]
+								"DRUID", -- [2]
+								"546,0", -- [3]
+							}, -- [168]
+							{
+								"Curn", -- [1]
+								"PRIEST", -- [2]
+								"Holah", -- [3]
+							}, -- [169]
+							{
+								"Moosolini", -- [1]
+								"WARRIOR", -- [2]
+								"5926,104", -- [3]
+							}, -- [170]
+							{
+								"Jousinainen", -- [1]
+								"HUNTER", -- [2]
+								"Anneliauer", -- [3]
+							}, -- [171]
+							{
+								"Tigard", -- [1]
+								"HUNTER", -- [2]
+								"0,0", -- [3]
+							}, -- [172]
+							{
+								"Notzittar", -- [1]
+								"SHAMAN", -- [2]
+								"Zittar", -- [3]
+							}, -- [173]
+							{
+								"Nielantiel", -- [1]
+								"MAGE", -- [2]
+								"4308,706", -- [3]
+							}, -- [174]
+							{
+								"Ovrkill", -- [1]
+								"ROGUE", -- [2]
+								"1365,0", -- [3]
+							}, -- [175]
+							{
+								"Ryoke", -- [1]
+								"WARLOCK", -- [2]
+								"218,0", -- [3]
+							}, -- [176]
+							{
+								"Sicilija", -- [1]
+								"SHAMAN", -- [2]
+								"Albakira", -- [3]
+							}, -- [177]
+							{
+								"Uxi", -- [1]
+								"HUNTER", -- [2]
+								"5232,1559", -- [3]
+							}, -- [178]
+							{
+								"Guryosoo", -- [1]
+								"WARRIOR", -- [2]
+								"Ministern", -- [3]
+							}, -- [179]
+							{
+								"Spindle", -- [1]
+								"MAGE", -- [2]
+								"Fener", -- [3]
+							}, -- [180]
+							{
+								"Garzh", -- [1]
+								"DRUID", -- [2]
+								"Bowbaby", -- [3]
+							}, -- [181]
+							{
+								"Thebnm", -- [1]
+								"WARLOCK", -- [2]
+								"Bnm", -- [3]
+							}, -- [182]
+							{
+								"Shredyy", -- [1]
+								"PALADIN", -- [2]
+								"Shredy", -- [3]
+							}, -- [183]
+							{
+								"Tharkibuddah", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
+							}, -- [184]
+							{
+								"Gillion", -- [1]
+								"WARLOCK", -- [2]
+								"Holah", -- [3]
+							}, -- [185]
+							{
+								"Makalia", -- [1]
+								"DRUID", -- [2]
+								"0,0", -- [3]
+							}, -- [186]
+							{
+								"Assasinsushi", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
+							}, -- [187]
+							{
+								"Projectkata", -- [1]
+								"MAGE", -- [2]
+								"6977,1220", -- [3]
+							}, -- [188]
+							{
+								"Metalion", -- [1]
+								"SHAMAN", -- [2]
+								"0,0", -- [3]
+							}, -- [189]
+							{
+								"Deathfeast", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Minakshi", -- [3]
+							}, -- [190]
+							{
+								"Dawnwreacher", -- [1]
+								"HUNTER", -- [2]
+								"Dawnranger", -- [3]
+							}, -- [191]
+							{
+								"Darkhorses", -- [1]
+								"PRIEST", -- [2]
+								"Malkiva", -- [3]
+							}, -- [192]
+							{
+								"Adelayd", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [193]
+							{
+								"Savageplug", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Malkiva", -- [3]
+							}, -- [194]
+							{
+								"Aulo", -- [1]
+								"PALADIN", -- [2]
+								"3420,395", -- [3]
+							}, -- [195]
+							{
+								"Fckerbear", -- [1]
+								"DRUID", -- [2]
+								"100,0", -- [3]
+							}, -- [196]
+							{
+								"Croarne", -- [1]
+								"WARRIOR", -- [2]
+								"Fairplay", -- [3]
+							}, -- [197]
+							{
+								"Cirno", -- [1]
+								"WARRIOR", -- [2]
+								"Hypersonic", -- [3]
+							}, -- [198]
+							{
+								"Shredy", -- [1]
+								"PALADIN", -- [2]
+								"10627,1622", -- [3]
+							}, -- [199]
+							{
+								"Hiroshima", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
+							}, -- [200]
+							{
+								"Rancors", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [201]
+							{
+								"Crazymind", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"Vspec", -- [3]
+							}, -- [202]
+							{
+								"Voidmancer", -- [1]
+								"PRIEST", -- [2]
+								"Xinoiler", -- [3]
+							}, -- [203]
+							{
+								"Henata", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
+							}, -- [204]
+							{
+								"Valiiena", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"4942,2363", -- [3]
+							}, -- [205]
+							{
+								"Elohiim", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [206]
+							{
+								"Dibaxqt", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
+							}, -- [207]
+							{
+								"Deathbydot", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [208]
+							{
+								"Mixomatose", -- [1]
+								"DRUID", -- [2]
+								"405,0", -- [3]
+							}, -- [209]
+							{
+								"Xanaxorc", -- [1]
+								"HUNTER", -- [2]
+								"Fairplay", -- [3]
+							}, -- [210]
+							{
+								"Flayingbot", -- [1]
+								"DRUID", -- [2]
+								"Azmir", -- [3]
+							}, -- [211]
+							{
+								"Skarlegacy", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [212]
+							{
+								"Ttwo", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [213]
+							{
+								"Bodeine", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
+							}, -- [214]
+							{
+								"Tequillaas", -- [1]
+								"DRUID", -- [2]
+								"Tequillaa", -- [3]
+							}, -- [215]
+							{
+								"Tonyelcucuy", -- [1]
+								"HUNTER", -- [2]
+								"181,0", -- [3]
+							}, -- [216]
+							{
+								"Applestrudel", -- [1]
+								"PALADIN", -- [2]
+								"1712,3271", -- [3]
+							}, -- [217]
 							{
 								"Azmar", -- [1]
 								"DEATHKNIGHT", -- [2]
 								"Azmir", -- [3]
-							}, -- [236]
+							}, -- [218]
+							{
+								"Canyoumangle", -- [1]
+								"DRUID", -- [2]
+								"Shambling", -- [3]
+							}, -- [219]
 							{
 								"Attans", -- [1]
 								"DEATHKNIGHT", -- [2]
 								"Ministern", -- [3]
-							}, -- [237]
+							}, -- [220]
 							{
-								"Juicing", -- [1]
-								"ROGUE", -- [2]
-								"Fairplay", -- [3]
-							}, -- [238]
+								"Arroweater", -- [1]
+								"HUNTER", -- [2]
+								"Spectron", -- [3]
+							}, -- [221]
 							{
-								"Urthemius", -- [1]
+								"Artline", -- [1]
+								"DRUID", -- [2]
+								"Vspec", -- [3]
+							}, -- [222]
+							{
+								"Zorro", -- [1]
+								"HUNTER", -- [2]
+								"Anhedonic", -- [3]
+							}, -- [223]
+							{
+								"Albakira", -- [1]
+								"SHAMAN", -- [2]
+								"12068,1828", -- [3]
+							}, -- [224]
+							{
+								"Angeleyes", -- [1]
+								"DRUID", -- [2]
+								"Flynnrider", -- [3]
+							}, -- [225]
+							{
+								"Opheliia", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
+							}, -- [226]
+							{
+								"Hoeney", -- [1]
+								"PALADIN", -- [2]
+								"14823,1085", -- [3]
+							}, -- [227]
+							{
+								"Aromaz", -- [1]
+								"HUNTER", -- [2]
+								"0,0", -- [3]
+							}, -- [228]
+							{
+								"Voidrunner", -- [1]
+								"WARLOCK", -- [2]
+								"Dawnranger", -- [3]
+							}, -- [229]
+							{
+								"Camphor", -- [1]
+								"WARLOCK", -- [2]
+								"Anhedonic", -- [3]
+							}, -- [230]
+							{
+								"Applevu", -- [1]
+								"PRIEST", -- [2]
+								"0,0", -- [3]
+							}, -- [231]
+							{
+								"Forta", -- [1]
 								"WARRIOR", -- [2]
 								"0,0", -- [3]
-							}, -- [239]
-							{
-								"Nunfortunate", -- [1]
-								"PRIEST", -- [2]
-								"5103,2506", -- [3]
-							}, -- [240]
-							{
-								"Haete", -- [1]
-								"WARLOCK", -- [2]
-								"0,0", -- [3]
-							}, -- [241]
-							{
-								"Bowbaby", -- [1]
-								"HUNTER", -- [2]
-								"9647,1711", -- [3]
-							}, -- [242]
-							{
-								"Hoerney", -- [1]
-								"PRIEST", -- [2]
-								"Hoeney", -- [3]
-							}, -- [243]
-							{
-								"Razti", -- [1]
-								"DRUID", -- [2]
-								"725,0", -- [3]
-							}, -- [244]
+							}, -- [232]
 							{
 								"Tinydickdps", -- [1]
 								"ROGUE", -- [2]
 								"Sukanahuj", -- [3]
-							}, -- [245]
+							}, -- [233]
+							{
+								"Haete", -- [1]
+								"WARLOCK", -- [2]
+								"0,0", -- [3]
+							}, -- [234]
+							{
+								"Juicing", -- [1]
+								"ROGUE", -- [2]
+								"Fairplay", -- [3]
+							}, -- [235]
+							{
+								"Urthemius", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [236]
+							{
+								"Nunfortunate", -- [1]
+								"PRIEST", -- [2]
+								"4592,2205", -- [3]
+							}, -- [237]
+							{
+								"Anneliauer", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
+							}, -- [238]
+							{
+								"Zhiet", -- [1]
+								"HUNTER", -- [2]
+								"Enork", -- [3]
+							}, -- [239]
+							{
+								"Kaama", -- [1]
+								"DRUID", -- [2]
+								"Hypersonic", -- [3]
+							}, -- [240]
+							{
+								"Razti", -- [1]
+								"DRUID", -- [2]
+								"652,0", -- [3]
+							}, -- [241]
+							{
+								"Flynnrider", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"10188,1821", -- [3]
+							}, -- [242]
 							{
 								"Lallock", -- [1]
 								"WARLOCK", -- [2]
 								"0,0", -- [3]
-							}, -- [246]
+							}, -- [243]
 							{
 								"Nenakalle", -- [1]
 								"HUNTER", -- [2]
 								"Voxra", -- [3]
-							}, -- [247]
+							}, -- [244]
 						},
 					},
 				},
@@ -5508,9 +5493,9 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["gptooltip"] = {
-		},
 		["announce"] = {
+		},
+		["gptooltip"] = {
 		},
 		["loot"] = {
 		},
@@ -5528,9 +5513,9 @@ EPGP_DB = {
 		["Bowbaby - Unlimited WoW"] = "Icecrown",
 	},
 	["profiles"] = {
-		["Invariably - Icecrown"] = {
+		["Nar Garzhvog"] = {
 		},
-		["Logic"] = {
+		["Invariably - Icecrown"] = {
 		},
 		["Bowbaby - Icecrown"] = {
 		},
@@ -5540,7 +5525,7 @@ EPGP_DB = {
 		},
 		["Garzh - Icecrown"] = {
 		},
-		["Nar Garzhvog"] = {
+		["Logic"] = {
 		},
 		["Disappointments"] = {
 		},

@@ -27,8 +27,8 @@ RecountPerCharDB = {
 				"DAMAGE", -- [9]
 			},
 			["TimeWindows"] = {
-				["Healing"] = {
-					1563, -- [1]
+				["TimeDamage"] = {
+					2.93, -- [1]
 				},
 				["TimeHeal"] = {
 					3.5, -- [1]
@@ -39,14 +39,14 @@ RecountPerCharDB = {
 				["ActiveTime"] = {
 					6.430000000000001, -- [1]
 				},
-				["TimeDamage"] = {
-					2.93, -- [1]
+				["HealingTaken"] = {
+					1563, -- [1]
+				},
+				["Healing"] = {
+					1563, -- [1]
 				},
 				["ManaGain"] = {
 					448, -- [1]
-				},
-				["HealingTaken"] = {
-					1563, -- [1]
 				},
 				["Damage"] = {
 					20448, -- [1]
@@ -61,19 +61,9 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 1,
-			["LastAbility"] = 5571.282,
+			["LastActive"] = 1576519239,
 			["Owner"] = false,
-			["TimeLast"] = {
-				["TimeHeal"] = 1576519236,
-				["Healing"] = 1576519236,
-				["HealingTaken"] = 1576519236,
-				["HOT_Time"] = 1576519236,
-				["ActiveTime"] = 1576519239,
-				["OVERALL"] = 1576519239,
-				["ManaGain"] = 1576519236,
-				["TimeDamage"] = 1576519239,
-				["Damage"] = 1576519239,
-			},
+			["UnitLockout"] = 1576519235,
 			["NextEventNum"] = 10,
 			["LastEventHealthNum"] = {
 				82.10922305251305, -- [1]
@@ -98,673 +88,7 @@ RecountPerCharDB = {
 				"Garzh Swipe (Cat) Razorfen Warden Crit -5628 (Physical)", -- [9]
 			},
 			["Name"] = "Garzh",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				true, -- [6]
-				true, -- [7]
-				false, -- [8]
-				false, -- [9]
-			},
-			["LastEventTimes"] = {
-				5566.951, -- [1]
-				5568.352, -- [2]
-				5568.352, -- [3]
-				5568.5, -- [4]
-				5568.501, -- [5]
-				5569.201, -- [6]
-				5570.133, -- [7]
-				5570.999, -- [8]
-				5571.282, -- [9]
-			},
 			["Fights"] = {
-				["Fight1"] = {
-					["TimeHealing"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["TimeSpent"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Death's Head Priest"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0.15,
-								},
-							},
-							["amount"] = 0.15,
-						},
-					},
-					["HealedWho"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 1563,
-								},
-							},
-							["amount"] = 1563,
-						},
-					},
-					["PartialResist"] = {
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Garzh"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 448,
-						},
-					},
-					["HOT_Time"] = 3,
-					["ActiveTime"] = 3.65,
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Garzh"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Damage"] = 13110,
-					["Heals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1563,
-									["min"] = 1563,
-									["count"] = 1,
-									["amount"] = 1563,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1563,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DamagedWho"] = {
-						["Death's Head Priest"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1740,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 11370,
-								},
-							},
-							["amount"] = 13110,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 1740,
-						["Physical"] = 11370,
-					},
-					["Healing"] = 1563,
-					["WhoHealed"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 1563,
-								},
-							},
-							["amount"] = 1563,
-						},
-					},
-					["TimeHeal"] = 3.5,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1740,
-									["min"] = 1740,
-									["count"] = 1,
-									["amount"] = 1740,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1740,
-						},
-						["Swipe (Cat)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 5736,
-									["min"] = 5634,
-									["count"] = 2,
-									["amount"] = 11370,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 11370,
-						},
-					},
-					["HealingTaken"] = 1563,
-					["ManaGainedFrom"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 448,
-						},
-					},
-					["TimeDamage"] = 0.15,
-					["TimeDamaging"] = {
-						["Death's Head Priest"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0.15,
-								},
-							},
-							["amount"] = 0.15,
-						},
-					},
-					["ManaGain"] = 448,
-					["PartialAbsorb"] = {
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-				},
-				["LastFightData"] = {
-					["TimeHealing"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-					},
-					["TimeSpent"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 3.5,
-								},
-							},
-							["amount"] = 3.5,
-						},
-						["Death's Head Priest"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0.15,
-								},
-							},
-							["amount"] = 0.15,
-						},
-					},
-					["HealedWho"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 1563,
-								},
-							},
-							["amount"] = 1563,
-						},
-					},
-					["PartialResist"] = {
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Garzh"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 448,
-						},
-					},
-					["HOT_Time"] = 3,
-					["ActiveTime"] = 3.65,
-					["HOTs"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Garzh"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["Damage"] = 13110,
-					["Heals"] = {
-						["Improved Leader of the Pack"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1563,
-									["min"] = 1563,
-									["count"] = 1,
-									["amount"] = 1563,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1563,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DamagedWho"] = {
-						["Death's Head Priest"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1740,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 11370,
-								},
-							},
-							["amount"] = 13110,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 1740,
-						["Physical"] = 11370,
-					},
-					["Healing"] = 1563,
-					["WhoHealed"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 1563,
-								},
-							},
-							["amount"] = 1563,
-						},
-					},
-					["TimeHeal"] = 3.5,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1740,
-									["min"] = 1740,
-									["count"] = 1,
-									["amount"] = 1740,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 1740,
-						},
-						["Swipe (Cat)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 5736,
-									["min"] = 5634,
-									["count"] = 2,
-									["amount"] = 11370,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 11370,
-						},
-					},
-					["HealingTaken"] = 1563,
-					["ManaGainedFrom"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 448,
-								},
-							},
-							["amount"] = 448,
-						},
-					},
-					["TimeDamage"] = 0.15,
-					["TimeDamaging"] = {
-						["Death's Head Priest"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0.15,
-								},
-							},
-							["amount"] = 0.15,
-						},
-					},
-					["ManaGain"] = 448,
-					["PartialAbsorb"] = {
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ElementHitsTaken"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Razorfen Warden"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Razorfen Warden"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Swipe (Cat)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["RageGain"] = 0,
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Razorfen Warden"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
 				["OverallData"] = {
 					["TimeHealing"] = {
 						["Garzh"] = {
@@ -881,64 +205,52 @@ RecountPerCharDB = {
 							["amount"] = 1563,
 						},
 					},
-					["ElementHitsDone"] = {
+					["ElementHitsTaken"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Crit"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
 									["count"] = 2,
 								},
 							},
 							["amount"] = 2,
 						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
 					},
-					["DamagedWho"] = {
-						["Razorfen Warden"] = {
+					["PartialAbsorb"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1710,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 5628,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 7338,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-						["Death's Head Priest"] = {
+						["Shadow Bolt"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 1740,
-								},
-								["Swipe (Cat)"] = {
-									["count"] = 11370,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 13110,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 3450,
-						["Physical"] = 16998,
-					},
-					["Healing"] = 1563,
-					["WhoHealed"] = {
-						["Garzh"] = {
-							["Details"] = {
-								["Improved Leader of the Pack"] = {
-									["count"] = 1563,
-								},
-							},
-							["amount"] = 1563,
+							["count"] = 2,
+							["amount"] = 0,
 						},
 					},
 					["TimeHeal"] = 3.5,
+					["Healing"] = 1563,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -965,7 +277,6 @@ RecountPerCharDB = {
 							["amount"] = 16998,
 						},
 					},
-					["HealingTaken"] = 1563,
 					["ManaGainedFrom"] = {
 						["Garzh"] = {
 							["Details"] = {
@@ -974,6 +285,29 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 448,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 3450,
+						["Physical"] = 16998,
+					},
+					["HealingTaken"] = 1563,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
 						},
 					},
 					["TimeDamage"] = 2.93,
@@ -1002,19 +336,145 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 448,
-					["PartialAbsorb"] = {
-						["Melee"] = {
+					["WhoHealed"] = {
+						["Garzh"] = {
 							["Details"] = {
-								["No Absorb"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 1563,
+								},
+							},
+							["amount"] = 1563,
+						},
+					},
+					["DamagedWho"] = {
+						["Razorfen Warden"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1710,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 5628,
+								},
+							},
+							["amount"] = 7338,
+						},
+						["Death's Head Priest"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1740,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 11370,
+								},
+							},
+							["amount"] = 13110,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["TimeHealing"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Death's Head Priest"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0.15,
+								},
+							},
+							["amount"] = 0.15,
+						},
+					},
+					["HealedWho"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 1563,
+								},
+							},
+							["amount"] = 1563,
+						},
+					},
+					["PartialResist"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
 									["max"] = 0,
 									["min"] = 0,
-									["count"] = 1,
+									["count"] = 2,
 									["amount"] = 0,
 								},
 							},
-							["count"] = 1,
+							["count"] = 2,
 							["amount"] = 0,
 						},
+					},
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Garzh"] = {
+									["count"] = 448,
+								},
+							},
+							["amount"] = 448,
+						},
+					},
+					["HOT_Time"] = 3,
+					["ActiveTime"] = 3.65,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Garzh"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Damage"] = 13110,
+					["Heals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1563,
+									["min"] = 1563,
+									["count"] = 1,
+									["amount"] = 1563,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1563,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
 						["Shadow Bolt"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -1028,15 +488,410 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["ElementHitsTaken"] = {
+					["TimeHeal"] = 3.5,
+					["Healing"] = 1563,
+					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
-								["Miss"] = {
+								["Crit"] = {
+									["max"] = 1740,
+									["min"] = 1740,
+									["count"] = 1,
+									["amount"] = 1740,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1740,
+						},
+						["Swipe (Cat)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5736,
+									["min"] = 5634,
+									["count"] = 2,
+									["amount"] = 11370,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 11370,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 448,
+								},
+							},
+							["amount"] = 448,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 1740,
+						["Physical"] = 11370,
+					},
+					["HealingTaken"] = 1563,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
 									["count"] = 1,
 								},
 							},
 							["amount"] = 1,
 						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["TimeDamage"] = 0.15,
+					["TimeDamaging"] = {
+						["Death's Head Priest"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0.15,
+								},
+							},
+							["amount"] = 0.15,
+						},
+					},
+					["ManaGain"] = 448,
+					["WhoHealed"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 1563,
+								},
+							},
+							["amount"] = 1563,
+						},
+					},
+					["DamagedWho"] = {
+						["Death's Head Priest"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1740,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 11370,
+								},
+							},
+							["amount"] = 13110,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FAttacks"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Dispelled"] = 0,
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
+					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Razorfen Warden"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Swipe (Cat)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Razorfen Warden"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Razorfen Warden"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["TimeHealing"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Death's Head Priest"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0.15,
+								},
+							},
+							["amount"] = 0.15,
+						},
+					},
+					["HealedWho"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 1563,
+								},
+							},
+							["amount"] = 1563,
+						},
+					},
+					["PartialResist"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Garzh"] = {
+									["count"] = 448,
+								},
+							},
+							["amount"] = 448,
+						},
+					},
+					["HOT_Time"] = 3,
+					["ActiveTime"] = 3.65,
+					["HOTs"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Garzh"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["Damage"] = 13110,
+					["Heals"] = {
+						["Improved Leader of the Pack"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1563,
+									["min"] = 1563,
+									["count"] = 1,
+									["amount"] = 1563,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1563,
+						},
+					},
+					["ElementHitsTaken"] = {
 						["Shadow"] = {
 							["Details"] = {
 								["Miss"] = {
@@ -1046,10 +901,155 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
+					["PartialAbsorb"] = {
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["TimeHeal"] = 3.5,
+					["Healing"] = 1563,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1740,
+									["min"] = 1740,
+									["count"] = 1,
+									["amount"] = 1740,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1740,
+						},
+						["Swipe (Cat)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5736,
+									["min"] = 5634,
+									["count"] = 2,
+									["amount"] = 11370,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 11370,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 448,
+								},
+							},
+							["amount"] = 448,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 1740,
+						["Physical"] = 11370,
+					},
+					["HealingTaken"] = 1563,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["TimeDamage"] = 0.15,
+					["TimeDamaging"] = {
+						["Death's Head Priest"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 0.15,
+								},
+							},
+							["amount"] = 0.15,
+						},
+					},
+					["ManaGain"] = 448,
+					["WhoHealed"] = {
+						["Garzh"] = {
+							["Details"] = {
+								["Improved Leader of the Pack"] = {
+									["count"] = 1563,
+								},
+							},
+							["amount"] = 1563,
+						},
+					},
+					["DamagedWho"] = {
+						["Death's Head Priest"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1740,
+								},
+								["Swipe (Cat)"] = {
+									["count"] = 11370,
+								},
+							},
+							["amount"] = 13110,
+						},
+					},
 				},
 			},
-			["UnitLockout"] = 1576519235,
-			["LastActive"] = 1576519239,
+			["TimeLast"] = {
+				["TimeHeal"] = 1576519236,
+				["Healing"] = 1576519236,
+				["HealingTaken"] = 1576519236,
+				["HOT_Time"] = 1576519236,
+				["ActiveTime"] = 1576519239,
+				["OVERALL"] = 1576519239,
+				["ManaGain"] = 1576519236,
+				["TimeDamage"] = 1576519239,
+				["Damage"] = 1576519239,
+			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				false, -- [8]
+				false, -- [9]
+			},
+			["LastEventTimes"] = {
+				5566.951, -- [1]
+				5568.352, -- [2]
+				5568.352, -- [3]
+				5568.5, -- [4]
+				5568.501, -- [5]
+				5569.201, -- [6]
+				5570.133, -- [7]
+				5570.999, -- [8]
+				5571.282, -- [9]
+			},
+			["LastAbility"] = 428647.856,
 		},
 	},
 	["FightNum"] = 1,

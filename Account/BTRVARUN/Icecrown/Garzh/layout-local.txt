@@ -16,8 +16,8 @@ H: 200
 Frame: Binder_Frame
 FrameLevel: 1
 Anchor: RIGHT
-X: -119
-Y: 49
+X: -122
+Y: 56
 W: 600
 H: 360
 Frame: DBMMinimapButton
@@ -49,7 +49,7 @@ Y: -1
 W: 120
 H: 20
 Frame: Recount_MainWindow
-FrameLevel: 26
+FrameLevel: 30
 Anchor: BOTTOMRIGHT
 X: -6
 Y: 29
@@ -63,7 +63,7 @@ Y: 15
 W: 40
 H: 300
 Frame: SkadaBarWindowSkada
-FrameLevel: 54
+FrameLevel: 103
 Anchor: BOTTOMRIGHT
 X: -272
 Y: 221
