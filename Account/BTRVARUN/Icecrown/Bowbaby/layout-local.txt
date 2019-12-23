@@ -21,10 +21,10 @@ Y: 0
 W: 365
 H: 200
 Frame: AtlasLootDefaultFrame
-FrameLevel: 32
-Anchor: CENTER
-X: -230
-Y: 32
+FrameLevel: 43
+Anchor: RIGHT
+X: -251
+Y: 22
 W: 600
 H: 690
 Frame: Binder_Frame

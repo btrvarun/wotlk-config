@@ -51,10 +51,23 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
+			["ClampToScreen"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -284.9999360579311,
 			["DetailWindowX"] = 370.0000269445724,
+			["GraphWindowX"] = 77.00001374583513,
+			["Locked"] = true,
 			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
-			["FrameStrata"] = "2-LOW",
 			["RealtimeWindows"] = {
 				["Realtime_Bowbaby_DAMAGE"] = {
 					"Bowbaby", -- [1]
@@ -67,23 +80,10 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["DetailWindowY"] = -284.9999360579311,
-			["ClampToScreen"] = true,
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["GraphWindowX"] = 77.00001374583513,
-			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
-			["LastInstanceName"] = "Vault of Archavon",
+			["Font"] = "PT Sans Narrow",
+			["FrameStrata"] = "2-LOW",
+			["LastInstanceName"] = "Utgarde Pinnacle",
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -181,6 +181,9 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
+			["DetailWindowX"] = 785.9999766115641,
+			["LastInstanceName"] = "Trial of the Crusader",
+			["FrameStrata"] = "2-LOW",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -193,13 +196,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -277.9999539070006,
-			["DetailWindowX"] = 785.9999766115641,
-			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["CurDataSet"] = "LastFightData",
 			["Font"] = "PT Sans Narrow",
-			["FrameStrata"] = "2-LOW",
+			["CurDataSet"] = "LastFightData",
+			["GraphWindowX"] = 0,
 		},
 		["Bowbaby - Unlimited WoW"] = {
 			["GraphWindowY"] = 0,

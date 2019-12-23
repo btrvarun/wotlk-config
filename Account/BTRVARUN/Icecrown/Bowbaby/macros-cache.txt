@@ -6,14 +6,24 @@ MACRO 16777224 "as" INV_Misc_QuestionMark
 /cast silencing shot
 /cast Kill Command
 END
-MACRO 16777229 "call of the wild" INV_Misc_QuestionMark
-#showtooltip
-/cast call of the wild
+MACRO 16777233 "as bm" INV_Misc_QuestionMark
+#showtooltip aimed shot
+/petattack
+/cancelaura deterrence
+/cast !aspect of the dragonhawk
+/cast aimed shot
+/cast silencing shot
+/cast Kill Command
+END
+MACRO 16777235 "bw" INV_Misc_QuestionMark
+#showtooltip bestial wrath
+/cast Blood Fury(Racial)
+/use 10
+/cast bestial wrath
 END
 MACRO 16777221 "cds" INV_Misc_QuestionMark
 #showtooltip
 /cast Rapid Fire
-/cast Berserking(Racial)
 /cast Call of the Wild
 END
 MACRO 16777218 "chimera" INV_Misc_QuestionMark
@@ -48,6 +58,16 @@ MACRO 16777227 "pack" INV_Misc_QuestionMark
 #showtooltip
 /cast !aspect of the pack
 END
+MACRO 16777219 "ss" INV_Misc_QuestionMark
+#showtooltip steady shot
+/use 10
+/cast Blood Fury(Racial)
+/cancelaura deterrence
+/cancelaura hand of protection
+/cast steady shot
+/cast silencing shot
+/cast Kill Command
+END
 MACRO 16777217 "ss" INV_Misc_QuestionMark
 #showtooltip serpent sting
 /petattack
@@ -57,9 +77,9 @@ MACRO 16777217 "ss" INV_Misc_QuestionMark
 /cast kill command
 /cast silencing shot
 END
-MACRO 16777219 "ss" INV_Misc_QuestionMark
+MACRO 16777234 "ss bm" INV_Misc_QuestionMark
 #showtooltip steady shot
-/use 10
+/petattack
 /cancelaura deterrence
 /cancelaura hand of protection
 /cast steady shot
@@ -80,10 +100,4 @@ END
 MACRO 16777226 "viper" INV_Misc_QuestionMark
 #showtooltip
 /cast !aspect of the viper
-END
-MACRO 16777222 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
-END
-MACRO 16777223 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bow[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gar
 END
