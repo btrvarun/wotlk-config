@@ -51,7 +51,6 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -66,6 +65,7 @@ RecountDB = {
 			["DetailWindowX"] = 370.0000269445724,
 			["GraphWindowX"] = 77.00001374583513,
 			["Locked"] = true,
+			["LastInstanceName"] = "Naxxramas",
 			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["RealtimeWindows"] = {
@@ -80,10 +80,10 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["CurDataSet"] = "LastFightData",
 			["Font"] = "PT Sans Narrow",
+			["ClampToScreen"] = true,
 			["FrameStrata"] = "2-LOW",
-			["LastInstanceName"] = "Utgarde Pinnacle",
+			["CurDataSet"] = "LastFightData",
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -164,11 +164,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
