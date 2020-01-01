@@ -1,0 +1,6 @@
+
+EPGPLootMaster = {
+	["profileKeys"] = {
+		["Incompilable - Icecrown"] = "Incompilable - Icecrown",
+	},
+}

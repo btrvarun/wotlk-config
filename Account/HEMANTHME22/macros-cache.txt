@@ -29,6 +29,10 @@ END
 MACRO 131 "combatlog" Ability_Creature_Cursed_02
 /run local f = CreateFrame("frame" , nil, UIParent) f:SetScript("OnUpdate", CombatLogClearEntries);
 END
+MACRO 159 "cyclone" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Cyclone;Cyclone
+END
 MACRO 147 "Decursive" INV_Misc_QuestionMark
 /script Dcr:Println('No spell available')
 END
@@ -44,8 +48,8 @@ MACRO 127 "hop" Ability_Creature_Cursed_02
 /cancelaura hand of protection
 END
 MACRO 145 "innervate" INV_Misc_QuestionMark
-#showtooltip innervate
-/cast [target=Incompilable] Innervate;Innervate
+#showtooltip
+/cast [@mouseover,exists] Innervate;Innervate
 END
 MACRO 128 "libramswap" INV_Misc_QuestionMark
 #showtooltip
@@ -77,6 +81,18 @@ MACRO 134 "rake" INV_Misc_QuestionMark
 #showtooltip
 /startattack
 /cast rake
+END
+MACRO 157 "rebirth" INV_Misc_QuestionMark
+#showtooltip innervate
+/cast [target=Incompilable] Rebirth(Rank 7);Rebirth(Rank 7)
+END
+MACRO 158 "Rebirth" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Rebirth(Rank 7);Rebirth(Rank 7)
+END
+MACRO 160 "regrowth" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Regrowth(Rank 12);Regrowth(Rank 12)
 END
 MACRO 149 "rejuv" INV_Misc_QuestionMark
 #showtooltip
