@@ -39,9 +39,17 @@ RecountPerCharDB = {
 				86.21681597764444, -- [2]
 			},
 			["type"] = "Self",
-			["LastAbility"] = 253322.421,
+			["LastActive"] = 1574871264,
 			["Owner"] = false,
-			["UnitLockout"] = 1574841385,
+			["LastEventTimes"] = {
+				10970.766, -- [1]
+				40854.051, -- [2]
+				40854.052, -- [3]
+				40854.053, -- [4]
+				40854.053, -- [5]
+				40854.053, -- [6]
+				40854.053, -- [7]
+			},
 			["NextEventNum"] = 8,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -62,10 +70,14 @@ RecountPerCharDB = {
 				"Immutability Glyph of Holy Light Moosolini Hit +2202 (2202 overheal)", -- [7]
 			},
 			["Name"] = "Immutability",
-			["TimeLast"] = {
-				["OVERALL"] = 1574871264,
-				["Overhealing"] = 1574871264,
-				["ManaGain"] = 1574871264,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
 			},
 			["Fights"] = {
 				["CurrentFightData"] = {
@@ -90,6 +102,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 619,
+					["Overhealing"] = 11010,
 					["OverHeals"] = {
 						["Glyph of Holy Light"] = {
 							["Details"] = {
@@ -104,7 +117,6 @@ RecountPerCharDB = {
 							["amount"] = 11010,
 						},
 					},
-					["Overhealing"] = 11010,
 				},
 				["OverallData"] = {
 					["ManaGained"] = {
@@ -128,6 +140,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 619,
+					["Overhealing"] = 11010,
 					["OverHeals"] = {
 						["Glyph of Holy Light"] = {
 							["Details"] = {
@@ -142,28 +155,15 @@ RecountPerCharDB = {
 							["amount"] = 11010,
 						},
 					},
-					["Overhealing"] = 11010,
 				},
 			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				false, -- [3]
-				false, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
+			["TimeLast"] = {
+				["OVERALL"] = 1574871264,
+				["Overhealing"] = 1574871264,
+				["ManaGain"] = 1574871264,
 			},
-			["LastEventTimes"] = {
-				10970.766, -- [1]
-				40854.051, -- [2]
-				40854.052, -- [3]
-				40854.053, -- [4]
-				40854.053, -- [5]
-				40854.053, -- [6]
-				40854.053, -- [7]
-			},
-			["LastActive"] = 1574871264,
+			["UnitLockout"] = 1574841385,
+			["LastAbility"] = 1469902.406,
 		},
 	},
 	["FightNum"] = 0,

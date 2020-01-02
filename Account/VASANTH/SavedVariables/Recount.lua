@@ -21,9 +21,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Immutability - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -35,9 +35,6 @@ RecountDB = {
 					["x"] = -32.00002844909159,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -46,9 +43,12 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
 			["Locked"] = true,
-			["GraphWindowX"] = 0,
+			["FrameStrata"] = "2-LOW",
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["ClampToScreen"] = true,
 		},
 	},
 }
