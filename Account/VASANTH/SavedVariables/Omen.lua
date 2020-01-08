@@ -12,20 +12,25 @@ Omen3DB = {
 		},
 		["Immutability - Icecrown"] = {
 			["PositionW"] = 247.999870337794,
+			["Shown"] = true,
 			["PositionH"] = 127.0000275600575,
 			["VGrip2"] = 141.1880943419172,
 			["PositionY"] = 372.0000768672572,
 			["Locked"] = true,
+			["MinimapIcon"] = {
+				["hide"] = true,
+			},
 			["ShowWith"] = {
 				["UseShowWith"] = false,
 			},
 			["VGrip1"] = 104.3564175570692,
-			["PositionX"] = 1570.000218428843,
 			["TitleBar"] = {
+				["ShowTitleBar"] = false,
 				["Font"] = "PT Sans Narrow",
 			},
-			["Shown"] = true,
+			["PositionX"] = 1570.000218428843,
 			["Bar"] = {
+				["FontSize"] = 14,
 				["Texture"] = "Armory",
 				["Font"] = "PT Sans Narrow",
 				["Height"] = 14,

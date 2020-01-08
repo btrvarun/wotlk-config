@@ -189,13 +189,13 @@ WeakAurasSaved = {
 				["name"] = "The Art of War",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_ArtofWar",
 			},
-			[2.05] = {
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
-			},
 			[2.01] = {
 				["name"] = "Divinity",
 				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+			},
+			[2.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 			},
 			[2.14] = {
 				["name"] = "Sacred Duty",
@@ -205,9 +205,9 @@ WeakAurasSaved = {
 				["name"] = "Sacred Cleansing",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[1.16] = {
-				["name"] = "Holy Power",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[1.02] = {
 				["name"] = "Seals of the Pure",
@@ -249,13 +249,13 @@ WeakAurasSaved = {
 				["name"] = "Judgements of the Pure",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementofthePure",
 			},
-			[3.26] = {
-				["name"] = "Divine Storm",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
-			},
 			[3.18] = {
 				["name"] = "Repentance",
 				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			},
+			[3.26] = {
+				["name"] = "Divine Storm",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
 			},
 			[1.01] = {
 				["name"] = "Spiritual Focus",
@@ -309,9 +309,9 @@ WeakAurasSaved = {
 				["name"] = "Aura Mastery",
 				["icon"] = "Interface\\Icons\\Spell_Holy_AuraMastery",
 			},
-			[3.05] = {
-				["name"] = "Improved Blessing of Might",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[3.19] = {
 				["name"] = "Judgements of the Wise",
@@ -535,9 +535,9 @@ WeakAurasSaved = {
 				["name"] = "Gift of Nature",
 				["icon"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
 			},
-			[2.01] = {
-				["name"] = "Ferocity",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			[2.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
 			},
 			[3.05] = {
 				["name"] = "Subtlety",
@@ -643,9 +643,9 @@ WeakAurasSaved = {
 				["name"] = "Survival of the Fittest",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Enrage",
 			},
-			[2.05] = {
-				["name"] = "Thick Hide",
-				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			[2.01] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
 			},
 			[1.02] = {
 				["name"] = "Genesis",
@@ -678,8 +678,8 @@ WeakAurasSaved = {
 		},
 	},
 	["frame"] = {
-		["xOffset"] = -824.0001198144437,
-		["yOffset"] = -199.000082816947,
+		["xOffset"] = -1076.000247561807,
+		["yOffset"] = -174.0000365187859,
 		["height"] = 491.9999909728844,
 		["width"] = 629.9999342114757,
 	},
@@ -687,6 +687,7 @@ WeakAurasSaved = {
 		["Divine Plea"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 		["Sacred Shield"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
 		["Seal of Wisdom"] = "Interface\\Icons\\Spell_Holy_RighteousnessAura",
+		["Seal of Command"] = "Interface\\Icons\\Ability_Warrior_InnerRage",
 		["Seal of Corruption"] = "Interface\\Icons\\Spell_Holy_SealOfVengeance",
 		["Righteous Fury"] = "Interface\\Icons\\Spell_Holy_SealOfFury",
 	},
@@ -742,13 +743,13 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "righteous fury",
-			["discrete_rotation"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 200,
 			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["discrete_rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["desaturate"] = false,
+			["width"] = 200,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -757,6 +758,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_never"] = true,
 				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 2,
@@ -786,16 +788,17 @@ WeakAurasSaved = {
 			["fontFlags"] = "OUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
-				["debuffType"] = "HELPFUL",
 				["type"] = "aura",
-				["subeventPrefix"] = "SPELL",
 				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
 				["names"] = {
 					"Sacred Shield", -- [1]
 				},
-				["ownOnly"] = true,
-				["event"] = "Health",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
 				["unit"] = "player",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
@@ -852,9 +855,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "sacred shield",
 			["inverse"] = false,
+			["id"] = "sacred shield",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["color"] = {
@@ -1009,9 +1012,9 @@ WeakAurasSaved = {
 				},
 			},
 			["id"] = "seal of wisdom",
-			["width"] = 200,
-			["frameStrata"] = 1,
 			["desaturate"] = false,
+			["frameStrata"] = 1,
+			["width"] = 200,
 			["rotation"] = 0,
 			["discrete_rotation"] = 0,
 			["numTriggers"] = 1,
@@ -1050,6 +1053,7 @@ WeakAurasSaved = {
 				"divine plea 2", -- [2]
 				"sacred shield", -- [3]
 				"sacred shield 2", -- [4]
+				"wfs", -- [5]
 			},
 			["animate"] = false,
 			["xOffset"] = 0,
@@ -1059,7 +1063,7 @@ WeakAurasSaved = {
 			["untrigger"] = {
 			},
 			["sort"] = "none",
-			["expanded"] = false,
+			["expanded"] = true,
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -1069,9 +1073,6 @@ WeakAurasSaved = {
 				},
 			},
 			["constantFactor"] = "RADIUS",
-			["selfPoint"] = "CENTER",
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -1086,6 +1087,18 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
+			["borderOffset"] = 16,
+			["align"] = "CENTER",
+			["selfPoint"] = "CENTER",
+			["id"] = "rotation helper - paladin",
+			["backgroundInset"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 208.0000098477625,
+			["stagger"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["rotation"] = 0,
+			["height"] = 40.00002680779787,
 			["trigger"] = {
 				["names"] = {
 				},
@@ -1093,15 +1106,6 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 				["unit"] = "player",
 			},
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 166.0000469136463,
-			["rotation"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["stagger"] = 0,
-			["height"] = 40.00002680779787,
-			["id"] = "rotation helper - paladin",
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -1139,11 +1143,12 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["unit"] = "player",
 				["inverse"] = true,
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
 				["names"] = {
 					"Sacred Shield", -- [1]
 				},
-				["subeventPrefix"] = "SPELL",
-				["debuffType"] = "HELPFUL",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = true,
 			["font"] = "Friz Quadrata TT",
@@ -1154,6 +1159,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_never"] = true,
 				["use_spec"] = true,
 				["use_class"] = true,
 				["spec"] = {
@@ -1201,10 +1207,10 @@ WeakAurasSaved = {
 			["auto"] = true,
 			["yOffset"] = 0,
 			["id"] = "sacred shield 2",
-			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1233,16 +1239,17 @@ WeakAurasSaved = {
 			["fontFlags"] = "OUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
-				["unit"] = "player",
 				["type"] = "aura",
-				["subeventPrefix"] = "SPELL",
 				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
 				["names"] = {
 					"Divine Plea", -- [1]
 				},
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["debuffType"] = "HELPFUL",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
@@ -1253,6 +1260,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_never"] = true,
 				["use_spec"] = true,
 				["use_class"] = true,
 				["spec"] = {
@@ -1312,8 +1320,8 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
-			["inverse"] = false,
 			["numTriggers"] = 1,
+			["inverse"] = false,
 			["stickyDuration"] = false,
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1323,6 +1331,92 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+		},
+		["seal of corruption"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.75, -- [4]
+			},
+			["mirror"] = false,
+			["untrigger"] = {
+			},
+			["regionType"] = "texture",
+			["blendMode"] = "BLEND",
+			["yOffset"] = 0,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura145",
+			["xOffset"] = 0,
+			["selfPoint"] = "CENTER",
+			["id"] = "seal of corruption",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "player",
+				["inverse"] = true,
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Seal of Corruption", -- [1]
+					"Seal of Command", -- [2]
+				},
+				["debuffType"] = "HELPFUL",
+			},
+			["anchorPoint"] = "CENTER",
+			["frameStrata"] = 1,
+			["width"] = 200,
+			["rotation"] = 0,
+			["discrete_rotation"] = 0,
+			["numTriggers"] = 1,
+			["desaturate"] = false,
+			["height"] = 200,
+			["rotate"] = true,
+			["load"] = {
+				["use_name"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_spec"] = true,
+				["use_class"] = true,
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["parent"] = "missing buffs",
 		},
 		["divine plea 2"] = {
 			["color"] = {
@@ -1364,11 +1458,12 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["unit"] = "player",
 				["inverse"] = true,
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
 				["names"] = {
 					"Divine Plea", -- [1]
 				},
-				["subeventPrefix"] = "SPELL",
-				["debuffType"] = "HELPFUL",
+				["custom_hide"] = "timed",
 			},
 			["desaturate"] = true,
 			["font"] = "Friz Quadrata TT",
@@ -1379,6 +1474,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_never"] = true,
 				["use_spec"] = true,
 				["use_class"] = true,
 				["spec"] = {
@@ -1418,8 +1514,8 @@ WeakAurasSaved = {
 			["width"] = 40,
 			["inverse"] = false,
 			["xOffset"] = 0,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["yOffset"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -1475,13 +1571,13 @@ WeakAurasSaved = {
 				},
 				["debuffType"] = "HELPFUL",
 			},
-			["desaturate"] = false,
-			["frameStrata"] = 1,
 			["width"] = 200,
-			["discrete_rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["rotation"] = 0,
 			["anchorPoint"] = "CENTER",
 			["numTriggers"] = 1,
-			["rotation"] = 0,
+			["discrete_rotation"] = 0,
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -1490,6 +1586,7 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_never"] = false,
 				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
@@ -1499,6 +1596,7 @@ WeakAurasSaved = {
 				["class"] = {
 					["single"] = "PALADIN",
 					["multi"] = {
+						["PALADIN"] = true,
 					},
 				},
 				["size"] = {
@@ -1508,74 +1606,44 @@ WeakAurasSaved = {
 			},
 			["xOffset"] = 0,
 		},
-		["seal of corruption"] = {
-			["color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				0.75, -- [4]
-			},
-			["mirror"] = false,
-			["untrigger"] = {
-			},
-			["regionType"] = "texture",
-			["blendMode"] = "BLEND",
+		["wfs"] = {
+			["xOffset"] = 0,
+			["BFbackdrop"] = false,
 			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
 			["actions"] = {
 				["start"] = {
 				},
 				["finish"] = {
 				},
 			},
-			["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura145",
-			["xOffset"] = 0,
+			["fontFlags"] = "OUTLINE",
 			["selfPoint"] = "CENTER",
-			["id"] = "seal of corruption",
-			["animation"] = {
-				["start"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["main"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-				["finish"] = {
-					["duration_type"] = "seconds",
-					["type"] = "none",
-				},
-			},
 			["trigger"] = {
 				["type"] = "aura",
 				["subeventSuffix"] = "_CAST_START",
 				["ownOnly"] = true,
 				["event"] = "Health",
-				["unit"] = "player",
-				["inverse"] = true,
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
 				["names"] = {
-					"Seal of Corruption", -- [1]
+					"Icy Rage", -- [1]
 				},
+				["custom_hide"] = "timed",
+				["unit"] = "player",
+				["subeventPrefix"] = "SPELL",
 				["debuffType"] = "HELPFUL",
 			},
-			["anchorPoint"] = "CENTER",
-			["frameStrata"] = 1,
 			["desaturate"] = false,
-			["rotation"] = 0,
-			["discrete_rotation"] = 0,
-			["numTriggers"] = 1,
-			["width"] = 200,
-			["height"] = 200,
-			["rotate"] = true,
+			["font"] = "Friz Quadrata TT",
+			["height"] = 40,
 			["load"] = {
-				["use_name"] = false,
+				["use_class"] = true,
 				["role"] = {
 					["multi"] = {
 					},
 				},
 				["use_spec"] = true,
-				["use_class"] = true,
+				["use_name"] = false,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -1591,7 +1659,54 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["parent"] = "missing buffs",
+			["fontSize"] = 12,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["iconInset"] = 0,
+			["cooldown"] = true,
+			["BFskin"] = "Blizzard",
+			["icon"] = true,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["untrigger"] = {
+			},
+			["id"] = "wfs",
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["parent"] = "rotation helper - paladin",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["inverse"] = false,
+			["numTriggers"] = 1,
+			["stickyDuration"] = false,
+			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
 		},
 	},
 }

@@ -1,3 +1,13 @@
+MACRO 16777219 "ds" INV_Misc_QuestionMark
+#showtooltip divine storm
+/startattack
+/use 10
+/cast divine storm
+END
+MACRO 16777220 "potion of speed" INV_Misc_QuestionMark
+#showtooltip
+/use potion of speed
+END
 MACRO 16777217 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
 P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1PT[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
