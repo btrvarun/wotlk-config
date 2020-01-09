@@ -28,26 +28,33 @@ RecountDB = {
 		["Immutability - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["RowHeight"] = 17,
 				["Position"] = {
-					["y"] = -53.99994734182565,
-					["h"] = 199.9999852283563,
-					["w"] = 140.0000106684094,
-					["x"] = -32.00002844909159,
+					["y"] = -403.0000168916482,
+					["h"] = 215.9999994529021,
+					["w"] = 264.9999970593487,
+					["x"] = 821.4998210647879,
 				},
 			},
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
 						["a"] = 1,
 					},
 				},
 			},
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
-			["Locked"] = true,
-			["ClampToScreen"] = true,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["Locked"] = true,
+			["LastInstanceName"] = "Halls of Stone",
+			["BarTexture"] = "Armory",
+			["CurDataSet"] = "LastFightData",
+			["Font"] = "PT Sans Narrow",
 			["FrameStrata"] = "2-LOW",
 		},
 	},
