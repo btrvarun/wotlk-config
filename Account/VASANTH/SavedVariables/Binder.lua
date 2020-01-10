@@ -3,6 +3,8 @@ Binder_Settings = {
 	["ProfilesCreated"] = 1,
 	["Profiles"] = {
 		{
+			["Name"] = "Garzh",
+			["Description"] = "",
 			["The_Binds"] = {
 				{
 					["TheAction"] = "HEADER_MOVEMENT",
@@ -1032,8 +1034,6 @@ Binder_Settings = {
 					["TheAction"] = "INFORMANT_POPUPDOWN",
 				}, -- [292]
 			},
-			["Name"] = "Garzh",
-			["Description"] = "",
 		}, -- [1]
 	},
 }
