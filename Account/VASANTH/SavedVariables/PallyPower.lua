@@ -8,10 +8,11 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
-			["cBuffNeedSome"] = {
+			["cBuffGood"] = {
+				["b"] = 0.05098039215686274,
 				["t"] = 0.69,
-				["g"] = 0.5,
-				["r"] = 0.5,
+				["g"] = 0.05098039215686274,
+				["r"] = 0.05098039215686274,
 			},
 			["cBuffNeedAll"] = {
 				["b"] = 0.5,
@@ -20,21 +21,6 @@ PallyPowerDB = {
 				["r"] = 0.5,
 			},
 			["sets"] = {
-				["secondary"] = {
-					["buffs"] = {
-						4, -- [1]
-						4, -- [2]
-						3, -- [3]
-						4, -- [4]
-						4, -- [5]
-						4, -- [6]
-						4, -- [7]
-						4, -- [8]
-						4, -- [9]
-						3, -- [10]
-						4, -- [11]
-					},
-				},
 				["primary"] = {
 					["buffs"] = {
 						3, -- [1]
@@ -50,18 +36,32 @@ PallyPowerDB = {
 						1, -- [11]
 					},
 				},
+				["secondary"] = {
+					["buffs"] = {
+						4, -- [1]
+						4, -- [2]
+						3, -- [3]
+						4, -- [4]
+						4, -- [5]
+						4, -- [6]
+						4, -- [7]
+						4, -- [8]
+						4, -- [9]
+						3, -- [10]
+						4, -- [11]
+					},
+				},
 			},
-			["cBuffGood"] = {
-				["b"] = 0.05098039215686274,
+			["cBuffNeedSome"] = {
 				["t"] = 0.69,
-				["g"] = 0.05098039215686274,
-				["r"] = 0.05098039215686274,
+				["g"] = 0.5,
+				["r"] = 0.5,
 			},
 			["display"] = {
 				["frameLocked"] = true,
 			},
-			["disable"] = false,
 			["rf"] = false,
+			["disable"] = false,
 		},
 	},
 }
@@ -118,6 +118,19 @@ PallyPower_Assignments = {
 		3, -- [10]
 		3, -- [11]
 	},
+	["Duckling"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
+	},
 	["Mybest"] = {
 		2, -- [1]
 		2, -- [2]
@@ -135,11 +148,13 @@ PallyPower_Assignments = {
 PallyPower_NormalAssignments = {
 	["Molekula"] = {
 	},
-	["Mybest"] = {
+	["Maidien"] = {
 	},
 	["Na"] = {
 	},
-	["Maidien"] = {
+	["Duckling"] = {
+	},
+	["Mybest"] = {
 	},
 }
 PallyPower_AuraAssignments = {
@@ -147,6 +162,7 @@ PallyPower_AuraAssignments = {
 	["Immutability"] = 1,
 	["Maidien"] = 1,
 	["Na"] = 5,
+	["Duckling"] = 1,
 	["Mybest"] = 5,
 }
 PallyPower_SavedPresets = {
