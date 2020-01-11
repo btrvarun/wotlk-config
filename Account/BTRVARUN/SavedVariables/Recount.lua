@@ -51,22 +51,8 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = -284.9999360579311,
 			["DetailWindowX"] = 370.0000269445724,
-			["GraphWindowX"] = 77.00001374583513,
-			["Locked"] = true,
 			["BarTextColorSwap"] = false,
-			["LastInstanceName"] = "Icecrown Citadel",
 			["BarTexture"] = "Armory",
 			["RealtimeWindows"] = {
 				["Realtime_Bowbaby_DAMAGE"] = {
@@ -80,10 +66,24 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["Font"] = "PT Sans Narrow",
-			["ClampToScreen"] = true,
-			["FrameStrata"] = "2-LOW",
+			["GraphWindowX"] = 77.00001374583513,
+			["LastInstanceName"] = "Icecrown Citadel",
 			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -284.9999360579311,
+			["Locked"] = true,
+			["ClampToScreen"] = true,
+			["Font"] = "PT Sans Narrow",
+			["FrameStrata"] = "2-LOW",
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -149,10 +149,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["BarTextColorSwap"] = false,
+			["LastInstanceName"] = "Halls of Stone",
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 0,
+			["BarTextColorSwap"] = false,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -166,9 +166,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
-			["LastInstanceName"] = "Icecrown Citadel",
+			["Font"] = "PT Sans Narrow",
+			["GraphWindowX"] = 0,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -181,9 +181,6 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
-			["DetailWindowX"] = 785.9999766115641,
-			["LastInstanceName"] = "Trial of the Crusader",
-			["FrameStrata"] = "2-LOW",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -196,10 +193,13 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = -277.9999539070006,
-			["Locked"] = true,
+			["DetailWindowX"] = 785.9999766115641,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "LastFightData",
+			["Locked"] = true,
+			["LastInstanceName"] = "Trial of the Crusader",
 			["Font"] = "PT Sans Narrow",
+			["CurDataSet"] = "LastFightData",
+			["FrameStrata"] = "2-LOW",
 		},
 		["Bowbaby - Unlimited WoW"] = {
 			["GraphWindowY"] = 0,

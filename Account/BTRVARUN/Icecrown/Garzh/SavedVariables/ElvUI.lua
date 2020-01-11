@@ -1,1234 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/w Minakshi dei", -- [1]
-		"/w Minakshi flasks iruka", -- [2]
-		"/w Minakshi okay thaa indha toon la vanga kooda kasu ila xD", -- [3]
-		"/w Minakshi seri", -- [4]
-		"/w Minakshi haha yaaru", -- [5]
-		"/w Xinoiler hey can you use hysteria on me? :)", -- [6]
-		"/w Xinoiler fingers crossed", -- [7]
-		"/wa", -- [8]
-		"/w Albakira soum is using crusader", -- [9]
-		"/p depends on the fight", -- [10]
-		"/w Nielantiel awesome", -- [11]
-		"/target mina", -- [12]
-		"/raid thanks", -- [13]
-		"/s spiking like crazy", -- [14]
-		"/s leave me to die", -- [15]
-		"/s lag", -- [16]
-		"/s lagging again 3k ping", -- [17]
-		"/s rip", -- [18]
-		"/epgp", -- [19]
-		"/p who", -- [20]
+		"/w Minakshi flasks iruka", -- [1]
+		"/w Minakshi okay thaa indha toon la vanga kooda kasu ila xD", -- [2]
+		"/w Minakshi seri", -- [3]
+		"/w Minakshi haha yaaru", -- [4]
+		"/w Xinoiler hey can you use hysteria on me? :)", -- [5]
+		"/w Xinoiler fingers crossed", -- [6]
+		"/wa", -- [7]
+		"/w Albakira soum is using crusader", -- [8]
+		"/p depends on the fight", -- [9]
+		"/w Nielantiel awesome", -- [10]
+		"/target mina", -- [11]
+		"/raid thanks", -- [12]
+		"/s spiking like crazy", -- [13]
+		"/s leave me to die", -- [14]
+		"/s lag", -- [15]
+		"/s lagging again 3k ping", -- [16]
+		"/s rip", -- [17]
+		"/epgp", -- [18]
+		"/p who", -- [19]
+		"/abs restore cat", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"Innervate cast on Aulo", -- [1]
-			"Goldust", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6199, -- [11]
-			"0x0700000000000C6F", -- [12]
-			0, -- [13]
-			[51] = 1578160368,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffff7c0aGoldust|r",
-		}, -- [1]
-		{
-			"Crybaby: Ekaterinanl cast Tricks of the Trade on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6200, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160368,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [2]
-		{
-			"Crybaby: Ketsuro cast Misdirection on Soum", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6201, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160369,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [3]
-		{
-			"Crybaby: Zorro cast Misdirection on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6206, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160389,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [4]
-		{
-			"Crybaby: Hoeley cast Tricks of the Trade on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6207, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160392,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [5]
-		{
-			"Starlitx has failed at being at the wrong place (Soul Shriek) (10)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6210, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160404,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [6]
-		{
-			"i dont :3", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6213, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160417,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [7]
-		{
-			"heal grabbed", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6226, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160425,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [8]
-		{
-			"Defile on me!", -- [1]
-			"Ketsuro", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6232, -- [11]
-			"0x07000000004E9A1E", -- [12]
-			0, -- [13]
-			[51] = 1578160435,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffaad372Ketsuro|r",
-		}, -- [9]
-		{
-			"Soum has failed at not moving (Defile) (3)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6233, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160439,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [10]
-		{
-			"{rt8} Damage from Defile #1 (Ketsuro) - 11: Soum (8), Ketsuro (1), Barimlek (1).", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6234, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160448,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [11]
-		{
-			"Soum is dancing in Defile?", -- [1]
-			"Ekaterinanl", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6235, -- [11]
-			"0x07000000004A698C", -- [12]
-			0, -- [13]
-			[51] = 1578160449,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [12]
-		{
-			"Crybaby: Hoeley cast Tricks of the Trade on Garzh", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6236, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160452,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [13]
-		{
-			"innervate on Nugga", -- [1]
-			"Tequilab", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6237, -- [11]
-			"0x07000000004A35FA", -- [12]
-			0, -- [13]
-			[51] = 1578160453,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aTequilab|r",
-		}, -- [14]
-		{
-			"Defile on me!", -- [1]
-			"Hoeley", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6259, -- [11]
-			"0x07000000004B3B65", -- [12]
-			0, -- [13]
-			[51] = 1578160468,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Hoeley|r",
-		}, -- [15]
-		{
-			"Soum has failed at not moving (Defile) (4)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6260, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160471,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [16]
-		{
-			"Hoeley has failed at not moving (Defile) (10)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6261, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160471,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [17]
-		{
-			"Goldust has failed at not moving (Defile) (4)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6262, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160471,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [18]
-		{
-			"Minakshi has failed at not moving (Defile) (8)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6263, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160471,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [19]
-		{
-			"Soum has failed at not moving (Defile) (5)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6264, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160472,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [20]
-		{
-			"what's the point? Soum is swiming in Defile", -- [1]
-			"Ekaterinanl", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6265, -- [11]
-			"0x07000000004A698C", -- [12]
-			0, -- [13]
-			[51] = 1578160476,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [21]
-		{
-			"Fatality: Soum > 1.0k |cff71d5ff|Hspell:73708|h[Defile]|h|r (O: 8.2k) [Defile]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6266, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160477,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [22]
-		{
-			"{rt8} Damage from Defile #2 (Hoeley) - 7: Goldust (3), Minakshi (2), Hoeley (1), Garzh (1).", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6267, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160481,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [23]
-		{
-			"Defile on me!", -- [1]
-			"Ekaterinanl", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6274, -- [11]
-			"0x07000000004A698C", -- [12]
-			0, -- [13]
-			[51] = 1578160501,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [24]
-		{
-			"Ekaterinanl has failed at not moving (Defile) (6)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6282, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160504,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [25]
-		{
-			"Crybaby: Ekaterinanl cast Tricks of the Trade on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6288, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160513,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [26]
-		{
-			"Crybaby: Zorro cast Misdirection on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6294, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160536,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [27]
-		{
-			"Crybaby: {rt7}Hoeley cast Tricks of the Trade on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6295, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160537,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [28]
-		{
-			"Crybaby: Ekaterinanl cast Tricks of the Trade on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6300, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160557,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [29]
-		{
-			"barim gives u mana, barim good", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6301, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160559,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [30]
-		{
-			"Crybaby: Ketsuro cast Misdirection on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6302, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160564,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [31]
-		{
-			"Crybaby: Zorro cast Misdirection on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6307, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160575,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [32]
-		{
-			"Crybaby: Ekaterinanl cast Tricks of the Trade on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6313, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160592,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [33]
-		{
-			"Crybaby: Ketsuro cast Misdirection on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6314, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160596,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [34]
-		{
-			"Defile on me!", -- [1]
-			"Minakshi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6324, -- [11]
-			"0x07000000001A6034", -- [12]
-			0, -- [13]
-			[51] = 1578160623,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaMinakshi|r",
-		}, -- [35]
-		{
-			"Crybaby: Ekaterinanl cast Tricks of the Trade on Xinoiler", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6325, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160636,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [36]
-		{
-			"{rt8} Damage from Defile #4 (Minakshi) - 22, first 3 ticks (sec): Hoeley (3), Garzh (3), Shugarrush (3), Ketsuro (2), Starlitx (2), Shredyy (2), Cptnecro (2), Akalvap (2), Ekaterinanl (1), Nielantiel (1).", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6326, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160636,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [37]
-		{
-			"inner", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6327, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160650,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [38]
-		{
-			"innervate on Barimlek", -- [1]
-			"Tequilab", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6328, -- [11]
-			"0x07000000004A35FA", -- [12]
-			0, -- [13]
-			[51] = 1578160655,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aTequilab|r",
-		}, -- [39]
-		{
-			"Defile on me!", -- [1]
-			"Minakshi", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6333, -- [11]
-			"0x07000000001A6034", -- [12]
-			0, -- [13]
-			[51] = 1578160657,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfff48cbaMinakshi|r",
-		}, -- [40]
-		{
-			"-------------", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6335, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160658,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [41]
-		{
-			"Soul Shriek: Starlitx (1)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6336, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160658,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [42]
-		{
-			"Defile: Hoeley (1), Ekaterinanl (1), Soum (3), Minakshi (1), Goldust (1)", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6337, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160658,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [43]
-		{
-			"Crybaby: Hoeley cast Tricks of the Trade on Garzh", -- [1]
-			"Shambling", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6338, -- [11]
-			"0x07000000004C2F41", -- [12]
-			0, -- [13]
-			[51] = 1578160678,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cffc41e3aShambling|r",
-		}, -- [44]
-		{
-			"Defile on me!", -- [1]
-			"Ketsuro", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6348, -- [11]
-			"0x07000000004E9A1E", -- [12]
-			0, -- [13]
-			[51] = 1578160689,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffaad372Ketsuro|r",
-		}, -- [45]
-		{
-			"Fatality: Cptnecro > 37.3k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 775k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6355, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [46]
-		{
-			"Fatality: {rt8}Ketsuro > 39.9k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 879k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6356, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [47]
-		{
-			"Fatality: Nielantiel > 34.8k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 952k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6357, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [48]
-		{
-			"Fatality: Shambling > 43.8k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 913k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6358, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [49]
-		{
-			"Fatality: Ekaterinanl > 42.7k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 915k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6359, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [50]
-		{
-			"Fatality: Tequilab > 37.5k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 932k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6360, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [51]
-		{
-			"Fatality: Ministern > 37.0k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 780k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6361, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [52]
-		{
-			"Fatality: Barimlek > 36.3k |cff71d5ff|Hspell:72350|h[Fury of Frostmourne]|h|r (O: 934k) [The Lich King]", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6362, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160694,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [53]
-		{
-			"{rt5} Harvest Soul, effective heal (total): Aulo (39k), Nugga (19k), Barimlek (9k), Cptnecro (3k).", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6363, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160695,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [54]
-		{
-			"{rt6}Spirits explodes in this fight: 10.", -- [1]
-			"Albakira", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6364, -- [11]
-			"0x07000000002CB93C", -- [12]
-			0, -- [13]
-			[51] = 1578160695,
-			[50] = "CHAT_MSG_RAID_LEADER",
-			[52] = "|cff0070ddAlbakira|r",
-		}, -- [55]
-		{
-			"need bit more work on defile tho", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6365, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160710,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [56]
-		{
-			"pavlaka said ''i'm useless anyway '' before the fight :D", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6366, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1578160716,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [57]
-		{
-			"You need a gear from cata to beat pavlaka", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6370, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160755,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [58]
-		{
-			"might be from pandaria ", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6371, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160764,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [59]
-		{
-			"aswell", -- [1]
-			"Aulo", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6372, -- [11]
-			"0x07000000004AB67B", -- [12]
-			0, -- [13]
-			[51] = 1578160766,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaAulo|r",
-		}, -- [60]
-		{
-			"i have more that .0 prio", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6374, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160771,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [61]
-		{
-			"hell yeah", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6375, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160774,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [62]
-		{
-			"EPGP: +2000 EP (Icecrown Citadel - 25 Player) to Omgbear", -- [1]
-			"Nugga", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6376, -- [11]
-			"0x07000000003E0C50", -- [12]
-			0, -- [13]
-			[51] = 1578160775,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cffffffffNugga|r",
-		}, -- [63]
-		{
-			"it's not about beating him", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6377, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1578160785,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [64]
-		{
-			"it's about what he said", -- [1]
-			"Shredyy", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6378, -- [11]
-			"0x07000000000B314F", -- [12]
-			0, -- [13]
-			[51] = 1578160790,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cfff48cbaShredyy|r",
-		}, -- [65]
-		{
-			"pavlaka ", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6379, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160793,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [66]
-		{
-			"but backwards", -- [1]
-			"Barimlek", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			6380, -- [11]
-			"0x0700000000428888", -- [12]
-			0, -- [13]
-			[51] = 1578160795,
-			[50] = "CHAT_MSG_RAID",
-			[52] = "|cff0070ddBarimlek|r",
-		}, -- [67]
 		{
 			"dude", -- [1]
 			"Akalvap", -- [2]
@@ -1246,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1578160831,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cff68ccefAkalvap|r",
-		}, -- [68]
+		}, -- [1]
 		{
 			"ta hek did u do there ?", -- [1]
 			"Akalvap", -- [2]
@@ -1264,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1578160835,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cff68ccefAkalvap|r",
-		}, -- [69]
+		}, -- [2]
 		{
 			"ENOK", -- [1]
 			"Tequilab", -- [2]
@@ -1282,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1578160839,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffff7c0aTequilab|r",
-		}, -- [70]
+		}, -- [3]
 		{
 			"THE TIME HAS COME", -- [1]
 			"Tequilab", -- [2]
@@ -1300,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1578160843,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffff7c0aTequilab|r",
-		}, -- [71]
+		}, -- [4]
 		{
 			"Good job all today, ty for coming! Next week we progress 9/12 HC :)", -- [1]
 			"Albakira", -- [2]
@@ -1318,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1578160849,
 			[50] = "CHAT_MSG_RAID_WARNING",
 			[52] = "|cff0070ddAlbakira|r",
-		}, -- [72]
+		}, -- [5]
 		{
 			"to give me 5k gold", -- [1]
 			"Barimlek", -- [2]
@@ -1336,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1578160850,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff0070ddBarimlek|r",
-		}, -- [73]
+		}, -- [6]
 		{
 			"YOUR WAITING IS OVER", -- [1]
 			"Tequilab", -- [2]
@@ -1354,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1578160852,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffff7c0aTequilab|r",
-		}, -- [74]
+		}, -- [7]
 		{
 			"to meet your SM", -- [1]
 			"Shredyy", -- [2]
@@ -1372,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1578160852,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaShredyy|r",
-		}, -- [75]
+		}, -- [8]
 		{
 			"who", -- [1]
 			"Garzh", -- [2]
@@ -1390,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1578160853,
 			[50] = "CHAT_MSG_PARTY",
 			[52] = "|cffff7c0aGarzh|r",
-		}, -- [76]
+		}, -- [9]
 		{
 			"{rt4} Total sec in Defile: Soum (40), Shugarrush (7), Nielantiel (5), Hoeley (5), Garzh (4), Goldust (3), Minakshi (2), ...", -- [1]
 			"Shambling", -- [2]
@@ -1408,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1578160858,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aShambling|r",
-		}, -- [77]
+		}, -- [10]
 		{
 			"{rt5} Harvest Soul, effective heal (total): Aulo (39k), Nugga (19k), Barimlek (9k), Cptnecro (3k).", -- [1]
 			"Shambling", -- [2]
@@ -1426,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1578160858,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aShambling|r",
-		}, -- [78]
+		}, -- [11]
 		{
 			"{rt6}Spirits explodes in this fight: 20.", -- [1]
 			"Shambling", -- [2]
@@ -1444,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1578160858,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aShambling|r",
-		}, -- [79]
+		}, -- [12]
 		{
 			"Crybaby: Ekaterinanl cast Tricks of the Trade on Xinoiler", -- [1]
 			"Shambling", -- [2]
@@ -1462,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1578160870,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffc41e3aShambling|r",
-		}, -- [80]
+		}, -- [13]
 		{
 			"LFM need 1 OT for icc10n gear run 5k gs+", -- [1]
 			"Fuzzycakes", -- [2]
@@ -1480,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1578160875,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aFuzzycakes|r",
-		}, -- [81]
+		}, -- [14]
 		{
 			"?", -- [1]
 			"Toxiclady", -- [2]
@@ -1498,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1578160880,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffff7c0aToxiclady|r",
-		}, -- [82]
+		}, -- [15]
 		{
 			"go", -- [1]
 			"Toxiclady", -- [2]
@@ -1516,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1578160882,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffff7c0aToxiclady|r",
-		}, -- [83]
+		}, -- [16]
 		{
 			"will there be a 2nd icc 25?", -- [1]
 			"Logikk", -- [2]
@@ -1534,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1578160884,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffff7c0aLogikk|r",
-		}, -- [84]
+		}, -- [17]
 		{
 			"HUSH", -- [1]
 			"Wishiwasadk", -- [2]
@@ -1552,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1578160887,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaWishiwasadk|r",
-		}, -- [85]
+		}, -- [18]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4597:07000000004E9A1E:1:1:4:20:4294967295:4294967295:4294967295:4294967295|h[The Frozen Throne (25 player)]|h|r!", -- [1]
 			"Ketsuro", -- [2]
@@ -1570,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1578160887,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "|cffaad372Ketsuro|r",
-		}, -- [86]
+		}, -- [19]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:4608:07000000004E9A1E:1:1:4:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r!", -- [1]
 			"Ketsuro", -- [2]
@@ -1588,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1578160888,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 			[52] = "|cffaad372Ketsuro|r",
-		}, -- [87]
+		}, -- [20]
 		{
 			"NO U", -- [1]
 			"Fuzzycakes", -- [2]
@@ -1606,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1578160891,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aFuzzycakes|r",
-		}, -- [88]
+		}, -- [21]
 		{
 			"No SFS", -- [1]
 			"Toxiclady", -- [2]
@@ -1624,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1578160892,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffff7c0aToxiclady|r",
-		}, -- [89]
+		}, -- [22]
 		{
 			"sowrd", -- [1]
 			"Nielantiel", -- [2]
@@ -1642,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1578160893,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff68ccefNielantiel|r",
-		}, -- [90]
+		}, -- [23]
 		{
 			"LOL", -- [1]
 			"Toxiclady", -- [2]
@@ -1660,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1578160893,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffff7c0aToxiclady|r",
-		}, -- [91]
+		}, -- [24]
 		{
 			"EPGPLootmaster: please whisper me !epgp need/greed/pass |cffa335ee|Hitem:50429:0:0:0:0:0:0:0:80|h[Archus, Greatstaff of Antonidas]|h|r (or use the popup if you have EPGPLootmaster installed)", -- [1]
 			"Nugga", -- [2]
@@ -1678,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1578160894,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffffffffNugga|r",
-		}, -- [92]
+		}, -- [25]
 		{
 			"EPGPLootmaster: please whisper me !epgp need/greed/pass |cffa335ee|Hitem:50427:0:0:0:0:0:0:0:80|h[Bloodsurge, Kel'Thuzad's Blade of Agony]|h|r (or use the popup if you have EPGPLootmaster installed)", -- [1]
 			"Nugga", -- [2]
@@ -1696,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1578160894,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffffffffNugga|r",
-		}, -- [93]
+		}, -- [26]
 		{
 			"EPGPLootmaster: please whisper me !epgp need/greed/pass |cffa335ee|Hitem:52025:0:0:0:0:0:0:0:80|h[Vanquisher's Mark of Sanctification]|h|r (or use the popup if you have EPGPLootmaster installed)", -- [1]
 			"Nugga", -- [2]
@@ -1714,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1578160895,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffffffffNugga|r",
-		}, -- [94]
+		}, -- [27]
 		{
 			"EPGPLootmaster: please whisper me !epgp need/greed/pass |cffa335ee|Hitem:52027:0:0:0:0:0:0:0:80|h[Conqueror's Mark of Sanctification]|h|r (or use the popup if you have EPGPLootmaster installed)", -- [1]
 			"Nugga", -- [2]
@@ -1732,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1578160897,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffffffffNugga|r",
-		}, -- [95]
+		}, -- [28]
 		{
 			"NO SFS !", -- [1]
 			"Toxiclady", -- [2]
@@ -1750,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1578160900,
 			[50] = "CHAT_MSG_SAY",
 			[52] = "|cffff7c0aToxiclady|r",
-		}, -- [96]
+		}, -- [29]
 		{
 			"Displaying Loots for:The Lich King", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1768,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1578160904,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [97]
+		}, -- [30]
 		{
 			"1: |cffa335ee|Hitem:50429:0:0:0:0:0:0:0:80|h[Archus, Greatstaff of Antonidas]|h|r", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1786,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1578160904,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [98]
+		}, -- [31]
 		{
 			"2: |cffa335ee|Hitem:50427:0:0:0:0:0:0:0:80|h[Bloodsurge, Kel'Thuzad's Blade of Agony]|h|r", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1804,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1578160904,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [99]
+		}, -- [32]
 		{
 			"3: |cffa335ee|Hitem:52025:0:0:0:0:0:0:0:80|h[Vanquisher's Mark of Sanctification]|h|r", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1822,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1578160904,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [100]
+		}, -- [33]
 		{
 			"4: |cffa335ee|Hitem:52027:0:0:0:0:0:0:0:80|h[Conqueror's Mark of Sanctification]|h|r", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1840,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1578160904,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [101]
+		}, -- [34]
 		{
 			"5: |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1858,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1578160904,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [102]
+		}, -- [35]
 		{
 			"6: |cffff8000|Hitem:50274:0:0:0:0:0:0:0:80|h[Shadowfrost Shard]|h|r", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1876,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1578160904,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [103]
+		}, -- [36]
 		{
 			"EPGPLootmaster: please whisper me !epgp need/greed/pass |cffff8000|Hitem:50274:0:0:0:0:0:0:0:80|h[Shadowfrost Shard]|h|r (or use the popup if you have EPGPLootmaster installed)", -- [1]
 			"Nugga", -- [2]
@@ -1894,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1578160906,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffffffffNugga|r",
-		}, -- [104]
+		}, -- [37]
 		{
 			"there is", -- [1]
 			"Ekaterinanl", -- [2]
@@ -1912,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1578160907,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfffff468Ekaterinanl|r",
-		}, -- [105]
+		}, -- [38]
 		{
 			"CONGRAAAATS", -- [1]
 			"Albakira", -- [2]
@@ -1930,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1578160914,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff0070ddAlbakira|r",
-		}, -- [106]
+		}, -- [39]
 		{
 			"gz enork ", -- [1]
 			"Nielantiel", -- [2]
@@ -1948,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1578160919,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff68ccefNielantiel|r",
-		}, -- [107]
+		}, -- [40]
 		{
 			"gz enork", -- [1]
 			"Shredyy", -- [2]
@@ -1966,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1578160923,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaShredyy|r",
-		}, -- [108]
+		}, -- [41]
 		{
 			"give me the singing box plz ", -- [1]
 			"Nielantiel", -- [2]
@@ -1984,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1578160924,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff68ccefNielantiel|r",
-		}, -- [109]
+		}, -- [42]
 		{
 			"gratz", -- [1]
 			"Cptnecro", -- [2]
@@ -2002,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1578160927,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cffffffffCptnecro|r",
-		}, -- [110]
+		}, -- [43]
 		{
 			"tabard for me", -- [1]
 			"Shredyy", -- [2]
@@ -2020,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1578160933,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaShredyy|r",
-		}, -- [111]
+		}, -- [44]
 		{
 			"yah dnt turn it in ", -- [1]
 			"Nielantiel", -- [2]
@@ -2038,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1578160935,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff68ccefNielantiel|r",
-		}, -- [112]
+		}, -- [45]
 		{
 			"EPGP: +495 GP (|cffa335ee|Hitem:52027:0:0:0:0:0:0:0:80|h[Conqueror's Mark of Sanctification]|h|r) to Cptnecro", -- [1]
 			"Nugga", -- [2]
@@ -2056,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1578160954,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffNugga|r",
-		}, -- [113]
+		}, -- [46]
 		{
 			"WOS E E LU SE Y LO", -- [1]
 			"Kamen", -- [2]
@@ -2074,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1578160958,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aKamen|r",
-		}, -- [114]
+		}, -- [47]
 		{
 			"WTS |cffa335ee|Hitem:45141:0:0:0:0:0:0:0:80|h[Proto-hide Leggings]|h|r |cffa335ee|Hitem:45141:0:0:0:0:0:0:0:80|h[Proto-hide Leggings]|h|r", -- [1]
 			"Stonebearer", -- [2]
@@ -2092,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1578160959,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aStonebearer|r",
-		}, -- [115]
+		}, -- [48]
 		{
 			"Fatality: Enork > 41.5k FALLING [Unknown]", -- [1]
 			"Aulo", -- [2]
@@ -2110,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1578160959,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaAulo|r",
-		}, -- [116]
+		}, -- [49]
 		{
 			"WTB all |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 300 gold send me only via C.O.D", -- [1]
 			"Offical", -- [2]
@@ -2128,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1578160960,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Offical|r",
-		}, -- [117]
+		}, -- [50]
 		{
 			"WTB FROZEN ORB / 90g , DAMAGED NECKLACE 150/g, CARDINAL RUBY 300/g PRIMORDIAL SARONITE 750 /g SEND ME IN COD!!!!", -- [1]
 			"Szuzy", -- [2]
@@ -2146,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1578160961,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Szuzy|r",
-		}, -- [118]
+		}, -- [51]
 		{
 			"Fatality: Barimlek > 27.2k FALLING [Unknown]", -- [1]
 			"Aulo", -- [2]
@@ -2164,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1578160962,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaAulo|r",
-		}, -- [119]
+		}, -- [52]
 		{
 			"Fatality: Shredyy > 35.6k FALLING [Unknown]", -- [1]
 			"Aulo", -- [2]
@@ -2182,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1578160962,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaAulo|r",
-		}, -- [120]
+		}, -- [53]
 		{
 			"no", -- [1]
 			"Nielantiel", -- [2]
@@ -2200,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1578160963,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff68ccefNielantiel|r",
-		}, -- [121]
+		}, -- [54]
 		{
 			"Fatality: Xinoiler > 61.6k FALLING [Unknown]", -- [1]
 			"Aulo", -- [2]
@@ -2218,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1578160964,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaAulo|r",
-		}, -- [122]
+		}, -- [55]
 		{
 			"GRATZ ENOK !1", -- [1]
 			"Aulo", -- [2]
@@ -2236,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1578160964,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfff48cbaAulo|r",
-		}, -- [123]
+		}, -- [56]
 		{
 			"portal", -- [1]
 			"Nielantiel", -- [2]
@@ -2254,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1578160965,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cff68ccefNielantiel|r",
-		}, -- [124]
+		}, -- [57]
 		{
 			"Fatality: Shambling > 34.1k FALLING [Unknown]", -- [1]
 			"Aulo", -- [2]
@@ -2272,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1578160967,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaAulo|r",
-		}, -- [125]
+		}, -- [58]
 		{
 			"Fatality: Shugarrush > 39.4k FALLING [Unknown]", -- [1]
 			"Aulo", -- [2]
@@ -2290,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1578160967,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaAulo|r",
-		}, -- [126]
+		}, -- [59]
 		{
 			"Fatality: Tequilab > 28.3k FALLING [Unknown]", -- [1]
 			"Aulo", -- [2]
@@ -2308,6 +1102,1212 @@ ElvCharacterDB = {
 			[51] = 1578160967,
 			[50] = "CHAT_MSG_RAID",
 			[52] = "|cfff48cbaAulo|r",
+		}, -- [60]
+		{
+			" lfm icc 25 nm alt run s mni 5.2 gs+ need all |cffffff00|Hachievement:4605:07000000004DA35F:0:0:0:-1:3:0:0:0|h[The Plagueworks (25 player)]|h|r", -- [1]
+			"Paologerrero", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"0x07000000004DA35F", -- [12]
+			0, -- [13]
+			[51] = 1578698349,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dPaologerrero|r",
+		}, -- [61]
+		{
+			"WTB |cffffffff|Hitem:34054:0:0:0:0:0:0:0:80|h[Infinite Dust]|h|r80g/stack- |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r21g/each- |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r50geach---send with cod!!", -- [1]
+			"Brizolaki", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			552, -- [11]
+			"0x07000000004EC8FD", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffBrizolaki|r",
+		}, -- [62]
+		{
+			"WTB |cffffffff|Hitem:34054:0:0:0:0:0:0:0:80|h[Infinite Dust]|h|r80g/stack- |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r21g/each- |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r50geach---send with cod!!", -- [1]
+			"Brizolaki", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			553, -- [11]
+			"0x07000000004EC8FD", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffBrizolaki|r",
+		}, -- [63]
+		{
+			"Lfm icc 25 man NoR Gs 5.5 Alt Run Full Gem ench COme memo for ins {P+B Ress } Sfs free Need 1 Helar 1 Mdps 2 rDPS", -- [1]
+			"Shadowfun", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			555, -- [11]
+			"0x07000000004FA1E0", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffShadowfun|r",
+		}, -- [64]
+		{
+			"LFM ICc 25 nm /hc ( B + P RESS ) + GS 5.8 wis me need all ", -- [1]
+			"Lichgril", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"DND", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			556, -- [11]
+			"0x070000000040525D", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aLichgril|r",
+		}, -- [65]
+		{
+			"RS 25N seek last tank |cffffff00|Hachievement:4816:070000000000878E:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Comewithme", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			557, -- [11]
+			"0x070000000000878E", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefComewithme|r",
+		}, -- [66]
+		{
+			"RS 25N seek last tank |cffffff00|Hachievement:4816:070000000000878E:1:5:2:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Comewithme", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			558, -- [11]
+			"0x070000000000878E", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefComewithme|r",
+		}, -- [67]
+		{
+			"WTB 5x |cff1eff00|Hitem:11382:0:0:0:0:0:0:0:80|h[Blood of the Mountain]|h|r ", -- [1]
+			"Ebulla", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			559, -- [11]
+			"0x070000000044AC6C", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dEbulla|r",
+		}, -- [68]
+		{
+			"GOTH O VALESH TI MOD VIL BUR DANA UDEN CYNEGOLD y lo BUR SKILDE ", -- [1]
+			"Kryder", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			560, -- [11]
+			"0x070000000030124A", -- [12]
+			0, -- [13]
+			[51] = 1578698376,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaKryder|r",
+		}, -- [69]
+		{
+			"WTB |cffffffff|Hitem:34054:0:0:0:0:0:0:0:80|h[Infinite Dust]|h|r80g/stack- |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r21g/each- |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r50geach---send with cod!!", -- [1]
+			"Brizolaki", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			572, -- [11]
+			"0x07000000004EC8FD", -- [12]
+			0, -- [13]
+			[51] = 1578698381,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffBrizolaki|r",
+		}, -- [70]
+		{
+			"w8", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			589, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698387,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [71]
+		{
+			"wts |cffa335ee|Hitem:47291:0:0:0:0:0:0:0:80|h[Shroud of Displacement]|h|r w me", -- [1]
+			"Semyz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			591, -- [11]
+			"0x07000000000171EB", -- [12]
+			0, -- [13]
+			[51] = 1578698406,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddSemyz|r",
+		}, -- [72]
+		{
+			"why you need?", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			612, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698497,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [73]
+		{
+			"tank?", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			616, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698503,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [74]
+		{
+			"why you need items?", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			617, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698508,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [75]
+		{
+			"i am enchanter", -- [1]
+			"Wulbrick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			620, -- [11]
+			"0x070000000021B4B1", -- [12]
+			0, -- [13]
+			[51] = 1578698518,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc41e3aWulbrick|r",
+		}, -- [76]
+		{
+			"heh", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			621, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698523,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [77]
+		{
+			"so am i", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			622, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578698523,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [78]
+		{
+			"here", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			623, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698524,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [79]
+		{
+			"so dont need", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			624, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578698525,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [80]
+		{
+			"dont need again", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			625, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698532,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [81]
+		{
+			"if you ned i will kick you", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			626, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698540,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [82]
+		{
+			":", -- [1]
+			"Wulbrick", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			627, -- [11]
+			"0x070000000021B4B1", -- [12]
+			0, -- [13]
+			[51] = 1578698547,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffc41e3aWulbrick|r",
+		}, -- [83]
+		{
+			"low dps feral", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			646, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698577,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [84]
+		{
+			"step up your game son", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			651, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698582,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [85]
+		{
+			"i need that 10k", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			653, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698586,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [86]
+		{
+			"no.", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			657, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698621,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [87]
+		{
+			"yes", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			661, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578698624,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [88]
+		{
+			"okay :D", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			662, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698627,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [89]
+		{
+			"i heal you tank dudu?", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			663, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578698632,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [90]
+		{
+			"i can tank", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			664, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698633,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [91]
+		{
+			"okay :D", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			665, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698636,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [92]
+		{
+			"w8", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			666, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698647,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [93]
+		{
+			"i hate ppl who ninja in RDF", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			685, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578698722,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [94]
+		{
+			"oooh", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			686, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698724,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [95]
+		{
+			"ACCIDENT", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			687, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698727,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [96]
+		{
+			"sry :D", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			688, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578698734,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [97]
+		{
+			"Lol?", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			720, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578698933,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [98]
+		{
+			"LFM ICC 25 N / HC NEED 5.7+ GS GRUN +DISCORD +INSPECT AT MEMORIAL W/ME", -- [1]
+			"Waawaa", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			736, -- [11]
+			"0x0700000000002D5F", -- [12]
+			0, -- [13]
+			[51] = 1578699072,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aWaawaa|r",
+		}, -- [99]
+		{
+			"all come last boss", -- [1]
+			"Longhornz", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			742, -- [11]
+			"0x07000000002A7F89", -- [12]
+			0, -- [13]
+			[51] = 1578699096,
+			[50] = "CHAT_MSG_PARTY_LEADER",
+			[52] = "|cffff7c0aLonghornz|r",
+		}, -- [100]
+		{
+			"well", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			746, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578699109,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [101]
+		{
+			"u r ded", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			747, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578699119,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [102]
+		{
+			"ded", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			748, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578699119,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [103]
+		{
+			":DD", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			751, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578699123,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [104]
+		{
+			" Missing buff: <Paladin blessing>: Winrri(BoK, BoM)", -- [1]
+			"Bubi", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Bubi", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			755, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578699174,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [105]
+		{
+			" Missing buff: <Power Word: Fortitude>: Garzh, Winrri", -- [1]
+			"Partypriest", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Partypriest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			756, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578699184,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [106]
+		{
+			"oh damn", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			757, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578699201,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [107]
+		{
+			"my bad", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			758, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578699202,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [108]
+		{
+			":D", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			759, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578699203,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [109]
+		{
+			"upsi :D", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			760, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578699208,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [110]
+		{
+			"LF Blacksmithing ", -- [1]
+			"Dealfire", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			772, -- [11]
+			"0x07000000004EE07B", -- [12]
+			0, -- [13]
+			[51] = 1578699257,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefDealfire|r",
+		}, -- [111]
+		{
+			"Brann's Exploration complete: 1/1", -- [1]
+			"Bubi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			798, -- [11]
+			"0x07000000004FC193", -- [12]
+			0, -- [13]
+			[51] = 1578699305,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cfff48cbaBubi|r",
+		}, -- [112]
+		{
+			"Brann's Exploration complete: 1/1", -- [1]
+			"Partypriest", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			799, -- [11]
+			"0x07000000004FC139", -- [12]
+			0, -- [13]
+			[51] = 1578699305,
+			[50] = "CHAT_MSG_PARTY",
+			[52] = "|cffffffffPartypriest|r",
+		}, -- [113]
+		{
+			"agol gol agol lu vrum vil TI SE E E o ve aesire firalaine ", -- [1]
+			"Notluti", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			843, -- [11]
+			"0x07000000000E94B1", -- [12]
+			0, -- [13]
+			[51] = 1578699329,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aNotluti|r",
+		}, -- [114]
+		{
+			"Goth borne ash agol nud ash bor lu", -- [1]
+			"Estraxis", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			845, -- [11]
+			"0x07000000004EEC75", -- [12]
+			0, -- [13]
+			[51] = 1578699329,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaEstraxis|r",
+		}, -- [115]
+		{
+			"1 HEALER AND 2 DPS TOC 10 NM", -- [1]
+			"Iwia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			846, -- [11]
+			"0x07000000004F7E32", -- [12]
+			0, -- [13]
+			[51] = 1578699330,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aIwia|r",
+		}, -- [116]
+		{
+			"LFM icc 25 nm /hc ( B + P RESS ) SFS free roll + Gs 5.8 wis me 1 Rdudu 1 R shmn |cffffff00|Hachievement:4608:070000000040525D:1:9:28:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Lichgril", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			847, -- [11]
+			"0x070000000040525D", -- [12]
+			0, -- [13]
+			[51] = 1578699331,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aLichgril|r",
+		}, -- [117]
+		{
+			"At Festergut Re`place 1 dps ICC 10n (gunship, festergut hc) LK Run Min 5.6k gs (Boes, P rez) W/me gs, spec, achieve LF 9/10 Incredible grp", -- [1]
+			"Permahealing", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			849, -- [11]
+			"0x07000000004F70D5", -- [12]
+			0, -- [13]
+			[51] = 1578699333,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffPermahealing|r",
+		}, -- [118]
+		{
+			"but i have repot", -- [1]
+			"Pabloou", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			852, -- [11]
+			"0x07000000005006A3", -- [12]
+			0, -- [13]
+			[51] = 1578699337,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cff9382c9Pabloou|r",
+		}, -- [119]
+		{
+			"looking for a guild", -- [1]
+			"Krljavi", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			853, -- [11]
+			"0x070000000046BB8E", -- [12]
+			0, -- [13]
+			[51] = 1578699337,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aKrljavi|r",
+		}, -- [120]
+		{
+			"LFM TOC 10 nm need 2 heal 2 tank dps min GS 5k2", -- [1]
+			"Clyceryl", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			854, -- [11]
+			"0x07000000004D39ED", -- [12]
+			0, -- [13]
+			[51] = 1578699340,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefClyceryl|r",
+		}, -- [121]
+		{
+			"1 HEALER AND 2 DPS TOC 10 NM 5.5 GS", -- [1]
+			"Iwia", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			855, -- [11]
+			"0x07000000004F7E32", -- [12]
+			0, -- [13]
+			[51] = 1578699340,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aIwia|r",
+		}, -- [122]
+		{
+			"Lfm icc 25 man NoR Gs 5.5 Alt Run Full Gem ench COme memo for ins {P+B Ress } Sfs free Need 1 Rdudu 1 resto shman 23 /25 ", -- [1]
+			"Shadowfun", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			856, -- [11]
+			"0x07000000004FA1E0", -- [12]
+			0, -- [13]
+			[51] = 1578699342,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffffffffShadowfun|r",
+		}, -- [123]
+		{
+			"MEMO Shadowfun", -- [1]
+			"Hemagoblin", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			857, -- [11]
+			"0x07000000004EA67F", -- [12]
+			0, -- [13]
+			[51] = 1578699344,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffc69b6dHemagoblin|r",
+		}, -- [124]
+		{
+			"about whta", -- [1]
+			"Suulakana", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			858, -- [11]
+			"0x070000000032431E", -- [12]
+			0, -- [13]
+			[51] = 1578699345,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aSuulakana|r",
+		}, -- [125]
+		{
+			"Just click the guy", -- [1]
+			"Suulakana", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			860, -- [11]
+			"0x070000000032431E", -- [12]
+			0, -- [13]
+			[51] = 1578699351,
+			[50] = "CHAT_MSG_SAY",
+			[52] = "|cffff7c0aSuulakana|r",
+		}, -- [126]
+		{
+			"Goth borne ash agol nud ash bor lu", -- [1]
+			"Estraxis", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			863, -- [11]
+			"0x07000000004EEC75", -- [12]
+			0, -- [13]
+			[51] = 1578699353,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaEstraxis|r",
 		}, -- [127]
 	},
 }
