@@ -51,7 +51,22 @@ RecountDB = {
 					["x"] = 821.4996810077215,
 				},
 			},
+			["FrameStrata"] = "2-LOW",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -284.9999360579311,
 			["DetailWindowX"] = 370.0000269445724,
+			["GraphWindowX"] = 77.00001374583513,
+			["Locked"] = true,
+			["LastInstanceName"] = "Icecrown Citadel",
 			["BarTextColorSwap"] = false,
 			["BarTexture"] = "Armory",
 			["RealtimeWindows"] = {
@@ -66,24 +81,9 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["LastInstanceName"] = "Icecrown Citadel",
-			["DetailWindowY"] = -284.9999360579311,
 			["Font"] = "PT Sans Narrow",
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["GraphWindowX"] = 77.00001374583513,
-			["Locked"] = true,
 			["ClampToScreen"] = true,
 			["CurDataSet"] = "LastFightData",
-			["FrameStrata"] = "2-LOW",
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -148,6 +148,11 @@ RecountDB = {
 					["h"] = 215.9999994529021,
 				},
 			},
+			["DetailWindowX"] = 0,
+			["BarTextColorSwap"] = false,
+			["BarTexture"] = "Armory",
+			["FrameStrata"] = "2-LOW",
+			["LastInstanceName"] = "Halls of Stone",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -160,15 +165,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["LastInstanceName"] = "Halls of Stone",
-			["BarTexture"] = "Armory",
-			["CurDataSet"] = "LastFightData",
 			["Font"] = "PT Sans Narrow",
-			["BarTextColorSwap"] = false,
-			["FrameStrata"] = "2-LOW",
+			["CurDataSet"] = "LastFightData",
+			["GraphWindowX"] = 0,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,

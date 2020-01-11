@@ -24,132 +24,6 @@ ElvCharacterDB = {
 	},
 	["ChatHistoryLog"] = {
 		{
-			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
-			"Like", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			736, -- [11]
-			"0x0700000000140A13", -- [12]
-			0, -- [13]
-			[51] = 1578588711,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddLike|r",
-		}, -- [1]
-		{
-			"far Falhedring Wos", -- [1]
-			"Nightbanes", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			738, -- [11]
-			"0x07000000004FA345", -- [12]
-			0, -- [13]
-			[51] = 1578588712,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaNightbanes|r",
-		}, -- [2]
-		{
-			"WHERE TO LEARN TO FLY ??? ", -- [1]
-			"Konq", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			740, -- [11]
-			"0x070000000018EC12", -- [12]
-			0, -- [13]
-			[51] = 1578588714,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefKonq|r",
-		}, -- [3]
-		{
-			"WTS PVE Mage named Irene 4975 Achievement Points, 55 mounts( Invincible, Ulduar/ICC glory, Zulian Tiger, Amani Bear, Raven Lord etc)- 450 Engi+Tailoring. PM if you are interested", -- [1]
-			"Astaloth", -- [2]
-			"Orcish", -- [3]
-			"5. Global", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			5, -- [8]
-			"global", -- [9]
-			0, -- [10]
-			744, -- [11]
-			"0x07000000004293BA", -- [12]
-			0, -- [13]
-			[51] = 1578588715,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aAstaloth|r",
-		}, -- [4]
-		{
-			"WTS BiS troll HUNTER (head-polarm-hand-chest-shoulder-crossbow-trinket-wrist-finger)=BiS/ via warmane trade /4000 ach (full ICC HC ach-LOD and bane and RS ach) / rare mounts / (Eng,JW,cooking=450) wis me for more info ", -- [1]
-			"Silverpearl", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			747, -- [11]
-			"0x070000000046161C", -- [12]
-			0, -- [13]
-			[51] = 1578588717,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aSilverpearl|r",
-		}, -- [5]
-		{
-			"BOR EWIDDAN LU goth E uden ruftos vohl E U FAR E NE Y VE THOR EALDOR Ruftos Ras Vandarwos Majis SE danieb ", -- [1]
-			"Xbowman", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			754, -- [11]
-			"0x07000000002C0F20", -- [12]
-			0, -- [13]
-			[51] = 1578588719,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffaad372Xbowman|r",
-		}, -- [6]
-		{
-			" 1DPS ICC10N/H - 5.8 gs last SPOT!", -- [1]
-			"Edusio", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			755, -- [11]
-			"0x07000000004D790B", -- [12]
-			0, -- [13]
-			[51] = 1578588719,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffff7c0aEdusio|r",
-		}, -- [7]
-		{
 			"ICC 10 EOF RUN 8/10 need fwarr and warlock b+p+VWS res", -- [1]
 			"Awesomer", -- [2]
 			"Orcish", -- [3]
@@ -166,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1578588719,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddAwesomer|r",
-		}, -- [8]
+		}, -- [1]
 		{
 			"<K H A L I L> Looking for Skilled Hpala+Spriest+Hunter for our Progress: ICC10HC >12/12+ ICC25HC 11/12 @LK+RS25N 4/4. Raiding on Saturday 4PM ST. Monday is the second group 4 pm st", -- [1]
 			"Bombakbar", -- [2]
@@ -184,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1578588720,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefBombakbar|r",
-		}, -- [9]
+		}, -- [2]
 		{
 			"LFM ICC 10 rep farm, need 1 DPS, 2 Heal 1 Tank /w GS. (BoE Res)", -- [1]
 			"Krigarmannen", -- [2]
@@ -202,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1578588721,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dKrigarmannen|r",
-		}, -- [10]
+		}, -- [3]
 		{
 			" 1DPS ICC10N/H - 5.8 gs last SPOT!", -- [1]
 			"Edusio", -- [2]
@@ -220,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1578588721,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aEdusio|r",
-		}, -- [11]
+		}, -- [4]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -238,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1578588721,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [12]
+		}, -- [5]
 		{
 			"wts hunt 6,1k gs with proffs for low price, i will go back coins to buyer", -- [1]
 			"Ursmuertos", -- [2]
@@ -256,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1578588722,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dUrsmuertos|r",
-		}, -- [13]
+		}, -- [6]
 		{
 			"LF HEAL AND DPS FOR FOS POS HC 6K RPALA BOOSTING", -- [1]
 			"Crnaaglava", -- [2]
@@ -274,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1578588724,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCrnaaglava|r",
-		}, -- [14]
+		}, -- [7]
 		{
 			" gildia >> †††Apocalypse Riders†††<< Rozpoczyna rekrutację. Poszukujemy aktywnych graczy do wspólnej zabawy oraz raidowania ToC, Uldu , ICC, przyjmujemy równiez osoby lvlujace wiecej info /w", -- [1]
 			"Orukk", -- [2]
@@ -292,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1578588726,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aOrukk|r",
-		}, -- [15]
+		}, -- [8]
 		{
 			"Guilde iranie > Select < Niaz be memberhye Active Darad /w me (Main char+6.2 & link Best achieve) Raid 17:00 server |cffffff00|Hachievement:4584:0700000000452A18:1:11:2:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Metailica", -- [2]
@@ -310,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1578588726,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Metailica|r",
-		}, -- [16]
+		}, -- [9]
 		{
 			"lu ti goth Dana Cynegold Algos dana noth ", -- [1]
 			"Bloubul", -- [2]
@@ -328,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1578588727,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaBloubul|r",
-		}, -- [17]
+		}, -- [10]
 		{
 			"Irani ha {100k GOld + tedadi coin Barye Forosh Kesi khast WIsper me ", -- [1]
 			"Lightofshawn", -- [2]
@@ -346,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1578588728,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaLightofshawn|r",
-		}, -- [18]
+		}, -- [11]
 		{
 			"Free dps rogue 6,1k gs wf, search partener 2v2 to farm rating w/me class and gs", -- [1]
 			"Teroxx", -- [2]
@@ -364,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1578588729,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Teroxx|r",
-		}, -- [19]
+		}, -- [12]
 		{
 			"BOR EWIDDAN LU goth E uden ruftos vohl E U FAR E NE Y VE THOR EALDOR Ruftos Ras Vandarwos Majis SE danieb ", -- [1]
 			"Xbowman", -- [2]
@@ -382,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1578588729,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Xbowman|r",
-		}, -- [20]
+		}, -- [13]
 		{
 			"Rs 25 Nm Need all +6k NOthing REs Link achive For Inv Inspect @memo |cffffff00|Hachievement:4815:07000000003BFE4C:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
 			"Highdk", -- [2]
@@ -400,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1578588729,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHighdk|r",
-		}, -- [21]
+		}, -- [14]
 		{
 			"wtb calli", -- [1]
 			"Bidoa", -- [2]
@@ -418,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1578588729,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaBidoa|r",
-		}, -- [22]
+		}, -- [15]
 		{
 			"LFM Need 1 Tank(NOt Pala) for icc 10nm 5.6GS |cffffff00|Hachievement:4583:070000000041B71E:1:9:5:19:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|r", -- [1]
 			"Hurricaneqtx", -- [2]
@@ -436,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1578588731,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHurricaneqtx|r",
-		}, -- [23]
+		}, -- [16]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -454,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1578588731,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [24]
+		}, -- [17]
 		{
 			"ICC 10 5.8GS NEED 1 DPS ACHI INSPECT AT MEMO", -- [1]
 			"Muttah", -- [2]
@@ -472,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1578588732,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMuttah|r",
-		}, -- [25]
+		}, -- [18]
 		{
 			"Favourite Nightmare Looking for exceptional players with lod and geared alts. Farming all content since 2014 (multiple LODS ,RS, TogC, etc). Raid time 18.45st apply at http://favnightmare.shivtr.com", -- [1]
 			"Anonyymous", -- [2]
@@ -490,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1578588733,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAnonyymous|r",
-		}, -- [26]
+		}, -- [19]
 		{
 			"Rs 25 Nm Need all +6k NOthing REs Link achive For Inv Inspect @memo |cffffff00|Hachievement:4815:07000000003BFE4C:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
 			"Highdk", -- [2]
@@ -508,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1578588734,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aHighdk|r",
-		}, -- [27]
+		}, -- [20]
 		{
 			"ICC 10 5.8GS NEED 1 DPS ACHI INSPECT AT MEMO", -- [1]
 			"Muttah", -- [2]
@@ -526,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1578588735,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dMuttah|r",
-		}, -- [28]
+		}, -- [21]
 		{
 			"LFM ICC rep need 1 tank 2 healers and some dps BOEs r reserved", -- [1]
 			"Benyattor", -- [2]
@@ -544,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1578588735,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Benyattor|r",
-		}, -- [29]
+		}, -- [22]
 		{
 			"far Falhedring Wos", -- [1]
 			"Nightbanes", -- [2]
@@ -562,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1578588735,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaNightbanes|r",
-		}, -- [30]
+		}, -- [23]
 		{
 			"NEED ROGUE / LOCK and HEALER / tank RS 25 6K+ ACHI FOR INV! |cffffff00|Hachievement:4815:070000000012E309:1:12:20:19:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
 			"Hubog", -- [2]
@@ -580,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1578588736,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaHubog|r",
-		}, -- [31]
+		}, -- [24]
 		{
 			"LF 1x Heal TOC 25n , +5kGS , Achive Required /w me your Spec + GS + Achive(BOE Res) |cffffff00|Hachievement:3916:070000000035E4BD:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Verstrasz", -- [2]
@@ -598,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1578588736,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddVerstrasz|r",
-		}, -- [32]
+		}, -- [25]
 		{
 			"<Wandering Exiles> is new raiding guild looking for new members for our core to progress on raids.Prefer people with knowledge of atleast ICC/RS Normal. people willing to learn are also welcome. We'll also accept Social/PVP Players, /w for info!", -- [1]
 			"Tooxxic", -- [2]
@@ -616,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1578588736,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaTooxxic|r",
-		}, -- [33]
+		}, -- [26]
 		{
 			"Arabians Is recruiting Arab players, We are going to be a family here, no GS is required to join, We do ICC10/25, ToC10/25 Runs every week. Social Arab players are also welcome to join.", -- [1]
 			"Blocked", -- [2]
@@ -634,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1578588738,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aBlocked|r",
-		}, -- [34]
+		}, -- [27]
 		{
 			"Favourite Nightmare Looking for exceptional players with lod and geared alts. Farming all content since 2014 (multiple LODS ,RS, TogC, etc). Raid time 18.45st apply at http://favnightmare.shivtr.com/", -- [1]
 			"Elvenmessiah", -- [2]
@@ -652,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1578588738,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaElvenmessiah|r",
-		}, -- [35]
+		}, -- [28]
 		{
 			"LF HEAL AND DPS FOR FOS POS HC 6K RPALA BOOSTING", -- [1]
 			"Crnaaglava", -- [2]
@@ -670,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1578588738,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCrnaaglava|r",
-		}, -- [36]
+		}, -- [29]
 		{
 			"ICC 10 REP farm GROUP LOOT NEED HEAL or DPS", -- [1]
 			"Dropawp", -- [2]
@@ -688,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1578588738,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDropawp|r",
-		}, -- [37]
+		}, -- [30]
 		{
 			"BOR EWIDDAN LU goth E uden ruftos vohl E U FAR E NE Y VE THOR EALDOR Ruftos Ras Vandarwos Majis SE danieb ", -- [1]
 			"Xbowman", -- [2]
@@ -706,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1578588739,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Xbowman|r",
-		}, -- [38]
+		}, -- [31]
 		{
 			"WTB FROZEN ORB / 90g , DAMAGED NECKLACE 150/g, CARDINAL RUBY 300/g ETERNAL FIRE 80/g SEND ME IN COD!!!!", -- [1]
 			"Szuzy", -- [2]
@@ -724,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1578588739,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Szuzy|r",
-		}, -- [39]
+		}, -- [32]
 		{
 			"WTS BiS troll HUNTER (head-polarm-hand-chest-shoulder-crossbow-trinket-wrist-finger)=BiS/ via warmane trade /4000 ach (full ICC HC ach-LOD and bane and RS ach) / rare mounts / (Eng,JW,cooking=450) wis me for more info ", -- [1]
 			"Silverpearl", -- [2]
@@ -742,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1578588740,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aSilverpearl|r",
-		}, -- [40]
+		}, -- [33]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -760,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1578588741,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [41]
+		}, -- [34]
 		{
 			"LFM 1 TANK ICC10 + MIN GS 5.8 #FRESH RAID #DISCORD /W ME INV/ACHI", -- [1]
 			"Summas", -- [2]
@@ -778,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1578588743,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaSummas|r",
-		}, -- [42]
+		}, -- [35]
 		{
 			"LF ENCH", -- [1]
 			"Blindscoop", -- [2]
@@ -796,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1578588744,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaBlindscoop|r",
-		}, -- [43]
+		}, -- [36]
 		{
 			"***WTS HUMAN Paladin (Lowest Price DEAL!) with 5000 ACHIV POINTS, DEADLY GLADIATORS FROST WYRM AND MANY MORE MOUNTS, FULL WRATHFULL DPS GEAR, GLOREN HC AND DEATH CHOICE HEROIC.SOME BOES.YOU CHOOSE ITEMS. ENCHANTING/MINING MAXED.*** /W", -- [1]
 			"Gergeton", -- [2]
@@ -814,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1578588744,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dGergeton|r",
-		}, -- [44]
+		}, -- [37]
 		{
 			"NEED ALL FOR ONYX10 5K+ NEED TANK+MDPS", -- [1]
 			"Majinbuu", -- [2]
@@ -832,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1578588746,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMajinbuu|r",
-		}, -- [45]
+		}, -- [38]
 		{
 			"NEED ALL FOR ONYX10 5K+ NEED TANK+MDPS", -- [1]
 			"Majinbuu", -- [2]
@@ -850,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1578588746,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMajinbuu|r",
-		}, -- [46]
+		}, -- [39]
 		{
 			"WTS |cffffd000|Htrade:51296:450:450:7000000004EDF70:GAAEGFBBEwBDDoAQAAu/9DBYkBACUKA|h[Cooking]|h|r", -- [1]
 			"Skeletoncrew", -- [2]
@@ -868,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1578588747,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aSkeletoncrew|r",
-		}, -- [47]
+		}, -- [40]
 		{
 			"VIL SE mod Engoth goth nud borne far ve E E bur vrum uden NE Dana va ras Lithtos SE danieb ", -- [1]
 			"Reload", -- [2]
@@ -886,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1578588748,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefReload|r",
-		}, -- [48]
+		}, -- [41]
 		{
 			"BOR EWIDDAN LU goth E uden ruftos vohl E U FAR E NE Y VE THOR EALDOR Ruftos Ras Vandarwos Majis SE danieb ", -- [1]
 			"Xbowman", -- [2]
@@ -904,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1578588749,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Xbowman|r",
-		}, -- [49]
+		}, -- [42]
 		{
 			"far Falhedring Wos", -- [1]
 			"Nightbanes", -- [2]
@@ -922,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1578588751,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaNightbanes|r",
-		}, -- [50]
+		}, -- [43]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -940,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1578588751,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [51]
+		}, -- [44]
 		{
 			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 50g/piece |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 20g/piece!! SEND ME IN C.O.D!!!", -- [1]
 			"Darkthron", -- [2]
@@ -958,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1578588754,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aDarkthron|r",
-		}, -- [52]
+		}, -- [45]
 		{
 			"LF ALL! |cffffff00|Hquest:24583:80|h[Patchwerk Must Die!]|h|r", -- [1]
 			"Holyfocus", -- [2]
@@ -976,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1578588754,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffHolyfocus|r",
-		}, -- [53]
+		}, -- [46]
 		{
 			"LF 1x Heal TOC 25n , +5kGS , Achive Required /w me your Spec + GS + Achive(BOE Res) |cffffff00|Hachievement:3916:070000000035E4BD:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Verstrasz", -- [2]
@@ -994,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1578588755,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddVerstrasz|r",
-		}, -- [54]
+		}, -- [47]
 		{
 			"LFM ulduar 10 Ferya Run Need All", -- [1]
 			"Mojordomo", -- [2]
@@ -1012,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1578588756,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMojordomo|r",
-		}, -- [55]
+		}, -- [48]
 		{
 			"wts mage 5.5 with <big love rocket mount> name fullofmagic for only 30 coins!chek warmane trade system", -- [1]
 			"Rogfromhell", -- [2]
@@ -1030,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1578588757,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Rogfromhell|r",
-		}, -- [56]
+		}, -- [49]
 		{
 			"End Game Guild < Demonic Empire > Recruiting Tank / Healer / Demo Lock / Hunter With +6.3.We Do 5-6 LOD & 2-3 RS 25 HC & Ulduar Full Achiv Run & Togc Per Week For Now.Raid Time 19:00 ST.Apply @ https://demonic-empire.shivtr.com", -- [1]
 			"Admin", -- [2]
@@ -1048,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1578588757,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAdmin|r",
-		}, -- [57]
+		}, -- [50]
 		{
 			"BOR EWIDDAN LU goth E uden ruftos vohl E U FAR E NE Y VE THOR EALDOR Ruftos Ras Vandarwos Majis SE danieb ", -- [1]
 			"Xbowman", -- [2]
@@ -1066,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1578588759,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Xbowman|r",
-		}, -- [58]
+		}, -- [51]
 		{
 			"<Wandering Exiles> is new raiding guild looking for new members for our core to progress on raids.Prefer people with knowledge of atleast ICC/RS Normal. people willing to learn are also welcome. We'll also accept Social/PVP Players, /w me for mo", -- [1]
 			"Maniakkii", -- [2]
@@ -1084,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1578588759,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dManiakkii|r",
-		}, -- [59]
+		}, -- [52]
 		{
 			"LFM TOC 25NM (B+O RESS) NEED 1 dpsL 5.4+ LINK ACHI [ [Call of the Crusade (25 player)]", -- [1]
 			"Deidaramao", -- [2]
@@ -1102,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1578588761,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aDeidaramao|r",
-		}, -- [60]
+		}, -- [53]
 		{
 			"bor vil SE ko lu Y GOth goth vohl andovis E E e u vrum SE SE ", -- [1]
 			"Coolguynotwo", -- [2]
@@ -1120,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1578588761,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddCoolguynotwo|r",
-		}, -- [61]
+		}, -- [54]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -1138,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1578588761,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [62]
+		}, -- [55]
 		{
 			"LF x1 Heal TOC 25n , +5kGS , Achive Required /w me your Spec + GS + Achive(BOE Res) |cffffff00|Hachievement:3916:070000000035E4BD:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Verstrasz", -- [2]
@@ -1156,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1578588761,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddVerstrasz|r",
-		}, -- [63]
+		}, -- [56]
 		{
 			"LFM ICC 10 rep farm, need 1 DPS, 2 Heal 1 Tank /w GS. (BoE Res)", -- [1]
 			"Krigarmannen", -- [2]
@@ -1174,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1578588766,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dKrigarmannen|r",
-		}, -- [64]
+		}, -- [57]
 		{
 			"Rs 25 Nm Need all +6k NOthing REs Link achive For Inv Inspect @memo |cffffff00|Hachievement:4815:07000000003BFE4C:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
 			"Highdk", -- [2]
@@ -1192,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1578588769,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHighdk|r",
-		}, -- [65]
+		}, -- [58]
 		{
 			"BOR EWIDDAN LU goth E uden ruftos vohl E U FAR E NE Y VE THOR EALDOR Ruftos Ras Vandarwos Majis SE danieb ", -- [1]
 			"Xbowman", -- [2]
@@ -1210,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1578588769,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Xbowman|r",
-		}, -- [66]
+		}, -- [59]
 		{
 			"LFM UldUaR 10 Ferya Run NeeD Dps And Healer ", -- [1]
 			"Hcfarmer", -- [2]
@@ -1228,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1578588770,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aHcfarmer|r",
-		}, -- [67]
+		}, -- [60]
 		{
 			"WTS at lowest price Druid (Feral-dps) 6 bis PvE items,Amani War Bear,Deadly Gladiator's Frost Wyrm, different types of equipment)Fast Riding 310, Herb\\Mining. Name \"Nanie\" VIA TRADE WARMANE ONLY /w me for more info", -- [1]
 			"Freakme", -- [2]
@@ -1246,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1578588771,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Freakme|r",
-		}, -- [68]
+		}, -- [61]
 		{
 			" gildia >> †††Apocalypse Riders†††<< Rozpoczyna rekrutację. Poszukujemy aktywnych graczy do wspólnej zabawy oraz raidowania ToC, Uldu , ICC, przyjmujemy równiez osoby lvlujace wiecej info /w", -- [1]
 			"Orukk", -- [2]
@@ -1264,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1578588771,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aOrukk|r",
-		}, -- [69]
+		}, -- [62]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -1282,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1578588771,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [70]
+		}, -- [63]
 		{
 			"Arabians Is recruiting Arab players, We are going to be a family here, no GS is required to join, We do ICC10/25, ToC10/25 Runs every week. Social Arab players are also welcome to join", -- [1]
 			"Healjobx", -- [2]
@@ -1300,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1578588772,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddHealjobx|r",
-		}, -- [71]
+		}, -- [64]
 		{
 			"WTS BiS troll HUNTER (head-polarm-hand-chest-shoulder-crossbow-trinket-wrist-finger)=BiS/ via warmane trade /4000 ach (full ICC HC ach-LOD and bane and RS ach) / rare mounts / (Eng,JW,cooking=450) wis me for more info ", -- [1]
 			"Silverpearl", -- [2]
@@ -1318,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1578588773,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aSilverpearl|r",
-		}, -- [72]
+		}, -- [65]
 		{
 			"WHERE TO LEARN TO FLY ??? ", -- [1]
 			"Konq", -- [2]
@@ -1336,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1578588773,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefKonq|r",
-		}, -- [73]
+		}, -- [66]
 		{
 			"Guilde iranie > Select < Niaz be memberhye Active Darad /w me (Main char+6.2 & link Best achieve) Raid 17:00 server |cffffff00|Hachievement:4584:0700000000452A18:1:11:2:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Metailica", -- [2]
@@ -1354,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1578588773,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Metailica|r",
-		}, -- [74]
+		}, -- [67]
 		{
 			"LFM UldUaR 10 Ferya Run NeeD Dps And Healer ", -- [1]
 			"Hcfarmer", -- [2]
@@ -1372,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1578588774,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aHcfarmer|r",
-		}, -- [75]
+		}, -- [68]
 		{
 			"LF ICC 25 nm need disc 5.8+ |cffffff00|Hachievement:4584:0700000000002CA1:1:12:28:15:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r (Boe + Primo + SFS ress!)", -- [1]
 			"Durability", -- [2]
@@ -1390,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1578588775,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aDurability|r",
-		}, -- [76]
+		}, -- [69]
 		{
 			"LFM ulduar 10 Ferya Run Need All", -- [1]
 			"Mojordomo", -- [2]
@@ -1408,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1578588777,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMojordomo|r",
-		}, -- [77]
+		}, -- [70]
 		{
 			"BOR EWIDDAN LU goth E uden ruftos vohl E U FAR E NE Y VE THOR EALDOR Ruftos Ras Vandarwos Majis SE danieb ", -- [1]
 			"Xbowman", -- [2]
@@ -1426,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1578588779,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Xbowman|r",
-		}, -- [78]
+		}, -- [71]
 		{
 			"<K H A L I L> Looking for Skilled Hpala+Spriest+Hunter for our Progress: ICC10HC >12/12+ ICC25HC 11/12 @LK+RS25N 4/4. Raiding on Saturday 4PM ST. Monday is the second group 4 pm st", -- [1]
 			"Bombakbar", -- [2]
@@ -1444,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1578588780,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefBombakbar|r",
-		}, -- [79]
+		}, -- [72]
 		{
 			"NEED ALL FOR ONYX10 5K+ NEED TANK+MDPS", -- [1]
 			"Majinbuu", -- [2]
@@ -1462,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1578588780,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMajinbuu|r",
-		}, -- [80]
+		}, -- [73]
 		{
 			"LFM TOC 25NM (B+O RESS) NEED 1 dps 5.4+ LINK ACHI [ [Call of the Crusade (25 player)]", -- [1]
 			"Deidaramao", -- [2]
@@ -1480,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1578588781,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDeidaramao|r",
-		}, -- [81]
+		}, -- [74]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -1498,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1578588781,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [82]
+		}, -- [75]
 		{
 			"LFM UldUaR 10 Ferya Run NeeD Dps And Healer ", -- [1]
 			"Hcfarmer", -- [2]
@@ -1516,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1578588782,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aHcfarmer|r",
-		}, -- [83]
+		}, -- [76]
 		{
 			"LFM UldUaR 10 Ferya Run NeeD Dps And Healer ", -- [1]
 			"Hcfarmer", -- [2]
@@ -1534,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1578588785,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aHcfarmer|r",
-		}, -- [84]
+		}, -- [77]
 		{
 			">>>LFM ulduar 10 Ferya Run Need All<<<>>>LFM ulduar 10 Ferya Run Need All<<<>>>LFM ulduar 10 Ferya Run Need All<<<>>>LFM ulduar 10 Ferya Run Need All<<<>>>LFM ulduar 10 Ferya Run Need All<<<>>>LFM ulduar 10 Ferya Run Need All<<<>>>LFM ulduar 10 Ferya Run ", -- [1]
 			"Mojordomo", -- [2]
@@ -1552,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1578588787,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMojordomo|r",
-		}, -- [85]
+		}, -- [78]
 		{
 			"WTS PVE Mage named Irene 4975 Achievement Points, 55 mounts( Invincible, Ulduar/ICC glory, Zulian Tiger, Amani Bear, Raven Lord etc)- 450 Engi+Tailoring. PM if you are interested", -- [1]
 			"Astaloth", -- [2]
@@ -1570,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1578588788,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aAstaloth|r",
-		}, -- [86]
+		}, -- [79]
 		{
 			"ToC 5 m need heal/tank", -- [1]
 			"Pudlich", -- [2]
@@ -1588,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1578588788,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aPudlich|r",
-		}, -- [87]
+		}, -- [80]
 		{
 			"LFM ICC 10N(eof farm)1TANk 2 DPS /w gs and spec 5,7gs (B + P + WSF res) ", -- [1]
 			"Retrigirl", -- [2]
@@ -1606,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1578588790,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaRetrigirl|r",
-		}, -- [88]
+		}, -- [81]
 		{
 			"***WTS HUMAN Paladin (Lowest Price DEAL!) with 5000 ACHIV POINTS, DEADLY GLADIATORS FROST WYRM AND MANY MORE MOUNTS, FULL WRATHFULL DPS GEAR, GLOREN HC AND DEATH CHOICE HEROIC.SOME BOES.YOU CHOOSE ITEMS. ENCHANTING/MINING MAXED.*** /W", -- [1]
 			"Gergeton", -- [2]
@@ -1624,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1578588790,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dGergeton|r",
-		}, -- [89]
+		}, -- [82]
 		{
 			"LFM TOC 25NM (B+O RESS) NEED 1 dps 5.4+ LINK ACHI [ [Call of the crosade", -- [1]
 			"Deidaramao", -- [2]
@@ -1642,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1578588791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aDeidaramao|r",
-		}, -- [90]
+		}, -- [83]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -1660,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1578588791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [91]
+		}, -- [84]
 		{
 			"WTS PVE Mage named Irene 4975 Achievement Points, 55 mounts( Invincible, Ulduar/ICC glory, Zulian Tiger, Amani Bear, Raven Lord etc)- 450 Engi+Tailoring. PM if you are interested", -- [1]
 			"Astaloth", -- [2]
@@ -1678,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1578588792,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aAstaloth|r",
-		}, -- [92]
+		}, -- [85]
 		{
 			"Rs 25 Nm Need all +6k NOthing REs Link achive For Inv Inspect @memo |cffffff00|Hachievement:4815:07000000003BFE4C:1:7:12:19:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
 			"Highdk", -- [2]
@@ -1696,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1578588792,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHighdk|r",
-		}, -- [93]
+		}, -- [86]
 		{
 			"ANY ITALIAN GUILD?", -- [1]
 			"Tencuro", -- [2]
@@ -1714,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1578588794,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaTencuro|r",
-		}, -- [94]
+		}, -- [87]
 		{
 			"ICC 10 EOF RUN need 1 tank 2 dps b + p + wfs res", -- [1]
 			"Awesomer", -- [2]
@@ -1732,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1578588794,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddAwesomer|r",
-		}, -- [95]
+		}, -- [88]
 		{
 			"LFM TOC 25NM (B+O RESS) NEED 1 dps 5.4+ LINK ACHI [ [Call of the crosade", -- [1]
 			"Deidaramao", -- [2]
@@ -1750,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1578588794,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aDeidaramao|r",
-		}, -- [96]
+		}, -- [89]
 		{
 			"WTB FROZEN ORB / 90g , DAMAGED NECKLACE 150/g, CARDINAL RUBY 300/g ETERNAL FIRE 80/g SEND ME IN COD!!!!", -- [1]
 			"Szuzy", -- [2]
@@ -1768,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1578588794,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Szuzy|r",
-		}, -- [97]
+		}, -- [90]
 		{
 			"Favourite Nightmare Looking for exceptional players with lod and geared alts. Farming all content since 2014 (multiple LODS ,RS, TogC, etc). Raid time 18.45st apply at http://favnightmare.shivtr.com", -- [1]
 			"Anonyymous", -- [2]
@@ -1786,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1578588796,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAnonyymous|r",
-		}, -- [98]
+		}, -- [91]
 		{
 			"<Wandering Exiles> is new raiding guild looking for new members for our core to progress on raids.Prefer people with knowledge of atleast ICC/RS Normal. people willing to learn are also welcome. We'll also accept Social/PVP Players, /w for info!", -- [1]
 			"Tooxxic", -- [2]
@@ -1804,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1578588796,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaTooxxic|r",
-		}, -- [99]
+		}, -- [92]
 		{
 			"wtb paladin glyphes ", -- [1]
 			"Bidoa", -- [2]
@@ -1822,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1578588797,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaBidoa|r",
-		}, -- [100]
+		}, -- [93]
 		{
 			"bor vil SE ko lu Y GOth goth vohl andovis E E e u vrum SE SE ", -- [1]
 			"Coolguynotwo", -- [2]
@@ -1840,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1578588798,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddCoolguynotwo|r",
-		}, -- [101]
+		}, -- [94]
 		{
 			"LF x1Rdudu TOC 25n , +5kGS , Achive Required /w me your Spec + GS + Achive(BOE Res) |cffffff00|Hachievement:3916:070000000035E4BD:1:8:26:18:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Verstrasz", -- [2]
@@ -1858,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1578588798,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddVerstrasz|r",
-		}, -- [102]
+		}, -- [95]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -1876,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1578588801,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [103]
+		}, -- [96]
 		{
 			"Arabians Is recruiting Arab players, We are going to be a family here, no GS is required to join, We do ICC10/25, ToC10/25 Runs every week. Social Arab players are also welcome to join.", -- [1]
 			"Blocked", -- [2]
@@ -1894,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1578588803,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aBlocked|r",
-		}, -- [104]
+		}, -- [97]
 		{
 			"wts mage 5.5 with <big love rocket mount> name fullofmagic for only 30 coins!chek warmane trade system", -- [1]
 			"Rogfromhell", -- [2]
@@ -1912,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1578588803,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Rogfromhell|r",
-		}, -- [105]
+		}, -- [98]
 		{
 			"VIL SE mod Engoth goth nud borne far ve E E bur vrum uden NE Dana va ras Lithtos SE danieb ", -- [1]
 			"Reload", -- [2]
@@ -1930,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1578588803,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefReload|r",
-		}, -- [106]
+		}, -- [99]
 		{
 			"LFM UldUaR 10 Ferya Run NeeD Dps And Healer ", -- [1]
 			"Hcfarmer", -- [2]
@@ -1948,7 +1822,7 @@ ElvCharacterDB = {
 			[51] = 1578588803,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aHcfarmer|r",
-		}, -- [107]
+		}, -- [100]
 		{
 			"Guild Shades is recruiting! LF active and dedicated players for our main runs. We have 12/12 10hc,11/12 25hc. Doing 4xICC25 and 3xRS25 per week. Fri, Sat, Sun, Mon. Raid Time at 18 ST. Apply at https://shades-icecrown.shivtr.com/", -- [1]
 			"Pluisterman", -- [2]
@@ -1966,7 +1840,7 @@ ElvCharacterDB = {
 			[51] = 1578588803,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffPluisterman|r",
-		}, -- [108]
+		}, -- [101]
 		{
 			"End Game Guild < Demonic Empire > Recruiting Tank / Healer / Demo Lock / Hunter With +6.3.We Do 5-6 LOD & 2-3 RS 25 HC & Ulduar Full Achiv Run & Togc Per Week For Now.Raid Time 19:00 ST.Apply @ https://demonic-empire.shivtr.com", -- [1]
 			"Admin", -- [2]
@@ -1984,7 +1858,7 @@ ElvCharacterDB = {
 			[51] = 1578588805,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAdmin|r",
-		}, -- [109]
+		}, -- [102]
 		{
 			"LF HEAL FOR FOS POS HC 6K RPALA BOOST", -- [1]
 			"Crnaaglava", -- [2]
@@ -2002,7 +1876,7 @@ ElvCharacterDB = {
 			[51] = 1578588808,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaCrnaaglava|r",
-		}, -- [110]
+		}, -- [103]
 		{
 			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 50g/piece |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 20g/piece!! SEND ME IN C.O.D!!!", -- [1]
 			"Darkthron", -- [2]
@@ -2020,7 +1894,7 @@ ElvCharacterDB = {
 			[51] = 1578588809,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aDarkthron|r",
-		}, -- [111]
+		}, -- [104]
 		{
 			"WTS via Warmane Trade system BE Priest named iessea LoD,Bane,RS achieves, Invincible, some Discipline gear on it, 4/5 hc t10, trinkets,offhand and few more.Can remove items to lower the price. Can also swap faction/name.", -- [1]
 			"Tany", -- [2]
@@ -2038,7 +1912,7 @@ ElvCharacterDB = {
 			[51] = 1578588809,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaTany|r",
-		}, -- [112]
+		}, -- [105]
 		{
 			"ICC 10 REP farm GROUP LOOT NEED 1 DPS", -- [1]
 			"Dropawp", -- [2]
@@ -2056,7 +1930,7 @@ ElvCharacterDB = {
 			[51] = 1578588811,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaDropawp|r",
-		}, -- [113]
+		}, -- [106]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -2074,7 +1948,7 @@ ElvCharacterDB = {
 			[51] = 1578588811,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
-		}, -- [114]
+		}, -- [107]
 		{
 			"LFM UldUaR 10 Ferya Run NeeD Dps And Healer ", -- [1]
 			"Hcfarmer", -- [2]
@@ -2092,7 +1966,7 @@ ElvCharacterDB = {
 			[51] = 1578588813,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffff7c0aHcfarmer|r",
-		}, -- [115]
+		}, -- [108]
 		{
 			"NEED ALL FOR [Sartharion Must Die!] SATCHEL RESS!!!", -- [1]
 			"Pisankaa", -- [2]
@@ -2110,7 +1984,7 @@ ElvCharacterDB = {
 			[51] = 1578588813,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Pisankaa|r",
-		}, -- [116]
+		}, -- [109]
 		{
 			"NEED ALL FOR [Sartharion Must Die!] SATCHEL RESS!!!", -- [1]
 			"Pisankaa", -- [2]
@@ -2128,7 +2002,7 @@ ElvCharacterDB = {
 			[51] = 1578588815,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Pisankaa|r",
-		}, -- [117]
+		}, -- [110]
 		{
 			"LF ENCH ENCH ENCH <<<<< plez", -- [1]
 			"Blindscoop", -- [2]
@@ -2146,7 +2020,7 @@ ElvCharacterDB = {
 			[51] = 1578588815,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaBlindscoop|r",
-		}, -- [118]
+		}, -- [111]
 		{
 			"LFM Need 1 Tank and 1 Rshammy for icc 10nm 5.6GS |cffffff00|Hachievement:4583:070000000041B71E:1:9:5:19:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|r", -- [1]
 			"Hurricaneqtx", -- [2]
@@ -2164,7 +2038,7 @@ ElvCharacterDB = {
 			[51] = 1578588818,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aHurricaneqtx|r",
-		}, -- [119]
+		}, -- [112]
 		{
 			"NEED ALL FOR [Sartharion Must Die!] SATCHEL RESS!!!", -- [1]
 			"Pisankaa", -- [2]
@@ -2182,7 +2056,7 @@ ElvCharacterDB = {
 			[51] = 1578588818,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Pisankaa|r",
-		}, -- [120]
+		}, -- [113]
 		{
 			"NEED ALL FOR ONYX10 5K+ NEED TANK+MDPS", -- [1]
 			"Majinbuu", -- [2]
@@ -2200,7 +2074,7 @@ ElvCharacterDB = {
 			[51] = 1578588819,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMajinbuu|r",
-		}, -- [121]
+		}, -- [114]
 		{
 			"NEED ALL FOR ONYX10 5K+ NEED TANK+MDPS", -- [1]
 			"Majinbuu", -- [2]
@@ -2218,7 +2092,7 @@ ElvCharacterDB = {
 			[51] = 1578588819,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aMajinbuu|r",
-		}, -- [122]
+		}, -- [115]
 		{
 			"Guilde iranie > Select < Niaz be memberhye Active Darad /w me (Main char+6.2 & link Best achieve) Raid 17:00 server |cffffff00|Hachievement:4584:0700000000452A18:1:11:2:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
 			"Metailica", -- [2]
@@ -2236,7 +2110,7 @@ ElvCharacterDB = {
 			[51] = 1578588820,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Metailica|r",
-		}, -- [123]
+		}, -- [116]
 		{
 			"BOR bor ash ko goth nud E Vohl far ", -- [1]
 			"Djbob", -- [2]
@@ -2254,7 +2128,7 @@ ElvCharacterDB = {
 			[51] = 1578588821,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff68ccefDjbob|r",
-		}, -- [124]
+		}, -- [117]
 		{
 			"LFM ICC 10 rep farm, need 1 DPS, 2 Heal 1 Tank /w GS. (BoE Res)", -- [1]
 			"Krigarmannen", -- [2]
@@ -2272,7 +2146,7 @@ ElvCharacterDB = {
 			[51] = 1578588821,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dKrigarmannen|r",
-		}, -- [125]
+		}, -- [118]
 		{
 			"Lfm for BT Xmog run need all [Cowl of Benevolence] re", -- [1]
 			"Starixx", -- [2]
@@ -2290,7 +2164,7 @@ ElvCharacterDB = {
 			[51] = 1578588821,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefStarixx|r",
-		}, -- [126]
+		}, -- [119]
 		{
 			"ICC 25 norm /b+p+sfs res/ Need 1 Rshamy or DISC |cffffff00|Hachievement:4584:0700000000140A13:1:12:1:16:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r LAST SPOT", -- [1]
 			"Like", -- [2]
@@ -2308,6 +2182,132 @@ ElvCharacterDB = {
 			[51] = 1578588821,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddLike|r",
+		}, -- [120]
+		{
+			"ICC 10 NM ALT run lf all 5.2 gs + link LK achiv from main |cffffff00|Hachievement:4584:07000000001B03EB:1:8:19:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r ", -- [1]
+			"Abcdfg", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			542, -- [11]
+			"0x07000000001B03EB", -- [12]
+			0, -- [13]
+			[51] = 1578756421,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dAbcdfg|r",
+		}, -- [121]
+		{
+			"<Wandering Exiles> is new raiding guild looking for new members for our core to progress on raids.Prefer people with knowledge of atleast ICC/RS Normal. people willing to learn are also welcome. We'll also accept Social/PVP Players, /w me for mo", -- [1]
+			"Hordakki", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			544, -- [11]
+			"0x070000000001555E", -- [12]
+			0, -- [13]
+			[51] = 1578756421,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aHordakki|r",
+		}, -- [122]
+		{
+			"WTB |cffa335ee|Hitem:50001:0:0:0:0:0:0:0:80|h[Ikfirus's Sack of Wonder]|h|r 7k", -- [1]
+			"Astrodelic", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			547, -- [11]
+			"0x07000000004FA84E", -- [12]
+			0, -- [13]
+			[51] = 1578756422,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aAstrodelic|r",
+		}, -- [123]
+		{
+			"NeeD 3xHeal,2xRet,Warr,Feral,2xMage for ICC25 full NORMAL (BoE/Primo/SFS res) 5.6k+ loot AFTER raid |cffffff00|Hachievement:4584:070000000000666D:1:5:15:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
+			"Xamiria", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			548, -- [11]
+			"0x070000000000666D", -- [12]
+			0, -- [13]
+			[51] = 1578756423,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaXamiria|r",
+		}, -- [124]
+		{
+			"ICC 10 NM ALT run lf all 5.2 gs + link LK achiv from main |cffffff00|Hachievement:4584:07000000001B03EB:1:8:19:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r ", -- [1]
+			"Abcdfg", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			552, -- [11]
+			"0x07000000001B03EB", -- [12]
+			0, -- [13]
+			[51] = 1578756424,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dAbcdfg|r",
+		}, -- [125]
+		{
+			"ICC 10 NM ALT run lf all 5.2 gs + link LK achiv from main |cffffff00|Hachievement:4584:07000000001B03EB:1:8:19:19:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r ", -- [1]
+			"Abcdfg", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			565, -- [11]
+			"0x07000000001B03EB", -- [12]
+			0, -- [13]
+			[51] = 1578756431,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dAbcdfg|r",
+		}, -- [126]
+		{
+			"LF |cffffd000|Henchant:70568|h[Blacksmithing: Boots of Kingly Upheaval]|h|r crafter, my mats will tip", -- [1]
+			"Periculoza", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			578, -- [11]
+			"0x07000000004666DA", -- [12]
+			0, -- [13]
+			[51] = 1578756438,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aPericuloza|r",
 		}, -- [127]
 	},
 }
