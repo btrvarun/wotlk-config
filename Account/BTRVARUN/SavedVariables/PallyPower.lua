@@ -735,7 +735,7 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Fishqs"] = {
+	["Royalscepte"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -891,7 +891,7 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Royalscepte"] = {
+	["Fishqs"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -1074,7 +1074,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Devotional"] = {
 	},
-	["Fishqs"] = {
+	["Royalscepte"] = {
 	},
 	["Kadreylx"] = {
 		[5] = {
@@ -1100,7 +1100,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Immutability"] = {
 	},
-	["Royalscepte"] = {
+	["Fishqs"] = {
 	},
 	["Misfitreborn"] = {
 	},
@@ -1166,7 +1166,7 @@ PallyPower_AuraAssignments = {
 	["Xuxiaoge"] = 0,
 	["Njenner"] = 0,
 	["Devotional"] = 0,
-	["Fishqs"] = 0,
+	["Royalscepte"] = 0,
 	["Kadreylx"] = 0,
 	["Lalpala"] = 0,
 	["Inffussion"] = 0,
@@ -1178,7 +1178,7 @@ PallyPower_AuraAssignments = {
 	["Darkkami"] = 0,
 	["Tsipras"] = 0,
 	["Immutability"] = 0,
-	["Royalscepte"] = 0,
+	["Fishqs"] = 0,
 	["Misfitreborn"] = 0,
 	["Junack"] = 0,
 	["Sosuke"] = 0,
