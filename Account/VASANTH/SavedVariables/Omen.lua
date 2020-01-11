@@ -12,7 +12,6 @@ Omen3DB = {
 		},
 		["Immutability - Icecrown"] = {
 			["PositionW"] = 247.999870337794,
-			["Shown"] = true,
 			["PositionH"] = 127.0000275600575,
 			["VGrip2"] = 141.1880943419172,
 			["PositionY"] = 372.0000768672572,
@@ -29,6 +28,7 @@ Omen3DB = {
 				["Font"] = "PT Sans Narrow",
 			},
 			["PositionX"] = 1570.000218428843,
+			["Shown"] = true,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["Texture"] = "Armory",
