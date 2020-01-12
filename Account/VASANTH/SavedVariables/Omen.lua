@@ -23,12 +23,12 @@ Omen3DB = {
 				["UseShowWith"] = false,
 			},
 			["VGrip1"] = 104.3564175570692,
+			["PositionX"] = 1570.000218428843,
+			["Shown"] = true,
 			["TitleBar"] = {
 				["ShowTitleBar"] = false,
 				["Font"] = "PT Sans Narrow",
 			},
-			["PositionX"] = 1570.000218428843,
-			["Shown"] = true,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["Texture"] = "Armory",
