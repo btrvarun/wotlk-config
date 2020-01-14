@@ -36,9 +36,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["Font"] = "PT Sans Narrow",
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = -51.99999370837397,
@@ -66,8 +66,8 @@ RecountDB = {
 					false, -- [8]
 				},
 			},
-			["GraphWindowX"] = 77.00001374583513,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["FrameStrata"] = "2-LOW",
+			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -79,11 +79,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -284.9999360579311,
+			["GraphWindowX"] = 77.00001374583513,
 			["Locked"] = true,
 			["ClampToScreen"] = true,
-			["Font"] = "PT Sans Narrow",
-			["FrameStrata"] = "2-LOW",
+			["DetailWindowY"] = -284.9999360579311,
+			["LastInstanceName"] = "Icecrown Citadel",
 		},
 		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -101,10 +101,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Ingrate - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -133,9 +133,9 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
-			["CurDataSet"] = "CurrentFightData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "CurrentFightData",
+			["Font"] = "PT Sans Narrow",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -152,7 +152,7 @@ RecountDB = {
 			["LastInstanceName"] = "Halls of Stone",
 			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 0,
+			["BarTextColorSwap"] = false,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -164,11 +164,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["Font"] = "PT Sans Narrow",
 			["CurDataSet"] = "LastFightData",
-			["BarTextColorSwap"] = false,
+			["Font"] = "PT Sans Narrow",
+			["DetailWindowY"] = 0,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -198,7 +198,7 @@ RecountDB = {
 			["Locked"] = true,
 			["LastInstanceName"] = "Icecrown Citadel",
 			["Font"] = "PT Sans Narrow",
-			["CurDataSet"] = "CurrentFightData",
+			["CurDataSet"] = "Fight1",
 			["FrameStrata"] = "2-LOW",
 		},
 		["Bowbaby - Unlimited WoW"] = {
@@ -217,9 +217,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }
