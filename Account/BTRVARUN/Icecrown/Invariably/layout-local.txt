@@ -58,10 +58,10 @@ H: 20
 Frame: Recount_MainWindow
 FrameLevel: 30
 Anchor: BOTTOMRIGHT
-X: -6
+X: -7
 Y: 29
-W: 265
-H: 216
+W: 264
+H: 215
 Frame: Recount_DetailWindow
 FrameLevel: 10
 Anchor: CENTER
@@ -80,7 +80,7 @@ Frame: SkadaBarWindowSkada
 FrameLevel: 103
 Anchor: BOTTOMRIGHT
 X: -272
-Y: 221
+Y: 220
 W: 200
 H: 15
 Frame: TellMeWhen_Group1
