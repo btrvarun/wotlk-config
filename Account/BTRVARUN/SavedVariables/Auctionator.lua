@@ -2,11 +2,11 @@
 AUCTIONATOR_SAVEDVARS = {
 	["_5000000"] = 10000,
 	["_50000"] = 500,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_200000"] = 1000,
-	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_10000"] = 200,
 	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -287,9 +287,9 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Kaleidoscope Chain"] = 2704811,
 		["Scroll of Enchant Gloves - Precision"] = 666666,
 		["Deadly Monarch Topaz"] = 480500,
-		["Eye of Zul"] = 2150000,
-		["Vizier Gloves of the Prophet"] = 300000,
 		["Gloves of Old"] = 2000000,
+		["Vizier Gloves of the Prophet"] = 300000,
+		["Eye of Zul"] = 2150000,
 		["Phoenix Gloves"] = 884300,
 		["Veiled Monarch Topaz"] = 900050,
 		["Metalworking Gloves"] = 2500000,
@@ -461,6 +461,7 @@ AUCTIONATOR_TOONS = {
 	["Bowbaby"] = {
 		["firstSeen"] = 1570971530,
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x070000000000615D",
 	},
 	["Impasse"] = {
 		["firstSeen"] = 1574499884,
