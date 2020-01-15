@@ -12,7 +12,7 @@ VUHDO_CONFIG = {
 		["isDistanceText"] = false,
 	},
 	["STANDARD_TOOLTIP"] = false,
-	["LOCK_PANELS"] = true,
+	["LOCK_PANELS"] = false,
 	["RANGE_PESSIMISTIC"] = false,
 	["SMARTCAST_RESURRECT"] = true,
 	["BLIZZ_UI_HIDE_PET"] = false,
@@ -50,8 +50,8 @@ VUHDO_CONFIG = {
 	["SHOW_INC_CHANNELLED"] = true,
 	["DETECT_DEBUFFS_IGNORE_DURATION"] = true,
 	["CUSTOM_DEBUFF"] = {
-		["isStacks"] = false,
-		["point"] = "TOPRIGHT",
+		["max_num"] = 3,
+		["animate"] = true,
 		["STORED_SETTINGS"] = {
 			["Gastric Bloat"] = {
 				["isStacks"] = false,
@@ -207,20 +207,6 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Instant Heal"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
-				["timer"] = true,
-			},
-			["Fire Bomb"] = {
-				["isStacks"] = false,
-				["animate"] = true,
-				["isIcon"] = true,
-				["isColor"] = false,
-				["timer"] = true,
-			},
 			["Swarming Shadows"] = {
 				["isStacks"] = false,
 				["animate"] = true,
@@ -235,7 +221,21 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Touch of Darkness"] = {
+			["Instant Heal"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Fire Bomb"] = {
+				["isStacks"] = false,
+				["animate"] = true,
+				["isIcon"] = true,
+				["isColor"] = false,
+				["timer"] = true,
+			},
+			["Instability"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -263,14 +263,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Web Wrap"] = {
+			["Essence of the Blood Queen"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Essence of the Blood Queen"] = {
+			["Web Wrap"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -284,7 +284,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Vile Gas"] = {
+			["Defile"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -326,14 +326,14 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Jagged Knife"] = {
+			["Chilled to the Bone"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Chilled to the Bone"] = {
+			["Jagged Knife"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -382,7 +382,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Defile"] = {
+			["Vile Gas"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -403,7 +403,7 @@ VUHDO_CONFIG = {
 				["isColor"] = false,
 				["timer"] = true,
 			},
-			["Instability"] = {
+			["Touch of Darkness"] = {
 				["isStacks"] = false,
 				["animate"] = true,
 				["isIcon"] = true,
@@ -515,14 +515,14 @@ VUHDO_CONFIG = {
 			"Volatile Ooze Adhesive", -- [56]
 			"Web Wrap", -- [57]
 		},
-		["max_num"] = 3,
+		["isStacks"] = false,
 		["yAdjust"] = -34,
 		["version"] = 13,
 		["isIcon"] = true,
 		["timer"] = true,
 		["selected"] = "",
 		["xAdjust"] = -2,
-		["animate"] = true,
+		["point"] = "TOPRIGHT",
 	},
 	["ON_MOUSE_UP"] = false,
 	["OMIT_TARGET"] = false,
@@ -539,7 +539,8 @@ VUHDO_CONFIG = {
 	["OMIT_DFT_MTS"] = false,
 	["HIDE_PANELS_SOLO"] = false,
 	["CURRENT_PROFILE"] = "Immutability: Invariably: Garzh",
-	["EMERGENCY_TRIGGER"] = 100,
+	["AUTO_PROFILES"] = {
+	},
 	["SHOW_INCOMING"] = true,
 	["BLIZZ_UI_HIDE_PLAYER"] = false,
 	["OMIT_FOCUS"] = false,
@@ -558,8 +559,7 @@ VUHDO_CONFIG = {
 		["AGGRO_REFRESH_MS"] = 300,
 	},
 	["SHOW_TEXT_OVERHEAL"] = true,
-	["AUTO_PROFILES"] = {
-	},
+	["EMERGENCY_TRIGGER"] = 100,
 	["SHOW_OWN_INCOMING"] = true,
 	["RES_ANNOUNCE_TEXT"] = "Come to life, vuhdo, you b00n!",
 	["INC_CHANNELLED_SECS"] = 3,
@@ -574,14 +574,14 @@ VUHDO_PANEL_SETUP = {
 			["xAdjust"] = 0,
 		},
 		["POSITION"] = {
-			["y"] = 386.3336220870541,
-			["x"] = 2.500006872917566,
+			["y"] = 529.3923215217857,
+			["x"] = -0.009802571339687557,
 			["orientation"] = "TOPLEFT",
 			["relativePoint"] = "BOTTOMLEFT",
 			["scale"] = 1,
-			["height"] = 40.00000054709792,
+			["height"] = 168.0000093006646,
 			["growth"] = "TOPLEFT",
-			["width"] = 85.00000335097474,
+			["width"] = 485.0000438362205,
 		},
 		["RAID_ICON"] = {
 			["show"] = true,
@@ -672,8 +672,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -708,20 +708,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 5,
 			["headerWidth"] = 30,
 			["barHeight"] = 30,
 			["showHeaders"] = false,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 6,
 			["isPlayerOnTop"] = false,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -840,8 +840,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 12,
 				["useText"] = true,
+				["textSize"] = 12,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -876,20 +876,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = false,
 			["targetOrientation"] = 1,
 			["barWidth"] = 100,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 30,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 8,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = true,
@@ -1007,8 +1007,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -1043,20 +1043,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = false,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 8,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = true,
@@ -1174,8 +1174,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -1210,20 +1210,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 8,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -1342,8 +1342,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -1378,20 +1378,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 8,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -1509,8 +1509,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -1545,20 +1545,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 6,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -1676,8 +1676,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -1712,20 +1712,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 6,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -1843,8 +1843,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -1879,20 +1879,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 6,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -2010,8 +2010,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -2046,20 +2046,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 6,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -2177,8 +2177,8 @@ VUHDO_PANEL_SETUP = {
 			["TEXT"] = {
 				["maxChars"] = 0,
 				["font"] = "Interface\\AddOns\\VuhDo\\Fonts\\Emblem.ttf",
-				["textSize"] = 10,
 				["useText"] = true,
+				["textSize"] = 10,
 				["outline"] = false,
 				["textSizeLife"] = 8,
 				["useOpacity"] = true,
@@ -2213,20 +2213,20 @@ VUHDO_PANEL_SETUP = {
 			["ommitEmptyWhenStructured"] = true,
 			["targetOrientation"] = 1,
 			["barWidth"] = 75,
-			["columnSpacing"] = 5,
 			["borderGapY"] = 5,
+			["columnSpacing"] = 5,
 			["headerSpacing"] = 5,
 			["borderGapX"] = 5,
 			["manaBarHeight"] = 3,
 			["headerWidth"] = 33,
 			["barHeight"] = 25,
 			["showHeaders"] = true,
-			["totWidth"] = 30,
+			["isDamFlash"] = true,
 			["maxRowsWhenLoose"] = 6,
 			["isPlayerOnTop"] = true,
 			["showTot"] = false,
 			["totSpacing"] = 3,
-			["isDamFlash"] = true,
+			["totWidth"] = 30,
 			["damFlashFactor"] = 0.75,
 			["arrangeHorizontal"] = false,
 			["showTarget"] = false,
@@ -2281,8 +2281,8 @@ VUHDO_PANEL_SETUP = {
 			["radioValue"] = 1,
 			["width"] = 25,
 		},
-		["iconRadioValue"] = 2,
 		["radioValue"] = 20,
+		["iconRadioValue"] = 2,
 		["SLOTCFG"] = {
 			["1"] = {
 				["mine"] = true,
@@ -2340,8 +2340,8 @@ VUHDO_PANEL_SETUP = {
 			["useBackground"] = true,
 			["R"] = 1,
 			["B"] = 1,
-			["G"] = 1,
 			["O"] = 0.75,
+			["G"] = 1,
 		},
 		["CLUSTER_FAIR"] = {
 			["TG"] = 1,
@@ -2589,8 +2589,8 @@ VUHDO_PANEL_SETUP = {
 			["useBackground"] = true,
 			["R"] = 1,
 			["B"] = 1,
-			["G"] = 1,
 			["O"] = 0.75,
+			["G"] = 1,
 		},
 		["DEBUFF4"] = {
 			["TG"] = 0,
@@ -2673,8 +2673,8 @@ VUHDO_PANEL_SETUP = {
 			["useBackground"] = true,
 			["R"] = 0.4,
 			["B"] = 0.4,
-			["G"] = 0.4,
 			["O"] = 0.5,
+			["G"] = 0.4,
 		},
 		["HOT2"] = {
 			["TG"] = 1,
@@ -2733,8 +2733,8 @@ VUHDO_PANEL_SETUP = {
 			["useBackground"] = true,
 			["R"] = 1,
 			["B"] = 1,
-			["G"] = 1,
 			["O"] = 0.75,
+			["G"] = 1,
 		},
 		["DEBUFF2"] = {
 			["TG"] = 0,
@@ -2776,15 +2776,15 @@ VUHDO_PANEL_SETUP = {
 				["useBackground"] = true,
 				["R"] = 0,
 				["B"] = 1,
-				["G"] = 1,
 				["O"] = 1,
+				["G"] = 1,
 			},
 			["HIGH"] = {
 				["useBackground"] = true,
 				["R"] = 1,
 				["B"] = 1,
-				["G"] = 0,
 				["O"] = 1,
+				["G"] = 0,
 			},
 		},
 		["HOT4"] = {
@@ -2824,22 +2824,22 @@ VUHDO_PANEL_SETUP = {
 				["useBackground"] = true,
 				["R"] = 0,
 				["B"] = 0,
-				["G"] = 1,
 				["O"] = 1,
+				["G"] = 1,
 			},
 			["LOW"] = {
 				["useBackground"] = true,
 				["R"] = 1,
 				["B"] = 0,
-				["G"] = 0,
 				["O"] = 1,
+				["G"] = 0,
 			},
 			["FAIR"] = {
 				["useBackground"] = true,
 				["R"] = 1,
 				["B"] = 0,
-				["G"] = 1,
 				["O"] = 1,
+				["G"] = 1,
 			},
 		},
 		["HOT_CHARGE_2"] = {
@@ -2872,9 +2872,9 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"13", -- [2]
 		"", -- [3]
 	},
-	["alt6"] = {
+	["alt12"] = {
 		"alt-", -- [1]
-		"6", -- [2]
+		"12", -- [2]
 		"", -- [3]
 	},
 	["ctrlshift4"] = {
@@ -2892,14 +2892,14 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"", -- [3]
 	},
-	["ctrl12"] = {
-		"ctrl-", -- [1]
-		"12", -- [2]
+	["altshift13"] = {
+		"alt-shift-", -- [1]
+		"13", -- [2]
 		"", -- [3]
 	},
-	["alt12"] = {
+	["alt6"] = {
 		"alt-", -- [1]
-		"12", -- [2]
+		"6", -- [2]
 		"", -- [3]
 	},
 	["altctrlshift12"] = {
@@ -3037,10 +3037,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"", -- [3]
 	},
-	["ctrl2"] = {
-		"ctrl-", -- [1]
-		"2", -- [2]
-		"Holy Light", -- [3]
+	["shift16"] = {
+		"shift-", -- [1]
+		"16", -- [2]
+		"", -- [3]
 	},
 	["altshift15"] = {
 		"alt-shift-", -- [1]
@@ -3102,19 +3102,19 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"16", -- [2]
 		"", -- [3]
 	},
-	["ctrl5"] = {
+	["ctrl6"] = {
 		"ctrl-", -- [1]
-		"5", -- [2]
-		"Divine Intervention", -- [3]
-	},
-	["alt11"] = {
-		"alt-", -- [1]
-		"11", -- [2]
+		"6", -- [2]
 		"", -- [3]
 	},
-	["ctrlshift9"] = {
+	["ctrlshift5"] = {
 		"ctrl-shift-", -- [1]
-		"9", -- [2]
+		"5", -- [2]
+		"", -- [3]
+	},
+	["alt8"] = {
+		"alt-", -- [1]
+		"8", -- [2]
 		"", -- [3]
 	},
 	["altshift12"] = {
@@ -3162,9 +3162,9 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"7", -- [2]
 		"", -- [3]
 	},
-	["12"] = {
-		"", -- [1]
-		"12", -- [2]
+	["ctrlshift13"] = {
+		"ctrl-shift-", -- [1]
+		"13", -- [2]
 		"", -- [3]
 	},
 	["shift10"] = {
@@ -3172,10 +3172,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"10", -- [2]
 		"", -- [3]
 	},
-	["ctrl6"] = {
+	["ctrl5"] = {
 		"ctrl-", -- [1]
-		"6", -- [2]
-		"", -- [3]
+		"5", -- [2]
+		"Divine Intervention", -- [3]
 	},
 	["ctrlshift12"] = {
 		"ctrl-shift-", -- [1]
@@ -3192,9 +3192,9 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"4", -- [2]
 		"Divine Intervention", -- [3]
 	},
-	["ctrlshift5"] = {
-		"ctrl-shift-", -- [1]
-		"5", -- [2]
+	["alt11"] = {
+		"alt-", -- [1]
+		"11", -- [2]
 		"", -- [3]
 	},
 	["shift11"] = {
@@ -3267,10 +3267,10 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"15", -- [2]
 		"", -- [3]
 	},
-	["3"] = {
-		"", -- [1]
+	["altctrlshift3"] = {
+		"alt-ctrl-shift-", -- [1]
 		"3", -- [2]
-		"menu", -- [3]
+		"", -- [3]
 	},
 	["2"] = {
 		"", -- [1]
@@ -3367,14 +3367,14 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"2", -- [2]
 		"Lay on Hands", -- [3]
 	},
-	["altctrlshift3"] = {
-		"alt-ctrl-shift-", -- [1]
+	["3"] = {
+		"", -- [1]
 		"3", -- [2]
-		"", -- [3]
+		"menu", -- [3]
 	},
-	["ctrlshift13"] = {
-		"ctrl-shift-", -- [1]
-		"13", -- [2]
+	["12"] = {
+		"", -- [1]
+		"12", -- [2]
 		"", -- [3]
 	},
 	["alt16"] = {
@@ -3437,9 +3437,9 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"4", -- [2]
 		"", -- [3]
 	},
-	["alt8"] = {
-		"alt-", -- [1]
-		"8", -- [2]
+	["ctrlshift9"] = {
+		"ctrl-shift-", -- [1]
+		"9", -- [2]
 		"", -- [3]
 	},
 	["altshift8"] = {
@@ -3477,14 +3477,14 @@ VUHDO_SPELL_ASSIGNMENTS = {
 		"15", -- [2]
 		"", -- [3]
 	},
-	["shift16"] = {
-		"shift-", -- [1]
-		"16", -- [2]
-		"", -- [3]
+	["ctrl2"] = {
+		"ctrl-", -- [1]
+		"2", -- [2]
+		"Holy Light", -- [3]
 	},
-	["altshift13"] = {
-		"alt-shift-", -- [1]
-		"13", -- [2]
+	["ctrl12"] = {
+		"ctrl-", -- [1]
+		"12", -- [2]
 		"", -- [3]
 	},
 	["ctrl13"] = {
@@ -3514,14 +3514,14 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"", -- [3]
 	},
-	["alt12"] = {
+	["alt6"] = {
 		"alt-", -- [1]
-		"12", -- [2]
+		"6", -- [2]
 		"", -- [3]
 	},
-	["ctrl2"] = {
-		"ctrl-", -- [1]
-		"2", -- [2]
+	["altctrlshift8"] = {
+		"alt-ctrl-shift-", -- [1]
+		"8", -- [2]
 		"", -- [3]
 	},
 	["altctrl13"] = {
@@ -3534,14 +3534,14 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"13", -- [2]
 		"", -- [3]
 	},
-	["ctrl12"] = {
-		"ctrl-", -- [1]
-		"12", -- [2]
+	["altshift13"] = {
+		"alt-shift-", -- [1]
+		"13", -- [2]
 		"", -- [3]
 	},
-	["alt6"] = {
+	["alt12"] = {
 		"alt-", -- [1]
-		"6", -- [2]
+		"12", -- [2]
 		"", -- [3]
 	},
 	["altctrlshift12"] = {
@@ -3559,9 +3559,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"8", -- [2]
 		"", -- [3]
 	},
-	["altshift5"] = {
-		"alt-shift-", -- [1]
-		"5", -- [2]
+	["altctrl14"] = {
+		"alt-ctrl-", -- [1]
+		"14", -- [2]
 		"", -- [3]
 	},
 	["altshift16"] = {
@@ -3584,18 +3584,18 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"", -- [3]
 	},
-	["ctrlshift4"] = {
-		"ctrl-shift-", -- [1]
+	["ctrl4"] = {
+		"ctrl-", -- [1]
 		"4", -- [2]
 		"", -- [3]
 	},
-	["altctrlshift8"] = {
-		"alt-ctrl-shift-", -- [1]
-		"8", -- [2]
+	["ctrl2"] = {
+		"ctrl-", -- [1]
+		"2", -- [2]
 		"", -- [3]
 	},
-	["altctrl16"] = {
-		"alt-ctrl-", -- [1]
+	["altctrlshift16"] = {
+		"alt-ctrl-shift-", -- [1]
 		"16", -- [2]
 		"", -- [3]
 	},
@@ -3604,9 +3604,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"1", -- [2]
 		"", -- [3]
 	},
-	["altshift2"] = {
-		"alt-shift-", -- [1]
-		"2", -- [2]
+	["altctrl5"] = {
+		"alt-ctrl-", -- [1]
+		"5", -- [2]
 		"", -- [3]
 	},
 	["shift8"] = {
@@ -3669,8 +3669,8 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"5", -- [2]
 		"", -- [3]
 	},
-	["ctrl4"] = {
-		"ctrl-", -- [1]
+	["ctrlshift4"] = {
+		"ctrl-shift-", -- [1]
 		"4", -- [2]
 		"", -- [3]
 	},
@@ -3704,9 +3704,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"6", -- [2]
 		"", -- [3]
 	},
-	["altctrl14"] = {
-		"alt-ctrl-", -- [1]
-		"14", -- [2]
+	["altshift5"] = {
+		"alt-shift-", -- [1]
+		"5", -- [2]
 		"", -- [3]
 	},
 	["ctrl15"] = {
@@ -3744,19 +3744,19 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"16", -- [2]
 		"", -- [3]
 	},
-	["ctrl6"] = {
-		"ctrl-", -- [1]
-		"6", -- [2]
+	["altctrl7"] = {
+		"alt-ctrl-", -- [1]
+		"7", -- [2]
 		"", -- [3]
 	},
-	["altshift9"] = {
-		"alt-shift-", -- [1]
+	["3"] = {
+		"", -- [1]
+		"3", -- [2]
+		"focus", -- [3]
+	},
+	["ctrlshift9"] = {
+		"ctrl-shift-", -- [1]
 		"9", -- [2]
-		"", -- [3]
-	},
-	["altctrlshift14"] = {
-		"alt-ctrl-shift-", -- [1]
-		"14", -- [2]
 		"", -- [3]
 	},
 	["shift1"] = {
@@ -3804,9 +3804,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"7", -- [2]
 		"", -- [3]
 	},
-	["ctrlshift13"] = {
-		"ctrl-shift-", -- [1]
-		"13", -- [2]
+	["12"] = {
+		"", -- [1]
+		"12", -- [2]
 		"", -- [3]
 	},
 	["shift10"] = {
@@ -3814,9 +3814,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"10", -- [2]
 		"", -- [3]
 	},
-	["altctrl7"] = {
-		"alt-ctrl-", -- [1]
-		"7", -- [2]
+	["ctrl6"] = {
+		"ctrl-", -- [1]
+		"6", -- [2]
 		"", -- [3]
 	},
 	["ctrlshift12"] = {
@@ -3834,9 +3834,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"3", -- [2]
 		"", -- [3]
 	},
-	["alt11"] = {
-		"alt-", -- [1]
-		"11", -- [2]
+	["ctrlshift5"] = {
+		"ctrl-shift-", -- [1]
+		"5", -- [2]
 		"", -- [3]
 	},
 	["shift11"] = {
@@ -3849,10 +3849,10 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"1", -- [2]
 		"", -- [3]
 	},
-	["3"] = {
-		"", -- [1]
-		"3", -- [2]
-		"focus", -- [3]
+	["altshift9"] = {
+		"alt-shift-", -- [1]
+		"9", -- [2]
+		"", -- [3]
 	},
 	["ctrlshift2"] = {
 		"ctrl-shift-", -- [1]
@@ -4009,14 +4009,14 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"10", -- [2]
 		"", -- [3]
 	},
-	["ctrlshift5"] = {
-		"ctrl-shift-", -- [1]
-		"5", -- [2]
+	["alt11"] = {
+		"alt-", -- [1]
+		"11", -- [2]
 		"", -- [3]
 	},
-	["12"] = {
-		"", -- [1]
-		"12", -- [2]
+	["ctrlshift13"] = {
+		"ctrl-shift-", -- [1]
+		"13", -- [2]
 		"", -- [3]
 	},
 	["alt16"] = {
@@ -4029,9 +4029,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"12", -- [2]
 		"", -- [3]
 	},
-	["altctrl5"] = {
-		"alt-ctrl-", -- [1]
-		"5", -- [2]
+	["altshift2"] = {
+		"alt-shift-", -- [1]
+		"2", -- [2]
 		"", -- [3]
 	},
 	["altctrlshift2"] = {
@@ -4079,9 +4079,9 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"4", -- [2]
 		"", -- [3]
 	},
-	["ctrlshift9"] = {
-		"ctrl-shift-", -- [1]
-		"9", -- [2]
+	["altctrlshift14"] = {
+		"alt-ctrl-shift-", -- [1]
+		"14", -- [2]
 		"", -- [3]
 	},
 	["altshift8"] = {
@@ -4119,14 +4119,14 @@ VUHDO_HOSTILE_SPELL_ASSIGNMENTS = {
 		"15", -- [2]
 		"", -- [3]
 	},
-	["altctrlshift16"] = {
-		"alt-ctrl-shift-", -- [1]
+	["altctrl16"] = {
+		"alt-ctrl-", -- [1]
 		"16", -- [2]
 		"", -- [3]
 	},
-	["altshift13"] = {
-		"alt-shift-", -- [1]
-		"13", -- [2]
+	["ctrl12"] = {
+		"ctrl-", -- [1]
+		"12", -- [2]
 		"", -- [3]
 	},
 	["ctrl13"] = {
@@ -4249,8 +4249,8 @@ VUHDO_BUFF_SETTINGS = {
 		["SHOW"] = true,
 		["PANEL_BG_COLOR"] = {
 			["useBackground"] = true,
-			["R"] = 0,
 			["B"] = 0,
+			["R"] = 0,
 			["G"] = 0,
 			["O"] = 0.5,
 			["useText"] = false,
@@ -4286,8 +4286,8 @@ VUHDO_BUFF_SETTINGS = {
 		["COMPACT"] = true,
 		["PANEL_BORDER_COLOR"] = {
 			["useBackground"] = true,
-			["R"] = 0,
 			["B"] = 0,
+			["R"] = 0,
 			["G"] = 0,
 			["O"] = 0.5,
 			["useText"] = false,
@@ -4297,8 +4297,8 @@ VUHDO_BUFF_SETTINGS = {
 		["AT_LEAST_MISSING"] = 2,
 		["SWATCH_BG_COLOR"] = {
 			["useBackground"] = true,
-			["R"] = 0,
 			["B"] = 0,
+			["R"] = 0,
 			["G"] = 0,
 			["O"] = 1,
 			["useText"] = false,
@@ -4306,8 +4306,8 @@ VUHDO_BUFF_SETTINGS = {
 		},
 		["SWATCH_BORDER_COLOR"] = {
 			["useBackground"] = true,
-			["R"] = 0.8,
 			["B"] = 0.8,
+			["R"] = 0.8,
 			["G"] = 0.8,
 			["O"] = 0,
 			["useText"] = false,
@@ -4538,9 +4538,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrl1"] = {
-			"CTRL-", -- [1]
-			"-w5", -- [2]
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
 			"", -- [3]
 		},
 		["alt2"] = {
@@ -4568,9 +4568,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["altctrl1"] = {
-			"ALT-CTRL-", -- [1]
-			"-w9", -- [2]
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
 			"", -- [3]
 		},
 		["ctrl2"] = {
@@ -4633,9 +4633,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w3", -- [2]
 			"", -- [3]
 		},
-		["ctrl1"] = {
-			"CTRL-", -- [1]
-			"-w5", -- [2]
+		["altctrl1"] = {
+			"ALT-CTRL-", -- [1]
+			"-w9", -- [2]
 			"", -- [3]
 		},
 		["alt2"] = {
@@ -4663,9 +4663,9 @@ VUHDO_SPELLS_KEYBOARD = {
 			"-w13", -- [2]
 			"", -- [3]
 		},
-		["altctrl1"] = {
-			"ALT-CTRL-", -- [1]
-			"-w9", -- [2]
+		["ctrl1"] = {
+			"CTRL-", -- [1]
+			"-w5", -- [2]
 			"", -- [3]
 		},
 		["ctrl2"] = {
@@ -4676,22 +4676,22 @@ VUHDO_SPELLS_KEYBOARD = {
 	},
 }
 VUHDO_SPELL_CONFIG = {
-	["smartCastModi"] = "all",
-	["IS_LOAD_HOTS"] = false,
 	["IS_FIRE_OUT_FIGHT"] = false,
-	["IS_KEEP_STANCE"] = false,
-	["IS_AUTO_TARGET"] = false,
+	["IS_LOAD_HOTS"] = false,
+	["smartCastModi"] = "all",
+	["IS_TOOLTIP_INFO"] = false,
+	["IS_CANCEL_CURRENT"] = false,
 	["IS_AUTO_FIRE"] = true,
 	["IS_FIRE_CUSTOM_2"] = false,
 	["IS_FIRE_TRINKET_2"] = false,
 	["IS_FIRE_TRINKET_1"] = false,
-	["IS_CANCEL_CURRENT"] = false,
+	["IS_AUTO_TARGET"] = false,
 	["FIRE_CUSTOM_2_SPELL"] = "",
 	["FIRE_CUSTOM_1_SPELL"] = "",
 	["autoBattleRez"] = true,
 	["IS_FIRE_HOT"] = false,
 	["IS_FIRE_CUSTOM_1"] = false,
-	["IS_TOOLTIP_INFO"] = false,
+	["IS_KEEP_STANCE"] = false,
 }
 VUHDO_BUFF_ORDER = {
 	["01Blessing"] = 1,
@@ -4709,35 +4709,437 @@ VUHDO_SPEC_LAYOUTS = {
 VUHDO_LAST_AUTO_ARRANG = nil
 VUHDO_RAID = {
 	["player"] = {
-		["visible"] = 1,
-		["powertype"] = 0,
+		["number"] = 13,
+		["classId"] = 23,
+		["baseRange"] = 1,
 		["isVehicle"] = false,
-		["targetUnit"] = "target",
 		["group"] = 1,
 		["class"] = "PALADIN",
 		["range"] = true,
 		["unit"] = "player",
-		["classId"] = 23,
-		["debuff"] = 0,
-		["healthmax"] = 49009,
-		["number"] = 1,
-		["sortMaxHp"] = 49009,
-		["baseRange"] = 1,
+		["zone"] = "Dalaran",
+		["powertype"] = 0,
+		["healthmax"] = 27514,
+		["map"] = "Dalaran",
+		["visible"] = 1,
+		["sortMaxHp"] = 27514,
+		["fullName"] = "Immutability",
 		["debuffName"] = "",
 		["connected"] = 1,
-		["powermax"] = 8599,
-		["power"] = 8599,
+		["powermax"] = 8464,
+		["power"] = 8419,
+		["aggro"] = false,
+		["role"] = 61,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "target",
+		["name"] = "Immutability",
+		["className"] = "Paladin",
 		["petUnit"] = "pet",
+		["debuff"] = 0,
+		["health"] = 27514,
+	},
+	["raidpet12"] = {
+		["visible"] = 1,
+		["targetUnit"] = "raidpet12target",
+		["group"] = 0,
+		["classId"] = 40,
+		["range"] = true,
+		["unit"] = "raidpet12",
+		["class"] = "WARRIOR",
+		["powertype"] = 0,
+		["healthmax"] = 22679,
+		["baseRange"] = 1,
+		["number"] = 12,
+		["sortMaxHp"] = 22679,
+		["zone"] = "Dalaran",
+		["map"] = "Dalaran",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 11556,
+		["power"] = 11556,
+		["petUnit"] = "raidpet12",
+		["isVehicle"] = false,
+		["threatPerc"] = 0,
+		["isPet"] = true,
+		["debuff"] = 0,
+		["health"] = 22679,
+		["className"] = "Jhuutom",
+		["fullName"] = "Jhuutom",
+		["ownerUnit"] = "raid12",
+		["aggro"] = false,
+		["name"] = "Jhuutom",
+	},
+	["raid12"] = {
+		["visible"] = 1,
+		["powertype"] = 0,
+		["targetUnit"] = "raid12target",
+		["group"] = 2,
+		["class"] = "WARLOCK",
+		["range"] = false,
+		["unit"] = "raid12",
+		["classId"] = 25,
+		["debuff"] = 0,
+		["healthmax"] = 23747,
+		["number"] = 12,
+		["sortMaxHp"] = 23747,
+		["baseRange"] = 1,
+		["isVehicle"] = false,
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 27182,
+		["power"] = 27182,
+		["petUnit"] = "raidpet12",
 		["zone"] = "Dalaran",
 		["threatPerc"] = 0,
 		["isPet"] = false,
 		["map"] = "Dalaran",
-		["health"] = 25323,
+		["health"] = 23747,
+		["className"] = "Warlock",
+		["fullName"] = "Zoulaykha",
+		["aggro"] = false,
+		["role"] = 62,
+		["name"] = "Zoulaykha",
+	},
+	["raid5"] = {
+		["number"] = 5,
+		["classId"] = 22,
+		["isVehicle"] = false,
+		["group"] = 2,
+		["class"] = "HUNTER",
+		["range"] = false,
+		["unit"] = "raid5",
+		["zone"] = "Wintergrasp",
+		["powertype"] = 0,
+		["healthmax"] = 24710,
+		["map"] = "Dalaran",
+		["sortMaxHp"] = 24710,
+		["fullName"] = "Yoichisatome",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 12776,
+		["power"] = 12776,
+		["aggro"] = false,
+		["role"] = 62,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "raid5target",
+		["name"] = "Yoichisatome",
+		["className"] = "Hunter",
+		["petUnit"] = "raidpet5",
+		["debuff"] = 0,
+		["health"] = 24710,
+	},
+	["raid7"] = {
+		["number"] = 7,
+		["classId"] = 20,
+		["isVehicle"] = false,
+		["group"] = 2,
+		["class"] = "WARRIOR",
+		["range"] = false,
+		["unit"] = "raid7",
+		["zone"] = "Dalaran",
+		["powertype"] = 1,
+		["healthmax"] = 29991,
+		["map"] = "Dalaran",
+		["sortMaxHp"] = 29991,
+		["fullName"] = "Wannabewarr",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 100,
+		["power"] = 0,
+		["aggro"] = false,
+		["role"] = 61,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "raid7target",
+		["name"] = "Wannabewarr",
+		["className"] = "Warrior",
+		["petUnit"] = "raidpet7",
+		["debuff"] = 0,
+		["health"] = 29991,
+	},
+	["raid9"] = {
+		["number"] = 9,
+		["classId"] = 28,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["class"] = "PRIEST",
+		["range"] = false,
+		["unit"] = "raid9",
+		["zone"] = "Dalaran",
+		["powertype"] = 0,
+		["healthmax"] = 24150,
+		["map"] = "Dalaran",
+		["visible"] = 1,
+		["sortMaxHp"] = 24150,
+		["fullName"] = "Seraphix",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 31648,
+		["power"] = 31648,
+		["aggro"] = false,
+		["role"] = 63,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "raid9target",
+		["name"] = "Seraphix",
+		["className"] = "Priest",
+		["petUnit"] = "raidpet9",
+		["debuff"] = 0,
+		["health"] = 24150,
+	},
+	["raid4"] = {
+		["number"] = 4,
+		["isVehicle"] = false,
+		["group"] = 7,
+		["class"] = "DRUID",
+		["unit"] = "raid4",
+		["role"] = 63,
+		["debuff"] = 0,
+		["healthmax"] = 0,
+		["zone"] = "Offline",
+		["sortMaxHp"] = 0,
+		["map"] = "Dalaran",
+		["debuffName"] = "",
+		["powermax"] = 0,
+		["power"] = 0,
+		["aggro"] = false,
+		["fullName"] = "Lonedruidz",
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["classId"] = 27,
+		["health"] = 0,
+		["className"] = "Druid",
+		["targetUnit"] = "raid4target",
+		["petUnit"] = "raidpet4",
+		["powertype"] = 0,
+		["name"] = "Lonedruidz",
+	},
+	["raid8"] = {
+		["number"] = 8,
+		["classId"] = 22,
+		["isVehicle"] = false,
+		["group"] = 2,
+		["class"] = "HUNTER",
+		["range"] = false,
+		["unit"] = "raid8",
+		["zone"] = "Icecrown",
+		["powertype"] = 0,
+		["healthmax"] = 23064,
+		["map"] = "Dalaran",
+		["sortMaxHp"] = 23064,
+		["fullName"] = "Itsgud",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 16121,
+		["power"] = 16121,
+		["aggro"] = false,
+		["role"] = 62,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "raid8target",
+		["name"] = "Itsgud",
+		["className"] = "Hunter",
+		["petUnit"] = "raidpet8",
+		["debuff"] = 0,
+		["health"] = 23064,
+	},
+	["raid3"] = {
+		["number"] = 3,
+		["isVehicle"] = false,
+		["group"] = 7,
+		["class"] = "PALADIN",
+		["unit"] = "raid3",
+		["role"] = 61,
+		["debuff"] = 0,
+		["healthmax"] = 0,
+		["zone"] = "Offline",
+		["sortMaxHp"] = 0,
+		["map"] = "Dalaran",
+		["debuffName"] = "",
+		["powermax"] = 0,
+		["power"] = 0,
+		["aggro"] = false,
+		["fullName"] = "Holybabyelf",
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["classId"] = 23,
+		["health"] = 0,
 		["className"] = "Paladin",
-		["fullName"] = "Immutability",
+		["targetUnit"] = "raid3target",
+		["petUnit"] = "raidpet3",
+		["powertype"] = 0,
+		["name"] = "Holybabyelf",
+	},
+	["raid1"] = {
+		["number"] = 1,
+		["classId"] = 20,
+		["isVehicle"] = false,
+		["group"] = 1,
+		["class"] = "WARRIOR",
+		["range"] = false,
+		["unit"] = "raid1",
+		["zone"] = "Dalaran",
+		["powertype"] = 1,
+		["healthmax"] = 47367,
+		["map"] = "Dalaran",
+		["sortMaxHp"] = 47367,
+		["fullName"] = "Wrathcharger",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 100,
+		["power"] = 0,
 		["aggro"] = false,
 		["role"] = 60,
-		["name"] = "Immutability",
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "raid1target",
+		["name"] = "Wrathcharger",
+		["className"] = "Warrior",
+		["petUnit"] = "raidpet1",
+		["debuff"] = 0,
+		["health"] = 47367,
+	},
+	["raid10"] = {
+		["number"] = 10,
+		["isVehicle"] = false,
+		["group"] = 3,
+		["class"] = "SHAMAN",
+		["unit"] = "raid10",
+		["role"] = 63,
+		["debuff"] = 0,
+		["healthmax"] = 0,
+		["zone"] = "Offline",
+		["sortMaxHp"] = 0,
+		["map"] = "Dalaran",
+		["debuffName"] = "",
+		["powermax"] = 0,
+		["power"] = 0,
+		["aggro"] = false,
+		["fullName"] = "Luthorian",
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["classId"] = 26,
+		["health"] = 0,
+		["className"] = "Shaman",
+		["targetUnit"] = "raid10target",
+		["petUnit"] = "raidpet10",
+		["powertype"] = 0,
+		["name"] = "Luthorian",
+	},
+	["raid11"] = {
+		["number"] = 11,
+		["classId"] = 24,
+		["isVehicle"] = false,
+		["group"] = 2,
+		["class"] = "MAGE",
+		["range"] = false,
+		["unit"] = "raid11",
+		["zone"] = "Thunder Bluff",
+		["powertype"] = 0,
+		["healthmax"] = 20293,
+		["map"] = "Dalaran",
+		["sortMaxHp"] = 20293,
+		["fullName"] = "Kandii",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 28863,
+		["power"] = 28318,
+		["aggro"] = false,
+		["role"] = 62,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "raid11target",
+		["name"] = "Kandii",
+		["className"] = "Mage",
+		["petUnit"] = "raidpet11",
+		["debuff"] = 0,
+		["health"] = 19737,
+	},
+	["raidpet5"] = {
+		["number"] = 5,
+		["targetUnit"] = "raidpet5target",
+		["isVehicle"] = false,
+		["group"] = 0,
+		["classId"] = 40,
+		["range"] = false,
+		["unit"] = "raidpet5",
+		["zone"] = "Wintergrasp",
+		["debuff"] = 0,
+		["healthmax"] = 16182,
+		["map"] = "Dalaran",
+		["sortMaxHp"] = 16182,
+		["fullName"] = "Lonely",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 100,
+		["power"] = 100,
+		["aggro"] = false,
+		["threatPerc"] = 0,
+		["isPet"] = true,
+		["petUnit"] = "raidpet5",
+		["health"] = 16182,
+		["className"] = "",
+		["ownerUnit"] = "raid5",
+		["powertype"] = 2,
+		["name"] = "Lonely",
+	},
+	["raid2"] = {
+		["number"] = 2,
+		["isVehicle"] = false,
+		["group"] = 7,
+		["class"] = "PRIEST",
+		["unit"] = "raid2",
+		["role"] = 63,
+		["debuff"] = 0,
+		["healthmax"] = 0,
+		["zone"] = "Offline",
+		["sortMaxHp"] = 0,
+		["map"] = "Dalaran",
+		["debuffName"] = "",
+		["powermax"] = 0,
+		["power"] = 0,
+		["aggro"] = false,
+		["fullName"] = "Moonlordzz",
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["classId"] = 28,
+		["health"] = 0,
+		["className"] = "Priest",
+		["targetUnit"] = "raid2target",
+		["petUnit"] = "raidpet2",
+		["powertype"] = 0,
+		["name"] = "Moonlordzz",
+	},
+	["raid6"] = {
+		["number"] = 6,
+		["classId"] = 26,
+		["isVehicle"] = false,
+		["group"] = 6,
+		["class"] = "SHAMAN",
+		["range"] = false,
+		["unit"] = "raid6",
+		["zone"] = "Dalaran",
+		["powertype"] = 0,
+		["healthmax"] = 20399,
+		["map"] = "Dalaran",
+		["sortMaxHp"] = 20399,
+		["fullName"] = "Elementsurge",
+		["debuffName"] = "",
+		["connected"] = 1,
+		["powermax"] = 26286,
+		["power"] = 26286,
+		["aggro"] = false,
+		["role"] = 63,
+		["threatPerc"] = 0,
+		["isPet"] = false,
+		["targetUnit"] = "raid6target",
+		["name"] = "Elementsurge",
+		["className"] = "Shaman",
+		["petUnit"] = "raidpet6",
+		["debuff"] = 0,
+		["health"] = 20399,
 	},
 }
 VUHDO_FAST_ACCESS_ACTIONS = {
@@ -4806,9 +5208,9 @@ VUHDO_INDICATOR_CONFIG = {
 		["THREAT_MARK"] = "",
 		["DAMAGE_FLASH_BAR"] = "",
 		["INCOMING_BAR"] = "",
-		["BAR_BORDER"] = "Border: Multi + Aggro",
-		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
 		["MANA_BAR"] = "Manabars: Mana only",
+		["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
+		["BAR_BORDER"] = "Border: Multi + Aggro",
 		["SWIFTMEND_INDICATOR"] = "",
 	},
 }

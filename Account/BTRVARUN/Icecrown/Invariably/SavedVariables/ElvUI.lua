@@ -1,136 +1,28 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/w Zanahori trade albacutie", -- [1]
-		"/w Zanahori for flasks", -- [2]
-		"/w Fatsp swap glyph of dispersion for glyph of mind sear", -- [3]
-		"/epgp", -- [4]
-		"/w Warcha hey do you still need anything for the icc?", -- [5]
-		"/w Warcha I can hunt or spriest", -- [6]
-		"/w Warcha whichever you want", -- [7]
-		"/w Warcha cool", -- [8]
-		"/logout", -- [9]
-		"/w Warcha alo need a dps?", -- [10]
-		"/raid summon please", -- [11]
-		"/w Warcha no probs", -- [12]
-		"/w Zorro mumble va da", -- [13]
-		"/raid instance full", -- [14]
-		"/raid still full", -- [15]
-		"/hug", -- [16]
-		"/abs restore shadow", -- [17]
-		"/abs save shadow", -- [18]
-		"/s wont work", -- [19]
-		"/roll", -- [20]
+		"/w Fatsp swap glyph of dispersion for glyph of mind sear", -- [1]
+		"/epgp", -- [2]
+		"/w Warcha hey do you still need anything for the icc?", -- [3]
+		"/w Warcha I can hunt or spriest", -- [4]
+		"/w Warcha whichever you want", -- [5]
+		"/w Warcha cool", -- [6]
+		"/logout", -- [7]
+		"/w Warcha alo need a dps?", -- [8]
+		"/raid summon please", -- [9]
+		"/w Warcha no probs", -- [10]
+		"/w Zorro mumble va da", -- [11]
+		"/raid instance full", -- [12]
+		"/raid still full", -- [13]
+		"/hug", -- [14]
+		"/abs restore shadow", -- [15]
+		"/abs save shadow", -- [16]
+		"/s wont work", -- [17]
+		"/roll", -- [18]
+		"/moveui", -- [19]
+		"/wa", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"LFM RS25n NEED HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
-			"Kaymakam", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
-			"", -- [5]
-			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
-			0, -- [10]
-			3024, -- [11]
-			"0x07000000004F4F1B", -- [12]
-			0, -- [13]
-			[51] = 1579025724,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [1]
-		{
-			"uranium should make a guild", -- [1]
-			"Kadreylx", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3025, -- [11]
-			"0x07000000004C3DEF", -- [12]
-			0, -- [13]
-			[51] = 1579025725,
-			[50] = "CHAT_MSG_GUILD",
-			[52] = "|cfff48cbaKadreylx|r",
-		}, -- [2]
-		{
-			"LFM RS25n NEED HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
-			"Kaymakam", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3026, -- [11]
-			"0x07000000004F4F1B", -- [12]
-			0, -- [13]
-			[51] = 1579025725,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [3]
-		{
-			"GOTH UDEN ASH nud Ras lordaere nostyec SE Lo VE EYNES VOHL LU ko Vandar ", -- [1]
-			"Tkenplyl", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3027, -- [11]
-			"0x070000000040AA9F", -- [12]
-			0, -- [13]
-			[51] = 1579025726,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aTkenplyl|r",
-		}, -- [4]
-		{
-			" |cffffff00|Hquest:24581:80|h[Noth the Plaguebringer Must Die!]|h|r 1 TANK 2 HELAR Y DPS WIPS GOOOOOO", -- [1]
-			"Blutus", -- [2]
-			"Orcish", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3028, -- [11]
-			"0x070000000048B4AE", -- [12]
-			0, -- [13]
-			[51] = 1579025727,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aBlutus|r",
-		}, -- [5]
-		{
-			"WTS |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r!!!", -- [1]
-			"Darkfireball", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			3029, -- [11]
-			"0x070000000013526E", -- [12]
-			0, -- [13]
-			[51] = 1579025728,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefDarkfireball|r",
-		}, -- [6]
 		{
 			"BOR VIL SE O KO E E GOTH NUD E U vrum GOTH NUD RUFF UDEN VELD Ras Garde va Vohl", -- [1]
 			"Spagaxnxx", -- [2]
@@ -148,7 +40,7 @@ ElvCharacterDB = {
 			[51] = 1579025728,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfffff468Spagaxnxx|r",
-		}, -- [7]
+		}, -- [1]
 		{
 			"Bor VIL SE lu goth uden ash ash E E bur u vrum Agol va ras Goth Noth SE danieb ", -- [1]
 			"Metallaw", -- [2]
@@ -166,7 +58,7 @@ ElvCharacterDB = {
 			[51] = 1579025729,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMetallaw|r",
-		}, -- [8]
+		}, -- [2]
 		{
 			"and called it <iran>", -- [1]
 			"Kadreylx", -- [2]
@@ -184,7 +76,7 @@ ElvCharacterDB = {
 			[51] = 1579025729,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfff48cbaKadreylx|r",
-		}, -- [9]
+		}, -- [3]
 		{
 			"Cheap Warmane Accounts For Sale wowprivateaccounts.com - 100% Ownership - Secure payment", -- [1]
 			"Accforu", -- [2]
@@ -202,7 +94,7 @@ ElvCharacterDB = {
 			[51] = 1579025729,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffAccforu|r",
-		}, -- [10]
+		}, -- [4]
 		{
 			"LFM [Onyxia's Lair (25 player)] NEED ALL 5k+ /W ME", -- [1]
 			"Xtremebaumer", -- [2]
@@ -220,7 +112,7 @@ ElvCharacterDB = {
 			[51] = 1579025730,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aXtremebaumer|r",
-		}, -- [11]
+		}, -- [5]
 		{
 			"LFM [Onyxia's Lair (25 player)] NEED ALL 5k+ /W ME", -- [1]
 			"Xtremebaumer", -- [2]
@@ -238,7 +130,7 @@ ElvCharacterDB = {
 			[51] = 1579025730,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aXtremebaumer|r",
-		}, -- [12]
+		}, -- [6]
 		{
 			"Lfm icc 25 nm need only 3x dps 2x healer +5.4 (B+P+O Res) ", -- [1]
 			"Tomidt", -- [2]
@@ -256,7 +148,7 @@ ElvCharacterDB = {
 			[51] = 1579025730,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dTomidt|r",
-		}, -- [13]
+		}, -- [7]
 		{
 			" THOR VIL SE LU GOTH E AGOL Y UDEN AGOL UDEN ASH ASH E NAGAN VIL SE LU TIRAS BUR FAR ", -- [1]
 			"Malphit", -- [2]
@@ -274,7 +166,7 @@ ElvCharacterDB = {
 			[51] = 1579025731,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMalphit|r",
-		}, -- [14]
+		}, -- [8]
 		{
 			"LFM icc 10n alt run,BEFORE RESET, min gs 5,3k, need 1 main tank,2 healers rest dps", -- [1]
 			"Killjaiden", -- [2]
@@ -292,7 +184,7 @@ ElvCharacterDB = {
 			[51] = 1579025734,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaKilljaiden|r",
-		}, -- [15]
+		}, -- [9]
 		{
 			"LFM ICC BANE RUN// @SINDY HC// NEED 1 Heal Rshamy 1 PalaTank", -- [1]
 			"Llquidswords", -- [2]
@@ -310,7 +202,7 @@ ElvCharacterDB = {
 			[51] = 1579025735,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaLlquidswords|r",
-		}, -- [16]
+		}, -- [10]
 		{
 			"WTB FROZEN ORB / 90g , DAMAGED NECKLACE 150/g, CARDINAL RUBY 300/g ETERNAL FIRE 80/g CRUSADER ORB 250 /g ARCTIC FUR 280/g SEND ME IN COD!!!!", -- [1]
 			"Szuzy", -- [2]
@@ -328,7 +220,7 @@ ElvCharacterDB = {
 			[51] = 1579025736,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Szuzy|r",
-		}, -- [17]
+		}, -- [11]
 		{
 			"WTS 70k gold -24coins warmane system (Galkazinho)", -- [1]
 			"Galkazo", -- [2]
@@ -346,7 +238,7 @@ ElvCharacterDB = {
 			[51] = 1579025739,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefGalkazo|r",
-		}, -- [18]
+		}, -- [12]
 		{
 			"Lfm icc 25 nm need only 3x dps 2x healer +5.4 (B+P+O Res) ", -- [1]
 			"Tomidt", -- [2]
@@ -364,7 +256,7 @@ ElvCharacterDB = {
 			[51] = 1579025740,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dTomidt|r",
-		}, -- [19]
+		}, -- [13]
 		{
 			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 1110g/stack, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 550g/stack.. COD or just trade me", -- [1]
 			"Sweetevil", -- [2]
@@ -382,7 +274,7 @@ ElvCharacterDB = {
 			[51] = 1579025741,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Sweetevil|r",
-		}, -- [20]
+		}, -- [14]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r", -- [1]
 			"Abhu", -- [2]
@@ -400,7 +292,7 @@ ElvCharacterDB = {
 			[51] = 1579025743,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAbhu|r",
-		}, -- [21]
+		}, -- [15]
 		{
 			"GOTH UDEN ASH nud Ras lordaere nostyec SE Lo VE EYNES VOHL LU ko Vandar ", -- [1]
 			"Tkenplyl", -- [2]
@@ -418,7 +310,7 @@ ElvCharacterDB = {
 			[51] = 1579025745,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTkenplyl|r",
-		}, -- [22]
+		}, -- [16]
 		{
 			"nah, they shutdown plane from my country :(", -- [1]
 			"Uranium", -- [2]
@@ -436,7 +328,7 @@ ElvCharacterDB = {
 			[51] = 1579025747,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffc41e3aUranium|r",
-		}, -- [23]
+		}, -- [17]
 		{
 			"EwiDDAN Y RE Goth BArad Uden Ash E NUD E U aziris y lo VE thor NE nud kaelsig Ruff Far VA nagan Ruff va ras Daegil Noth", -- [1]
 			"Merydit", -- [2]
@@ -454,7 +346,7 @@ ElvCharacterDB = {
 			[51] = 1579025748,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Merydit|r",
-		}, -- [24]
+		}, -- [18]
 		{
 			"WTS |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r!!!", -- [1]
 			"Darkfireball", -- [2]
@@ -472,7 +364,7 @@ ElvCharacterDB = {
 			[51] = 1579025748,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDarkfireball|r",
-		}, -- [25]
+		}, -- [19]
 		{
 			"LFM TOC25 NEED ALL 5.5k gs min achiev pm B+O+P res |cffffff00|Hachievement:3916:070000000035D322:1:9:29:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Auksobaronas", -- [2]
@@ -490,7 +382,7 @@ ElvCharacterDB = {
 			[51] = 1579025751,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaAuksobaronas|r",
-		}, -- [26]
+		}, -- [20]
 		{
 			"Lfm icc 25 nm need only 3x dps 2x healer +5.4 (B+P+O Res) ", -- [1]
 			"Tomidt", -- [2]
@@ -508,7 +400,7 @@ ElvCharacterDB = {
 			[51] = 1579025751,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dTomidt|r",
-		}, -- [27]
+		}, -- [21]
 		{
 			"RAS KO GOTH AGOL ASH UDEN", -- [1]
 			"Enchansen", -- [2]
@@ -526,7 +418,7 @@ ElvCharacterDB = {
 			[51] = 1579025755,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff0070ddEnchansen|r",
-		}, -- [28]
+		}, -- [22]
 		{
 			"WTB |cffa335ee|Hitem:50452:0:3378:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r FOR 1500 gold /w mee", -- [1]
 			"Lilpicky", -- [2]
@@ -544,7 +436,7 @@ ElvCharacterDB = {
 			[51] = 1579025756,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dLilpicky|r",
-		}, -- [29]
+		}, -- [23]
 		{
 			"LU UDEN ASH Ras Lordaere Nostyec SE E U O VE EYNES VOHL ", -- [1]
 			"Abysum", -- [2]
@@ -562,7 +454,7 @@ ElvCharacterDB = {
 			[51] = 1579025757,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aAbysum|r",
-		}, -- [30]
+		}, -- [24]
 		{
 			"BOR VIL NUD Goth O AGOL E TI", -- [1]
 			"Suhoe", -- [2]
@@ -580,7 +472,7 @@ ElvCharacterDB = {
 			[51] = 1579025758,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaSuhoe|r",
-		}, -- [31]
+		}, -- [25]
 		{
 			" |cffffff00|Hquest:24581:80|h[Noth the Plaguebringer Must Die!]|h|r 1 TANK 2 HELAR Y DPS WIPS GOOOOOO", -- [1]
 			"Blutus", -- [2]
@@ -598,7 +490,7 @@ ElvCharacterDB = {
 			[51] = 1579025758,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBlutus|r",
-		}, -- [32]
+		}, -- [26]
 		{
 			"GOTH UDEN ASH nud Ras lordaere nostyec SE Lo VE EYNES VOHL LU ko Vandar ", -- [1]
 			"Tkenplyl", -- [2]
@@ -616,7 +508,7 @@ ElvCharacterDB = {
 			[51] = 1579025759,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTkenplyl|r",
-		}, -- [33]
+		}, -- [27]
 		{
 			"LFM RS25n NEED HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
 			"Kaymakam", -- [2]
@@ -634,7 +526,7 @@ ElvCharacterDB = {
 			[51] = 1579025760,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [34]
+		}, -- [28]
 		{
 			"the question is ", -- [1]
 			"Veliko", -- [2]
@@ -652,7 +544,7 @@ ElvCharacterDB = {
 			[51] = 1579025761,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffVeliko|r",
-		}, -- [35]
+		}, -- [29]
 		{
 			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 1110g/stack, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 550g/stack.. COD or just trade me", -- [1]
 			"Sweetevil", -- [2]
@@ -670,7 +562,7 @@ ElvCharacterDB = {
 			[51] = 1579025761,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Sweetevil|r",
-		}, -- [36]
+		}, -- [30]
 		{
 			"Lfm icc 25 nm need only 3x dps 2x healer +5.4 (B+P+O Res) ", -- [1]
 			"Tomidt", -- [2]
@@ -688,7 +580,7 @@ ElvCharacterDB = {
 			[51] = 1579025762,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dTomidt|r",
-		}, -- [37]
+		}, -- [31]
 		{
 			"LFM RS25n NEED HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
 			"Kaymakam", -- [2]
@@ -706,7 +598,7 @@ ElvCharacterDB = {
 			[51] = 1579025762,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [38]
+		}, -- [32]
 		{
 			" THOR VIL SE LU GOTH E AGOL Y UDEN AGOL UDEN ASH ASH E NAGAN VIL SE LU TIRAS BUR FAR ", -- [1]
 			"Malphit", -- [2]
@@ -724,7 +616,7 @@ ElvCharacterDB = {
 			[51] = 1579025762,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMalphit|r",
-		}, -- [39]
+		}, -- [33]
 		{
 			"Buying all Frozen Orb70G each,Eternal Fire1500g/stack,Eternal Shadow 1000G/stack.Eternal Life 400G/stackNortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime. ", -- [1]
 			"Zhasni", -- [2]
@@ -742,7 +634,7 @@ ElvCharacterDB = {
 			[51] = 1579025763,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [40]
+		}, -- [34]
 		{
 			"that plane ", -- [1]
 			"Veliko", -- [2]
@@ -760,7 +652,7 @@ ElvCharacterDB = {
 			[51] = 1579025763,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffVeliko|r",
-		}, -- [41]
+		}, -- [35]
 		{
 			"GOTH E UDEN ASH E AGOL VIL DANA KO E E VE RAS RUFF UDEN RUFTOS BUR VRUM ", -- [1]
 			"Rozzalia", -- [2]
@@ -778,7 +670,7 @@ ElvCharacterDB = {
 			[51] = 1579025764,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaRozzalia|r",
-		}, -- [42]
+		}, -- [36]
 		{
 			"was down ", -- [1]
 			"Veliko", -- [2]
@@ -796,7 +688,7 @@ ElvCharacterDB = {
 			[51] = 1579025765,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffVeliko|r",
-		}, -- [43]
+		}, -- [37]
 		{
 			"WTS by Warmane Trade - Resto/Ele Shaman. 6.2k GS/Engi with JC/5xT10(3xNormal Mark)/Terenas and HC Scale Trinket/Gladiator Wyrm Mount/2250 Achiv Points/For more info/Name - Szambik", -- [1]
 			"Cebuloczek", -- [2]
@@ -814,7 +706,7 @@ ElvCharacterDB = {
 			[51] = 1579025768,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Cebuloczek|r",
-		}, -- [44]
+		}, -- [38]
 		{
 			"whti purpose ", -- [1]
 			"Veliko", -- [2]
@@ -832,7 +724,7 @@ ElvCharacterDB = {
 			[51] = 1579025768,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffVeliko|r",
-		}, -- [45]
+		}, -- [39]
 		{
 			"Cheap Warmane Accounts For Sale wowprivateaccounts.com - 100% Ownership - Secure payment", -- [1]
 			"Accforu", -- [2]
@@ -850,7 +742,7 @@ ElvCharacterDB = {
 			[51] = 1579025769,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffAccforu|r",
-		}, -- [46]
+		}, -- [40]
 		{
 			"WTS |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r!!!", -- [1]
 			"Darkfireball", -- [2]
@@ -868,7 +760,7 @@ ElvCharacterDB = {
 			[51] = 1579025770,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDarkfireball|r",
-		}, -- [47]
+		}, -- [41]
 		{
 			"GOTH UDEN ASH nud Ras lordaere nostyec SE Lo VE EYNES VOHL LU ko Vandar ", -- [1]
 			"Tkenplyl", -- [2]
@@ -886,7 +778,7 @@ ElvCharacterDB = {
 			[51] = 1579025772,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTkenplyl|r",
-		}, -- [48]
+		}, -- [42]
 		{
 			"Bor VIL SE lu goth uden ash ash E E bur u vrum Agol va ras Goth Noth SE danieb ", -- [1]
 			"Metallaw", -- [2]
@@ -904,7 +796,7 @@ ElvCharacterDB = {
 			[51] = 1579025772,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMetallaw|r",
-		}, -- [49]
+		}, -- [43]
 		{
 			"or whit something else", -- [1]
 			"Veliko", -- [2]
@@ -922,7 +814,7 @@ ElvCharacterDB = {
 			[51] = 1579025773,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffVeliko|r",
-		}, -- [50]
+		}, -- [44]
 		{
 			"yes", -- [1]
 			"Kadreylx", -- [2]
@@ -940,7 +832,7 @@ ElvCharacterDB = {
 			[51] = 1579025773,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cfff48cbaKadreylx|r",
-		}, -- [51]
+		}, -- [45]
 		{
 			":)", -- [1]
 			"Veliko", -- [2]
@@ -958,7 +850,7 @@ ElvCharacterDB = {
 			[51] = 1579025774,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffVeliko|r",
-		}, -- [52]
+		}, -- [46]
 		{
 			"LF icc25 5,5k cement shaman !", -- [1]
 			"Shazomazo", -- [2]
@@ -976,7 +868,7 @@ ElvCharacterDB = {
 			[51] = 1579025776,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff0070ddShazomazo|r",
-		}, -- [53]
+		}, -- [47]
 		{
 			"LFM TOC25 NEED ALL 5.5k gs min achiev pm B+O+P res |cffffff00|Hachievement:3916:070000000035D322:1:9:29:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Auksobaronas", -- [2]
@@ -994,7 +886,7 @@ ElvCharacterDB = {
 			[51] = 1579025777,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaAuksobaronas|r",
-		}, -- [54]
+		}, -- [48]
 		{
 			"LFM icc 10n alt run,BEFORE RESET, min gs 5,3k, need 1 main tank,2 healers rest dps", -- [1]
 			"Killjaiden", -- [2]
@@ -1012,7 +904,7 @@ ElvCharacterDB = {
 			[51] = 1579025780,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaKilljaiden|r",
-		}, -- [55]
+		}, -- [49]
 		{
 			"LFM ICC 10n (AT LK)(aiming for KS achiv) Need Mage and bomkin - whisp me ur gs and best achiv ( u need to have time )", -- [1]
 			"Destructiive", -- [2]
@@ -1030,7 +922,7 @@ ElvCharacterDB = {
 			[51] = 1579025781,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aDestructiive|r",
-		}, -- [56]
+		}, -- [50]
 		{
 			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 1110g/stack, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 550g/stack.. COD or just trade me", -- [1]
 			"Sweetevil", -- [2]
@@ -1048,7 +940,7 @@ ElvCharacterDB = {
 			[51] = 1579025781,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Sweetevil|r",
-		}, -- [57]
+		}, -- [51]
 		{
 			"LFM ICC BANE RUN// @SINDY HC// NEED 1 Heal Rshamy 1 PalaTank", -- [1]
 			"Llquidswords", -- [2]
@@ -1066,7 +958,7 @@ ElvCharacterDB = {
 			[51] = 1579025782,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaLlquidswords|r",
-		}, -- [58]
+		}, -- [52]
 		{
 			"ewiddan y lo far", -- [1]
 			"Reelexi", -- [2]
@@ -1084,7 +976,7 @@ ElvCharacterDB = {
 			[51] = 1579025783,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Reelexi|r",
-		}, -- [59]
+		}, -- [53]
 		{
 			"GOTH UDEN ASH nud Ras lordaere nostyec SE Lo VE EYNES VOHL LU ko Vandar ", -- [1]
 			"Tkenplyl", -- [2]
@@ -1102,7 +994,7 @@ ElvCharacterDB = {
 			[51] = 1579025784,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTkenplyl|r",
-		}, -- [60]
+		}, -- [54]
 		{
 			"Tatakao spits on Magister Surdiel.", -- [1]
 			"Tatakao", -- [2]
@@ -1120,7 +1012,7 @@ ElvCharacterDB = {
 			[51] = 1579025784,
 			[50] = "CHAT_MSG_TEXT_EMOTE",
 			[52] = "|cfffff468Tatakao|r",
-		}, -- [61]
+		}, -- [55]
 		{
 			"LFM ICC 10n (AT LK)(aiming for KS achiv) Need Mage and bomkin - whisp me ur gs and best achiv ( u need to have time )", -- [1]
 			"Isilverstarl", -- [2]
@@ -1138,7 +1030,7 @@ ElvCharacterDB = {
 			[51] = 1579025785,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIsilverstarl|r",
-		}, -- [62]
+		}, -- [56]
 		{
 			"LFM ICC25 HC 8/12 NEED only 1 healer 6.2 K GS (B+P=RES)", -- [1]
 			"Amanthe", -- [2]
@@ -1156,7 +1048,7 @@ ElvCharacterDB = {
 			[51] = 1579025786,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaAmanthe|r",
-		}, -- [63]
+		}, -- [57]
 		{
 			"LFM ICC 10n (AT LK)(aiming for KS achiv) Need Mage and bomkin - whisp me ur gs and best achiv ( u need to have time )", -- [1]
 			"Isilverstarl", -- [2]
@@ -1174,7 +1066,7 @@ ElvCharacterDB = {
 			[51] = 1579025787,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaIsilverstarl|r",
-		}, -- [64]
+		}, -- [58]
 		{
 			"the reason question is anyone a tailor?", -- [1]
 			"Graszelda", -- [2]
@@ -1192,7 +1084,7 @@ ElvCharacterDB = {
 			[51] = 1579025788,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff9382c9Graszelda|r",
-		}, -- [65]
+		}, -- [59]
 		{
 			" |cffffff00|Hquest:24581:80|h[Noth the Plaguebringer Must Die!]|h|r 1 TANK 2 HELAR Y DPS WIPS GOOOOOO", -- [1]
 			"Blutus", -- [2]
@@ -1210,7 +1102,7 @@ ElvCharacterDB = {
 			[51] = 1579025790,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aBlutus|r",
-		}, -- [66]
+		}, -- [60]
 		{
 			"LFM RS25n NEED HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
 			"Kaymakam", -- [2]
@@ -1228,7 +1120,7 @@ ElvCharacterDB = {
 			[51] = 1579025790,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [67]
+		}, -- [61]
 		{
 			"LFM RS25n NEED HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
 			"Kaymakam", -- [2]
@@ -1246,7 +1138,7 @@ ElvCharacterDB = {
 			[51] = 1579025791,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [68]
+		}, -- [62]
 		{
 			"WTB FROZEN ORB / 90g , DAMAGED NECKLACE 150/g, CARDINAL RUBY 300/g ETERNAL FIRE 80/g CRUSADER ORB 250 /g ARCTIC FUR 280/g SEND ME IN COD!!!!", -- [1]
 			"Szuzy", -- [2]
@@ -1264,7 +1156,7 @@ ElvCharacterDB = {
 			[51] = 1579025791,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Szuzy|r",
-		}, -- [69]
+		}, -- [63]
 		{
 			"EwiDDAN Y RE Goth BArad Uden Ash E NUD E U aziris y lo VE thor NE nud kaelsig Ruff Far VA nagan Ruff va ras Daegil Noth", -- [1]
 			"Merydit", -- [2]
@@ -1282,7 +1174,7 @@ ElvCharacterDB = {
 			[51] = 1579025791,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Merydit|r",
-		}, -- [70]
+		}, -- [64]
 		{
 			"WTS |cffa335ee|Hitem:50175:0:0:0:0:0:0:0:80|h[Crypt Keeper's Bracers]|h|r", -- [1]
 			"Haydee", -- [2]
@@ -1300,7 +1192,7 @@ ElvCharacterDB = {
 			[51] = 1579025793,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffHaydee|r",
-		}, -- [71]
+		}, -- [65]
 		{
 			"LFM ICC 10n (AT LK)(aiming for KS achiv) Need Mage and bomkin - whisp me ur gs and best achiv ( u need to have time )", -- [1]
 			"Destructiive", -- [2]
@@ -1318,7 +1210,7 @@ ElvCharacterDB = {
 			[51] = 1579025795,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aDestructiive|r",
-		}, -- [72]
+		}, -- [66]
 		{
 			"Bor VIL SE lu goth uden ash ash E E bur u vrum Agol va ras Goth Noth SE danieb ", -- [1]
 			"Metallaw", -- [2]
@@ -1336,7 +1228,7 @@ ElvCharacterDB = {
 			[51] = 1579025795,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMetallaw|r",
-		}, -- [73]
+		}, -- [67]
 		{
 			"GOTH UDEN ASH nud Ras lordaere nostyec SE Lo VE EYNES VOHL LU ko Vandar ", -- [1]
 			"Tkenplyl", -- [2]
@@ -1354,7 +1246,7 @@ ElvCharacterDB = {
 			[51] = 1579025796,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTkenplyl|r",
-		}, -- [74]
+		}, -- [68]
 		{
 			"WTB |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r", -- [1]
 			"Abhu", -- [2]
@@ -1372,7 +1264,7 @@ ElvCharacterDB = {
 			[51] = 1579025797,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAbhu|r",
-		}, -- [75]
+		}, -- [69]
 		{
 			"LFM [Onyxia's Lair (25 player)] MOUNT RUN NEED ALL 5k+ /W ME", -- [1]
 			"Xtremebaumer", -- [2]
@@ -1390,7 +1282,7 @@ ElvCharacterDB = {
 			[51] = 1579025799,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aXtremebaumer|r",
-		}, -- [76]
+		}, -- [70]
 		{
 			"LFM [Onyxia's Lair (25 player)] MOUNT RUN NEED ALL 5k+ /W ME", -- [1]
 			"Xtremebaumer", -- [2]
@@ -1408,7 +1300,7 @@ ElvCharacterDB = {
 			[51] = 1579025799,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aXtremebaumer|r",
-		}, -- [77]
+		}, -- [71]
 		{
 			"LFM RS25n (Semi guild run) Need 1 hunter. 1 rdps 1 heal(STS RES) Link |cffffff00|Hachievement:4816:07000000004AD150:1:10:31:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Twilight Destroyer (25 player)]|h|r.", -- [1]
 			"Warhearth", -- [2]
@@ -1426,7 +1318,7 @@ ElvCharacterDB = {
 			[51] = 1579025800,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dWarhearth|r",
-		}, -- [78]
+		}, -- [72]
 		{
 			"WTS |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r!!!", -- [1]
 			"Darkfireball", -- [2]
@@ -1444,7 +1336,7 @@ ElvCharacterDB = {
 			[51] = 1579025800,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDarkfireball|r",
-		}, -- [79]
+		}, -- [73]
 		{
 			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 1110g/stack, |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 550g/stack.. COD or just trade me", -- [1]
 			"Sweetevil", -- [2]
@@ -1462,7 +1354,7 @@ ElvCharacterDB = {
 			[51] = 1579025801,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff9382c9Sweetevil|r",
-		}, -- [80]
+		}, -- [74]
 		{
 			"GOTH E ash rogesh UDEN ASH E AGOL VIL DANA KO E E VE RAS RUFF UDEN RUFTOS BUR VRUM ", -- [1]
 			"Rozzalia", -- [2]
@@ -1480,7 +1372,7 @@ ElvCharacterDB = {
 			[51] = 1579025802,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaRozzalia|r",
-		}, -- [81]
+		}, -- [75]
 		{
 			"Lfm icc 25 nm need 2x dps 2x healer +5.4 (B+P+O Res) ", -- [1]
 			"Tomidt", -- [2]
@@ -1498,7 +1390,7 @@ ElvCharacterDB = {
 			[51] = 1579025804,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dTomidt|r",
-		}, -- [82]
+		}, -- [76]
 		{
 			":D", -- [1]
 			"Veliko", -- [2]
@@ -1516,7 +1408,7 @@ ElvCharacterDB = {
 			[51] = 1579025806,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cffffffffVeliko|r",
-		}, -- [83]
+		}, -- [77]
 		{
 			"Cheap Warmane Accounts For Sale wowprivateaccounts.com - 100% Ownership - Secure payment", -- [1]
 			"Accforu", -- [2]
@@ -1534,7 +1426,7 @@ ElvCharacterDB = {
 			[51] = 1579025809,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffffffffAccforu|r",
-		}, -- [84]
+		}, -- [78]
 		{
 			"Lfm icc 25 nm need 2x dps 2x healer +5.4 (B+P+O Res) ", -- [1]
 			"Tomidt", -- [2]
@@ -1552,7 +1444,7 @@ ElvCharacterDB = {
 			[51] = 1579025810,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dTomidt|r",
-		}, -- [85]
+		}, -- [79]
 		{
 			"Buying all Frozen Orb70G each,Eternal Fire1500g/stack,Eternal Shadow 1000G/stack.Eternal Life 400G/stackNortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime. ", -- [1]
 			"Zhasni", -- [2]
@@ -1570,7 +1462,7 @@ ElvCharacterDB = {
 			[51] = 1579025813,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [86]
+		}, -- [80]
 		{
 			"LFM TOC25 NEED ALL 5.5k gs min achiev pm B+O+P res |cffffff00|Hachievement:3916:070000000035D322:1:9:29:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Auksobaronas", -- [2]
@@ -1588,7 +1480,7 @@ ElvCharacterDB = {
 			[51] = 1579025816,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaAuksobaronas|r",
-		}, -- [87]
+		}, -- [81]
 		{
 			"BOR VIL NUD Goth O AGOL E TI", -- [1]
 			"Suhoe", -- [2]
@@ -1606,7 +1498,7 @@ ElvCharacterDB = {
 			[51] = 1579025818,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaSuhoe|r",
-		}, -- [88]
+		}, -- [82]
 		{
 			"Bor VIL SE lu goth uden ash ash E E bur u vrum Agol va ras Goth Noth SE danieb ", -- [1]
 			"Metallaw", -- [2]
@@ -1624,7 +1516,7 @@ ElvCharacterDB = {
 			[51] = 1579025819,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMetallaw|r",
-		}, -- [89]
+		}, -- [83]
 		{
 			"LFM ICC 10n (AT LK)(aiming for KS achiv) Need Mage and bomkin - whisp me ur gs and best achiv ( u need to have time )", -- [1]
 			"Isilverstarl", -- [2]
@@ -1642,7 +1534,7 @@ ElvCharacterDB = {
 			[51] = 1579025821,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaIsilverstarl|r",
-		}, -- [90]
+		}, -- [84]
 		{
 			"LU UDEN ASH Ras Lordaere Nostyec SE E U O VE EYNES VOHL ", -- [1]
 			"Abysum", -- [2]
@@ -1660,7 +1552,7 @@ ElvCharacterDB = {
 			[51] = 1579025822,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aAbysum|r",
-		}, -- [91]
+		}, -- [85]
 		{
 			"inspect memo", -- [1]
 			"Killjaiden", -- [2]
@@ -1678,7 +1570,7 @@ ElvCharacterDB = {
 			[51] = 1579025825,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaKilljaiden|r",
-		}, -- [92]
+		}, -- [86]
 		{
 			" THOR VIL SE LU GOTH E AGOL Y UDEN AGOL UDEN ASH ASH E NAGAN VIL SE LU TIRAS BUR FAR ", -- [1]
 			"Malphit", -- [2]
@@ -1696,7 +1588,7 @@ ElvCharacterDB = {
 			[51] = 1579025829,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMalphit|r",
-		}, -- [93]
+		}, -- [87]
 		{
 			"WTS |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r!!!", -- [1]
 			"Darkfireball", -- [2]
@@ -1714,7 +1606,7 @@ ElvCharacterDB = {
 			[51] = 1579025836,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDarkfireball|r",
-		}, -- [94]
+		}, -- [88]
 		{
 			" |cffffd000|Htrade:51309:450:450:70000000001EB29:4+/+rqoIydiB4/PQ07CRtTBIyV3nNzlLAAAAAYEA8DAABAAAAABAAAAA+///fCPXz//9/fwA9A|h[Tailoring]|h|r", -- [1]
 			"Arnaq", -- [2]
@@ -1732,7 +1624,7 @@ ElvCharacterDB = {
 			[51] = 1579025836,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff68ccefArnaq|r",
-		}, -- [95]
+		}, -- [89]
 		{
 			"EwiDDAN Y RE Goth BArad Uden Ash E NUD E U aziris y lo VE thor NE nud kaelsig Ruff Far VA nagan Ruff va ras Daegil Noth", -- [1]
 			"Merydit", -- [2]
@@ -1750,7 +1642,7 @@ ElvCharacterDB = {
 			[51] = 1579025836,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Merydit|r",
-		}, -- [96]
+		}, -- [90]
 		{
 			"LFM icc 10n alt run,BEFORE RESET, min gs 5,3k, need 1 main tank,2 healers rest dps", -- [1]
 			"Killjaiden", -- [2]
@@ -1768,7 +1660,7 @@ ElvCharacterDB = {
 			[51] = 1579025837,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaKilljaiden|r",
-		}, -- [97]
+		}, -- [91]
 		{
 			"i need someone who can make ilvl 264 pants and boots", -- [1]
 			"Graszelda", -- [2]
@@ -1786,7 +1678,7 @@ ElvCharacterDB = {
 			[51] = 1579025838,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff9382c9Graszelda|r",
-		}, -- [98]
+		}, -- [92]
 		{
 			"LFM RS25n (Semi guild run) Need 1 hunter. 1 rdps 1 heal(STS RES) Link |cffffff00|Hachievement:4816:07000000004AD150:1:10:31:19:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Twilight Destroyer (25 player)]|h|r", -- [1]
 			"Warhearth", -- [2]
@@ -1804,7 +1696,7 @@ ElvCharacterDB = {
 			[51] = 1579025839,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dWarhearth|r",
-		}, -- [99]
+		}, -- [93]
 		{
 			"not full", -- [1]
 			"Arnaq", -- [2]
@@ -1822,7 +1714,7 @@ ElvCharacterDB = {
 			[51] = 1579025839,
 			[50] = "CHAT_MSG_GUILD",
 			[52] = "|cff68ccefArnaq|r",
-		}, -- [100]
+		}, -- [94]
 		{
 			"BOR Ash Bor Ko y lo ", -- [1]
 			"Roszfiuu", -- [2]
@@ -1840,7 +1732,7 @@ ElvCharacterDB = {
 			[51] = 1579025840,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dRoszfiuu|r",
-		}, -- [101]
+		}, -- [95]
 		{
 			"GOTH E ash rogesh UDEN ASH E AGOL VIL DANA KO E E VE RAS RUFF UDEN RUFTOS BUR VRUM ", -- [1]
 			"Rozzalia", -- [2]
@@ -1858,7 +1750,7 @@ ElvCharacterDB = {
 			[51] = 1579025842,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaRozzalia|r",
-		}, -- [102]
+		}, -- [96]
 		{
 			"LFM ICC BANE RUN// @SINDY HC// NEED 1 Heal Rshamy 1 PalaTank", -- [1]
 			"Llquidswords", -- [2]
@@ -1876,7 +1768,7 @@ ElvCharacterDB = {
 			[51] = 1579025842,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaLlquidswords|r",
-		}, -- [103]
+		}, -- [97]
 		{
 			"LF enchanter link pls //w me", -- [1]
 			"Lorinath", -- [2]
@@ -1894,7 +1786,7 @@ ElvCharacterDB = {
 			[51] = 1579025844,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaLorinath|r",
-		}, -- [104]
+		}, -- [98]
 		{
 			"BOR Ash Bor Ko y lo ", -- [1]
 			"Roszfiuu", -- [2]
@@ -1912,7 +1804,7 @@ ElvCharacterDB = {
 			[51] = 1579025846,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dRoszfiuu|r",
-		}, -- [105]
+		}, -- [99]
 		{
 			"bur ewiddan", -- [1]
 			"Reelexi", -- [2]
@@ -1930,7 +1822,7 @@ ElvCharacterDB = {
 			[51] = 1579025846,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffaad372Reelexi|r",
-		}, -- [106]
+		}, -- [100]
 		{
 			"WTB FROZEN ORB / 90g , DAMAGED NECKLACE 150/g, CARDINAL RUBY 300/g ETERNAL FIRE 80/g CRUSADER ORB 250 /g ARCTIC FUR 280/g SEND ME IN COD!!!!", -- [1]
 			"Szuzy", -- [2]
@@ -1948,7 +1840,7 @@ ElvCharacterDB = {
 			[51] = 1579025846,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfffff468Szuzy|r",
-		}, -- [107]
+		}, -- [101]
 		{
 			"LFM RS25n NEED MDPS HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
 			"Kaymakam", -- [2]
@@ -1966,7 +1858,7 @@ ElvCharacterDB = {
 			[51] = 1579025851,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [108]
+		}, -- [102]
 		{
 			"WTS |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r!!!", -- [1]
 			"Darkfireball", -- [2]
@@ -1984,7 +1876,7 @@ ElvCharacterDB = {
 			[51] = 1579025853,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDarkfireball|r",
-		}, -- [109]
+		}, -- [103]
 		{
 			"Lfm icc 25 nm need 1x dps 1x healer +5.4 (B+P+O Res) ", -- [1]
 			"Tomidt", -- [2]
@@ -2002,7 +1894,7 @@ ElvCharacterDB = {
 			[51] = 1579025854,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dTomidt|r",
-		}, -- [110]
+		}, -- [104]
 		{
 			"Bor VIL SE lu goth uden ash ash E E bur u vrum Agol va ras Goth Noth SE danieb ", -- [1]
 			"Metallaw", -- [2]
@@ -2020,7 +1912,7 @@ ElvCharacterDB = {
 			[51] = 1579025854,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dMetallaw|r",
-		}, -- [111]
+		}, -- [105]
 		{
 			"Buying all Frozen Orb70G each,Eternal Fire1500g/stack,Eternal Shadow 1000G/stack.Eternal Life 400G/stackNortrend items 75-80lvl Green/Blue 10G per item(lower lvl will be returned).C.O.D. me 24/7 anytime. ", -- [1]
 			"Zhasni", -- [2]
@@ -2038,7 +1930,7 @@ ElvCharacterDB = {
 			[51] = 1579025863,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc69b6dZhasni|r",
-		}, -- [112]
+		}, -- [106]
 		{
 			"WTB |cff1eff00|Hitem:37663:0:0:0:0:0:0:0:80|h[Titansteel Bar]|h|r |cff0070dd|Hitem:49908:0:0:0:0:0:0:0:80|h[Primordial Saronite]|h|r", -- [1]
 			"Abhu", -- [2]
@@ -2056,7 +1948,7 @@ ElvCharacterDB = {
 			[51] = 1579025864,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cfff48cbaAbhu|r",
-		}, -- [113]
+		}, -- [107]
 		{
 			"EwiDDAN Y RE Goth BArad Uden Ash E NUD E U aziris y lo VE thor NE nud kaelsig Ruff Far VA nagan Ruff va ras Daegil Noth", -- [1]
 			"Merydit", -- [2]
@@ -2074,7 +1966,7 @@ ElvCharacterDB = {
 			[51] = 1579025867,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cff9382c9Merydit|r",
-		}, -- [114]
+		}, -- [108]
 		{
 			"LFM [Onyxia's Lair (25 player)] MOUNT RUN NEED ALL 5k+ /W ME", -- [1]
 			"Xtremebaumer", -- [2]
@@ -2092,7 +1984,7 @@ ElvCharacterDB = {
 			[51] = 1579025869,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aXtremebaumer|r",
-		}, -- [115]
+		}, -- [109]
 		{
 			"LFM [Onyxia's Lair (25 player)] MOUNT RUN NEED ALL 5k+ /W ME", -- [1]
 			"Xtremebaumer", -- [2]
@@ -2110,7 +2002,7 @@ ElvCharacterDB = {
 			[51] = 1579025869,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aXtremebaumer|r",
-		}, -- [116]
+		}, -- [110]
 		{
 			"LFM ICC25 HC 8/12 NEED only 1 healer or dps 6.2 K GS (B+P=RES)", -- [1]
 			"Amanthe", -- [2]
@@ -2128,7 +2020,7 @@ ElvCharacterDB = {
 			[51] = 1579025869,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaAmanthe|r",
-		}, -- [117]
+		}, -- [111]
 		{
 			"LU UDEN ASH Ras Lordaere Nostyec SE E U O VE EYNES VOHL ", -- [1]
 			"Abysum", -- [2]
@@ -2146,7 +2038,7 @@ ElvCharacterDB = {
 			[51] = 1579025872,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aAbysum|r",
-		}, -- [118]
+		}, -- [112]
 		{
 			"WTS |cffa335ee|Hitem:1168:0:0:0:0:0:0:0:80|h[Skullflame Shield]|h|r 3.5k >> WTS |cff0070dd|Hitem:1973:0:0:0:0:0:0:0:80|h[Orb of Deception]|h|r 1.5k", -- [1]
 			"Deadsanity", -- [2]
@@ -2164,7 +2056,7 @@ ElvCharacterDB = {
 			[51] = 1579025872,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffaad372Deadsanity|r",
-		}, -- [119]
+		}, -- [113]
 		{
 			"BOR Ash Bor Ko y lo ", -- [1]
 			"Roszfiuu", -- [2]
@@ -2182,7 +2074,7 @@ ElvCharacterDB = {
 			[51] = 1579025874,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dRoszfiuu|r",
-		}, -- [120]
+		}, -- [114]
 		{
 			"WTS |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r!!!", -- [1]
 			"Darkfireball", -- [2]
@@ -2200,7 +2092,7 @@ ElvCharacterDB = {
 			[51] = 1579025877,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cff68ccefDarkfireball|r",
-		}, -- [121]
+		}, -- [115]
 		{
 			"LFM RS25n NEED MDPS HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
 			"Kaymakam", -- [2]
@@ -2218,7 +2110,7 @@ ElvCharacterDB = {
 			[51] = 1579025879,
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [122]
+		}, -- [116]
 		{
 			"BOR Ash Bor Ko y lo ", -- [1]
 			"Roszfiuu", -- [2]
@@ -2236,7 +2128,7 @@ ElvCharacterDB = {
 			[51] = 1579025880,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc69b6dRoszfiuu|r",
-		}, -- [123]
+		}, -- [117]
 		{
 			"LFM RS25n NEED MDPS HUNTER AND HEALER ( STS RESERVED ) LINK ACHI INSPECT KRASUS ", -- [1]
 			"Kaymakam", -- [2]
@@ -2254,7 +2146,7 @@ ElvCharacterDB = {
 			[51] = 1579025880,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffc41e3aKaymakam|r",
-		}, -- [124]
+		}, -- [118]
 		{
 			"LFM icc 10n alt run,BEFORE RESET, min gs 5,3k, need 1 main tank,2 healers rest dps", -- [1]
 			"Killjaiden", -- [2]
@@ -2272,7 +2164,7 @@ ElvCharacterDB = {
 			[51] = 1579025884,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaKilljaiden|r",
-		}, -- [125]
+		}, -- [119]
 		{
 			"GOTH UDEN ASH nud Ras lordaere nostyec SE Lo VE EYNES VOHL LU ko Vandar ", -- [1]
 			"Tkenplyl", -- [2]
@@ -2290,7 +2182,7 @@ ElvCharacterDB = {
 			[51] = 1579025885,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cffff7c0aTkenplyl|r",
-		}, -- [126]
+		}, -- [120]
 		{
 			"LFM TOC25 NEED ALL 5.5k gs min achiev pm B+O+P res |cffffff00|Hachievement:3916:070000000035D322:1:9:29:19:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
 			"Auksobaronas", -- [2]
@@ -2308,6 +2200,114 @@ ElvCharacterDB = {
 			[51] = 1579025887,
 			[50] = "CHAT_MSG_YELL",
 			[52] = "|cfff48cbaAuksobaronas|r",
+		}, -- [121]
+		{
+			"WTB |cffa335ee|Hitem:50182:0:0:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r W offer", -- [1]
+			"Azerothloki", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			21, -- [11]
+			"0x07000000003C9EF8", -- [12]
+			0, -- [13]
+			[51] = 1579058583,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAzerothloki|r",
+		}, -- [122]
+		{
+			" <Fade> is recruiting! We are a social-pve guild raiding at 01 AM ST , Doing daily 25man raids such as ICC 25HC / TOC 25HC / RS 25HC, Achiev raids as Ulduar 25 / TBC Raids Using Discord&DKP loot! Apply at: http://thefade.shivtr.com/", -- [1]
+			"Muusx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"AFK", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			22, -- [11]
+			"0x070000000026C211", -- [12]
+			0, -- [13]
+			[51] = 1579058584,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aMuusx|r",
+		}, -- [123]
+		{
+			"Cheap Warmane Accounts For Sale wowprivateaccounts.com - 100% Ownership - Secure payment", -- [1]
+			"Accforu", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			29, -- [11]
+			"0x070000000026C604", -- [12]
+			0, -- [13]
+			[51] = 1579058598,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffffffffAccforu|r",
+		}, -- [124]
+		{
+			"LFm VOA 25// Need Dps and Heal 5k++(Before Reset)", -- [1]
+			"Jsiempre", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			32, -- [11]
+			"0x0700000000415F0B", -- [12]
+			0, -- [13]
+			[51] = 1579058600,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dJsiempre|r",
+		}, -- [125]
+		{
+			"WTB |cffa335ee|Hitem:34057:0:0:0:0:0:0:0:80|h[Abyss Crystal]|h|r 60g/piece |cff0070dd|Hitem:34052:0:0:0:0:0:0:0:80|h[Dream Shard]|h|r 20g/piece!! SEND ME IN C.O.D!!!", -- [1]
+			"Darkthron", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			37, -- [11]
+			"0x07000000004BA69D", -- [12]
+			0, -- [13]
+			[51] = 1579058607,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aDarkthron|r",
+		}, -- [126]
+		{
+			"just dps FOR ICC 25 NM FASTTTT", -- [1]
+			"Darkiel", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			39, -- [11]
+			"0x07000000004C97F8", -- [12]
+			0, -- [13]
+			[51] = 1579058608,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffff7c0aDarkiel|r",
 		}, -- [127]
 	},
 }

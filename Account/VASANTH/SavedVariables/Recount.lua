@@ -28,15 +28,20 @@ RecountDB = {
 		["Immutability - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
-				["RowHeight"] = 17,
+				["ShowScrollbar"] = false,
 				["Position"] = {
-					["y"] = -403.0000168916482,
-					["h"] = 215.9999994529021,
-					["w"] = 264.9999970593487,
-					["x"] = 821.4996810077215,
+					["y"] = -460,
+					["h"] = 120,
+					["w"] = 230,
+					["x"] = 469,
+				},
+				["RowHeight"] = 15,
+				["BarText"] = {
+					["NumFormat"] = 3,
 				},
 			},
-			["ClampToScreen"] = true,
+			["MainWindowHeight"] = 120,
+			["FrameStrata"] = "2-LOW",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -53,9 +58,10 @@ RecountDB = {
 			["Locked"] = true,
 			["LastInstanceName"] = "Eye of the Storm",
 			["BarTexture"] = "Armory",
-			["CurDataSet"] = "CurrentFightData",
-			["Font"] = "PT Sans Narrow",
-			["FrameStrata"] = "2-LOW",
+			["CurDataSet"] = "LastFightData",
+			["ClampToScreen"] = true,
+			["Font"] = "KkUI Normal",
+			["MainWindowWidth"] = 230,
 		},
 	},
 }

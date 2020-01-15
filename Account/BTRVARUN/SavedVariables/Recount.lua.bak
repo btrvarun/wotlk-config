@@ -1,15 +1,23 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Impasse - Icecrown"] = "Impasse - Icecrown",
 	},
 	["profiles"] = {
-		["Bowbaby - Icecrown"] = {
+		["Impasse - Icecrown"] = {
+			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["ShowScrollbar"] = false,
 				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["y"] = -460,
+					["x"] = 469,
+					["w"] = 230,
+					["h"] = 120,
 				},
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
+				["RowHeight"] = 15,
 			},
 			["Colors"] = {
 				["Bar"] = {
@@ -18,7 +26,16 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["FrameStrata"] = "2-LOW",
+			["Locked"] = true,
+			["MainWindowHeight"] = 120,
+			["MainWindowWidth"] = 230,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["Font"] = "KkUI Normal",
+			["ClampToScreen"] = true,
 		},
 	},
 }

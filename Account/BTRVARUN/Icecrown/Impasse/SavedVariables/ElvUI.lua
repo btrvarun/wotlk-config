@@ -496,5 +496,23 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_CHANNEL",
 			[52] = "Spinlord",
 		}, -- [27]
+		{
+			"LFM |cffff2020|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r need dps 9/10", -- [1]
+			"Glistening", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"0x0700000000393452", -- [12]
+			0, -- [13]
+			[51] = 1579058552,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Glistening",
+		}, -- [28]
 	},
 }

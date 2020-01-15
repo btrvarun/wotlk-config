@@ -1,2 +1,12 @@
-KkthnxUI_Config: disabled
-KkthnxUI: disabled
+KkthnxUI_Config: enabled
+KkthnxUI: enabled
+ElvUI_VisualProcs: disabled
+ElvUI_SwingBar: disabled
+ElvUI_RaidMarkers: disabled
+ElvUI_OptionsUI: disabled
+ElvUI_FogofWar: disabled
+ElvUI_Enhanced: disabled
+ElvUI_CustomTags: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI: disabled
+ElvUI_AddOnSkins: disabled

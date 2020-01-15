@@ -1,0 +1,10 @@
+ElvUI: disabled
+ElvUI_AddOnSkins: disabled
+ElvUI_CastBarOverlay: disabled
+ElvUI_CustomTags: disabled
+ElvUI_Enhanced: disabled
+ElvUI_FogofWar: disabled
+ElvUI_OptionsUI: disabled
+ElvUI_RaidMarkers: disabled
+ElvUI_SwingBar: disabled
+ElvUI_VisualProcs: disabled

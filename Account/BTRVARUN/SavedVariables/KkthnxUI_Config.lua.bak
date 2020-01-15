@@ -1,7 +1,7 @@
 
 GUIConfigAll = {
 	["Icecrown"] = {
-		["Invariably"] = false,
+		["Immutability"] = false,
 	},
 }
 GUIConfigSettings = nil

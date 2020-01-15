@@ -1,6 +1,6 @@
 
 SavedOptionsPerChar = {
-	["Install"] = true,
+	["Install"] = false,
 }
 SavedPositions = {
 }
