@@ -1,6 +1,7 @@
 
 GUIConfigAll = {
 	["Icecrown"] = {
+		["Garzh"] = false,
 		["Invariably"] = false,
 		["Impasse"] = false,
 		["Immutability"] = false,
@@ -28,6 +29,11 @@ GUIConfigSettings = {
 		["ComboFrame"] = true,
 		["ClassHealth"] = true,
 	},
+	["Misc"] = {
+		["DurabilityWarninig"] = true,
+		["BGSpam"] = true,
+		["SpeedyLoad"] = true,
+	},
 	["Automation"] = {
 		["Resurrection"] = true,
 		["AutoInvite"] = true,
@@ -39,21 +45,20 @@ GUIConfigSettings = {
 		["CLCRet"] = true,
 		["Skada"] = true,
 		["WorldMap"] = true,
-		["WeakAuras"] = true,
-		["Recount"] = true,
 		["Spy"] = true,
+		["Recount"] = true,
+		["WeakAuras"] = true,
 		["DBM"] = true,
+	},
+	["Aura"] = {
+		["CastBy"] = true,
+	},
+	["PowerBar"] = {
+		["Enable"] = true,
+		["Height"] = 20,
 	},
 	["PulseCD"] = {
 		["Enable"] = true,
 		["Sound"] = true,
-	},
-	["Misc"] = {
-		["DurabilityWarninig"] = true,
-		["BGSpam"] = true,
-		["SpeedyLoad"] = true,
-	},
-	["Aura"] = {
-		["CastBy"] = true,
 	},
 }

@@ -2,6 +2,11 @@
 Quartz3DB = {
 	["namespaces"] = {
 		["Swing"] = {
+			["profiles"] = {
+				["Default"] = {
+					["swingposition"] = "bottom",
+				},
+			},
 		},
 		["Buff"] = {
 		},
@@ -20,9 +25,10 @@ Quartz3DB = {
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
-					["y"] = 336.6664801518689,
-					["font"] = "KkUI Normal",
-					["x"] = 675.8332590533934,
+					["y"] = 253.0065778266275,
+					["font"] = "KkthnxUI_Normal",
+					["border"] = "KkthnxUI_Border",
+					["x"] = 676.6698199110953,
 				},
 			},
 		},
@@ -59,13 +65,14 @@ Quartz3DB = {
 		["Default"] = {
 			["borderalpha"] = 0,
 			["modules"] = {
+				["Swing"] = false,
+				["GCD"] = false,
 				["Buff"] = false,
 				["Target"] = false,
-				["Focus"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
+				["Mirror"] = false,
+				["Focus"] = false,
 			},
-			["backgroundalpha"] = 0,
 		},
 	},
 }

@@ -52,7 +52,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["Owner"] = false,
-			["LastActive"] = 1579057583,
+			["LastAbility"] = 54168.722,
 			["NextEventNum"] = 13,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -83,22 +83,7 @@ RecountPerCharDB = {
 				"Dyips Regrowth Immutability Tick +199 (199 overheal)", -- [12]
 			},
 			["Name"] = "Immutability",
-			["LastEventTimes"] = {
-				52747.557, -- [1]
-				52750.21, -- [2]
-				52750.518, -- [3]
-				52753.092, -- [4]
-				52753.499, -- [5]
-				52756.064, -- [6]
-				52756.489, -- [7]
-				52759.027, -- [8]
-				52759.522, -- [9]
-				52762.031, -- [10]
-				52762.555, -- [11]
-				52765.491, -- [12]
-			},
-			["Fights"] = {
-			},
+			["UnitLockout"] = 1579057565,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -113,8 +98,23 @@ RecountPerCharDB = {
 				true, -- [11]
 				true, -- [12]
 			},
-			["UnitLockout"] = 1579057565,
-			["LastAbility"] = 53808.787,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				52747.557, -- [1]
+				52750.21, -- [2]
+				52750.518, -- [3]
+				52753.092, -- [4]
+				52753.499, -- [5]
+				52756.064, -- [6]
+				52756.489, -- [7]
+				52759.027, -- [8]
+				52759.522, -- [9]
+				52762.031, -- [10]
+				52762.555, -- [11]
+				52765.491, -- [12]
+			},
+			["LastActive"] = 1579057583,
 		},
 		["Zoulaykha"] = {
 			["GUID"] = "0x0700000000227577",
@@ -139,7 +139,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["LastActive"] = 1579057657,
+			["LastAbility"] = 54168.722,
 			["NextEventNum"] = 4,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -152,20 +152,20 @@ RecountPerCharDB = {
 				"Zoulaykha Fel Armor Zoulaykha Tick +617 (617 overheal)", -- [3]
 			},
 			["Name"] = "Zoulaykha",
-			["LastEventTimes"] = {
-				52829.863, -- [1]
-				52834.835, -- [2]
-				52839.862, -- [3]
-			},
-			["Fights"] = {
-			},
+			["UnitLockout"] = 1579057647,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
 				true, -- [3]
 			},
-			["UnitLockout"] = 1579057647,
-			["LastAbility"] = 53808.787,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				52829.863, -- [1]
+				52834.835, -- [2]
+				52839.862, -- [3]
+			},
+			["LastActive"] = 1579057657,
 		},
 	},
 	["FightNum"] = 0,
