@@ -4,7 +4,7 @@ FrameLevel: 0
 Anchor: TOPRIGHT
 X: 374
 Y: -151
-W: 64
+W: 105
 H: 32
 Frame: WorldMapScreenAnchor
 FrameLevel: 0

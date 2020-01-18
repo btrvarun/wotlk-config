@@ -25,7 +25,7 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -34,11 +34,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["CurDataSet"] = "OverallData",
+			["DetailWindowY"] = 0,
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -57,7 +57,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
-			["GraphWindowX"] = 0,
+			["ClampToScreen"] = true,
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -66,21 +66,21 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["ClampToScreen"] = true,
+			["DetailWindowY"] = 0,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["ShowScrollbar"] = false,
 				["Position"] = {
-					["y"] = -329.2647180452246,
-					["x"] = 664.6373772782439,
-					["w"] = 264.9999970593487,
-					["h"] = 242.9999906309482,
+					["y"] = -460,
+					["x"] = 469,
+					["w"] = 230,
+					["h"] = 120,
 				},
 				["RowHeight"] = 15,
 				["BarText"] = {
@@ -88,7 +88,6 @@ RecountDB = {
 				},
 			},
 			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -104,8 +103,9 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["LastInstanceName"] = "Warsong Gulch",
-			["CurDataSet"] = "OverallData",
 			["Font"] = "KkUI Normal",
+			["ClampToScreen"] = true,
+			["CurDataSet"] = "OverallData",
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
 		},
@@ -126,8 +126,8 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
+			["DetailWindowY"] = 0,
 			["CurDataSet"] = "OverallData",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -139,7 +139,7 @@ RecountDB = {
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["DetailWindowY"] = 0,
+			["ClampToScreen"] = true,
 		},
 	},
 }
