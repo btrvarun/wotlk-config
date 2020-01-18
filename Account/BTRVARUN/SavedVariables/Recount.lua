@@ -25,8 +25,8 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -34,11 +34,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["ClampToScreen"] = true,
+			["CurDataSet"] = "OverallData",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -60,15 +60,19 @@ RecountDB = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
 				},
 			},
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["CurDataSet"] = "OverallData",
-			["Font"] = "KkUI Normal",
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "CurrentFightData",
 			["ClampToScreen"] = true,
+			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
 			["MainWindowHeight"] = 120,
 		},
@@ -90,8 +94,8 @@ RecountDB = {
 			["DetailWindowX"] = 76.00000629162604,
 			["LastInstanceName"] = "Warsong Gulch",
 			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
 			["MainWindowHeight"] = 120,
+			["DetailWindowY"] = 88.99999815354454,
 			["Font"] = "KkUI Normal",
 			["Colors"] = {
 				["Bar"] = {
@@ -103,11 +107,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 88.99999815354454,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["ClampToScreen"] = true,
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -126,8 +130,8 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
-			["ClampToScreen"] = true,
 			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -135,11 +139,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 		},
 	},
 }

@@ -43,6 +43,20 @@ SavedPositions = {
 		-254.6731518741762, -- [4]
 		114.6816671796849, -- [5]
 	},
+	["MinimapAnchor"] = {
+		"TOPLEFT", -- [1]
+		"UIParent", -- [2]
+		"TOPLEFT", -- [3]
+		-0, -- [4]
+		-0, -- [5]
+	},
+	["T_DE_BUFF_BAR_Anchor"] = {
+		"BOTTOM", -- [1]
+		"UIParent", -- [2]
+		"BOTTOM", -- [3]
+		-344.2506753410865, -- [4]
+		-0, -- [5]
+	},
 	["COOLDOWN_Anchor"] = {
 		"BOTTOM", -- [1]
 		"UIParent", -- [2]
@@ -50,19 +64,12 @@ SavedPositions = {
 		-180.9705016429692, -- [4]
 		154.3517107854405, -- [5]
 	},
-	["MinimapAnchor"] = {
-		"TOPLEFT", -- [1]
-		"UIParent", -- [2]
-		"TOPLEFT", -- [3]
-		0, -- [4]
-		0, -- [5]
-	},
 	["BuffsAnchor"] = {
 		"TOPRIGHT", -- [1]
 		"UIParent", -- [2]
 		"TOPRIGHT", -- [3]
 		-130.5099014122717, -- [4]
-		0, -- [5]
+		-0, -- [5]
 	},
 	["PowerBarAnchor"] = {
 		"CENTER", -- [1]
