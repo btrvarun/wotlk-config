@@ -97,3 +97,17 @@ X: 135
 Y: -45
 W: 1
 H: 1
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 93
+Anchor: TOP
+X: -55
+Y: -51
+W: 648
+H: 420
+Frame: RBSFrame
+FrameLevel: 67
+Anchor: RIGHT
+X: -82
+Y: 3
+W: 128
+H: 164

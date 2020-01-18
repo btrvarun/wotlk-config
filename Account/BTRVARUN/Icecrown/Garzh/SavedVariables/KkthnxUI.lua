@@ -2,10 +2,10 @@
 SavedOptionsPerChar = {
 	["SplitBars"] = true,
 	["AutoInvite"] = false,
-	["BarsLocked"] = false,
-	["BottomBars"] = 3,
-	["RightBars"] = 2,
 	["Install"] = true,
+	["RightBars"] = 2,
+	["BottomBars"] = 3,
+	["BarsLocked"] = false,
 }
 SavedPositions = {
 	["RightActionBarAnchor"] = {
@@ -50,12 +50,12 @@ SavedPositions = {
 		-180.9705016429692, -- [4]
 		154.3517107854405, -- [5]
 	},
-	["PowerBarAnchor"] = {
-		"CENTER", -- [1]
+	["MinimapAnchor"] = {
+		"TOPLEFT", -- [1]
 		"UIParent", -- [2]
-		"CENTER", -- [3]
-		-3.346430264745469, -- [4]
-		-163.1569409868046, -- [5]
+		"TOPLEFT", -- [3]
+		0, -- [4]
+		0, -- [5]
 	},
 	["BuffsAnchor"] = {
 		"TOPRIGHT", -- [1]
@@ -64,11 +64,11 @@ SavedPositions = {
 		-130.5099014122717, -- [4]
 		0, -- [5]
 	},
-	["MinimapAnchor"] = {
-		"TOPLEFT", -- [1]
+	["PowerBarAnchor"] = {
+		"CENTER", -- [1]
 		"UIParent", -- [2]
-		"TOPLEFT", -- [3]
-		0, -- [4]
-		0, -- [5]
+		"CENTER", -- [3]
+		-3.346430264745469, -- [4]
+		-163.1569409868046, -- [5]
 	},
 }
