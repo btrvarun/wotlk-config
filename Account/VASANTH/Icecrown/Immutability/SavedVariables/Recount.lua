@@ -52,6 +52,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["Owner"] = false,
+			["LastActive"] = 1579057583,
 			["NextEventNum"] = 13,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -82,20 +83,6 @@ RecountPerCharDB = {
 				"Dyips Regrowth Immutability Tick +199 (199 overheal)", -- [12]
 			},
 			["Name"] = "Immutability",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-			},
 			["LastEventTimes"] = {
 				52747.557, -- [1]
 				52750.21, -- [2]
@@ -112,8 +99,22 @@ RecountPerCharDB = {
 			},
 			["Fights"] = {
 			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+			},
 			["UnitLockout"] = 1579057565,
-			["LastActive"] = 1579057583,
+			["LastAbility"] = 80290.89600000001,
 		},
 		["Zoulaykha"] = {
 			["GUID"] = "0x0700000000227577",
@@ -136,8 +137,9 @@ RecountPerCharDB = {
 				2.598222933423169, -- [2]
 				2.598222933423169, -- [3]
 			},
-			["type"] = "Grouped",
+			["type"] = "Ungrouped",
 			["Owner"] = false,
+			["LastActive"] = 1579057657,
 			["NextEventNum"] = 4,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -150,11 +152,6 @@ RecountPerCharDB = {
 				"Zoulaykha Fel Armor Zoulaykha Tick +617 (617 overheal)", -- [3]
 			},
 			["Name"] = "Zoulaykha",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-			},
 			["LastEventTimes"] = {
 				52829.863, -- [1]
 				52834.835, -- [2]
@@ -162,8 +159,13 @@ RecountPerCharDB = {
 			},
 			["Fights"] = {
 			},
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+			},
 			["UnitLockout"] = 1579057647,
-			["LastActive"] = 1579057657,
+			["LastAbility"] = 80290.89600000001,
 		},
 	},
 	["FightNum"] = 0,

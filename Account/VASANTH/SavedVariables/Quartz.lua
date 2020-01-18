@@ -21,7 +21,7 @@ Quartz3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["y"] = 336.6664801518689,
-					["font"] = "KkUI Normal",
+					["font"] = "KkthnxUI_Normal",
 					["x"] = 675.8332590533934,
 				},
 			},
@@ -63,8 +63,8 @@ Quartz3DB = {
 				["Buff"] = false,
 				["Target"] = false,
 				["Focus"] = false,
-				["Mirror"] = false,
 				["Pet"] = false,
+				["Mirror"] = false,
 			},
 			["backgroundalpha"] = 0,
 		},

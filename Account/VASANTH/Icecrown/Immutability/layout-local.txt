@@ -35,7 +35,7 @@ Y: 29
 W: 265
 H: 216
 Frame: SkadaBarWindowSkada
-FrameLevel: 27
+FrameLevel: 26
 Anchor: BOTTOMRIGHT
 X: -272
 Y: 221
@@ -108,6 +108,6 @@ Frame: VdAc1
 FrameLevel: 12
 Anchor: LEFT
 X: 0
-Y: -6
-W: 405
-H: 168
+Y: 58
+W: 85
+H: 40

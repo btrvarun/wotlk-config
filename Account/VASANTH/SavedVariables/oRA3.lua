@@ -30,10 +30,10 @@ oRA3DB = {
 			["lastSelectedList"] = 1,
 			["positions"] = {
 				["oRA3CooldownFrame"] = {
-					["Height"] = 353.9999426914934,
-					["PosX"] = 172.0889557898117,
-					["PosY"] = 763.0222016477031,
-					["Width"] = 384.9998936578426,
+					["Height"] = 353.9999076772267,
+					["PosX"] = 2.844400268190144,
+					["PosY"] = 611.5554852791223,
+					["Width"] = 384.999858643576,
 				},
 			},
 			["lastSelectedPanel"] = "Checks",

@@ -47,7 +47,7 @@ SavedPositions = {
 		"TOPRIGHT", -- [1]
 		"UIParent", -- [2]
 		"TOPRIGHT", -- [3]
-		0, -- [4]
+		-125.4903787018611, -- [4]
 		0, -- [5]
 	},
 	["PVE_PVP_DEBUFF_Anchor"] = {

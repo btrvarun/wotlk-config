@@ -25,7 +25,7 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -34,11 +34,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -57,8 +57,8 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -70,29 +70,25 @@ RecountDB = {
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["ClampToScreen"] = true,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
-				["RowHeight"] = 15,
 				["ShowScrollbar"] = false,
+				["Position"] = {
+					["y"] = -329.2647180452246,
+					["x"] = 664.6373772782439,
+					["w"] = 264.9999970593487,
+					["h"] = 242.9999906309482,
+				},
+				["RowHeight"] = 15,
 				["BarText"] = {
 					["NumFormat"] = 3,
 				},
-				["Position"] = {
-					["y"] = -460,
-					["x"] = 469,
-					["w"] = 230,
-					["h"] = 120,
-				},
 			},
-			["DetailWindowX"] = 76.00000629162604,
-			["LastInstanceName"] = "Warsong Gulch",
 			["FrameStrata"] = "2-LOW",
-			["MainWindowHeight"] = 120,
-			["DetailWindowY"] = 88.99999815354454,
-			["Font"] = "KkUI Normal",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -103,27 +99,35 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = 88.99999815354454,
+			["DetailWindowX"] = 76.00000629162604,
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
+			["LastInstanceName"] = "Warsong Gulch",
 			["CurDataSet"] = "OverallData",
+			["Font"] = "KkUI Normal",
+			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
-			["ClampToScreen"] = true,
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["RowHeight"] = 15,
 				["ShowScrollbar"] = false,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
 				["Position"] = {
 					["y"] = -460,
 					["x"] = 469,
 					["w"] = 230,
 					["h"] = 120,
 				},
-				["BarText"] = {
-					["NumFormat"] = 3,
-				},
-				["RowHeight"] = 15,
 			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 120,
+			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -131,15 +135,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["Locked"] = true,
-			["MainWindowHeight"] = 120,
-			["MainWindowWidth"] = 230,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
+			["Locked"] = true,
 			["Font"] = "KkUI Normal",
-			["ClampToScreen"] = true,
+			["MainWindowWidth"] = 230,
+			["DetailWindowY"] = 0,
 		},
 	},
 }

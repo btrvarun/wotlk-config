@@ -183,7 +183,7 @@ ActionBarSaverDB = {
 				"spell|33||Divine Plea||54428", -- [22]
 				"item|54589||Glowing Twilight Scale", -- [23]
 				nil, -- [24]
-				"spell|114||Righteous Fury||25780", -- [25]
+				nil, -- [25]
 				"item|49888||Shadow's Edge", -- [26]
 				"spell|51||Flash of Light|Rank 9|48785", -- [27]
 				"macro|28||cancelaura|Interface\\Icons\\INV_Misc_QuestionMark|/cancelaura Righteous Fury/n/startattack", -- [28]
