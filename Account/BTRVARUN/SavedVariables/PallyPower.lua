@@ -20,6 +20,7 @@ PallyPowerDB = {
 				["r"] = 0.5,
 			},
 			["display"] = {
+				["hideDragHandle"] = true,
 				["frameLocked"] = true,
 			},
 			["cBuffGood"] = {

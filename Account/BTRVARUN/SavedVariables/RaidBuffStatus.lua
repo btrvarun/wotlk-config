@@ -2,6 +2,7 @@
 RaidBuffStatusDB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Impasse - Icecrown",
+		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
@@ -11,7 +12,10 @@ RaidBuffStatusDB = {
 		["Impasse - Icecrown"] = {
 			["TellWizard"] = false,
 		},
+		["Bowbaby - Icecrown"] = {
+		},
 		["Invariably - Icecrown"] = {
+			["TellWizard"] = false,
 		},
 		["Garzh - Icecrown"] = {
 		},

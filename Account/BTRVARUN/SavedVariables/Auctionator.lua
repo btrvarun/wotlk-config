@@ -460,7 +460,6 @@ AUCTIONATOR_TOONS = {
 	},
 	["Bowbaby"] = {
 		["firstSeen"] = 1570971530,
-		["guid"] = "0x070000000000615D",
 		["firstVersion"] = "2.6.3",
 	},
 	["Impasse"] = {
@@ -469,8 +468,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Garzh"] = {
 		["firstSeen"] = 1570975141,
-		["guid"] = "0x0700000000003290",
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x0700000000003290",
 	},
 	["Kamakshi"] = {
 		["firstSeen"] = 1574496897,

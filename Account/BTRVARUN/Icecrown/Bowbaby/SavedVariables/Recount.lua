@@ -52,6 +52,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["Owner"] = false,
+			["LastAbility"] = 62322.313,
 			["NextEventNum"] = 13,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -96,6 +97,9 @@ RecountPerCharDB = {
 				true, -- [11]
 				true, -- [12]
 			},
+			["UnitLockout"] = 1579057565,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				52747.557, -- [1]
 				52750.21, -- [2]
@@ -110,9 +114,6 @@ RecountPerCharDB = {
 				52762.555, -- [11]
 				52765.491, -- [12]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1579057565,
 			["LastActive"] = 1579057583,
 		},
 		["Zoulaykha"] = {
@@ -136,8 +137,9 @@ RecountPerCharDB = {
 				2.598222933423169, -- [2]
 				2.598222933423169, -- [3]
 			},
-			["type"] = "Grouped",
+			["type"] = "Ungrouped",
 			["Owner"] = false,
+			["LastAbility"] = 62322.313,
 			["NextEventNum"] = 4,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -155,14 +157,14 @@ RecountPerCharDB = {
 				true, -- [2]
 				true, -- [3]
 			},
+			["UnitLockout"] = 1579057647,
+			["Fights"] = {
+			},
 			["LastEventTimes"] = {
 				52829.863, -- [1]
 				52834.835, -- [2]
 				52839.862, -- [3]
 			},
-			["Fights"] = {
-			},
-			["UnitLockout"] = 1579057647,
 			["LastActive"] = 1579057657,
 		},
 	},

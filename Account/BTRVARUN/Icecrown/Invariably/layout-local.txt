@@ -23,8 +23,8 @@ H: 200
 Frame: Binder_Frame
 FrameLevel: 0
 Anchor: BOTTOMRIGHT
-X: 33
-Y: 58
+X: -69
+Y: 66
 W: 600
 H: 360
 Frame: DBMMinimapButton

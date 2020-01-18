@@ -3,8 +3,9 @@ GUIConfigAll = {
 	["Icecrown"] = {
 		["Garzh"] = false,
 		["Invariably"] = false,
-		["Impasse"] = false,
 		["Immutability"] = false,
+		["Bowbaby"] = false,
+		["Impasse"] = false,
 	},
 }
 GUIConfigSettings = {

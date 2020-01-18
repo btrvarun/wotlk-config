@@ -58,6 +58,15 @@ MACRO 16777227 "pack" INV_Misc_QuestionMark
 #showtooltip
 /cast !aspect of the pack
 END
+MACRO 16777217 "ss" INV_Misc_QuestionMark
+#showtooltip serpent sting
+/petattack
+/cancelaura deterrence
+/cast !aspect of the dragonhawk
+/cast serpent sting
+/cast kill command
+/cast silencing shot
+END
 MACRO 16777219 "ss" INV_Misc_QuestionMark
 #showtooltip steady shot
 /use 10
@@ -67,15 +76,6 @@ MACRO 16777219 "ss" INV_Misc_QuestionMark
 /cast steady shot
 /cast silencing shot
 /cast Kill Command
-END
-MACRO 16777217 "ss" INV_Misc_QuestionMark
-#showtooltip serpent sting
-/petattack
-/cancelaura deterrence
-/cast !aspect of the dragonhawk
-/cast serpent sting
-/cast kill command
-/cast silencing shot
 END
 MACRO 16777234 "ss bm" INV_Misc_QuestionMark
 #showtooltip steady shot
@@ -100,4 +100,10 @@ END
 MACRO 16777226 "viper" INV_Misc_QuestionMark
 #showtooltip
 /cast !aspect of the viper
+END
+MACRO 16777236 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777237 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bow[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
