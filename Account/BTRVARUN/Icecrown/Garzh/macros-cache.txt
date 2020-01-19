@@ -8,8 +8,8 @@ MACRO 16777217 "rebirth" INV_Misc_QuestionMark
 /cast [@mouseover] rebirth
 END
 MACRO 16777219 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
-R4MR3HR4IR3DR1PT5IH4IR2PM1WM4MR5SH2PM2EM1EM5PH1WM5DH2DT4LR3RM3HR1RM5DM3PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2DM[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__[x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 MACRO 16777220 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
-NSkiWilFatFenMonVelCptStaMetIpeOyaEnfGulDeaJylBenIhaTeqClaAssZorShiLalHoe[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gar[x]Ama[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tho[x]Ace[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
