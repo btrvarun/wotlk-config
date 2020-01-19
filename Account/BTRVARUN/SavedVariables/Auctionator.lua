@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_10000"] = 200,
+	["_200000"] = 1000,
 	["_50000"] = 500,
-	["_500"] = 5,
+	["STARTING_DISCOUNT"] = 5,
 	["_1000000"] = 2500,
 	["_5000000"] = 10000,
-	["STARTING_DISCOUNT"] = 5,
-	["_200000"] = 1000,
+	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -40,54 +40,55 @@ AUCTIONATOR_PRICING_HISTORY = {
 AUCTIONATOR_SHOPPING_LISTS = {
 	{
 		["items"] = {
-			"frost wyrm", -- [1]
-			"endless rage", -- [2]
-			"Damaged ", -- [3]
-			"token", -- [4]
-			"Dalaran's token", -- [5]
-			"bright card", -- [6]
-			"nerubian chitin", -- [7]
-			"relentless earthsie", -- [8]
-			"Delicate scarlet", -- [9]
-			"enchant gloves", -- [10]
-			"heartseeker", -- [11]
-			"Delicate cardinal", -- [12]
-			"Gloves", -- [13]
-			"Iceblade Arrow", -- [14]
-			"eternal belt", -- [15]
-			"moonshroud", -- [16]
-			"frostweave cloth", -- [17]
-			"netherweave", -- [18]
-			"neatherweave", -- [19]
-			"bolt of netherweave", -- [20]
-			"knothide leather", -- [21]
-			"runecloth", -- [22]
-			"mageweave cloth", -- [23]
-			"mageweave", -- [24]
-			"silk cloth", -- [25]
-			"wool cloth", -- [26]
-			"linen cloth", -- [27]
-			"scarlet ruby", -- [28]
-			"Greater intellect", -- [29]
-			"runed cardinal", -- [30]
-			"superior potency", -- [31]
-			"cardinal ruby", -- [32]
-			"Death", -- [33]
-			"feint", -- [34]
-			"mend ", -- [35]
-			"revive pet", -- [36]
-			"steady", -- [37]
-			"bestial wrath", -- [38]
-			"powerful stat", -- [39]
-			"scope", -- [40]
-			"relentless", -- [41]
-			"monarch topaz", -- [42]
-			"Arctic fur", -- [43]
-			"knothide", -- [44]
-			"rugged leather", -- [45]
-			"thick leather", -- [46]
-			"heavy leather", -- [47]
-			"medium leather", -- [48]
+			"king's ambe", -- [1]
+			"cardinal ruby", -- [2]
+			"frost wyrm", -- [3]
+			"endless rage", -- [4]
+			"Damaged ", -- [5]
+			"token", -- [6]
+			"Dalaran's token", -- [7]
+			"bright card", -- [8]
+			"nerubian chitin", -- [9]
+			"relentless earthsie", -- [10]
+			"Delicate scarlet", -- [11]
+			"enchant gloves", -- [12]
+			"heartseeker", -- [13]
+			"Delicate cardinal", -- [14]
+			"Gloves", -- [15]
+			"Iceblade Arrow", -- [16]
+			"eternal belt", -- [17]
+			"moonshroud", -- [18]
+			"frostweave cloth", -- [19]
+			"netherweave", -- [20]
+			"neatherweave", -- [21]
+			"bolt of netherweave", -- [22]
+			"knothide leather", -- [23]
+			"runecloth", -- [24]
+			"mageweave cloth", -- [25]
+			"mageweave", -- [26]
+			"silk cloth", -- [27]
+			"wool cloth", -- [28]
+			"linen cloth", -- [29]
+			"scarlet ruby", -- [30]
+			"Greater intellect", -- [31]
+			"runed cardinal", -- [32]
+			"superior potency", -- [33]
+			"Death", -- [34]
+			"feint", -- [35]
+			"mend ", -- [36]
+			"revive pet", -- [37]
+			"steady", -- [38]
+			"bestial wrath", -- [39]
+			"powerful stat", -- [40]
+			"scope", -- [41]
+			"relentless", -- [42]
+			"monarch topaz", -- [43]
+			"Arctic fur", -- [44]
+			"knothide", -- [45]
+			"rugged leather", -- [46]
+			"thick leather", -- [47]
+			"heavy leather", -- [48]
+			"medium leather", -- [49]
 		},
 		["isRecents"] = 1,
 		["name"] = "Recent Searches",
@@ -198,7 +199,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Pattern: Red Mageweave Headband"] = 500000,
 		["Royal Gloves of Healing"] = 350000,
 		["Pattern: Heavy Earthen Gloves"] = 200000,
-		["Runed Cardinal Ruby"] = 3303333,
+		["Runed Cardinal Ruby"] = 3965000,
 		["Outlander's Gloves of Fire Protection"] = 250000,
 		["Councillor's Gloves of Fiery Wrath"] = 1250000,
 		["Icy Dragonscale"] = 34600,
@@ -210,7 +211,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Rugged Leather"] = 31125,
 		["Steady Forest Emerald"] = 889550,
 		["Gossamer Gloves of the Owl"] = 6630000,
-		["Cardinal Ruby"] = 3240000,
+		["Cardinal Ruby"] = 3800000,
 		["Pattern: Red Mageweave Shoulders"] = 550000,
 		["Pattern: Dark Leather Gloves"] = 30000,
 		["Wendigo Gloves of Shadow Protection"] = 550000,
@@ -252,7 +253,7 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Westguard Gloves of Spell Power"] = 140000,
 		["Red Mageweave Vest"] = 582000,
 		["Glyph of Mend Pet"] = 98788,
-		["Subtle Cardinal Ruby"] = 3988749,
+		["Subtle Cardinal Ruby"] = 3959900,
 		["Pattern: Frostweave Gloves"] = 50000,
 		["Frostweave Cloth"] = 5200,
 		["Nightshade Gloves of the Monkey"] = 2200000,
@@ -260,190 +261,197 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Footpads of Impending Death"] = 65930000,
 		["Recipe: Transmute Undeath to Water"] = 430000,
 		["Trapper Gloves of the Owl"] = 700000,
-		["Silk Cloth"] = 700,
-		["Scroll of Enchant Weapon - Superior Potency"] = 3200000,
-		["Scarlet Ruby"] = 1319998,
-		["Four of Undeath"] = 3990000,
 		["Ebonweave Gloves"] = 7590000,
-		["Moonshroud Gloves"] = 2959998,
 		["Harbinger's Bone Band"] = 4641000,
+		["Silk Cloth"] = 700,
+		["Pattern: Gloves of the Greatfather"] = 251500,
+		["Scroll of Enchant Weapon - Superior Potency"] = 3200000,
+		["King's Amber"] = 2950000,
+		["Scarlet Ruby"] = 1319998,
+		["Vileprey Gloves of the Physician"] = 209000,
+		["Flask of Endless Rage"] = 1095000,
+		["Four of Undeath"] = 3990000,
+		["Scroll of Enchant Gloves - Blasting"] = 3000000,
+		["Scroll of Enchant Gloves - Greater Agility"] = 1230000,
+		["Moonshroud Gloves"] = 2959998,
+		["Wool Cloth"] = 9500,
 		["Linen Cloth"] = 115,
 		["Black Mageweave Leggings"] = 100000,
 		["Buccaneer's Gloves of Spirit"] = 11000000,
 		["Black Mageweave Boots"] = 40000,
-		["Pattern: Gloves of the Greatfather"] = 251500,
+		["Kaleidoscope Chain"] = 2704811,
 		["Wicked Monarch Topaz"] = 849696,
-		["Wool Cloth"] = 9500,
-		["Scroll of Enchant Gloves - Fishing"] = 1418529,
+		["Buccaneer's Gloves of the Whale"] = 9900000,
+		["Runecloth"] = 2490,
 		["Bolt of Imbued Netherweave"] = 290000,
-		["Vileprey Gloves of the Physician"] = 209000,
+		["Scroll of Enchant Gloves - Fishing"] = 1418529,
 		["Heartseeker Scope"] = 1877500,
 		["Scroll of Enchant Weapon - Deathfrost"] = 6400000,
-		["Bolt of Silk Cloth"] = 8999,
-		["Scroll of Enchant Gloves - Blasting"] = 3000000,
-		["Scroll of Enchant Gloves - Greater Agility"] = 1230000,
+		["Red Mageweave Bag"] = 79500,
+		["Reckless Monarch Topaz"] = 579998,
+		["Veiled Monarch Topaz"] = 900050,
 		["Glyph of Feign Death"] = 267186,
 		["Steadfast Gloves of the Eagle"] = 27568913,
 		["Pattern: Royal Moonshroud Bracers"] = 12990000,
-		["Ichor of Undeath"] = 10000,
-		["Kaleidoscope Chain"] = 2704811,
+		["Eye of Zul"] = 2150000,
+		["Foothold Gloves of the Owl"] = 200000,
 		["Scroll of Enchant Gloves - Precision"] = 666666,
 		["Deadly Monarch Topaz"] = 480500,
-		["Buccaneer's Gloves of the Whale"] = 9900000,
-		["Vizier Gloves of the Prophet"] = 300000,
-		["Eye of Zul"] = 2150000,
-		["Phoenix Gloves"] = 884300,
 		["Leggings of Woven Death"] = 71990000,
-		["Metalworking Gloves"] = 2500000,
-		["Reckless Monarch Topaz"] = 579998,
-		["Frostweave Bag"] = 1110000,
-		["Precise Cardinal Ruby"] = 3879900,
+		["Vizier Gloves of the Prophet"] = 300000,
+		["Gloves of Old"] = 2000000,
+		["Rigid King's Amber"] = 3500000,
+		["Pattern: Tough Scorpid Gloves"] = 29800,
+		["Pristine Monarch Topaz"] = 111000,
 		["Winterfin Gloves of Shadow Protection"] = 1000000,
+		["Frostweave Bag"] = 1110000,
+		["Precise Cardinal Ruby"] = 3895000,
+		["Wendigo Gloves of Spirit"] = 1000000,
 		["Bonecaster's Gloves of the Owl"] = 871200,
 		["Glyph of Death and Decay"] = 105883,
 		["Guardian Gloves"] = 40000,
-		["Scroll of Enchant Gloves - Assault"] = 1100000,
+		["Bolt of Mageweave"] = 44400,
 		["Halgrind Gloves of the Physician"] = 6000000,
 		["Scroll of Enchant Gloves - Greater Assault"] = 739000,
 		["Flask of the Frost Wyrm"] = 1140000,
-		["Foothold Gloves of the Owl"] = 200000,
+		["Warden's Gloves"] = 15004999,
 		["Fel Iron Chain Gloves"] = 500000,
 		["Magefist Gloves"] = 3203000,
-		["Embossed Leather Gloves"] = 20000,
-		["Pattern: Tough Scorpid Gloves"] = 29800,
-		["Pristine Monarch Topaz"] = 111000,
+		["Baleheim Gloves of the Tiger"] = 250000,
+		["Bright Cardinal Ruby"] = 3849800,
+		["Scroll of Enchant Gloves - Advanced Mining"] = 4764447,
 		["Steady Eye of Zul"] = 2179900,
 		["Six of Undeath"] = 2050000,
-		["Scroll of Enchant Gloves - Major Healing"] = 29999990,
-		["Wendigo Gloves of Spirit"] = 1000000,
-		["Bolt of Mageweave"] = 44400,
+		["Elixir of Greater Intellect"] = 12000,
+		["Eight of Undeath"] = 2600000,
+		["Seven of Undeath"] = 2200000,
 		["Undeath Deck"] = 14450000,
-		["Warden's Gloves"] = 15004999,
+		["Scroll of Enchant Gloves - Crusher"] = 1492500,
 		["Sun Scope"] = 340000,
-		["Lavender Mageweave Shirt"] = 866500,
+		["Devout Gloves"] = 500000,
 		["Scroll of Enchant Gloves - Shadow Power"] = 29879799,
-		["Baleheim Gloves of the Tiger"] = 250000,
+		["Scroll of Enchant Gloves - Minor Haste"] = 1955000,
 		["Biznicks 247x128 Accurascope"] = 19990000,
 		["Dervish Gloves of Spirit"] = 2200000,
 		["Reinforced Chain Gloves"] = 100000,
 		["Tethys Gloves of the Whale"] = 400000,
-		["Glyph of Shadow Word: Death"] = 149899,
-		["Scroll of Enchant Gloves - Advanced Mining"] = 4764447,
+		["Flashing Cardinal Ruby"] = 3600000,
+		["Precise Scarlet Ruby"] = 1570000,
 		["Medium Leather"] = 27000,
 		["Red Mageweave Gloves"] = 1887499,
 		["Pattern: Bolt of Imbued Netherweave"] = 932500,
 		["Recipe: Transmute Water to Undeath"] = 394741,
 		["Three of Undeath"] = 3100000,
-		["Subtle Scarlet Ruby"] = 1866943,
-		["Formula: Enchant Gloves - Fishing"] = 614604,
-		["Scroll of Enchant Gloves - Crusher"] = 1492500,
-		["Scroll of Enchant Gloves - Minor Haste"] = 1955000,
-		["Flashing Cardinal Ruby"] = 3492500,
-		["Traveler's Gloves"] = 300000,
-		["Ice-Bound Plate Gloves"] = 200000,
-		["Robust Gloves of the Whale"] = 4500000,
-		["Schematic: Sniper Scope"] = 199500,
 		["Magister's Gloves"] = 450000,
-		["Riplash Gloves of Frost Protection"] = 140000,
-		["Glyph of Death Coil"] = 132697,
-		["Web Winder Gloves"] = 569000,
+		["Formula: Enchant Gloves - Fishing"] = 614604,
+		["Lavender Mageweave Shirt"] = 866500,
 		["Pattern: Pilferer's Gloves"] = 70000,
 		["Pattern: Chimeric Gloves"] = 660000,
-		["Fractured Scarlet Ruby"] = 1900000,
-		["Rock-Steady Treads"] = 68930000,
-		["Bonechewer Spikegloves of the Hierophant"] = 2317500,
-		["Inscribed Monarch Topaz"] = 500000,
+		["Traveler's Gloves"] = 300000,
 		["Nifflevar Gloves of Intellect"] = 500000,
+		["Robust Gloves of the Whale"] = 4500000,
+		["Schematic: Sniper Scope"] = 199500,
 		["Scroll of Enchant Gloves - Exceptional Spellpower"] = 949000,
 		["Essence of Undeath"] = 40000,
-		["Etched Monarch Topaz"] = 680750,
-		["Black Mageweave Gloves"] = 60000,
-		["Glyph of Steady Shot"] = 129496,
+		["Glyph of Death Coil"] = 132697,
+		["Web Winder Gloves"] = 569000,
 		["Glyph of Feint"] = 9499,
-		["Glyph of Bestial Wrath"] = 256899,
 		["Truefaith Gloves"] = 880000,
+		["Fractured Scarlet Ruby"] = 1900000,
 		["Scroll of Enchant Gloves - Angler"] = 4913908,
+		["Bonechewer Spikegloves of the Hierophant"] = 2317500,
+		["Inscribed Monarch Topaz"] = 500000,
+		["Dementia Gloves of the Bandit"] = 500000,
+		["Pattern: Turtle Scale Gloves"] = 50000,
+		["Formula: Enchant Gloves - Skinning"] = 1997500,
+		["Etched Monarch Topaz"] = 680750,
+		["Pattern: Runecloth Headband"] = 85845,
+		["Glyph of Steady Shot"] = 129496,
+		["Halgrind Gloves of the Gorilla"] = 199000,
+		["Glyph of Bestial Wrath"] = 256899,
+		["Spellweave Gloves"] = 13990000,
+		["Chieftain's Gloves of the Owl"] = 2550000,
 		["Pattern: Rugged Leather Pants"] = 2800,
 		["Glyph of Death's Embrace"] = 228299,
-		["Devout Gloves"] = 500000,
+		["Formula: Enchant Gloves - Herbalism"] = 1462500,
 		["Formula: Enchant Gloves - Greater Agility"] = 60000,
-		["Formula: Enchant Gloves - Skinning"] = 1997500,
+		["Scroll of Enchant Chest - Powerful Stats"] = 3697500,
 		["Netherweave Cloth"] = 8800,
 		["Pattern: Imbued Netherweave Bag"] = 963500,
-		["Pattern: Runecloth Headband"] = 85845,
+		["Wildheart Gloves"] = 50000,
 		["Scroll of Enchant Gloves - Gatherer"] = 376000,
 		["Glyph of Dark Death"] = 152773,
 		["Flask of Pure Death"] = 200000,
-		["Halgrind Gloves of the Gorilla"] = 199000,
+		["Pattern: Royal Moonshroud Robe"] = 14990000,
 		["Deathblow"] = 170000,
 		["Black Mageweave Headband"] = 150000,
-		["Chieftain's Gloves of the Owl"] = 2550000,
-		["Slayer's Gloves"] = 500000,
-		["Rigid Gloves of the Monkey"] = 39990000,
-		["Formula: Enchant Gloves - Herbalism"] = 1462500,
-		["Scroll of Enchant Chest - Powerful Stats"] = 3697500,
-		["Wildheart Gloves"] = 50000,
-		["Knothide Leather Scraps"] = 10300,
-		["Heavy Netherweave Bandage"] = 7500,
 		["Thick Leather Ammo Pouch"] = 993000,
 		["Reins of the Crimson Deathcharger"] = 449999999,
+		["Rigid Gloves of the Monkey"] = 39990000,
+		["Scouting Gloves of the Falcon"] = 13330000,
+		["Slayer's Gloves"] = 500000,
+		["Rock-Steady Treads"] = 68930000,
+		["Knothide Leather Scraps"] = 10300,
+		["Heavy Netherweave Bandage"] = 7500,
+		["Black Mageweave Shoulders"] = 249000,
+		["Mageweave Cloth"] = 5800,
 		["Haal'eshi Gloves of Stamina"] = 3000000,
 		["Condor Gloves of the Sorcerer"] = 300000,
 		["Deviate Scale Gloves"] = 120000,
 		["Icemist Gloves of the Eagle"] = 250000,
-		["Pattern: Royal Moonshroud Robe"] = 14990000,
-		["Black Mageweave Shoulders"] = 249000,
-		["Mageweave Cloth"] = 5800,
-		["Scouting Gloves of the Falcon"] = 13330000,
+		["Bold Cardinal Ruby"] = 3895000,
+		["Black Mageweave Gloves"] = 60000,
+		["Westguard Gloves of Spirit"] = 150000,
+		["Smooth King's Amber"] = 3350000,
 		["Scroll of Enchant Gloves - Major Spellpower"] = 17676150,
 		["Pattern: Ghostweave Gloves"] = 1000000,
 		["Foothold Gloves of Intellect"] = 200000,
-		["Bold Cardinal Ruby"] = 3290000,
-		["Design: Inscribed Monarch Topaz"] = 150000,
-		["Westguard Gloves of Spirit"] = 150000,
-		["Pattern: Turtle Scale Gloves"] = 50000,
-		["Dementia Gloves of the Bandit"] = 500000,
-		["Bard's Gloves of the Monkey"] = 550697,
-		["Spellweave Gloves"] = 13990000,
 		["Gloves of the Fang"] = 228000,
-		["Plans: Heartseeker"] = 499999,
-		["Fractured Cardinal Ruby"] = 3300000,
+		["Design: Inscribed Monarch Topaz"] = 150000,
+		["Riplash Gloves of Frost Protection"] = 140000,
 		["Skom Gloves of Stamina"] = 100000,
+		["Ice-Bound Plate Gloves"] = 200000,
+		["Bard's Gloves of the Monkey"] = 550697,
+		["Thistlefur Gloves of the Owl"] = 1000000,
+		["Imbued Netherweave Tunic"] = 12819073,
+		["Plans: Heartseeker"] = 499999,
+		["Fractured Cardinal Ruby"] = 3845000,
+		["Subtle Scarlet Ruby"] = 1866943,
 		["Scroll of Enchant Gloves - Armsman"] = 2188897,
 		["Bright Scarlet Ruby"] = 1788799,
-		["Thistlefur Gloves of the Owl"] = 1000000,
+		["Glyph of Shadow Word: Death"] = 149899,
 		["Royal Gloves of the Whale"] = 400000,
 		["Formula: Enchant Gloves - Riding Skill"] = 4865250,
 		["Daggercap Gloves of the Physician"] = 250000,
 		["Winterfin Gloves of Arcane Protection"] = 150307,
 		["Scroll of Enchant Gloves - Greater Blasting"] = 9999998,
-		["Precise Scarlet Ruby"] = 1570000,
-		["Delicate Cardinal Ruby"] = 4800000,
-		["Imbued Netherweave Tunic"] = 12819073,
-		["Seven of Undeath"] = 2200000,
-		["Eight of Undeath"] = 2600000,
-		["Elixir of Greater Intellect"] = 12000,
-		["Pattern: Runecloth Shoulders"] = 76480,
-		["Bright Cardinal Ruby"] = 3789900,
+		["Scroll of Enchant Gloves - Major Healing"] = 29999990,
+		["Delicate Cardinal Ruby"] = 3795000,
 		["Baleheim Gloves of Defense"] = 250000,
-		["Refined Ore Gloves"] = 1439595,
+		["Embossed Leather Gloves"] = 20000,
 		["Runed Scarlet Ruby"] = 1937500,
+		["Scroll of Enchant Gloves - Assault"] = 1100000,
+		["Pattern: Runecloth Shoulders"] = 76480,
+		["Stark Monarch Topaz"] = 1127335,
+		["Metalworking Gloves"] = 2500000,
+		["Refined Ore Gloves"] = 1439595,
+		["Phoenix Gloves"] = 884300,
 		["Legplates of Painful Death"] = 118770000,
 		["Vileprey Gloves of the Eagle"] = 700000,
-		["Stark Monarch Topaz"] = 1127335,
+		["Ichor of Undeath"] = 10000,
 		["Heavy Knothide Leather"] = 607000,
 		["Ivycloth Gloves of Fiery Wrath"] = 1250000,
-		["Gloves of Old"] = 2000000,
-		["Veiled Monarch Topaz"] = 900050,
-		["Nifflevar Gloves of the Eagle"] = 600000,
-		["Red Mageweave Bag"] = 79500,
-		["Runecloth"] = 2490,
-		["Accurate Scope"] = 989000,
+		["Bolt of Silk Cloth"] = 8999,
 		["Knothide Armor Kit"] = 49400,
-		["Pattern: Deviate Scale Gloves"] = 490000,
+		["Nifflevar Gloves of the Eagle"] = 600000,
 		["Bolt of Runecloth"] = 12000,
 		["Primordial Saronite"] = 9966666,
-		["Flask of Endless Rage"] = 1095000,
+		["Accurate Scope"] = 989000,
+		["Thick King's Amber"] = 3147500,
+		["Pattern: Deviate Scale Gloves"] = 490000,
+		["Mystic King's Amber"] = 2510000,
+		["Quick King's Amber"] = 3009900,
+		["Brilliant King's Amber"] = 3345000,
 	},
 	["__dbversion"] = 2,
 	["Unlimited WoW_Horde"] = {

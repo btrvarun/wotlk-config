@@ -736,46 +736,20 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Relliklaires"] = {
-		3, -- [1]
-		3, -- [2]
-		3, -- [3]
-		3, -- [4]
-		4, -- [5]
-		3, -- [6]
-		3, -- [7]
-		3, -- [8]
-		3, -- [9]
-		3, -- [10]
-		3, -- [11]
+	["Errorpaladin"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
 	},
 	["Lalpala"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-		0, -- [11]
-	},
-	["Devotional"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-		0, -- [11]
-	},
-	["Fishqs"] = {
 		0, -- [1]
 		0, -- [2]
 		0, -- [3]
@@ -800,6 +774,32 @@ PallyPower_Assignments = {
 		2, -- [9]
 		2, -- [10]
 		2, -- [11]
+	},
+	["Fishqs"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
+	},
+	["Devotional"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
 	},
 	["Royalscepte"] = {
 		0, -- [1]
@@ -944,18 +944,18 @@ PallyPower_Assignments = {
 		0, -- [10]
 		0, -- [11]
 	},
-	["Errorpaladin"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0, -- [4]
-		0, -- [5]
-		0, -- [6]
-		0, -- [7]
-		0, -- [8]
-		0, -- [9]
-		0, -- [10]
-		0, -- [11]
+	["Relliklaires"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		4, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+		3, -- [11]
 	},
 	["Junack"] = {
 		0, -- [1]
@@ -1142,15 +1142,15 @@ PallyPower_NormalAssignments = {
 		[5] = {
 		},
 	},
-	["Relliklaires"] = {
+	["Errorpaladin"] = {
 	},
 	["Lalpala"] = {
 	},
-	["Devotional"] = {
+	["Hoeney"] = {
 	},
 	["Fishqs"] = {
 	},
-	["Hoeney"] = {
+	["Devotional"] = {
 	},
 	["Royalscepte"] = {
 	},
@@ -1174,7 +1174,7 @@ PallyPower_NormalAssignments = {
 	},
 	["Xuxiaoge"] = {
 	},
-	["Errorpaladin"] = {
+	["Relliklaires"] = {
 	},
 	["Junack"] = {
 	},
@@ -1242,11 +1242,11 @@ PallyPower_AuraAssignments = {
 	["Enfinity"] = 2,
 	["Njenner"] = 0,
 	["Kadreylx"] = 0,
-	["Relliklaires"] = 6,
+	["Errorpaladin"] = 0,
 	["Lalpala"] = 0,
-	["Devotional"] = 0,
-	["Fishqs"] = 0,
 	["Hoeney"] = 1,
+	["Fishqs"] = 0,
+	["Devotional"] = 0,
 	["Royalscepte"] = 0,
 	["Inngili"] = 0,
 	["Xqxq"] = 0,
@@ -1258,7 +1258,7 @@ PallyPower_AuraAssignments = {
 	["Monkapug"] = 1,
 	["Immutability"] = 0,
 	["Xuxiaoge"] = 0,
-	["Errorpaladin"] = 0,
+	["Relliklaires"] = 6,
 	["Junack"] = 0,
 	["Misfitreborn"] = 0,
 	["Iraqi"] = 1,

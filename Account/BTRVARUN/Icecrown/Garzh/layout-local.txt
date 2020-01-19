@@ -11,8 +11,8 @@ FrameLevel: 1
 Anchor: BOTTOM
 X: -25
 Y: 134
-W: 267
-H: 259
+W: 128
+H: 64
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -55,13 +55,6 @@ X: 0
 Y: 0
 W: 350
 H: 450
-Frame: Butsu
-FrameLevel: 10
-Anchor: LEFT
-X: 245
-Y: 200
-W: 222
-H: 63
 Frame: PallyPowerFrame
 FrameLevel: 0
 Anchor: TOPRIGHT
@@ -111,10 +104,3 @@ X: 0
 Y: 0
 W: 648
 H: 420
-Frame: LootMasterUIFrame
-FrameLevel: 1
-Anchor: CENTER
-X: 0
-Y: 105
-W: 700
-H: 123

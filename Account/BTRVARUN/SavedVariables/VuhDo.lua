@@ -163,6 +163,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "AGGRO",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -176,8 +177,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -191,6 +190,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -214,6 +214,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "PLAYER_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -227,8 +228,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -242,6 +241,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.7,
@@ -265,6 +265,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -278,8 +279,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -293,6 +292,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.4,
@@ -316,6 +316,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -329,8 +330,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -344,6 +343,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -369,6 +369,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -382,8 +383,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -397,6 +396,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -420,28 +420,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_MANA",
 				["custom"] = {
 					1, -- [1]
-					["grad_low"] = {
-						["B"] = 0.6,
-						["G"] = 0,
-						["useOpacity"] = true,
-						["TO"] = 1,
-						["useBackground"] = true,
-						["useText"] = false,
-						["O"] = 1,
-						["R"] = 0,
-					},
 					["radio"] = 1,
-					["bright"] = 1,
-					["grad_med"] = {
-						["B"] = 0.8,
+					["grad_low"] = {
+						["R"] = 0,
 						["G"] = 0,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["R"] = 0,
+						["B"] = 0.6,
 					},
+					["grad_med"] = {
+						["R"] = 0,
+						["G"] = 0,
+						["useOpacity"] = true,
+						["TO"] = 1,
+						["useBackground"] = true,
+						["useText"] = false,
+						["O"] = 1,
+						["B"] = 0.8,
+					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -464,6 +464,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Last Stand",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -477,8 +478,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -492,6 +491,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -515,6 +515,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Shield Wall",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -528,8 +529,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -543,6 +542,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -566,6 +566,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Survival Instincts",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -579,8 +580,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -594,6 +593,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -617,6 +617,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Frenzied Regeneration",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -630,8 +631,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -645,6 +644,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -670,6 +670,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Weakened Soul",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -683,8 +684,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -698,6 +697,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -721,6 +721,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Power Word: Shield",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -734,8 +735,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -749,6 +748,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -774,6 +774,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "THREAT_ABOVE",
 				["custom"] = {
 					85, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0,
 						["B"] = 0.3,
@@ -787,8 +788,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0,
 						["B"] = 0.6,
@@ -802,6 +801,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -825,28 +825,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_THREAT",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
-						["B"] = 0.3,
+						["R"] = 0,
 						["G"] = 0.3,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["R"] = 0,
+						["B"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
-						["B"] = 0.6,
+						["R"] = 0,
 						["G"] = 0.6,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["R"] = 0,
+						["B"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -869,6 +869,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -882,8 +883,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -897,6 +896,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -920,6 +920,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_GROUP",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -933,8 +934,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -948,6 +947,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -973,6 +973,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_CLUSTER",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -986,8 +987,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -1001,6 +1000,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.5,
@@ -1484,6 +1484,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "SWIFTMEND",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -1497,8 +1498,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -1512,6 +1511,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -1537,6 +1537,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -1550,8 +1551,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -1565,6 +1564,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -1590,6 +1590,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DISCONNECTED",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -1603,8 +1604,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -1618,6 +1617,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.576,
@@ -1641,6 +1641,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -1654,8 +1655,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -1669,6 +1668,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -1692,6 +1692,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DEBUFF_BAR_COLOR",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -1705,8 +1706,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
-					["radio"] = 1,
-					["bright"] = 0.4,
 					["grad_med"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -1720,6 +1719,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
+					["bright"] = 0.4,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -1743,6 +1743,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -1756,8 +1757,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -1771,6 +1770,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -2254,6 +2254,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "THREAT_LEVEL_HIGH",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -2267,8 +2268,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -2282,6 +2281,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.5,
@@ -2305,6 +2305,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "THREAT_LEVEL_MEDIUM",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -2318,8 +2319,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -2333,6 +2332,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.5,
@@ -2358,6 +2358,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -2371,8 +2372,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -2386,6 +2385,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -2409,28 +2409,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_MANA",
 				["custom"] = {
 					1, -- [1]
-					["grad_low"] = {
-						["B"] = 0.6,
-						["G"] = 0,
-						["useOpacity"] = true,
-						["TO"] = 1,
-						["useBackground"] = true,
-						["useText"] = false,
-						["O"] = 1,
-						["R"] = 0,
-					},
 					["radio"] = 1,
-					["bright"] = 1,
-					["grad_med"] = {
-						["B"] = 0.8,
+					["grad_low"] = {
+						["R"] = 0,
 						["G"] = 0,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["R"] = 0,
+						["B"] = 0.6,
 					},
+					["grad_med"] = {
+						["R"] = 0,
+						["G"] = 0,
+						["useOpacity"] = true,
+						["TO"] = 1,
+						["useBackground"] = true,
+						["useText"] = false,
+						["O"] = 1,
+						["B"] = 0.8,
+					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -2451,28 +2451,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_OTHER_POWERS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
-						["B"] = 0.3,
+						["R"] = 0.3,
 						["G"] = 0.3,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["R"] = 0.3,
+						["B"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
-						["B"] = 0.6,
+						["R"] = 0.6,
 						["G"] = 0.6,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["R"] = 0.6,
+						["B"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -2495,6 +2495,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -2508,8 +2509,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -2523,6 +2522,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -3004,6 +3004,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DISCONNECTED",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -3017,8 +3018,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -3032,6 +3031,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.576,
@@ -3055,6 +3055,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -3068,8 +3069,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -3083,6 +3082,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -3106,6 +3106,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DEBUFF_BAR_COLOR",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -3119,8 +3120,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
-					["radio"] = 1,
-					["bright"] = 0.4,
 					["grad_med"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -3134,6 +3133,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
+					["bright"] = 0.4,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -3157,6 +3157,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "CLASS_COLOR",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -3170,8 +3171,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 0.4,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -3185,6 +3184,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 0.4,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -3210,6 +3210,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "AGGRO",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -3223,8 +3224,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -3238,6 +3237,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -3263,6 +3263,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "PLAYER_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -3276,8 +3277,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -3291,6 +3290,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.7,
@@ -3314,6 +3314,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -3327,8 +3328,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -3342,6 +3341,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.4,
@@ -3365,6 +3365,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -3378,8 +3379,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -3393,6 +3392,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,
