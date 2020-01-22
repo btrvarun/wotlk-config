@@ -4,8 +4,8 @@ GUIConfigAll = {
 		["Garzh"] = false,
 		["Invariably"] = false,
 		["Immutability"] = false,
-		["Impasse"] = false,
 		["Bowbaby"] = false,
+		["Impasse"] = false,
 	},
 }
 GUIConfigSettings = {
@@ -30,9 +30,10 @@ GUIConfigSettings = {
 		["ComboFrame"] = true,
 		["ClassHealth"] = true,
 	},
-	["PulseCD"] = {
-		["Enable"] = true,
-		["Sound"] = true,
+	["Misc"] = {
+		["DurabilityWarninig"] = true,
+		["BGSpam"] = true,
+		["SpeedyLoad"] = true,
 	},
 	["Automation"] = {
 		["Resurrection"] = true,
@@ -45,9 +46,9 @@ GUIConfigSettings = {
 		["CLCRet"] = true,
 		["Skada"] = true,
 		["WorldMap"] = true,
-		["WeakAuras"] = true,
-		["Recount"] = true,
 		["Spy"] = true,
+		["Recount"] = true,
+		["WeakAuras"] = true,
 		["DBM"] = true,
 	},
 	["Aura"] = {
@@ -58,9 +59,8 @@ GUIConfigSettings = {
 		["Mana"] = false,
 		["Enable"] = true,
 	},
-	["Misc"] = {
-		["DurabilityWarninig"] = true,
-		["BGSpam"] = true,
-		["SpeedyLoad"] = true,
+	["PulseCD"] = {
+		["Enable"] = true,
+		["Sound"] = true,
 	},
 }
