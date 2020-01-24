@@ -25,8 +25,8 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["EdgeSize"] = 1,
 				["BarInset"] = 1,
+				["EdgeSize"] = 1,
 			},
 			["TitleBar"] = {
 				["Height"] = 22,
@@ -34,10 +34,10 @@ Omen3DB = {
 				["Font"] = "ABF",
 			},
 			["Bar"] = {
-				["Spacing"] = 1,
+				["Texture"] = "Armory",
 				["Font"] = "Ubuntu",
 				["FontSize"] = 14,
-				["Texture"] = "Armory",
+				["Spacing"] = 1,
 			},
 		},
 		["Bowbaby - Icecrown"] = {
@@ -60,12 +60,12 @@ Omen3DB = {
 			},
 			["FrameStrata"] = "2-LOW",
 			["VGrip1"] = 86.26251018399518,
+			["PositionX"] = 1443.999279198496,
 			["TitleBar"] = {
 				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
 				["Height"] = 22,
 			},
-			["PositionX"] = 1443.999279198496,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["ShowHeadings"] = false,
@@ -91,8 +91,8 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["BarInset"] = 1,
 				["EdgeSize"] = 1,
+				["BarInset"] = 1,
 			},
 			["TitleBar"] = {
 				["Height"] = 22,
@@ -120,18 +120,18 @@ Omen3DB = {
 				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
 			},
-			["VGrip1"] = 103.5148777228825,
+			["PositionX"] = 1568.999650746368,
 			["Locked"] = true,
 			["Background"] = {
-				["EdgeSize"] = 1,
 				["BarInset"] = 1,
+				["EdgeSize"] = 1,
 			},
-			["PositionX"] = 1568.999650746368,
+			["VGrip1"] = 103.5148777228825,
 			["Bar"] = {
-				["Spacing"] = 1,
+				["Texture"] = "Armory",
 				["Font"] = "PT Sans Narrow",
 				["FontSize"] = 14,
-				["Texture"] = "Armory",
+				["Spacing"] = 1,
 			},
 		},
 		["Invariably - Icecrown"] = {
@@ -143,28 +143,28 @@ Omen3DB = {
 				["Alone"] = true,
 				["UseShowWith"] = false,
 			},
-			["PositionH"] = 130.0000499226848,
-			["FrameStrata"] = "2-LOW",
 			["VGrip1"] = 103.5148777228825,
+			["FrameStrata"] = "2-LOW",
+			["PositionH"] = 130.0000499226848,
 			["VGrip2"] = 140.0495404486057,
 			["PositionY"] = 370.9995091847824,
 			["PositionX"] = 1568.999650746368,
-			["Shown"] = true,
-			["Locked"] = true,
-			["Background"] = {
-				["EdgeSize"] = 1,
-				["BarInset"] = 1,
-			},
 			["TitleBar"] = {
 				["Height"] = 22,
 				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
 			},
+			["Locked"] = true,
+			["Background"] = {
+				["BarInset"] = 1,
+				["EdgeSize"] = 1,
+			},
+			["Shown"] = true,
 			["Bar"] = {
-				["Texture"] = "Armory",
+				["Spacing"] = 1,
 				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
-				["Spacing"] = 1,
+				["Texture"] = "Armory",
 			},
 		},
 		["Bowbaby - Unlimited WoW"] = {

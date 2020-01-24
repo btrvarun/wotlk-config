@@ -25,7 +25,7 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -34,11 +34,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -70,9 +70,9 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
-			["ClampToScreen"] = true,
 			["Font"] = "KkUI Normal",
+			["ClampToScreen"] = true,
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 230,
 			["MainWindowHeight"] = 120,
 		},
@@ -95,7 +95,7 @@ RecountDB = {
 			["LastInstanceName"] = "Warsong Gulch",
 			["FrameStrata"] = "2-LOW",
 			["Font"] = "KkUI Normal",
-			["MainWindowHeight"] = 120,
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -111,7 +111,7 @@ RecountDB = {
 			["Locked"] = true,
 			["CurDataSet"] = "OverallData",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 120,
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -130,8 +130,8 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
-			["DetailWindowY"] = 0,
 			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -143,7 +143,7 @@ RecountDB = {
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["ClampToScreen"] = true,
+			["DetailWindowY"] = 0,
 		},
 	},
 }
