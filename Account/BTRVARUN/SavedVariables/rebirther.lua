@@ -14,8 +14,9 @@ RebirtherDB = {
 			["showExtraGroups"] = true,
 			["lock"] = true,
 			["font"] = {
-				["filePath"] = "Interface\\AddOns\\ElvUI\\Media\\Fonts\\PTSansNarrow.ttf",
-				["file"] = "PT Sans Narrow",
+				["filePath"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
+				["nameSize"] = 13,
+				["file"] = "KkthnxUI_Normal",
 				["titleSize"] = 14,
 			},
 			["bar"] = {
@@ -26,8 +27,6 @@ RebirtherDB = {
 				["readyColour"] = {
 					["a"] = 1,
 				},
-				["texturePath"] = "Interface\\Addons\\Recount\\Textures\\statusbar\\Armory",
-				["texture"] = "Armory",
 			},
 			["showicon"] = false,
 			["announceOnSelf"] = true,

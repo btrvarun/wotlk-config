@@ -3,6 +3,8 @@ NugComboBarDB = {
 	["posY"] = -145,
 	["posX"] = 0,
 	["scale"] = 1,
+	["skin"] = "Striped",
+	["visibility"] = "normal",
 	["colors"] = {
 		{
 			0.9372549019607843, -- [1]
@@ -35,6 +37,4 @@ NugComboBarDB = {
 			1, -- [3]
 		}, -- [6]
 	},
-	["visibility"] = "normal",
-	["skin"] = "Striped",
 }
