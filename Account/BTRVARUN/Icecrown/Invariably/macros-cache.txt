@@ -11,6 +11,10 @@ MACRO 16777223 "coh" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover] circle of healing
 END
+MACRO 16777233 "dp" INV_Misc_QuestionMark
+#showtooltip devouring plague
+/cast [nochanneling:Mind Flay] devouring plague
+END
 MACRO 16777232 "fear ward" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover] fear ward
@@ -55,9 +59,13 @@ MACRO 16777219 "renew" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover] renew
 END
+MACRO 16777234 "vt" INV_Misc_QuestionMark
+#showtooltip vampiric touch
+/cast [nochanneling:Mind Flay] vampiric touch
+END
 MACRO 16777226 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
-R5SH2PM4DR2WT5PH1PT2WM2DR5MR2EM3LR4MR5IH3EM3IR4DR1RM3HR1PM1RM5DH3HR1ET4PM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4IR[x][x][x][x][x][x][x][x][x]0__0__[x][x][x][x][x][x]0__[x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R2PM3DR5PH2DM3EM4LR4MR5IH2EM4IR3DR1RM3HR2PM1RM5DH3HR1PM2WM1WM1ET5SH4MR4MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]5IR[x][x][x][x]0__0__[x][x][x][x][x][x]0__[x][x][x]0__[x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 MACRO 16777227 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
-NLadChaFenWarAulMonJarSlaNitJarKufXatVelGulAneKisEkaBuuMinKuzTeqWilXinArm[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Inv[x][x][x][x][x][x][x][x][x]HamFla[x][x][x][x][x][x]She[x][x][x]Ama[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NChaFenAulSlaJarKufXatVelGulAneKisEkaBuuMinKuzTeqWilArmWarJarPugLadNitArc[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Inv[x][x][x][x]PebFla[x][x][x][x][x][x]She[x][x][x]Ama[x][x][x]Mar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

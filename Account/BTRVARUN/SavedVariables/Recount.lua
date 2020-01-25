@@ -25,8 +25,8 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
-			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -38,7 +38,7 @@ RecountDB = {
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -57,8 +57,8 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["MainWindowHeight"] = 120,
-			["DetailWindowY"] = 0,
+			["Font"] = "KkUI Normal",
+			["GraphWindowX"] = 0,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -70,21 +70,21 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["ClampToScreen"] = true,
 			["MainWindowWidth"] = 230,
-			["Font"] = "KkUI Normal",
+			["MainWindowHeight"] = 120,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["ShowScrollbar"] = false,
 				["Position"] = {
-					["y"] = -330.2647167458671,
-					["x"] = 457.1600604023453,
-					["w"] = 264.9999445379488,
-					["h"] = 242.9999906309482,
+					["y"] = -460,
+					["x"] = 469,
+					["w"] = 230,
+					["h"] = 120,
 				},
 				["RowHeight"] = 15,
 				["BarText"] = {
@@ -92,6 +92,7 @@ RecountDB = {
 				},
 			},
 			["FrameStrata"] = "2-LOW",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -107,9 +108,8 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["Font"] = "KkUI Normal",
 			["CurDataSet"] = "LastFightData",
-			["ClampToScreen"] = true,
+			["Font"] = "KkUI Normal",
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
 		},
@@ -130,7 +130,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
-			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -139,11 +139,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["CurDataSet"] = "OverallData",
+			["DetailWindowY"] = 0,
 		},
 	},
 }

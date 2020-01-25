@@ -2,10 +2,10 @@
 SavedOptionsPerChar = {
 	["SplitBars"] = true,
 	["AutoInvite"] = false,
-	["Install"] = true,
-	["RightBars"] = 2,
-	["BottomBars"] = 3,
 	["BarsLocked"] = false,
+	["BottomBars"] = 3,
+	["RightBars"] = 2,
+	["Install"] = true,
 }
 SavedPositions = {
 	["RightActionBarAnchor"] = {
@@ -62,13 +62,13 @@ SavedPositions = {
 		"UIParent", -- [2]
 		"TOPRIGHT", -- [3]
 		-121.3073380670525, -- [4]
-		0, -- [5]
+		-0, -- [5]
 	},
 	["MinimapAnchor"] = {
 		"TOPLEFT", -- [1]
 		"UIParent", -- [2]
 		"TOPLEFT", -- [3]
-		0, -- [4]
-		0, -- [5]
+		-0, -- [4]
+		-0, -- [5]
 	},
 }
