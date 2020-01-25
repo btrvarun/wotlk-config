@@ -118,3 +118,10 @@ X: 200
 Y: 5
 W: 1
 H: 1
+Frame: VuhDoNewOptionsTabbedFrame
+FrameLevel: 94
+Anchor: CENTER
+X: 0
+Y: 0
+W: 648
+H: 420

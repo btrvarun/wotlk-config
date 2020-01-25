@@ -4,7 +4,7 @@ GS_Settings = {
 	["Player"] = 1,
 	["Item"] = 1,
 	["Compare"] = -1,
-	["Level"] = -1,
-	["Average"] = -1,
 	["Special"] = 1,
+	["Average"] = -1,
+	["Level"] = -1,
 }
