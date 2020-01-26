@@ -1,11 +1,12 @@
 
 SexyCooldownDB = {
-	["profileKeys"] = {
-		["Flynnrider - Icecrown"] = "Flynnrider - Icecrown",
-		["Herbivore - Icecrown"] = "Herbivore - Icecrown",
-	},
 	["global"] = {
 		["dbVersion"] = 3,
+	},
+	["profileKeys"] = {
+		["Flynnrider - Icecrown"] = "Flynnrider - Icecrown",
+		["Lightarray - Icecrown"] = "Lightarray - Icecrown",
+		["Herbivore - Icecrown"] = "Herbivore - Icecrown",
 	},
 	["profiles"] = {
 		["Flynnrider - Icecrown"] = {
@@ -13,7 +14,16 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["blacklist"] = {
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
 					},
 					["eventColors"] = {
 					},
@@ -22,6 +32,18 @@ SexyCooldownDB = {
 						},
 						["borderColor"] = {
 						},
+					},
+					["blacklist"] = {
+					},
+				}, -- [1]
+			},
+		},
+		["Lightarray - Icecrown"] = {
+			["bars"] = {
+				{
+					["blacklist"] = {
+					},
+					["events"] = {
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -40,10 +62,6 @@ SexyCooldownDB = {
 		["Herbivore - Icecrown"] = {
 			["bars"] = {
 				{
-					["blacklist"] = {
-					},
-					["events"] = {
-					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -54,6 +72,10 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
+					},
+					["events"] = {
+					},
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},

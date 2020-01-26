@@ -12,9 +12,8 @@ MACRO 150 "barkskin" INV_Misc_QuestionMark
 END
 MACRO 148 "berserk" INV_Misc_QuestionMark
 #showtooltip
-/cast Berserking(Racial)
+/cast Blood Fury(Racial)
 /cast Death Wish
-/use Aldriana's Gloves of Secrecy
 END
 MACRO 166 "bt cleave" INV_Misc_QuestionMark
 #showtooltip bloodthirst
@@ -22,7 +21,7 @@ MACRO 166 "bt cleave" INV_Misc_QuestionMark
 /cast bloodrage
 /cast bloodthirst
 /cast cleave
-/use Aldriana's Gloves of Secrecy
+/cast Aldriana's Gloves of Secrecy
 END
 MACRO 167 "bt hs" INV_Misc_QuestionMark
 #showtooltip bloodthirst
@@ -47,14 +46,14 @@ MACRO 134 "corruptionnopet" INV_Misc_QuestionMark
 /cast Corruption(Rank 10)
 /cast !Shadow Cleave(Demon)
 END
-MACRO 137 "dl" INV_Misc_QuestionMark
-#showtooltip
-/cast [@focus] drain life
-END
 MACRO 157 "dl" INV_Misc_QuestionMark
 #showtooltip
 /target wicked spirit
 /cast drain life
+END
+MACRO 137 "dl" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] drain life
 END
 MACRO 141 "dm" INV_Misc_QuestionMark
 #showtooltip
@@ -64,10 +63,12 @@ MACRO 2 "ds" INV_Misc_QuestionMark
 #showtooltip
 /cast [target=focus,harm,exists][target] concussive shot
 END
-MACRO 136 "felguard" INV_Misc_QuestionMark
-#showtooltip Summon felguard
-/cast Fel Domination
-/cast Summon felguard
+MACRO 174 "Execute" INV_Misc_QuestionMark
+#showtooltip Execute
+/startattack
+/cast bloodrage
+/cast bloodthirs
+/cast Execute(Rank 9)
 END
 MACRO 118 "FLASK" Ability_Mage_ConjureFoodRank12
 /run nf="Flask!: ";for i=1,GetNumRaidMembers()do for b=1,41 do ufl=UnitAura('raid'..i,b);if ufl then if strfind(ufl,"Flask")or strfind(ufl,"Distilled")then break;end;elseif b==41 then nf=nf..UnitName('raid'..i).." ";end;end;end;SendChatMessage(nf,"raid");
@@ -119,6 +120,9 @@ MACRO 158 "meta" INV_Misc_QuestionMark
 /cast Blood Fury(Racial)
 /cast Immolation Aura(Demon)
 /cast Shadow Cleave(Demon)
+END
+MACRO 136 "nugga" INV_Misc_QuestionMark
+/tar nugga
 END
 MACRO 152 "petattack" Ability_BackStab
 /petattack

@@ -1,9 +1,7 @@
 
-CPRDB2 = {
+RebirtherDB = {
 	["profileKeys"] = {
-		["Flynnrider - Icecrown"] = "Default",
 		["Lightarray - Icecrown"] = "Default",
-		["Herbivore - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
