@@ -25,7 +25,7 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["DetailWindowY"] = 0,
+			["ClampToScreen"] = true,
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -34,11 +34,11 @@ RecountDB = {
 					},
 				},
 			},
-			["GraphWindowX"] = 0,
+			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["ClampToScreen"] = true,
+			["GraphWindowX"] = 0,
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -55,7 +55,6 @@ RecountDB = {
 					["NumFormat"] = 3,
 				},
 			},
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -71,8 +70,9 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
 			["Font"] = "KkUI Normal",
+			["ClampToScreen"] = true,
+			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 230,
 			["MainWindowHeight"] = 120,
 		},
@@ -94,9 +94,9 @@ RecountDB = {
 			["DetailWindowX"] = 76.00000629162604,
 			["LastInstanceName"] = "Icecrown Citadel",
 			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
-			["MainWindowHeight"] = 120,
+			["GraphWindowX"] = 0,
 			["Font"] = "KkUI Normal",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -111,7 +111,7 @@ RecountDB = {
 			["Locked"] = true,
 			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 120,
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -130,8 +130,8 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
+			["GraphWindowX"] = 0,
 			["ClampToScreen"] = true,
-			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -143,7 +143,7 @@ RecountDB = {
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }
