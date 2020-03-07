@@ -64,8 +64,8 @@ MACRO 16777234 "vt" INV_Misc_QuestionMark
 /cast [nochanneling:Mind Flay] vampiric touch
 END
 MACRO 16777226 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
-R2PM3DR5PH2DM4MR5IH2EM4IR3DR1RM2PM1RM5DH3HR1PT2WM1WM1ET5SH5MR4MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 MACRO 16777227 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
-NChaFenAulSlaXatVelGulAneKisEkaMinKuzTeqWilArmWarJarPugLadNitArc[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Inv[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Inv[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

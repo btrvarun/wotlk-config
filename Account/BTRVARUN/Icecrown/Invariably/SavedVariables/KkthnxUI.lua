@@ -2,10 +2,10 @@
 SavedOptionsPerChar = {
 	["SplitBars"] = true,
 	["AutoInvite"] = false,
-	["Install"] = true,
-	["RightBars"] = 2,
-	["BottomBars"] = 3,
 	["BarsLocked"] = false,
+	["BottomBars"] = 3,
+	["RightBars"] = 2,
+	["Install"] = true,
 }
 SavedPositions = {
 	["RightActionBarAnchor"] = {
