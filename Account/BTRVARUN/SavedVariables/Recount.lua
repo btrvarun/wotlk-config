@@ -25,7 +25,7 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
@@ -34,11 +34,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["CurDataSet"] = "OverallData",
+			["DetailWindowY"] = 0,
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -57,9 +57,9 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["MainWindowHeight"] = 120,
-			["ClampToScreen"] = true,
+			["GraphWindowX"] = 0,
 			["Font"] = "KkUI Normal",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -74,7 +74,7 @@ RecountDB = {
 			["Locked"] = true,
 			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["MainWindowHeight"] = 120,
 		},
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -92,7 +92,6 @@ RecountDB = {
 				},
 			},
 			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -108,8 +107,9 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["LastInstanceName"] = "Icecrown Citadel",
-			["Font"] = "KkUI Normal",
 			["CurDataSet"] = "LastFightData",
+			["ClampToScreen"] = true,
+			["Font"] = "KkUI Normal",
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
 		},
@@ -130,8 +130,8 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
+			["DetailWindowY"] = 0,
 			["CurDataSet"] = "OverallData",
-			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -143,7 +143,7 @@ RecountDB = {
 			["Locked"] = true,
 			["Font"] = "KkUI Normal",
 			["MainWindowWidth"] = 230,
-			["DetailWindowY"] = 0,
+			["ClampToScreen"] = true,
 		},
 	},
 }
