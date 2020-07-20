@@ -1,6 +1,8 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
+		"/abs", -- [1]
+		"/abs list", -- [2]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -129,5 +131,113 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Hakunne",
 		}, -- [7]
+		{
+			"WTB ALL YOUR |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r 70GOLD each COD ME ALL", -- [1]
+			"Jafanizes", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"0x070000000016FC3A", -- [12]
+			0, -- [13]
+			[51] = 1595224759,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Jafanizes",
+		}, -- [8]
+		{
+			"LFM FOR |cffffff00|Hachievement:2136:070000000058084F:0:0:0:-1:4286545887:63:0:0|h[Glory of the Hero]|h|r", -- [1]
+			"Stylorless", -- [2]
+			"Orcish", -- [3]
+			"4. LookingForGroup", -- [4]
+			"", -- [5]
+			"", -- [6]
+			26, -- [7]
+			4, -- [8]
+			"LookingForGroup", -- [9]
+			0, -- [10]
+			211, -- [11]
+			"0x070000000058084F", -- [12]
+			0, -- [13]
+			[51] = 1595224763,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Stylorless",
+		}, -- [9]
+		{
+			"LFM VoA10 need 1 healer, 2 mdps, 2 rdps class run 5k++ Frost only!", -- [1]
+			"Ssdruid", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			218, -- [11]
+			"0x0700000000515438", -- [12]
+			0, -- [13]
+			[51] = 1595224770,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Ssdruid",
+		}, -- [10]
+		{
+			"NEED 1 tank and 1 heal (shammy) and 3 DPS FOR ICC 10 EoF run! 5.8k+ |cffffff00|Hachievement:4608:0700000000587A5E:1:7:1:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
+			"Zeldrik", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			238, -- [11]
+			"0x0700000000587A5E", -- [12]
+			0, -- [13]
+			[51] = 1595224789,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Zeldrik",
+		}, -- [11]
+		{
+			"WTB ALL YOUR |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r 70GOLD each COD ME ALL", -- [1]
+			"Jafanizes", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"AFK", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			239, -- [11]
+			"0x070000000016FC3A", -- [12]
+			0, -- [13]
+			[51] = 1595224789,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Jafanizes",
+		}, -- [12]
+		{
+			"BOR NUD Andovis Lars ODES HIR NANDIGE DANA VRUM", -- [1]
+			"Loveforsex", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			243, -- [11]
+			"0x070000000040F79D", -- [12]
+			0, -- [13]
+			[51] = 1595224792,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Loveforsex",
+		}, -- [13]
 	},
 }

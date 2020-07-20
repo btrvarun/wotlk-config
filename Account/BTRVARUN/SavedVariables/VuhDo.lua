@@ -2,22 +2,22 @@
 VUHDO_PROFILES = {
 	{
 		["SPELL_CONFIG"] = {
-			["IS_FIRE_OUT_FIGHT"] = false,
-			["IS_LOAD_HOTS"] = false,
 			["IS_TOOLTIP_INFO"] = false,
-			["IS_FIRE_HOT"] = false,
-			["IS_AUTO_TARGET"] = false,
+			["IS_LOAD_HOTS"] = false,
+			["IS_FIRE_OUT_FIGHT"] = false,
+			["smartCastModi"] = "all",
+			["IS_CANCEL_CURRENT"] = false,
 			["IS_AUTO_FIRE"] = true,
 			["IS_FIRE_CUSTOM_2"] = false,
 			["IS_FIRE_TRINKET_2"] = false,
 			["IS_FIRE_TRINKET_1"] = false,
-			["IS_CANCEL_CURRENT"] = false,
+			["IS_AUTO_TARGET"] = false,
 			["FIRE_CUSTOM_2_SPELL"] = "",
 			["FIRE_CUSTOM_1_SPELL"] = "",
 			["autoBattleRez"] = true,
 			["IS_KEEP_STANCE"] = false,
 			["IS_FIRE_CUSTOM_1"] = false,
-			["smartCastModi"] = "all",
+			["IS_FIRE_HOT"] = false,
 		},
 		["NAME"] = "Garzh",
 		["CONFIG"] = {
@@ -97,8 +97,8 @@ VUHDO_PROFILES = {
 			["IS_PALLY_POWER_COMMS"] = true,
 			["INC_CHANNELLED_SECS"] = 3,
 			["CUSTOM_DEBUFF"] = {
-				["max_num"] = 3,
-				["point"] = "TOPRIGHT",
+				["isStacks"] = false,
+				["animate"] = true,
 				["STORED_SETTINGS"] = {
 					["Burning Bile"] = {
 						["isStacks"] = false,
@@ -212,13 +212,6 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Gut Spray"] = {
-						["isStacks"] = false,
-						["animate"] = true,
-						["isIcon"] = true,
-						["isColor"] = false,
-						["timer"] = true,
-					},
 					["Shadow Prison"] = {
 						["isStacks"] = false,
 						["animate"] = true,
@@ -227,6 +220,13 @@ VUHDO_PROFILES = {
 						["timer"] = true,
 					},
 					["Necrotic Plague"] = {
+						["isStacks"] = false,
+						["animate"] = true,
+						["isIcon"] = true,
+						["isColor"] = false,
+						["timer"] = true,
+					},
+					["Gut Spray"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -261,28 +261,28 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Instability"] = {
-						["isStacks"] = false,
-						["animate"] = true,
-						["isIcon"] = true,
-						["isColor"] = false,
-						["timer"] = true,
-					},
-					["Swarming Shadows"] = {
-						["isStacks"] = false,
-						["animate"] = true,
-						["isIcon"] = true,
-						["isColor"] = false,
-						["timer"] = true,
-					},
-					["Fire Bomb"] = {
-						["isStacks"] = false,
-						["animate"] = true,
-						["isIcon"] = true,
-						["isColor"] = false,
-						["timer"] = true,
-					},
 					["Touch of Darkness"] = {
+						["isStacks"] = false,
+						["animate"] = true,
+						["isIcon"] = true,
+						["isColor"] = false,
+						["timer"] = true,
+					},
+					["Instant Heal"] = {
+						["isStacks"] = false,
+						["animate"] = true,
+						["isIcon"] = true,
+						["isColor"] = false,
+						["timer"] = true,
+					},
+					["Stone Grip"] = {
+						["isStacks"] = false,
+						["animate"] = true,
+						["isIcon"] = true,
+						["isColor"] = false,
+						["timer"] = true,
+					},
+					["Instability"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -317,7 +317,7 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Web Wrap"] = {
+					["Essence of the Blood Queen"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -331,7 +331,7 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Vile Gas"] = {
+					["Defile"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -373,14 +373,14 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Jagged Knife"] = {
+					["Chilled to the Bone"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Chilled to the Bone"] = {
+					["Jagged Knife"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -429,14 +429,14 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Defile"] = {
+					["Vile Gas"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Essence of the Blood Queen"] = {
+					["Web Wrap"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -450,14 +450,14 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Stone Grip"] = {
+					["Fire Bomb"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Instant Heal"] = {
+					["Swarming Shadows"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -562,14 +562,14 @@ VUHDO_PROFILES = {
 					"Volatile Ooze Adhesive", -- [56]
 					"Web Wrap", -- [57]
 				},
-				["isStacks"] = false,
+				["max_num"] = 3,
 				["yAdjust"] = -34,
 				["version"] = 13,
 				["isIcon"] = true,
 				["timer"] = true,
 				["selected"] = "",
 				["xAdjust"] = -2,
-				["animate"] = true,
+				["point"] = "TOPRIGHT",
 			},
 			["EMERGENCY_TRIGGER"] = 100,
 			["THREAT"] = {
@@ -681,9 +681,9 @@ VUHDO_PROFILES = {
 				["POSITION"] = {
 					["y"] = 529.3923215217857,
 					["x"] = -0.009802571339687557,
-					["orientation"] = "TOPLEFT",
-					["relativePoint"] = "BOTTOMLEFT",
 					["scale"] = 1,
+					["relativePoint"] = "BOTTOMLEFT",
+					["orientation"] = "TOPLEFT",
 					["height"] = 40.00000054709792,
 					["growth"] = "TOPLEFT",
 					["width"] = 85.00000335097474,
@@ -696,7 +696,6 @@ VUHDO_PROFILES = {
 					["xAdjust"] = 0,
 				},
 				["MODEL"] = {
-					["sort"] = 0,
 					["groups"] = {
 						1, -- [1]
 						2, -- [2]
@@ -708,6 +707,7 @@ VUHDO_PROFILES = {
 						8, -- [8]
 					},
 					["ordering"] = 0,
+					["sort"] = 0,
 					["isReverse"] = false,
 				},
 				["TOOLTIP"] = {
@@ -784,8 +784,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = true,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -813,20 +813,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 30,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = false,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["isPlayerOnTop"] = false,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -952,8 +952,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -981,20 +981,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = false,
 					["targetOrientation"] = 1,
 					["barWidth"] = 100,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = true,
@@ -1119,8 +1119,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -1148,20 +1148,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = false,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = true,
@@ -1286,8 +1286,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -1315,20 +1315,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -1454,8 +1454,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -1483,20 +1483,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -1621,8 +1621,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -1650,20 +1650,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -1788,8 +1788,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -1817,20 +1817,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -1955,8 +1955,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -1984,20 +1984,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -2122,8 +2122,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -2151,20 +2151,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -2289,8 +2289,8 @@ VUHDO_PROFILES = {
 					["TEXT"] = {
 						["maxChars"] = 0,
 						["font"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-						["useText"] = true,
 						["textSize"] = 12,
+						["useText"] = true,
 						["outline"] = false,
 						["textSizeLife"] = 8,
 						["useOpacity"] = true,
@@ -2318,20 +2318,20 @@ VUHDO_PROFILES = {
 					["ommitEmptyWhenStructured"] = true,
 					["targetOrientation"] = 1,
 					["barWidth"] = 75,
-					["columnSpacing"] = 5,
 					["borderGapY"] = 5,
+					["columnSpacing"] = 5,
 					["headerSpacing"] = 5,
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
 					["maxColumnsWhenStructured"] = 8,
 					["showHeaders"] = true,
-					["totWidth"] = 30,
+					["isDamFlash"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["isPlayerOnTop"] = true,
 					["showTot"] = false,
 					["totSpacing"] = 3,
-					["isDamFlash"] = true,
+					["totWidth"] = 30,
 					["damFlashFactor"] = 0.75,
 					["arrangeHorizontal"] = false,
 					["showTarget"] = false,
@@ -2386,8 +2386,8 @@ VUHDO_PROFILES = {
 					["radioValue"] = 1,
 					["width"] = 25,
 				},
-				["radioValue"] = 20,
 				["iconRadioValue"] = 2,
+				["radioValue"] = 20,
 				["SLOTCFG"] = {
 					["1"] = {
 						["mine"] = true,
@@ -2445,8 +2445,8 @@ VUHDO_PROFILES = {
 					["useBackground"] = true,
 					["R"] = 1,
 					["B"] = 1,
-					["G"] = 1,
 					["O"] = 0.75,
+					["G"] = 1,
 				},
 				["CLUSTER_FAIR"] = {
 					["TG"] = 1,
@@ -2676,8 +2676,8 @@ VUHDO_PROFILES = {
 					["useBackground"] = true,
 					["R"] = 1,
 					["B"] = 1,
-					["G"] = 1,
 					["O"] = 0.75,
+					["G"] = 1,
 				},
 				["HOT4"] = {
 					["TG"] = 0.6,
@@ -2761,8 +2761,8 @@ VUHDO_PROFILES = {
 					["useBackground"] = true,
 					["R"] = 0.4,
 					["B"] = 0.4,
-					["G"] = 0.4,
 					["O"] = 0.5,
+					["G"] = 0.4,
 				},
 				["HOT2"] = {
 					["TG"] = 1,
@@ -2821,8 +2821,8 @@ VUHDO_PROFILES = {
 					["useBackground"] = true,
 					["R"] = 1,
 					["B"] = 1,
-					["G"] = 1,
 					["O"] = 0.75,
+					["G"] = 1,
 				},
 				["DEBUFF2"] = {
 					["TG"] = 0,
@@ -2882,15 +2882,15 @@ VUHDO_PROFILES = {
 						["useBackground"] = true,
 						["R"] = 0,
 						["B"] = 1,
-						["G"] = 1,
 						["O"] = 1,
+						["G"] = 1,
 					},
 					["HIGH"] = {
 						["useBackground"] = true,
 						["R"] = 1,
 						["B"] = 1,
-						["G"] = 0,
 						["O"] = 1,
+						["G"] = 0,
 					},
 				},
 				["DEBUFF4"] = {
@@ -2929,22 +2929,22 @@ VUHDO_PROFILES = {
 						["useBackground"] = true,
 						["R"] = 0,
 						["B"] = 0,
-						["G"] = 1,
 						["O"] = 1,
+						["G"] = 1,
 					},
 					["LOW"] = {
 						["useBackground"] = true,
 						["R"] = 1,
 						["B"] = 0,
-						["G"] = 0,
 						["O"] = 1,
+						["G"] = 0,
 					},
 					["FAIR"] = {
 						["useBackground"] = true,
 						["R"] = 1,
 						["B"] = 0,
-						["G"] = 1,
 						["O"] = 1,
+						["G"] = 1,
 					},
 				},
 				["HOT_CHARGE_2"] = {
@@ -2964,8 +2964,8 @@ VUHDO_PROFILES = {
 		["BUFF_ORDER"] = {
 			["01Blessing"] = 1,
 			["02Aura"] = 2,
-			["04Beacon of Light"] = 4,
 			["03Seal"] = 3,
+			["04Beacon of Light"] = 4,
 			["05Righteous Fury"] = 5,
 			["01Gift of the Wild"] = 1,
 			["06Sacred Shield"] = 6,
@@ -3050,8 +3050,8 @@ VUHDO_PROFILES = {
 				["SHOW"] = true,
 				["PANEL_BG_COLOR"] = {
 					["useBackground"] = true,
-					["R"] = 0,
 					["B"] = 0,
+					["R"] = 0,
 					["G"] = 0,
 					["O"] = 0.5,
 					["useText"] = false,
@@ -3072,6 +3072,7 @@ VUHDO_PROFILES = {
 				},
 				["SCALE"] = 1,
 				["BAR_COLORS_TEXT"] = true,
+				["BAR_COLORS_IN_FIGHT"] = false,
 				["SWATCH_COLOR_OUT_RANGE"] = {
 					["TG"] = 0,
 					["R"] = 0,
@@ -3085,7 +3086,6 @@ VUHDO_PROFILES = {
 					["O"] = 0.5,
 					["useOpacity"] = true,
 				},
-				["SHOW_EMPTY"] = false,
 				["HIGHLIGHT_COOLDOWN"] = true,
 				["HIDE_CHARGES"] = false,
 				["POSITION"] = {
@@ -3099,8 +3099,8 @@ VUHDO_PROFILES = {
 				["COMPACT"] = true,
 				["PANEL_BORDER_COLOR"] = {
 					["useBackground"] = true,
-					["R"] = 0,
 					["B"] = 0,
+					["R"] = 0,
 					["G"] = 0,
 					["O"] = 0.5,
 					["useText"] = false,
@@ -3110,8 +3110,8 @@ VUHDO_PROFILES = {
 				["AT_LEAST_MISSING"] = 2,
 				["SWATCH_BG_COLOR"] = {
 					["useBackground"] = true,
-					["R"] = 0,
 					["B"] = 0,
+					["R"] = 0,
 					["G"] = 0,
 					["O"] = 1,
 					["useText"] = false,
@@ -3119,8 +3119,8 @@ VUHDO_PROFILES = {
 				},
 				["SWATCH_BORDER_COLOR"] = {
 					["useBackground"] = true,
-					["R"] = 0.8,
 					["B"] = 0.8,
+					["R"] = 0.8,
 					["G"] = 0.8,
 					["O"] = 0,
 					["useText"] = false,
@@ -3130,7 +3130,7 @@ VUHDO_PROFILES = {
 				["REBUFF_MIN_MINUTES"] = 3,
 				["REBUFF_AT_PERCENT"] = 25,
 				["GROUP_SPELL_VERSION"] = "smart",
-				["BAR_COLORS_IN_FIGHT"] = false,
+				["SHOW_EMPTY"] = false,
 			},
 			["Seal"] = {
 				["enabled"] = false,
@@ -3333,31 +3333,31 @@ VUHDO_PROFILES = {
 				["THREAT_MARK"] = "",
 				["DAMAGE_FLASH_BAR"] = "",
 				["INCOMING_BAR"] = "",
-				["BAR_BORDER"] = "Border: Multi + Aggro",
-				["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
 				["MANA_BAR"] = "Manabars: Mana only",
+				["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
+				["BAR_BORDER"] = "Border: Multi + Aggro",
 				["SWIFTMEND_INDICATOR"] = "",
 			},
 		},
 	}, -- [1]
 	{
 		["SPELL_CONFIG"] = {
-			["IS_TOOLTIP_INFO"] = false,
-			["IS_LOAD_HOTS"] = false,
 			["IS_FIRE_OUT_FIGHT"] = false,
-			["IS_FIRE_HOT"] = false,
+			["IS_LOAD_HOTS"] = false,
+			["IS_TOOLTIP_INFO"] = false,
+			["smartCastModi"] = "all",
 			["IS_KEEP_STANCE"] = false,
 			["IS_AUTO_FIRE"] = true,
 			["IS_FIRE_CUSTOM_2"] = false,
 			["IS_FIRE_TRINKET_2"] = false,
 			["IS_FIRE_TRINKET_1"] = false,
-			["IS_CANCEL_CURRENT"] = false,
+			["IS_AUTO_TARGET"] = false,
 			["autoBattleRez"] = true,
 			["FIRE_CUSTOM_1_SPELL"] = "",
 			["FIRE_CUSTOM_2_SPELL"] = "",
-			["IS_AUTO_TARGET"] = false,
+			["IS_CANCEL_CURRENT"] = false,
 			["IS_FIRE_CUSTOM_1"] = false,
-			["smartCastModi"] = "all",
+			["IS_FIRE_HOT"] = false,
 		},
 		["NAME"] = "Invariably: Garzh",
 		["CONFIG"] = {
@@ -3418,11 +3418,11 @@ VUHDO_PROFILES = {
 			["LOCK_CLICKS_THROUGH"] = false,
 			["UPDATE_HOTS_MS"] = 250,
 			["SHOW_INC_CASTED"] = true,
-			["EMERGENCY_TRIGGER"] = 100,
-			["HIDE_PANELS_SOLO"] = false,
-			["CURRENT_PROFILE"] = "Invariably: Garzh",
 			["AUTO_PROFILES"] = {
 			},
+			["HIDE_PANELS_SOLO"] = false,
+			["CURRENT_PROFILE"] = "Invariably: Garzh",
+			["EMERGENCY_TRIGGER"] = 100,
 			["SHOW_INCOMING"] = true,
 			["BLIZZ_UI_HIDE_TARGET"] = false,
 			["OMIT_FOCUS"] = false,
@@ -3449,8 +3449,8 @@ VUHDO_PROFILES = {
 			["OMIT_PLAYER_TARGETS"] = false,
 			["SHOW_OWN_INCOMING"] = true,
 			["CUSTOM_DEBUFF"] = {
-				["point"] = "TOPRIGHT",
 				["animate"] = true,
+				["point"] = "TOPRIGHT",
 				["yAdjust"] = -34,
 				["scale"] = 0.8,
 				["selected"] = "",
@@ -3514,7 +3514,7 @@ VUHDO_PROFILES = {
 					"Volatile Ooze Adhesive", -- [56]
 					"Web Wrap", -- [57]
 				},
-				["isStacks"] = false,
+				["max_num"] = 3,
 				["STORED_SETTINGS"] = {
 					["Gastric Bloat"] = {
 						["isStacks"] = false,
@@ -3628,13 +3628,6 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Gut Spray"] = {
-						["isStacks"] = false,
-						["animate"] = true,
-						["isIcon"] = true,
-						["isColor"] = false,
-						["timer"] = true,
-					},
 					["Necrotic Plague"] = {
 						["isStacks"] = false,
 						["animate"] = true,
@@ -3643,6 +3636,13 @@ VUHDO_PROFILES = {
 						["timer"] = true,
 					},
 					["Shadow Prison"] = {
+						["isStacks"] = false,
+						["animate"] = true,
+						["isIcon"] = true,
+						["isColor"] = false,
+						["timer"] = true,
+					},
+					["Gut Spray"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -3677,13 +3677,6 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Swarming Shadows"] = {
-						["isStacks"] = false,
-						["animate"] = true,
-						["isIcon"] = true,
-						["isColor"] = false,
-						["timer"] = true,
-					},
 					["Instant Heal"] = {
 						["isStacks"] = false,
 						["animate"] = true,
@@ -3691,14 +3684,21 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Stone Grip"] = {
+					["Swarming Shadows"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Touch of Darkness"] = {
+					["Fire Bomb"] = {
+						["isStacks"] = false,
+						["animate"] = true,
+						["isIcon"] = true,
+						["isColor"] = false,
+						["timer"] = true,
+					},
+					["Instability"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -3726,13 +3726,6 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Web Wrap"] = {
-						["isStacks"] = false,
-						["animate"] = true,
-						["isIcon"] = true,
-						["isColor"] = false,
-						["timer"] = true,
-					},
 					["Essence of the Blood Queen"] = {
 						["isStacks"] = false,
 						["animate"] = true,
@@ -3740,7 +3733,7 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Vile Gas"] = {
+					["Web Wrap"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -3748,6 +3741,13 @@ VUHDO_PROFILES = {
 						["timer"] = true,
 					},
 					["Defile"] = {
+						["isStacks"] = false,
+						["animate"] = true,
+						["isIcon"] = true,
+						["isColor"] = false,
+						["timer"] = true,
+					},
+					["Vile Gas"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -3796,7 +3796,7 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Chilled to the Bone"] = {
+					["Jagged Knife"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -3831,7 +3831,7 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Jagged Knife"] = {
+					["Chilled to the Bone"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -3866,14 +3866,14 @@ VUHDO_PROFILES = {
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Instability"] = {
+					["Touch of Darkness"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
 						["isColor"] = false,
 						["timer"] = true,
 					},
-					["Fire Bomb"] = {
+					["Stone Grip"] = {
 						["isStacks"] = false,
 						["animate"] = true,
 						["isIcon"] = true,
@@ -3921,7 +3921,7 @@ VUHDO_PROFILES = {
 				["isIcon"] = true,
 				["isName"] = false,
 				["xAdjust"] = -2,
-				["max_num"] = 3,
+				["isStacks"] = false,
 			},
 			["IS_ALWAYS_OVERWRITE_PROFILE"] = false,
 		},
@@ -4036,6 +4036,8 @@ VUHDO_PROFILES = {
 					["xAdjust"] = 0,
 				},
 				["MODEL"] = {
+					["ordering"] = 0,
+					["sort"] = 0,
 					["groups"] = {
 						1, -- [1]
 						2, -- [2]
@@ -4046,8 +4048,6 @@ VUHDO_PROFILES = {
 						7, -- [7]
 						8, -- [8]
 					},
-					["ordering"] = 0,
-					["sort"] = 0,
 					["isReverse"] = false,
 				},
 				["TOOLTIP"] = {
@@ -4127,8 +4127,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = true,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -4159,16 +4159,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 30,
-					["totWidth"] = 30,
-					["showHeaders"] = false,
 					["isDamFlash"] = true,
+					["showHeaders"] = false,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = false,
 					["maxRowsWhenLoose"] = 6,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -4295,8 +4295,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -4327,16 +4327,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 100,
 					["rowSpacing"] = 2,
 				},
@@ -4462,8 +4462,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -4494,16 +4494,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -4629,8 +4629,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -4661,16 +4661,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -4797,8 +4797,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -4829,16 +4829,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 8,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -4964,8 +4964,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -4996,16 +4996,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -5131,8 +5131,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -5163,16 +5163,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -5298,8 +5298,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -5330,16 +5330,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -5465,8 +5465,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -5497,16 +5497,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -5632,8 +5632,8 @@ VUHDO_PROFILES = {
 						["useOpacity"] = true,
 						["textSizeLife"] = 8,
 						["outline"] = false,
-						["textSize"] = 12,
 						["useText"] = true,
+						["textSize"] = 12,
 					},
 					["TOT"] = {
 						["TR"] = 1,
@@ -5664,16 +5664,16 @@ VUHDO_PROFILES = {
 					["borderGapX"] = 5,
 					["manaBarHeight"] = 5,
 					["headerWidth"] = 33,
-					["totWidth"] = 30,
-					["showHeaders"] = true,
 					["isDamFlash"] = true,
+					["showHeaders"] = true,
+					["totWidth"] = 30,
 					["totSpacing"] = 3,
 					["showTot"] = false,
 					["isPlayerOnTop"] = true,
 					["maxRowsWhenLoose"] = 6,
 					["maxColumnsWhenStructured"] = 8,
-					["borderGapY"] = 5,
 					["columnSpacing"] = 5,
+					["borderGapY"] = 5,
 					["barWidth"] = 75,
 					["rowSpacing"] = 2,
 				},
@@ -5730,7 +5730,7 @@ VUHDO_PROFILES = {
 					"Sacred Shield", -- [1]
 					"Flash of Light", -- [2]
 				},
-				["iconRadioValue"] = 2,
+				["radioValue"] = 20,
 				["SLOTCFG"] = {
 					["1"] = {
 						["mine"] = true,
@@ -5770,7 +5770,7 @@ VUHDO_PROFILES = {
 					},
 				},
 				["stacksRadioValue"] = 3,
-				["radioValue"] = 20,
+				["iconRadioValue"] = 2,
 			},
 			["BAR_COLORS"] = {
 				["OVERHEAL_TEXT"] = {
@@ -5784,8 +5784,8 @@ VUHDO_PROFILES = {
 				["HOT7"] = {
 					["useBackground"] = true,
 					["R"] = 1,
-					["G"] = 1,
 					["O"] = 0.75,
+					["G"] = 1,
 					["B"] = 1,
 				},
 				["CLUSTER_FAIR"] = {
@@ -6015,8 +6015,8 @@ VUHDO_PROFILES = {
 				["HOT6"] = {
 					["useBackground"] = true,
 					["R"] = 1,
-					["G"] = 1,
 					["O"] = 0.75,
+					["G"] = 1,
 					["B"] = 1,
 				},
 				["HOT4"] = {
@@ -6100,8 +6100,8 @@ VUHDO_PROFILES = {
 				["GCD_BAR"] = {
 					["useBackground"] = true,
 					["R"] = 0.4,
-					["G"] = 0.4,
 					["O"] = 0.5,
+					["G"] = 0.4,
 					["B"] = 0.4,
 				},
 				["HOT2"] = {
@@ -6160,8 +6160,8 @@ VUHDO_PROFILES = {
 				["HOT8"] = {
 					["useBackground"] = true,
 					["R"] = 1,
-					["G"] = 1,
 					["O"] = 0.75,
+					["G"] = 1,
 					["B"] = 1,
 				},
 				["DEBUFF2"] = {
@@ -6212,15 +6212,15 @@ VUHDO_PROFILES = {
 					["LOW"] = {
 						["useBackground"] = true,
 						["R"] = 0,
-						["G"] = 1,
 						["O"] = 1,
+						["G"] = 1,
 						["B"] = 1,
 					},
 					["HIGH"] = {
 						["useBackground"] = true,
 						["R"] = 1,
-						["G"] = 0,
 						["O"] = 1,
+						["G"] = 0,
 						["B"] = 1,
 					},
 				},
@@ -6268,22 +6268,22 @@ VUHDO_PROFILES = {
 					["GOOD"] = {
 						["useBackground"] = true,
 						["R"] = 0,
-						["G"] = 1,
 						["O"] = 1,
+						["G"] = 1,
 						["B"] = 0,
 					},
 					["LOW"] = {
 						["useBackground"] = true,
 						["R"] = 1,
-						["G"] = 0,
 						["O"] = 1,
+						["G"] = 0,
 						["B"] = 0,
 					},
 					["FAIR"] = {
 						["useBackground"] = true,
 						["R"] = 1,
-						["G"] = 1,
 						["O"] = 1,
+						["G"] = 1,
 						["B"] = 0,
 					},
 				},
@@ -6303,18 +6303,18 @@ VUHDO_PROFILES = {
 		},
 		["BUFF_ORDER"] = {
 			["01Blessing"] = 1,
-			["04Beacon of Light"] = 4,
+			["03Seal"] = 3,
 			["07Power Infusion"] = 7,
 			["06Sacred Shield"] = 6,
 			["06Shadowfiend"] = 6,
-			["03Seal"] = 3,
+			["05Righteous Fury"] = 5,
 			["05Inner Fire"] = 5,
 			["02Aura"] = 2,
-			["09Levitate"] = 9,
+			["04Beacon of Light"] = 4,
 			["08Vampiric Embrace"] = 8,
 			["02Spirit"] = 2,
 			["01Fortitude"] = 1,
-			["05Righteous Fury"] = 5,
+			["09Levitate"] = 9,
 			["04Fear Ward"] = 4,
 			["03Shadow Protection"] = 3,
 			["10Pain Suppression"] = 10,
@@ -6519,11 +6519,11 @@ VUHDO_PROFILES = {
 				["PANEL_BG_COLOR"] = {
 					["useBackground"] = true,
 					["useOpacity"] = false,
-					["B"] = 0,
+					["R"] = 0,
 					["useText"] = false,
 					["O"] = 0.5,
 					["G"] = 0,
-					["R"] = 0,
+					["B"] = 0,
 				},
 				["SWATCH_COLOR_BUFF_LOW"] = {
 					["TG"] = 0.7,
@@ -6540,52 +6540,6 @@ VUHDO_PROFILES = {
 				},
 				["SCALE"] = 1,
 				["BAR_COLORS_TEXT"] = true,
-				["SHOW_EMPTY"] = false,
-				["BAR_COLORS_IN_FIGHT"] = false,
-				["HIGHLIGHT_COOLDOWN"] = true,
-				["HIDE_CHARGES"] = false,
-				["GROUP_SPELL_VERSION"] = "smart",
-				["WHEEL_SMART_BUFF"] = false,
-				["SWATCH_MAX_ROWS"] = 2,
-				["COMPACT"] = true,
-				["PANEL_BORDER_COLOR"] = {
-					["useBackground"] = true,
-					["useOpacity"] = false,
-					["B"] = 0,
-					["useText"] = false,
-					["O"] = 0.5,
-					["G"] = 0,
-					["R"] = 0,
-				},
-				["BAR_COLORS_BACKGROUND"] = true,
-				["AT_LEAST_MISSING"] = 2,
-				["SWATCH_BG_COLOR"] = {
-					["useBackground"] = true,
-					["useOpacity"] = false,
-					["B"] = 0,
-					["useText"] = false,
-					["O"] = 1,
-					["G"] = 0,
-					["R"] = 0,
-				},
-				["REBUFF_MIN_MINUTES"] = 3,
-				["PANEL_MAX_BUFFS"] = 5,
-				["SWATCH_BORDER_COLOR"] = {
-					["useBackground"] = true,
-					["useOpacity"] = false,
-					["B"] = 0.8,
-					["useText"] = false,
-					["O"] = 0,
-					["G"] = 0.8,
-					["R"] = 0.8,
-				},
-				["REBUFF_AT_PERCENT"] = 25,
-				["POSITION"] = {
-					["y"] = 0.8497345651881186,
-					["x"] = 165.4770563205162,
-					["point"] = "TOPLEFT",
-					["relativePoint"] = "TOPLEFT",
-				},
 				["SWATCH_COLOR_OUT_RANGE"] = {
 					["TG"] = 0,
 					["R"] = 0,
@@ -6599,6 +6553,52 @@ VUHDO_PROFILES = {
 					["O"] = 0.5,
 					["B"] = 0,
 				},
+				["SHOW_EMPTY"] = false,
+				["HIGHLIGHT_COOLDOWN"] = true,
+				["HIDE_CHARGES"] = false,
+				["GROUP_SPELL_VERSION"] = "smart",
+				["WHEEL_SMART_BUFF"] = false,
+				["SWATCH_MAX_ROWS"] = 2,
+				["COMPACT"] = true,
+				["PANEL_BORDER_COLOR"] = {
+					["useBackground"] = true,
+					["useOpacity"] = false,
+					["R"] = 0,
+					["useText"] = false,
+					["O"] = 0.5,
+					["G"] = 0,
+					["B"] = 0,
+				},
+				["BAR_COLORS_BACKGROUND"] = true,
+				["AT_LEAST_MISSING"] = 2,
+				["SWATCH_BG_COLOR"] = {
+					["useBackground"] = true,
+					["useOpacity"] = false,
+					["R"] = 0,
+					["useText"] = false,
+					["O"] = 1,
+					["G"] = 0,
+					["B"] = 0,
+				},
+				["REBUFF_MIN_MINUTES"] = 3,
+				["PANEL_MAX_BUFFS"] = 5,
+				["SWATCH_BORDER_COLOR"] = {
+					["useBackground"] = true,
+					["useOpacity"] = false,
+					["R"] = 0.8,
+					["useText"] = false,
+					["O"] = 0,
+					["G"] = 0.8,
+					["B"] = 0.8,
+				},
+				["REBUFF_AT_PERCENT"] = 25,
+				["POSITION"] = {
+					["y"] = 0.8497345651881186,
+					["x"] = 165.4770563205162,
+					["point"] = "TOPLEFT",
+					["relativePoint"] = "TOPLEFT",
+				},
+				["BAR_COLORS_IN_FIGHT"] = false,
 			},
 			["Seal"] = {
 				["enabled"] = false,
@@ -6840,8 +6840,8 @@ VUHDO_PROFILES = {
 				["CLUSTER_BORDER"] = "",
 				["THREAT_MARK"] = "",
 				["SWIFTMEND_INDICATOR"] = "",
-				["BAR_BORDER"] = "Border: Multi + Aggro",
 				["MANA_BAR"] = "Manabars: Mana only",
+				["BAR_BORDER"] = "Border: Multi + Aggro",
 				["HEALTH_BAR"] = "Health Bar: (generic, gradient)",
 				["INCOMING_BAR"] = "",
 				["DAMAGE_FLASH_BAR"] = "",
@@ -7011,6 +7011,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "AGGRO",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7024,8 +7025,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7039,6 +7038,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -7062,6 +7062,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "PLAYER_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7075,8 +7076,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7090,6 +7089,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.7,
@@ -7113,6 +7113,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7126,8 +7127,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7141,6 +7140,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.4,
@@ -7164,6 +7164,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7177,8 +7178,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7192,6 +7191,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -7217,6 +7217,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7230,8 +7231,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7245,6 +7244,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -7268,28 +7268,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_MANA",
 				["custom"] = {
 					1, -- [1]
-					["grad_low"] = {
-						["R"] = 0,
-						["G"] = 0,
-						["useOpacity"] = true,
-						["TO"] = 1,
-						["useBackground"] = true,
-						["useText"] = false,
-						["O"] = 1,
-						["B"] = 0.6,
-					},
 					["radio"] = 1,
-					["bright"] = 1,
-					["grad_med"] = {
-						["R"] = 0,
+					["grad_low"] = {
+						["B"] = 0.6,
 						["G"] = 0,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["B"] = 0.8,
+						["R"] = 0,
 					},
+					["grad_med"] = {
+						["B"] = 0.8,
+						["G"] = 0,
+						["useOpacity"] = true,
+						["TO"] = 1,
+						["useBackground"] = true,
+						["useText"] = false,
+						["O"] = 1,
+						["R"] = 0,
+					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -7312,6 +7312,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Last Stand",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7325,8 +7326,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7340,6 +7339,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7363,6 +7363,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Shield Wall",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7376,8 +7377,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7391,6 +7390,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7414,6 +7414,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Survival Instincts",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7427,8 +7428,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7442,6 +7441,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7465,6 +7465,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Frenzied Regeneration",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7478,8 +7479,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7493,6 +7492,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7518,6 +7518,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Weakened Soul",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7531,8 +7532,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7546,6 +7545,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7569,6 +7569,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "Power Word: Shield",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7582,8 +7583,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7597,6 +7596,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7622,6 +7622,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "THREAT_ABOVE",
 				["custom"] = {
 					85, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0,
 						["B"] = 0.3,
@@ -7635,8 +7636,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0,
 						["B"] = 0.6,
@@ -7650,6 +7649,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -7673,28 +7673,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_THREAT",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
-						["R"] = 0,
+						["B"] = 0.3,
 						["G"] = 0.3,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["B"] = 0.3,
-					},
-					["radio"] = 1,
-					["bright"] = 1,
-					["grad_med"] = {
 						["R"] = 0,
+					},
+					["grad_med"] = {
+						["B"] = 0.6,
 						["G"] = 0.6,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["B"] = 0.6,
+						["R"] = 0,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -7717,6 +7717,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7730,8 +7731,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7745,6 +7744,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7768,6 +7768,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_GROUP",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7781,8 +7782,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7796,6 +7795,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -7821,6 +7821,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_CLUSTER",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -7834,8 +7835,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -7849,6 +7848,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.5,
@@ -7875,7 +7875,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0.576,
-					["B"] = 0.298,
+					["R"] = 0.298,
 					["TB"] = 0.576,
 					["G"] = 0.298,
 					["TR"] = 0.576,
@@ -7885,7 +7885,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = true,
 					["useText"] = true,
 					["O"] = 0.21,
-					["R"] = 0.298,
+					["B"] = 0.298,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -7926,7 +7926,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0,
-					["B"] = 0,
+					["R"] = 0,
 					["TB"] = 0,
 					["G"] = 0,
 					["TR"] = 0,
@@ -7936,7 +7936,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = false,
 					["useText"] = false,
 					["O"] = 0.25,
-					["R"] = 0,
+					["B"] = 0,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -8026,7 +8026,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0.5,
-					["B"] = 0.3,
+					["R"] = 0.3,
 					["TB"] = 0.5,
 					["G"] = 0.3,
 					["TR"] = 0.5,
@@ -8036,7 +8036,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = true,
 					["useText"] = true,
 					["O"] = 0.5,
-					["R"] = 0.3,
+					["B"] = 0.3,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -8284,11 +8284,11 @@ VUHDO_BOUQUETS = {
 					["B"] = 0.7,
 					["TB"] = 1,
 					["G"] = 0.7,
-					["useBackground"] = true,
+					["useOpacity"] = true,
 					["isManuallySet"] = true,
 					["TO"] = 1,
 					["TR"] = 1,
-					["useOpacity"] = true,
+					["useBackground"] = true,
 					["O"] = 1,
 					["R"] = 0.7,
 				},
@@ -8332,6 +8332,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "SWIFTMEND",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -8345,8 +8346,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -8360,6 +8359,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -8385,6 +8385,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -8398,8 +8399,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -8413,6 +8412,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -8438,6 +8438,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DISCONNECTED",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -8451,8 +8452,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -8466,6 +8465,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.576,
@@ -8489,6 +8489,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -8502,8 +8503,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -8517,6 +8516,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -8540,6 +8540,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DEBUFF_BAR_COLOR",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -8553,8 +8554,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
-					["radio"] = 1,
-					["bright"] = 0.4,
 					["grad_med"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -8568,6 +8567,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
+					["bright"] = 0.4,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -8591,6 +8591,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -8604,8 +8605,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -8619,6 +8618,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -8645,7 +8645,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0.576,
-					["B"] = 0.298,
+					["R"] = 0.298,
 					["TB"] = 0.576,
 					["G"] = 0.298,
 					["TR"] = 0.576,
@@ -8655,7 +8655,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = true,
 					["useText"] = true,
 					["O"] = 0.21,
-					["R"] = 0.298,
+					["B"] = 0.298,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -8696,7 +8696,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0,
-					["B"] = 0,
+					["R"] = 0,
 					["TB"] = 0,
 					["G"] = 0,
 					["TR"] = 0,
@@ -8706,7 +8706,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = false,
 					["useText"] = false,
 					["O"] = 0.25,
-					["R"] = 0,
+					["B"] = 0,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -8796,7 +8796,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0.5,
-					["B"] = 0.3,
+					["R"] = 0.3,
 					["TB"] = 0.5,
 					["G"] = 0.3,
 					["TR"] = 0.5,
@@ -8806,7 +8806,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = true,
 					["useText"] = true,
 					["O"] = 0.5,
-					["R"] = 0.3,
+					["B"] = 0.3,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -9054,11 +9054,11 @@ VUHDO_BOUQUETS = {
 					["B"] = 0.7,
 					["TB"] = 1,
 					["G"] = 0.7,
-					["useBackground"] = true,
+					["useOpacity"] = true,
 					["isManuallySet"] = true,
 					["TO"] = 1,
 					["TR"] = 1,
-					["useOpacity"] = true,
+					["useBackground"] = true,
 					["O"] = 1,
 					["R"] = 0.7,
 				},
@@ -9102,6 +9102,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "THREAT_LEVEL_HIGH",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -9115,8 +9116,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -9130,6 +9129,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.5,
@@ -9153,6 +9153,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "THREAT_LEVEL_MEDIUM",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -9166,8 +9167,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -9181,6 +9180,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.5,
@@ -9206,6 +9206,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -9219,8 +9220,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -9234,6 +9233,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -9257,28 +9257,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_MANA",
 				["custom"] = {
 					1, -- [1]
-					["grad_low"] = {
-						["R"] = 0,
-						["G"] = 0,
-						["useOpacity"] = true,
-						["TO"] = 1,
-						["useBackground"] = true,
-						["useText"] = false,
-						["O"] = 1,
-						["B"] = 0.6,
-					},
 					["radio"] = 1,
-					["bright"] = 1,
-					["grad_med"] = {
-						["R"] = 0,
+					["grad_low"] = {
+						["B"] = 0.6,
 						["G"] = 0,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["B"] = 0.8,
+						["R"] = 0,
 					},
+					["grad_med"] = {
+						["B"] = 0.8,
+						["G"] = 0,
+						["useOpacity"] = true,
+						["TO"] = 1,
+						["useBackground"] = true,
+						["useText"] = false,
+						["O"] = 1,
+						["R"] = 0,
+					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -9299,28 +9299,28 @@ VUHDO_BOUQUETS = {
 				["name"] = "STATUS_OTHER_POWERS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
-						["R"] = 0.3,
+						["B"] = 0.3,
 						["G"] = 0.3,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["B"] = 0.3,
+						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
-						["R"] = 0.6,
+						["B"] = 0.6,
 						["G"] = 0.6,
 						["useOpacity"] = true,
 						["TO"] = 1,
 						["useBackground"] = true,
 						["useText"] = false,
 						["O"] = 1,
-						["B"] = 0.6,
+						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["B"] = 1,
@@ -9343,6 +9343,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -9356,8 +9357,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -9371,6 +9370,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -9397,7 +9397,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0.576,
-					["B"] = 0.298,
+					["R"] = 0.298,
 					["TB"] = 0.576,
 					["G"] = 0.298,
 					["TR"] = 0.576,
@@ -9407,7 +9407,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = true,
 					["useText"] = true,
 					["O"] = 0.21,
-					["R"] = 0.298,
+					["B"] = 0.298,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -9448,7 +9448,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0,
-					["B"] = 0,
+					["R"] = 0,
 					["TB"] = 0,
 					["G"] = 0,
 					["TR"] = 0,
@@ -9458,7 +9458,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = false,
 					["useText"] = false,
 					["O"] = 0.25,
-					["R"] = 0,
+					["B"] = 0,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -9548,7 +9548,7 @@ VUHDO_BOUQUETS = {
 				["others"] = true,
 				["color"] = {
 					["TG"] = 0.5,
-					["B"] = 0.3,
+					["R"] = 0.3,
 					["TB"] = 0.5,
 					["G"] = 0.3,
 					["TR"] = 0.5,
@@ -9558,7 +9558,7 @@ VUHDO_BOUQUETS = {
 					["useBackground"] = true,
 					["useText"] = true,
 					["O"] = 0.5,
-					["R"] = 0.3,
+					["B"] = 0.3,
 				},
 				["mine"] = true,
 				["icon"] = 2,
@@ -9852,6 +9852,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DISCONNECTED",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -9865,8 +9866,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -9880,6 +9879,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.576,
@@ -9903,6 +9903,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "NO_RANGE",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 2,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -9916,8 +9917,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 2,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -9931,6 +9930,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -9954,6 +9954,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "DEBUFF_BAR_COLOR",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -9967,8 +9968,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
-					["radio"] = 1,
-					["bright"] = 0.4,
 					["grad_med"] = {
 						["TG"] = 1,
 						["B"] = 1,
@@ -9982,6 +9981,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 1,
 					},
+					["bright"] = 0.4,
 				},
 				["color"] = {
 					["TG"] = 1,
@@ -10005,6 +10005,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "CLASS_COLOR",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -10018,8 +10019,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 0.4,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -10033,6 +10032,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 0.4,
 				},
 				["color"] = {
 					["TG"] = 0.1,
@@ -10058,6 +10058,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "AGGRO",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -10071,8 +10072,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -10086,6 +10085,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0,
@@ -10111,6 +10111,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "PLAYER_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -10124,8 +10125,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -10139,6 +10138,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.7,
@@ -10162,6 +10162,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "MOUSE_TARGET",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -10175,8 +10176,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -10190,6 +10189,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.4,
@@ -10213,6 +10213,7 @@ VUHDO_BOUQUETS = {
 				["name"] = "ALWAYS",
 				["custom"] = {
 					1, -- [1]
+					["radio"] = 1,
 					["grad_low"] = {
 						["TG"] = 0.3,
 						["B"] = 0.3,
@@ -10226,8 +10227,6 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.3,
 					},
-					["radio"] = 1,
-					["bright"] = 1,
 					["grad_med"] = {
 						["TG"] = 0.6,
 						["B"] = 0.6,
@@ -10241,6 +10240,7 @@ VUHDO_BOUQUETS = {
 						["O"] = 1,
 						["R"] = 0.6,
 					},
+					["bright"] = 1,
 				},
 				["color"] = {
 					["TG"] = 0.1,

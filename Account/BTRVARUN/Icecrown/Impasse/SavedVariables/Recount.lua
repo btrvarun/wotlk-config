@@ -110,20 +110,20 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["ActiveTime"] = {
-					598.0899999999996, -- [1]
-				},
 				["TimeDamage"] = {
 					598.0899999999996, -- [1]
 				},
-				["DOT_Time"] = {
-					487, -- [1]
+				["ActiveTime"] = {
+					598.0899999999996, -- [1]
+				},
+				["DamageTaken"] = {
+					2265, -- [1]
 				},
 				["ManaGain"] = {
 					859, -- [1]
 				},
-				["DamageTaken"] = {
-					2265, -- [1]
+				["DOT_Time"] = {
+					487, -- [1]
 				},
 				["Damage"] = {
 					8391, -- [1]
@@ -131,8 +131,59 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "WARLOCK",
 			["unit"] = "Impasse",
-			["LastActive"] = 1574870716,
-			["UnitLockout"] = 1574867797,
+			["LastAbility"] = 2217768.21,
+			["LastEventTimes"] = {
+				40255.817, -- [1]
+				40256.069, -- [2]
+				40256.767, -- [3]
+				40257.268, -- [4]
+				40258.851, -- [5]
+				40258.852, -- [6]
+				40259.035, -- [7]
+				40259.201, -- [8]
+				40259.384, -- [9]
+				40260.867, -- [10]
+				40261.217, -- [11]
+				40261.801, -- [12]
+				40262.201, -- [13]
+				40262.534, -- [14]
+				40262.901, -- [15]
+				40263.267, -- [16]
+				40264.7, -- [17]
+				40264.869, -- [18]
+				40273.267, -- [19]
+				40274.984, -- [20]
+				40276.117, -- [21]
+				40276.267, -- [22]
+				40277.001, -- [23]
+				40277.517, -- [24]
+				40278.984, -- [25]
+				40279.134, -- [26]
+				40279.283, -- [27]
+				40279.584, -- [28]
+				40280.167, -- [29]
+				40281.05, -- [30]
+				40281.535, -- [31]
+				40282.2, -- [32]
+				40282.334, -- [33]
+				40282.917, -- [34]
+				40283.083, -- [35]
+				40283.501, -- [36]
+				40284.968, -- [37]
+				40285.218, -- [38]
+				40285.369, -- [39]
+				40295.1, -- [40]
+				40297.733, -- [41]
+				40298.5, -- [42]
+				40299.451, -- [43]
+				40299.733, -- [44]
+				40301.384, -- [45]
+				40301.501, -- [46]
+				40302.167, -- [47]
+				40303.383, -- [48]
+				40304.467, -- [49]
+				40304.901, -- [50]
+			},
 			["level"] = 8,
 			["LastDamageAbility"] = "Melee",
 			["LastFightIn"] = 36,
@@ -146,8 +197,8 @@ RecountPerCharDB = {
 				[37] = 3.245436105476673,
 				[20] = 3.042596348884382,
 				[41] = 3.245436105476673,
-				[16] = 6.085192697768763,
 				[30] = 3.245436105476673,
+				[16] = 6.085192697768763,
 			},
 			["type"] = "Self",
 			["FightsSaved"] = 5,
@@ -159,7 +210,4390 @@ RecountPerCharDB = {
 					},
 				},
 			},
+			["LastDamageTaken"] = 16,
+			["Owner"] = false,
+			["Pet"] = {
+				"Pagrai <Impasse>", -- [1]
+			},
+			["NextEventNum"] = 1,
+			["LastEventHealthNum"] = {
+				96.95740365111561, -- [1]
+				96.95740365111561, -- [2]
+				96.95740365111561, -- [3]
+				96.95740365111561, -- [4]
+				93.71196754563894, -- [5]
+				93.71196754563894, -- [6]
+				93.71196754563894, -- [7]
+				93.71196754563894, -- [8]
+				90.46653144016227, -- [9]
+				90.46653144016227, -- [10]
+				90.46653144016227, -- [11]
+				90.46653144016227, -- [12]
+				90.46653144016227, -- [13]
+				90.46653144016227, -- [14]
+				90.46653144016227, -- [15]
+				90.46653144016227, -- [16]
+				84.38133874239351, -- [17]
+				84.38133874239351, -- [18]
+				65.92292089249493, -- [19]
+				65.92292089249493, -- [20]
+				62.88032454361055, -- [21]
+				62.88032454361055, -- [22]
+				62.88032454361055, -- [23]
+				59.63488843813388, -- [24]
+				59.63488843813388, -- [25]
+				56.59229208924949, -- [26]
+				56.59229208924949, -- [27]
+				56.59229208924949, -- [28]
+				56.59229208924949, -- [29]
+				56.59229208924949, -- [30]
+				53.34685598377282, -- [31]
+				53.34685598377282, -- [32]
+				53.34685598377282, -- [33]
+				53.34685598377282, -- [34]
+				53.34685598377282, -- [35]
+				50.10141987829615, -- [36]
+				50.10141987829615, -- [37]
+				46.85598377281947, -- [38]
+				46.85598377281947, -- [39]
+				52.73833671399594, -- [40]
+				52.73833671399594, -- [41]
+				49.49290060851927, -- [42]
+				49.49290060851927, -- [43]
+				49.49290060851927, -- [44]
+				46.24746450304259, -- [45]
+				46.24746450304259, -- [46]
+				46.24746450304259, -- [47]
+				46.24746450304259, -- [48]
+				46.24746450304259, -- [49]
+				46.24746450304259, -- [50]
+			},
+			["LastEvents"] = {
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [1]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [2]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [3]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [4]
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [5]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [6]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [7]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [8]
+				"Impasse Shadow Bolt Zhevra Runner Hit -50 (Shadow)", -- [9]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [10]
+				"Zhevra Runner Melee Impasse Miss", -- [11]
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [12]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [13]
+				"Impasse Shadow Bolt Zhevra Runner Hit -47 (Shadow)", -- [14]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [15]
+				"Zhevra Runner Melee Impasse Crit -30 (Physical)", -- [16]
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [17]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -9 (Shadow)", -- [18]
+				"Impasse Immolate Zhevra Runner Hit -28 (Fire)", -- [19]
+				"Zhevra Runner Melee Impasse Hit -15 (Physical)", -- [20]
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [21]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [22]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [23]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [24]
+				"Zhevra Runner Melee Impasse Hit -15 (Physical)", -- [25]
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [26]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [27]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [28]
+				"Impasse Shadow Bolt Zhevra Runner Hit -48 (Shadow)", -- [29]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [30]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [31]
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [32]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [33]
+				"Impasse Shadow Bolt Zhevra Runner Hit -50 (Shadow)", -- [34]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [35]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [36]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [37]
+				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [38]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [39]
+				"Impasse Shadow Bolt Zhevra Runner Hit -48 (Shadow)", -- [40]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [41]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [42]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [43]
+				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [44]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [45]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [46]
+				"Impasse Shadow Bolt Zhevra Runner Hit -50 (Shadow)", -- [47]
+				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [48]
+				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [49]
+				"Impasse Shadow Bolt Zhevra Runner Crit -76 (Shadow)", -- [50]
+			},
+			["Name"] = "Impasse",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				true, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["TimeLast"] = {
+				["ActiveTime"] = 1574870716,
+				["DamageTaken"] = 1574870711,
+				["TimeDamage"] = 1574870716,
+				["ManaGain"] = 1574870716,
+				["OVERALL"] = 1574870716,
+				["DOT_Time"] = 1574870715,
+				["Damage"] = 1574870716,
+			},
 			["Fights"] = {
+				["Fight3"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 77,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 251,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 77,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 31,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 171,
+						["Melee"] = 0,
+						["Fire"] = 80,
+					},
+					["DamagedWho"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 45,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 97,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 52,
+								},
+								["Immolate"] = {
+									["count"] = 28,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 29,
+								},
+							},
+							["amount"] = 251,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 77,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.8300000000000001,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.6799999999999999,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 7.81,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 2.72,
+								},
+							},
+							["amount"] = 15.54,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 15.54,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 45,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit (Blocked)"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 29,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 52,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 52,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 97,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 97,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 15.54,
+					["TimeDamaging"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.8300000000000001,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.6799999999999999,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 7.81,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 2.72,
+								},
+							},
+							["amount"] = 15.54,
+						},
+					},
+					["ManaGain"] = 14,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight5"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 6,
+								},
+								["Greater Plainstrider"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 3,
+								},
+								["Greater Plainstrider"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+						["Shadow"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 188,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Fire"] = 0,
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 13,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 114,
+						["Melee"] = 0,
+						["Fire"] = 74,
+					},
+					["DamagedWho"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 22,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 74,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 40,
+								},
+								["Immolate"] = {
+									["count"] = 34,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 188,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 13,
+								},
+								["Life Tap"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+								["Fire"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.17,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.15,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 3.25,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 2.34,
+								},
+							},
+							["amount"] = 9.41,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 9.41,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 22,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 22,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 9,
+									["count"] = 2,
+									["amount"] = 18,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 18,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 20,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 40,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 40,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 34,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 74,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 74,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 74,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 9.41,
+					["TimeDamaging"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.17,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0.15,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 3.25,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 2.34,
+								},
+							},
+							["amount"] = 9.41,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 63,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 0,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 0,
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["DamagedWho"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 0,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 94,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 258,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 94,
+						["Nature"] = 0,
+					},
+					["DOT_Time"] = 32,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 178,
+						["Fire"] = 80,
+					},
+					["DamagedWho"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 60,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 98,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 52,
+								},
+								["Immolate"] = {
+									["count"] = 28,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 258,
+						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 14,
+								},
+								["Life Tap"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 66,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shoot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 94,
+						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Lightning Shield"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Shoot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Lightning Shield"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 52,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.58,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1.16,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 6.86,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 15.60000000000001,
+						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 15.60000000000001,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 60,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 60,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 20,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 20,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 52,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 52,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 98,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 98,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 15.60000000000001,
+					["TimeDamaging"] = {
+						["Razormane Scout"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.58,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1.16,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 6.86,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 15.60000000000001,
+						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 66,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+						["Shadow"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 39,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Crushing"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["Damage"] = 170,
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 39,
+					},
+					["DOT_Time"] = 13,
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 129,
+						["Fire"] = 41,
+					},
+					["DamagedWho"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Curse of Agony (DoT)"] = {
+									["count"] = 29,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 13,
+								},
+								["Immolate"] = {
+									["count"] = 28,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 100,
+								},
+							},
+							["amount"] = 170,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 14,
+								},
+								["Life Tap"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 64,
+						},
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 39,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 50,
+								},
+							},
+							["amount"] = 50,
+						},
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.42,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 5.16,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 2.02,
+								},
+								["Immolate"] = {
+									["count"] = 1.08,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.77,
+								},
+							},
+							["amount"] = 12.45,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["ActiveTime"] = 12.45,
+					["EnergyGained"] = {
+					},
+					["EnergyGain"] = 0,
+					["Healing"] = 0,
+					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Corruption"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 29,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 13,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 13,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 28,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 51,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 100,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 100,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 12.45,
+					["TimeDamaging"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.42,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 5.16,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 2.02,
+								},
+								["Immolate"] = {
+									["count"] = 1.08,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 3.77,
+								},
+							},
+							["amount"] = 12.45,
+						},
+					},
+					["ManaGain"] = 64,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["TimeSpent"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 4.6,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4.1,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 4.6,
+								},
+							},
+							["amount"] = 13.3,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 32,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.3,
+					["ElementTaken"] = {
+						["Melee"] = 32,
+					},
+					["DOT_Time"] = 15,
+					["Damage"] = 234,
+					["ElementDone"] = {
+						["Shadow"] = 234,
+						["Fire"] = 0,
+					},
+					["DamagedWho"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 45,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 15,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 234,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 45,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 15,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 76,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 98,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 174,
+						},
+					},
+					["WhoDamaged"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 14,
+								},
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["TimeDamage"] = 13.3,
+					["TimeDamaging"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 4.6,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4.1,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 4.6,
+								},
+							},
+							["amount"] = 13.3,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 14,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Sunscale Screecher"] = {
+									["count"] = 0,
+								},
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Fleeting Plainstrider"] = {
+									["count"] = 0,
+								},
+								["Zhevra Runner"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 0,
+						["Fire"] = 0,
+					},
+					["TimeSpent"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 4.6,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4.1,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 4.6,
+								},
+							},
+							["amount"] = 13.3,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 32,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ManaGained"] = {
+						["Discerning Eye of the Beast"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Life Tap"] = {
+							["Details"] = {
+								["Impasse"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.3,
+					["ElementTaken"] = {
+						["Melee"] = 32,
+					},
+					["DOT_Time"] = 15,
+					["Damage"] = 234,
+					["ElementDone"] = {
+						["Shadow"] = 234,
+						["Fire"] = 0,
+					},
+					["DamagedWho"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 45,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 15,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 174,
+								},
+							},
+							["amount"] = 234,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Corruption (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 45,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 45,
+						},
+						["Curse of Agony (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 5,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 15,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 15,
+						},
+						["Immolate (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Immolate"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Shadow Bolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 76,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+								["Hit"] = {
+									["max"] = 50,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 98,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 174,
+						},
+					},
+					["WhoDamaged"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 32,
+								},
+							},
+							["amount"] = 32,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
+							["Details"] = {
+								["Discerning Eye of the Beast"] = {
+									["count"] = 14,
+								},
+								["Life Tap"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["TimeDamage"] = 13.3,
+					["TimeDamaging"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 0,
+								},
+								["Immolate"] = {
+									["count"] = 0,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 4.6,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 4.1,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 4.6,
+								},
+							},
+							["amount"] = 13.3,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 14,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+				},
 				["OverallData"] = {
 					["ElementDoneBlock"] = {
 						["Melee"] = 4,
@@ -167,8 +4601,8 @@ RecountPerCharDB = {
 					["DOTs"] = {
 						["Immolate (DoT)"] = {
 							["Details"] = {
-								["Greater Plainstrider"] = {
-									["count"] = 6,
+								["Zhevra Runner"] = {
+									["count"] = 27,
 								},
 								["Sunscale Screecher"] = {
 									["count"] = 129,
@@ -176,16 +4610,16 @@ RecountPerCharDB = {
 								["Fleeting Plainstrider"] = {
 									["count"] = 33,
 								},
-								["Zhevra Runner"] = {
-									["count"] = 27,
+								["Greater Plainstrider"] = {
+									["count"] = 6,
 								},
 							},
 							["amount"] = 195,
 						},
 						["Corruption (DoT)"] = {
 							["Details"] = {
-								["Greater Plainstrider"] = {
-									["count"] = 6,
+								["Zhevra Runner"] = {
+									["count"] = 30,
 								},
 								["Sunscale Screecher"] = {
 									["count"] = 144,
@@ -193,8 +4627,8 @@ RecountPerCharDB = {
 								["Fleeting Plainstrider"] = {
 									["count"] = 36,
 								},
-								["Zhevra Runner"] = {
-									["count"] = 30,
+								["Greater Plainstrider"] = {
+									["count"] = 6,
 								},
 							},
 							["amount"] = 216,
@@ -215,8 +4649,8 @@ RecountPerCharDB = {
 						},
 					},
 					["ElementDoneResist"] = {
-						["Fire"] = 235,
 						["Shadow"] = 891,
+						["Fire"] = 235,
 					},
 					["TimeSpent"] = {
 						["Razormane Scout"] = {
@@ -238,21 +4672,36 @@ RecountPerCharDB = {
 							},
 							["amount"] = 58.04999999999999,
 						},
-						["Razormane Dustrunner"] = {
+						["Zhevra Runner"] = {
 							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.42,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 6.010000000000001,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 15.48,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 16.69,
+								},
+								["Immolate"] = {
+									["count"] = 8.08,
+								},
 								["Shadow Bolt"] = {
-									["count"] = 46.21000000000001,
+									["count"] = 10.21,
 								},
 							},
-							["amount"] = 46.21000000000001,
+							["amount"] = 56.88999999999998,
 						},
 						["Fleeting Plainstrider"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
 									["count"] = 8.77,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 19.06,
+								["Curse of Agony (DoT)"] = {
+									["count"] = 14.99,
 								},
 								["Immolate (DoT)"] = {
 									["count"] = 14.88,
@@ -260,19 +4709,28 @@ RecountPerCharDB = {
 								["Immolate"] = {
 									["count"] = 9.92,
 								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 14.99,
+								["Shadow Bolt"] = {
+									["count"] = 19.06,
 								},
 							},
 							["amount"] = 67.62000000000001,
 						},
-						["Geolord Mottle"] = {
+						["Greater Plainstrider"] = {
 							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 0.41,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 3.85,
+								},
+								["Immolate"] = {
+									["count"] = 3.5,
+								},
 								["Shadow Bolt"] = {
-									["count"] = 20.37000000000001,
+									["count"] = 1.9,
 								},
 							},
-							["amount"] = 20.37000000000001,
+							["amount"] = 9.660000000000002,
 						},
 						["Razormane Battleguard"] = {
 							["Details"] = {
@@ -285,6 +4743,14 @@ RecountPerCharDB = {
 							},
 							["amount"] = 66.11000000000001,
 						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 20.37000000000001,
+								},
+							},
+							["amount"] = 20.37000000000001,
+						},
 						["Sunscale Screecher"] = {
 							["Details"] = {
 								["Corruption"] = {
@@ -293,8 +4759,8 @@ RecountPerCharDB = {
 								["Corruption (DoT)"] = {
 									["count"] = 81.06000000000002,
 								},
-								["Shadow Bolt"] = {
-									["count"] = 64.40000000000001,
+								["Curse of Agony (DoT)"] = {
+									["count"] = 9.59,
 								},
 								["Immolate (DoT)"] = {
 									["count"] = 37.38,
@@ -302,51 +4768,19 @@ RecountPerCharDB = {
 								["Immolate"] = {
 									["count"] = 25.48,
 								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 9.59,
+								["Shadow Bolt"] = {
+									["count"] = 64.40000000000001,
 								},
 							},
 							["amount"] = 221.41,
 						},
-						["Greater Plainstrider"] = {
+						["Razormane Dustrunner"] = {
 							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 3.85,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.41,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
 								["Shadow Bolt"] = {
-									["count"] = 1.9,
+									["count"] = 46.21000000000001,
 								},
 							},
-							["amount"] = 9.660000000000002,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.42,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 6.010000000000001,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 10.21,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 16.69,
-								},
-								["Immolate"] = {
-									["count"] = 8.08,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 15.48,
-								},
-							},
-							["amount"] = 56.88999999999998,
+							["amount"] = 46.21000000000001,
 						},
 					},
 					["DamageTaken"] = 2265,
@@ -494,70 +4928,141 @@ RecountPerCharDB = {
 					},
 					["ActiveTime"] = 598.0899999999996,
 					["ElementTaken"] = {
-						["Physical"] = 209,
 						["Fire"] = 13,
+						["Physical"] = 209,
 						["Melee"] = 2004,
 						["Nature"] = 39,
 					},
 					["DOT_Time"] = 487,
 					["Damage"] = 8391,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 140,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 3,
-								},
-								["Miss"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 158,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
+					["ElementDone"] = {
+						["Shadow"] = 7015,
+						["Melee"] = 95,
+						["Fire"] = 1281,
 					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
+					["DamagedWho"] = {
+						["Razormane Scout"] = {
 							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 419,
+								["Melee"] = {
+									["count"] = 31,
 								},
-								["Life Tap"] = {
-									["count"] = 440,
+								["Shadow Bolt"] = {
+									["count"] = 628,
 								},
 							},
-							["amount"] = 859,
+							["amount"] = 659,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 754,
+								},
+							},
+							["amount"] = 754,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 150,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 93,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 117,
+								},
+								["Immolate"] = {
+									["count"] = 84,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 469,
+								},
+							},
+							["amount"] = 913,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 187,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 78,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 157,
+								},
+								["Immolate"] = {
+									["count"] = 169,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 575,
+								},
+							},
+							["amount"] = 1166,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 44,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 40,
+								},
+								["Immolate"] = {
+									["count"] = 34,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 74,
+								},
+							},
+							["amount"] = 192,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 64,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 748,
+								},
+							},
+							["amount"] = 812,
+						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 295,
+								},
+							},
+							["amount"] = 295,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption (DoT)"] = {
+									["count"] = 524,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 37,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 449,
+								},
+								["Immolate"] = {
+									["count"] = 231,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 1646,
+								},
+							},
+							["amount"] = 2887,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 713,
+								},
+							},
+							["amount"] = 713,
 						},
 					},
 					["Attacks"] = {
@@ -591,41 +5096,31 @@ RecountPerCharDB = {
 									["count"] = 1,
 									["amount"] = 33,
 								},
-								["Dodge"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
 								["Hit"] = {
 									["max"] = 31,
 									["min"] = 31,
 									["count"] = 2,
 									["amount"] = 62,
 								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
 							},
 							["count"] = 5,
 							["amount"] = 95,
 						},
-						["Shadow Bolt"] = {
+						["Curse of Agony (DoT)"] = {
 							["Details"] = {
-								["Hit"] = {
-									["max"] = 74,
-									["min"] = 21,
-									["count"] = 144,
-									["amount"] = 5080,
-								},
-								["Crit"] = {
-									["max"] = 115,
-									["min"] = 34,
-									["count"] = 16,
-									["amount"] = 822,
-								},
-								["Miss"] = {
-									["count"] = 9,
-									["amount"] = 0,
+								["Tick"] = {
+									["max"] = 9,
+									["min"] = 3,
+									["count"] = 38,
+									["amount"] = 208,
 								},
 							},
-							["count"] = 169,
-							["amount"] = 5902,
+							["count"] = 38,
+							["amount"] = 208,
 						},
 						["Immolate (DoT)"] = {
 							["Details"] = {
@@ -647,9 +5142,11 @@ RecountPerCharDB = {
 						},
 						["Immolate"] = {
 							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 12,
+									["count"] = 22,
+									["amount"] = 492,
 								},
 								["Crit"] = {
 									["max"] = 26,
@@ -657,208 +5154,37 @@ RecountPerCharDB = {
 									["count"] = 1,
 									["amount"] = 26,
 								},
-								["Hit"] = {
-									["max"] = 34,
-									["min"] = 12,
-									["count"] = 22,
-									["amount"] = 492,
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 24,
 							["amount"] = 518,
 						},
-						["Curse of Agony (DoT)"] = {
+						["Shadow Bolt"] = {
 							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 3,
-									["count"] = 38,
-									["amount"] = 208,
-								},
-							},
-							["count"] = 38,
-							["amount"] = 208,
-						},
-					},
-					["TimeDamaging"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 4.29,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 47.48,
-								},
-							},
-							["amount"] = 51.77,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 58.04999999999999,
-								},
-							},
-							["amount"] = 58.04999999999999,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 46.21000000000001,
-								},
-							},
-							["amount"] = 46.21000000000001,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 8.77,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 19.06,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 14.88,
-								},
-								["Immolate"] = {
-									["count"] = 9.92,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 14.99,
-								},
-							},
-							["amount"] = 67.62000000000001,
-						},
-						["Geolord Mottle"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 20.37000000000001,
-								},
-							},
-							["amount"] = 20.37000000000001,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 7.23,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 58.88,
-								},
-							},
-							["amount"] = 66.11000000000001,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 3.5,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 81.06000000000002,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 64.40000000000001,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 37.38,
-								},
-								["Immolate"] = {
-									["count"] = 25.48,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 9.59,
-								},
-							},
-							["amount"] = 221.41,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 3.85,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0.41,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1.9,
-								},
-							},
-							["amount"] = 9.660000000000002,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.42,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 6.010000000000001,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 10.21,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 16.69,
-								},
-								["Immolate"] = {
-									["count"] = 8.08,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 15.48,
-								},
-							},
-							["amount"] = 56.88999999999998,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 110,
-								},
-								["Hit"] = {
-									["count"] = 144,
+								["Miss"] = {
+									["count"] = 9,
+									["amount"] = 0,
 								},
 								["Crit"] = {
+									["max"] = 115,
+									["min"] = 34,
 									["count"] = 16,
-								},
-								["Miss"] = {
-									["count"] = 11,
-								},
-							},
-							["amount"] = 281,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 2,
+									["amount"] = 822,
 								},
 								["Hit"] = {
-									["count"] = 3,
+									["max"] = 74,
+									["min"] = 21,
+									["count"] = 144,
+									["amount"] = 5080,
 								},
 							},
-							["amount"] = 5,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 60,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 89,
+							["count"] = 169,
+							["amount"] = 5902,
 						},
 					},
-					["TimeDamage"] = 598.0899999999996,
 					["WhoDamaged"] = {
 						["Razormane Scout"] = {
 							["Details"] = {
@@ -879,24 +5205,21 @@ RecountPerCharDB = {
 							},
 							["amount"] = 111,
 						},
-						["Razormane Dustrunner"] = {
+						["Zhevra Runner"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 77,
+									["count"] = 242,
 								},
 							},
-							["amount"] = 77,
+							["amount"] = 242,
 						},
-						["Geolord Mottle"] = {
+						["Greater Plainstrider"] = {
 							["Details"] = {
 								["Melee"] = {
-									["count"] = 80,
-								},
-								["Lightning Shield"] = {
-									["count"] = 39,
+									["count"] = 22,
 								},
 							},
-							["amount"] = 119,
+							["amount"] = 22,
 						},
 						["Fleeting Plainstrider"] = {
 							["Details"] = {
@@ -925,6 +5248,17 @@ RecountPerCharDB = {
 							},
 							["amount"] = 118,
 						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 80,
+								},
+								["Lightning Shield"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 119,
+						},
 						["Sunscale Screecher"] = {
 							["Details"] = {
 								["Melee"] = {
@@ -933,3972 +5267,7 @@ RecountPerCharDB = {
 							},
 							["amount"] = 1135,
 						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 242,
-								},
-							},
-							["amount"] = 242,
-						},
-					},
-					["ManaGain"] = 859,
-					["DamagedWho"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 31,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 628,
-								},
-							},
-							["amount"] = 659,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 754,
-								},
-							},
-							["amount"] = 754,
-						},
 						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 713,
-								},
-							},
-							["amount"] = 713,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 187,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 575,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 157,
-								},
-								["Immolate"] = {
-									["count"] = 169,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 78,
-								},
-							},
-							["amount"] = 1166,
-						},
-						["Geolord Mottle"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 295,
-								},
-							},
-							["amount"] = 295,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 64,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 748,
-								},
-							},
-							["amount"] = 812,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 524,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1646,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 449,
-								},
-								["Immolate"] = {
-									["count"] = 231,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 2887,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 40,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 44,
-								},
-								["Immolate"] = {
-									["count"] = 34,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 192,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 150,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 469,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 117,
-								},
-								["Immolate"] = {
-									["count"] = 84,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 93,
-								},
-							},
-							["amount"] = 913,
-						},
-					},
-					["ElementDone"] = {
-						["Shadow"] = 7015,
-						["Melee"] = 95,
-						["Fire"] = 1281,
-					},
-				},
-				["Fight5"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 6,
-								},
-								["Greater Plainstrider"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 3,
-								},
-								["Greater Plainstrider"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 13,
-					["ManaGain"] = 63,
-					["ElementTaken"] = {
-						["Fire"] = 0,
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 114,
-						["Melee"] = 0,
-						["Fire"] = 74,
-					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 13,
-								},
-								["Life Tap"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 63,
-						},
-					},
-					["DamagedWho"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 22,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 18,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 40,
-								},
-								["Immolate"] = {
-									["count"] = 34,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 74,
-								},
-							},
-							["amount"] = 188,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Environment"] = {
-							["Details"] = {
-								["Falling"] = {
-									["count"] = 0,
-								},
-								["Fire"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 13,
-								},
-							},
-							["amount"] = 13,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 50,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 9.41,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.17,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 2.34,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 3.25,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0.15,
-								},
-							},
-							["amount"] = 9.41,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Falling"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 22,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 22,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 22,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 74,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 74,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 74,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 20,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 40,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 40,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 34,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 34,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 34,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 9,
-									["count"] = 2,
-									["amount"] = 18,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 18,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 3,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["TimeDamage"] = 9.41,
-					["TimeDamaging"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.17,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 2.34,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 3.25,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0.15,
-								},
-							},
-							["amount"] = 9.41,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 188,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 0,
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-						["Physical"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 0,
-						["Melee"] = 0,
-						["Fire"] = 0,
-					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["TimeSpent"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 4.6,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 4.6,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4.1,
-								},
-							},
-							["amount"] = 13.3,
-						},
-					},
-					["DamageTaken"] = 32,
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 13.3,
-					["ElementTaken"] = {
-						["Melee"] = 32,
-					},
-					["DOT_Time"] = 15,
-					["Damage"] = 234,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 14,
-								},
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["Attacks"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 45,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 45,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 50,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 98,
-								},
-								["Crit"] = {
-									["max"] = 76,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 76,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 174,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 15,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 15,
-						},
-					},
-					["TimeDamaging"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 4.6,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 4.6,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4.1,
-								},
-							},
-							["amount"] = 13.3,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["TimeDamage"] = 13.3,
-					["WhoDamaged"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-					},
-					["ManaGain"] = 14,
-					["DamagedWho"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 45,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 174,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 234,
-						},
-					},
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Shadow"] = 234,
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 0,
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 39,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Crushing"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 13,
-					["ManaGain"] = 64,
-					["ElementTaken"] = {
-						["Melee"] = 39,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 41,
-						["Shadow"] = 129,
-					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 14,
-								},
-								["Life Tap"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 64,
-						},
-					},
-					["DamagedWho"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 100,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 13,
-								},
-								["Immolate"] = {
-									["count"] = 28,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 29,
-								},
-							},
-							["amount"] = 170,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 39,
-								},
-							},
-							["amount"] = 39,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 50,
-								},
-							},
-							["amount"] = 50,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 12.45,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.42,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.77,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 2.02,
-								},
-								["Immolate"] = {
-									["count"] = 1.08,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 5.16,
-								},
-							},
-							["amount"] = 12.45,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 51,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 100,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 100,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 13,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 13,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 13,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 28,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 29,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 29,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 5,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["TimeDamage"] = 12.45,
-					["TimeDamaging"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption"] = {
-									["count"] = 0.42,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 3.77,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 2.02,
-								},
-								["Immolate"] = {
-									["count"] = 1.08,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 5.16,
-								},
-							},
-							["amount"] = 12.45,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 170,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["TimeSpent"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 4.6,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 4.6,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4.1,
-								},
-							},
-							["amount"] = 13.3,
-						},
-					},
-					["DamageTaken"] = 32,
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 13.3,
-					["ElementTaken"] = {
-						["Melee"] = 32,
-					},
-					["DOT_Time"] = 15,
-					["Damage"] = 234,
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 14,
-								},
-								["Life Tap"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["Attacks"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 45,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 45,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 50,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 98,
-								},
-								["Crit"] = {
-									["max"] = 76,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 76,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 174,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 15,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 15,
-						},
-					},
-					["TimeDamaging"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 4.6,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 4.6,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 4.1,
-								},
-							},
-							["amount"] = 13.3,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 9,
-						},
-					},
-					["TimeDamage"] = 13.3,
-					["WhoDamaged"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 32,
-								},
-							},
-							["amount"] = 32,
-						},
-					},
-					["ManaGain"] = 14,
-					["DamagedWho"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 45,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 174,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 234,
-						},
-					},
-					["ElementDone"] = {
-						["Fire"] = 0,
-						["Shadow"] = 234,
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 8,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 94,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 32,
-					["ManaGain"] = 66,
-					["ElementTaken"] = {
-						["Physical"] = 0,
-						["Melee"] = 94,
-						["Nature"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 80,
-						["Shadow"] = 178,
-					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 14,
-								},
-								["Life Tap"] = {
-									["count"] = 52,
-								},
-							},
-							["amount"] = 66,
-						},
-					},
-					["DamagedWho"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Geolord Mottle"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 60,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 20,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 52,
-								},
-								["Immolate"] = {
-									["count"] = 28,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 98,
-								},
-							},
-							["amount"] = 258,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Geolord Mottle"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Lightning Shield"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 94,
-								},
-							},
-							["amount"] = 94,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Shield"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-						["Life Tap"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 52,
-								},
-							},
-							["amount"] = 52,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 15.60000000000001,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Geolord Mottle"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.58,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 6.86,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1.16,
-								},
-							},
-							["amount"] = 15.60000000000001,
-						},
-					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Lightning Shield"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 6,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 60,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 60,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 50,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 98,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 98,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Tick"] = {
-									["max"] = 13,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 52,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 52,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 28,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 5,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 20,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 20,
-						},
-					},
-					["HealingTaken"] = 0,
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Tick"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["TimeDamage"] = 15.60000000000001,
-					["TimeDamaging"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Quilboar"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Dustrunner"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Geolord Mottle"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.58,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 3.5,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 6.86,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 1.16,
-								},
-							},
-							["amount"] = 15.60000000000001,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 258,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight3"] = {
-					["DOTs"] = {
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 12,
-								},
-							},
-							["amount"] = 12,
-						},
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Sunscale Screecher"] = {
-									["count"] = 0,
-								},
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 9,
-								},
-							},
-							["amount"] = 9,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Fleeting Plainstrider"] = {
-									["count"] = 0,
-								},
-								["Zhevra Runner"] = {
-									["count"] = 10,
-								},
-							},
-							["amount"] = 10,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-						["Shadow"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 77,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["DOT_Time"] = 31,
-					["ManaGain"] = 14,
-					["ElementTaken"] = {
-						["Melee"] = 77,
-						["Physical"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["ElementTakenBlock"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RageGain"] = 0,
-					["ElementDone"] = {
-						["Shadow"] = 171,
-						["Melee"] = 0,
-						["Fire"] = 80,
-					},
-					["ManaGainedFrom"] = {
-						["Impasse"] = {
-							["Details"] = {
-								["Discerning Eye of the Beast"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["DamagedWho"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 45,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 29,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 52,
-								},
-								["Immolate"] = {
-									["count"] = 28,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 97,
-								},
-							},
-							["amount"] = 251,
-						},
-					},
-					["OverHeals"] = {
-					},
-					["WhoDamaged"] = {
-						["Razormane Scout"] = {
-							["Details"] = {
-								["Shoot"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
 							["Details"] = {
 								["Melee"] = {
 									["count"] = 77,
@@ -4907,618 +5276,249 @@ RecountPerCharDB = {
 							["amount"] = 77,
 						},
 					},
-					["EnergyGainedFrom"] = {
-					},
-					["RageGained"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-						["Melee"] = 0,
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-						["Shoot"] = {
+					["ManaGainedFrom"] = {
+						["Impasse"] = {
 							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
+								["Discerning Eye of the Beast"] = {
+									["count"] = 419,
+								},
+								["Life Tap"] = {
+									["count"] = 440,
 								},
 							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
+							["amount"] = 859,
 						},
 					},
-					["CCBreak"] = 0,
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Discerning Eye of the Beast"] = {
-							["Details"] = {
-								["Impasse"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 14,
-						},
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["ActiveTime"] = 15.54,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
+					["TimeDamage"] = 598.0899999999996,
+					["TimeDamaging"] = {
 						["Razormane Scout"] = {
 							["Details"] = {
+								["Melee"] = {
+									["count"] = 4.29,
+								},
 								["Shadow Bolt"] = {
-									["count"] = 0,
+									["count"] = 47.48,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 51.77,
+						},
+						["Razormane Quilboar"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 58.04999999999999,
+								},
+							},
+							["amount"] = 58.04999999999999,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 0.42,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 6.010000000000001,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 15.48,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 16.69,
+								},
+								["Immolate"] = {
+									["count"] = 8.08,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 10.21,
+								},
+							},
+							["amount"] = 56.88999999999998,
 						},
 						["Fleeting Plainstrider"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
+									["count"] = 8.77,
 								},
 								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
+									["count"] = 14.99,
 								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
 								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
+									["count"] = 14.88,
 								},
 								["Immolate"] = {
-									["count"] = 0,
+									["count"] = 9.92,
 								},
 								["Shadow Bolt"] = {
-									["count"] = 0,
+									["count"] = 19.06,
 								},
 							},
-							["amount"] = 0,
+							["amount"] = 67.62000000000001,
 						},
-						["Zhevra Runner"] = {
+						["Greater Plainstrider"] = {
 							["Details"] = {
 								["Corruption (DoT)"] = {
-									["count"] = 0.8300000000000001,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 2.72,
+									["count"] = 0.41,
 								},
 								["Immolate (DoT)"] = {
-									["count"] = 7.81,
+									["count"] = 3.85,
 								},
 								["Immolate"] = {
 									["count"] = 3.5,
 								},
 								["Shadow Bolt"] = {
-									["count"] = 0.6799999999999999,
+									["count"] = 1.9,
 								},
 							},
-							["amount"] = 15.54,
+							["amount"] = 9.660000000000002,
+						},
+						["Razormane Battleguard"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.23,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 58.88,
+								},
+							},
+							["amount"] = 66.11000000000001,
+						},
+						["Geolord Mottle"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 20.37000000000001,
+								},
+							},
+							["amount"] = 20.37000000000001,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Corruption"] = {
+									["count"] = 3.5,
+								},
+								["Corruption (DoT)"] = {
+									["count"] = 81.06000000000002,
+								},
+								["Curse of Agony (DoT)"] = {
+									["count"] = 9.59,
+								},
+								["Immolate (DoT)"] = {
+									["count"] = 37.38,
+								},
+								["Immolate"] = {
+									["count"] = 25.48,
+								},
+								["Shadow Bolt"] = {
+									["count"] = 64.40000000000001,
+								},
+							},
+							["amount"] = 221.41,
+						},
+						["Razormane Dustrunner"] = {
+							["Details"] = {
+								["Shadow Bolt"] = {
+									["count"] = 46.21000000000001,
+								},
+							},
+							["amount"] = 46.21000000000001,
 						},
 					},
-					["Heals"] = {
-					},
-					["PartialAbsorb"] = {
-						["Shoot"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 0,
-						},
-					},
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["CCBroken"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["Attacks"] = {
-						["Corruption (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 15,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 45,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 45,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit (Blocked)"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-						["Shadow Bolt"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 50,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 97,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 97,
-						},
-						["Immolate (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 13,
-									["min"] = 0,
-									["count"] = 4,
-									["amount"] = 52,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 52,
-						},
-						["Immolate"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 28,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 28,
-						},
-						["Curse of Agony (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 9,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 29,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 29,
-						},
-					},
-					["HealingTaken"] = 0,
+					["ManaGain"] = 859,
 					["ElementHitsDone"] = {
 						["Shadow"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 8,
-								},
-								["Crit"] = {
-									["count"] = 0,
+								["Miss"] = {
+									["count"] = 11,
 								},
 								["Hit"] = {
-									["count"] = 2,
+									["count"] = 144,
+								},
+								["Crit"] = {
+									["count"] = 16,
+								},
+								["Tick"] = {
+									["count"] = 110,
 								},
 							},
-							["amount"] = 10,
+							["amount"] = 281,
 						},
 						["Melee"] = {
 							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
 								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fire"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 1,
+									["count"] = 2,
 								},
 							},
 							["amount"] = 5,
 						},
-					},
-					["TimeDamage"] = 15.54,
-					["TimeDamaging"] = {
-						["Razormane Scout"] = {
+						["Fire"] = {
 							["Details"] = {
-								["Shadow Bolt"] = {
-									["count"] = 0,
+								["Hit"] = {
+									["count"] = 22,
+								},
+								["Tick"] = {
+									["count"] = 60,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 1,
 								},
 							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Razormane Battleguard"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Immolate (DoT)"] = {
-									["count"] = 0,
-								},
-								["Corruption (DoT)"] = {
-									["count"] = 0,
-								},
-								["Immolate"] = {
-									["count"] = 0,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Corruption (DoT)"] = {
-									["count"] = 0.8300000000000001,
-								},
-								["Curse of Agony (DoT)"] = {
-									["count"] = 2.72,
-								},
-								["Immolate (DoT)"] = {
-									["count"] = 7.81,
-								},
-								["Immolate"] = {
-									["count"] = 3.5,
-								},
-								["Shadow Bolt"] = {
-									["count"] = 0.6799999999999999,
-								},
-							},
-							["amount"] = 15.54,
+							["amount"] = 89,
 						},
 					},
-					["RunicPowerGain"] = 0,
-					["Damage"] = 251,
-					["DispelledWho"] = {
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crushing"] = {
+									["count"] = 6,
+								},
+								["Miss"] = {
+									["count"] = 8,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 140,
+								},
+							},
+							["amount"] = 158,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
 					},
 				},
 			},
-			["Owner"] = false,
-			["Pet"] = {
-				"Pagrai <Impasse>", -- [1]
-			},
-			["NextEventNum"] = 1,
-			["LastEventHealthNum"] = {
-				96.95740365111561, -- [1]
-				96.95740365111561, -- [2]
-				96.95740365111561, -- [3]
-				96.95740365111561, -- [4]
-				93.71196754563894, -- [5]
-				93.71196754563894, -- [6]
-				93.71196754563894, -- [7]
-				93.71196754563894, -- [8]
-				90.46653144016227, -- [9]
-				90.46653144016227, -- [10]
-				90.46653144016227, -- [11]
-				90.46653144016227, -- [12]
-				90.46653144016227, -- [13]
-				90.46653144016227, -- [14]
-				90.46653144016227, -- [15]
-				90.46653144016227, -- [16]
-				84.38133874239351, -- [17]
-				84.38133874239351, -- [18]
-				65.92292089249493, -- [19]
-				65.92292089249493, -- [20]
-				62.88032454361055, -- [21]
-				62.88032454361055, -- [22]
-				62.88032454361055, -- [23]
-				59.63488843813388, -- [24]
-				59.63488843813388, -- [25]
-				56.59229208924949, -- [26]
-				56.59229208924949, -- [27]
-				56.59229208924949, -- [28]
-				56.59229208924949, -- [29]
-				56.59229208924949, -- [30]
-				53.34685598377282, -- [31]
-				53.34685598377282, -- [32]
-				53.34685598377282, -- [33]
-				53.34685598377282, -- [34]
-				53.34685598377282, -- [35]
-				50.10141987829615, -- [36]
-				50.10141987829615, -- [37]
-				46.85598377281947, -- [38]
-				46.85598377281947, -- [39]
-				52.73833671399594, -- [40]
-				52.73833671399594, -- [41]
-				49.49290060851927, -- [42]
-				49.49290060851927, -- [43]
-				49.49290060851927, -- [44]
-				46.24746450304259, -- [45]
-				46.24746450304259, -- [46]
-				46.24746450304259, -- [47]
-				46.24746450304259, -- [48]
-				46.24746450304259, -- [49]
-				46.24746450304259, -- [50]
-			},
-			["LastEvents"] = {
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [1]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [2]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [3]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [4]
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [5]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [6]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [7]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [8]
-				"Impasse Shadow Bolt Zhevra Runner Hit -50 (Shadow)", -- [9]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [10]
-				"Zhevra Runner Melee Impasse Miss", -- [11]
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [12]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [13]
-				"Impasse Shadow Bolt Zhevra Runner Hit -47 (Shadow)", -- [14]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [15]
-				"Zhevra Runner Melee Impasse Crit -30 (Physical)", -- [16]
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [17]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -9 (Shadow)", -- [18]
-				"Impasse Immolate Zhevra Runner Hit -28 (Fire)", -- [19]
-				"Zhevra Runner Melee Impasse Hit -15 (Physical)", -- [20]
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [21]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [22]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [23]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [24]
-				"Zhevra Runner Melee Impasse Hit -15 (Physical)", -- [25]
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [26]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [27]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [28]
-				"Impasse Shadow Bolt Zhevra Runner Hit -48 (Shadow)", -- [29]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [30]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [31]
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [32]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [33]
-				"Impasse Shadow Bolt Zhevra Runner Hit -50 (Shadow)", -- [34]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [35]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [36]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [37]
-				"Impasse Immolate (DoT) Zhevra Runner Tick -13 (Fire)", -- [38]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [39]
-				"Impasse Shadow Bolt Zhevra Runner Hit -48 (Shadow)", -- [40]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [41]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [42]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [43]
-				"Zhevra Runner Melee Impasse Hit -16 (Physical)", -- [44]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [45]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [46]
-				"Impasse Shadow Bolt Zhevra Runner Hit -50 (Shadow)", -- [47]
-				"Impasse Curse of Agony (DoT) Zhevra Runner Tick -5 (Shadow)", -- [48]
-				"Impasse Corruption (DoT) Zhevra Runner Tick -15 (Shadow)", -- [49]
-				"Impasse Shadow Bolt Zhevra Runner Crit -76 (Shadow)", -- [50]
-			},
-			["Name"] = "Impasse",
-			["TimeLast"] = {
-				["TimeDamage"] = 1574870716,
-				["DOT_Time"] = 1574870715,
-				["ActiveTime"] = 1574870716,
-				["OVERALL"] = 1574870716,
-				["ManaGain"] = 1574870716,
-				["DamageTaken"] = 1574870711,
-				["Damage"] = 1574870716,
-			},
-			["LastEventIncoming"] = {
-				false, -- [1]
-				false, -- [2]
-				false, -- [3]
-				true, -- [4]
-				false, -- [5]
-				false, -- [6]
-				false, -- [7]
-				true, -- [8]
-				false, -- [9]
-				false, -- [10]
-				true, -- [11]
-				false, -- [12]
-				false, -- [13]
-				false, -- [14]
-				false, -- [15]
-				true, -- [16]
-				false, -- [17]
-				false, -- [18]
-				false, -- [19]
-				true, -- [20]
-				false, -- [21]
-				false, -- [22]
-				true, -- [23]
-				false, -- [24]
-				true, -- [25]
-				false, -- [26]
-				false, -- [27]
-				false, -- [28]
-				false, -- [29]
-				true, -- [30]
-				false, -- [31]
-				false, -- [32]
-				false, -- [33]
-				false, -- [34]
-				true, -- [35]
-				false, -- [36]
-				true, -- [37]
-				false, -- [38]
-				false, -- [39]
-				false, -- [40]
-				true, -- [41]
-				false, -- [42]
-				false, -- [43]
-				true, -- [44]
-				false, -- [45]
-				false, -- [46]
-				false, -- [47]
-				false, -- [48]
-				false, -- [49]
-				false, -- [50]
-			},
-			["LastDamageTaken"] = 16,
-			["LastEventTimes"] = {
-				40255.817, -- [1]
-				40256.069, -- [2]
-				40256.767, -- [3]
-				40257.268, -- [4]
-				40258.851, -- [5]
-				40258.852, -- [6]
-				40259.035, -- [7]
-				40259.201, -- [8]
-				40259.384, -- [9]
-				40260.867, -- [10]
-				40261.217, -- [11]
-				40261.801, -- [12]
-				40262.201, -- [13]
-				40262.534, -- [14]
-				40262.901, -- [15]
-				40263.267, -- [16]
-				40264.7, -- [17]
-				40264.869, -- [18]
-				40273.267, -- [19]
-				40274.984, -- [20]
-				40276.117, -- [21]
-				40276.267, -- [22]
-				40277.001, -- [23]
-				40277.517, -- [24]
-				40278.984, -- [25]
-				40279.134, -- [26]
-				40279.283, -- [27]
-				40279.584, -- [28]
-				40280.167, -- [29]
-				40281.05, -- [30]
-				40281.535, -- [31]
-				40282.2, -- [32]
-				40282.334, -- [33]
-				40282.917, -- [34]
-				40283.083, -- [35]
-				40283.501, -- [36]
-				40284.968, -- [37]
-				40285.218, -- [38]
-				40285.369, -- [39]
-				40295.1, -- [40]
-				40297.733, -- [41]
-				40298.5, -- [42]
-				40299.451, -- [43]
-				40299.733, -- [44]
-				40301.384, -- [45]
-				40301.501, -- [46]
-				40302.167, -- [47]
-				40303.383, -- [48]
-				40304.467, -- [49]
-				40304.901, -- [50]
-			},
-			["LastAbility"] = 53725.417,
+			["UnitLockout"] = 1574867797,
+			["LastActive"] = 1574870716,
 		},
 		["Pagrai <Impasse>"] = {
 			["GUID"] = "0xF14021D015013079",
@@ -5628,7 +5628,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [50]
 			},
 			["TimeWindows"] = {
-				["TimeDamage"] = {
+				["ActiveTime"] = {
 					306.4399999999999, -- [1]
 				},
 				["Damage"] = {
@@ -5637,7 +5637,7 @@ RecountPerCharDB = {
 				["DamageTaken"] = {
 					342, -- [1]
 				},
-				["ActiveTime"] = {
+				["TimeDamage"] = {
 					306.4399999999999, -- [1]
 				},
 			},
@@ -5655,61 +5655,1888 @@ RecountPerCharDB = {
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 5,
-			["LastAbility"] = 53725.417,
-			["LastEventTimes"] = {
-				40260.534, -- [1]
-				40263.285, -- [2]
-				40264.701, -- [3]
-				40279.15, -- [4]
-				40281.25, -- [5]
-				40283.267, -- [6]
-				40295.601, -- [7]
-				40297.317, -- [8]
-				40298.35, -- [9]
-				40300.15, -- [10]
-				40301.783, -- [11]
-				40302.067, -- [12]
-				40303.783, -- [13]
-				40304.2, -- [14]
-				39965.638, -- [15]
-				40011.404, -- [16]
-				40012.904, -- [17]
-				40014.271, -- [18]
-				40016.437, -- [19]
-				40018.471, -- [20]
-				40036.22, -- [21]
-				40037.687, -- [22]
-				40038.754, -- [23]
-				40040.837, -- [24]
-				40066.353, -- [25]
-				40067.453, -- [26]
-				40069.203, -- [27]
-				40069.587, -- [28]
-				40071.436, -- [29]
-				40073.47, -- [30]
-				40082.853, -- [31]
-				40083.87, -- [32]
-				40085.553, -- [33]
-				40087.503, -- [34]
-				40089.67, -- [35]
-				40101.253, -- [36]
-				40102.82, -- [37]
-				40103.103, -- [38]
-				40104.136, -- [39]
-				40105.136, -- [40]
-				40106.153, -- [41]
-				40107.053, -- [42]
-				40220.718, -- [43]
-				40221.968, -- [44]
-				40223.801, -- [45]
-				40224.385, -- [46]
-				40225.902, -- [47]
-				40228.086, -- [48]
-				40230.103, -- [49]
-				40258.517, -- [50]
-			},
+			["LastActive"] = 1574870715,
+			["UnitLockout"] = 1574869558,
 			["Owner"] = "Impasse",
-			["LastDamageTaken"] = 15,
+			["Fights"] = {
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 20,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 24,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 42.29,
+								},
+							},
+							["amount"] = 42.29,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 200.9999999999999,
+								},
+							},
+							["amount"] = 200.9999999999999,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 57.65000000000001,
+								},
+							},
+							["amount"] = 57.65000000000001,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 5.5,
+								},
+							},
+							["amount"] = 5.5,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 279,
+					},
+					["TimeSpent"] = {
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 42.29,
+								},
+							},
+							["amount"] = 42.29,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 200.9999999999999,
+								},
+							},
+							["amount"] = 200.9999999999999,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 57.65000000000001,
+								},
+							},
+							["amount"] = 57.65000000000001,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 5.5,
+								},
+							},
+							["amount"] = 5.5,
+						},
+					},
+					["DamageTaken"] = 342,
+					["ActiveTime"] = 306.4399999999999,
+					["ElementDone"] = {
+						["Fire"] = 1799,
+					},
+					["DamagedWho"] = {
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 312,
+								},
+							},
+							["amount"] = 312,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 944,
+								},
+							},
+							["amount"] = 944,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 505,
+								},
+							},
+							["amount"] = 505,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 38,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 15,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 117,
+								},
+							},
+							["amount"] = 140,
+						},
+					},
+					["TimeDamage"] = 306.4399999999999,
+					["WhoDamaged"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 270,
+								},
+							},
+							["amount"] = 270,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 57,
+								},
+							},
+							["amount"] = 57,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 342,
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 15,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 12,
+									["count"] = 8,
+									["amount"] = 181,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 8,
+									["count"] = 117,
+									["amount"] = 1618,
+								},
+							},
+							["count"] = 140,
+							["amount"] = 1799,
+						},
+					},
+					["Damage"] = 1799,
+				},
+				["Fight5"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 95,
+					},
+					["DamagedWho"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 95,
+								},
+							},
+							["amount"] = 95,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["TimeSpent"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 8.41,
+								},
+							},
+							["amount"] = 8.41,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 45,
+					["ActiveTime"] = 8.41,
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 28,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 28,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 95,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["TimeDamage"] = 8.41,
+					["TimeDamaging"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 8.41,
+								},
+							},
+							["amount"] = 8.41,
+						},
+						["Greater Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 45,
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
+					["Damage"] = 95,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoDamaged"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RageGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 15,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 15,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 107,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 107,
+								},
+							},
+							["amount"] = 107,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoDamaged"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RageGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 12.1,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.1,
+								},
+							},
+							["amount"] = 12.1,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 83,
+								},
+								["Crit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 24,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 107,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 12.1,
+					["TimeDamaging"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.1,
+								},
+							},
+							["amount"] = 12.1,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 107,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 108,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 108,
+								},
+							},
+							["amount"] = 108,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RageGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 12.88,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.88,
+								},
+							},
+							["amount"] = 12.88,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 84,
+								},
+								["Crit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 24,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 108,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 12.88,
+					["TimeDamaging"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.88,
+								},
+							},
+							["amount"] = 12.88,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 108,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 15,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 15,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 107,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 107,
+								},
+							},
+							["amount"] = 107,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoDamaged"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RageGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 12.1,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.1,
+								},
+							},
+							["amount"] = 12.1,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 18,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 83,
+								},
+								["Crit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 24,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 107,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 5,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["TimeDamage"] = 12.1,
+					["TimeDamaging"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 12.1,
+								},
+							},
+							["amount"] = 12.1,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 107,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 48,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RageGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 7.619999999999999,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 7.619999999999999,
+								},
+							},
+							["amount"] = 7.619999999999999,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 48,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 48,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 7.619999999999999,
+					["TimeDamaging"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 7.619999999999999,
+								},
+							},
+							["amount"] = 7.619999999999999,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 48,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 0,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["DOT_Time"] = 0,
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["HOTs"] = {
+					},
+					["ElementTakenBlock"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Fire"] = 49,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["DamagedWho"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 49,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["WhoDamaged"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RageGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ActiveTime"] = 9.69,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 9.69,
+								},
+							},
+							["amount"] = 9.69,
+						},
+					},
+					["Heals"] = {
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["CCBroken"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["Attacks"] = {
+						["Firebolt"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 17,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 49,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 49,
+						},
+					},
+					["HealingTaken"] = 0,
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["TimeDamage"] = 9.69,
+					["TimeDamaging"] = {
+						["Sunscale Screecher"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fleeting Plainstrider"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Zhevra Runner"] = {
+							["Details"] = {
+								["Firebolt"] = {
+									["count"] = 9.69,
+								},
+							},
+							["amount"] = 9.69,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["Damage"] = 49,
+					["DispelledWho"] = {
+					},
+				},
+			},
 			["NextEventNum"] = 15,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -5816,6 +7643,13 @@ RecountPerCharDB = {
 				"Pagrai <Impasse> Firebolt Zhevra Runner Hit -17 (Fire)", -- [50]
 			},
 			["Name"] = "Pagrai",
+			["TimeLast"] = {
+				["ActiveTime"] = 1574870715,
+				["TimeDamage"] = 1574870715,
+				["OVERALL"] = 1574870715,
+				["DamageTaken"] = 1574870715,
+				["Damage"] = 1574870715,
+			},
 			["LastEventIncoming"] = {
 				false, -- [1]
 				false, -- [2]
@@ -5868,1894 +7702,60 @@ RecountPerCharDB = {
 				false, -- [49]
 				false, -- [50]
 			},
-			["TimeLast"] = {
-				["ActiveTime"] = 1574870715,
-				["TimeDamage"] = 1574870715,
-				["OVERALL"] = 1574870715,
-				["DamageTaken"] = 1574870715,
-				["Damage"] = 1574870715,
+			["LastDamageTaken"] = 15,
+			["LastEventTimes"] = {
+				40260.534, -- [1]
+				40263.285, -- [2]
+				40264.701, -- [3]
+				40279.15, -- [4]
+				40281.25, -- [5]
+				40283.267, -- [6]
+				40295.601, -- [7]
+				40297.317, -- [8]
+				40298.35, -- [9]
+				40300.15, -- [10]
+				40301.783, -- [11]
+				40302.067, -- [12]
+				40303.783, -- [13]
+				40304.2, -- [14]
+				39965.638, -- [15]
+				40011.404, -- [16]
+				40012.904, -- [17]
+				40014.271, -- [18]
+				40016.437, -- [19]
+				40018.471, -- [20]
+				40036.22, -- [21]
+				40037.687, -- [22]
+				40038.754, -- [23]
+				40040.837, -- [24]
+				40066.353, -- [25]
+				40067.453, -- [26]
+				40069.203, -- [27]
+				40069.587, -- [28]
+				40071.436, -- [29]
+				40073.47, -- [30]
+				40082.853, -- [31]
+				40083.87, -- [32]
+				40085.553, -- [33]
+				40087.503, -- [34]
+				40089.67, -- [35]
+				40101.253, -- [36]
+				40102.82, -- [37]
+				40103.103, -- [38]
+				40104.136, -- [39]
+				40105.136, -- [40]
+				40106.153, -- [41]
+				40107.053, -- [42]
+				40220.718, -- [43]
+				40221.968, -- [44]
+				40223.801, -- [45]
+				40224.385, -- [46]
+				40225.902, -- [47]
+				40228.086, -- [48]
+				40230.103, -- [49]
+				40258.517, -- [50]
 			},
-			["Fights"] = {
-				["Fight3"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 49,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 49,
-								},
-							},
-							["amount"] = 49,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 49,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 9.69,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 9.69,
-								},
-							},
-							["amount"] = 9.69,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 17,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 49,
-								},
-								["Crit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 49,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 9.69,
-					["TimeDamaging"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 9.69,
-								},
-							},
-							["amount"] = 9.69,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight5"] = {
-					["TimeSpent"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 8.41,
-								},
-							},
-							["amount"] = 8.41,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 67,
-								},
-								["Crit"] = {
-									["max"] = 28,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 28,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 95,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4,
-						},
-					},
-					["TimeDamaging"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 8.41,
-								},
-							},
-							["amount"] = 8.41,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["DamageTaken"] = 45,
-					["TimeDamage"] = 8.41,
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 95,
-								},
-							},
-							["amount"] = 95,
-						},
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 8.41,
-					["WhoDamaged"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 45,
-								},
-							},
-							["amount"] = 45,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 45,
-					},
-					["ElementDone"] = {
-						["Fire"] = 95,
-					},
-					["Damage"] = 95,
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 0,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 0,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 48,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 48,
-								},
-							},
-							["amount"] = 48,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 48,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 7.619999999999999,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 7.619999999999999,
-								},
-							},
-							["amount"] = 7.619999999999999,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 16,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 48,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 48,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 7.619999999999999,
-					["TimeDamaging"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 7.619999999999999,
-								},
-							},
-							["amount"] = 7.619999999999999,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight4"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 1,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 108,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 108,
-								},
-							},
-							["amount"] = 108,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 108,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 12.88,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.88,
-								},
-							},
-							["amount"] = 12.88,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 24,
-								},
-								["Hit"] = {
-									["max"] = 18,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 84,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 108,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 12.88,
-					["TimeDamaging"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.88,
-								},
-							},
-							["amount"] = 12.88,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 15,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 15,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 107,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 107,
-								},
-							},
-							["amount"] = 107,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 107,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 12.1,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.1,
-								},
-							},
-							["amount"] = 12.1,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 24,
-								},
-								["Hit"] = {
-									["max"] = 18,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 83,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 107,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 12.1,
-					["TimeDamaging"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.1,
-								},
-							},
-							["amount"] = 12.1,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 0,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 15,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 0,
-								},
-								["Miss"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-						["Melee"] = 15,
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 107,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 107,
-								},
-							},
-							["amount"] = 107,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Fire"] = 107,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 6,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 12.1,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.1,
-								},
-							},
-							["amount"] = 12.1,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 24,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 24,
-								},
-								["Hit"] = {
-									["max"] = 18,
-									["min"] = 0,
-									["count"] = 5,
-									["amount"] = 83,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 107,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 12.1,
-					["TimeDamaging"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 12.1,
-								},
-							},
-							["amount"] = 12.1,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 0,
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["ElementDone"] = {
-						["Fire"] = 1799,
-					},
-					["TimeSpent"] = {
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 5.5,
-								},
-							},
-							["amount"] = 5.5,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 200.9999999999999,
-								},
-							},
-							["amount"] = 200.9999999999999,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 57.65000000000001,
-								},
-							},
-							["amount"] = 57.65000000000001,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 42.29,
-								},
-							},
-							["amount"] = 42.29,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Fire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 117,
-								},
-								["Crit"] = {
-									["count"] = 8,
-								},
-								["Miss"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 140,
-						},
-					},
-					["WhoDamaged"] = {
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 270,
-								},
-							},
-							["amount"] = 270,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 57,
-								},
-							},
-							["amount"] = 57,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 15,
-								},
-							},
-							["amount"] = 15,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Fire"] = 279,
-					},
-					["ElementHitsTaken"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 3,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
-					["DamageTaken"] = 342,
-					["TimeDamage"] = 306.4399999999999,
-					["Attacks"] = {
-						["Firebolt"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 23,
-									["min"] = 8,
-									["count"] = 117,
-									["amount"] = 1618,
-								},
-								["Crit"] = {
-									["max"] = 28,
-									["min"] = 12,
-									["count"] = 8,
-									["amount"] = 181,
-								},
-								["Miss"] = {
-									["count"] = 15,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 140,
-							["amount"] = 1799,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-					},
-					["DamagedWho"] = {
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 38,
-								},
-							},
-							["amount"] = 38,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 944,
-								},
-							},
-							["amount"] = 944,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 505,
-								},
-							},
-							["amount"] = 505,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 312,
-								},
-							},
-							["amount"] = 312,
-						},
-					},
-					["ActiveTime"] = 306.4399999999999,
-					["TimeDamaging"] = {
-						["Greater Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 5.5,
-								},
-							},
-							["amount"] = 5.5,
-						},
-						["Sunscale Screecher"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 200.9999999999999,
-								},
-							},
-							["amount"] = 200.9999999999999,
-						},
-						["Fleeting Plainstrider"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 57.65000000000001,
-								},
-							},
-							["amount"] = 57.65000000000001,
-						},
-						["Zhevra Runner"] = {
-							["Details"] = {
-								["Firebolt"] = {
-									["count"] = 42.29,
-								},
-							},
-							["amount"] = 42.29,
-						},
-					},
-					["ElementTaken"] = {
-						["Melee"] = 342,
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 24,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 0,
-						},
-					},
-					["Damage"] = 1799,
-				},
-			},
-			["UnitLockout"] = 1574869558,
-			["LastActive"] = 1574870715,
+			["LastAbility"] = 2217768.21,
 		},
 	},
 	["FightNum"] = 37,

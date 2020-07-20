@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_5000000"] = 10000,
-	["_50000"] = 500,
 	["_10000"] = 200,
-	["_1000000"] = 2500,
-	["_200000"] = 1000,
-	["STARTING_DISCOUNT"] = 5,
+	["_50000"] = 500,
 	["_500"] = 5,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["STARTING_DISCOUNT"] = 5,
+	["_200000"] = 1000,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -47,9 +47,13 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1574515606,
 		["firstVersion"] = "2.6.3",
 	},
+	["Minakshi"] = {
+		["firstSeen"] = 1595167236,
+		["firstVersion"] = "2.6.3",
+		["guid"] = "0x07000000001A6034",
+	},
 	["Fatpotato"] = {
 		["firstSeen"] = 1574515345,
-		["guid"] = "0x0700000000008153",
 		["firstVersion"] = "2.6.3",
 	},
 }

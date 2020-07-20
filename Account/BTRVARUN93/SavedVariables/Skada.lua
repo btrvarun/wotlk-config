@@ -30,20 +30,18 @@ SkadaDB = {
 						["time"] = 0,
 						["interrupts"] = 0,
 						["deathts"] = 1580060485.475,
-						["power"] = {
-						},
-						["overhealing"] = 0,
+						["first"] = 1580060474,
+						["id"] = "0x070000000041FBB7",
 						["damage"] = 0,
 						["damagespells"] = {
 						},
 						["deaths"] = 1,
 						["damagetaken"] = 33957,
-						["deathlog"] = {
+						["power"] = {
 						},
 						["totalabsorbs"] = 0,
 						["maxhp"] = 0,
-						["healingspells"] = {
-						},
+						["uptime"] = 0,
 						["damagetakenspells"] = {
 							["Seal of Righteousness"] = {
 								["id"] = 25742,
@@ -65,10 +63,10 @@ SkadaDB = {
 								["name"] = "Wrath",
 								["damage"] = 3763,
 							},
-							["Divine Storm"] = {
-								["id"] = 53385,
-								["name"] = "Divine Storm",
-								["damage"] = 4981,
+							["Attack"] = {
+								["id"] = 6603,
+								["name"] = "Attack",
+								["damage"] = 5898,
 							},
 							["Righteous Vengeance"] = {
 								["id"] = 61840,
@@ -80,27 +78,29 @@ SkadaDB = {
 								["name"] = "Crusader Strike",
 								["damage"] = 3584,
 							},
+							["Divine Storm"] = {
+								["id"] = 53385,
+								["name"] = "Divine Storm",
+								["damage"] = 4981,
+							},
 							["Judgement of Righteousness"] = {
 								["id"] = 20187,
 								["name"] = "Judgement of Righteousness",
 								["damage"] = 4248,
 							},
-							["Attack"] = {
-								["id"] = 6603,
-								["name"] = "Attack",
-								["damage"] = 5898,
-							},
-						},
-						["healing"] = 0,
-						["healed"] = {
-						},
-						["name"] = "Lightarray",
-						["failevents"] = {
 						},
 						["dispells"] = 0,
-						["uptime"] = 0,
-						["id"] = "0x070000000041FBB7",
-						["first"] = 1580060474,
+						["failevents"] = {
+						},
+						["name"] = "Lightarray",
+						["healed"] = {
+						},
+						["healing"] = 0,
+						["healingspells"] = {
+						},
+						["deathlog"] = {
+						},
+						["overhealing"] = 0,
 					}, -- [1]
 				},
 				["deaths"] = 1,
@@ -112,8 +112,8 @@ SkadaDB = {
 				},
 				["name"] = "Total",
 				["overhealing"] = 0,
-				["starttime"] = 1580060474,
 				["damagetaken"] = 33957,
+				["starttime"] = 1580060474,
 				["last_action"] = 1580060474,
 				["mobdone"] = 0,
 			},

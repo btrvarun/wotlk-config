@@ -151,10 +151,10 @@ DBMPartyWotLK_SavedVars = {
 	},
 	["SalrammTheFleshcrafter"] = {
 		["Enabled"] = true,
-		["Timer58845SalrammTheFleshcrafter1"] = true,
-		["Timer52451SalrammTheFleshcrafter0"] = true,
-		["Summon Ghouls"] = true,
 		["HealthFrame"] = false,
+		["Timer58845SalrammTheFleshcrafter1"] = true,
+		["Summon Ghouls"] = true,
+		["Timer52451SalrammTheFleshcrafter0"] = true,
 		["Steal Flesh on >%s<"] = true,
 		["Announce"] = false,
 		["Curse of Twisted Flesh on >%s<"] = true,
@@ -478,6 +478,11 @@ DBMPartyWotLK_SavedVars = {
 		["Announce"] = false,
 		["WarningSplitNow"] = true,
 	},
+	["Ichoron"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
 	["BlackKnight"] = {
 		["Enabled"] = true,
 		["Timer67886BlackKnight2"] = true,
@@ -493,15 +498,6 @@ DBMPartyWotLK_SavedVars = {
 		["Marked For Death on >%s<"] = true,
 		["Announce"] = false,
 		["HealthFrame"] = false,
-	},
-	["Taldaram"] = {
-		["Enabled"] = true,
-		["HealthFrame"] = false,
-		["Embrace of the Vampyr on >%s<"] = true,
-		["Timer55959Taldaram0"] = true,
-		["Timer55959Taldaram1"] = true,
-		["Announce"] = false,
-		["Conjure Flame Sphere"] = true,
 	},
 	["Moragg"] = {
 		["Enabled"] = true,
@@ -546,10 +542,10 @@ DBMPartyWotLK_SavedVars = {
 		["HealthFrame"] = false,
 		["Dark Smash"] = true,
 		["Woe Strike on >%s<"] = true,
-		["Dreadful Roar - stop casting"] = true,
-		["Staggering Roar"] = true,
 		["Announce"] = false,
+		["Staggering Roar"] = true,
 		["Timer42723IngvarThePlunderer1"] = true,
+		["Dreadful Roar - stop casting"] = true,
 	},
 	["Keleseth"] = {
 		["Enabled"] = true,
@@ -564,10 +560,14 @@ DBMPartyWotLK_SavedVars = {
 		["MakeitCountTimer"] = true,
 		["HealthFrame"] = false,
 	},
-	["Ichoron"] = {
+	["Taldaram"] = {
 		["Enabled"] = true,
-		["Announce"] = false,
 		["HealthFrame"] = false,
+		["Embrace of the Vampyr on >%s<"] = true,
+		["Timer55959Taldaram0"] = true,
+		["Timer55959Taldaram1"] = true,
+		["Announce"] = false,
+		["Conjure Flame Sphere"] = true,
 	},
 	["LeyGuardianEregos"] = {
 		["Enabled"] = true,
@@ -669,15 +669,19 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 	},
 	["Hadronox"] = {
-		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicLastTime"] = 48.7039999999688,
+		["heroicBestTime"] = 48.7039999999688,
+		["heroicPulls"] = 1,
 		["pulls"] = 0,
 	},
 	["ScourgelordTyrannus"] = {
-		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicPulls"] = 1,
+		["heroicBestTime"] = 83.32000000006519,
+		["heroicLastTime"] = 83.32000000006519,
 		["pulls"] = 0,
 	},
 	["Falric"] = {
@@ -705,9 +709,11 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 	},
 	["SalrammTheFleshcrafter"] = {
-		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicPulls"] = 1,
+		["heroicBestTime"] = 18.35600000014529,
+		["heroicLastTime"] = 18.35600000014529,
 		["pulls"] = 0,
 	},
 	["MageLordUrom"] = {
@@ -735,9 +741,11 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 	},
 	["ChronoLordEpoch"] = {
-		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicPulls"] = 1,
+		["heroicBestTime"] = 19.17999999970198,
+		["heroicLastTime"] = 19.17999999970198,
 		["pulls"] = 0,
 	},
 	["Sladran"] = {
@@ -775,9 +783,11 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 	},
 	["Krikthir"] = {
-		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicLastTime"] = 19.00199999997858,
+		["heroicBestTime"] = 19.00199999997858,
+		["heroicPulls"] = 1,
 		["pulls"] = 0,
 	},
 	["Amanitar"] = {
@@ -823,9 +833,11 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 	},
 	["Anubarak"] = {
-		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicLastTime"] = 163.9230000000098,
+		["heroicBestTime"] = 163.9230000000098,
+		["heroicPulls"] = 1,
 		["pulls"] = 0,
 	},
 	["SvalaSorrowgrave"] = {
@@ -933,12 +945,18 @@ DBMPartyWotLK_SavedStats = {
 	["MaidenOfGrief"] = {
 		["kills"] = 0,
 		["heroicKills"] = 1,
-		["heroicLastTime"] = 26.60800000000018,
-		["heroicBestTime"] = 26.60800000000018,
 		["heroicPulls"] = 1,
+		["heroicBestTime"] = 26.60800000000018,
+		["heroicLastTime"] = 26.60800000000018,
 		["pulls"] = 0,
 	},
 	["GrandMagusTelestra"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+	["Ichoron"] = {
 		["heroicPulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
@@ -952,14 +970,6 @@ DBMPartyWotLK_SavedStats = {
 		["heroicLastTime"] = 43.70900000003167,
 		["pulls"] = 0,
 	},
-	["Taldaram"] = {
-		["kills"] = 0,
-		["heroicKills"] = 1,
-		["heroicPulls"] = 1,
-		["heroicBestTime"] = 16.02000000000044,
-		["heroicLastTime"] = 16.02000000000044,
-		["pulls"] = 0,
-	},
 	["Moragg"] = {
 		["heroicPulls"] = 0,
 		["kills"] = 0,
@@ -967,9 +977,11 @@ DBMPartyWotLK_SavedStats = {
 		["pulls"] = 0,
 	},
 	["MalGanis"] = {
-		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicPulls"] = 1,
+		["heroicBestTime"] = 19.56900000013411,
+		["heroicLastTime"] = 19.56900000013411,
 		["pulls"] = 0,
 	},
 	["Krystallus"] = {
@@ -1012,10 +1024,12 @@ DBMPartyWotLK_SavedStats = {
 		["heroicKills"] = 0,
 		["pulls"] = 0,
 	},
-	["Ichoron"] = {
-		["heroicPulls"] = 0,
+	["Taldaram"] = {
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicPulls"] = 1,
+		["heroicBestTime"] = 16.02000000000044,
+		["heroicLastTime"] = 16.02000000000044,
 		["pulls"] = 0,
 	},
 	["LeyGuardianEregos"] = {

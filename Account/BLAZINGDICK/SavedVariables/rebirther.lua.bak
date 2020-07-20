@@ -1,0 +1,10 @@
+
+RebirtherDB = {
+	["profileKeys"] = {
+		["Circi - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

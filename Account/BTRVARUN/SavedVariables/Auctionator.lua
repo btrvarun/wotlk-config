@@ -472,6 +472,10 @@ AUCTIONATOR_TOONS = {
 		["firstSeen"] = 1570971530,
 		["firstVersion"] = "2.6.3",
 	},
+	["Minato"] = {
+		["firstSeen"] = 1594723360,
+		["firstVersion"] = "2.6.3",
+	},
 	["Impasse"] = {
 		["firstSeen"] = 1574499884,
 		["firstVersion"] = "2.6.3",

@@ -2,6 +2,7 @@
 RebirtherDB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Default",
+		["Minato - Icecrown"] = "Default",
 		["Bowbaby - Icecrown"] = "Default",
 		["Kamakshi - Icecrown"] = "Default",
 		["Ingrate - Icecrown"] = "Default",

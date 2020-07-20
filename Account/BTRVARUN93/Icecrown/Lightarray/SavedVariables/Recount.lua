@@ -60,6 +60,34 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "WARRIOR",
 			["unit"] = "Lightarray",
+			["LastAbility"] = 349670.184,
+			["level"] = 80,
+			["LastDamageAbility"] = "Crusader Strike",
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				1.10561714935045, -- [1]
+				5.454377936795553, -- [2]
+				nil, -- [3]
+				3.648536592856485, -- [4]
+				3.648536592856485, -- [5]
+				4.966063695832438, -- [6]
+				4.149135468812383, -- [7]
+				15.29744172476275, -- [8]
+				2.257301679923836, -- [9]
+				13.04628236233531, -- [10]
+				4.247412548754645, -- [11]
+				1.520223580356869, -- [12]
+				1.145542213076994, -- [13]
+				6.406437148736218, -- [14]
+				4.247412548754645, -- [15]
+				6.252879211326434, -- [16]
+				11.5567703694604, -- [17]
+				4.791007647185283, -- [18]
+				4.505389883603083, -- [19]
+				6.04096925770093, -- [20]
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 1,
 			["DeathLogs"] = {
 				{
 					["MessageIncoming"] = {
@@ -227,136 +255,10 @@ RecountPerCharDB = {
 					},
 				}, -- [1]
 			},
-			["level"] = 80,
-			["LastDamageAbility"] = "Crusader Strike",
-			["LastFightIn"] = 0,
-			["LastEventNum"] = {
-				1.10561714935045, -- [1]
-				5.454377936795553, -- [2]
-				nil, -- [3]
-				3.648536592856485, -- [4]
-				3.648536592856485, -- [5]
-				4.966063695832438, -- [6]
-				4.149135468812383, -- [7]
-				15.29744172476275, -- [8]
-				2.257301679923836, -- [9]
-				13.04628236233531, -- [10]
-				4.247412548754645, -- [11]
-				1.520223580356869, -- [12]
-				1.145542213076994, -- [13]
-				6.406437148736218, -- [14]
-				4.247412548754645, -- [15]
-				6.252879211326434, -- [16]
-				11.5567703694604, -- [17]
-				4.791007647185283, -- [18]
-				4.505389883603083, -- [19]
-				6.04096925770093, -- [20]
-			},
-			["type"] = "Self",
-			["FightsSaved"] = 1,
-			["LastDamageTaken"] = 1967,
+			["UnitLockout"] = 1580060474,
 			["Owner"] = false,
-			["TimeLast"] = {
-				["OVERALL"] = 1580060478,
-				["DamageTaken"] = 1580060478,
-				["DeathCount"] = 1580060478,
-			},
-			["NextEventNum"] = 22,
-			["LastEventHealthNum"] = {
-				98.89438285064955, -- [1]
-				98.89438285064955, -- [2]
-				98.89438285064955, -- [3]
-				95.24584625779306, -- [4]
-				91.59730966493657, -- [5]
-				86.63124596910414, -- [6]
-				77.0277325634962, -- [7]
-				61.73029083873345, -- [8]
-				59.47298915880962, -- [9]
-				46.42670679647431, -- [10]
-				42.17929424771967, -- [11]
-				40.6590706673628, -- [12]
-				39.51352845428581, -- [13]
-				39.51352845428581, -- [14]
-				35.26611590553116, -- [15]
-				28.85967875679494, -- [16]
-				17.30290838733454, -- [17]
-				12.51190074014926, -- [18]
-				1.753631645219741, -- [19]
-				0.003071158748195694, -- [20]
-				0, -- [21]
-			},
-			["LastEvents"] = {
-				"Eatmyleaf Moonfire Lightarray Crit -360 (89 resisted) (Arcane)", -- [1]
-				"Cryyd Melee Lightarray Hit -1776 (Physical)", -- [2]
-				"Villain Melee Lightarray Parry", -- [3]
-				"Cryyd Seal of Righteousness Lightarray Hit -1188 (Holy)", -- [4]
-				"Cryyd Seal of Righteousness Lightarray Hit -1188 (Holy)", -- [5]
-				"Cryyd Crusader Strike Lightarray Hit -1617 (Physical)", -- [6]
-				"Villain Seal of Righteousness Lightarray Hit -1351 (Holy)", -- [7]
-				"Villain Divine Storm Lightarray Crit -4981 (Physical)", -- [8]
-				"Eatmyleaf Moonfire (DoT) Lightarray Tick -735 (183 resisted) (Arcane)", -- [9]
-				"Cryyd Judgement of Righteousness Lightarray Hit -4248 (Holy)", -- [10]
-				"Cryyd Seal of Righteousness Lightarray Hit -1383 (Holy)", -- [11]
-				"Eatmyleaf Insect Swarm (DoT) Lightarray Tick -495 (123 resisted) (Nature)", -- [12]
-				"Villain Righteous Vengeance (DoT) Lightarray Tick -373 (Holy)", -- [13]
-				"Cryyd Melee Lightarray Hit -2086 (Physical)", -- [14]
-				"Cryyd Seal of Righteousness Lightarray Hit -1383 (Holy)", -- [15]
-				"Villain Melee Lightarray Hit -2036 (Physical)", -- [16]
-				"Eatmyleaf Wrath Lightarray Crit -3763 (418 resisted) (Nature)", -- [17]
-				"Villain Seal of Righteousness Lightarray Hit -1560 (Holy)", -- [18]
-				"Cryyd Seal of Righteousness Lightarray Hit -1467 (Holy)", -- [19]
-				"Cryyd Crusader Strike Lightarray Hit -1967 (Physical)", -- [20]
-				"Lightarray dies.", -- [21]
-			},
-			["Name"] = "Lightarray",
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-				true, -- [3]
-				true, -- [4]
-				true, -- [5]
-				true, -- [6]
-				true, -- [7]
-				true, -- [8]
-				true, -- [9]
-				true, -- [10]
-				true, -- [11]
-				true, -- [12]
-				true, -- [13]
-				true, -- [14]
-				true, -- [15]
-				true, -- [16]
-				true, -- [17]
-				true, -- [18]
-				true, -- [19]
-				true, -- [20]
-				true, -- [21]
-			},
-			["LastEventTimes"] = {
-				50178.748, -- [1]
-				50179.103, -- [2]
-				50179.104, -- [3]
-				50179.143, -- [4]
-				50179.145, -- [5]
-				50179.146, -- [6]
-				50179.629, -- [7]
-				50179.629, -- [8]
-				50180.51, -- [9]
-				50180.918, -- [10]
-				50180.918, -- [11]
-				50181.361, -- [12]
-				50181.673, -- [13]
-				50182.366, -- [14]
-				50182.466, -- [15]
-				50182.609, -- [16]
-				50182.61, -- [17]
-				50182.71900000001, -- [18]
-				50183.28, -- [19]
-				50183.291, -- [20]
-				50183.315, -- [21]
-			},
 			["Fights"] = {
-				["Fight1"] = {
+				["OverallData"] = {
 					["PartialResist"] = {
 						["Insect Swarm (DoT)"] = {
 							["Details"] = {
@@ -602,25 +504,85 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ElementTaken"] = {
+						["Holy"] = 14141,
+						["Melee"] = 5898,
+						["Arcane"] = 1095,
+						["Physical"] = 8565,
+						["Nature"] = 4258,
+					},
+					["WhoDamaged"] = {
+						["Cryyd"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 6609,
+								},
+								["Crusader Strike"] = {
+									["count"] = 3584,
+								},
+								["Melee"] = {
+									["count"] = 3862,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 4248,
+								},
+							},
+							["amount"] = 18303,
+						},
+						["Villain"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 2911,
+								},
+								["Divine Storm"] = {
+									["count"] = 4981,
+								},
+								["Melee"] = {
+									["count"] = 2036,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 373,
+								},
+							},
+							["amount"] = 10301,
+						},
+						["Eatmyleaf"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 495,
+								},
+								["Moonfire"] = {
+									["count"] = 360,
+								},
+								["Wrath"] = {
+									["count"] = 3763,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 735,
+								},
+							},
+							["amount"] = 5353,
+						},
+					},
 					["ElementHitsTaken"] = {
 						["Holy"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
 								["Hit"] = {
 									["count"] = 8,
+								},
+								["Tick"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 9,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
 								["Hit"] = {
 									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 4,
@@ -659,70 +621,10 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["WhoDamaged"] = {
-						["Cryyd"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3862,
-								},
-								["Crusader Strike"] = {
-									["count"] = 3584,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6609,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 4248,
-								},
-							},
-							["amount"] = 18303,
-						},
-						["Villain"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2036,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 373,
-								},
-								["Divine Storm"] = {
-									["count"] = 4981,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2911,
-								},
-							},
-							["amount"] = 10301,
-						},
-						["Eatmyleaf"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 495,
-								},
-								["Wrath"] = {
-									["count"] = 3763,
-								},
-								["Moonfire"] = {
-									["count"] = 360,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 735,
-								},
-							},
-							["amount"] = 5353,
-						},
-					},
-					["ElementTaken"] = {
-						["Holy"] = 14141,
-						["Melee"] = 5898,
-						["Arcane"] = 1095,
-						["Physical"] = 8565,
-						["Nature"] = 4258,
-					},
 					["DamageTaken"] = 33957,
 					["ElementTakenResist"] = {
-						["Nature"] = 959,
 						["Arcane"] = 361,
+						["Nature"] = 959,
 					},
 				},
 				["LastFightData"] = {
@@ -971,25 +873,85 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ElementTaken"] = {
+						["Holy"] = 14141,
+						["Melee"] = 5898,
+						["Arcane"] = 1095,
+						["Physical"] = 8565,
+						["Nature"] = 4258,
+					},
+					["WhoDamaged"] = {
+						["Cryyd"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 6609,
+								},
+								["Crusader Strike"] = {
+									["count"] = 3584,
+								},
+								["Melee"] = {
+									["count"] = 3862,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 4248,
+								},
+							},
+							["amount"] = 18303,
+						},
+						["Villain"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 2911,
+								},
+								["Divine Storm"] = {
+									["count"] = 4981,
+								},
+								["Melee"] = {
+									["count"] = 2036,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 373,
+								},
+							},
+							["amount"] = 10301,
+						},
+						["Eatmyleaf"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 495,
+								},
+								["Moonfire"] = {
+									["count"] = 360,
+								},
+								["Wrath"] = {
+									["count"] = 3763,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 735,
+								},
+							},
+							["amount"] = 5353,
+						},
+					},
 					["ElementHitsTaken"] = {
 						["Holy"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
 								["Hit"] = {
 									["count"] = 8,
+								},
+								["Tick"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 9,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
 								["Hit"] = {
 									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 4,
@@ -1028,70 +990,10 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["WhoDamaged"] = {
-						["Cryyd"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3862,
-								},
-								["Crusader Strike"] = {
-									["count"] = 3584,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6609,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 4248,
-								},
-							},
-							["amount"] = 18303,
-						},
-						["Villain"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2036,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 373,
-								},
-								["Divine Storm"] = {
-									["count"] = 4981,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2911,
-								},
-							},
-							["amount"] = 10301,
-						},
-						["Eatmyleaf"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 495,
-								},
-								["Wrath"] = {
-									["count"] = 3763,
-								},
-								["Moonfire"] = {
-									["count"] = 360,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 735,
-								},
-							},
-							["amount"] = 5353,
-						},
-					},
-					["ElementTaken"] = {
-						["Holy"] = 14141,
-						["Melee"] = 5898,
-						["Arcane"] = 1095,
-						["Physical"] = 8565,
-						["Nature"] = 4258,
-					},
 					["DamageTaken"] = 33957,
 					["ElementTakenResist"] = {
-						["Nature"] = 959,
 						["Arcane"] = 361,
+						["Nature"] = 959,
 					},
 				},
 				["CurrentFightData"] = {
@@ -1107,43 +1009,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["HOTs"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["ManaGain"] = 0,
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
 					["PartialAbsorb"] = {
 					},
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FAttacks"] = {
 					},
 					["PartialBlock"] = {
 					},
+					["ElementDone"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["Dispelled"] = 0,
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -1151,53 +1050,56 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
 					["RageGained"] = {
 					},
-					["HealedWho"] = {
-					},
+					["ActiveTime"] = 0,
+					["CCBreak"] = 0,
 					["EnergyGain"] = 0,
+					["WhoHealed"] = {
+					},
+					["PartialResist"] = {
+					},
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
 					["Interrupts"] = 0,
 					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
+					["ElementTakenResist"] = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["FDamage"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["HealedWho"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
 					["Attacks"] = {
 					},
 					["HealingTaken"] = 0,
-					["RageGain"] = 0,
+					["DamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["ManaGain"] = 0,
-					["HOTs"] = {
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
 					},
 					["DispelledWho"] = {
 					},
 				},
-				["OverallData"] = {
+				["Fight1"] = {
 					["PartialResist"] = {
 						["Insect Swarm (DoT)"] = {
 							["Details"] = {
@@ -1443,25 +1345,85 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["ElementTaken"] = {
+						["Holy"] = 14141,
+						["Melee"] = 5898,
+						["Arcane"] = 1095,
+						["Physical"] = 8565,
+						["Nature"] = 4258,
+					},
+					["WhoDamaged"] = {
+						["Cryyd"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 6609,
+								},
+								["Crusader Strike"] = {
+									["count"] = 3584,
+								},
+								["Melee"] = {
+									["count"] = 3862,
+								},
+								["Judgement of Righteousness"] = {
+									["count"] = 4248,
+								},
+							},
+							["amount"] = 18303,
+						},
+						["Villain"] = {
+							["Details"] = {
+								["Seal of Righteousness"] = {
+									["count"] = 2911,
+								},
+								["Divine Storm"] = {
+									["count"] = 4981,
+								},
+								["Melee"] = {
+									["count"] = 2036,
+								},
+								["Righteous Vengeance (DoT)"] = {
+									["count"] = 373,
+								},
+							},
+							["amount"] = 10301,
+						},
+						["Eatmyleaf"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 495,
+								},
+								["Moonfire"] = {
+									["count"] = 360,
+								},
+								["Wrath"] = {
+									["count"] = 3763,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 735,
+								},
+							},
+							["amount"] = 5353,
+						},
+					},
 					["ElementHitsTaken"] = {
 						["Holy"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 1,
-								},
 								["Hit"] = {
 									["count"] = 8,
+								},
+								["Tick"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 9,
 						},
 						["Melee"] = {
 							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-								},
 								["Hit"] = {
 									["count"] = 3,
+								},
+								["Parry"] = {
+									["count"] = 1,
 								},
 							},
 							["amount"] = 4,
@@ -1500,74 +1462,113 @@ RecountPerCharDB = {
 							["amount"] = 2,
 						},
 					},
-					["WhoDamaged"] = {
-						["Cryyd"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 3862,
-								},
-								["Crusader Strike"] = {
-									["count"] = 3584,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 6609,
-								},
-								["Judgement of Righteousness"] = {
-									["count"] = 4248,
-								},
-							},
-							["amount"] = 18303,
-						},
-						["Villain"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 2036,
-								},
-								["Righteous Vengeance (DoT)"] = {
-									["count"] = 373,
-								},
-								["Divine Storm"] = {
-									["count"] = 4981,
-								},
-								["Seal of Righteousness"] = {
-									["count"] = 2911,
-								},
-							},
-							["amount"] = 10301,
-						},
-						["Eatmyleaf"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 495,
-								},
-								["Wrath"] = {
-									["count"] = 3763,
-								},
-								["Moonfire"] = {
-									["count"] = 360,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 735,
-								},
-							},
-							["amount"] = 5353,
-						},
-					},
-					["ElementTaken"] = {
-						["Holy"] = 14141,
-						["Melee"] = 5898,
-						["Arcane"] = 1095,
-						["Physical"] = 8565,
-						["Nature"] = 4258,
-					},
 					["DamageTaken"] = 33957,
 					["ElementTakenResist"] = {
-						["Nature"] = 959,
 						["Arcane"] = 361,
+						["Nature"] = 959,
 					},
 				},
 			},
-			["UnitLockout"] = 1580060474,
+			["NextEventNum"] = 22,
+			["LastEventHealthNum"] = {
+				98.89438285064955, -- [1]
+				98.89438285064955, -- [2]
+				98.89438285064955, -- [3]
+				95.24584625779306, -- [4]
+				91.59730966493657, -- [5]
+				86.63124596910414, -- [6]
+				77.0277325634962, -- [7]
+				61.73029083873345, -- [8]
+				59.47298915880962, -- [9]
+				46.42670679647431, -- [10]
+				42.17929424771967, -- [11]
+				40.6590706673628, -- [12]
+				39.51352845428581, -- [13]
+				39.51352845428581, -- [14]
+				35.26611590553116, -- [15]
+				28.85967875679494, -- [16]
+				17.30290838733454, -- [17]
+				12.51190074014926, -- [18]
+				1.753631645219741, -- [19]
+				0.003071158748195694, -- [20]
+				0, -- [21]
+			},
+			["LastEvents"] = {
+				"Eatmyleaf Moonfire Lightarray Crit -360 (89 resisted) (Arcane)", -- [1]
+				"Cryyd Melee Lightarray Hit -1776 (Physical)", -- [2]
+				"Villain Melee Lightarray Parry", -- [3]
+				"Cryyd Seal of Righteousness Lightarray Hit -1188 (Holy)", -- [4]
+				"Cryyd Seal of Righteousness Lightarray Hit -1188 (Holy)", -- [5]
+				"Cryyd Crusader Strike Lightarray Hit -1617 (Physical)", -- [6]
+				"Villain Seal of Righteousness Lightarray Hit -1351 (Holy)", -- [7]
+				"Villain Divine Storm Lightarray Crit -4981 (Physical)", -- [8]
+				"Eatmyleaf Moonfire (DoT) Lightarray Tick -735 (183 resisted) (Arcane)", -- [9]
+				"Cryyd Judgement of Righteousness Lightarray Hit -4248 (Holy)", -- [10]
+				"Cryyd Seal of Righteousness Lightarray Hit -1383 (Holy)", -- [11]
+				"Eatmyleaf Insect Swarm (DoT) Lightarray Tick -495 (123 resisted) (Nature)", -- [12]
+				"Villain Righteous Vengeance (DoT) Lightarray Tick -373 (Holy)", -- [13]
+				"Cryyd Melee Lightarray Hit -2086 (Physical)", -- [14]
+				"Cryyd Seal of Righteousness Lightarray Hit -1383 (Holy)", -- [15]
+				"Villain Melee Lightarray Hit -2036 (Physical)", -- [16]
+				"Eatmyleaf Wrath Lightarray Crit -3763 (418 resisted) (Nature)", -- [17]
+				"Villain Seal of Righteousness Lightarray Hit -1560 (Holy)", -- [18]
+				"Cryyd Seal of Righteousness Lightarray Hit -1467 (Holy)", -- [19]
+				"Cryyd Crusader Strike Lightarray Hit -1967 (Physical)", -- [20]
+				"Lightarray dies.", -- [21]
+			},
+			["Name"] = "Lightarray",
+			["LastDamageTaken"] = 1967,
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				true, -- [3]
+				true, -- [4]
+				true, -- [5]
+				true, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+			},
+			["TimeLast"] = {
+				["OVERALL"] = 1580060478,
+				["DamageTaken"] = 1580060478,
+				["DeathCount"] = 1580060478,
+			},
+			["LastEventTimes"] = {
+				50178.748, -- [1]
+				50179.103, -- [2]
+				50179.104, -- [3]
+				50179.143, -- [4]
+				50179.145, -- [5]
+				50179.146, -- [6]
+				50179.629, -- [7]
+				50179.629, -- [8]
+				50180.51, -- [9]
+				50180.918, -- [10]
+				50180.918, -- [11]
+				50181.361, -- [12]
+				50181.673, -- [13]
+				50182.366, -- [14]
+				50182.466, -- [15]
+				50182.609, -- [16]
+				50182.61, -- [17]
+				50182.71900000001, -- [18]
+				50183.28, -- [19]
+				50183.291, -- [20]
+				50183.315, -- [21]
+			},
 			["LastActive"] = 1580060478,
 		},
 	},

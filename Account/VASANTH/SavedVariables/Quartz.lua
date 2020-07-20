@@ -52,9 +52,10 @@ Quartz3DB = {
 	},
 	["profileKeys"] = {
 		["Bowbaby - Icecrown"] = "Default",
+		["Immutability - Icecrown"] = "Default",
 		["Garzh - Icecrown"] = "Default",
 		["Invariably - Icecrown"] = "Default",
-		["Immutability - Icecrown"] = "Default",
+		["Insanehpala - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

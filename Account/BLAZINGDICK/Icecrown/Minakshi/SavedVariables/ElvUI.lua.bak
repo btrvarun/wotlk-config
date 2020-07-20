@@ -1,0 +1,169 @@
+
+ElvCharacterDB = {
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"WTS 6.3k+ characters WARMANE TRADE (multiple bis items) (Rshammy||ProtWarr||MAGE) each comes with 100K GOL", -- [1]
+			"Maruzhan", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			177, -- [11]
+			"0x070000000057B6EA", -- [12]
+			0, -- [13]
+			[51] = 1595167240,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dMaruzhan|r",
+		}, -- [1]
+		{
+			"ICC 25 HC LOD RUN 1MT +1MDPS achiv |cffffff00|Hachievement:4584:07000000002C019C:1:2:6:20:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r+6.3 +discord ", -- [1]
+			"Aetrenaa", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			179, -- [11]
+			"0x07000000002C019C", -- [12]
+			0, -- [13]
+			[51] = 1595167242,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfff48cbaAetrenaa|r",
+		}, -- [2]
+		{
+			"WTS DK Alliance WITH 6 BOE ( tank or dps ) with 2 max prof BS + LW for 30 coin only . whisp me if interrested", -- [1]
+			"Horann", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			180, -- [11]
+			"0x0700000000481077", -- [12]
+			0, -- [13]
+			[51] = 1595167242,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefHorann|r",
+		}, -- [3]
+		{
+			"WTS DK Alliance WITH 6 BOE ( tank or dps ) with 2 max prof BS + LW for 30 coins only . whisp me if interrested", -- [1]
+			"Horann", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			182, -- [11]
+			"0x0700000000481077", -- [12]
+			0, -- [13]
+			[51] = 1595167243,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefHorann|r",
+		}, -- [4]
+		{
+			"Ash AdoRSTAERUme Vrum thor melka DanaGarde endirvIS SE Ruftos Ras Lordaere Gloinador SE danieb ", -- [1]
+			"Hyrranda", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			184, -- [11]
+			"0x07000000005097A2", -- [12]
+			0, -- [13]
+			[51] = 1595167249,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Hyrranda|r",
+		}, -- [5]
+		{
+			"bur ti", -- [1]
+			"Zhandarmery", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			186, -- [11]
+			"0x070000000059A0BD", -- [12]
+			0, -- [13]
+			[51] = 1595167252,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Zhandarmery|r",
+		}, -- [6]
+		{
+			"LFM RS25 need 2tanks 2heals 3rdps 3mdps 6k+gs Nothing reserved link achiev |cffffff00|Hachievement:4815:0700000000543E98:1:4:28:20:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Kasadam", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			195, -- [11]
+			"0x0700000000543E98", -- [12]
+			0, -- [13]
+			[51] = 1595167262,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dKasadam|r",
+		}, -- [7]
+		{
+			"OS 10nm NEED ONLY DPS SATCHEL RESS", -- [1]
+			"Jjuno", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			197, -- [11]
+			"0x07000000003E4743", -- [12]
+			0, -- [13]
+			[51] = 1595167264,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefJjuno|r",
+		}, -- [8]
+		{
+			"LFM İCC10 EOF RUN NEED ALL 5.5K+", -- [1]
+			"Gacin", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			198, -- [11]
+			"0x07000000003A20E0", -- [12]
+			0, -- [13]
+			[51] = 1595167264,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aGacin|r",
+		}, -- [9]
+	},
+}

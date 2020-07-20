@@ -1,8 +1,9 @@
 
 CPRDB2 = {
 	["profileKeys"] = {
-		["Milkmycow - Icecrown"] = "Default",
 		["Immutability - Icecrown"] = "Default",
+		["Milkmycow - Icecrown"] = "Default",
+		["Insanehpala - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

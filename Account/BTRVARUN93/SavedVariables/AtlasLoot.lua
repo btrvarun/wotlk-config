@@ -19,30 +19,30 @@ AtlasLootDB = {
 	},
 }
 AtlasLootWishList = {
-	["Shared"] = {
-	},
 	["Options"] = {
 		["Lightarray"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Herbivore"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Flynnrider"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
+	},
+	["Shared"] = {
 	},
 	["Own"] = {
 		["Lightarray"] = {

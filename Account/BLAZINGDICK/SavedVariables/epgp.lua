@@ -3,6 +3,84 @@ EPGP_DB = {
 	["namespaces"] = {
 		["log"] = {
 			["profiles"] = {
+				["Logic"] = {
+					["snapshot"] = {
+						["guild_info"] = "@BASE_GP:500\n@DECAY_P:10%\n@MIN_EP:600\n@EXTRAS_P:50",
+						["time"] = 1595147700,
+						["roster_info"] = {
+							{
+								"Hypersonic", -- [1]
+								"ROGUE", -- [2]
+								"0,0", -- [3]
+							}, -- [1]
+							{
+								"Fener", -- [1]
+								"DRUID", -- [2]
+								"0,0", -- [3]
+							}, -- [2]
+							{
+								"Medc", -- [1]
+								"HUNTER", -- [2]
+								"0,0", -- [3]
+							}, -- [3]
+							{
+								"Sendnudesplx", -- [1]
+								"PRIEST", -- [2]
+								"99999,0", -- [3]
+							}, -- [4]
+							{
+								"Voidmancer", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
+							}, -- [5]
+							{
+								"Kailey", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
+							}, -- [6]
+							{
+								"Dulcify", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [7]
+							{
+								"Ttwo", -- [1]
+								"WARRIOR", -- [2]
+								"0,0", -- [3]
+							}, -- [8]
+							{
+								"Tequilab", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [9]
+							{
+								"Wildfirejim", -- [1]
+								"MAGE", -- [2]
+								"0,0", -- [3]
+							}, -- [10]
+							{
+								"Veliko", -- [1]
+								"PRIEST", -- [2]
+								"99999,0", -- [3]
+							}, -- [11]
+							{
+								"Tankthespank", -- [1]
+								"DRUID", -- [2]
+								"0,0", -- [3]
+							}, -- [12]
+							{
+								"Minakshi", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
+							}, -- [13]
+							{
+								"Flynnrider", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"0,0", -- [3]
+							}, -- [14]
+						},
+					},
+				},
 				["Disappointments"] = {
 					["snapshot"] = {
 						["time"] = 1574495760,
@@ -117,24 +195,29 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["loot"] = {
+		["gptooltip"] = {
 		},
 		["announce"] = {
 		},
-		["gptooltip"] = {
+		["loot"] = {
 		},
+	},
+	["profileKeys"] = {
+		["Circi - Icecrown"] = "Disappointments",
+		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
+		["Minakshi - Icecrown"] = "Logic",
 	},
 	["global"] = {
 		["last_version"] = "5.5.19",
 	},
-	["profileKeys"] = {
-		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
-		["Circi - Icecrown"] = "Disappointments",
-	},
 	["profiles"] = {
-		["Disappointments"] = {
-		},
 		["Circi - Icecrown"] = {
+		},
+		["Minakshi - Icecrown"] = {
+		},
+		["Logic"] = {
+		},
+		["Disappointments"] = {
 		},
 	},
 }

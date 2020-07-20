@@ -1,10 +1,47 @@
 
 RecountDB = {
 	["profileKeys"] = {
+		["Insanehpala - Icecrown"] = "Insanehpala - Icecrown",
 		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
 		["Immutability - Icecrown"] = "Immutability - Icecrown",
 	},
 	["profiles"] = {
+		["Insanehpala - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["ShowScrollbar"] = false,
+				["Position"] = {
+					["y"] = -403.0000168916482,
+					["h"] = 215.9999994529021,
+					["w"] = 264.9999970593487,
+					["x"] = 821.4996810077215,
+				},
+				["RowHeight"] = 15,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
+			},
+			["ClampToScreen"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["Locked"] = true,
+			["BarTexture"] = "Armory",
+			["CurDataSet"] = "OverallData",
+			["MainWindowHeight"] = 120,
+			["MainWindowWidth"] = 230,
+			["FrameStrata"] = "2-LOW",
+		},
 		["Milkmycow - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
@@ -21,27 +58,32 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Immutability - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["RowHeight"] = 15,
 				["ShowScrollbar"] = false,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
 				["Position"] = {
 					["y"] = -460,
 					["h"] = 120,
 					["w"] = 230,
 					["x"] = 469,
 				},
-				["RowHeight"] = 15,
-				["BarText"] = {
-					["NumFormat"] = 3,
-				},
 			},
+			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
+			["BarTexture"] = "Armory",
 			["FrameStrata"] = "2-LOW",
+			["LastInstanceName"] = "Eye of the Storm",
+			["DetailWindowY"] = 0,
+			["Font"] = "KkUI Normal",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -52,16 +94,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["LastInstanceName"] = "Eye of the Storm",
-			["BarTexture"] = "Armory",
-			["Font"] = "KkUI Normal",
 			["ClampToScreen"] = true,
-			["CurDataSet"] = "LastFightData",
 			["MainWindowWidth"] = 230,
+			["CurDataSet"] = "LastFightData",
 		},
 	},
 }

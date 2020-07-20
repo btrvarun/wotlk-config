@@ -1,13 +1,13 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/tmw", -- [1]
-		"/target lut", -- [2]
-		"/rebirther", -- [3]
-		"/macro", -- [4]
-		"/target kar", -- [5]
-		"/moveui", -- [6]
-		"/wa", -- [7]
+		"/target lut", -- [1]
+		"/target kar", -- [2]
+		"/tmw", -- [3]
+		"/wa", -- [4]
+		"/macro", -- [5]
+		"/rebirther", -- [6]
+		"/moveui", -- [7]
 	},
 	["ChatHistoryLog"] = {
 		{
@@ -514,5 +514,221 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_YELL",
 			[52] = "Glistening",
 		}, -- [28]
+		{
+			"LF 4x dps for voa 25 /w me need lock and r3 pala", -- [1]
+			"Methodi", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			39, -- [11]
+			"0x07000000003B9A9D", -- [12]
+			0, -- [13]
+			[51] = 1594723339,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Methodi",
+		}, -- [29]
+		{
+			"onix 10 need 1 tank and dps wis me gs 5.9 ", -- [1]
+			"Muctep", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			41, -- [11]
+			"0x070000000049C4EF", -- [12]
+			0, -- [13]
+			[51] = 1594723341,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Muctep",
+		}, -- [30]
+		{
+			"_ TANK-HEAL-DPS _ QUEUE RDF HC / RDF EVENT(if there is one) _", -- [1]
+			"Stepsistar", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
+			"", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
+			0, -- [10]
+			42, -- [11]
+			"0x07000000004FAA3E", -- [12]
+			0, -- [13]
+			[51] = 1594723342,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Stepsistar",
+		}, -- [31]
+		{
+			"+ TANK-HEAL-DPS _ QUEUE RDF HC / RDF EVENT(if there is one) +", -- [1]
+			"Stepsistar", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			43, -- [11]
+			"0x07000000004FAA3E", -- [12]
+			0, -- [13]
+			[51] = 1594723342,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Stepsistar",
+		}, -- [32]
+		{
+			"Lu agol Ash nud Eynes va ras Dana", -- [1]
+			"Sobey", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			44, -- [11]
+			"0x070000000048FC1F", -- [12]
+			0, -- [13]
+			[51] = 1594723343,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Sobey",
+		}, -- [33]
+		{
+			"LFM VoA 10 need all /w me GS/SPEC (no Pala)", -- [1]
+			"Noergelstar", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			45, -- [11]
+			"0x0700000000253FF5", -- [12]
+			0, -- [13]
+			[51] = 1594723343,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Noergelstar",
+		}, -- [34]
+		{
+			"WTB |cffa335ee|Hitem:36919:0:0:0:0:0:0:0:80|h[Cardinal Ruby]|h|r 210 |cffa335ee|Hitem:36922:0:0:0:0:0:0:0:80|h[King's Amber]|h|r 200 |cffa335ee|Hitem:36931:0:0:0:0:0:0:0:80|h[Ametrine]|h|r 170 Dreadstone 140 Eye of Zul 130 Majestic 140", -- [1]
+			"Brokolie", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			46, -- [11]
+			"0x07000000000332FF", -- [12]
+			0, -- [13]
+			[51] = 1594723343,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Brokolie",
+		}, -- [35]
+		{
+			"LF ALL FOR TOC 25N! 5.4+ SCROLL RUN! <<B+P+C res>> I HAVE THE WEEKLY QUEST #2 |cffffff00|Hachievement:3916:07000000000824ED:1:4:6:15:4294967295:4294967295:4294967295:4294967295|h[Call of the Crusade (25 player)]|h|r", -- [1]
+			"Candypala", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			48, -- [11]
+			"0x07000000000824ED", -- [12]
+			0, -- [13]
+			[51] = 1594723344,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Candypala",
+		}, -- [36]
+		{
+			"VIL SE AGOL UDEN VE NOTH E E THOR", -- [1]
+			"Dayanit", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			49, -- [11]
+			"0x070000000058A2DC", -- [12]
+			0, -- [13]
+			[51] = 1594723345,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Dayanit",
+		}, -- [37]
+		{
+			"Loganss waves at Katenka.", -- [1]
+			"Loganss", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			0, -- [11]
+			"0x0700000000272D8E", -- [12]
+			0, -- [13]
+			[51] = 1594723350,
+			[50] = "CHAT_MSG_TEXT_EMOTE",
+			[52] = "Loganss",
+		}, -- [38]
+		{
+			"LFM ICC 25 N EOF Farm 5.8 link gs - achiv NEED HEALERS / 1 sp 1 Retry 1 hunter (b+p=res)", -- [1]
+			"Paladainzx", -- [2]
+			"Orcish", -- [3]
+			"", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			53, -- [11]
+			"0x07000000000070E9", -- [12]
+			0, -- [13]
+			[51] = 1594723351,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "Paladainzx",
+		}, -- [39]
+		{
+			"WTS BiS Unholy DK via trade. 2 realm first achievements,TOGC Immortlity, Ancient Frostsaber /Black Nightsaber and many more /w me", -- [1]
+			"Icba", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
+			"", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			55, -- [11]
+			"0x0700000000004614", -- [12]
+			0, -- [13]
+			[51] = 1594723351,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "Icba",
+		}, -- [40]
 	},
 }

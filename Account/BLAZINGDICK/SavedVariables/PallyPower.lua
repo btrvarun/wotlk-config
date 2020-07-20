@@ -13,6 +13,9 @@ PallyPowerDB = {
 				["g"] = 0.5,
 				["r"] = 0.5,
 			},
+			["display"] = {
+				["frameLocked"] = true,
+			},
 			["cBuffGood"] = {
 				["b"] = 0.06,
 				["t"] = 0.8,
@@ -30,10 +33,24 @@ PallyPowerDB = {
 	},
 }
 PallyPower_Assignments = {
+	["Minakshi"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0, -- [4]
+		0, -- [5]
+		0, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+		0, -- [11]
+	},
 }
 PallyPower_NormalAssignments = {
 }
 PallyPower_AuraAssignments = {
+	["Minakshi"] = 0,
 }
 PallyPower_SavedPresets = {
 }

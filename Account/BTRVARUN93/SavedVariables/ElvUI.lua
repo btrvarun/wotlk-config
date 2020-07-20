@@ -7,7 +7,7 @@ ElvDB = {
 	},
 	["gold"] = {
 		["Icecrown"] = {
-			["Lightarray"] = 1807928,
+			["Lightarray"] = 4759760,
 			["Herbivore"] = 5502496,
 			["Flynnrider"] = 171686431,
 		},
@@ -30,6 +30,10 @@ ElvDB = {
 		["nameplates"] = {
 			["filters"] = {
 				["Boss"] = {
+				},
+				["ElvUI_Totem"] = {
+				},
+				["ElvUI_Boss"] = {
 				},
 			},
 		},
@@ -58,7 +62,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -83,12 +87,15 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
+					["player"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
 				},
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
 			},
 			["movers"] = {
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
@@ -96,9 +103,6 @@ ElvDB = {
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
-			},
-			["chat"] = {
-				["panelColorConverted"] = true,
 			},
 		},
 		["Lightarray - Icecrown"] = {
@@ -114,7 +118,7 @@ ElvDB = {
 			},
 			["unitframe"] = {
 				["units"] = {
-					["pet"] = {
+					["player"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -124,32 +128,12 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["arena"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
 					["focustarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["targettarget"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["target"] = {
-						["health"] = {
-							["frequentUpdates"] = true,
-						},
-					},
-					["focus"] = {
+					["pet"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -159,7 +143,27 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["player"] = {
+					["focus"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["target"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["arena"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["targettarget"] = {
+						["health"] = {
+							["frequentUpdates"] = true,
+						},
+					},
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -190,7 +194,7 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["boss"] = {
+					["pettarget"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
@@ -215,15 +219,12 @@ ElvDB = {
 							["frequentUpdates"] = true,
 						},
 					},
-					["pettarget"] = {
+					["boss"] = {
 						["health"] = {
 							["frequentUpdates"] = true,
 						},
 					},
 				},
-			},
-			["chat"] = {
-				["panelColorConverted"] = true,
 			},
 			["movers"] = {
 				["ElvUF_Raid40Mover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,432",
@@ -231,6 +232,9 @@ ElvDB = {
 				["ElvUF_PartyMover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,195",
 				["ElvUF_RaidMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,427",
 				["ElvUF_RaidpetMover"] = "TOPLEFT,ElvUIParent,BOTTOMLEFT,4,736",
+			},
+			["chat"] = {
+				["panelColorConverted"] = true,
 			},
 		},
 	},

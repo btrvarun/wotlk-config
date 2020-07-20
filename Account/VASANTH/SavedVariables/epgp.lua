@@ -4,6 +4,92 @@ EPGP_DB = {
 		["log"] = {
 			["profiles"] = {
 				["Logic"] = {
+					["log"] = {
+						{
+							1578693360, -- [1]
+							"EP", -- [2]
+							"Azmir", -- [3]
+							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
+							1000, -- [5]
+						}, -- [1]
+						{
+							1578693360, -- [1]
+							"EP", -- [2]
+							"Minakshi", -- [3]
+							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
+							1000, -- [5]
+						}, -- [2]
+						{
+							1578693360, -- [1]
+							"EP", -- [2]
+							"Cptnecro", -- [3]
+							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
+							1000, -- [5]
+						}, -- [3]
+						{
+							1578693360, -- [1]
+							"EP", -- [2]
+							"Laldudu", -- [3]
+							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
+							1000, -- [5]
+						}, -- [4]
+						{
+							1578693360, -- [1]
+							"EP", -- [2]
+							"Relliklaires", -- [3]
+							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
+							1000, -- [5]
+						}, -- [5]
+						{
+							1578693420, -- [1]
+							"EP", -- [2]
+							"Nugga", -- [3]
+							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
+							1000, -- [5]
+						}, -- [6]
+						{
+							1578693420, -- [1]
+							"EP", -- [2]
+							"Albakira", -- [3]
+							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
+							1000, -- [5]
+						}, -- [7]
+						{
+							1578693420, -- [1]
+							"EP", -- [2]
+							"Albakira", -- [3]
+							"Hosting TOGC 25", -- [4]
+							200, -- [5]
+						}, -- [8]
+						{
+							1578693420, -- [1]
+							"EP", -- [2]
+							"Frostruned", -- [3]
+							"Hosting TOGC 25", -- [4]
+							200, -- [5]
+						}, -- [9]
+						{
+							1578693420, -- [1]
+							"EP", -- [2]
+							"Hoeley", -- [3]
+							"Hosting TOGC 25", -- [4]
+							200, -- [5]
+						}, -- [10]
+						{
+							1578693420, -- [1]
+							"EP", -- [2]
+							"Hypersonic", -- [3]
+							"Hosting TOGC 25", -- [4]
+							200, -- [5]
+						}, -- [11]
+						{
+							1578693420, -- [1]
+							"EP", -- [2]
+							"Nugga", -- [3]
+							"Hosting TOGC 25", -- [4]
+							200, -- [5]
+						}, -- [12]
+					},
 					["snapshot"] = {
 						["roster_info"] = {
 							{
@@ -1269,91 +1355,307 @@ EPGP_DB = {
 						},
 						["time"] = 1579331700,
 					},
-					["log"] = {
-						{
-							1578693360, -- [1]
-							"EP", -- [2]
-							"Azmir", -- [3]
-							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
-							1000, -- [5]
-						}, -- [1]
-						{
-							1578693360, -- [1]
-							"EP", -- [2]
-							"Minakshi", -- [3]
-							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
-							1000, -- [5]
-						}, -- [2]
-						{
-							1578693360, -- [1]
-							"EP", -- [2]
-							"Cptnecro", -- [3]
-							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
-							1000, -- [5]
-						}, -- [3]
-						{
-							1578693360, -- [1]
-							"EP", -- [2]
-							"Laldudu", -- [3]
-							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
-							1000, -- [5]
-						}, -- [4]
-						{
-							1578693360, -- [1]
-							"EP", -- [2]
-							"Relliklaires", -- [3]
-							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
-							1000, -- [5]
-						}, -- [5]
-						{
-							1578693420, -- [1]
-							"EP", -- [2]
-							"Nugga", -- [3]
-							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
-							1000, -- [5]
-						}, -- [6]
-						{
-							1578693420, -- [1]
-							"EP", -- [2]
-							"Albakira", -- [3]
-							"Trial of the Grand Crusader - 25 Player (Heroic)", -- [4]
-							1000, -- [5]
-						}, -- [7]
-						{
-							1578693420, -- [1]
-							"EP", -- [2]
-							"Albakira", -- [3]
-							"Hosting TOGC 25", -- [4]
-							200, -- [5]
-						}, -- [8]
-						{
-							1578693420, -- [1]
-							"EP", -- [2]
-							"Frostruned", -- [3]
-							"Hosting TOGC 25", -- [4]
-							200, -- [5]
-						}, -- [9]
-						{
-							1578693420, -- [1]
-							"EP", -- [2]
-							"Hoeley", -- [3]
-							"Hosting TOGC 25", -- [4]
-							200, -- [5]
-						}, -- [10]
-						{
-							1578693420, -- [1]
-							"EP", -- [2]
-							"Hypersonic", -- [3]
-							"Hosting TOGC 25", -- [4]
-							200, -- [5]
-						}, -- [11]
-						{
-							1578693420, -- [1]
-							"EP", -- [2]
-							"Nugga", -- [3]
-							"Hosting TOGC 25", -- [4]
-							200, -- [5]
-						}, -- [12]
+				},
+				["S P I T F I R E"] = {
+					["snapshot"] = {
+						["time"] = 1595204880,
+						["roster_info"] = {
+							{
+								"Agoni", -- [1]
+								"ROGUE", -- [2]
+								"", -- [3]
+							}, -- [1]
+							{
+								"Livingliquid", -- [1]
+								"MAGE", -- [2]
+								"", -- [3]
+							}, -- [2]
+							{
+								"Erodrenda", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [3]
+							{
+								"Jbstrong", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [4]
+							{
+								"Tivaro", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [5]
+							{
+								"Healyomama", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [6]
+							{
+								"Milfdad", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [7]
+							{
+								"Joeywheeler", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [8]
+							{
+								"Elcomedor", -- [1]
+								"SHAMAN", -- [2]
+								"", -- [3]
+							}, -- [9]
+							{
+								"Linzox", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [10]
+							{
+								"Darkslicer", -- [1]
+								"ROGUE", -- [2]
+								"", -- [3]
+							}, -- [11]
+							{
+								"Aiah", -- [1]
+								"HUNTER", -- [2]
+								"", -- [3]
+							}, -- [12]
+							{
+								"Freakypala", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [13]
+							{
+								"Synistrel", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
+							}, -- [14]
+							{
+								"Rockmybubble", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [15]
+							{
+								"Wishless", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [16]
+							{
+								"Petmight", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [17]
+							{
+								"Gyvulyz", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [18]
+							{
+								"Littleaiah", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [19]
+							{
+								"Frostengine", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [20]
+							{
+								"Freakycrov", -- [1]
+								"MAGE", -- [2]
+								"", -- [3]
+							}, -- [21]
+							{
+								"Manhoof", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [22]
+							{
+								"Bubblepriest", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
+							}, -- [23]
+							{
+								"Ahada", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [24]
+							{
+								"Sliceofcake", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [25]
+							{
+								"Trolltusks", -- [1]
+								"ROGUE", -- [2]
+								"", -- [3]
+							}, -- [26]
+							{
+								"Smokedbbq", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
+							}, -- [27]
+							{
+								"Slavanas", -- [1]
+								"MAGE", -- [2]
+								"", -- [3]
+							}, -- [28]
+							{
+								"Pinchofsalt", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [29]
+							{
+								"Bandidoo", -- [1]
+								"ROGUE", -- [2]
+								"", -- [3]
+							}, -- [30]
+							{
+								"Maximizer", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [31]
+							{
+								"Volkinos", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [32]
+							{
+								"Mornox", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [33]
+							{
+								"Wtfdruidd", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [34]
+							{
+								"Zandalor", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [35]
+							{
+								"Mococuro", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [36]
+							{
+								"Fierydingo", -- [1]
+								"MAGE", -- [2]
+								"", -- [3]
+							}, -- [37]
+							{
+								"Depredadorr", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
+							}, -- [38]
+							{
+								"Resingal", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [39]
+							{
+								"Thrallboi", -- [1]
+								"SHAMAN", -- [2]
+								"", -- [3]
+							}, -- [40]
+							{
+								"Graveyerd", -- [1]
+								"MAGE", -- [2]
+								"", -- [3]
+							}, -- [41]
+							{
+								"Soulmatic", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [42]
+							{
+								"Insanehpala", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [43]
+							{
+								"Miamiz", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
+							}, -- [44]
+							{
+								"Freakyhunt", -- [1]
+								"HUNTER", -- [2]
+								"", -- [3]
+							}, -- [45]
+							{
+								"Pudenda", -- [1]
+								"WARLOCK", -- [2]
+								"", -- [3]
+							}, -- [46]
+							{
+								"Pmsrampage", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [47]
+							{
+								"Plenki", -- [1]
+								"PALADIN", -- [2]
+								"", -- [3]
+							}, -- [48]
+							{
+								"Imbadylle", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [49]
+							{
+								"Bloodyrei", -- [1]
+								"WARLOCK", -- [2]
+								"", -- [3]
+							}, -- [50]
+							{
+								"Aksah", -- [1]
+								"HUNTER", -- [2]
+								"", -- [3]
+							}, -- [51]
+							{
+								"Menzis", -- [1]
+								"HUNTER", -- [2]
+								"", -- [3]
+							}, -- [52]
+							{
+								"Nattzaz", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [53]
+							{
+								"Epack", -- [1]
+								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [54]
+							{
+								"Altairy", -- [1]
+								"ROGUE", -- [2]
+								"", -- [3]
+							}, -- [55]
+							{
+								"Harmacist", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [56]
+							{
+								"Czast", -- [1]
+								"WARRIOR", -- [2]
+								"", -- [3]
+							}, -- [57]
+							{
+								"Jappaleno", -- [1]
+								"SHAMAN", -- [2]
+								"", -- [3]
+							}, -- [58]
+							{
+								"Freakydk", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [59]
+						},
 					},
 				},
 			},
@@ -1368,30 +1670,35 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["announce"] = {
+		["loot"] = {
 		},
 		["gptooltip"] = {
 		},
-		["loot"] = {
+		["announce"] = {
 		},
+	},
+	["profileKeys"] = {
+		["Insanehpala - Icecrown"] = "S P I T F I R E",
+		["Milkmycow - Icecrown"] = "invisible",
+		["Immutability - Icecrown"] = "Logic",
 	},
 	["global"] = {
 		["last_version"] = "5.5.19",
 	},
-	["profileKeys"] = {
-		["Milkmycow - Icecrown"] = "invisible",
-		["Immutability - Icecrown"] = "Logic",
-	},
 	["profiles"] = {
 		["invisible"] = {
+		},
+		["Immutability - Icecrown"] = {
+		},
+		["Logic"] = {
+		},
+		["Insanehpala - Icecrown"] = {
 		},
 		["Fade"] = {
 		},
 		["Milkmycow - Icecrown"] = {
 		},
-		["Logic"] = {
-		},
-		["Immutability - Icecrown"] = {
+		["S P I T F I R E"] = {
 		},
 	},
 }

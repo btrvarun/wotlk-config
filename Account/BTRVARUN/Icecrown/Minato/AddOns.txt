@@ -1,0 +1,17 @@
+ElvUI: enabled
+ElvUI_AddOnSkins: enabled
+ElvUI_CastBarOverlay: enabled
+ElvUI_CustomTags: enabled
+ElvUI_Enhanced: enabled
+ElvUI_FogofWar: disabled
+ElvUI_OptionsUI: enabled
+ElvUI_RaidMarkers: enabled
+ElvUI_VisualProcs: enabled
+ElvUI_SwingBar: enabled
+KkthnxUI_Config: disabled
+KkthnxUI: disabled
+PallyPower: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_VisualAuraTimers: disabled
+ElvUI_MinimapButtons: disabled
+ElvUI_ChannelAlerts: disabled

@@ -15,9 +15,10 @@ oRA3DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Circi - Icecrown"] = "Default",
 		["Fatpotato - Icecrown"] = "Default",
+		["Circi - Icecrown"] = "Default",
 		["Typhoonqt - Icecrown"] = "Default",
+		["Minakshi - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

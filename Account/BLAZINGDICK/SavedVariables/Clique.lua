@@ -3,16 +3,19 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Circi - Icecrown"] = "Circi - Icecrown",
 		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
+		["Circi - Icecrown"] = "Circi - Icecrown",
 		["Typhoonqt - Icecrown"] = "Typhoonqt - Icecrown",
+		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
 	},
 	["profiles"] = {
-		["Circi - Icecrown"] = {
-		},
 		["Fatpotato - Icecrown"] = {
 		},
+		["Circi - Icecrown"] = {
+		},
 		["Typhoonqt - Icecrown"] = {
+		},
+		["Minakshi - Icecrown"] = {
 		},
 	},
 }

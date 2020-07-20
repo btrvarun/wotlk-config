@@ -5,6 +5,7 @@ SexyCooldownDB = {
 	},
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Bowbaby - Icecrown",
+		["Minato - Icecrown"] = "Minato - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Bowbaby - Icecrown",
 		["Ingrate - Icecrown"] = "Bowbaby - Icecrown",
@@ -37,6 +38,27 @@ SexyCooldownDB = {
 				}, -- [1]
 			},
 		},
+		["Minato - Icecrown"] = {
+			["bars"] = {
+				{
+					["blacklist"] = {
+					},
+					["events"] = {
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
+					},
+				}, -- [1]
+			},
+		},
 		["Bowbaby - Icecrown"] = {
 			["bars"] = {
 				{
@@ -46,32 +68,32 @@ SexyCooldownDB = {
 						["outline"] = "OUTLINE",
 						["fontColor"] = {
 						},
-						["flexible"] = false,
+						["borderSize"] = 4,
 						["fontsize"] = 14,
-						["lock"] = true,
-						["inactiveAlpha"] = 1,
-						["backgroundColor"] = {
-							["a"] = 0.449999988079071,
-							["b"] = 0.4705882352941176,
-							["g"] = 0.4549019607843137,
-							["r"] = 0.4509803921568628,
-						},
-						["texture"] = "Armory",
 						["borderColor"] = {
 							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 0,
+							["b"] = 1,
+							["g"] = 0.5215686274509804,
+							["r"] = 0.3019607843137255,
 						},
+						["inactiveAlpha"] = 0,
+						["backgroundColor"] = {
+							["a"] = 1,
+							["b"] = 0.6784313725490196,
+							["g"] = 0.2705882352941176,
+							["r"] = 0.2,
+						},
+						["texture"] = "Armory",
+						["lock"] = true,
 						["width"] = 400.0000054709792,
-						["y"] = -312.9474570581136,
-						["font"] = "KkthnxUI_Normal",
+						["y"] = -472.7514668891896,
+						["font"] = "Arial Narrow",
 						["name"] = "Bar 0",
-						["orientation"] = "LEFT_TO_RIGHT",
 						["height"] = 30.00000041032344,
-						["x"] = -0.7518263325201815,
+						["orientation"] = "LEFT_TO_RIGHT",
+						["x"] = 0.8341798875727591,
 						["advancedOptions"] = true,
-						["borderSize"] = 4,
+						["flexible"] = false,
 					},
 					["eventColors"] = {
 					},

@@ -4,6 +4,7 @@ CliqueDB = {
 	},
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Impasse - Icecrown",
+		["Minato - Icecrown"] = "Minato - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
@@ -13,6 +14,8 @@ CliqueDB = {
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
+		},
+		["Minato - Icecrown"] = {
 		},
 		["Bowbaby - Icecrown"] = {
 			["clicksets"] = {

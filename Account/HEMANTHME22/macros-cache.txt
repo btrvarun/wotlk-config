@@ -2,6 +2,11 @@ MACRO 155 "abolish poison" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover,exists] Abolish Poison;Abolish Poison
 END
+MACRO 161 "alchemy" INV_Misc_QuestionMark
+#sdm
+/cast Alchemy
+/click [btn:5]sdh Button5;[btn:4]sdh Button4;[btn:3]sdh MiddleButton;[btn:2]sdh RightButton;sdh
+END
 MACRO 138 "bear form+cds" INV_Misc_QuestionMark
 #showtooltip dire bear form
 /cast  [nostance:1] Dire Bear Form
@@ -82,13 +87,13 @@ MACRO 134 "rake" INV_Misc_QuestionMark
 /startattack
 /cast rake
 END
-MACRO 157 "rebirth" INV_Misc_QuestionMark
-#showtooltip innervate
-/cast [target=Incompilable] Rebirth(Rank 7);Rebirth(Rank 7)
-END
 MACRO 158 "Rebirth" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover,exists] Rebirth(Rank 7);Rebirth(Rank 7)
+END
+MACRO 157 "rebirth" INV_Misc_QuestionMark
+#showtooltip innervate
+/cast [target=Incompilable] Rebirth(Rank 7);Rebirth(Rank 7)
 END
 MACRO 160 "regrowth" INV_Misc_QuestionMark
 #showtooltip

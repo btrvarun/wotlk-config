@@ -3,6 +3,7 @@ AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Impasse - Icecrown",
+		["Minato - Icecrown"] = "Minato - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
@@ -12,6 +13,9 @@ AtlasLootDB = {
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Minato - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Bowbaby - Icecrown"] = {
@@ -57,6 +61,13 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
+		["Minato"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
 		["Impasse"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
@@ -87,6 +98,8 @@ AtlasLootWishList = {
 		["Invariably"] = {
 		},
 		["Bowbaby"] = {
+		},
+		["Minato"] = {
 		},
 		["Impasse"] = {
 		},

@@ -2,6 +2,7 @@ MACRO 161 "ams" INV_Misc_QuestionMark
 #showtooltip
 /cancelaura power word: shield
 /cast Anti-Magic Shell
+ 
 END
 MACRO 155 "bear" INV_Misc_QuestionMark
 #showtooltip dire bear form
@@ -37,10 +38,6 @@ MACRO 163 "bs" INV_Misc_QuestionMark
 /startattack
 /cancelaura hand of protection
 END
-MACRO 173 "burst" Ability_BackStab
-/use Avenging Wrath
-/Use Mark of Supremacy
-END
 MACRO 141 "cancelaura" INV_Misc_QuestionMark
 /cancelaura  ice block
 END
@@ -50,6 +47,9 @@ MACRO 156 "cat" INV_Misc_QuestionMark
 END
 MACRO 131 "combatlog" Ability_Creature_Cursed_02
 /run local f = CreateFrame("frame" , nil, UIParent) f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 175 "cringe" INV_Misc_QuestionMark
+/raid  uWu , anemic <3<3<3  awwww <3 <3 <3
 END
 MACRO 160 "dash" INV_Misc_QuestionMark
 #showtooltip dash
@@ -69,16 +69,13 @@ MACRO 154 "dnd" INV_Misc_QuestionMark
 /cast Blood Tap
 /cast Death and Decay(Rank 4)
 END
-MACRO 126 "eb totemd" Ability_Warrior_ShieldWall
-/target earthbind totem
-END
 MACRO 136 "feral charge" INV_Misc_QuestionMark
 #showtooltip
 /startattack
 /cast feral charge - cat
 END
-MACRO 170 "focus" INV_Misc_QuestionMark
-/focus
+MACRO 176 "follow" Ability_Ambush
+/follow Teafreak
 END
 MACRO 153 "garg" INV_Misc_QuestionMark
 #showtooltip summon gargoyle
@@ -171,4 +168,7 @@ MACRO 148 "wrath" INV_Misc_QuestionMark
 #showtooltip
 /startattack
 /cast wrath
+END
+MACRO 174 "zoommax" INV_Misc_QuestionMark
+/console CameraDistanceMaxFactor 5
 END

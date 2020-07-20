@@ -1413,22 +1413,24 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["loot"] = {
+		["announce"] = {
 		},
 		["gptooltip"] = {
 		},
-		["announce"] = {
+		["loot"] = {
 		},
-	},
-	["profileKeys"] = {
-		["Flynnrider - Icecrown"] = "Logic",
-		["Lightarray - Icecrown"] = "Logic",
 	},
 	["global"] = {
 		["last_version"] = "5.5.19",
 	},
+	["profileKeys"] = {
+		["Flynnrider - Icecrown"] = "Logic",
+		["Lightarray - Icecrown"] = "Blessing",
+	},
 	["profiles"] = {
 		["Flynnrider - Icecrown"] = {
+		},
+		["Blessing"] = {
 		},
 		["Logic"] = {
 		},

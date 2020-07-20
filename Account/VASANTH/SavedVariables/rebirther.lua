@@ -1,6 +1,7 @@
 
 RebirtherDB = {
 	["profileKeys"] = {
+		["Insanehpala - Icecrown"] = "Default",
 		["Milkmycow - Icecrown"] = "Default",
 		["Immutability - Icecrown"] = "Default",
 	},

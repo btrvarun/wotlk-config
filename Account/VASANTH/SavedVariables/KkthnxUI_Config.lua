@@ -2,6 +2,7 @@
 GUIConfigAll = {
 	["Icecrown"] = {
 		["Immutability"] = false,
+		["Insanehpala"] = false,
 	},
 }
 GUIConfigSettings = {
@@ -37,21 +38,21 @@ GUIConfigSettings = {
 		["CLCRet"] = true,
 		["Skada"] = true,
 		["WorldMap"] = true,
-		["Spy"] = true,
-		["Recount"] = true,
 		["WeakAuras"] = true,
+		["Recount"] = true,
+		["Spy"] = true,
 		["DBM"] = true,
 	},
-	["Aura"] = {
-		["CastBy"] = true,
+	["PulseCD"] = {
+		["Enable"] = true,
+		["Sound"] = true,
 	},
 	["Misc"] = {
 		["DurabilityWarninig"] = true,
 		["BGSpam"] = true,
 		["SpeedyLoad"] = true,
 	},
-	["PulseCD"] = {
-		["Enable"] = true,
-		["Sound"] = true,
+	["Aura"] = {
+		["CastBy"] = true,
 	},
 }
