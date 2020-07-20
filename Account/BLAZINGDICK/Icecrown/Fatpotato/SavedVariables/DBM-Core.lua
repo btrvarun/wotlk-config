@@ -14,24 +14,24 @@ DBM_SavedOptions = {
 	["BlockVersionUpdatePopup"] = true,
 	["WarningColors"] = {
 		{
-			["r"] = 0.41,
+			["r"] = 0.4117647058823529,
 			["g"] = 0.8,
-			["b"] = 0.94,
+			["b"] = 0.9411764705882353,
 		}, -- [1]
 		{
-			["r"] = 0.95,
-			["g"] = 0.95,
+			["r"] = 0.9490196078431372,
+			["g"] = 0.9490196078431372,
 			["b"] = 0,
 		}, -- [2]
 		{
 			["r"] = 1,
-			["g"] = 0.5,
+			["g"] = 0.5019607843137255,
 			["b"] = 0,
 		}, -- [3]
 		{
 			["r"] = 1,
-			["g"] = 0.1,
-			["b"] = 0.1,
+			["g"] = 0.1019607843137255,
+			["b"] = 0.1019607843137255,
 		}, -- [4]
 	},
 	["RangeFrameY"] = -50,
@@ -50,7 +50,7 @@ DBM_SavedOptions = {
 	["HealthFrameLocked"] = false,
 	["SpecialWarningY"] = 75,
 	["RangeFrameSound2"] = "none",
-	["ShowMinimapButton"] = true,
+	["ShowMinimapButton"] = false,
 	["RaidWarningPosition"] = {
 		["Y"] = -185,
 		["X"] = 0,

@@ -1358,7 +1358,7 @@ EPGP_DB = {
 				},
 				["S P I T F I R E"] = {
 					["snapshot"] = {
-						["time"] = 1595204880,
+						["time"] = 1595227740,
 						["roster_info"] = {
 							{
 								"Agoni", -- [1]
@@ -1371,8 +1371,8 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [2]
 							{
-								"Erodrenda", -- [1]
-								"DEATHKNIGHT", -- [2]
+								"Insanehpala", -- [1]
+								"PALADIN", -- [2]
 								"", -- [3]
 							}, -- [3]
 							{
@@ -1451,12 +1451,12 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [18]
 							{
-								"Littleaiah", -- [1]
-								"DEATHKNIGHT", -- [2]
+								"Soulmatic", -- [1]
+								"DRUID", -- [2]
 								"", -- [3]
 							}, -- [19]
 							{
-								"Frostengine", -- [1]
+								"Erodrenda", -- [1]
 								"DEATHKNIGHT", -- [2]
 								"", -- [3]
 							}, -- [20]
@@ -1506,12 +1506,12 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [29]
 							{
-								"Bandidoo", -- [1]
-								"ROGUE", -- [2]
+								"Jappaleno", -- [1]
+								"SHAMAN", -- [2]
 								"", -- [3]
 							}, -- [30]
 							{
-								"Maximizer", -- [1]
+								"Harmacist", -- [1]
 								"WARRIOR", -- [2]
 								"", -- [3]
 							}, -- [31]
@@ -1566,13 +1566,13 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [41]
 							{
-								"Soulmatic", -- [1]
-								"DRUID", -- [2]
+								"Pudenda", -- [1]
+								"WARLOCK", -- [2]
 								"", -- [3]
 							}, -- [42]
 							{
-								"Insanehpala", -- [1]
-								"PALADIN", -- [2]
+								"Bandidoo", -- [1]
+								"ROGUE", -- [2]
 								"", -- [3]
 							}, -- [43]
 							{
@@ -1586,18 +1586,18 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [45]
 							{
-								"Pudenda", -- [1]
-								"WARLOCK", -- [2]
+								"Pmsrampage", -- [1]
+								"PALADIN", -- [2]
 								"", -- [3]
 							}, -- [46]
 							{
-								"Pmsrampage", -- [1]
+								"Plenki", -- [1]
 								"PALADIN", -- [2]
 								"", -- [3]
 							}, -- [47]
 							{
-								"Plenki", -- [1]
-								"PALADIN", -- [2]
+								"Nattzaz", -- [1]
+								"WARRIOR", -- [2]
 								"", -- [3]
 							}, -- [48]
 							{
@@ -1621,7 +1621,7 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [52]
 							{
-								"Nattzaz", -- [1]
+								"Maximizer", -- [1]
 								"WARRIOR", -- [2]
 								"", -- [3]
 							}, -- [53]
@@ -1636,18 +1636,18 @@ EPGP_DB = {
 								"", -- [3]
 							}, -- [55]
 							{
-								"Harmacist", -- [1]
+								"Czast", -- [1]
 								"WARRIOR", -- [2]
 								"", -- [3]
 							}, -- [56]
 							{
-								"Czast", -- [1]
-								"WARRIOR", -- [2]
+								"Littleaiah", -- [1]
+								"DEATHKNIGHT", -- [2]
 								"", -- [3]
 							}, -- [57]
 							{
-								"Jappaleno", -- [1]
-								"SHAMAN", -- [2]
+								"Frostengine", -- [1]
+								"DEATHKNIGHT", -- [2]
 								"", -- [3]
 							}, -- [58]
 							{

@@ -30,10 +30,10 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 147.0000103264731,
-					["x"] = 454.9998902384807,
-					["w"] = 139.9999931612761,
-					["h"] = 199.9999852283563,
+					["y"] = -402.9998768345818,
+					["x"] = 821.4996810077215,
+					["w"] = 264.9999970593487,
+					["h"] = 215.9999994529021,
 				},
 			},
 			["Colors"] = {
@@ -41,12 +41,18 @@ RecountDB = {
 					["Bar Text"] = {
 						["a"] = 1,
 					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
 				},
 			},
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
+			["Locked"] = true,
+			["ClampToScreen"] = true,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["FrameStrata"] = "2-LOW",
 		},
 		["Circi - Icecrown"] = {
 			["GraphWindowY"] = 0,

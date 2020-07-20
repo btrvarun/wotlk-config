@@ -1413,9 +1413,9 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["announce"] = {
-		},
 		["gptooltip"] = {
+		},
+		["announce"] = {
 		},
 		["loot"] = {
 		},
@@ -1424,8 +1424,9 @@ EPGP_DB = {
 		["last_version"] = "5.5.19",
 	},
 	["profileKeys"] = {
-		["Flynnrider - Icecrown"] = "Logic",
+		["Flynnrider - Icecrown"] = "Blessing",
 		["Lightarray - Icecrown"] = "Blessing",
+		["Rapunzzel - Icecrown"] = "Rapunzzel - Icecrown",
 	},
 	["profiles"] = {
 		["Flynnrider - Icecrown"] = {

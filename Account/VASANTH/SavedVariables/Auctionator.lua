@@ -155,8 +155,8 @@ AUCTIONATOR_TOONS = {
 	},
 	["Insanehpala"] = {
 		["firstSeen"] = 1595188243,
-		["guid"] = "0x0700000000010EF2",
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x0700000000010EF2",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

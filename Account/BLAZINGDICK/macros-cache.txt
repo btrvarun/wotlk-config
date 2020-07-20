@@ -4,6 +4,11 @@ MACRO 161 "ams" INV_Misc_QuestionMark
 /cast Anti-Magic Shell
  
 END
+MACRO 178 "barkskin" INV_Misc_QuestionMark
+#showtooltip
+/cast barkskin
+/cast Nature's Grasp
+END
 MACRO 155 "bear" INV_Misc_QuestionMark
 #showtooltip dire bear form
 /cast  [nostance:1] Dire Bear Form
@@ -16,20 +21,10 @@ MACRO 138 "bear form+cds" INV_Misc_QuestionMark
 /cast enrage
 /cast Frenzied Regeneration
 END
-MACRO 132 "berserk" INV_Misc_QuestionMark
-#showtooltip berserk
-/castsequence reset=120  Idol of the Crying Moon, berserk
-END
 MACRO 166 "bp" INV_Misc_QuestionMark
 #showtooltip blood presence
 /use blood tap
 /use blood presence
-END
-MACRO 167 "bs" INV_Misc_QuestionMark
-#showtooltip bone shield
-/use rune tap
-/use bone shield
-/cancelaura hand of protection
 END
 MACRO 163 "bs" INV_Misc_QuestionMark
 #showtooltip
@@ -38,8 +33,17 @@ MACRO 163 "bs" INV_Misc_QuestionMark
 /startattack
 /cancelaura hand of protection
 END
+MACRO 167 "bs" INV_Misc_QuestionMark
+#showtooltip bone shield
+/use rune tap
+/use bone shield
+/cancelaura hand of protection
+END
 MACRO 141 "cancelaura" INV_Misc_QuestionMark
 /cancelaura  ice block
+END
+MACRO 133 "cancelform" Ability_CheapShot
+/cancelform
 END
 MACRO 156 "cat" INV_Misc_QuestionMark
 #showtooltip cat form
@@ -87,6 +91,12 @@ END
 MACRO 172 "hlight" Spell_Holy_HolyBolt
 /use [@mouseover,help,nodead][help,nodead][@player]Holy light
 END
+MACRO 177 "hurricane" INV_Misc_QuestionMark
+#showtooltip hurricane
+/use 10
+/startattack
+/cast hurricane
+END
 MACRO 150 "innervate" INV_Misc_QuestionMark
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Innervate
@@ -101,14 +111,6 @@ END
 MACRO 143 "lb" INV_Misc_QuestionMark
 #showtooltip
 /use [@mouseover,help,nodead][help,nodead][@player] Lifebloom(Rank 3)
-END
-MACRO 133 "mangle" INV_Misc_QuestionMark
-#showtooltip
-/startattack
-/cast mangle (cat)
-END
-MACRO 130 "maxcameradist" INV_Misc_QuestionMark
-/script SetCVar("cameraDistanceMax",30) 
 END
 MACRO 146 "moonfire" INV_Misc_QuestionMark
 #showtooltip
@@ -148,10 +150,10 @@ MACRO 162 "ss" INV_Misc_QuestionMark
 /cast Blood Fury(Racial)
 END
 MACRO 149 "starfire" INV_Misc_QuestionMark
-#showtooltip
+#showtooltip starfire
 /startattack
+/use 10
 /cast starfire
-/use Gunship Captain's Mittens
 END
 MACRO 159 "travel" INV_Misc_QuestionMark
 #showtooltip travel form
@@ -168,7 +170,4 @@ MACRO 148 "wrath" INV_Misc_QuestionMark
 #showtooltip
 /startattack
 /cast wrath
-END
-MACRO 174 "zoommax" INV_Misc_QuestionMark
-/console CameraDistanceMaxFactor 5
 END

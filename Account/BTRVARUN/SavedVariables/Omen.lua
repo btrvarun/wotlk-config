@@ -2,13 +2,13 @@
 Omen3DB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Bowbaby - Icecrown",
-		["Minato - Icecrown"] = "Minato - Icecrown",
+		["Invariably - Icecrown"] = "Bowbaby - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Bowbaby - Icecrown",
 		["Ingrate - Icecrown"] = "Bowbaby - Icecrown",
 		["Garzh - Icecrown"] = "Bowbaby - Icecrown",
-		["Invariably - Icecrown"] = "Bowbaby - Icecrown",
 		["Bowbaby - Unlimited WoW"] = "Icecrown",
+		["Minato - Icecrown"] = "Minato - Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
@@ -26,8 +26,8 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["EdgeSize"] = 1,
 				["BarInset"] = 1,
+				["EdgeSize"] = 1,
 			},
 			["TitleBar"] = {
 				["Height"] = 22,
@@ -35,15 +35,44 @@ Omen3DB = {
 				["Font"] = "ABF",
 			},
 			["Bar"] = {
-				["Spacing"] = 1,
+				["Texture"] = "Armory",
 				["Font"] = "Ubuntu",
 				["FontSize"] = 14,
-				["Texture"] = "Armory",
+				["Spacing"] = 1,
 			},
 		},
-		["Minato - Icecrown"] = {
-			["PositionX"] = 849.0024770542005,
-			["PositionY"] = 615.8450667941587,
+		["Invariably - Icecrown"] = {
+			["MinimapIcon"] = {
+				["hide"] = true,
+			},
+			["PositionW"] = 245.9999954864422,
+			["ShowWith"] = {
+				["Alone"] = true,
+				["UseShowWith"] = false,
+			},
+			["VGrip1"] = 103.5148777228825,
+			["FrameStrata"] = "2-LOW",
+			["PositionH"] = 130.0000499226848,
+			["VGrip2"] = 140.0495404486057,
+			["PositionY"] = 370.9995091847824,
+			["PositionX"] = 1568.999650746368,
+			["TitleBar"] = {
+				["Height"] = 22,
+				["FontSize"] = 14,
+				["Font"] = "PT Sans Narrow",
+			},
+			["Locked"] = true,
+			["Background"] = {
+				["BarInset"] = 1,
+				["EdgeSize"] = 1,
+			},
+			["Shown"] = true,
+			["Bar"] = {
+				["Spacing"] = 1,
+				["FontSize"] = 14,
+				["Font"] = "PT Sans Narrow",
+				["Texture"] = "Armory",
+			},
 		},
 		["Bowbaby - Icecrown"] = {
 			["PositionW"] = 204.9358763629833,
@@ -65,12 +94,12 @@ Omen3DB = {
 			},
 			["FrameStrata"] = "2-LOW",
 			["VGrip1"] = 86.23544150778908,
-			["PositionX"] = 1448.811920114677,
 			["TitleBar"] = {
 				["FontSize"] = 14,
 				["Font"] = "Arial Narrow",
 				["Height"] = 22,
 			},
+			["PositionX"] = 1448.811920114677,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["Spacing"] = 1,
@@ -92,8 +121,8 @@ Omen3DB = {
 			["Shown"] = true,
 			["Locked"] = true,
 			["Background"] = {
-				["BarInset"] = 1,
 				["EdgeSize"] = 1,
+				["BarInset"] = 1,
 			},
 			["TitleBar"] = {
 				["Height"] = 22,
@@ -121,56 +150,27 @@ Omen3DB = {
 				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
 			},
-			["VGrip1"] = 103.5148777228825,
+			["PositionX"] = 1568.999650746368,
 			["Locked"] = true,
 			["Background"] = {
-				["EdgeSize"] = 1,
 				["BarInset"] = 1,
+				["EdgeSize"] = 1,
 			},
-			["PositionX"] = 1568.999650746368,
-			["Bar"] = {
-				["Spacing"] = 1,
-				["Font"] = "PT Sans Narrow",
-				["FontSize"] = 14,
-				["Texture"] = "Armory",
-			},
-		},
-		["Invariably - Icecrown"] = {
-			["MinimapIcon"] = {
-				["hide"] = true,
-			},
-			["PositionW"] = 245.9999954864422,
-			["ShowWith"] = {
-				["Alone"] = true,
-				["UseShowWith"] = false,
-			},
-			["PositionH"] = 130.0000499226848,
-			["FrameStrata"] = "2-LOW",
 			["VGrip1"] = 103.5148777228825,
-			["VGrip2"] = 140.0495404486057,
-			["PositionY"] = 370.9995091847824,
-			["PositionX"] = 1568.999650746368,
-			["Shown"] = true,
-			["Locked"] = true,
-			["Background"] = {
-				["EdgeSize"] = 1,
-				["BarInset"] = 1,
-			},
-			["TitleBar"] = {
-				["Height"] = 22,
-				["FontSize"] = 14,
-				["Font"] = "PT Sans Narrow",
-			},
 			["Bar"] = {
 				["Texture"] = "Armory",
-				["FontSize"] = 14,
 				["Font"] = "PT Sans Narrow",
+				["FontSize"] = 14,
 				["Spacing"] = 1,
 			},
 		},
 		["Bowbaby - Unlimited WoW"] = {
 			["PositionX"] = 847.5000148742246,
 			["PositionY"] = 614.9999624554056,
+		},
+		["Minato - Icecrown"] = {
+			["PositionX"] = 849.0024770542005,
+			["PositionY"] = 615.8450667941587,
 		},
 	},
 }

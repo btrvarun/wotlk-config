@@ -27,7 +27,7 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["Font"] = "KkUI Normal",
+			["DetailWindowY"] = 0,
 			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
@@ -36,11 +36,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
 			["Locked"] = true,
 			["ClampToScreen"] = true,
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 0,
+			["Font"] = "KkUI Normal",
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = -52.00000246194062,
@@ -60,8 +60,8 @@ RecountDB = {
 			["DetailWindowX"] = 4,
 			["LastInstanceName"] = "Gundrak",
 			["FrameStrata"] = "2-LOW",
-			["GraphWindowX"] = 77.00001374583513,
 			["CurDataSet"] = "LastFightData",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -76,7 +76,7 @@ RecountDB = {
 			["Locked"] = true,
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
-			["ClampToScreen"] = true,
+			["GraphWindowX"] = 77.00001374583513,
 		},
 		["Ingrate - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -98,8 +98,8 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -146,17 +146,17 @@ RecountDB = {
 					["NumFormat"] = 3,
 				},
 				["Position"] = {
-					["y"] = -403.642443336556,
-					["x"] = 823.2926915719772,
+					["y"] = -403.6424586552976,
+					["x"] = 823.2925515149108,
 					["w"] = 264.410006667072,
-					["h"] = 216.3239339403886,
+					["h"] = 216.3239164332553,
 				},
 			},
 			["DetailWindowX"] = 76.00000629162604,
 			["LastInstanceName"] = "Icecrown Citadel",
 			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
 			["CurDataSet"] = "LastFightData",
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -189,9 +189,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 	},
 }

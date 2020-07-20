@@ -2,6 +2,7 @@
 SexyCooldownDB = {
 	["profileKeys"] = {
 		["Flynnrider - Icecrown"] = "Flynnrider - Icecrown",
+		["Rapunzzel - Icecrown"] = "Rapunzzel - Icecrown",
 		["Lightarray - Icecrown"] = "Lightarray - Icecrown",
 		["Herbivore - Icecrown"] = "Herbivore - Icecrown",
 	},
@@ -23,6 +24,27 @@ SexyCooldownDB = {
 						},
 						["borderColor"] = {
 						},
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
+					},
+				}, -- [1]
+			},
+		},
+		["Rapunzzel - Icecrown"] = {
+			["bars"] = {
+				{
+					["blacklist"] = {
+					},
+					["events"] = {
 					},
 					["bar"] = {
 						["fontColor"] = {

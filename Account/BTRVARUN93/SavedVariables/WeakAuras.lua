@@ -160,21 +160,21 @@ WeakAurasSaved = {
 				["name"] = "Juggernaut",
 				["icon"] = "Interface\\Icons\\Ability_Warrior_BullRush",
 			},
-			[3.05] = {
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Spell_Nature_MirrorImage",
+			[1.27] = {
+				["name"] = "Sudden Death",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ImprovedDisciplines",
 			},
 			[3.02] = {
 				["name"] = "Shield Specialization",
 				["icon"] = "Interface\\Icons\\INV_Shield_06",
 			},
-			[1.27] = {
-				["name"] = "Sudden Death",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_ImprovedDisciplines",
+			[2.1] = {
+				["name"] = "Dual Wield Specialization",
+				["icon"] = "Interface\\Icons\\Ability_DualWield",
 			},
-			[2.03] = {
-				["name"] = "Cruelty",
-				["icon"] = "Interface\\Icons\\Ability_Rogue_Eviscerate",
+			[2.17] = {
+				["name"] = "Flurry",
+				["icon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
 			},
 			[2.11] = {
 				["name"] = "Improved Execute",
@@ -192,45 +192,41 @@ WeakAurasSaved = {
 				["name"] = "Toughness",
 				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
 			},
-			[2.1] = {
-				["name"] = "Dual Wield Specialization",
-				["icon"] = "Interface\\Icons\\Ability_DualWield",
+			[3.11] = {
+				["name"] = "Improved Disarm",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_Disarm",
 			},
 			[1.06] = {
 				["name"] = "Tactical Mastery",
 				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
 			},
-			[2.17] = {
-				["name"] = "Flurry",
-				["icon"] = "Interface\\Icons\\Ability_GhoulFrenzy",
+			[3.13] = {
+				["name"] = "Improved Disciplines",
+				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldWall",
 			},
 			[2.18] = {
 				["name"] = "Intensify Rage",
 				["icon"] = "Interface\\Icons\\Ability_Warrior_EndlessRage",
 			},
-			[1.2] = {
-				["name"] = "Second Wind",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Harass",
+			[2.02] = {
+				["name"] = "Booming Voice",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Purge",
 			},
 			[2.05] = {
 				["name"] = "Unbridled Wrath",
 				["icon"] = "Interface\\Icons\\Spell_Nature_StoneClawTotem",
 			},
-			[3.11] = {
-				["name"] = "Improved Disarm",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_Disarm",
+			[3.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MirrorImage",
 			},
-			[3.13] = {
-				["name"] = "Improved Disciplines",
-				["icon"] = "Interface\\Icons\\Ability_Warrior_ShieldWall",
+			[1.2] = {
+				["name"] = "Second Wind",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Harass",
 			},
 			[1.16] = {
 				["name"] = "Sword Specialization",
 				["icon"] = "Interface\\Icons\\INV_Sword_27",
-			},
-			[2.02] = {
-				["name"] = "Booming Voice",
-				["icon"] = "Interface\\Icons\\Spell_Nature_Purge",
 			},
 			[2.09] = {
 				["name"] = "Commanding Presence",
@@ -243,6 +239,10 @@ WeakAurasSaved = {
 			[1.31] = {
 				["name"] = "Bladestorm",
 				["icon"] = "Interface\\Icons\\Ability_Warrior_Bladestorm",
+			},
+			[2.03] = {
+				["name"] = "Cruelty",
+				["icon"] = "Interface\\Icons\\Ability_Rogue_Eviscerate",
 			},
 			[2.26] = {
 				["name"] = "Unending Fury",
@@ -272,13 +272,13 @@ WeakAurasSaved = {
 				["name"] = "Armored to the Teeth",
 				["icon"] = "Interface\\Icons\\INV_Shoulder_22",
 			},
-			[3.26] = {
-				["name"] = "Damage Shield",
-				["icon"] = "Interface\\Icons\\INV_Shield_31",
-			},
 			[3.18] = {
 				["name"] = "Vigilance",
 				["icon"] = "Interface\\Icons\\Ability_Warrior_Vigilance",
+			},
+			[3.26] = {
+				["name"] = "Damage Shield",
+				["icon"] = "Interface\\Icons\\INV_Shield_31",
 			},
 			[1.15] = {
 				["name"] = "Mace Specialization",
@@ -352,6 +352,350 @@ WeakAurasSaved = {
 		["SHAMAN"] = {
 		},
 		["MAGE"] = {
+			[2.2] = {
+				["name"] = "Combustion",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SealOfFire",
+			},
+			[2.16] = {
+				["name"] = "Blast Wave",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Excorcism_02",
+			},
+			[1.04] = {
+				["name"] = "Arcane Fortitude",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcaneResilience",
+			},
+			[3.06] = {
+				["name"] = "Precision",
+				["icon"] = "Interface\\Icons\\Spell_Ice_MagicDamage",
+			},
+			[2.1] = {
+				["name"] = "Burning Soul",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fire",
+			},
+			[1.29] = {
+				["name"] = "Spell Power",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcaneTorrent",
+			},
+			[1.25] = {
+				["name"] = "Mind Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
+			},
+			[3.23] = {
+				["name"] = "Fingers of Frost",
+				["icon"] = "Interface\\Icons\\Ability_Mage_WintersGrasp",
+			},
+			[2.12] = {
+				["name"] = "Molten Shields",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FireArmor",
+			},
+			[2.08] = {
+				["name"] = "Impact",
+				["icon"] = "Interface\\Icons\\Spell_Fire_MeteorStorm",
+			},
+			[1.23] = {
+				["name"] = "Incanter's Absorption",
+				["icon"] = "Interface\\Icons\\Ability_Mage_IncantersAbsorbtion",
+			},
+			[2.06] = {
+				["name"] = "World in Flames",
+				["icon"] = "Interface\\Icons\\Ability_Mage_WorldInFlames",
+			},
+			[1.21] = {
+				["name"] = "Arcane Empowerment",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			},
+			[3.15] = {
+				["name"] = "Improved Cone of Cold",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Glacier",
+			},
+			[3.07] = {
+				["name"] = "Permafrost",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Wisp",
+			},
+			[2.27] = {
+				["name"] = "Burnout",
+				["icon"] = "Interface\\Icons\\Ability_Mage_Burnout",
+			},
+			[1.19] = {
+				["name"] = "Arcane Instability",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Teleport",
+			},
+			[3.03] = {
+				["name"] = "Ice Floes",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceFloes",
+			},
+			[3.28] = {
+				["name"] = "Deep Freeze",
+				["icon"] = "Interface\\Icons\\Ability_Mage_DeepFreeze",
+			},
+			[3.2] = {
+				["name"] = "Ice Barrier",
+				["icon"] = "Interface\\Icons\\Spell_Ice_Lament",
+			},
+			[2.25] = {
+				["name"] = "Dragon's Breath",
+				["icon"] = "Interface\\Icons\\INV_Misc_Head_Dragon_01",
+			},
+			[1.09] = {
+				["name"] = "Student of the Mind",
+				["icon"] = "Interface\\Icons\\Ability_Mage_StudentOfTheMind",
+			},
+			[3.24] = {
+				["name"] = "Brain Freeze",
+				["icon"] = "Interface\\Icons\\Ability_Mage_BrainFreeze",
+			},
+			[3.16] = {
+				["name"] = "Frozen Core",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrozenCore",
+			},
+			[2.23] = {
+				["name"] = "Empowered Fire",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
+			},
+			[1.11] = {
+				["name"] = "Arcane Shielding",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DetectLesserInvisibility",
+			},
+			[1.07] = {
+				["name"] = "Magic Attunement",
+				["icon"] = "Interface\\Icons\\Spell_Nature_AbolishMagic",
+			},
+			[3.04] = {
+				["name"] = "Ice Shards",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceShard",
+			},
+			[2.21] = {
+				["name"] = "Molten Fury",
+				["icon"] = "Interface\\Icons\\Spell_Fire_MoltenBlood",
+			},
+			[1.01] = {
+				["name"] = "Arcane Subtlety",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DispelMagic",
+			},
+			[3.08] = {
+				["name"] = "Piercing Ice",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Frostbolt",
+			},
+			[2.19] = {
+				["name"] = "Pyromaniac",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Burnout",
+			},
+			[2.15] = {
+				["name"] = "Critical Mass",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispHeal",
+			},
+			[1.26] = {
+				["name"] = "Slow",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Slow",
+			},
+			[1.03] = {
+				["name"] = "Arcane Stability",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			},
+			[3.25] = {
+				["name"] = "Summon Water Elemental",
+				["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_2",
+			},
+			[2.13] = {
+				["name"] = "Master of Elements",
+				["icon"] = "Interface\\Icons\\Spell_Fire_MasterOfElements",
+			},
+			[1.28] = {
+				["name"] = "Netherwind Presence",
+				["icon"] = "Interface\\Icons\\Ability_Mage_NetherWindPresence",
+			},
+			[1.24] = {
+				["name"] = "Arcane Flows",
+				["icon"] = "Interface\\Icons\\Ability_Mage_PotentSpirit",
+			},
+			[3.27] = {
+				["name"] = "Chilled to the Bone",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ChilledToTheBone",
+			},
+			[3.26] = {
+				["name"] = "Enduring Winter",
+				["icon"] = "Interface\\Icons\\Spell_Frost_SummonWaterElemental_2",
+			},
+			[2.14] = {
+				["name"] = "Playing with Fire",
+				["icon"] = "Interface\\Icons\\Spell_Fire_PlayingWithFire",
+			},
+			[3.21] = {
+				["name"] = "Arctic Winds",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ArcticWinds",
+			},
+			[2.11] = {
+				["name"] = "Improved Scorch",
+				["icon"] = "Interface\\Icons\\Spell_Fire_SoulBurn",
+			},
+			[2.07] = {
+				["name"] = "Flame Throwing",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Flare",
+			},
+			[1.18] = {
+				["name"] = "Prismatic Cloak",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_PrismaticCloak",
+			},
+			[3.09] = {
+				["name"] = "Icy Veins",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ColdHearted",
+			},
+			[3.19] = {
+				["name"] = "Shattered Barrier",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ShatterShield",
+			},
+			[2.01] = {
+				["name"] = "Improved Fire Blast",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			},
+			[3.17] = {
+				["name"] = "Cold as Ice",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ColdAsIce",
+			},
+			[1.17] = {
+				["name"] = "Arcane Mind",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Charm",
+			},
+			[3.13] = {
+				["name"] = "Shatter",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostShock",
+			},
+			[2.05] = {
+				["name"] = "Burning Determination",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			},
+			[3.12] = {
+				["name"] = "Frost Channeling",
+				["icon"] = "Interface\\Icons\\Spell_Frost_Stun",
+			},
+			[1.2] = {
+				["name"] = "Arcane Potency",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_ArcanePotency",
+			},
+			[1.16] = {
+				["name"] = "Presence of Mind",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
+			},
+			[3.11] = {
+				["name"] = "Arctic Reach",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
+			},
+			[3.1] = {
+				["name"] = "Improved Blizzard",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceStorm",
+			},
+			[1.13] = {
+				["name"] = "Arcane Meditation",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+			},
+			[1.05] = {
+				["name"] = "Magic Absorption",
+				["icon"] = "Interface\\Icons\\Spell_Nature_AstralRecalGroup",
+			},
+			[2.26] = {
+				["name"] = "Hot Streak",
+				["icon"] = "Interface\\Icons\\Ability_Mage_HotStreak",
+			},
+			[2.04] = {
+				["name"] = "Ignite",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Incinerate",
+			},
+			[1.14] = {
+				["name"] = "Torment the Weak",
+				["icon"] = "Interface\\Icons\\Ability_Mage_TormentOfTheWeak",
+			},
+			[1.1] = {
+				["name"] = "Focus Magic",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_StudentOfMagic",
+			},
+			[1.22] = {
+				["name"] = "Arcane Power",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Lightning",
+			},
+			[1.15] = {
+				["name"] = "Improved Blink",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Blink",
+			},
+			[1.3] = {
+				["name"] = "Arcane Barrage",
+				["icon"] = "Interface\\Icons\\Ability_Mage_ArcaneBarrage",
+			},
+			[3.18] = {
+				["name"] = "Winter's Chill",
+				["icon"] = "Interface\\Icons\\Spell_Frost_ChillingBlast",
+			},
+			[2.28] = {
+				["name"] = "Living Bomb",
+				["icon"] = "Interface\\Icons\\Ability_Mage_LivingBomb",
+			},
+			[3.01] = {
+				["name"] = "Frostbite",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostArmor",
+			},
+			[2.24] = {
+				["name"] = "Firestarter",
+				["icon"] = "Interface\\Icons\\Ability_Mage_FireStarter",
+			},
+			[1.12] = {
+				["name"] = "Improved Counterspell",
+				["icon"] = "Interface\\Icons\\Spell_Frost_IceShock",
+			},
+			[1.08] = {
+				["name"] = "Spell Impact",
+				["icon"] = "Interface\\Icons\\Spell_Nature_WispSplode",
+			},
+			[1.02] = {
+				["name"] = "Arcane Focus",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
+			},
+			[2.09] = {
+				["name"] = "Pyroblast",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball02",
+			},
+			[2.02] = {
+				["name"] = "Incineration",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameShock",
+			},
+			[3.22] = {
+				["name"] = "Empowered Frostbolt",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
+			},
+			[3.14] = {
+				["name"] = "Cold Snap",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WizardMark",
+			},
+			[2.18] = {
+				["name"] = "Fire Power",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
+			},
+			[2.17] = {
+				["name"] = "Blazing Speed",
+				["icon"] = "Interface\\Icons\\Spell_Fire_BurningSpeed",
+			},
+			[1.06] = {
+				["name"] = "Arcane Concentration",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaBurn",
+			},
+			[2.22] = {
+				["name"] = "Fiery Payback",
+				["icon"] = "Interface\\Icons\\Ability_Mage_FieryPayback",
+			},
+			[2.03] = {
+				["name"] = "Improved Fireball",
+				["icon"] = "Interface\\Icons\\Spell_Fire_FlameBolt",
+			},
+			[1.27] = {
+				["name"] = "Missile Barrage",
+				["icon"] = "Interface\\Icons\\Ability_Mage_MissileBarrage",
+			},
+			[3.02] = {
+				["name"] = "Improved Frostbolt",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostBolt02",
+			},
+			[3.05] = {
+				["name"] = "Frost Warding",
+				["icon"] = "Interface\\Icons\\Spell_Frost_FrostWard",
+			},
 		},
 		["PRIEST"] = {
 		},
@@ -552,9 +896,9 @@ WeakAurasSaved = {
 				["name"] = "Genesis",
 				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
 			},
-			[2.01] = {
-				["name"] = "Ferocity",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			[2.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
 			},
 			[2.18] = {
 				["name"] = "Survival of the Fittest",
@@ -564,9 +908,9 @@ WeakAurasSaved = {
 				["name"] = "Improved Faerie Fire",
 				["icon"] = "Interface\\Icons\\Spell_Nature_FaerieFire",
 			},
-			[2.05] = {
-				["name"] = "Thick Hide",
-				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			[2.01] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
 			},
 			[1.16] = {
 				["name"] = "Moonfury",
@@ -912,29 +1256,29 @@ WeakAurasSaved = {
 				["name"] = "Rime",
 				["icon"] = "Interface\\Icons\\Spell_Frost_FreezingBreath",
 			},
-			[3.13] = {
-				["name"] = "Night of the Dead",
-				["icon"] = "Interface\\Icons\\Spell_DeathKnight_ArmyOfTheDead",
-			},
-			[1.16] = {
-				["name"] = "Bloody Vengeance",
-				["icon"] = "Interface\\Icons\\Ability_BackStab",
-			},
 			[2.05] = {
 				["name"] = "Black Ice",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
 			},
-			[3.11] = {
-				["name"] = "On a Pale Horse",
-				["icon"] = "Interface\\Icons\\Spell_DeathKnight_SummonDeathCharger",
+			[2.09] = {
+				["name"] = "Annihilation",
+				["icon"] = "Interface\\Icons\\INV_Weapon_Hand_18",
+			},
+			[2.01] = {
+				["name"] = "Improved Icy Touch",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_IceTouch",
+			},
+			[3.05] = {
+				["name"] = "Morbidity",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathAndDecay",
 			},
 			[1.2] = {
 				["name"] = "Improved Blood Presence",
 				["icon"] = "Interface\\Icons\\Spell_Deathknight_BloodPresence",
 			},
-			[3.05] = {
-				["name"] = "Morbidity",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathAndDecay",
+			[1.16] = {
+				["name"] = "Bloody Vengeance",
+				["icon"] = "Interface\\Icons\\Ability_BackStab",
 			},
 			[3.27] = {
 				["name"] = "Wandering Plague",
@@ -944,17 +1288,17 @@ WeakAurasSaved = {
 				["name"] = "Scent of Blood",
 				["icon"] = "Interface\\Icons\\Ability_Rogue_BloodyEye",
 			},
-			[2.21] = {
-				["name"] = "Improved Frost Presence",
-				["icon"] = "Interface\\Icons\\Spell_Deathknight_FrostPresence",
+			[2.03] = {
+				["name"] = "Toughness",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
 			},
 			[3.3] = {
 				["name"] = "Rage of Rivendare",
 				["icon"] = "Interface\\Icons\\INV_Weapon_Halberd14",
 			},
-			[2.03] = {
-				["name"] = "Toughness",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Devotion",
+			[2.26] = {
+				["name"] = "Frost Strike",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_EmpowerRuneBlade2",
 			},
 			[3.01] = {
 				["name"] = "Vicious Strikes",
@@ -1004,17 +1348,17 @@ WeakAurasSaved = {
 				["name"] = "Dark Conviction",
 				["icon"] = "Interface\\Icons\\Spell_DeathKnight_DarkConviction",
 			},
-			[2.26] = {
-				["name"] = "Frost Strike",
-				["icon"] = "Interface\\Icons\\Spell_DeathKnight_EmpowerRuneBlade2",
+			[2.21] = {
+				["name"] = "Improved Frost Presence",
+				["icon"] = "Interface\\Icons\\Spell_Deathknight_FrostPresence",
 			},
 			[3.17] = {
 				["name"] = "Desecration",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_Shadowfiend",
 			},
-			[2.09] = {
-				["name"] = "Annihilation",
-				["icon"] = "Interface\\Icons\\INV_Weapon_Hand_18",
+			[3.13] = {
+				["name"] = "Night of the Dead",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_ArmyOfTheDead",
 			},
 			[3.22] = {
 				["name"] = "Anti-Magic Zone",
@@ -1028,17 +1372,17 @@ WeakAurasSaved = {
 				["name"] = "Threat of Thassarian",
 				["icon"] = "Interface\\Icons\\Ability_DualWieldSpecialization",
 			},
-			[2.02] = {
-				["name"] = "Runic Power Mastery",
-				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
+			[3.11] = {
+				["name"] = "On a Pale Horse",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_SummonDeathCharger",
 			},
 			[1.06] = {
 				["name"] = "Two-Handed Weapon Specialization",
 				["icon"] = "Interface\\Icons\\INV_Sword_68",
 			},
-			[2.01] = {
-				["name"] = "Improved Icy Touch",
-				["icon"] = "Interface\\Icons\\Spell_DeathKnight_IceTouch",
+			[2.02] = {
+				["name"] = "Runic Power Mastery",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane01",
 			},
 			[3.12] = {
 				["name"] = "Blood-Caked Blade",

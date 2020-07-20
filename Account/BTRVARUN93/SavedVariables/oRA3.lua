@@ -16,6 +16,7 @@ oRA3DB = {
 	},
 	["profileKeys"] = {
 		["Flynnrider - Icecrown"] = "Default",
+		["Rapunzzel - Icecrown"] = "Default",
 		["Lightarray - Icecrown"] = "Default",
 		["Herbivore - Icecrown"] = "Default",
 	},

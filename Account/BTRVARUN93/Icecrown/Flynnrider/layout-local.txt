@@ -5,11 +5,11 @@ Anchor: CENTER
 X: 0
 Y: 0
 W: 365
-H: 240
+H: 200
 Frame: DBMMinimapButton
 FrameLevel: 3
 Anchor: TOPRIGHT
 X: -151
 Y: -7
-W: 26
-H: 26
+W: 32
+H: 32

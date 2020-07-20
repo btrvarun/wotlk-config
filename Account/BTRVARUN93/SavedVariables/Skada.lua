@@ -2,6 +2,7 @@
 SkadaDB = {
 	["profileKeys"] = {
 		["Flynnrider - Icecrown"] = "Default",
+		["Rapunzzel - Icecrown"] = "Default",
 		["Lightarray - Icecrown"] = "Default",
 		["Herbivore - Icecrown"] = "Default",
 	},
@@ -30,18 +31,18 @@ SkadaDB = {
 						["time"] = 0,
 						["interrupts"] = 0,
 						["deathts"] = 1580060485.475,
-						["first"] = 1580060474,
-						["id"] = "0x070000000041FBB7",
+						["totalabsorbs"] = 0,
+						["maxhp"] = 0,
 						["damage"] = 0,
 						["damagespells"] = {
 						},
 						["deaths"] = 1,
 						["damagetaken"] = 33957,
-						["power"] = {
+						["deathlog"] = {
 						},
-						["totalabsorbs"] = 0,
-						["maxhp"] = 0,
-						["uptime"] = 0,
+						["id"] = "0x070000000041FBB7",
+						["first"] = 1580060474,
+						["dispells"] = 0,
 						["damagetakenspells"] = {
 							["Seal of Righteousness"] = {
 								["id"] = 25742,
@@ -89,16 +90,16 @@ SkadaDB = {
 								["damage"] = 4248,
 							},
 						},
-						["dispells"] = 0,
 						["failevents"] = {
 						},
 						["name"] = "Lightarray",
+						["uptime"] = 0,
 						["healed"] = {
 						},
 						["healing"] = 0,
 						["healingspells"] = {
 						},
-						["deathlog"] = {
+						["power"] = {
 						},
 						["overhealing"] = 0,
 					}, -- [1]
