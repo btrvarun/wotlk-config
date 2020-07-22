@@ -39,6 +39,11 @@ AUCTIONATOR_PRICE_DATABASE = {
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
+	["Deathfeast"] = {
+		["firstSeen"] = 1595409037,
+		["guid"] = "0x070000000000844C",
+		["firstVersion"] = "2.6.3",
+	},
 	["Typhoonqt"] = {
 		["firstSeen"] = 1572109858,
 		["firstVersion"] = "2.6.3",
@@ -55,7 +60,6 @@ AUCTIONATOR_TOONS = {
 	["Fatpotato"] = {
 		["firstSeen"] = 1574515345,
 		["firstVersion"] = "2.6.3",
-		["guid"] = "0x0700000000008153",
 	},
 }
 AUCTIONATOR_STACKING_PREFS = {

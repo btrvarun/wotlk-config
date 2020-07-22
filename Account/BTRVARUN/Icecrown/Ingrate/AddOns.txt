@@ -45,10 +45,10 @@ ElvUI_AddOnSkins: enabled
 ElvUI_CastBarOverlay: enabled
 ElvUI_CustomTweaks: enabled
 ElvUI_Enhanced: enabled
-ElvUI_MinimapButtons: enabled
+ElvUI_MinimapButtons: disabled
 ElvUI_OptionsUI: enabled
 ElvUI_SwingBar: enabled
-ElvUI_VisualAuraTimers: enabled
+ElvUI_VisualAuraTimers: disabled
 ElvUI_VisualProcs: enabled
 DBM-Core: enabled
 DBM-GUI: enabled
@@ -64,6 +64,8 @@ DBM-Ulduar: enabled
 DBM-VoA: enabled
 DBM-WorldEvents: enabled
 ElvUI_CustomTags: enabled
-ElvUI_FogofWar: enabled
+ElvUI_FogofWar: disabled
 ElvUI_RaidMarkers: enabled
 KkthnxUI_Config: disabled
+ElvUI_EverySecondCounts: disabled
+ElvUI_ChannelAlerts: disabled

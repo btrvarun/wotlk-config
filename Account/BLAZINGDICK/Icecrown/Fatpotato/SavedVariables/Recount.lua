@@ -62,23 +62,33 @@ RecountPerCharDB = {
 				[10] = 9.136468774094062,
 				[14] = 11.23104600359805,
 				[9] = 27.62785916216911,
-				[15] = 11.23104600359805,
-				[13] = 11.23104600359805,
 				[4] = 18.5556412233359,
+				[13] = 11.23104600359805,
 				[8] = 1.092264199434593,
+				[15] = 11.23104600359805,
 			},
 			["type"] = "Pet",
 			["FightsSaved"] = 1,
-			["LastDamageTaken"] = 874,
-			["TimeLast"] = {
-				["ActiveTime"] = 1595251503,
-				["TimeDamage"] = 1595251503,
-				["OVERALL"] = 1595251503,
-				["DamageTaken"] = 1595251503,
-				["Damage"] = 1595251503,
+			["LastAbility"] = 459009.719,
+			["LastEventTimes"] = {
+				376428.185, -- [1]
+				376428.185, -- [2]
+				376428.185, -- [3]
+				376432.752, -- [4]
+				376432.885, -- [5]
+				376432.886, -- [6]
+				376432.886, -- [7]
+				376432.985, -- [8]
+				376434.003, -- [9]
+				376434.318, -- [10]
+				376434.818, -- [11]
+				376434.819, -- [12]
+				376435.186, -- [13]
+				376435.186, -- [14]
+				376435.186, -- [15]
 			},
 			["Owner"] = "Fatpotato",
-			["LastAbility"] = 376434.819,
+			["LastDamageTaken"] = 874,
 			["NextEventNum"] = 16,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -132,25 +142,71 @@ RecountPerCharDB = {
 				true, -- [14]
 				true, -- [15]
 			},
-			["LastEventTimes"] = {
-				376428.185, -- [1]
-				376428.185, -- [2]
-				376428.185, -- [3]
-				376432.752, -- [4]
-				376432.885, -- [5]
-				376432.886, -- [6]
-				376432.886, -- [7]
-				376432.985, -- [8]
-				376434.003, -- [9]
-				376434.318, -- [10]
-				376434.818, -- [11]
-				376434.819, -- [12]
-				376435.186, -- [13]
-				376435.186, -- [14]
-				376435.186, -- [15]
+			["TimeLast"] = {
+				["ActiveTime"] = 1595251503,
+				["TimeDamage"] = 1595251503,
+				["OVERALL"] = 1595251503,
+				["DamageTaken"] = 1595251503,
+				["Damage"] = 1595251503,
 			},
 			["Fights"] = {
 				["Fight1"] = {
+					["ElementDone"] = {
+						["Melee"] = 1594,
+					},
+					["TimeSpent"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.43,
+								},
+							},
+							["amount"] = 5.43,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dirtstalker"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 85,
+								},
+								["Claw"] = {
+									["count"] = 2150,
+								},
+								["Melee"] = {
+									["count"] = 2155,
+								},
+							},
+							["amount"] = 4390,
+						},
+						["Sogana"] = {
+							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 2622,
+								},
+							},
+							["amount"] = 2622,
+						},
+					},
 					["ElementHitsTaken"] = {
 						["Physical"] = {
 							["Details"] = {
@@ -181,6 +237,34 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3,
+						},
+					},
+					["DamageTaken"] = 7012,
+					["TimeDamage"] = 5.43,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 547,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 1594,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1594,
 						},
 					},
 					["PartialAbsorb"] = {
@@ -233,6 +317,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["DamagedWho"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1594,
+								},
+							},
+							["amount"] = 1594,
+						},
+					},
+					["ActiveTime"] = 5.43,
+					["TimeDamaging"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.43,
+								},
+							},
+							["amount"] = 5.43,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 2235,
+						["Melee"] = 2155,
+						["Shadow"] = 2622,
+					},
 					["PartialResist"] = {
 						["Gnaw"] = {
 							["Details"] = {
@@ -283,119 +393,65 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 547,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 1594,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 1594,
-						},
-					},
-					["TimeSpent"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.43,
-								},
-							},
-							["amount"] = 5.43,
-						},
-					},
-					["DamageTaken"] = 7012,
-					["WhoDamaged"] = {
-						["Dirtstalker"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 85,
-								},
-								["Claw"] = {
-									["count"] = 2150,
-								},
-								["Melee"] = {
-									["count"] = 2155,
-								},
-							},
-							["amount"] = 4390,
-						},
-						["Sogana"] = {
-							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 2622,
-								},
-							},
-							["amount"] = 2622,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 1594,
-					},
-					["DamagedWho"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1594,
-								},
-							},
-							["amount"] = 1594,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["TimeDamage"] = 5.43,
-					["TimeDamaging"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.43,
-								},
-							},
-							["amount"] = 5.43,
-						},
-					},
-					["ElementTaken"] = {
-						["Physical"] = 2235,
-						["Melee"] = 2155,
-						["Shadow"] = 2622,
-					},
-					["ActiveTime"] = 5.43,
 					["Damage"] = 1594,
 				},
 				["LastFightData"] = {
+					["ElementDone"] = {
+						["Melee"] = 1594,
+					},
+					["TimeSpent"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.43,
+								},
+							},
+							["amount"] = 5.43,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dirtstalker"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 85,
+								},
+								["Claw"] = {
+									["count"] = 2150,
+								},
+								["Melee"] = {
+									["count"] = 2155,
+								},
+							},
+							["amount"] = 4390,
+						},
+						["Sogana"] = {
+							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 2622,
+								},
+							},
+							["amount"] = 2622,
+						},
+					},
 					["ElementHitsTaken"] = {
 						["Physical"] = {
 							["Details"] = {
@@ -426,6 +482,34 @@ RecountPerCharDB = {
 								},
 							},
 							["amount"] = 3,
+						},
+					},
+					["DamageTaken"] = 7012,
+					["TimeDamage"] = 5.43,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 547,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 1594,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 1594,
 						},
 					},
 					["PartialAbsorb"] = {
@@ -478,6 +562,32 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
+					["DamagedWho"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1594,
+								},
+							},
+							["amount"] = 1594,
+						},
+					},
+					["ActiveTime"] = 5.43,
+					["TimeDamaging"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 5.43,
+								},
+							},
+							["amount"] = 5.43,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 2235,
+						["Melee"] = 2155,
+						["Shadow"] = 2622,
+					},
 					["PartialResist"] = {
 						["Gnaw"] = {
 							["Details"] = {
@@ -528,116 +638,6 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["Attacks"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 547,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 1594,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-									["amount"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 1594,
-						},
-					},
-					["TimeSpent"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.43,
-								},
-							},
-							["amount"] = 5.43,
-						},
-					},
-					["DamageTaken"] = 7012,
-					["WhoDamaged"] = {
-						["Dirtstalker"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 85,
-								},
-								["Claw"] = {
-									["count"] = 2150,
-								},
-								["Melee"] = {
-									["count"] = 2155,
-								},
-							},
-							["amount"] = 4390,
-						},
-						["Sogana"] = {
-							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 2622,
-								},
-							},
-							["amount"] = 2622,
-						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 1594,
-					},
-					["DamagedWho"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1594,
-								},
-							},
-							["amount"] = 1594,
-						},
-					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-								["Dodge"] = {
-									["count"] = 0,
-								},
-								["Parry"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 5,
-						},
-					},
-					["TimeDamage"] = 5.43,
-					["TimeDamaging"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 5.43,
-								},
-							},
-							["amount"] = 5.43,
-						},
-					},
-					["ElementTaken"] = {
-						["Physical"] = 2235,
-						["Melee"] = 2155,
-						["Shadow"] = 2622,
-					},
-					["ActiveTime"] = 5.43,
 					["Damage"] = 1594,
 				},
 				["CurrentFightData"] = {
@@ -653,41 +653,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-					},
-					["PartialAbsorb"] = {
+					["PartialBlock"] = {
 					},
 					["DamagedWho"] = {
 					},
-					["PartialBlock"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
 					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["PartialResist"] = {
+					["RunicPowerGained"] = {
 					},
 					["CCBroken"] = {
 					},
@@ -695,22 +694,21 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
 					},
 					["HealedWho"] = {
 					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
 					["EnergyGain"] = 0,
 					["ManaGained"] = {
 					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 					},
@@ -718,32 +716,90 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
+					["ElementDone"] = {
+						["Melee"] = 2119,
+					},
+					["TimeSpent"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.93,
+								},
+							},
+							["amount"] = 8.93,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Parry"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 8,
+						},
+					},
+					["WhoDamaged"] = {
+						["Dirtstalker"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 85,
+								},
+								["Claw"] = {
+									["count"] = 2150,
+								},
+								["Melee"] = {
+									["count"] = 2155,
+								},
+							},
+							["amount"] = 4390,
+						},
+						["Sogana"] = {
+							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 2622,
+								},
+							},
+							["amount"] = 2622,
+						},
+					},
 					["ElementHitsTaken"] = {
 						["Physical"] = {
 							["Details"] = {
@@ -776,106 +832,8 @@ RecountPerCharDB = {
 							["amount"] = 3,
 						},
 					},
-					["PartialAbsorb"] = {
-						["Gnaw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Claw"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
-					["PartialResist"] = {
-						["Gnaw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Claw"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 3,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 0,
-						},
-					},
+					["DamageTaken"] = 7012,
+					["TimeDamage"] = 8.93,
 					["Attacks"] = {
 						["Melee"] = {
 							["Details"] = {
@@ -902,43 +860,55 @@ RecountPerCharDB = {
 							["amount"] = 2119,
 						},
 					},
-					["TimeSpent"] = {
-						["Sogana"] = {
+					["PartialAbsorb"] = {
+						["Gnaw"] = {
 							["Details"] = {
-								["Melee"] = {
-									["count"] = 8.93,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 8.93,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-					},
-					["DamageTaken"] = 7012,
-					["WhoDamaged"] = {
-						["Dirtstalker"] = {
+						["Claw"] = {
 							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 85,
-								},
-								["Claw"] = {
-									["count"] = 2150,
-								},
-								["Melee"] = {
-									["count"] = 2155,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 4390,
+							["count"] = 1,
+							["amount"] = 0,
 						},
-						["Sogana"] = {
+						["Melee"] = {
 							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 2622,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
 								},
 							},
-							["amount"] = 2622,
+							["count"] = 2,
+							["amount"] = 0,
 						},
-					},
-					["ElementDone"] = {
-						["Melee"] = 2119,
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
 					},
 					["DamagedWho"] = {
 						["Sogana"] = {
@@ -950,26 +920,7 @@ RecountPerCharDB = {
 							["amount"] = 2119,
 						},
 					},
-					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Miss"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-								["Parry"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 8,
-						},
-					},
-					["TimeDamage"] = 8.93,
+					["ActiveTime"] = 8.93,
 					["TimeDamaging"] = {
 						["Sogana"] = {
 							["Details"] = {
@@ -985,7 +936,56 @@ RecountPerCharDB = {
 						["Melee"] = 2155,
 						["Shadow"] = 2622,
 					},
-					["ActiveTime"] = 8.93,
+					["PartialResist"] = {
+						["Gnaw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+					},
 					["Damage"] = 2119,
 				},
 			},
@@ -995,11 +995,11 @@ RecountPerCharDB = {
 		["Fatpotato"] = {
 			["GUID"] = "0x0700000000008153",
 			["TimeLast"] = {
-				["ManaGain"] = 1595251497,
+				["ActiveTime"] = 1595251503,
 				["RageGain"] = 1595249035,
 				["DOT_Time"] = 1595251503,
-				["ActiveTime"] = 1595251503,
 				["TimeDamage"] = 1595251503,
+				["ManaGain"] = 1595251497,
 				["OVERALL"] = 1595251523,
 				["DamageTaken"] = 1595251523,
 				["Damage"] = 1595251503,
@@ -1082,6 +1082,7 @@ RecountPerCharDB = {
 			},
 			["enClass"] = "DRUID",
 			["unit"] = "Fatpotato",
+			["LastActive"] = 1595251537,
 			["LastEventTimes"] = {
 				376434.785, -- [1]
 				376435.185, -- [2]
@@ -1134,7 +1135,6 @@ RecountPerCharDB = {
 				376434.48, -- [49]
 				376434.555, -- [50]
 			},
-			["LastDamageTaken"] = 874,
 			["level"] = 80,
 			["LastDamageAbility"] = "Blood Plague (DoT)",
 			["LastFightIn"] = 3,
@@ -1189,7 +1189,7 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastActive"] = 1595251537,
+			["LastDamageTaken"] = 874,
 			["Owner"] = false,
 			["Pet"] = {
 				"Treant <Fatpotato>", -- [1]
@@ -1390,6 +1390,53 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 144,
+						["Physical"] = 264,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 9409,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Dappled Stag"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 3159,
+								},
+								["Typhoon"] = {
+									["count"] = 4962,
+								},
+								["Melee"] = {
+									["count"] = 865,
+								},
+								["Moonfire"] = {
+									["count"] = 423,
+								},
+							},
+							["amount"] = 9409,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Arcane"] = 423,
+						["Melee"] = 865,
+						["Nature"] = 8121,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Arcane"] = {
 							["Details"] = {
@@ -1419,32 +1466,42 @@ RecountPerCharDB = {
 							["amount"] = 4,
 						},
 					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Dappled Stag"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 144,
+								},
+								["Butt"] = {
+									["count"] = 264,
+								},
+							},
+							["amount"] = 408,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["ElementTaken"] = {
-						["Melee"] = 144,
-						["Physical"] = 264,
-					},
-					["DOT_Time"] = 9,
-					["Damage"] = 9409,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Arcane"] = 423,
-						["Melee"] = 865,
-						["Nature"] = 8121,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Melee"] = {
@@ -1472,41 +1529,37 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
+					["ActiveTime"] = 7.620000000000001,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
 						["Dappled Stag"] = {
 							["Details"] = {
 								["Insect Swarm (DoT)"] = {
-									["count"] = 3159,
+									["count"] = 6.45,
 								},
 								["Typhoon"] = {
-									["count"] = 4962,
+									["count"] = 0.15,
+								},
+								["Melee"] = {
+									["count"] = 0.37,
 								},
 								["Moonfire"] = {
-									["count"] = 423,
-								},
-								["Melee"] = {
-									["count"] = 865,
+									["count"] = 0.65,
 								},
 							},
-							["amount"] = 9409,
+							["amount"] = 7.620000000000001,
 						},
 					},
-					["PartialBlock"] = {
+					["WhoDispelled"] = {
 					},
-					["WhoDamaged"] = {
-						["Dappled Stag"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 144,
-								},
-								["Butt"] = {
-									["count"] = 264,
-								},
-							},
-							["amount"] = 408,
-						},
+					["InterruptData"] = {
 					},
-					["EnergyGainedFrom"] = {
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Melee"] = {
@@ -1534,64 +1587,11 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
+					["Healing"] = 0,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Dappled Stag"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 6.45,
-								},
-								["Typhoon"] = {
-									["count"] = 0.15,
-								},
-								["Moonfire"] = {
-									["count"] = 0.65,
-								},
-								["Melee"] = {
-									["count"] = 0.37,
-								},
-							},
-							["amount"] = 7.620000000000001,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 7.620000000000001,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 						["Insect Swarm (DoT)"] = {
 							["Details"] = {
@@ -1617,18 +1617,6 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 4962,
 						},
-						["Moonfire"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 423,
-									["min"] = 423,
-									["count"] = 1,
-									["amount"] = 423,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 423,
-						},
 						["Melee"] = {
 							["Details"] = {
 								["Crit"] = {
@@ -1641,9 +1629,22 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 865,
 						},
+						["Moonfire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 423,
+									["min"] = 423,
+									["count"] = 1,
+									["amount"] = 423,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 423,
+						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 7.620000000000001,
 					["TimeDamaging"] = {
 						["Dappled Stag"] = {
@@ -1654,19 +1655,18 @@ RecountPerCharDB = {
 								["Typhoon"] = {
 									["count"] = 0.15,
 								},
-								["Moonfire"] = {
-									["count"] = 0.65,
-								},
 								["Melee"] = {
 									["count"] = 0.37,
+								},
+								["Moonfire"] = {
+									["count"] = 0.65,
 								},
 							},
 							["amount"] = 7.620000000000001,
 						},
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 9,
 					["DispelledWho"] = {
 					},
 				},
@@ -1699,33 +1699,71 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["ElementHitsDone"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ElementTakenAbsorb"] = {
-					},
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 						["Frost"] = 0,
 						["Shadow"] = 0,
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
-					["ElementTakenBlock"] = {
+					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Frost"] = 0,
-						["Shadow"] = 0,
+					["PartialBlock"] = {
 					},
-					["ElementDoneAbsorb"] = {
+					["DamagedWho"] = {
 					},
 					["FAttacks"] = {
 					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
 					["RunicPowerGainedFrom"] = {
 					},
-					["ElementDone"] = {
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
 					},
 					["PartialAbsorb"] = {
 						["Blood Plague (DoT)"] = {
@@ -1753,24 +1791,22 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["DamagedWho"] = {
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
 					},
-					["PartialBlock"] = {
+					["WhoDispelled"] = {
 					},
-					["WhoDamaged"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
+					["InterruptData"] = {
 					},
-					["EnergyGainedFrom"] = {
+					["ElementTakenResist"] = {
+						["Frost"] = 0,
+						["Shadow"] = 0,
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
 					},
 					["PartialResist"] = {
 						["Blood Plague (DoT)"] = {
@@ -1798,57 +1834,21 @@ RecountPerCharDB = {
 							["amount"] = 0,
 						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
+					["Healing"] = 0,
+					["RageGained"] = {
 					},
 					["OverHeals"] = {
 					},
-					["ManaGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["Heals"] = {
-					},
-					["WhoHealed"] = {
-					},
-					["EnergyGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
-					},
-					["Dispelled"] = 0,
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
 					["ManaGain"] = 0,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1991,6 +1991,108 @@ RecountPerCharDB = {
 							["amount"] = 3,
 						},
 					},
+					["ElementDone"] = {
+						["Nature"] = 8031,
+						["Melee"] = 841,
+						["Arcane"] = 3035,
+					},
+					["RageGain"] = 20,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["TimeDamage"] = 11.89,
+					["TimeDamaging"] = {
+						["Grove Walker"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 1.16,
+								},
+								["Melee"] = {
+									["count"] = 3.62,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 1.88,
+								},
+								["Moonfire"] = {
+									["count"] = 3.5,
+								},
+								["Wrath"] = {
+									["count"] = 1.73,
+								},
+							},
+							["amount"] = 11.89,
+						},
+					},
+					["WhoDamaged"] = {
+						["Grove Walker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1132,
+								},
+								["Thorns"] = {
+									["count"] = 165,
+								},
+							},
+							["amount"] = 1297,
+						},
+					},
+					["DamagedWho"] = {
+						["Grove Walker"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 2406,
+								},
+								["Melee"] = {
+									["count"] = 841,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 2736,
+								},
+								["Moonfire"] = {
+									["count"] = 299,
+								},
+								["Wrath"] = {
+									["count"] = 5625,
+								},
+							},
+							["amount"] = 11907,
+						},
+					},
 					["Attacks"] = {
 						["Insect Swarm (DoT)"] = {
 							["Details"] = {
@@ -2063,108 +2165,6 @@ RecountPerCharDB = {
 							["amount"] = 5625,
 						},
 					},
-					["RageGain"] = 20,
-					["DamagedWho"] = {
-						["Grove Walker"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 2406,
-								},
-								["Melee"] = {
-									["count"] = 841,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 2736,
-								},
-								["Moonfire"] = {
-									["count"] = 299,
-								},
-								["Wrath"] = {
-									["count"] = 5625,
-								},
-							},
-							["amount"] = 11907,
-						},
-					},
-					["TimeDamage"] = 11.89,
-					["TimeDamaging"] = {
-						["Grove Walker"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 1.16,
-								},
-								["Melee"] = {
-									["count"] = 3.62,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 1.88,
-								},
-								["Moonfire"] = {
-									["count"] = 3.5,
-								},
-								["Wrath"] = {
-									["count"] = 1.73,
-								},
-							},
-							["amount"] = 11.89,
-						},
-					},
-					["WhoDamaged"] = {
-						["Grove Walker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1132,
-								},
-								["Thorns"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 1297,
-						},
-					},
-					["ElementDone"] = {
-						["Nature"] = 8031,
-						["Melee"] = 841,
-						["Arcane"] = 3035,
-					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 3,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Dodge"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 4,
-						},
-						["Arcane"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
 				},
 				["LastFightData"] = {
 					["DOTs"] = {
@@ -2222,6 +2222,68 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Frost"] = 3593,
+						["Shadow"] = 2709,
+						["Physical"] = 1184,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 53518,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 3014,
+								},
+								["Melee"] = {
+									["count"] = 243,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 2916,
+								},
+								["Starfall"] = {
+									["count"] = 25018,
+								},
+								["Moonfire"] = {
+									["count"] = 685,
+								},
+							},
+							["amount"] = 31876,
+						},
+						["Dirtstalker"] = {
+							["Details"] = {
+								["Starfall"] = {
+									["count"] = 16005,
+								},
+								["Wrath"] = {
+									["count"] = 5637,
+								},
+							},
+							["amount"] = 21642,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Nature"] = 8651,
+						["Melee"] = 243,
+						["Arcane"] = 44624,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Nature"] = {
 							["Details"] = {
@@ -2257,61 +2319,66 @@ RecountPerCharDB = {
 							["amount"] = 17,
 						},
 					},
+					["ManaGainedFrom"] = {
+						["Fatpotato"] = {
+							["Details"] = {
+								["Moonkin Form"] = {
+									["count"] = 593,
+								},
+							},
+							["amount"] = 593,
+						},
+					},
+					["WhoDamaged"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 3593,
+								},
+								["Plague Strike"] = {
+									["count"] = 1184,
+								},
+								["Wandering Plague"] = {
+									["count"] = 743,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1966,
+								},
+							},
+							["amount"] = 7486,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["ElementTaken"] = {
-						["Frost"] = 3593,
-						["Shadow"] = 2709,
-						["Physical"] = 1184,
-					},
-					["DOT_Time"] = 12,
-					["Damage"] = 53518,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 403,
-						["Frost"] = 291,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Nature"] = 8651,
-						["Melee"] = 243,
-						["Arcane"] = 44624,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Moonkin Form"] = {
+							["Details"] = {
+								["Fatpotato"] = {
+									["count"] = 593,
+								},
+							},
+							["amount"] = 593,
+						},
 					},
 					["PartialAbsorb"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -2324,6 +2391,18 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 						["Wandering Plague"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -2336,157 +2415,20 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-					},
-					["DamagedWho"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 3014,
-								},
-								["Melee"] = {
-									["count"] = 243,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 2916,
-								},
-								["Starfall"] = {
-									["count"] = 25018,
-								},
-								["Moonfire"] = {
-									["count"] = 685,
-								},
-							},
-							["amount"] = 31876,
-						},
-						["Dirtstalker"] = {
-							["Details"] = {
-								["Starfall"] = {
-									["count"] = 16005,
-								},
-								["Wrath"] = {
-									["count"] = 5637,
-								},
-							},
-							["amount"] = 21642,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1966,
-								},
-								["Plague Strike"] = {
-									["count"] = 1184,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3593,
-								},
-								["Wandering Plague"] = {
-									["count"] = 743,
-								},
-							},
-							["amount"] = 7486,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 109,
-									["min"] = 109,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 2,
-									["amount"] = 218,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 2,
-							["amount"] = 218,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 97,
-									["min"] = 97,
-									["count"] = 3,
-									["amount"] = 291,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 291,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 185,
-									["min"] = 185,
-									["count"] = 1,
-									["amount"] = 185,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 185,
-						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-						["Fatpotato"] = {
-							["Details"] = {
-								["Moonkin Form"] = {
-									["count"] = 593,
-								},
-							},
-							["amount"] = 593,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Moonkin Form"] = {
-							["Details"] = {
-								["Fatpotato"] = {
-									["count"] = 593,
-								},
-							},
-							["amount"] = 593,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 9.960000000000001,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Sogana"] = {
@@ -2525,18 +2467,76 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 403,
+						["Frost"] = 291,
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 9.960000000000001,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 97,
+									["min"] = 97,
+									["count"] = 3,
+									["amount"] = 291,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 291,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 185,
+									["min"] = 185,
+									["count"] = 1,
+									["amount"] = 185,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 185,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 109,
+									["min"] = 109,
+									["count"] = 2,
+									["amount"] = 218,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 218,
+						},
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 						["Insect Swarm (DoT)"] = {
 							["Details"] = {
@@ -2617,8 +2617,9 @@ RecountPerCharDB = {
 							["amount"] = 5637,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 9.960000000000001,
 					["TimeDamaging"] = {
 						["Sogana"] = {
@@ -2654,8 +2655,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 593,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 12,
 					["DispelledWho"] = {
 					},
 				},
@@ -2715,6 +2715,68 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+						["Frost"] = 3593,
+						["Shadow"] = 2709,
+						["Physical"] = 1184,
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 53518,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 3014,
+								},
+								["Melee"] = {
+									["count"] = 243,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 2916,
+								},
+								["Starfall"] = {
+									["count"] = 25018,
+								},
+								["Moonfire"] = {
+									["count"] = 685,
+								},
+							},
+							["amount"] = 31876,
+						},
+						["Dirtstalker"] = {
+							["Details"] = {
+								["Starfall"] = {
+									["count"] = 16005,
+								},
+								["Wrath"] = {
+									["count"] = 5637,
+								},
+							},
+							["amount"] = 21642,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Nature"] = 8651,
+						["Melee"] = 243,
+						["Arcane"] = 44624,
+					},
+					["RunicPowerGainedFrom"] = {
+					},
 					["ElementHitsDone"] = {
 						["Nature"] = {
 							["Details"] = {
@@ -2750,61 +2812,66 @@ RecountPerCharDB = {
 							["amount"] = 17,
 						},
 					},
+					["ManaGainedFrom"] = {
+						["Fatpotato"] = {
+							["Details"] = {
+								["Moonkin Form"] = {
+									["count"] = 593,
+								},
+							},
+							["amount"] = 593,
+						},
+					},
+					["WhoDamaged"] = {
+						["Sogana"] = {
+							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 3593,
+								},
+								["Plague Strike"] = {
+									["count"] = 1184,
+								},
+								["Wandering Plague"] = {
+									["count"] = 743,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1966,
+								},
+							},
+							["amount"] = 7486,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
 					["ElementTakenAbsorb"] = {
 					},
-					["ElementTaken"] = {
-						["Frost"] = 3593,
-						["Shadow"] = 2709,
-						["Physical"] = 1184,
-					},
-					["DOT_Time"] = 12,
-					["Damage"] = 53518,
-					["ElementTakenBlock"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["ElementTakenResist"] = {
-						["Shadow"] = 403,
-						["Frost"] = 291,
-					},
-					["ElementDoneAbsorb"] = {
-					},
-					["FAttacks"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDone"] = {
-						["Nature"] = 8651,
-						["Melee"] = 243,
-						["Arcane"] = 44624,
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+						["Moonkin Form"] = {
+							["Details"] = {
+								["Fatpotato"] = {
+									["count"] = 593,
+								},
+							},
+							["amount"] = 593,
+						},
 					},
 					["PartialAbsorb"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 0,
-						},
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -2817,6 +2884,18 @@ RecountPerCharDB = {
 							["count"] = 4,
 							["amount"] = 0,
 						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
 						["Wandering Plague"] = {
 							["Details"] = {
 								["No Absorb"] = {
@@ -2829,157 +2908,20 @@ RecountPerCharDB = {
 							["count"] = 1,
 							["amount"] = 0,
 						},
-					},
-					["DamagedWho"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 3014,
-								},
-								["Melee"] = {
-									["count"] = 243,
-								},
-								["Moonfire (DoT)"] = {
-									["count"] = 2916,
-								},
-								["Starfall"] = {
-									["count"] = 25018,
-								},
-								["Moonfire"] = {
-									["count"] = 685,
-								},
-							},
-							["amount"] = 31876,
-						},
-						["Dirtstalker"] = {
-							["Details"] = {
-								["Starfall"] = {
-									["count"] = 16005,
-								},
-								["Wrath"] = {
-									["count"] = 5637,
-								},
-							},
-							["amount"] = 21642,
-						},
-					},
-					["PartialBlock"] = {
-					},
-					["WhoDamaged"] = {
-						["Sogana"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1966,
-								},
-								["Plague Strike"] = {
-									["count"] = 1184,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 3593,
-								},
-								["Wandering Plague"] = {
-									["count"] = 743,
-								},
-							},
-							["amount"] = 7486,
-						},
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["PartialResist"] = {
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 109,
-									["min"] = 109,
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
 									["count"] = 2,
-									["amount"] = 218,
+									["amount"] = 0,
 								},
 							},
 							["count"] = 2,
-							["amount"] = 218,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 1,
 							["amount"] = 0,
 						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["25%Resist"] = {
-									["max"] = 97,
-									["min"] = 97,
-									["count"] = 3,
-									["amount"] = 291,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 291,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["25%Resist"] = {
-									["max"] = 185,
-									["min"] = 185,
-									["count"] = 1,
-									["amount"] = 185,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 185,
-						},
 					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["ManaGainedFrom"] = {
-						["Fatpotato"] = {
-							["Details"] = {
-								["Moonkin Form"] = {
-									["count"] = 593,
-								},
-							},
-							["amount"] = 593,
-						},
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBreak"] = 0,
-					["RageGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-						["Moonkin Form"] = {
-							["Details"] = {
-								["Fatpotato"] = {
-									["count"] = 593,
-								},
-							},
-							["amount"] = 593,
-						},
-					},
-					["FDamage"] = 0,
-					["Interrupts"] = 0,
+					["ActiveTime"] = 9.960000000000001,
 					["Overhealing"] = 0,
 					["TimeSpent"] = {
 						["Sogana"] = {
@@ -3018,18 +2960,76 @@ RecountPerCharDB = {
 					},
 					["InterruptData"] = {
 					},
-					["RunicPowerGain"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 403,
+						["Frost"] = 291,
+					},
 					["Heals"] = {
 					},
-					["WhoHealed"] = {
-					},
+					["Interrupts"] = 0,
 					["EnergyGained"] = {
 					},
-					["ActiveTime"] = 9.960000000000001,
-					["Healing"] = 0,
-					["FDamagedWho"] = {
+					["PartialResist"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resist"] = {
+									["max"] = 97,
+									["min"] = 97,
+									["count"] = 3,
+									["amount"] = 291,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 291,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 185,
+									["min"] = 185,
+									["count"] = 1,
+									["amount"] = 185,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 185,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["25%Resist"] = {
+									["max"] = 109,
+									["min"] = 109,
+									["count"] = 2,
+									["amount"] = 218,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 218,
+						},
 					},
-					["Dispelled"] = 0,
+					["Healing"] = 0,
+					["RageGained"] = {
+					},
+					["OverHeals"] = {
+					},
 					["Attacks"] = {
 						["Insect Swarm (DoT)"] = {
 							["Details"] = {
@@ -3110,8 +3110,9 @@ RecountPerCharDB = {
 							["amount"] = 5637,
 						},
 					},
-					["HealingTaken"] = 0,
 					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
 					["TimeDamage"] = 9.960000000000001,
 					["TimeDamaging"] = {
 						["Sogana"] = {
@@ -3147,8 +3148,7 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 593,
-					["HOTs"] = {
-					},
+					["DOT_Time"] = 12,
 					["DispelledWho"] = {
 					},
 				},
@@ -3200,11 +3200,11 @@ RecountPerCharDB = {
 								["Typhoon"] = {
 									["count"] = 0.15,
 								},
-								["Moonfire"] = {
-									["count"] = 0.65,
-								},
 								["Melee"] = {
 									["count"] = 0.37,
+								},
+								["Moonfire"] = {
+									["count"] = 0.65,
 								},
 							},
 							["amount"] = 7.620000000000001,
@@ -3472,103 +3472,7 @@ RecountPerCharDB = {
 						["Shadow"] = 1166,
 						["Frost"] = 776,
 					},
-					["ManaGainedFrom"] = {
-						["Fatpotato"] = {
-							["Details"] = {
-								["Moonkin Form"] = {
-									["count"] = 593,
-								},
-							},
-							["amount"] = 593,
-						},
-					},
-					["WhoDamaged"] = {
-						["Dappled Stag"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 144,
-								},
-								["Butt"] = {
-									["count"] = 264,
-								},
-							},
-							["amount"] = 408,
-						},
-						["Sogana"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 6663,
-								},
-								["Plague Strike"] = {
-									["count"] = 1184,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 6021,
-								},
-								["Wandering Plague"] = {
-									["count"] = 743,
-								},
-							},
-							["amount"] = 14611,
-						},
-						["Grove Walker"] = {
-							["Details"] = {
-								["Melee"] = {
-									["count"] = 1132,
-								},
-								["Thorns"] = {
-									["count"] = 165,
-								},
-							},
-							["amount"] = 1297,
-						},
-					},
 					["DOT_Time"] = 33,
-					["ElementHitsTaken"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 1,
-								},
-							},
-							["amount"] = 8,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 7,
-						},
-						["Nature"] = {
-							["Details"] = {
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 3,
-						},
-					},
 					["Attacks"] = {
 						["Insect Swarm (DoT)"] = {
 							["Details"] = {
@@ -3677,75 +3581,105 @@ RecountPerCharDB = {
 							["amount"] = 11262,
 						},
 					},
-					["RageGain"] = 20,
-					["DamagedWho"] = {
-						["Dirtstalker"] = {
-							["Details"] = {
-								["Starfall"] = {
-									["count"] = 16005,
-								},
-								["Wrath"] = {
-									["count"] = 5637,
-								},
-							},
-							["amount"] = 21642,
-						},
+					["WhoDamaged"] = {
 						["Dappled Stag"] = {
 							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 3159,
-								},
-								["Typhoon"] = {
-									["count"] = 4962,
-								},
-								["Moonfire"] = {
-									["count"] = 423,
-								},
 								["Melee"] = {
-									["count"] = 865,
+									["count"] = 144,
+								},
+								["Butt"] = {
+									["count"] = 264,
 								},
 							},
-							["amount"] = 9409,
+							["amount"] = 408,
 						},
 						["Sogana"] = {
 							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 3014,
+								["Frost Fever (DoT)"] = {
+									["count"] = 6021,
 								},
-								["Melee"] = {
-									["count"] = 243,
+								["Plague Strike"] = {
+									["count"] = 1184,
 								},
-								["Moonfire (DoT)"] = {
-									["count"] = 2916,
+								["Wandering Plague"] = {
+									["count"] = 743,
 								},
-								["Starfall"] = {
-									["count"] = 25018,
-								},
-								["Moonfire"] = {
-									["count"] = 685,
+								["Blood Plague (DoT)"] = {
+									["count"] = 6663,
 								},
 							},
-							["amount"] = 31876,
+							["amount"] = 14611,
 						},
 						["Grove Walker"] = {
 							["Details"] = {
-								["Insect Swarm (DoT)"] = {
-									["count"] = 2406,
-								},
 								["Melee"] = {
-									["count"] = 841,
+									["count"] = 1132,
 								},
-								["Moonfire (DoT)"] = {
-									["count"] = 2736,
-								},
-								["Moonfire"] = {
-									["count"] = 299,
-								},
-								["Wrath"] = {
-									["count"] = 5625,
+								["Thorns"] = {
+									["count"] = 165,
 								},
 							},
-							["amount"] = 11907,
+							["amount"] = 1297,
+						},
+					},
+					["ManaGainedFrom"] = {
+						["Fatpotato"] = {
+							["Details"] = {
+								["Moonkin Form"] = {
+									["count"] = 593,
+								},
+							},
+							["amount"] = 593,
+						},
+					},
+					["ElementDone"] = {
+						["Nature"] = 24803,
+						["Melee"] = 1949,
+						["Arcane"] = 48082,
+					},
+					["RageGain"] = 20,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 21,
 						},
 					},
 					["TimeDamage"] = 29.47,
@@ -3769,11 +3703,11 @@ RecountPerCharDB = {
 								["Typhoon"] = {
 									["count"] = 0.15,
 								},
-								["Moonfire"] = {
-									["count"] = 0.65,
-								},
 								["Melee"] = {
 									["count"] = 0.37,
+								},
+								["Moonfire"] = {
+									["count"] = 0.65,
 								},
 							},
 							["amount"] = 7.620000000000001,
@@ -3820,53 +3754,119 @@ RecountPerCharDB = {
 						},
 					},
 					["ManaGain"] = 593,
-					["ElementDone"] = {
-						["Nature"] = 24803,
-						["Melee"] = 1949,
-						["Arcane"] = 48082,
+					["DamagedWho"] = {
+						["Dirtstalker"] = {
+							["Details"] = {
+								["Starfall"] = {
+									["count"] = 16005,
+								},
+								["Wrath"] = {
+									["count"] = 5637,
+								},
+							},
+							["amount"] = 21642,
+						},
+						["Dappled Stag"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 3159,
+								},
+								["Typhoon"] = {
+									["count"] = 4962,
+								},
+								["Melee"] = {
+									["count"] = 865,
+								},
+								["Moonfire"] = {
+									["count"] = 423,
+								},
+							},
+							["amount"] = 9409,
+						},
+						["Sogana"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 3014,
+								},
+								["Melee"] = {
+									["count"] = 243,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 2916,
+								},
+								["Starfall"] = {
+									["count"] = 25018,
+								},
+								["Moonfire"] = {
+									["count"] = 685,
+								},
+							},
+							["amount"] = 31876,
+						},
+						["Grove Walker"] = {
+							["Details"] = {
+								["Insect Swarm (DoT)"] = {
+									["count"] = 2406,
+								},
+								["Melee"] = {
+									["count"] = 841,
+								},
+								["Moonfire (DoT)"] = {
+									["count"] = 2736,
+								},
+								["Moonfire"] = {
+									["count"] = 299,
+								},
+								["Wrath"] = {
+									["count"] = 5625,
+								},
+							},
+							["amount"] = 11907,
+						},
 					},
-					["ElementHitsDone"] = {
-						["Nature"] = {
+					["ElementHitsTaken"] = {
+						["Physical"] = {
 							["Details"] = {
 								["Hit"] = {
 									["count"] = 2,
 								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Tick"] = {
-									["count"] = 7,
-								},
 							},
-							["amount"] = 10,
+							["amount"] = 2,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Hit"] = {
-									["count"] = 2,
+									["count"] = 5,
 								},
-								["Crit"] = {
-									["count"] = 3,
+							},
+							["amount"] = 5,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 7,
 								},
-								["Dodge"] = {
+								["Hit"] = {
 									["count"] = 1,
 								},
 							},
-							["amount"] = 6,
+							["amount"] = 8,
 						},
-						["Arcane"] = {
+						["Frost"] = {
 							["Details"] = {
 								["Tick"] = {
-									["count"] = 4,
-								},
-								["Crit"] = {
-									["count"] = 8,
-								},
-								["Hit"] = {
-									["count"] = 9,
+									["count"] = 7,
 								},
 							},
-							["amount"] = 21,
+							["amount"] = 7,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
 						},
 					},
 				},
@@ -3924,7 +3924,7 @@ RecountPerCharDB = {
 				"21199 (91%)", -- [50]
 			},
 			["UnitLockout"] = 1595249186,
-			["LastAbility"] = 376435.562,
+			["LastAbility"] = 459009.719,
 		},
 	},
 	["FightNum"] = 3,

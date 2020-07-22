@@ -3,19 +3,22 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Typhoonqt - Icecrown"] = "Typhoonqt - Icecrown",
-		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
-		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 		["Circi - Icecrown"] = "Circi - Icecrown",
+		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
+		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
+		["Typhoonqt - Icecrown"] = "Typhoonqt - Icecrown",
+		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 	},
 	["profiles"] = {
-		["Typhoonqt - Icecrown"] = {
+		["Circi - Icecrown"] = {
+		},
+		["Deathfeast - Icecrown"] = {
 		},
 		["Minakshi - Icecrown"] = {
 		},
-		["Fatpotato - Icecrown"] = {
+		["Typhoonqt - Icecrown"] = {
 		},
-		["Circi - Icecrown"] = {
+		["Fatpotato - Icecrown"] = {
 		},
 	},
 }

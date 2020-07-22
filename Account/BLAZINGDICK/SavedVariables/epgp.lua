@@ -204,14 +204,19 @@ EPGP_DB = {
 	},
 	["profileKeys"] = {
 		["Circi - Icecrown"] = "Disappointments",
-		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 		["Minakshi - Icecrown"] = "Logic",
+		["Fatpotato - Icecrown"] = "I Offline I",
+		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
 	},
 	["global"] = {
 		["last_version"] = "5.5.19",
 	},
 	["profiles"] = {
 		["Circi - Icecrown"] = {
+		},
+		["I Offline I"] = {
+		},
+		["Fatpotato - Icecrown"] = {
 		},
 		["Minakshi - Icecrown"] = {
 		},

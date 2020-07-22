@@ -3,7 +3,6 @@ Binder_Settings = {
 	["ProfilesCreated"] = 1,
 	["Profiles"] = {
 		{
-			["Description"] = "",
 			["The_Binds"] = {
 				{
 					["TheAction"] = "HEADER_MOVEMENT",
@@ -962,6 +961,7 @@ Binder_Settings = {
 				}, -- [268]
 			},
 			["Name"] = "Garzh",
+			["Description"] = "",
 		}, -- [1]
 	},
 }

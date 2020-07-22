@@ -48,13 +48,6 @@ X: 275
 Y: 2
 W: 120
 H: 21
-Frame: Innervates
-FrameLevel: 2
-Anchor: TOPLEFT
-X: 155
-Y: 2
-W: 120
-H: 21
 Frame: Recount_MainWindow
 FrameLevel: 30
 Anchor: BOTTOMRIGHT
@@ -79,7 +72,7 @@ H: 452
 Frame: SexyCooldownBar 0
 FrameLevel: 0
 Anchor: BOTTOM
-X: 0
+X: 1
 Y: 59
 W: 400
 H: 30
@@ -90,24 +83,3 @@ X: -271
 Y: 221
 W: 200
 H: 15
-Frame: TellMeWhen_Group1
-FrameLevel: 29
-Anchor: LEFT
-X: 138
-Y: 75
-W: 1
-H: 1
-Frame: TellMeWhen_Group2
-FrameLevel: 30
-Anchor: LEFT
-X: 136
-Y: 32
-W: 1
-H: 1
-Frame: TellMeWhen_Group4
-FrameLevel: 31
-Anchor: LEFT
-X: 103
-Y: -23
-W: 1
-H: 1

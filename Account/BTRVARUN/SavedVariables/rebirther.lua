@@ -2,38 +2,33 @@
 RebirtherDB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Default",
-		["Invariably - Icecrown"] = "Default",
+		["Garzh - Icecrown"] = "Default",
 		["Bowbaby - Icecrown"] = "Default",
 		["Kamakshi - Icecrown"] = "Default",
 		["Ingrate - Icecrown"] = "Default",
-		["Garzh - Icecrown"] = "Default",
-		["Bowbaby - Unlimited WoW"] = "Default",
 		["Minato - Icecrown"] = "Default",
+		["Bowbaby - Unlimited WoW"] = "Default",
+		["Invariably - Icecrown"] = "Default",
 	},
 	["profiles"] = {
+		["Icecrown"] = {
+		},
+		["DRUID"] = {
+		},
 		["Default"] = {
-			["showExtraGroups"] = true,
-			["lock"] = true,
 			["font"] = {
-				["filePath"] = "Interface\\AddOns\\KkthnxUI\\Media\\Fonts\\Normal.ttf",
-				["nameSize"] = 13,
-				["file"] = "KkthnxUI_Normal",
-				["titleSize"] = 14,
+				["filePath"] = "Fonts\\ARIALN.TTF",
+				["file"] = "Arial Narrow",
 			},
 			["bar"] = {
-				["cooldownColour"] = {
-					["a"] = 1,
-				},
-				["width"] = 120,
-				["readyColour"] = {
-					["a"] = 1,
-				},
+				["texturePath"] = "Interface\\Addons\\Recount\\Textures\\statusbar\\Armory",
+				["texture"] = "Armory",
 			},
-			["showicon"] = false,
 			["announceOnSelf"] = true,
-			["sync"] = true,
+			["lock"] = true,
 			["announceToTarget"] = true,
-			["showWhenSolo"] = true,
+		},
+		["Garzh - Icecrown"] = {
 		},
 	},
 }

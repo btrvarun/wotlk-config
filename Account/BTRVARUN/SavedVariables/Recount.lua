@@ -27,8 +27,8 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["MainWindowHeight"] = 120,
 			["FrameStrata"] = "2-LOW",
-			["DetailWindowY"] = 0,
 			["CurDataSet"] = "OverallData",
+			["Font"] = "KkUI Normal",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -40,7 +40,7 @@ RecountDB = {
 			["Locked"] = true,
 			["ClampToScreen"] = true,
 			["MainWindowWidth"] = 230,
-			["Font"] = "KkUI Normal",
+			["DetailWindowY"] = 0,
 		},
 		["Bowbaby - Icecrown"] = {
 			["GraphWindowY"] = -52.00000246194062,
@@ -51,17 +51,17 @@ RecountDB = {
 					["NumFormat"] = 3,
 				},
 				["Position"] = {
-					["y"] = -403.642443336556,
-					["x"] = 823.2926915719772,
+					["y"] = -403.6424586552976,
+					["x"] = 823.2925515149108,
 					["w"] = 264.410006667072,
-					["h"] = 216.3239339403886,
+					["h"] = 216.3239164332553,
 				},
 			},
 			["DetailWindowX"] = 4,
-			["LastInstanceName"] = "Gundrak",
+			["LastInstanceName"] = "Vault of Archavon",
 			["FrameStrata"] = "2-LOW",
-			["CurDataSet"] = "LastFightData",
 			["ClampToScreen"] = true,
+			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -88,7 +88,7 @@ RecountDB = {
 			},
 			["DetailWindowX"] = 0,
 			["FrameStrata"] = "2-LOW",
-			["ClampToScreen"] = true,
+			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -99,60 +99,24 @@ RecountDB = {
 			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
+			["ClampToScreen"] = true,
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["RowHeight"] = 15,
 				["ShowScrollbar"] = false,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
 				["Position"] = {
 					["y"] = -403.6424586552976,
 					["x"] = 823.2925515149108,
 					["w"] = 264.410006667072,
 					["h"] = 216.3239164332553,
 				},
-				["RowHeight"] = 15,
-				["BarText"] = {
-					["NumFormat"] = 3,
-				},
 			},
-			["ClampToScreen"] = true,
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-					["Total Bar"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["Locked"] = true,
-			["LastInstanceName"] = "Azjol-Nerub",
-			["CurDataSet"] = "LastFightData",
-			["MainWindowHeight"] = 120,
-			["MainWindowWidth"] = 230,
-			["FrameStrata"] = "2-LOW",
-		},
-		["Invariably - Icecrown"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["RowHeight"] = 15,
-				["ShowScrollbar"] = false,
-				["BarText"] = {
-					["NumFormat"] = 3,
-				},
-				["Position"] = {
-					["y"] = -403.6424586552976,
-					["x"] = 823.2925515149108,
-					["w"] = 264.410006667072,
-					["h"] = 216.3239164332553,
-				},
-			},
-			["DetailWindowX"] = 76.00000629162604,
 			["LastInstanceName"] = "Icecrown Citadel",
 			["FrameStrata"] = "2-LOW",
 			["CurDataSet"] = "LastFightData",
@@ -167,11 +131,47 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 88.99999815354454,
+			["DetailWindowY"] = 0,
 			["Locked"] = true,
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
 			["GraphWindowX"] = 0,
+		},
+		["Invariably - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["ShowScrollbar"] = false,
+				["Position"] = {
+					["y"] = -403.6424586552976,
+					["x"] = 823.2925515149108,
+					["w"] = 264.410006667072,
+					["h"] = 216.3239164332553,
+				},
+				["RowHeight"] = 15,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 88.99999815354454,
+			["DetailWindowX"] = 76.00000629162604,
+			["GraphWindowX"] = 0,
+			["Locked"] = true,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
+			["ClampToScreen"] = true,
+			["MainWindowHeight"] = 120,
+			["MainWindowWidth"] = 230,
+			["FrameStrata"] = "2-LOW",
 		},
 		["Minato - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -189,9 +189,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

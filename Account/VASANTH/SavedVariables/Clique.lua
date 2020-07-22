@@ -3,11 +3,67 @@ CliqueDB = {
 	["char"] = {
 	},
 	["profileKeys"] = {
-		["Insanehpala - Icecrown"] = "Insanehpala - Icecrown",
-		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
 		["Immutability - Icecrown"] = "Immutability - Icecrown",
+		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
+		["Insanehpala - Icecrown"] = "Insanehpala - Icecrown",
 	},
 	["profiles"] = {
+		["Immutability - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-1"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "1",
+						["delete"] = true,
+						["arg1"] = "Beacon of Light",
+						["texture"] = "Interface\\Icons\\Ability_Paladin_BeaconofLight",
+					},
+					["3"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "3",
+						["delete"] = true,
+						["arg1"] = "Holy Shock",
+						["texture"] = "Interface\\Icons\\Spell_Holy_SearingLight",
+					},
+					["2"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Holy Light",
+						["texture"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
+					},
+					["1"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "1",
+						["delete"] = true,
+						["arg1"] = "Flash of Light",
+						["texture"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
+					},
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Sacred Shield",
+						["texture"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
+					},
+				},
+			},
+			["blacklist"] = {
+				["ElvUF_TargetTarget"] = true,
+				["ElvUF_Target"] = true,
+				["PlayerFrame"] = true,
+				["ElvUF_Player"] = true,
+				["ElvUF_TargetTargetTarget"] = true,
+				["TargetFrame"] = true,
+			},
+		},
+		["Milkmycow - Icecrown"] = {
+		},
 		["Insanehpala - Icecrown"] = {
 			["clicksets"] = {
 				["Default"] = {
@@ -51,14 +107,6 @@ CliqueDB = {
 						["arg1"] = "Divine Intervention",
 						["texture"] = "Interface\\Icons\\Spell_Nature_TimeStop",
 					},
-					["2"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Holy Light",
-						["texture"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
-					},
 					["1"] = {
 						["type"] = "spell",
 						["modifier"] = "",
@@ -66,6 +114,14 @@ CliqueDB = {
 						["delete"] = true,
 						["arg1"] = "Flash of Light",
 						["texture"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
+					},
+					["2"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Holy Light",
+						["texture"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
 					},
 				},
 			},
@@ -87,64 +143,8 @@ CliqueDB = {
 				["PartyMemberFrame1PetFrame"] = true,
 				["PartyMemberFrame2PetFrame"] = true,
 				["PartyMemberFrame4PetFrame"] = true,
-				["ElvUF_Target"] = true,
 				["ElvUF_FocusTarget"] = true,
-			},
-		},
-		["Milkmycow - Icecrown"] = {
-		},
-		["Immutability - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-1"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "1",
-						["delete"] = true,
-						["arg1"] = "Beacon of Light",
-						["texture"] = "Interface\\Icons\\Ability_Paladin_BeaconofLight",
-					},
-					["3"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "3",
-						["delete"] = true,
-						["arg1"] = "Holy Shock",
-						["texture"] = "Interface\\Icons\\Spell_Holy_SearingLight",
-					},
-					["2"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Holy Light",
-						["texture"] = "Interface\\Icons\\Spell_Holy_HolyBolt",
-					},
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Sacred Shield",
-						["texture"] = "Interface\\Icons\\Ability_Paladin_BlessedMending",
-					},
-					["1"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "1",
-						["delete"] = true,
-						["arg1"] = "Flash of Light",
-						["texture"] = "Interface\\Icons\\Spell_Holy_FlashHeal",
-					},
-				},
-			},
-			["blacklist"] = {
-				["ElvUF_TargetTarget"] = true,
 				["ElvUF_Target"] = true,
-				["TargetFrame"] = true,
-				["ElvUF_Player"] = true,
-				["ElvUF_TargetTargetTarget"] = true,
-				["PlayerFrame"] = true,
 			},
 		},
 	},

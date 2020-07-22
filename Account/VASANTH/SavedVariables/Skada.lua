@@ -1,10 +1,10 @@
 
 SkadaDB = {
 	["profileKeys"] = {
-		["Insanehpala - Icecrown"] = "Default",
-		["Milkmycow - Icecrown"] = "Default",
-		["Kkthnx - Lordaeron"] = "Default",
 		["Immutability - Icecrown"] = "Default",
+		["Kkthnx - Lordaeron"] = "Default",
+		["Milkmycow - Icecrown"] = "Default",
+		["Insanehpala - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -16,10 +16,10 @@ SkadaDB = {
 					["barfontsize"] = 12,
 					["barslocked"] = true,
 					["background"] = {
+						["height"] = 191.0000023935534,
 						["color"] = {
 							["a"] = 0,
 						},
-						["height"] = 191.0000023935534,
 					},
 					["spark"] = false,
 					["bartexture"] = "ElvUI Norm",
@@ -31,9 +31,9 @@ SkadaDB = {
 						["fontsize"] = 12,
 						["height"] = 13,
 					},
-					["mode"] = "Absorbs and healing",
-					["barwidth"] = 199.9999301082413,
 					["barfont"] = "Arial Narrow",
+					["barwidth"] = 199.9999301082413,
+					["mode"] = "Absorbs and healing",
 				}, -- [1]
 			},
 			["total"] = {
@@ -55,8 +55,8 @@ SkadaDB = {
 				},
 				["name"] = "Total",
 				["overhealing"] = 0,
-				["damagetaken"] = 0,
 				["starttime"] = 1595247444,
+				["damagetaken"] = 0,
 				["last_action"] = 1595247444,
 				["mobdone"] = 0,
 			},

@@ -68,15 +68,15 @@ ActionBarSaverDB = {
 				[51] = "macro|51||mindsear|Interface\\Icons\\Spell_Shadow_MindShear|#showtooltip mind sear/n/use 10/n/cast Berserking(Racial)/n/cast Inner Focus/n/cast mind sear/n/target wicked spirit",
 				[59] = "item|42545||Runic Mana Injector",
 				[71] = "macro|71||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast Berserking(Racial)/n/cast Inner Focus/n/use 10",
-				[64] = "spell|139||Prayer of Mending|Rank 3|48113",
-				[66] = "spell|24||Fear Ward||6346",
+				[118] = "spell|160||Resurrection|Rank 7|48171",
+				[68] = "spell|125||Holy Nova|Rank 9|48078",
 				[72] = "item|50699||Plague Scientist's Boots",
 				[70] = "spell|208||Psychic Scream|Rank 4|10890",
 				[52] = "item|54589||Glowing Twilight Scale",
 				[60] = "spell|35||Levitate||1706",
 				[73] = "spell|195||Mind Blast|Rank 13|48127",
-				[68] = "spell|125||Holy Nova|Rank 9|48078",
-				[118] = "spell|160||Resurrection|Rank 7|48171",
+				[66] = "spell|24||Fear Ward||6346",
+				[64] = "spell|139||Prayer of Mending|Rank 3|48113",
 			},
 			["shadow"] = {
 				"spell|190||Mind Blast|Rank 13|48127", -- [1]
@@ -222,16 +222,16 @@ ActionBarSaverDB = {
 				[51] = "macro|51||mindsear|Interface\\Icons\\Spell_Shadow_MindShear|#showtooltip mind sear/n/use 10/n/cast Berserking(Racial)/n/cast Inner Focus/n/cast mind sear/n/target wicked spirit",
 				[59] = "item|42545||Runic Mana Injector",
 				[71] = "macro|71||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast Berserking(Racial)/n/cast Inner Focus/n/use 10",
-				[118] = "spell|160||Resurrection|Rank 7|48171",
-				[68] = "spell|125||Holy Nova|Rank 9|48078",
-				[72] = "item|50699||Plague Scientist's Boots",
+				[64] = "spell|139||Prayer of Mending|Rank 3|48113",
+				[66] = "spell|24||Fear Ward||6346",
 				[36] = "companion|3|| disc|MOUNT|72286",
+				[72] = "item|50699||Plague Scientist's Boots",
 				[70] = "spell|208||Psychic Scream|Rank 4|10890",
 				[52] = "item|54589||Glowing Twilight Scale",
 				[60] = "spell|35||Levitate||1706",
 				[73] = "spell|195||Mind Blast|Rank 13|48127",
-				[66] = "spell|24||Fear Ward||6346",
-				[64] = "spell|139||Prayer of Mending|Rank 3|48113",
+				[68] = "spell|125||Holy Nova|Rank 9|48078",
+				[118] = "spell|160||Resurrection|Rank 7|48171",
 			},
 			["holy"] = {
 				"macro|1||fh|Interface\\Icons\\Spell_Holy_FlashHeal|#showtooltip/n/cast [@mouseover] flash heal", -- [1]
@@ -276,8 +276,8 @@ ActionBarSaverDB = {
 				[14] = "macro|14||fh|Interface\\Icons\\Spell_Holy_FlashHeal|#showtooltip/n/cast [@mouseover] flash heal",
 				[17] = "spell|210||Psychic Scream|Rank 4|10890",
 				[21] = "spell|198||Mind Control||605",
-				[65] = "macro|65||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast Berserking(Racial)/n/cast Inner Focus/n/use 10",
-				[58] = "companion|3||holy|MOUNT|17465",
+				[64] = "macro|64||mindsear|Interface\\Icons\\Spell_Shadow_MindShear|#showtooltip mind sear/n/use 10/n/cast Berserking(Racial)/n/cast Inner Focus/n/cast [nochanneling:Mind Flay] mind sear/n/target wicked spirit",
+				[66] = "macro|66||fear ward|Interface\\Icons\\Spell_Holy_Excorcism|#showtooltip/n/cast [@mouseover] fear ward",
 				[35] = "spell|7||Cooking|Grand Master|51296",
 				[69] = "macro|69||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus",
 				[51] = "equipmentset|holy|",
@@ -285,24 +285,172 @@ ActionBarSaverDB = {
 				[71] = "macro|71||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast Berserking(Racial)/n/cast Inner Focus/n/use 10",
 				[118] = "spell|162||Resurrection|Rank 7|48171",
 				[81] = "spell|183||Devouring Plague|Rank 9|48300",
-				[68] = "spell|127||Holy Nova|Rank 9|48078",
-				[72] = "item|50699||Plague Scientist's Boots",
 				[70] = "spell|210||Psychic Scream|Rank 4|10890",
+				[72] = "item|50699||Plague Scientist's Boots",
+				[68] = "spell|127||Holy Nova|Rank 9|48078",
 				[52] = "spell|37||Mass Dispel||32375",
 				[60] = "macro|60||follow focus|Interface\\Icons\\Ability_Druid_Dash|/follow focus",
 				[73] = "spell|197||Mind Blast|Rank 13|48127",
-				[66] = "macro|66||fear ward|Interface\\Icons\\Spell_Holy_Excorcism|#showtooltip/n/cast [@mouseover] fear ward",
-				[64] = "macro|64||mindsear|Interface\\Icons\\Spell_Shadow_MindShear|#showtooltip mind sear/n/use 10/n/cast Berserking(Racial)/n/cast Inner Focus/n/cast [nochanneling:Mind Flay] mind sear/n/target wicked spirit",
+				[58] = "companion|3||holy|MOUNT|17465",
+				[65] = "macro|65||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast Berserking(Racial)/n/cast Inner Focus/n/use 10",
 			},
 		},
 		["WARLOCK"] = {
 		},
-		["ROGUE"] = {
+		["HUNTER"] = {
+			["bm"] = {
+				"macro|1||ss bm|Interface\\Icons\\Ability_Hunter_SteadyShot|#showtooltip steady shot/n/petattack/n/cancelaura deterrence/n/cancelaura hand of protection/n/cast steady shot/n/cast silencing shot/n/cast Kill Command", -- [1]
+				"macro|2||ss|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast serpent sting/n/cast kill command/n/cast silencing shot", -- [2]
+				"macro|3||as bm|Interface\\Icons\\INV_Spear_07|#showtooltip aimed shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast aimed shot/n/cast silencing shot/n/cast Kill Command", -- [3]
+				"macro|4||bw|Interface\\Icons\\Ability_Druid_FerociousBite|#showtooltip bestial wrath/n/cast Blood Fury(Racial)/n/use 10/n/cast bestial wrath", -- [4]
+				"spell|132||Feign Death||5384", -- [5]
+				"macro|6||md|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [@focus] misdirection", -- [6]
+				"macro|7||cds|Interface\\Icons\\Ability_Hunter_RunningShot|#showtooltip/n/cast Rapid Fire/n/cast Call of the Wild", -- [7]
+				"spell|86||Hunter's Mark|Rank 5|53338", -- [8]
+				"spell|89||Kill Shot|Rank 3|61006", -- [9]
+				"spell|131||Explosive Trap|Rank 6|49067", -- [10]
+				"spell|164||Snake Trap||34600", -- [11]
+				"spell|125||Disengage||781", -- [12]
+				nil, -- [13]
+				nil, -- [14]
+				nil, -- [15]
+				nil, -- [16]
+				nil, -- [17]
+				nil, -- [18]
+				nil, -- [19]
+				nil, -- [20]
+				nil, -- [21]
+				nil, -- [22]
+				nil, -- [23]
+				nil, -- [24]
+				nil, -- [25]
+				nil, -- [26]
+				nil, -- [27]
+				nil, -- [28]
+				nil, -- [29]
+				nil, -- [30]
+				nil, -- [31]
+				nil, -- [32]
+				"spell|57||Tame Beast||1515", -- [33]
+				"spell|39||Feed Pet||6991", -- [34]
+				"macro|35||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [35]
+				"companion|1||bm|MOUNT|32245", -- [36]
+				nil, -- [37]
+				nil, -- [38]
+				nil, -- [39]
+				nil, -- [40]
+				nil, -- [41]
+				nil, -- [42]
+				nil, -- [43]
+				nil, -- [44]
+				"spell|10||Leatherworking|Grand Master|51302", -- [45]
+				"item|35953||Mead Basted Caribou", -- [46]
+				"spell|34||Call Pet||883", -- [47]
+				"companion|2||bm|MOUNT|23243", -- [48]
+				"item|49278||Goblin Rocket Pack", -- [49]
+				"spell|52||Mend Pet|Rank 10|48990", -- [50]
+				"macro|51||pack|Interface\\Icons\\Ability_Mount_WhiteTiger|#showtooltip/n/cast !aspect of the pack", -- [51]
+				"spell|124||Deterrence||19263", -- [52]
+				"spell|133||Freezing Arrow|Rank 1|60192", -- [53]
+				"spell|137||Frost Trap||13809", -- [54]
+				"spell|57||Tame Beast||1515", -- [55]
+				"companion|2||bm|MOUNT|23243", -- [56]
+				"companion|1||bm|MOUNT|32245", -- [57]
+				"spell|40||Intimidation||19577", -- [58]
+				"spell|53||Revive Pet||982", -- [59]
+				"macro|60||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus", -- [60]
+				"spell|123||Volley|Rank 6|58434", -- [61]
+				"macro|62||multi shot|Interface\\Icons\\Ability_UpgradeMoonGlaive|#showtooltip multi-shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast multi-shot/n/cast silencing shot", -- [62]
+				"spell|80||Distracting Shot|Rank 1|20736", -- [63]
+				"macro|64||ds|Interface\\Icons\\Spell_Frost_Stun|#showtooltip/n/cast [target=focus,harm,exists][target] concussive shot", -- [64]
+				"spell|36||Dismiss Pet||2641", -- [65]
+				"spell|34||Call Pet||883", -- [66]
+				"macro|67||dragonhawk|Interface\\Icons\\Ability_Hunter_Pet_DragonHawk|#showtooltip/n/cast !aspect of the dragonhawk", -- [67]
+				"macro|68||viper|Interface\\Icons\\Spell_Nature_WispSplode|#showtooltip/n/cast !aspect of the viper", -- [68]
+				"spell|116||Tranquilizing Shot||19801", -- [69]
+				"spell|116||Tranquilizing Shot||19801", -- [70]
+				"spell|42||Master's Call||53271", -- [71]
+				"item|53127||Returning Footfalls", -- [72]
+			},
+			["mm"] = {
+				"macro|1||ss|Interface\\Icons\\Ability_Hunter_SteadyShot|#showtooltip steady shot/n/use 10/n/cancelaura deterrence/n/cancelaura hand of protection/n/cast steady shot/n/cast silencing shot/n/cast Kill Command", -- [1]
+				"macro|2||ss|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast serpent sting/n/cast kill command/n/cast silencing shot", -- [2]
+				"macro|3||chimera|Interface\\Icons\\Ability_Hunter_ChimeraShot2|#showtooltip chimera shot/n/cast !aspect of the dragonhawk/n/cancelaura deterrence/n/cast chimera shot/n/cast silencing shot", -- [3]
+				"macro|4||as|Interface\\Icons\\INV_Spear_07|#showtooltip aimed shot/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast aimed shot/n/cast silencing shot/n/cast Kill Command", -- [4]
+				"spell|136||Feign Death||5384", -- [5]
+				"macro|6||md|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [@focus] misdirection", -- [6]
+				"macro|7||cds|Interface\\Icons\\Ability_Hunter_RunningShot|#showtooltip/n/cast Rapid Fire/n/cast Berserking(Racial)/n/cast Call of the Wild", -- [7]
+				"spell|87||Hunter's Mark|Rank 5|53338", -- [8]
+				"spell|90||Kill Shot|Rank 3|61006", -- [9]
+				"spell|135||Explosive Trap|Rank 6|49067", -- [10]
+				"spell|168||Snake Trap||34600", -- [11]
+				"macro|12||disengage|Interface\\Icons\\Ability_Rogue_Feint|#showtooltip/n/cast disengage/n/use 15", -- [12]
+				nil, -- [13]
+				nil, -- [14]
+				nil, -- [15]
+				nil, -- [16]
+				nil, -- [17]
+				nil, -- [18]
+				nil, -- [19]
+				nil, -- [20]
+				nil, -- [21]
+				nil, -- [22]
+				nil, -- [23]
+				nil, -- [24]
+				nil, -- [25]
+				nil, -- [26]
+				nil, -- [27]
+				nil, -- [28]
+				nil, -- [29]
+				nil, -- [30]
+				nil, -- [31]
+				nil, -- [32]
+				"spell|57||Tame Beast||1515", -- [33]
+				"spell|40||Feed Pet||6991", -- [34]
+				"macro|35||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [35]
+				"companion|1||mm|MOUNT|32245", -- [36]
+				nil, -- [37]
+				nil, -- [38]
+				nil, -- [39]
+				nil, -- [40]
+				nil, -- [41]
+				nil, -- [42]
+				nil, -- [43]
+				nil, -- [44]
+				"spell|10||Leatherworking|Grand Master|51302", -- [45]
+				"item|35953||Mead Basted Caribou", -- [46]
+				"spell|35||Call Pet||883", -- [47]
+				"companion|2||mm|MOUNT|23243", -- [48]
+				"item|49278||Goblin Rocket Pack", -- [49]
+				"spell|52||Mend Pet|Rank 10|48990", -- [50]
+				"macro|51||pack|Interface\\Icons\\Ability_Mount_WhiteTiger|#showtooltip/n/cast !aspect of the pack", -- [51]
+				"spell|128||Deterrence||19263", -- [52]
+				"spell|137||Freezing Arrow|Rank 1|60192", -- [53]
+				"spell|141||Frost Trap||13809", -- [54]
+				"macro|55||target shambling|Interface\\Icons\\Ability_BullRush|/target shambling horror/n/focus/n/targetlasttarget", -- [55]
+				"companion|2||mm|MOUNT|23243", -- [56]
+				"companion|1||mm|MOUNT|32245", -- [57]
+				"spell|120||Trueshot Aura||19506", -- [58]
+				"spell|53||Revive Pet||982", -- [59]
+				"macro|60||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus", -- [60]
+				"spell|127||Volley|Rank 6|58434", -- [61]
+				"macro|62||multi shot|Interface\\Icons\\Ability_UpgradeMoonGlaive|#showtooltip multi-shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast multi-shot/n/cast silencing shot", -- [62]
+				"spell|81||Distracting Shot|Rank 1|20736", -- [63]
+				"macro|64||ds|Interface\\Icons\\Spell_Frost_Stun|#showtooltip/n/cast [target=focus,harm,exists][target] concussive shot", -- [64]
+				"spell|37||Dismiss Pet||2641", -- [65]
+				"spell|35||Call Pet||883", -- [66]
+				"macro|67||dragonhawk|Interface\\Icons\\Spell_Nature_WispSplode|#showtooltip/n/cast !aspect of the dragonhawk", -- [67]
+				"macro|68||viper|Interface\\Icons\\Ability_Hunter_AspectoftheViper|#showtooltip/n/cast !aspect of the viper", -- [68]
+				"spell|119||Tranquilizing Shot||19801", -- [69]
+				"macro|70||tranq|Interface\\Icons\\Spell_Nature_Drowsy|#showtooltip/n/stopcasting/n/cast [@focus] tranquilizing shot/n/petattack", -- [70]
+				"spell|100||Readiness||23989", -- [71]
+				"item|53127||Returning Footfalls", -- [72]
+			},
 		},
 		["DRUID"] = {
 			["cat"] = {
 				"spell|11||Fishing|Grand Master|51294", -- [1]
-				"macro|2||cat|Interface\\Icons\\Ability_Druid_CatForm|#showtooltip cat form/n/cast [nostance:3] cat form", -- [2]
+				"macro|2||cat|Interface\\Icons\\Spell_Nature_WispSplode|#showtooltip cat form/n/cast [nostance:3] cat form", -- [2]
 				"spell|162||Mark of the Wild|Rank 9|48469", -- [3]
 				"spell|2||Basic Campfire||818", -- [4]
 				"spell|4||Cooking|Grand Master|51296", -- [5]
@@ -313,9 +461,9 @@ ActionBarSaverDB = {
 				"companion|40||cat|MOUNT|41252", -- [10]
 				"spell|198||Remove Curse||2782", -- [11]
 				"companion|68||cat|MOUNT|61447", -- [12]
-				"macro|13||VuhDoDCShieldNames|Interface\\Icons\\Ability_Hunter_MasterMarksman|NHoeChaSkiWilFatAlbFenMonVelCptStaMetIpeOyaEnfGulDeaJylBenWylIhaAnhTeqCla[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gar[x][x][x]Ama[x][x][x][x][x][x][x][x][x][x][x]Mar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]", -- [13]
+				"macro|13||VuhDoDCShieldNames|Interface\\Icons\\Ability_Hunter_MasterMarksman|N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]", -- [13]
 				"macro|14||rebirth|Interface\\Icons\\Spell_Nature_Reincarnation|#showtooltip/n/cast [@mouseover] rebirth", -- [14]
-				"macro|15||VuhDoDCShieldData|Interface\\Icons\\Ability_Hunter_MasterMarksman|R3DR1PM4MR3HR4IR8SH3DR1PT5IH4IR2PM1WM4MR5SH2PM2EM1EM5PH1WM8ET5DH2RM3DT4LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2DM[x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]", -- [15]
+				"macro|15||VuhDoDCShieldData|Interface\\Icons\\Ability_Hunter_MasterMarksman|P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]", -- [15]
 				"macro|16||cds|Interface\\Icons\\INV_Misc_QuestionMark|#showtooltip/n/cast survival instincts/n/cast frenzied regeneration", -- [16]
 				"spell|96||Berserk||50334", -- [17]
 				"spell|18||Cyclone||33786", -- [18]
@@ -324,7 +472,7 @@ ActionBarSaverDB = {
 				"spell|100||Cower|Rank 6|48575", -- [21]
 				"spell|170||Rebirth|Rank 7|48477", -- [22]
 				nil, -- [23]
-				"macro|24||VuhDoDCShieldData|Interface\\Icons\\Ability_Hunter_MasterMarksman|R3DR1PM4MR3HR4IR8SH3DR1PT5IH4IR2PM1WM4MR5SH2PM2EM1EM5PH1WM8ET5DH2RM3DT4LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]2DM[x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]", -- [24]
+				"macro|24||VuhDoDCShieldData|Interface\\Icons\\Ability_Hunter_MasterMarksman|P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]", -- [24]
 				"companion|34||cat|MOUNT|55531", -- [25]
 				"macro|26||trade|Interface\\Icons\\Ability_Creature_Disease_05|/trade", -- [26]
 				"macro|27||shred|Interface\\Icons\\Spell_Shadow_VampiricAura|#showtooltip/n/cast shred/n/startattack/n/cancelaura hand of protection/n/use 10", -- [27]
@@ -358,14 +506,14 @@ ActionBarSaverDB = {
 				"item|43015||Fish Feast", -- [55]
 				"item|42999||Blackened Dragonfin", -- [56]
 				"spell|135||Gift of the Wild|Rank 4|48470", -- [57]
-				"item|8529||Noggenfogger Elixir", -- [58]
+				"item|46377||Flask of Endless Rage", -- [58]
 				"item|40211||Potion of Speed", -- [59]
 				"spell|101||Dash|Rank 3|33357", -- [60]
 				"macro|61||swipe|Interface\\Icons\\INV_Misc_MonsterClaw_03|#showtooltip swipe (cat)/n/use 10/n/cast swipe (cat)/n/startattack/n/cancelaura hand of protection/n/cancelaura divine intervention", -- [61]
 				"macro|62||barkskin|Interface\\Icons\\Spell_Nature_StoneClawTotem|#showtooltip/n/cast Barkskin/n/cast Nature's Grasp/n/cast Enrage/n/cast Sindragosa's Flawless Fang", -- [62]
 				"spell|131||Abolish Poison||2893", -- [63]
 				"macro|64||bear|Interface\\Icons\\Ability_Racial_BearForm|#showtooltip dire bear form/n/cast [nostance:1] dire bear form", -- [64]
-				"macro|65||cat|Interface\\Icons\\Ability_Druid_CatForm|#showtooltip cat form/n/cast [nostance:3] cat form", -- [65]
+				"macro|65||cat|Interface\\Icons\\Spell_Nature_WispSplode|#showtooltip cat form/n/cast [nostance:3] cat form", -- [65]
 				"macro|66||travel form|Interface\\Icons\\Ability_Druid_TravelForm|#showtooltip travel form/n/cast [nostance:3] travel form", -- [66]
 				"equipmentset|cat|", -- [67]
 				"item|50653||Shadowvault Slayer's Cloak", -- [68]
@@ -711,155 +859,7 @@ ActionBarSaverDB = {
 				[144] = "spell|218||Wrath of Air Totem||3738",
 			},
 		},
-		["HUNTER"] = {
-			["bm"] = {
-				"macro|1||ss bm|Interface\\Icons\\Ability_Hunter_SteadyShot|#showtooltip steady shot/n/petattack/n/cancelaura deterrence/n/cancelaura hand of protection/n/cast steady shot/n/cast silencing shot/n/cast Kill Command", -- [1]
-				"macro|2||ss|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast serpent sting/n/cast kill command/n/cast silencing shot", -- [2]
-				"macro|3||as bm|Interface\\Icons\\INV_Spear_07|#showtooltip aimed shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast aimed shot/n/cast silencing shot/n/cast Kill Command", -- [3]
-				"macro|4||bw|Interface\\Icons\\Ability_Druid_FerociousBite|#showtooltip bestial wrath/n/cast Blood Fury(Racial)/n/use 10/n/cast bestial wrath", -- [4]
-				"spell|132||Feign Death||5384", -- [5]
-				"macro|6||md|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [@focus] misdirection", -- [6]
-				"macro|7||cds|Interface\\Icons\\Ability_Hunter_RunningShot|#showtooltip/n/cast Rapid Fire/n/cast Call of the Wild", -- [7]
-				"spell|86||Hunter's Mark|Rank 5|53338", -- [8]
-				"spell|89||Kill Shot|Rank 3|61006", -- [9]
-				"spell|131||Explosive Trap|Rank 6|49067", -- [10]
-				"spell|164||Snake Trap||34600", -- [11]
-				"spell|125||Disengage||781", -- [12]
-				nil, -- [13]
-				nil, -- [14]
-				nil, -- [15]
-				nil, -- [16]
-				nil, -- [17]
-				nil, -- [18]
-				nil, -- [19]
-				nil, -- [20]
-				nil, -- [21]
-				nil, -- [22]
-				nil, -- [23]
-				nil, -- [24]
-				nil, -- [25]
-				nil, -- [26]
-				nil, -- [27]
-				nil, -- [28]
-				nil, -- [29]
-				nil, -- [30]
-				nil, -- [31]
-				nil, -- [32]
-				"spell|57||Tame Beast||1515", -- [33]
-				"spell|39||Feed Pet||6991", -- [34]
-				"macro|35||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [35]
-				"companion|1||bm|MOUNT|32245", -- [36]
-				nil, -- [37]
-				nil, -- [38]
-				nil, -- [39]
-				nil, -- [40]
-				nil, -- [41]
-				nil, -- [42]
-				nil, -- [43]
-				nil, -- [44]
-				"spell|10||Leatherworking|Grand Master|51302", -- [45]
-				"item|35953||Mead Basted Caribou", -- [46]
-				"spell|34||Call Pet||883", -- [47]
-				"companion|2||bm|MOUNT|23243", -- [48]
-				"item|49278||Goblin Rocket Pack", -- [49]
-				"spell|52||Mend Pet|Rank 10|48990", -- [50]
-				"macro|51||pack|Interface\\Icons\\Ability_Mount_WhiteTiger|#showtooltip/n/cast !aspect of the pack", -- [51]
-				"spell|124||Deterrence||19263", -- [52]
-				"spell|133||Freezing Arrow|Rank 1|60192", -- [53]
-				"spell|137||Frost Trap||13809", -- [54]
-				"spell|57||Tame Beast||1515", -- [55]
-				"companion|2||bm|MOUNT|23243", -- [56]
-				"companion|1||bm|MOUNT|32245", -- [57]
-				"spell|40||Intimidation||19577", -- [58]
-				"spell|53||Revive Pet||982", -- [59]
-				"macro|60||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus", -- [60]
-				"spell|123||Volley|Rank 6|58434", -- [61]
-				"macro|62||multi shot|Interface\\Icons\\Ability_UpgradeMoonGlaive|#showtooltip multi-shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast multi-shot/n/cast silencing shot", -- [62]
-				"spell|80||Distracting Shot|Rank 1|20736", -- [63]
-				"macro|64||ds|Interface\\Icons\\Spell_Frost_Stun|#showtooltip/n/cast [target=focus,harm,exists][target] concussive shot", -- [64]
-				"spell|36||Dismiss Pet||2641", -- [65]
-				"spell|34||Call Pet||883", -- [66]
-				"macro|67||dragonhawk|Interface\\Icons\\Ability_Hunter_Pet_DragonHawk|#showtooltip/n/cast !aspect of the dragonhawk", -- [67]
-				"macro|68||viper|Interface\\Icons\\Spell_Nature_WispSplode|#showtooltip/n/cast !aspect of the viper", -- [68]
-				"spell|116||Tranquilizing Shot||19801", -- [69]
-				"spell|116||Tranquilizing Shot||19801", -- [70]
-				"spell|42||Master's Call||53271", -- [71]
-				"item|53127||Returning Footfalls", -- [72]
-			},
-			["mm"] = {
-				"macro|1||ss|Interface\\Icons\\Ability_Hunter_SteadyShot|#showtooltip steady shot/n/use 10/n/cancelaura deterrence/n/cancelaura hand of protection/n/cast steady shot/n/cast silencing shot/n/cast Kill Command", -- [1]
-				"macro|2||ss|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast serpent sting/n/cast kill command/n/cast silencing shot", -- [2]
-				"macro|3||chimera|Interface\\Icons\\Ability_Hunter_ChimeraShot2|#showtooltip chimera shot/n/cast !aspect of the dragonhawk/n/cancelaura deterrence/n/cast chimera shot/n/cast silencing shot", -- [3]
-				"macro|4||as|Interface\\Icons\\INV_Spear_07|#showtooltip aimed shot/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast aimed shot/n/cast silencing shot/n/cast Kill Command", -- [4]
-				"spell|136||Feign Death||5384", -- [5]
-				"macro|6||md|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip/n/cast [@focus] misdirection", -- [6]
-				"macro|7||cds|Interface\\Icons\\Ability_Hunter_RunningShot|#showtooltip/n/cast Rapid Fire/n/cast Berserking(Racial)/n/cast Call of the Wild", -- [7]
-				"spell|87||Hunter's Mark|Rank 5|53338", -- [8]
-				"spell|90||Kill Shot|Rank 3|61006", -- [9]
-				"spell|135||Explosive Trap|Rank 6|49067", -- [10]
-				"spell|168||Snake Trap||34600", -- [11]
-				"macro|12||disengage|Interface\\Icons\\Ability_Rogue_Feint|#showtooltip/n/cast disengage/n/use 15", -- [12]
-				nil, -- [13]
-				nil, -- [14]
-				nil, -- [15]
-				nil, -- [16]
-				nil, -- [17]
-				nil, -- [18]
-				nil, -- [19]
-				nil, -- [20]
-				nil, -- [21]
-				nil, -- [22]
-				nil, -- [23]
-				nil, -- [24]
-				nil, -- [25]
-				nil, -- [26]
-				nil, -- [27]
-				nil, -- [28]
-				nil, -- [29]
-				nil, -- [30]
-				nil, -- [31]
-				nil, -- [32]
-				"spell|57||Tame Beast||1515", -- [33]
-				"spell|40||Feed Pet||6991", -- [34]
-				"macro|35||Recount|Interface\\Icons\\Ability_Ambush|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [35]
-				"companion|1||mm|MOUNT|32245", -- [36]
-				nil, -- [37]
-				nil, -- [38]
-				nil, -- [39]
-				nil, -- [40]
-				nil, -- [41]
-				nil, -- [42]
-				nil, -- [43]
-				nil, -- [44]
-				"spell|10||Leatherworking|Grand Master|51302", -- [45]
-				"item|35953||Mead Basted Caribou", -- [46]
-				"spell|35||Call Pet||883", -- [47]
-				"companion|2||mm|MOUNT|23243", -- [48]
-				"item|49278||Goblin Rocket Pack", -- [49]
-				"spell|52||Mend Pet|Rank 10|48990", -- [50]
-				"macro|51||pack|Interface\\Icons\\Ability_Mount_WhiteTiger|#showtooltip/n/cast !aspect of the pack", -- [51]
-				"spell|128||Deterrence||19263", -- [52]
-				"spell|137||Freezing Arrow|Rank 1|60192", -- [53]
-				"spell|141||Frost Trap||13809", -- [54]
-				"macro|55||target shambling|Interface\\Icons\\Ability_BullRush|/target shambling horror/n/focus/n/targetlasttarget", -- [55]
-				"companion|2||mm|MOUNT|23243", -- [56]
-				"companion|1||mm|MOUNT|32245", -- [57]
-				"spell|120||Trueshot Aura||19506", -- [58]
-				"spell|53||Revive Pet||982", -- [59]
-				"macro|60||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus", -- [60]
-				"spell|127||Volley|Rank 6|58434", -- [61]
-				"macro|62||multi shot|Interface\\Icons\\Ability_UpgradeMoonGlaive|#showtooltip multi-shot/n/petattack/n/cancelaura deterrence/n/cast !aspect of the dragonhawk/n/cast multi-shot/n/cast silencing shot", -- [62]
-				"spell|81||Distracting Shot|Rank 1|20736", -- [63]
-				"macro|64||ds|Interface\\Icons\\Spell_Frost_Stun|#showtooltip/n/cast [target=focus,harm,exists][target] concussive shot", -- [64]
-				"spell|37||Dismiss Pet||2641", -- [65]
-				"spell|35||Call Pet||883", -- [66]
-				"macro|67||dragonhawk|Interface\\Icons\\Spell_Nature_WispSplode|#showtooltip/n/cast !aspect of the dragonhawk", -- [67]
-				"macro|68||viper|Interface\\Icons\\Ability_Hunter_AspectoftheViper|#showtooltip/n/cast !aspect of the viper", -- [68]
-				"spell|119||Tranquilizing Shot||19801", -- [69]
-				"macro|70||tranq|Interface\\Icons\\Spell_Nature_Drowsy|#showtooltip/n/stopcasting/n/cast [@focus] tranquilizing shot/n/petattack", -- [70]
-				"spell|100||Readiness||23989", -- [71]
-				"item|53127||Returning Footfalls", -- [72]
-			},
+		["ROGUE"] = {
 		},
 	},
 	["spellSubs"] = {

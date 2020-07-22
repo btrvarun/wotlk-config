@@ -6,8 +6,8 @@ RecountPerCharDB = {
 			["GUID"] = "0x0700000000049519",
 			["type"] = "Self",
 			["TimeLast"] = {
-				["ManaGain"] = 1595168713,
 				["OVERALL"] = 1595168713,
+				["ManaGain"] = 1595168713,
 			},
 			["GuardianReverseGUIDs"] = {
 				["Mana Tide Totem"] = {
@@ -20,19 +20,7 @@ RecountPerCharDB = {
 			},
 			["Owner"] = false,
 			["enClass"] = "SHAMAN",
-			["LastAbility"] = 293651.664,
-			["UnitLockout"] = 1595168379,
-			["LastFightIn"] = 0,
-			["Name"] = "Ingrate",
-			["Pet"] = {
-				"Mana Tide Totem <Ingrate>", -- [1]
-			},
-			["TimeWindows"] = {
-				["ManaGain"] = {
-					14436, -- [1]
-				},
-			},
-			["level"] = 80,
+			["LastActive"] = 1595168713,
 			["Fights"] = {
 				["CurrentFightData"] = {
 					["ManaGain"] = 14436,
@@ -81,7 +69,19 @@ RecountPerCharDB = {
 					},
 				},
 			},
-			["LastActive"] = 1595168713,
+			["LastFightIn"] = 0,
+			["Name"] = "Ingrate",
+			["TimeWindows"] = {
+				["ManaGain"] = {
+					14436, -- [1]
+				},
+			},
+			["Pet"] = {
+				"Mana Tide Totem <Ingrate>", -- [1]
+			},
+			["level"] = 80,
+			["UnitLockout"] = 1595168379,
+			["LastAbility"] = 459056.094,
 		},
 		["Zoulaykha"] = {
 			["GUID"] = "0x0700000000227577",
@@ -106,7 +106,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Ungrouped",
 			["Owner"] = false,
-			["LastActive"] = 1579057657,
+			["LastAbility"] = 459056.094,
 			["NextEventNum"] = 4,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -119,20 +119,20 @@ RecountPerCharDB = {
 				"Zoulaykha Fel Armor Zoulaykha Tick +617 (617 overheal)", -- [3]
 			},
 			["Name"] = "Zoulaykha",
-			["LastEventTimes"] = {
-				52829.863, -- [1]
-				52834.835, -- [2]
-				52839.862, -- [3]
-			},
-			["Fights"] = {
-			},
+			["UnitLockout"] = 1579057647,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
 				true, -- [3]
 			},
-			["UnitLockout"] = 1579057647,
-			["LastAbility"] = 293651.664,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				52829.863, -- [1]
+				52834.835, -- [2]
+				52839.862, -- [3]
+			},
+			["LastActive"] = 1579057657,
 		},
 		["Immutability"] = {
 			["GUID"] = "0x0700000000010EF2",
@@ -184,7 +184,7 @@ RecountPerCharDB = {
 			},
 			["type"] = "Self",
 			["Owner"] = false,
-			["LastActive"] = 1579057583,
+			["LastAbility"] = 459056.094,
 			["NextEventNum"] = 13,
 			["LastEventHealthNum"] = {
 				100, -- [1]
@@ -215,22 +215,7 @@ RecountPerCharDB = {
 				"Dyips Regrowth Immutability Tick +199 (199 overheal)", -- [12]
 			},
 			["Name"] = "Immutability",
-			["LastEventTimes"] = {
-				52747.557, -- [1]
-				52750.21, -- [2]
-				52750.518, -- [3]
-				52753.092, -- [4]
-				52753.499, -- [5]
-				52756.064, -- [6]
-				52756.489, -- [7]
-				52759.027, -- [8]
-				52759.522, -- [9]
-				52762.031, -- [10]
-				52762.555, -- [11]
-				52765.491, -- [12]
-			},
-			["Fights"] = {
-			},
+			["UnitLockout"] = 1579057565,
 			["LastEventIncoming"] = {
 				true, -- [1]
 				true, -- [2]
@@ -245,8 +230,23 @@ RecountPerCharDB = {
 				true, -- [11]
 				true, -- [12]
 			},
-			["UnitLockout"] = 1579057565,
-			["LastAbility"] = 293651.664,
+			["Fights"] = {
+			},
+			["LastEventTimes"] = {
+				52747.557, -- [1]
+				52750.21, -- [2]
+				52750.518, -- [3]
+				52753.092, -- [4]
+				52753.499, -- [5]
+				52756.064, -- [6]
+				52756.489, -- [7]
+				52759.027, -- [8]
+				52759.522, -- [9]
+				52762.031, -- [10]
+				52762.555, -- [11]
+				52765.491, -- [12]
+			},
+			["LastActive"] = 1579057583,
 		},
 		["Mana Tide Totem <Ingrate>"] = {
 			["GUID"] = "0xF1300028E3119FD5",
@@ -268,34 +268,11 @@ RecountPerCharDB = {
 			["LastFightIn"] = 0,
 			["type"] = "Pet",
 			["LastFlags"] = 4369,
-			["Fights"] = {
-				["CurrentFightData"] = {
-					["DeathCount"] = 2,
-				},
-				["OverallData"] = {
-					["DeathCount"] = 2,
-				},
+			["LastEventTimes"] = {
+				293305.843, -- [1]
+				293641.021, -- [2]
 			},
 			["Owner"] = "Ingrate",
-			["UnitLockout"] = 1595168714,
-			["NextEventNum"] = 3,
-			["LastEventHealthNum"] = {
-				0, -- [1]
-				0, -- [2]
-			},
-			["LastEvents"] = {
-				"Mana Tide Totem <Ingrate> dies.", -- [1]
-				"Mana Tide Totem <Ingrate> dies.", -- [2]
-			},
-			["Name"] = "Mana Tide Totem",
-			["TimeLast"] = {
-				["DeathCount"] = 1595168714,
-				["OVERALL"] = 1595168714,
-			},
-			["LastEventIncoming"] = {
-				true, -- [1]
-				true, -- [2]
-			},
 			["DeathLogs"] = {
 				{
 					["MessageTimes"] = {
@@ -307,11 +284,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Mana Tide Totem <Ingrate> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1595168716,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -331,11 +308,11 @@ RecountPerCharDB = {
 					["Messages"] = {
 						"Mana Tide Totem <Ingrate> dies.", -- [1]
 					},
-					["HealthNum"] = {
+					["EventNum"] = {
 						0, -- [1]
 					},
 					["DeathAt"] = 1595168381,
-					["EventNum"] = {
+					["HealthNum"] = {
 						0, -- [1]
 					},
 					["Health"] = {
@@ -346,11 +323,34 @@ RecountPerCharDB = {
 					},
 				}, -- [2]
 			},
-			["LastEventTimes"] = {
-				293305.843, -- [1]
-				293641.021, -- [2]
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				0, -- [1]
+				0, -- [2]
 			},
-			["LastAbility"] = 293651.664,
+			["LastEvents"] = {
+				"Mana Tide Totem <Ingrate> dies.", -- [1]
+				"Mana Tide Totem <Ingrate> dies.", -- [2]
+			},
+			["Name"] = "Mana Tide Totem",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			["TimeLast"] = {
+				["OVERALL"] = 1595168714,
+				["DeathCount"] = 1595168714,
+			},
+			["UnitLockout"] = 1595168714,
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DeathCount"] = 2,
+				},
+				["OverallData"] = {
+					["DeathCount"] = 2,
+				},
+			},
+			["LastAbility"] = 459056.094,
 		},
 	},
 	["FightNum"] = 0,
