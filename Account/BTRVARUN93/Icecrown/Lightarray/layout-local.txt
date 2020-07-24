@@ -13,3 +13,10 @@ X: -161
 Y: -5
 W: 32
 H: 32
+Frame: Recount_MainWindow
+FrameLevel: 24
+Anchor: RIGHT
+X: -402
+Y: 107
+W: 140
+H: 200

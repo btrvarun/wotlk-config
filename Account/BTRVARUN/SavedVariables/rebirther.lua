@@ -2,13 +2,13 @@
 RebirtherDB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Default",
-		["Garzh - Icecrown"] = "Default",
+		["Invariably - Icecrown"] = "Default",
 		["Bowbaby - Icecrown"] = "Default",
 		["Kamakshi - Icecrown"] = "Default",
 		["Ingrate - Icecrown"] = "Default",
-		["Minato - Icecrown"] = "Default",
+		["Garzh - Icecrown"] = "Default",
 		["Bowbaby - Unlimited WoW"] = "Default",
-		["Invariably - Icecrown"] = "Default",
+		["Minato - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Icecrown"] = {
@@ -17,16 +17,15 @@ RebirtherDB = {
 		},
 		["Default"] = {
 			["font"] = {
-				["filePath"] = "Fonts\\ARIALN.TTF",
-				["file"] = "Arial Narrow",
+				["filePath"] = "Interface\\AddOns\\ElvUI\\Media\\Fonts\\PTSansNarrow.ttf",
+				["targetSize"] = 12,
+				["file"] = "PT Sans Narrow",
+				["titleSize"] = 12,
 			},
 			["bar"] = {
-				["texturePath"] = "Interface\\Addons\\Recount\\Textures\\statusbar\\Armory",
+				["texturePath"] = "Interface\\Addons\\Skada\\statusbar\\Armory",
 				["texture"] = "Armory",
 			},
-			["announceOnSelf"] = true,
-			["lock"] = true,
-			["announceToTarget"] = true,
 		},
 		["Garzh - Icecrown"] = {
 		},

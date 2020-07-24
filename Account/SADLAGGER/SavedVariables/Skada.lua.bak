@@ -1,0 +1,10 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Anemic - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -31,15 +31,15 @@ MACRO 167 "bt hs" INV_Misc_QuestionMark
 /cast heroic strike
 /use Aldriana's Gloves of Secrecy
 END
-MACRO 171 "charge" INV_Misc_QuestionMark
-#showtooltip intercept
-/cast bloodrage
-/cast intercept
-END
 MACRO 149 "charge" INV_Misc_QuestionMark
 #showtooltip
 /cast feral charge - cat
 /startattack
+END
+MACRO 171 "charge" INV_Misc_QuestionMark
+#showtooltip intercept
+/cast bloodrage
+/cast intercept
 END
 MACRO 134 "corruptionnopet" INV_Misc_QuestionMark
 #showtooltip Corruption

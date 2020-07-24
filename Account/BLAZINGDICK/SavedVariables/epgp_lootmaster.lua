@@ -1,12 +1,15 @@
 
 EPGPLootMaster = {
 	["profileKeys"] = {
-		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
 		["Circi - Icecrown"] = "Circi - Icecrown",
-		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
+		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
+		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
+		["Dirtyheals - Icecrown"] = "Dirtyheals - Icecrown",
 	},
 	["profiles"] = {
+		["Dirtyheals - Icecrown"] = {
+		},
 		["Fatpotato - Icecrown"] = {
 		},
 		["Deathfeast - Icecrown"] = {

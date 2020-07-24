@@ -1,0 +1,54 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Camphor"] = {
+			["GUID"] = "0x07000000004E281A",
+			["LastEventHealth"] = {
+				"23994 (100%)", -- [1]
+				"23994 (100%)", -- [2]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "Camphor",
+			["level"] = 80,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				2.59648245394682, -- [1]
+				2.59648245394682, -- [2]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 3,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+			},
+			["LastEvents"] = {
+				"Camphor Fel Armor Camphor Tick +623 (623 overheal)", -- [1]
+				"Camphor Fel Armor Camphor Tick +623 (623 overheal)", -- [2]
+			},
+			["Name"] = "Camphor",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+			},
+			["LastEventTimes"] = {
+				705025.135, -- [1]
+				705030.135, -- [2]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1595580083,
+			["LastActive"] = 1595580088,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

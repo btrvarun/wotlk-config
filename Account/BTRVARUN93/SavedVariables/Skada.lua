@@ -31,17 +31,17 @@ SkadaDB = {
 						["time"] = 0,
 						["interrupts"] = 0,
 						["deathts"] = 1580060485.475,
-						["totalabsorbs"] = 0,
-						["maxhp"] = 0,
+						["id"] = "0x070000000041FBB7",
+						["first"] = 1580060474,
 						["damage"] = 0,
 						["damagespells"] = {
 						},
 						["deaths"] = 1,
 						["damagetaken"] = 33957,
-						["deathlog"] = {
+						["power"] = {
 						},
-						["id"] = "0x070000000041FBB7",
-						["first"] = 1580060474,
+						["totalabsorbs"] = 0,
+						["maxhp"] = 0,
 						["dispells"] = 0,
 						["damagetakenspells"] = {
 							["Seal of Righteousness"] = {
@@ -92,14 +92,14 @@ SkadaDB = {
 						},
 						["failevents"] = {
 						},
-						["name"] = "Lightarray",
 						["uptime"] = 0,
+						["name"] = "Lightarray",
 						["healed"] = {
 						},
 						["healing"] = 0,
 						["healingspells"] = {
 						},
-						["power"] = {
+						["deathlog"] = {
 						},
 						["overhealing"] = 0,
 					}, -- [1]

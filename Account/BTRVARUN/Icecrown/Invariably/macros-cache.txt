@@ -12,8 +12,9 @@ MACRO 16777223 "coh" INV_Misc_QuestionMark
 /cast [@mouseover] circle of healing
 END
 MACRO 16777233 "dp" INV_Misc_QuestionMark
-#showtooltip devouring plague
-/cast [nochanneling:Mind Flay] devouring plague
+#showtooltip
+/cast devouring plague
+/target wicked spirit
 END
 MACRO 16777232 "fear ward" INV_Misc_QuestionMark
 #showtooltip
@@ -28,8 +29,9 @@ MACRO 16777220 "gh" INV_Misc_QuestionMark
 /cast [@mouseover] greater heal
 END
 MACRO 16777231 "mf" INV_Misc_QuestionMark
-#showtooltip mind flay
-/cast [nochanneling:Mind Flay] Mind Flay
+#showtooltip
+/cast mind flay
+/target wicked spirit
 END
 MACRO 16777229 "pen" INV_Misc_QuestionMark
 #showtooltip
@@ -59,13 +61,12 @@ MACRO 16777219 "renew" INV_Misc_QuestionMark
 #showtooltip
 /cast [@mouseover] renew
 END
+MACRO 16777235 "swd" INV_Misc_QuestionMark
+#showtooltip
+/cast shadow word: death
+/target wicked spirit
+END
 MACRO 16777234 "vt" INV_Misc_QuestionMark
 #showtooltip vampiric touch
 /cast [nochanneling:Mind Flay] vampiric touch
-END
-MACRO 16777226 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
-END
-MACRO 16777227 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Inv[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

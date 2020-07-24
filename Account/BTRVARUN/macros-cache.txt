@@ -94,7 +94,7 @@ MACRO 160 "mindsear" INV_Misc_QuestionMark
 /use 10
 /cast Berserking(Racial)
 /cast Inner Focus
-/cast [nochanneling:Mind sear] mind sear
+/cast mind sear
 /target wicked spirit
 END
 MACRO 143 "rake" INV_Misc_QuestionMark

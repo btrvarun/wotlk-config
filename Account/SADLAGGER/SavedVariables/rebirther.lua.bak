@@ -1,0 +1,10 @@
+
+RebirtherDB = {
+	["profileKeys"] = {
+		["Anemic - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,134 @@
+MACRO 57 "adopt" INV_Misc_QuestionMark
+/g [18:52:28][G] [Albakira]: I already adpoted Anemic and Rapunzel like wtf, too much work.
+END
+MACRO 72 "albawisp" INV_Misc_QuestionMark
+/w Albakira BL Play your CLASS
+END
+MACRO 55 "best guildie" Ability_Creature_Cursed_05
+/g [19:14:00][G] [Albakira]: you're the best guildie cause first one to be minus after GM and officers you know
+END
+MACRO 48 "cpu usage macro" Ability_Ambush
+/console m2Faster 3
+END
+MACRO 63 "cure disease" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Cure Disease;Cure Disease;
+END
+MACRO 62 "divine hymn" INV_Misc_QuestionMark
+#showtooltip
+/s Using Divine Hymn
+/cast Divine Hymn
+END
+MACRO 46 "fireblast" INV_Misc_QuestionMark
+#showtooltip
+/cast fire blast
+/cancelaura invisibility
+/cancelaura ice block
+END
+MACRO 43 "fm" INV_Misc_QuestionMark
+#showtooltip 
+/cast [@mouseover,exists] focus magic;focus magic;
+END
+MACRO 44 "focus" INV_Misc_QuestionMark
+/focus
+END
+MACRO 49 "gather spam" INV_Misc_QuestionMark
+/cast Find Herbs
+/cast Find Minerals
+END
+MACRO 71 "herb" INV_Misc_QuestionMark
+/dbm break 30
+END
+MACRO 67 "hymn" INV_Misc_QuestionMark
+/s Priest HYMN OF HOPE 
+END
+MACRO 61 "hymn of hope" INV_Misc_QuestionMark
+#showtooltip
+/s Using Hymn Of Hope 
+/cast Hymn of Hope
+END
+MACRO 42 "inferno" Ability_Hunter_MarkedForDeath
+/target living inferno
+END
+MACRO 66 "jump" INV_Misc_QuestionMark
+/rw Green Ooze Stack
+END
+MACRO 52 "kiss " INV_Misc_QuestionMark
+/kiss
+END
+MACRO 70 "lb mouseover" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Living Bomb;Living Bomb;
+END
+MACRO 69 "levitate" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Levitate;Levitate;
+END
+MACRO 56 "logs" INV_Misc_QuestionMark
+/combatlog
+END
+MACRO 65 "mf" INV_Misc_QuestionMark
+#showtooltip Mind Flay
+/use Sanctified Crimson Acolyte Handwraps
+/cast Mind Flay(Rank 9)
+END
+MACRO 30 "mirrorviens" INV_Misc_QuestionMark
+#showtooltip
+/cast Mirror Image
+/cast Berserking(Racial)
+/cast Combustion
+END
+MACRO 64 "pala buff order" INV_Misc_QuestionMark
+/rw Blastaduke >>> GBOK Iraqi >>> GBOM Erosonia >>> GBOW
+END
+MACRO 39 "Pyroblast" INV_Misc_QuestionMark
+#showtooltip
+/cast Pyroblast
+/cancelaura ice block
+END
+MACRO 53 "raid" INV_Misc_QuestionMark
+/rw Beasts
+END
+MACRO 13 "recount" Ability_Creature_Cursed_01
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 68 "red ooze" INV_Misc_QuestionMark
+/rw Red Ooze ready to kite
+END
+MACRO 34 "remove curse" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Remove Curse;Remove Curse;
+END
+MACRO 11 "renew" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Renew;Renew;
+END
+MACRO 51 "ress" INV_Misc_QuestionMark
+#showtooltip
+/s Wake up %t
+/cast Resurrection
+END
+MACRO 29 "spellsteal" INV_Misc_QuestionMark
+/stopcasting
+/cast Spellsteal
+END
+MACRO 58 "target" INV_Misc_QuestionMark
+/s Casting PI on Albakira
+END
+MACRO 45 "target focus" INV_Misc_QuestionMark
+/target focus
+END
+MACRO 60 "target vile" INV_Misc_QuestionMark
+/target Wicked Spirit
+END
+MACRO 47 "targetlk" Ability_Creature_Cursed_04
+/target The Lich King
+END
+MACRO 59 "vt" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover,exists] Vampiric Touch;Vampiric Touch;
+END
+MACRO 54 "zoom out" INV_Misc_QuestionMark
+/console CameraDistanceMaxFactor 10
+/script SetCVar("cameraDistanceMax",50) 
+END

@@ -4,16 +4,71 @@ CliqueDB = {
 	},
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Impasse - Icecrown",
-		["Garzh - Icecrown"] = "Garzh - Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
-		["Minato - Icecrown"] = "Minato - Icecrown",
+		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Bowbaby - Unlimited WoW"] = "Icecrown",
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Minato - Icecrown"] = "Minato - Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
+		},
+		["Invariably - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Shift-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Shift-",
+						["button"] = "2",
+						["arg1"] = "Levitate",
+						["texture"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
+					},
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Renew",
+						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
+					},
+					["2"] = {
+						["type"] = "spell",
+						["modifier"] = "",
+						["button"] = "2",
+						["delete"] = true,
+						["arg1"] = "Power Word: Shield",
+						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
+					},
+				},
+			},
+			["blacklist"] = {
+				["ElvUF_TargetTarget"] = true,
+				["ElvUF_Target"] = true,
+				["TargetFrame"] = true,
+				["PetFrame"] = true,
+				["FocusFrame"] = true,
+				["ElvUF_Player"] = true,
+				["ElvUF_TargetTargetTarget"] = true,
+				["PlayerFrame"] = true,
+			},
+		},
+		["Bowbaby - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Misdirection",
+						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
+					},
+				},
+			},
+		},
+		["Kamakshi - Icecrown"] = {
+		},
+		["Ingrate - Icecrown"] = {
 		},
 		["Garzh - Icecrown"] = {
 			["clicksets"] = {
@@ -68,72 +123,17 @@ CliqueDB = {
 			["blacklist"] = {
 				["ElvUF_TargetTarget"] = true,
 				["ElvUF_Player"] = true,
-				["PlayerFrame"] = true,
+				["TargetFrame"] = true,
 				["ElvUF_FocusTarget"] = true,
 				["FocusFrame"] = true,
 				["ElvUF_Focus"] = true,
 				["ElvUF_Target"] = true,
-				["TargetFrame"] = true,
+				["PlayerFrame"] = true,
 			},
-		},
-		["Bowbaby - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Misdirection",
-						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
-					},
-				},
-			},
-		},
-		["Kamakshi - Icecrown"] = {
-		},
-		["Ingrate - Icecrown"] = {
-		},
-		["Minato - Icecrown"] = {
 		},
 		["Bowbaby - Unlimited WoW"] = {
 		},
-		["Invariably - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Shift-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Shift-",
-						["button"] = "2",
-						["arg1"] = "Levitate",
-						["texture"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
-					},
-					["2"] = {
-						["type"] = "spell",
-						["modifier"] = "",
-						["button"] = "2",
-						["delete"] = true,
-						["arg1"] = "Power Word: Shield",
-						["texture"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
-					},
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Renew",
-						["texture"] = "Interface\\Icons\\Spell_Holy_Renew",
-					},
-				},
-			},
-			["blacklist"] = {
-				["ElvUF_TargetTarget"] = true,
-				["ElvUF_Target"] = true,
-				["PlayerFrame"] = true,
-				["PetFrame"] = true,
-				["FocusFrame"] = true,
-				["ElvUF_Player"] = true,
-				["ElvUF_TargetTargetTarget"] = true,
-				["TargetFrame"] = true,
-			},
+		["Minato - Icecrown"] = {
 		},
 	},
 }

@@ -1,0 +1,12 @@
+
+CliqueDB = {
+	["char"] = {
+	},
+	["profileKeys"] = {
+		["Anemic - Icecrown"] = "Anemic - Icecrown",
+	},
+	["profiles"] = {
+		["Anemic - Icecrown"] = {
+		},
+	},
+}

@@ -3,12 +3,16 @@ AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
 		["Circi - Icecrown"] = "Circi - Icecrown",
+		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
 		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
 		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
-		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
+		["Dirtyheals - Icecrown"] = "Dirtyheals - Icecrown",
 	},
 	["profiles"] = {
 		["Circi - Icecrown"] = {
+			["AtlasType"] = "Unknown",
+		},
+		["Deathfeast - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Minakshi - Icecrown"] = {
@@ -17,14 +21,21 @@ AtlasLootDB = {
 		["Fatpotato - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Deathfeast - Icecrown"] = {
+		["Dirtyheals - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
 }
 AtlasLootWishList = {
 	["Options"] = {
-		["Minakshi"] = {
+		["Dirtyheals"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Deathfeast"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -38,7 +49,7 @@ AtlasLootWishList = {
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
 		},
-		["Deathfeast"] = {
+		["Minakshi"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
@@ -56,11 +67,13 @@ AtlasLootWishList = {
 	["Shared"] = {
 	},
 	["Own"] = {
-		["Minakshi"] = {
+		["Dirtyheals"] = {
+		},
+		["Deathfeast"] = {
 		},
 		["Circi"] = {
 		},
-		["Deathfeast"] = {
+		["Minakshi"] = {
 		},
 		["Fatpotato"] = {
 		},

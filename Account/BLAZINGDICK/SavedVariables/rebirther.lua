@@ -1,10 +1,11 @@
 
 RebirtherDB = {
 	["profileKeys"] = {
-		["Minakshi - Icecrown"] = "Default",
 		["Circi - Icecrown"] = "Default",
-		["Fatpotato - Icecrown"] = "Default",
 		["Deathfeast - Icecrown"] = "Default",
+		["Minakshi - Icecrown"] = "Default",
+		["Fatpotato - Icecrown"] = "Default",
+		["Dirtyheals - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

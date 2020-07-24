@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Anemic - Icecrown"] = "Anemic - Icecrown",
+	},
+	["profiles"] = {
+		["Anemic - Icecrown"] = {
+			["PositionY"] = 614.9999624554056,
+			["PositionX"] = 847.5000148742246,
+		},
+	},
+}

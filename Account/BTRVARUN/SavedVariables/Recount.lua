@@ -3,6 +3,7 @@ RecountDB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Impasse - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
+		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
 		["Invariably - Icecrown"] = "Invariably - Icecrown",
@@ -60,8 +61,8 @@ RecountDB = {
 			["DetailWindowX"] = 4,
 			["LastInstanceName"] = "Vault of Archavon",
 			["FrameStrata"] = "2-LOW",
+			["DetailWindowY"] = -79.00000239355339,
 			["ClampToScreen"] = true,
-			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -72,23 +73,22 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = -79.00000239355339,
+			["GraphWindowX"] = 77.00001374583513,
 			["Locked"] = true,
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
-			["GraphWindowX"] = 77.00001374583513,
+			["CurDataSet"] = "LastFightData",
 		},
-		["Ingrate - Icecrown"] = {
+		["Kamakshi - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
+					["y"] = 119.1863226068176,
+					["h"] = 199.9999852283563,
 					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["x"] = 277.4336506660815,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["FrameStrata"] = "2-LOW",
-			["CurDataSet"] = "OverallData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -97,9 +97,39 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["Locked"] = true,
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Ingrate - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -415.1604476108952,
+					["h"] = 193.2879253917101,
+					["w"] = 226.3504967751655,
+					["x"] = 600.9453758976423,
+				},
+			},
 			["ClampToScreen"] = true,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["Locked"] = true,
+			["FrameStrata"] = "2-LOW",
+			["BarTexture"] = "Armory",
+			["CurDataSet"] = "OverallData",
+			["Font"] = "PT Sans Narrow",
 		},
 		["Garzh - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -116,11 +146,11 @@ RecountDB = {
 					["h"] = 216.3239164332553,
 				},
 			},
-			["DetailWindowX"] = 0,
-			["LastInstanceName"] = "Icecrown Citadel",
+			["DetailWindowX"] = 104.1627162207899,
+			["LastInstanceName"] = "The Ruby Sanctum",
 			["FrameStrata"] = "2-LOW",
-			["CurDataSet"] = "LastFightData",
 			["ClampToScreen"] = true,
+			["CurDataSet"] = "CurrentFightData",
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -131,7 +161,7 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
+			["DetailWindowY"] = -283.4428341149197,
 			["Locked"] = true,
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
@@ -140,18 +170,23 @@ RecountDB = {
 		["Invariably - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["RowHeight"] = 15,
 				["ShowScrollbar"] = false,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
 				["Position"] = {
 					["y"] = -403.6424586552976,
 					["x"] = 823.2925515149108,
 					["w"] = 264.410006667072,
 					["h"] = 216.3239164332553,
 				},
-				["RowHeight"] = 15,
-				["BarText"] = {
-					["NumFormat"] = 3,
-				},
 			},
+			["DetailWindowX"] = 76.00000629162604,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["FrameStrata"] = "2-LOW",
+			["GraphWindowX"] = 0,
+			["ClampToScreen"] = true,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -163,15 +198,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 88.99999815354454,
-			["DetailWindowX"] = 76.00000629162604,
-			["GraphWindowX"] = 0,
 			["Locked"] = true,
-			["LastInstanceName"] = "Icecrown Citadel",
-			["CurDataSet"] = "LastFightData",
-			["ClampToScreen"] = true,
 			["MainWindowHeight"] = 120,
 			["MainWindowWidth"] = 230,
-			["FrameStrata"] = "2-LOW",
+			["CurDataSet"] = "Fight2",
 		},
 		["Minato - Icecrown"] = {
 			["GraphWindowY"] = 0,

@@ -4,8 +4,9 @@ Omen3DB = {
 		["Circi - Icecrown"] = "Circi - Icecrown",
 		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
 		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
-		["Typhoonqt - Icecrown"] = "Typhoonqt - Icecrown",
+		["Dirtyheals - Icecrown"] = "Dirtyheals - Icecrown",
 		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
+		["Typhoonqt - Icecrown"] = "Typhoonqt - Icecrown",
 	},
 	["profiles"] = {
 		["Circi - Icecrown"] = {
@@ -40,7 +41,7 @@ Omen3DB = {
 			["PositionX"] = 847.5000148742246,
 			["PositionY"] = 614.9999624554056,
 		},
-		["Typhoonqt - Icecrown"] = {
+		["Dirtyheals - Icecrown"] = {
 			["PositionX"] = 847.5000148742246,
 			["PositionY"] = 614.9999624554056,
 		},
@@ -67,6 +68,10 @@ Omen3DB = {
 				["ShowTPS"] = false,
 				["Texture"] = "Armory",
 			},
+		},
+		["Typhoonqt - Icecrown"] = {
+			["PositionX"] = 847.5000148742246,
+			["PositionY"] = 614.9999624554056,
 		},
 	},
 }

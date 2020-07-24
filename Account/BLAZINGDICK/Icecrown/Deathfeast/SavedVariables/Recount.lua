@@ -124,7 +124,7 @@ RecountPerCharDB = {
 			["level"] = 1,
 			["LastFightIn"] = 3,
 			["type"] = "Pet",
-			["FightsSaved"] = 2,
+			["FightsSaved"] = 4,
 			["LastActive"] = 1595412065,
 			["Owner"] = "Deathfeast",
 			["UnitLockout"] = 1595411842,
@@ -235,7 +235,7 @@ RecountPerCharDB = {
 			},
 			["Name"] = "Spinestalker",
 			["Fights"] = {
-				["LastFightData"] = {
+				["Fight2"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
@@ -254,34 +254,61 @@ RecountPerCharDB = {
 					["ElementTaken"] = {
 					},
 					["DOT_Time"] = 0,
-					["Damage"] = 0,
+					["Damage"] = 34321,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
+					["FDamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Melee"] = 22027,
+						["Physical"] = 12294,
+					},
+					["ManaGainedFrom"] = {
 					},
 					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 15,
+						},
 					},
-					["Dispelled"] = 0,
+					["RageGained"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
+					["Dispelled"] = 0,
+					["CCBroken"] = {
 					},
 					["ElementDoneBlock"] = {
 					},
@@ -289,13 +316,13 @@ RecountPerCharDB = {
 					},
 					["OverHeals"] = {
 					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
 					["WhoHealed"] = {
 					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 57.50000000000001,
 					["PartialResist"] = {
 					},
 					["ManaGained"] = {
@@ -311,6 +338,20 @@ RecountPerCharDB = {
 					["WhoDispelled"] = {
 					},
 					["TimeSpent"] = {
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 0.7,
+								},
+								["Claw"] = {
+									["count"] = 11.95,
+								},
+								["Melee"] = {
+									["count"] = 44.85,
+								},
+							},
+							["amount"] = 57.50000000000001,
+						},
 					},
 					["Heals"] = {
 					},
@@ -322,15 +363,97 @@ RecountPerCharDB = {
 					["Healing"] = 0,
 					["RunicPowerGained"] = {
 					},
-					["ManaGainedFrom"] = {
+					["RunicPowerGainedFrom"] = {
 					},
 					["Attacks"] = {
+						["Gnaw"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 64,
+									["min"] = 64,
+									["count"] = 1,
+									["amount"] = 64,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 64,
+						},
+						["Claw"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1706,
+									["min"] = 1706,
+									["count"] = 1,
+									["amount"] = 1706,
+								},
+								["Hit"] = {
+									["max"] = 890,
+									["min"] = 670,
+									["count"] = 13,
+									["amount"] = 10524,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 12230,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 441,
+									["min"] = 392,
+									["count"] = 7,
+									["amount"] = 2973,
+								},
+								["Crit"] = {
+									["max"] = 1136,
+									["min"] = 904,
+									["count"] = 7,
+									["amount"] = 7188,
+								},
+								["Hit"] = {
+									["max"] = 589,
+									["min"] = 449,
+									["count"] = 22,
+									["amount"] = 11866,
+								},
+							},
+							["count"] = 36,
+							["amount"] = 22027,
+						},
 					},
 					["HealingTaken"] = 0,
 					["DamagedWho"] = {
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 64,
+								},
+								["Claw"] = {
+									["count"] = 12230,
+								},
+								["Melee"] = {
+									["count"] = 22027,
+								},
+							},
+							["amount"] = 34321,
+						},
 					},
-					["TimeDamage"] = 0,
+					["TimeDamage"] = 57.50000000000001,
 					["TimeDamaging"] = {
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Gnaw"] = {
+									["count"] = 0.7,
+								},
+								["Claw"] = {
+									["count"] = 11.95,
+								},
+								["Melee"] = {
+									["count"] = 44.85,
+								},
+							},
+							["amount"] = 57.50000000000001,
+						},
 					},
 					["RunicPowerGain"] = 0,
 					["ElementTakenBlock"] = {
@@ -338,7 +461,110 @@ RecountPerCharDB = {
 					["DispelledWho"] = {
 					},
 				},
-				["Fight2"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
 					["TimeSpent"] = {
 						["Grandmaster's Training Dummy"] = {
 							["Details"] = {
@@ -493,7 +719,7 @@ RecountPerCharDB = {
 					},
 					["Damage"] = 8839,
 				},
-				["CurrentFightData"] = {
+				["LastFightData"] = {
 					["DOTs"] = {
 					},
 					["ElementDoneResist"] = {
@@ -506,65 +732,40 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
-					["Damage"] = 34321,
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
 					["TimeHeal"] = 0,
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
-						["Melee"] = 22027,
-						["Physical"] = 12294,
+					["DamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
 					},
 					["ElementHitsDone"] = {
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 7,
-								},
-								["Crit"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 22,
-								},
-							},
-							["amount"] = 36,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 15,
-						},
 					},
-					["Dispelled"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -572,150 +773,52 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
 					["OverHeals"] = {
 					},
 					["RageGained"] = {
 					},
-					["ActiveTime"] = 57.50000000000001,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 0.7,
-								},
-								["Claw"] = {
-									["count"] = 11.95,
-								},
-								["Melee"] = {
-									["count"] = 44.85,
-								},
-							},
-							["amount"] = 57.50000000000001,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
 					["Attacks"] = {
-						["Gnaw"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 64,
-									["min"] = 64,
-									["count"] = 1,
-									["amount"] = 64,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 64,
-						},
-						["Claw"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 1706,
-									["min"] = 1706,
-									["count"] = 1,
-									["amount"] = 1706,
-								},
-								["Hit"] = {
-									["max"] = 890,
-									["min"] = 670,
-									["count"] = 13,
-									["amount"] = 10524,
-								},
-							},
-							["count"] = 14,
-							["amount"] = 12230,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 441,
-									["min"] = 392,
-									["count"] = 7,
-									["amount"] = 2973,
-								},
-								["Crit"] = {
-									["max"] = 1136,
-									["min"] = 904,
-									["count"] = 7,
-									["amount"] = 7188,
-								},
-								["Hit"] = {
-									["max"] = 589,
-									["min"] = 449,
-									["count"] = 22,
-									["amount"] = 11866,
-								},
-							},
-							["count"] = 36,
-							["amount"] = 22027,
-						},
 					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 64,
-								},
-								["Claw"] = {
-									["count"] = 12230,
-								},
-								["Melee"] = {
-									["count"] = 22027,
-								},
-							},
-							["amount"] = 34321,
-						},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
-					["TimeDamage"] = 57.50000000000001,
+					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Gnaw"] = {
-									["count"] = 0.7,
-								},
-								["Claw"] = {
-									["count"] = 11.95,
-								},
-								["Melee"] = {
-									["count"] = 44.85,
-								},
-							},
-							["amount"] = 57.50000000000001,
-						},
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -1003,22 +1106,22 @@ RecountPerCharDB = {
 				536984.916, -- [49]
 				536985.166, -- [50]
 			},
-			["LastAbility"] = 537001.816,
+			["LastAbility"] = 730982.73,
 		},
 		["Deathfeast"] = {
 			["GUID"] = "0x070000000000844C",
 			["TimeLast"] = {
 				["TimeHeal"] = 1595412027,
-				["OVERALL"] = 1595412078,
-				["Overhealing"] = 1595412053,
+				["OVERALL"] = 1595602810,
 				["Healing"] = 1595412027,
+				["Overhealing"] = 1595482550,
 				["HealingTaken"] = 1595412027,
 				["HOT_Time"] = 1595412027,
-				["ActiveTime"] = 1595412078,
-				["TimeDamage"] = 1595412078,
-				["RunicPowerGain"] = 1595412024,
-				["DOT_Time"] = 1595412078,
-				["Damage"] = 1595412078,
+				["ActiveTime"] = 1595482553,
+				["TimeDamage"] = 1595482553,
+				["RunicPowerGain"] = 1595602810,
+				["DOT_Time"] = 1595482550,
+				["Damage"] = 1595482553,
 			},
 			["LastEventType"] = {
 				"DAMAGE", -- [1]
@@ -1031,7 +1134,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [8]
 				"DAMAGE", -- [9]
 				"DAMAGE", -- [10]
-				"DAMAGE", -- [11]
+				"HEAL", -- [11]
 				"DAMAGE", -- [12]
 				"DAMAGE", -- [13]
 				"DAMAGE", -- [14]
@@ -1047,7 +1150,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [24]
 				"DAMAGE", -- [25]
 				"DAMAGE", -- [26]
-				"DAMAGE", -- [27]
+				"HEAL", -- [27]
 				"DAMAGE", -- [28]
 				"DAMAGE", -- [29]
 				"DAMAGE", -- [30]
@@ -1066,7 +1169,7 @@ RecountPerCharDB = {
 				"DAMAGE", -- [43]
 				"DAMAGE", -- [44]
 				"DAMAGE", -- [45]
-				"DAMAGE", -- [46]
+				"HEAL", -- [46]
 				"DAMAGE", -- [47]
 				"DAMAGE", -- [48]
 				"DAMAGE", -- [49]
@@ -1080,7 +1183,7 @@ RecountPerCharDB = {
 					487, -- [1]
 				},
 				["Overhealing"] = {
-					985, -- [1]
+					4397, -- [1]
 				},
 				["HealingTaken"] = {
 					487, -- [1]
@@ -1089,30 +1192,33 @@ RecountPerCharDB = {
 					24, -- [1]
 				},
 				["ActiveTime"] = {
-					192.25, -- [1]
+					257.14, -- [1]
 				},
 				["TimeDamage"] = {
-					188.1200000000001, -- [1]
+					253.0100000000001, -- [1]
 				},
 				["RunicPowerGain"] = {
-					40, -- [1]
+					70, -- [1]
 				},
 				["DOT_Time"] = {
-					345, -- [1]
+					522, -- [1]
 				},
 				["Damage"] = {
-					425436, -- [1]
+					677418, -- [1]
 				},
 			},
 			["enClass"] = "DEATHKNIGHT",
 			["unit"] = "Deathfeast",
 			["level"] = 80,
-			["LastActive"] = 1595412078,
-			["LastFightIn"] = 3,
+			["LastActive"] = 1595605597,
+			["LastFightIn"] = 4,
 			["LastEventNum"] = {
+				[27] = 2.997083728611082,
+				[11] = 2.997083728611082,
+				[46] = 4.543058922736377,
 			},
 			["type"] = "Self",
-			["FightsSaved"] = 3,
+			["FightsSaved"] = 5,
 			["GuardianReverseGUIDs"] = {
 				["Ebon Gargoyle"] = {
 					["LatestGuardian"] = 0,
@@ -1129,7 +1235,7 @@ RecountPerCharDB = {
 				"Spinestalker <Deathfeast>", -- [3]
 				"Ebon Gargoyle <Deathfeast>", -- [4]
 			},
-			["NextEventNum"] = 34,
+			["NextEventNum"] = 47,
 			["LastEventHealthNum"] = {
 				100, -- [1]
 				100, -- [2]
@@ -1183,2293 +1289,623 @@ RecountPerCharDB = {
 				100, -- [50]
 			},
 			["LastEvents"] = {
-				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -1175 (Shadow)", -- [1]
-				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -1394 (Frost)", -- [2]
-				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -1266 (Frost)", -- [3]
-				"Deathfeast Wandering Plague Heroic Training Dummy Hit -1196 (132 resisted) (Shadow)", -- [4]
-				"Deathfeast Wandering Plague Grandmaster's Training Dummy Hit -1328 (Shadow)", -- [5]
-				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -1175 (Shadow)", -- [6]
-				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -1175 (Shadow)", -- [7]
-				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -1394 (Frost)", -- [8]
-				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -1140 (126 resisted) (Frost)", -- [9]
-				"Deathfeast Wandering Plague Heroic Training Dummy Hit -1328 (Shadow)", -- [10]
-				"Deathfeast Wandering Plague Grandmaster's Training Dummy Hit -1328 (Shadow)", -- [11]
-				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -1175 (Shadow)", -- [12]
-				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -1175 (Shadow)", -- [13]
-				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -1394 (Frost)", -- [14]
-				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -1266 (Frost)", -- [15]
-				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -1058 (117 resisted) (Shadow)", -- [16]
-				"Deathfeast Wandering Plague Heroic Training Dummy Hit -1328 (Shadow)", -- [17]
-				"Deathfeast Wandering Plague Grandmaster's Training Dummy Hit -1328 (Shadow)", -- [18]
-				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -1175 (Shadow)", -- [19]
-				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -1394 (Frost)", -- [20]
-				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -1266 (Frost)", -- [21]
-				"Deathfeast Wandering Plague Heroic Training Dummy Hit -1063 (265 resisted) (Shadow)", -- [22]
-				"Deathfeast Wandering Plague Grandmaster's Training Dummy Hit -1328 (Shadow)", -- [23]
-				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -1175 (Shadow)", -- [24]
-				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -1175 (Shadow)", -- [25]
-				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -1394 (Frost)", -- [26]
-				"Deathfeast Wandering Plague Heroic Training Dummy Hit -1288 (143 resisted) (Shadow)", -- [27]
-				"Deathfeast Wandering Plague Grandmaster's Training Dummy Hit -1431 (Shadow)", -- [28]
-				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -1266 (Frost)", -- [29]
-				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -1175 (Shadow)", -- [30]
-				"Deathfeast Wandering Plague Heroic Training Dummy Hit -1116 (278 resisted) (Shadow)", -- [31]
-				"Deathfeast Wandering Plague Grandmaster's Training Dummy Hit -1575 (Shadow)", -- [32]
-				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -1394 (Frost)", -- [33]
-				"Deathfeast Necrosis Heroic Training Dummy Hit -486 (Shadow)", -- [34]
-				"Deathfeast Blood-Caked Strike Heroic Training Dummy Hit -1519 (Physical)", -- [35]
-				"Deathfeast Melee Heroic Training Dummy Hit -2433 (Physical)", -- [36]
-				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -1175 (Shadow)", -- [37]
-				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -1140 (126 resisted) (Frost)", -- [38]
-				"Deathfeast Necrosis Heroic Training Dummy Hit -425 (Shadow)", -- [39]
-				"Deathfeast Melee Heroic Training Dummy Glancing -2128 (Physical)", -- [40]
-				"Deathfeast Scourge Strike Heroic Training Dummy Crit -8186 (Physical)", -- [41]
-				"Deathfeast Scourge Strike (Shadow) Heroic Training Dummy Hit -3464 (865 resisted) (Shadow)", -- [42]
-				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -1175 (Shadow)", -- [43]
-				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -1175 (Shadow)", -- [44]
-				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -1394 (Frost)", -- [45]
-				"Deathfeast Blood Strike Heroic Training Dummy Crit -4544 (Physical)", -- [46]
-				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -1266 (Frost)", -- [47]
-				"Deathfeast Necrosis Heroic Training Dummy Hit -595 (Shadow)", -- [48]
-				"Deathfeast Melee Heroic Training Dummy Hit -2977 (Physical)", -- [49]
-				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -1175 (Shadow)", -- [50]
+				"Deathfeast Melee Heroic Training Dummy Glancing -740 (Physical)", -- [1]
+				"Deathfeast Melee Heroic Training Dummy Miss", -- [2]
+				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -404 (44 resisted) (Shadow)", -- [3]
+				"Deathfeast Obliterate Heroic Training Dummy Crit -6024 (Physical)", -- [4]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -36 (3 resisted) (Frost)", -- [5]
+				"Deathfeast Obliterate Heroic Training Dummy Hit -4371 (Physical)", -- [6]
+				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -389 (Shadow)", -- [7]
+				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -440 (Frost)", -- [8]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -211 (Shadow)", -- [9]
+				"Deathfeast Blood-Caked Strike Heroic Training Dummy Hit -892 (Physical)", -- [10]
+				"Deathfeast Unholy Strength Deathfeast Hit +853 (853 overheal)", -- [11]
+				"Deathfeast Melee Heroic Training Dummy Hit -1057 (Physical)", -- [12]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -252 (27 resisted) (Shadow)", -- [13]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -37 (4 resisted) (Frost)", -- [14]
+				"Deathfeast Melee Heroic Training Dummy Glancing -1399 (Physical)", -- [15]
+				"Deathfeast Frost Fever (DoT) Heroic Training Dummy Tick -484 (Frost)", -- [16]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -204 (Shadow)", -- [17]
+				"Deathfeast Melee Heroic Training Dummy Hit -1024 (Physical)", -- [18]
+				"Deathfeast Frost Strike Heroic Training Dummy Hit -1150 (Frost)", -- [19]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -42 (Frost)", -- [20]
+				"Deathfeast Frost Strike Heroic Training Dummy Hit -2299 (Frost)", -- [21]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -379 (Shadow)", -- [22]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -37 (4 resisted) (Frost)", -- [23]
+				"Deathfeast Melee Heroic Training Dummy Hit -1898 (Physical)", -- [24]
+				"Deathfeast Blood Plague (DoT) Heroic Training Dummy Tick -359 (89 resisted) (Shadow)", -- [25]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -192 (21 resisted) (Shadow)", -- [26]
+				"Deathfeast Unholy Strength Deathfeast Hit +853 (853 overheal)", -- [27]
+				"Deathfeast Melee Heroic Training Dummy Hit -1066 (Physical)", -- [28]
+				"Deathfeast Blood Plague (DoT) Grandmaster's Training Dummy Tick -389 (Shadow)", -- [29]
+				"Deathfeast Frost Fever (DoT) Grandmaster's Training Dummy Tick -440 (Frost)", -- [30]
+				"Deathfeast Obliterate Heroic Training Dummy Hit -1631 (Physical)", -- [31]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -45 (Frost)", -- [32]
+				"Deathfeast Obliterate Heroic Training Dummy Crit -8152 (Physical)", -- [33]
+				"Deathfeast Melee Heroic Training Dummy Parry", -- [34]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -216 (54 resisted) (Shadow)", -- [35]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -41 (4 resisted) (Frost)", -- [36]
+				"Deathfeast Melee Heroic Training Dummy Glancing -1350 (Physical)", -- [37]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -220 (Shadow)", -- [38]
+				"Deathfeast Melee Heroic Training Dummy Hit -1102 (Physical)", -- [39]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -337 (84 resisted) (Shadow)", -- [40]
+				"Deathfeast Blood-Caked Strike Heroic Training Dummy Hit -424 (Physical)", -- [41]
+				"Deathfeast Melee Heroic Training Dummy Crit -2109 (Physical)", -- [42]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -216 (24 resisted) (Shadow)", -- [43]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -41 (Frost)", -- [44]
+				"Deathfeast Melee Heroic Training Dummy Glancing -1204 (Physical)", -- [45]
+				"Aisakataigha Glyph of Holy Light Deathfeast Hit +1293 (1293 overheal)", -- [46]
+				"Deathfeast Razor Frost Heroic Training Dummy Hit -41 (Frost)", -- [47]
+				"Deathfeast Frost Strike Heroic Training Dummy Crit -3437 (859 resisted) (Frost)", -- [48]
+				"Deathfeast Necrosis Heroic Training Dummy Hit -148 (Shadow)", -- [49]
+				"Deathfeast Blood-Caked Strike Heroic Training Dummy Hit -915 (Physical)", -- [50]
 			},
 			["Name"] = "Deathfeast",
 			["Fights"] = {
-				["Fight2"] = {
+				["Fight1"] = {
 					["DOTs"] = {
 						["Frost Fever (DoT)"] = {
 							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 21,
+								},
 								["Heroic Training Dummy"] = {
-									["count"] = 81,
+									["count"] = 24,
 								},
 							},
-							["amount"] = 81,
+							["amount"] = 45,
 						},
 						["Blood Plague (DoT)"] = {
 							["Details"] = {
 								["Grandmaster's Training Dummy"] = {
-									["count"] = 12,
+									["count"] = 21,
 								},
 								["Heroic Training Dummy"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 933,
+						["Frost"] = 2266,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 180552,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 2485,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3080,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2723,
+								},
+							},
+							["amount"] = 8288,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 6287,
+								},
+								["Melee"] = {
+									["count"] = 53099,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 7207,
+								},
+								["Obliterate"] = {
+									["count"] = 62421,
+								},
+								["Necrosis"] = {
+									["count"] = 10037,
+								},
+								["Frost Strike"] = {
+									["count"] = 16851,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3346,
+								},
+								["Razor Frost"] = {
+									["count"] = 982,
+								},
+								["Blood Strike"] = {
+									["count"] = 4411,
+								},
+								["Plague Strike"] = {
+									["count"] = 1957,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3729,
+								},
+								["Icy Touch"] = {
+									["count"] = 1937,
+								},
+							},
+							["amount"] = 172264,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 16106,
+						["Physical"] = 75996,
+						["Melee"] = 53099,
+						["Frost"] = 35351,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 35,
+								},
+								["Tick"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 50,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
 									["count"] = 21,
 								},
 							},
-							["amount"] = 33,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 743,
-						["Frost"] = 1618,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["HOTs"] = {
-					},
-					["Damage"] = 91200,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialBlock"] = {
-					},
-					["DamagedWho"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 456,
-								},
-								["Melee"] = {
-									["count"] = 2283,
-								},
-								["Plague Strike"] = {
-									["count"] = 3616,
-								},
-								["Wandering Plague"] = {
-									["count"] = 10355,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 3348,
-								},
-							},
-							["amount"] = 20058,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 2148,
-								},
-								["Melee"] = {
-									["count"] = 11386,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8548,
-								},
-								["Icy Touch"] = {
-									["count"] = 7477,
-								},
-								["Plague Strike"] = {
-									["count"] = 4720,
-								},
-								["Wandering Plague"] = {
-									["count"] = 11222,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 25641,
-								},
-							},
-							["amount"] = 71142,
-						},
-					},
-					["FAttacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["ElementDone"] = {
-						["Frost"] = 33118,
-						["Shadow"] = 36077,
-						["Melee"] = 13669,
-						["Physical"] = 8336,
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementHitsDone"] = {
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 27,
-								},
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 31,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 11,
-								},
-								["Hit"] = {
-									["count"] = 25,
-								},
-							},
-							["amount"] = 36,
+							["amount"] = 29,
 						},
 						["Melee"] = {
 							["Details"] = {
 								["Glancing"] = {
-									["count"] = 1,
-								},
-								["Crit"] = {
-									["count"] = 1,
-								},
-								["Hit"] = {
-									["count"] = 3,
-								},
-							},
-							["amount"] = 5,
-						},
-						["Physical"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-							},
-							["amount"] = 2,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["RunicPowerGained"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoHealed"] = {
-					},
-					["HealedWho"] = {
-					},
-					["CCBreak"] = 0,
-					["ElementTakenAbsorb"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGain"] = 0,
-					["ManaGained"] = {
-					},
-					["PartialAbsorb"] = {
-					},
-					["ActiveTime"] = 100.54,
-					["Overhealing"] = 0,
-					["TimeSpent"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 1.42,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.4,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 7.74,
-								},
-							},
-							["amount"] = 9.560000000000001,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 2.77,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 9.66,
-								},
-								["Icy Touch"] = {
-									["count"] = 14,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.62,
-								},
-								["Wandering Plague"] = {
-									["count"] = 24,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 38.93,
-								},
-							},
-							["amount"] = 90.97999999999999,
-						},
-					},
-					["WhoDispelled"] = {
-					},
-					["InterruptData"] = {
-					},
-					["ElementTakenResist"] = {
-					},
-					["Heals"] = {
-					},
-					["Interrupts"] = 0,
-					["EnergyGained"] = {
-					},
-					["PartialResist"] = {
-					},
-					["Healing"] = 0,
-					["RageGained"] = {
-					},
-					["OverHeals"] = {
-					},
-					["Attacks"] = {
-						["Necrosis"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 906,
-									["min"] = 337,
-									["count"] = 5,
-									["amount"] = 2604,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 2604,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 2106,
-									["min"] = 2106,
-									["count"] = 1,
-									["amount"] = 2106,
-								},
-								["Crit"] = {
-									["max"] = 4534,
-									["min"] = 4534,
-									["count"] = 1,
-									["amount"] = 4534,
-								},
-								["Hit"] = {
-									["max"] = 2500,
-									["min"] = 2246,
-									["count"] = 3,
-									["amount"] = 7029,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 13669,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1257,
-									["min"] = 837,
-									["count"] = 11,
-									["amount"] = 11896,
-								},
-							},
-							["count"] = 11,
-							["amount"] = 11896,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 2708,
-									["min"] = 2430,
-									["count"] = 2,
-									["amount"] = 5138,
-								},
-								["Hit"] = {
-									["max"] = 1173,
-									["min"] = 1166,
-									["count"] = 2,
-									["amount"] = 2339,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 7477,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4720,
-									["min"] = 3616,
-									["count"] = 2,
-									["amount"] = 8336,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 8336,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1420,
-									["min"] = 895,
-									["count"] = 20,
-									["amount"] = 21577,
-								},
-							},
-							["count"] = 20,
-							["amount"] = 21577,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 990,
-									["min"] = 792,
-									["count"] = 27,
-									["amount"] = 25641,
-								},
-							},
-							["count"] = 27,
-							["amount"] = 25641,
-						},
-					},
-					["RageGain"] = 0,
-					["FDamagedWho"] = {
-					},
-					["TimeDamage"] = 100.54,
-					["TimeDamaging"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 1.42,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.4,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 7.74,
-								},
-							},
-							["amount"] = 9.560000000000001,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 2.77,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 9.66,
-								},
-								["Icy Touch"] = {
-									["count"] = 14,
-								},
-								["Plague Strike"] = {
-									["count"] = 1.62,
-								},
-								["Wandering Plague"] = {
-									["count"] = 24,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 38.93,
-								},
-							},
-							["amount"] = 90.97999999999999,
-						},
-					},
-					["ManaGain"] = 0,
-					["DOT_Time"] = 114,
-					["DispelledWho"] = {
-					},
-				},
-				["CurrentFightData"] = {
-					["DOTs"] = {
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 54,
-								},
-								["Heroic Training Dummy"] = {
-									["count"] = 57,
-								},
-							},
-							["amount"] = 111,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 54,
-								},
-								["Heroic Training Dummy"] = {
-									["count"] = 54,
-								},
-							},
-							["amount"] = 108,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Frost"] = 1911,
-						["Shadow"] = 5205,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 24,
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Deathfeast"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 219,
-					["Damage"] = 309407,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 4.13,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Physical"] = 65204,
-						["Frost"] = 55996,
-						["Melee"] = 65851,
-						["Shadow"] = 122356,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 6,
-								},
-								["Hit"] = {
-									["count"] = 14,
-								},
-							},
-							["amount"] = 22,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Crit"] = {
-									["count"] = 2,
-								},
-								["Tick"] = {
-									["count"] = 37,
-								},
-							},
-							["amount"] = 39,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 3,
-								},
-								["Parry"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 7,
-								},
-								["Hit"] = {
-									["count"] = 7,
-								},
-							},
-							["amount"] = 19,
-						},
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 36,
-								},
-								["Hit"] = {
-									["count"] = 65,
-								},
-							},
-							["amount"] = 101,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Tap"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 4.13,
-						},
-					},
-					["OverHeals"] = {
-						["Unholy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 888,
-									["min"] = 888,
-									["count"] = 1,
-									["amount"] = 888,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 888,
-						},
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 97,
-									["min"] = 97,
-									["count"] = 1,
-									["amount"] = 97,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 97,
-						},
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 70.05999999999999,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 487,
-								},
-							},
-							["amount"] = 487,
-						},
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 985,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.109999999999999,
-								},
-							},
-							["amount"] = 8.109999999999999,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Scourge Strike"] = {
-									["count"] = 4.82,
-								},
-								["Melee"] = {
-									["count"] = 2.06,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 13.36,
-								},
-								["Necrosis"] = {
-									["count"] = 10.85,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.970000000000001,
-								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 3.66,
-								},
-								["Plague Strike"] = {
-									["count"] = 2.78,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.36,
-								},
-								["Icy Touch"] = {
-									["count"] = 3.96,
-								},
-							},
-							["amount"] = 57.81999999999999,
-						},
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 4.13,
-						},
-					},
-					["Heals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 127,
-									["min"] = 23,
-									["count"] = 8,
-									["amount"] = 487,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 487,
-						},
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 487,
-								},
-							},
-							["amount"] = 487,
-						},
-					},
-					["Healing"] = 487,
-					["RunicPowerGained"] = {
-						["Blood Tap"] = {
-							["Details"] = {
-								["Deathfeast"] = {
-									["count"] = 20,
-								},
-							},
-							["amount"] = 20,
-						},
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["Scourge Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3607,
-									["min"] = 3378,
-									["count"] = 3,
-									["amount"] = 10491,
-								},
-								["Crit"] = {
-									["max"] = 8186,
-									["min"] = 7064,
-									["count"] = 3,
-									["amount"] = 22570,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 33061,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 2193,
-									["min"] = 1756,
-									["count"] = 3,
-									["amount"] = 6077,
-								},
-								["Parry"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 6488,
-									["min"] = 5067,
-									["count"] = 7,
-									["amount"] = 40444,
-								},
-								["Hit"] = {
-									["max"] = 3196,
-									["min"] = 2365,
-									["count"] = 7,
-									["amount"] = 19330,
-								},
-							},
-							["count"] = 19,
-							["amount"] = 65851,
-						},
-						["Blood-Caked Strike"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 1952,
-									["min"] = 711,
-									["count"] = 5,
-									["amount"] = 7578,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 7578,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1688,
-									["min"] = 884,
-									["count"] = 42,
-									["amount"] = 53231,
-								},
-							},
-							["count"] = 42,
-							["amount"] = 53231,
-						},
-						["Necrosis"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1184,
-									["min"] = 281,
-									["count"] = 17,
-									["amount"] = 12364,
-								},
-							},
-							["count"] = 17,
-							["amount"] = 12364,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1257,
-									["min"] = 860,
-									["count"] = 36,
-									["amount"] = 40894,
-								},
-							},
-							["count"] = 36,
-							["amount"] = 40894,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3735,
-									["min"] = 1608,
-									["count"] = 6,
-									["amount"] = 15867,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 15867,
-						},
-						["Blood Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4544,
-									["min"] = 3588,
-									["count"] = 2,
-									["amount"] = 8132,
-								},
-								["Hit"] = {
-									["max"] = 2398,
-									["min"] = 1862,
-									["count"] = 4,
-									["amount"] = 8303,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 16435,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4431,
-									["min"] = 4431,
-									["count"] = 1,
-									["amount"] = 4431,
-								},
-								["Hit"] = {
-									["max"] = 1877,
-									["min"] = 1822,
-									["count"] = 2,
-									["amount"] = 3699,
-								},
-							},
-							["count"] = 3,
-							["amount"] = 8130,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1644,
-									["min"] = 928,
-									["count"] = 37,
-									["amount"] = 49937,
-								},
-							},
-							["count"] = 37,
-							["amount"] = 49937,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 3339,
-									["min"] = 2720,
-									["count"] = 2,
-									["amount"] = 6059,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 6059,
-						},
-					},
-					["HealingTaken"] = 487,
-					["DamagedWho"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 27548,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 26362,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 20936,
-								},
-							},
-							["amount"] = 74846,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Scourge Strike"] = {
-									["count"] = 33061,
-								},
-								["Melee"] = {
-									["count"] = 65851,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 7578,
-								},
-								["Wandering Plague"] = {
-									["count"] = 25683,
-								},
-								["Necrosis"] = {
-									["count"] = 12364,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 19958,
-								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 15867,
-								},
-								["Blood Strike"] = {
-									["count"] = 16435,
-								},
-								["Plague Strike"] = {
-									["count"] = 8130,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 23575,
-								},
-								["Icy Touch"] = {
-									["count"] = 6059,
-								},
-							},
-							["amount"] = 234561,
-						},
-					},
-					["TimeDamage"] = 65.92999999999999,
-					["TimeDamaging"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.109999999999999,
-								},
-							},
-							["amount"] = 8.109999999999999,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Scourge Strike"] = {
-									["count"] = 4.82,
-								},
-								["Melee"] = {
-									["count"] = 2.06,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 13.36,
-								},
-								["Necrosis"] = {
-									["count"] = 10.85,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 8.970000000000001,
-								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 3.66,
-								},
-								["Plague Strike"] = {
-									["count"] = 2.78,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 7.36,
-								},
-								["Icy Touch"] = {
-									["count"] = 3.96,
-								},
-							},
-							["amount"] = 57.81999999999999,
-						},
-					},
-					["RunicPowerGain"] = 20,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight1"] = {
-					["DOTs"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Heroic Training Dummy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 83,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 5157,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 5157,
-						["Frost"] = 0,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 4.65,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 4.65,
-								},
-							},
-							["amount"] = 4.65,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 837,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 1674,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1674,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 946,
-									["min"] = 754,
-									["count"] = 4,
-									["amount"] = 3483,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3483,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1674,
-								},
-								["Wandering Plague"] = {
-									["count"] = 1892,
-								},
-							},
-							["amount"] = 3566,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 1591,
-								},
-							},
-							["amount"] = 1591,
-						},
-					},
-					["TimeDamage"] = 4.65,
-					["TimeDamaging"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 4.65,
-								},
-							},
-							["amount"] = 4.65,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["LastFightData"] = {
-					["DOTs"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 6,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Heroic Training Dummy"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 83,
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 6,
-					["Damage"] = 5157,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-						["Shadow"] = 5157,
-						["Frost"] = 0,
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-						["Shadow"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 2,
-								},
-								["Hit"] = {
-									["count"] = 4,
-								},
-							},
-							["amount"] = 6,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 4.65,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 4.65,
-								},
-							},
-							["amount"] = 4.65,
-						},
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 837,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 1674,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 1674,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 946,
-									["min"] = 754,
-									["count"] = 4,
-									["amount"] = 3483,
-								},
-							},
-							["count"] = 4,
-							["amount"] = 3483,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 0,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 0,
-							["amount"] = 0,
-						},
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 1674,
-								},
-								["Wandering Plague"] = {
-									["count"] = 1892,
-								},
-							},
-							["amount"] = 3566,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 1591,
-								},
-							},
-							["amount"] = 1591,
-						},
-					},
-					["TimeDamage"] = 4.65,
-					["TimeDamaging"] = {
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Blood Plague (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 0,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Wandering Plague"] = {
-									["count"] = 4.65,
-								},
-							},
-							["amount"] = 4.65,
-						},
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["OverallData"] = {
-					["TimeHealing"] = {
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 4.13,
-						},
-					},
-					["DOTs"] = {
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 54,
-								},
-								["Heroic Training Dummy"] = {
-									["count"] = 141,
-								},
-							},
-							["amount"] = 195,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Grandmaster's Training Dummy"] = {
-									["count"] = 75,
-								},
-								["Heroic Training Dummy"] = {
-									["count"] = 75,
-								},
-							},
-							["amount"] = 150,
-						},
-					},
-					["ElementDoneResist"] = {
-						["Shadow"] = 6031,
-						["Frost"] = 3529,
-					},
-					["TimeSpent"] = {
-						["Frenzied Plaguehound"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 7,
-								},
-								["Necrosis"] = {
-									["count"] = 1.88,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8.879999999999999,
-						},
-						["Monstrous Plaguebat"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.5,
-								},
-								["Necrosis"] = {
-									["count"] = 1.32,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.82,
-						},
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 4.13,
-								},
-							},
-							["amount"] = 4.13,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 1.42,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 0,
-								},
-								["Plague Strike"] = {
-									["count"] = 0.4,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 17.9,
-								},
-							},
-							["amount"] = 19.72,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Scourge Strike"] = {
-									["count"] = 4.82,
-								},
-								["Melee"] = {
-									["count"] = 2.06,
-								},
-								["Icy Touch"] = {
-									["count"] = 17.96,
-								},
-								["Wandering Plague"] = {
-									["count"] = 42.00999999999999,
-								},
-								["Necrosis"] = {
-									["count"] = 13.62,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 18.63,
-								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 0,
-								},
-								["Blood Strike"] = {
-									["count"] = 3.66,
-								},
-								["Plague Strike"] = {
-									["count"] = 4.4,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 47.53999999999999,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 154.7,
-						},
-					},
-					["HealedWho"] = {
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 487,
-								},
-							},
-							["amount"] = 487,
-						},
-					},
-					["PartialResist"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Resist"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["OverHeals"] = {
-						["Unholy Strength"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 888,
-									["min"] = 888,
-									["count"] = 1,
-									["amount"] = 888,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 888,
-						},
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 97,
-									["min"] = 97,
-									["count"] = 1,
-									["amount"] = 97,
-								},
-							},
-							["count"] = 1,
-							["amount"] = 97,
-						},
-					},
-					["PartialAbsorb"] = {
-						["Melee"] = {
-							["Details"] = {
-								["No Absorb"] = {
-									["max"] = 0,
-									["min"] = 0,
-									["count"] = 2,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 2,
-							["amount"] = 0,
-						},
-					},
-					["ActiveTime"] = 192.25,
-					["Overhealing"] = 985,
-					["WhoHealed"] = {
-						["Deathfeast"] = {
-							["Details"] = {
-								["Blood Presence"] = {
-									["count"] = 487,
-								},
-							},
-							["amount"] = 487,
-						},
-					},
-					["DOT_Time"] = 345,
-					["Damage"] = 425436,
-					["DamagedWho"] = {
-						["Frenzied Plaguehound"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 2846,
-								},
-								["Necrosis"] = {
-									["count"] = 504,
-								},
-								["Melee"] = {
-									["count"] = 2520,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 1301,
-								},
-							},
-							["amount"] = 7171,
-						},
-						["Monstrous Plaguebat"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 1303,
-								},
-								["Necrosis"] = {
-									["count"] = 1310,
-								},
-								["Melee"] = {
-									["count"] = 6550,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 1511,
-								},
-							},
-							["amount"] = 10674,
-						},
-						["Grandmaster's Training Dummy"] = {
-							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 456,
-								},
-								["Melee"] = {
-									["count"] = 2283,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 26362,
-								},
-								["Plague Strike"] = {
-									["count"] = 3616,
-								},
-								["Wandering Plague"] = {
-									["count"] = 39795,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 26795,
-								},
-							},
-							["amount"] = 99307,
-						},
-						["Heroic Training Dummy"] = {
-							["Details"] = {
-								["Scourge Strike"] = {
-									["count"] = 33061,
-								},
-								["Melee"] = {
-									["count"] = 77237,
-								},
-								["Icy Touch"] = {
-									["count"] = 13536,
-								},
-								["Wandering Plague"] = {
-									["count"] = 38496,
-								},
-								["Necrosis"] = {
-									["count"] = 14512,
-								},
-								["Blood Plague (DoT)"] = {
-									["count"] = 28506,
-								},
-								["Scourge Strike (Shadow)"] = {
-									["count"] = 15867,
-								},
-								["Blood Strike"] = {
-									["count"] = 16435,
-								},
-								["Plague Strike"] = {
-									["count"] = 12850,
-								},
-								["Frost Fever (DoT)"] = {
-									["count"] = 50206,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 7578,
-								},
-							},
-							["amount"] = 308284,
-						},
-					},
-					["TimeHeal"] = 4.13,
-					["Heals"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 127,
-									["min"] = 23,
-									["count"] = 8,
-									["amount"] = 487,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 487,
-						},
-					},
-					["HOT_Time"] = 24,
-					["HOTs"] = {
-						["Blood Presence"] = {
-							["Details"] = {
-								["Deathfeast"] = {
-									["count"] = 24,
-								},
-							},
-							["amount"] = 24,
-						},
-					},
-					["Healing"] = 487,
-					["RunicPowerGained"] = {
-						["Blood Tap"] = {
-							["Details"] = {
-								["Deathfeast"] = {
-									["count"] = 40,
-								},
-							},
-							["amount"] = 40,
-						},
-					},
-					["ElementDone"] = {
-						["Physical"] = 76352,
-						["Frost"] = 94253,
-						["Melee"] = 88590,
-						["Shadow"] = 166241,
-					},
-					["Attacks"] = {
-						["Scourge Strike"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3607,
-									["min"] = 3378,
-									["count"] = 3,
-									["amount"] = 10491,
-								},
-								["Crit"] = {
-									["max"] = 8186,
-									["min"] = 7064,
-									["count"] = 3,
-									["amount"] = 22570,
-								},
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-							},
-							["count"] = 7,
-							["amount"] = 33061,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["max"] = 2193,
-									["min"] = 1756,
-									["count"] = 4,
-									["amount"] = 8183,
-								},
-								["Parry"] = {
-									["count"] = 2,
-									["amount"] = 0,
-								},
-								["Crit"] = {
-									["max"] = 6550,
-									["min"] = 4534,
-									["count"] = 9,
-									["amount"] = 51528,
-								},
-								["Hit"] = {
-									["max"] = 3196,
-									["min"] = 2246,
-									["count"] = 11,
-									["amount"] = 28879,
-								},
-							},
-							["count"] = 26,
-							["amount"] = 88590,
-						},
-						["Blood-Caked Strike"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 1,
-									["amount"] = 0,
-								},
-								["Hit"] = {
-									["max"] = 1952,
-									["min"] = 711,
-									["count"] = 7,
-									["amount"] = 10390,
-								},
-							},
-							["count"] = 8,
-							["amount"] = 10390,
-						},
-						["Wandering Plague"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1688,
-									["min"] = 754,
-									["count"] = 66,
-									["amount"] = 78291,
-								},
-							},
-							["count"] = 66,
-							["amount"] = 78291,
-						},
-						["Necrosis"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 1310,
-									["min"] = 281,
-									["count"] = 24,
-									["amount"] = 16782,
-								},
-							},
-							["count"] = 24,
-							["amount"] = 16782,
-						},
-						["Blood Plague (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1257,
-									["min"] = 837,
-									["count"] = 50,
-									["amount"] = 55301,
-								},
-							},
-							["count"] = 50,
-							["amount"] = 55301,
-						},
-						["Scourge Strike (Shadow)"] = {
-							["Details"] = {
-								["Hit"] = {
-									["max"] = 3735,
-									["min"] = 1608,
-									["count"] = 6,
-									["amount"] = 15867,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 15867,
-						},
-						["Blood Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4544,
-									["min"] = 3588,
-									["count"] = 2,
-									["amount"] = 8132,
-								},
-								["Hit"] = {
-									["max"] = 2398,
-									["min"] = 1862,
-									["count"] = 4,
-									["amount"] = 8303,
-								},
-							},
-							["count"] = 6,
-							["amount"] = 16435,
-						},
-						["Plague Strike"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 4720,
-									["min"] = 3616,
-									["count"] = 3,
-									["amount"] = 12767,
-								},
-								["Hit"] = {
-									["max"] = 1877,
-									["min"] = 1822,
-									["count"] = 2,
-									["amount"] = 3699,
-								},
-							},
-							["count"] = 5,
-							["amount"] = 16466,
-						},
-						["Frost Fever (DoT)"] = {
-							["Details"] = {
-								["Tick"] = {
-									["max"] = 1644,
-									["min"] = 792,
-									["count"] = 65,
-									["amount"] = 76568,
-								},
-							},
-							["count"] = 65,
-							["amount"] = 76568,
-						},
-						["Icy Touch"] = {
-							["Details"] = {
-								["Crit"] = {
-									["max"] = 3339,
-									["min"] = 2430,
-									["count"] = 4,
-									["amount"] = 11197,
-								},
-								["Hit"] = {
-									["max"] = 1545,
-									["min"] = 1166,
-									["count"] = 5,
-									["amount"] = 6488,
-								},
-							},
-							["count"] = 9,
-							["amount"] = 17685,
-						},
-					},
-					["HealingTaken"] = 487,
-					["ElementHitsDone"] = {
-						["Physical"] = {
-							["Details"] = {
-								["Parry"] = {
-									["count"] = 2,
-								},
-								["Crit"] = {
-									["count"] = 8,
+									["count"] = 10,
 								},
 								["Hit"] = {
 									["count"] = 16,
 								},
-							},
-							["amount"] = 26,
-						},
-						["Frost"] = {
-							["Details"] = {
-								["Tick"] = {
-									["count"] = 65,
-								},
-								["Crit"] = {
-									["count"] = 4,
-								},
-								["Hit"] = {
-									["count"] = 5,
-								},
-							},
-							["amount"] = 74,
-						},
-						["Melee"] = {
-							["Details"] = {
-								["Glancing"] = {
-									["count"] = 4,
-								},
-								["Parry"] = {
-									["count"] = 2,
+								["Miss"] = {
+									["count"] = 7,
 								},
 								["Crit"] = {
 									["count"] = 9,
 								},
-								["Hit"] = {
-									["count"] = 11,
+								["Parry"] = {
+									["count"] = 4,
 								},
 							},
-							["amount"] = 26,
+							["amount"] = 46,
 						},
-						["Shadow"] = {
+						["Frost"] = {
 							["Details"] = {
-								["Tick"] = {
-									["count"] = 50,
-								},
 								["Hit"] = {
-									["count"] = 96,
+									["count"] = 30,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Tick"] = {
+									["count"] = 15,
 								},
 							},
-							["amount"] = 146,
+							["amount"] = 51,
 						},
 					},
-					["TimeDamage"] = 188.1200000000001,
-					["TimeDamaging"] = {
-						["Frenzied Plaguehound"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 7,
-								},
-								["Necrosis"] = {
-									["count"] = 1.88,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 8.879999999999999,
-						},
-						["Monstrous Plaguebat"] = {
-							["Details"] = {
-								["Icy Touch"] = {
-									["count"] = 3.5,
-								},
-								["Necrosis"] = {
-									["count"] = 1.32,
-								},
-								["Melee"] = {
-									["count"] = 0,
-								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
-								},
-							},
-							["amount"] = 4.82,
-						},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 33.01000000000001,
+					["Overhealing"] = 1706,
+					["TimeSpent"] = {
 						["Grandmaster's Training Dummy"] = {
 							["Details"] = {
-								["Necrosis"] = {
-									["count"] = 1.42,
-								},
-								["Melee"] = {
+								["Howling Blast"] = {
 									["count"] = 0,
 								},
 								["Frost Fever (DoT)"] = {
 									["count"] = 0,
 								},
-								["Plague Strike"] = {
-									["count"] = 0.4,
-								},
-								["Wandering Plague"] = {
-									["count"] = 0,
-								},
 								["Blood Plague (DoT)"] = {
-									["count"] = 17.9,
+									["count"] = 1.39,
 								},
 							},
-							["amount"] = 19.72,
+							["amount"] = 1.39,
 						},
 						["Heroic Training Dummy"] = {
 							["Details"] = {
-								["Scourge Strike"] = {
-									["count"] = 4.82,
+								["Howling Blast"] = {
+									["count"] = 0.35,
 								},
 								["Melee"] = {
-									["count"] = 2.06,
+									["count"] = 3.589999999999999,
 								},
-								["Icy Touch"] = {
-									["count"] = 17.96,
+								["Blood-Caked Strike"] = {
+									["count"] = 0.01,
 								},
-								["Wandering Plague"] = {
-									["count"] = 42.00999999999999,
+								["Obliterate"] = {
+									["count"] = 1.18,
 								},
 								["Necrosis"] = {
-									["count"] = 13.62,
+									["count"] = 18.08,
+								},
+								["Frost Strike"] = {
+									["count"] = 0.8200000000000001,
 								},
 								["Blood Plague (DoT)"] = {
-									["count"] = 18.63,
+									["count"] = 3.88,
 								},
-								["Scourge Strike (Shadow)"] = {
+								["Razor Frost"] = {
 									["count"] = 0,
 								},
 								["Blood Strike"] = {
-									["count"] = 3.66,
+									["count"] = 0.39,
 								},
 								["Plague Strike"] = {
-									["count"] = 4.4,
+									["count"] = 0.21,
 								},
 								["Frost Fever (DoT)"] = {
-									["count"] = 47.53999999999999,
+									["count"] = 3,
 								},
-								["Blood-Caked Strike"] = {
-									["count"] = 0,
+								["Icy Touch"] = {
+									["count"] = 0.11,
 								},
 							},
-							["amount"] = 154.7,
+							["amount"] = 31.62000000000001,
 						},
 					},
-					["RunicPowerGain"] = 40,
-					["ElementHitsTaken"] = {
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+						["Unholy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 853,
+									["min"] = 853,
+									["count"] = 2,
+									["amount"] = 1706,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1706,
+						},
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6287,
+									["min"] = 6287,
+									["count"] = 1,
+									["amount"] = 6287,
+								},
+								["Hit"] = {
+									["max"] = 2485,
+									["min"] = 2485,
+									["count"] = 1,
+									["amount"] = 2485,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 8772,
+						},
 						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 1399,
+									["min"] = 644,
+									["count"] = 10,
+									["amount"] = 10009,
+								},
+								["Hit"] = {
+									["max"] = 1898,
+									["min"] = 827,
+									["count"] = 16,
+									["amount"] = 19341,
+								},
+								["Miss"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 3586,
+									["min"] = 1878,
+									["count"] = 9,
+									["amount"] = 23749,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 46,
+							["amount"] = 53099,
+						},
+						["Blood-Caked Strike"] = {
 							["Details"] = {
 								["Parry"] = {
 									["count"] = 1,
+									["amount"] = 0,
 								},
-								["Dodge"] = {
-									["count"] = 1,
+								["Hit"] = {
+									["max"] = 915,
+									["min"] = 424,
+									["count"] = 10,
+									["amount"] = 7207,
 								},
 							},
-							["amount"] = 2,
+							["count"] = 11,
+							["amount"] = 7207,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 10962,
+									["min"] = 5543,
+									["count"] = 5,
+									["amount"] = 40168,
+								},
+								["Hit"] = {
+									["max"] = 4371,
+									["min"] = 1631,
+									["count"] = 8,
+									["amount"] = 22253,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 62421,
+						},
+						["Necrosis"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 646,
+									["min"] = 128,
+									["count"] = 35,
+									["amount"] = 10037,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 10037,
+						},
+						["Frost Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4722,
+									["min"] = 2486,
+									["count"] = 4,
+									["amount"] = 13402,
+								},
+								["Hit"] = {
+									["max"] = 2299,
+									["min"] = 1150,
+									["count"] = 2,
+									["amount"] = 3449,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 16851,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 519,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 6069,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 6069,
+						},
+						["Razor Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 45,
+									["min"] = 28,
+									["count"] = 27,
+									["amount"] = 982,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 982,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3616,
+									["min"] = 3616,
+									["count"] = 1,
+									["amount"] = 3616,
+								},
+								["Hit"] = {
+									["max"] = 795,
+									["min"] = 795,
+									["count"] = 1,
+									["amount"] = 795,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4411,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1306,
+									["min"] = 651,
+									["count"] = 2,
+									["amount"] = 1957,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1957,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 542,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 6809,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 6809,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1937,
+									["min"] = 1937,
+									["count"] = 1,
+									["amount"] = 1937,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1937,
 						},
 					},
-					["RunicPowerGainedFrom"] = {
-						["Deathfeast"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 33.01000000000001,
+					["TimeDamaging"] = {
+						["Grandmaster's Training Dummy"] = {
 							["Details"] = {
-								["Blood Tap"] = {
-									["count"] = 40,
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.39,
 								},
 							},
-							["amount"] = 40,
+							["amount"] = 1.39,
 						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 3.589999999999999,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0.01,
+								},
+								["Obliterate"] = {
+									["count"] = 1.18,
+								},
+								["Necrosis"] = {
+									["count"] = 18.08,
+								},
+								["Frost Strike"] = {
+									["count"] = 0.8200000000000001,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.88,
+								},
+								["Razor Frost"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.39,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.21,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 31.62000000000001,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 90,
+					["DispelledWho"] = {
 					},
 				},
-				["Fight3"] = {
+				["Fight5"] = {
 					["RunicPowerGained"] = {
 						["Blood Tap"] = {
 							["Details"] = {
@@ -3743,58 +2179,2954 @@ RecountPerCharDB = {
 					},
 					["Damage"] = 1301,
 				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 30,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Blood Tap"] = {
+							["Details"] = {
+								["Deathfeast"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Tap"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 66,
+								},
+								["Heroic Training Dummy"] = {
+									["count"] = 72,
+								},
+							},
+							["amount"] = 138,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 66,
+								},
+								["Heroic Training Dummy"] = {
+									["count"] = 66,
+								},
+							},
+							["amount"] = 132,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Frost"] = 2177,
+						["Shadow"] = 5729,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 24,
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Deathfeast"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 270,
+					["Damage"] = 375313,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 4.13,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 88920,
+						["Frost"] = 61409,
+						["Melee"] = 93843,
+						["Shadow"] = 131141,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 34,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 11,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Tick"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 59,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 15,
+								},
+								["Parry"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 35,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 44,
+								},
+								["Hit"] = {
+									["count"] = 78,
+								},
+							},
+							["amount"] = 123,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 4.13,
+								},
+							},
+							["amount"] = 4.13,
+						},
+					},
+					["OverHeals"] = {
+						["Unholy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 888,
+									["min"] = 853,
+									["count"] = 3,
+									["amount"] = 2594,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 2594,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 97,
+									["min"] = 97,
+									["count"] = 1,
+									["amount"] = 97,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 97,
+						},
+					},
+					["WhoHealed"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 487,
+								},
+							},
+							["amount"] = 487,
+						},
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 89.91999999999999,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 2691,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 9.219999999999999,
+								},
+							},
+							["amount"] = 9.219999999999999,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Scourge Strike"] = {
+									["count"] = 4.82,
+								},
+								["Melee"] = {
+									["count"] = 2.600000000000001,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 13.36,
+								},
+								["Obliterate"] = {
+									["count"] = 0.45,
+								},
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 0,
+								},
+								["Pestilence"] = {
+									["count"] = 0.13,
+								},
+								["Necrosis"] = {
+									["count"] = 19.69,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 12.6,
+								},
+								["Razor Frost"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.83,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.46,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 11.59,
+								},
+								["Icy Touch"] = {
+									["count"] = 4.04,
+								},
+							},
+							["amount"] = 76.56999999999998,
+						},
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 4.13,
+								},
+							},
+							["amount"] = 4.13,
+						},
+					},
+					["Heals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 127,
+									["min"] = 23,
+									["count"] = 8,
+									["amount"] = 487,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 487,
+						},
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 487,
+								},
+							},
+							["amount"] = 487,
+						},
+					},
+					["Healing"] = 487,
+					["RunicPowerGained"] = {
+						["Blood Tap"] = {
+							["Details"] = {
+								["Deathfeast"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Tap"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["Attacks"] = {
+						["Scourge Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3607,
+									["min"] = 3378,
+									["count"] = 3,
+									["amount"] = 10491,
+								},
+								["Crit"] = {
+									["max"] = 8186,
+									["min"] = 7064,
+									["count"] = 3,
+									["amount"] = 22570,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 33061,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 2193,
+									["min"] = 780,
+									["count"] = 5,
+									["amount"] = 8063,
+								},
+								["Hit"] = {
+									["max"] = 3196,
+									["min"] = 940,
+									["count"] = 10,
+									["amount"] = 22702,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 6488,
+									["min"] = 2043,
+									["count"] = 15,
+									["amount"] = 63078,
+								},
+								["Parry"] = {
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 93843,
+						},
+						["Blood-Caked Strike"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 1952,
+									["min"] = 510,
+									["count"] = 9,
+									["amount"] = 10446,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 10446,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1688,
+									["min"] = 884,
+									["count"] = 42,
+									["amount"] = 53231,
+								},
+							},
+							["count"] = 42,
+							["amount"] = 53231,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 5988,
+									["min"] = 5988,
+									["count"] = 1,
+									["amount"] = 5988,
+								},
+								["Hit"] = {
+									["max"] = 4239,
+									["min"] = 4239,
+									["count"] = 1,
+									["amount"] = 4239,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 10227,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3735,
+									["min"] = 1608,
+									["count"] = 6,
+									["amount"] = 15867,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 15867,
+						},
+						["Pestilence"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Necrosis"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1184,
+									["min"] = 125,
+									["count"] = 30,
+									["amount"] = 17531,
+								},
+							},
+							["count"] = 30,
+							["amount"] = 17531,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1257,
+									["min"] = 432,
+									["count"] = 44,
+									["amount"] = 44512,
+								},
+							},
+							["count"] = 44,
+							["amount"] = 44512,
+						},
+						["Razor Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 26,
+									["count"] = 10,
+									["amount"] = 340,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 340,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4544,
+									["min"] = 3588,
+									["count"] = 3,
+									["amount"] = 11748,
+								},
+								["Hit"] = {
+									["max"] = 2398,
+									["min"] = 805,
+									["count"] = 5,
+									["amount"] = 9108,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 20856,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4431,
+									["min"] = 2434,
+									["count"] = 3,
+									["amount"] = 9458,
+								},
+								["Hit"] = {
+									["max"] = 1877,
+									["min"] = 527,
+									["count"] = 4,
+									["amount"] = 4872,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 14330,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1644,
+									["min"] = 436,
+									["count"] = 46,
+									["amount"] = 54247,
+								},
+							},
+							["count"] = 46,
+							["amount"] = 54247,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3339,
+									["min"] = 2720,
+									["count"] = 2,
+									["amount"] = 6059,
+								},
+								["Hit"] = {
+									["max"] = 763,
+									["min"] = 763,
+									["count"] = 1,
+									["amount"] = 763,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 6822,
+						},
+					},
+					["HealingTaken"] = 487,
+					["DamagedWho"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 27548,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 28318,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 22664,
+								},
+							},
+							["amount"] = 78530,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Scourge Strike"] = {
+									["count"] = 33061,
+								},
+								["Melee"] = {
+									["count"] = 93843,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 10446,
+								},
+								["Wandering Plague"] = {
+									["count"] = 25683,
+								},
+								["Obliterate"] = {
+									["count"] = 10227,
+								},
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 15867,
+								},
+								["Necrosis"] = {
+									["count"] = 17531,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 21848,
+								},
+								["Razor Frost"] = {
+									["count"] = 340,
+								},
+								["Blood Strike"] = {
+									["count"] = 20856,
+								},
+								["Plague Strike"] = {
+									["count"] = 14330,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 25929,
+								},
+								["Icy Touch"] = {
+									["count"] = 6822,
+								},
+							},
+							["amount"] = 296783,
+						},
+					},
+					["TimeDamage"] = 85.78999999999999,
+					["TimeDamaging"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 9.219999999999999,
+								},
+							},
+							["amount"] = 9.219999999999999,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Scourge Strike"] = {
+									["count"] = 4.82,
+								},
+								["Melee"] = {
+									["count"] = 2.600000000000001,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 13.36,
+								},
+								["Obliterate"] = {
+									["count"] = 0.45,
+								},
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 0,
+								},
+								["Pestilence"] = {
+									["count"] = 0.13,
+								},
+								["Necrosis"] = {
+									["count"] = 19.69,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 12.6,
+								},
+								["Razor Frost"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 3.83,
+								},
+								["Plague Strike"] = {
+									["count"] = 3.46,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 11.59,
+								},
+								["Icy Touch"] = {
+									["count"] = 4.04,
+								},
+							},
+							["amount"] = 76.56999999999998,
+						},
+					},
+					["RunicPowerGain"] = 20,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Heroic Training Dummy"] = {
+									["count"] = 81,
+								},
+							},
+							["amount"] = 81,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 12,
+								},
+								["Heroic Training Dummy"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 33,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 743,
+						["Frost"] = 1618,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 91200,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 456,
+								},
+								["Melee"] = {
+									["count"] = 2283,
+								},
+								["Plague Strike"] = {
+									["count"] = 3616,
+								},
+								["Wandering Plague"] = {
+									["count"] = 10355,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3348,
+								},
+							},
+							["amount"] = 20058,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 2148,
+								},
+								["Melee"] = {
+									["count"] = 11386,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 8548,
+								},
+								["Icy Touch"] = {
+									["count"] = 7477,
+								},
+								["Plague Strike"] = {
+									["count"] = 4720,
+								},
+								["Wandering Plague"] = {
+									["count"] = 11222,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 25641,
+								},
+							},
+							["amount"] = 71142,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Frost"] = 33118,
+						["Shadow"] = 36077,
+						["Melee"] = 13669,
+						["Physical"] = 8336,
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 27,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 31,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 11,
+								},
+								["Hit"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 100.54,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 1.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.4,
+								},
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 7.74,
+								},
+							},
+							["amount"] = 9.560000000000001,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 2.77,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 9.66,
+								},
+								["Icy Touch"] = {
+									["count"] = 14,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.62,
+								},
+								["Wandering Plague"] = {
+									["count"] = 24,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 38.93,
+								},
+							},
+							["amount"] = 90.97999999999999,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Necrosis"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 906,
+									["min"] = 337,
+									["count"] = 5,
+									["amount"] = 2604,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 2604,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 2106,
+									["min"] = 2106,
+									["count"] = 1,
+									["amount"] = 2106,
+								},
+								["Crit"] = {
+									["max"] = 4534,
+									["min"] = 4534,
+									["count"] = 1,
+									["amount"] = 4534,
+								},
+								["Hit"] = {
+									["max"] = 2500,
+									["min"] = 2246,
+									["count"] = 3,
+									["amount"] = 7029,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 13669,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1257,
+									["min"] = 837,
+									["count"] = 11,
+									["amount"] = 11896,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 11896,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 2708,
+									["min"] = 2430,
+									["count"] = 2,
+									["amount"] = 5138,
+								},
+								["Hit"] = {
+									["max"] = 1173,
+									["min"] = 1166,
+									["count"] = 2,
+									["amount"] = 2339,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 7477,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4720,
+									["min"] = 3616,
+									["count"] = 2,
+									["amount"] = 8336,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 8336,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1420,
+									["min"] = 895,
+									["count"] = 20,
+									["amount"] = 21577,
+								},
+							},
+							["count"] = 20,
+							["amount"] = 21577,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 990,
+									["min"] = 792,
+									["count"] = 27,
+									["amount"] = 25641,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 25641,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 100.54,
+					["TimeDamaging"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 1.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.4,
+								},
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 7.74,
+								},
+							},
+							["amount"] = 9.560000000000001,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 2.77,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 9.66,
+								},
+								["Icy Touch"] = {
+									["count"] = 14,
+								},
+								["Plague Strike"] = {
+									["count"] = 1.62,
+								},
+								["Wandering Plague"] = {
+									["count"] = 24,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 38.93,
+								},
+							},
+							["amount"] = 90.97999999999999,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 114,
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 21,
+								},
+								["Heroic Training Dummy"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 45,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 21,
+								},
+								["Heroic Training Dummy"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 933,
+						["Frost"] = 2266,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 180552,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 2485,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3080,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 2723,
+								},
+							},
+							["amount"] = 8288,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 6287,
+								},
+								["Melee"] = {
+									["count"] = 53099,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 7207,
+								},
+								["Obliterate"] = {
+									["count"] = 62421,
+								},
+								["Necrosis"] = {
+									["count"] = 10037,
+								},
+								["Frost Strike"] = {
+									["count"] = 16851,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3346,
+								},
+								["Razor Frost"] = {
+									["count"] = 982,
+								},
+								["Blood Strike"] = {
+									["count"] = 4411,
+								},
+								["Plague Strike"] = {
+									["count"] = 1957,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3729,
+								},
+								["Icy Touch"] = {
+									["count"] = 1937,
+								},
+							},
+							["amount"] = 172264,
+						},
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 16106,
+						["Physical"] = 75996,
+						["Melee"] = 53099,
+						["Frost"] = 35351,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 35,
+								},
+								["Tick"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 50,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 29,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 16,
+								},
+								["Miss"] = {
+									["count"] = 7,
+								},
+								["Crit"] = {
+									["count"] = 9,
+								},
+								["Parry"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 46,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 30,
+								},
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Tick"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 51,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 33.01000000000001,
+					["Overhealing"] = 1706,
+					["TimeSpent"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.39,
+								},
+							},
+							["amount"] = 1.39,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 3.589999999999999,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0.01,
+								},
+								["Obliterate"] = {
+									["count"] = 1.18,
+								},
+								["Necrosis"] = {
+									["count"] = 18.08,
+								},
+								["Frost Strike"] = {
+									["count"] = 0.8200000000000001,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.88,
+								},
+								["Razor Frost"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.39,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.21,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 31.62000000000001,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+						["Unholy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 853,
+									["min"] = 853,
+									["count"] = 2,
+									["amount"] = 1706,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1706,
+						},
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6287,
+									["min"] = 6287,
+									["count"] = 1,
+									["amount"] = 6287,
+								},
+								["Hit"] = {
+									["max"] = 2485,
+									["min"] = 2485,
+									["count"] = 1,
+									["amount"] = 2485,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 8772,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 1399,
+									["min"] = 644,
+									["count"] = 10,
+									["amount"] = 10009,
+								},
+								["Hit"] = {
+									["max"] = 1898,
+									["min"] = 827,
+									["count"] = 16,
+									["amount"] = 19341,
+								},
+								["Miss"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 3586,
+									["min"] = 1878,
+									["count"] = 9,
+									["amount"] = 23749,
+								},
+								["Parry"] = {
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 46,
+							["amount"] = 53099,
+						},
+						["Blood-Caked Strike"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 915,
+									["min"] = 424,
+									["count"] = 10,
+									["amount"] = 7207,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 7207,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 10962,
+									["min"] = 5543,
+									["count"] = 5,
+									["amount"] = 40168,
+								},
+								["Hit"] = {
+									["max"] = 4371,
+									["min"] = 1631,
+									["count"] = 8,
+									["amount"] = 22253,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 62421,
+						},
+						["Necrosis"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 646,
+									["min"] = 128,
+									["count"] = 35,
+									["amount"] = 10037,
+								},
+							},
+							["count"] = 35,
+							["amount"] = 10037,
+						},
+						["Frost Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4722,
+									["min"] = 2486,
+									["count"] = 4,
+									["amount"] = 13402,
+								},
+								["Hit"] = {
+									["max"] = 2299,
+									["min"] = 1150,
+									["count"] = 2,
+									["amount"] = 3449,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 16851,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 519,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 6069,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 6069,
+						},
+						["Razor Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 45,
+									["min"] = 28,
+									["count"] = 27,
+									["amount"] = 982,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 982,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3616,
+									["min"] = 3616,
+									["count"] = 1,
+									["amount"] = 3616,
+								},
+								["Hit"] = {
+									["max"] = 795,
+									["min"] = 795,
+									["count"] = 1,
+									["amount"] = 795,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 4411,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1306,
+									["min"] = 651,
+									["count"] = 2,
+									["amount"] = 1957,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1957,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 542,
+									["min"] = 0,
+									["count"] = 15,
+									["amount"] = 6809,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 6809,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 1937,
+									["min"] = 1937,
+									["count"] = 1,
+									["amount"] = 1937,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 1937,
+						},
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 33.01000000000001,
+					["TimeDamaging"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 1.39,
+								},
+							},
+							["amount"] = 1.39,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 3.589999999999999,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0.01,
+								},
+								["Obliterate"] = {
+									["count"] = 1.18,
+								},
+								["Necrosis"] = {
+									["count"] = 18.08,
+								},
+								["Frost Strike"] = {
+									["count"] = 0.8200000000000001,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 3.88,
+								},
+								["Razor Frost"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 0.39,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.21,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 3,
+								},
+								["Icy Touch"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 31.62000000000001,
+						},
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 90,
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 4.13,
+								},
+							},
+							["amount"] = 4.13,
+						},
+					},
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 96,
+								},
+								["Heroic Training Dummy"] = {
+									["count"] = 186,
+								},
+							},
+							["amount"] = 282,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 117,
+								},
+								["Heroic Training Dummy"] = {
+									["count"] = 123,
+								},
+							},
+							["amount"] = 240,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 7587,
+						["Frost"] = 6157,
+					},
+					["TimeSpent"] = {
+						["Frenzied Plaguehound"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 7,
+								},
+								["Necrosis"] = {
+									["count"] = 1.88,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8.879999999999999,
+						},
+						["Monstrous Plaguebat"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+								["Necrosis"] = {
+									["count"] = 1.32,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.82,
+						},
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 4.13,
+								},
+							},
+							["amount"] = 4.13,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 1.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.4,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 22.92,
+								},
+							},
+							["amount"] = 24.74,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Scourge Strike"] = {
+									["count"] = 4.82,
+								},
+								["Howling Blast"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 6.19,
+								},
+								["Wandering Plague"] = {
+									["count"] = 42.00999999999999,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0.01,
+								},
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 0,
+								},
+								["Obliterate"] = {
+									["count"] = 1.63,
+								},
+								["Necrosis"] = {
+									["count"] = 40.53999999999999,
+								},
+								["Pestilence"] = {
+									["count"] = 0.13,
+								},
+								["Frost Strike"] = {
+									["count"] = 0.8200000000000001,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 32.24,
+								},
+								["Razor Frost"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 4.22,
+								},
+								["Plague Strike"] = {
+									["count"] = 5.290000000000001,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 58.16999999999999,
+								},
+								["Icy Touch"] = {
+									["count"] = 18.15,
+								},
+							},
+							["amount"] = 214.57,
+						},
+					},
+					["HealedWho"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 487,
+								},
+							},
+							["amount"] = 487,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Blood Tap"] = {
+							["Details"] = {
+								["Deathfeast"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 257.14,
+					["Overhealing"] = 4397,
+					["WhoHealed"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Presence"] = {
+									["count"] = 487,
+								},
+							},
+							["amount"] = 487,
+						},
+					},
+					["DOT_Time"] = 522,
+					["Damage"] = 677418,
+					["TimeHeal"] = 4.13,
+					["Heals"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 127,
+									["min"] = 23,
+									["count"] = 8,
+									["amount"] = 487,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 487,
+						},
+					},
+					["HOT_Time"] = 24,
+					["DamagedWho"] = {
+						["Frenzied Plaguehound"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 2846,
+								},
+								["Necrosis"] = {
+									["count"] = 504,
+								},
+								["Melee"] = {
+									["count"] = 2520,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 1301,
+								},
+							},
+							["amount"] = 7171,
+						},
+						["Monstrous Plaguebat"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 1303,
+								},
+								["Necrosis"] = {
+									["count"] = 1310,
+								},
+								["Melee"] = {
+									["count"] = 6550,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 1511,
+								},
+							},
+							["amount"] = 10674,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 456,
+								},
+								["Melee"] = {
+									["count"] = 2283,
+								},
+								["Howling Blast"] = {
+									["count"] = 2485,
+								},
+								["Wandering Plague"] = {
+									["count"] = 39795,
+								},
+								["Plague Strike"] = {
+									["count"] = 3616,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 32865,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 32542,
+								},
+							},
+							["amount"] = 114042,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Scourge Strike"] = {
+									["count"] = 33061,
+								},
+								["Melee"] = {
+									["count"] = 158328,
+								},
+								["Howling Blast"] = {
+									["count"] = 6287,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 17653,
+								},
+								["Wandering Plague"] = {
+									["count"] = 38496,
+								},
+								["Obliterate"] = {
+									["count"] = 72648,
+								},
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 15867,
+								},
+								["Necrosis"] = {
+									["count"] = 29716,
+								},
+								["Frost Strike"] = {
+									["count"] = 16851,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 35631,
+								},
+								["Razor Frost"] = {
+									["count"] = 1322,
+								},
+								["Blood Strike"] = {
+									["count"] = 25267,
+								},
+								["Plague Strike"] = {
+									["count"] = 21007,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 57161,
+								},
+								["Icy Touch"] = {
+									["count"] = 16236,
+								},
+							},
+							["amount"] = 545531,
+						},
+					},
+					["HOTs"] = {
+						["Blood Presence"] = {
+							["Details"] = {
+								["Deathfeast"] = {
+									["count"] = 24,
+								},
+							},
+							["amount"] = 24,
+						},
+					},
+					["Healing"] = 487,
+					["ElementDone"] = {
+						["Physical"] = 176064,
+						["Frost"] = 137356,
+						["Melee"] = 169681,
+						["Shadow"] = 194317,
+					},
+					["OverHeals"] = {
+						["Unholy Strength"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 888,
+									["min"] = 853,
+									["count"] = 5,
+									["amount"] = 4300,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 4300,
+						},
+						["Blood Presence"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 97,
+									["min"] = 97,
+									["count"] = 1,
+									["amount"] = 97,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 97,
+						},
+					},
+					["Attacks"] = {
+						["Scourge Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3607,
+									["min"] = 3378,
+									["count"] = 3,
+									["amount"] = 10491,
+								},
+								["Crit"] = {
+									["max"] = 8186,
+									["min"] = 7064,
+									["count"] = 3,
+									["amount"] = 22570,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 33061,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 6287,
+									["min"] = 6287,
+									["count"] = 1,
+									["amount"] = 6287,
+								},
+								["Hit"] = {
+									["max"] = 2485,
+									["min"] = 2485,
+									["count"] = 1,
+									["amount"] = 2485,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 8772,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 2193,
+									["min"] = 644,
+									["count"] = 16,
+									["amount"] = 20178,
+								},
+								["Hit"] = {
+									["max"] = 3196,
+									["min"] = 827,
+									["count"] = 30,
+									["amount"] = 51592,
+								},
+								["Miss"] = {
+									["count"] = 9,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 6550,
+									["min"] = 1878,
+									["count"] = 26,
+									["amount"] = 97911,
+								},
+								["Parry"] = {
+									["count"] = 7,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 88,
+							["amount"] = 169681,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1688,
+									["min"] = 754,
+									["count"] = 66,
+									["amount"] = 78291,
+								},
+							},
+							["count"] = 66,
+							["amount"] = 78291,
+						},
+						["Icy Touch"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 3339,
+									["min"] = 1937,
+									["count"] = 5,
+									["amount"] = 13134,
+								},
+								["Hit"] = {
+									["max"] = 1545,
+									["min"] = 763,
+									["count"] = 6,
+									["amount"] = 7251,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 20385,
+						},
+						["Scourge Strike (Shadow)"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 3735,
+									["min"] = 1608,
+									["count"] = 6,
+									["amount"] = 15867,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 15867,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 10962,
+									["min"] = 5543,
+									["count"] = 6,
+									["amount"] = 46156,
+								},
+								["Hit"] = {
+									["max"] = 4371,
+									["min"] = 1631,
+									["count"] = 9,
+									["amount"] = 26492,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 72648,
+						},
+						["Necrosis"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 1310,
+									["min"] = 125,
+									["count"] = 72,
+									["amount"] = 31986,
+								},
+							},
+							["count"] = 72,
+							["amount"] = 31986,
+						},
+						["Pestilence"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Frost Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4722,
+									["min"] = 2486,
+									["count"] = 4,
+									["amount"] = 13402,
+								},
+								["Hit"] = {
+									["max"] = 2299,
+									["min"] = 1150,
+									["count"] = 2,
+									["amount"] = 3449,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 16851,
+						},
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1257,
+									["min"] = 359,
+									["count"] = 80,
+									["amount"] = 68173,
+								},
+							},
+							["count"] = 80,
+							["amount"] = 68173,
+						},
+						["Razor Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 45,
+									["min"] = 26,
+									["count"] = 37,
+									["amount"] = 1322,
+								},
+							},
+							["count"] = 37,
+							["amount"] = 1322,
+						},
+						["Blood Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4544,
+									["min"] = 3588,
+									["count"] = 4,
+									["amount"] = 15364,
+								},
+								["Hit"] = {
+									["max"] = 2398,
+									["min"] = 795,
+									["count"] = 6,
+									["amount"] = 9903,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 25267,
+						},
+						["Plague Strike"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 4720,
+									["min"] = 2434,
+									["count"] = 5,
+									["amount"] = 17794,
+								},
+								["Hit"] = {
+									["max"] = 1877,
+									["min"] = 527,
+									["count"] = 6,
+									["amount"] = 6829,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 24623,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 1644,
+									["min"] = 388,
+									["count"] = 94,
+									["amount"] = 90026,
+								},
+							},
+							["count"] = 94,
+							["amount"] = 90026,
+						},
+						["Blood-Caked Strike"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 1952,
+									["min"] = 424,
+									["count"] = 21,
+									["amount"] = 20465,
+								},
+							},
+							["count"] = 23,
+							["amount"] = 20465,
+						},
+					},
+					["HealingTaken"] = 487,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 18,
+								},
+								["Hit"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 67,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 94,
+								},
+								["Crit"] = {
+									["count"] = 10,
+								},
+								["Hit"] = {
+									["count"] = 46,
+								},
+							},
+							["amount"] = 150,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 16,
+								},
+								["Hit"] = {
+									["count"] = 30,
+								},
+								["Miss"] = {
+									["count"] = 9,
+								},
+								["Crit"] = {
+									["count"] = 26,
+								},
+								["Parry"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 88,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 80,
+								},
+								["Hit"] = {
+									["count"] = 144,
+								},
+							},
+							["amount"] = 225,
+						},
+					},
+					["TimeDamage"] = 253.0100000000001,
+					["TimeDamaging"] = {
+						["Frenzied Plaguehound"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 7,
+								},
+								["Necrosis"] = {
+									["count"] = 1.88,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 8.879999999999999,
+						},
+						["Monstrous Plaguebat"] = {
+							["Details"] = {
+								["Icy Touch"] = {
+									["count"] = 3.5,
+								},
+								["Necrosis"] = {
+									["count"] = 1.32,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.82,
+						},
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Necrosis"] = {
+									["count"] = 1.42,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+								["Plague Strike"] = {
+									["count"] = 0.4,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 22.92,
+								},
+							},
+							["amount"] = 24.74,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Scourge Strike"] = {
+									["count"] = 4.82,
+								},
+								["Howling Blast"] = {
+									["count"] = 0.35,
+								},
+								["Melee"] = {
+									["count"] = 6.19,
+								},
+								["Wandering Plague"] = {
+									["count"] = 42.00999999999999,
+								},
+								["Blood-Caked Strike"] = {
+									["count"] = 0.01,
+								},
+								["Scourge Strike (Shadow)"] = {
+									["count"] = 0,
+								},
+								["Obliterate"] = {
+									["count"] = 1.63,
+								},
+								["Necrosis"] = {
+									["count"] = 40.53999999999999,
+								},
+								["Pestilence"] = {
+									["count"] = 0.13,
+								},
+								["Frost Strike"] = {
+									["count"] = 0.8200000000000001,
+								},
+								["Blood Plague (DoT)"] = {
+									["count"] = 32.24,
+								},
+								["Razor Frost"] = {
+									["count"] = 0,
+								},
+								["Blood Strike"] = {
+									["count"] = 4.22,
+								},
+								["Plague Strike"] = {
+									["count"] = 5.290000000000001,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 58.16999999999999,
+								},
+								["Icy Touch"] = {
+									["count"] = 18.15,
+								},
+							},
+							["amount"] = 214.57,
+						},
+					},
+					["RunicPowerGain"] = 70,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+						["Deathfeast"] = {
+							["Details"] = {
+								["Blood Tap"] = {
+									["count"] = 70,
+								},
+							},
+							["amount"] = 70,
+						},
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Grandmaster's Training Dummy"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Heroic Training Dummy"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 83,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["HOTs"] = {
+					},
+					["ManaGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 6,
+					["Damage"] = 5157,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["FDamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RageGain"] = 0,
+					["ElementDone"] = {
+						["Shadow"] = 5157,
+						["Frost"] = 0,
+					},
+					["ManaGainedFrom"] = {
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 6,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["RageGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["Dispelled"] = 0,
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGain"] = 0,
+					["CCBreak"] = 0,
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 4.65,
+					["PartialResist"] = {
+					},
+					["ManaGained"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["InterruptData"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["TimeSpent"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 4.65,
+								},
+							},
+							["amount"] = 4.65,
+						},
+					},
+					["Heals"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["Healing"] = 0,
+					["RunicPowerGained"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["Attacks"] = {
+						["Blood Plague (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 837,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 1674,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 1674,
+						},
+						["Wandering Plague"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 946,
+									["min"] = 754,
+									["count"] = 4,
+									["amount"] = 3483,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 3483,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["DamagedWho"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 1674,
+								},
+								["Wandering Plague"] = {
+									["count"] = 1892,
+								},
+							},
+							["amount"] = 3566,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 1591,
+								},
+							},
+							["amount"] = 1591,
+						},
+					},
+					["TimeDamage"] = 4.65,
+					["TimeDamaging"] = {
+						["Grandmaster's Training Dummy"] = {
+							["Details"] = {
+								["Blood Plague (DoT)"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Heroic Training Dummy"] = {
+							["Details"] = {
+								["Frost Fever (DoT)"] = {
+									["count"] = 0,
+								},
+								["Wandering Plague"] = {
+									["count"] = 4.65,
+								},
+							},
+							["amount"] = 4.65,
+						},
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
 			},
 			["LastEventHealth"] = {
-				"29611 (100%)", -- [1]
-				"29611 (100%)", -- [2]
-				"29611 (100%)", -- [3]
-				"29611 (100%)", -- [4]
-				"29611 (100%)", -- [5]
-				"29611 (100%)", -- [6]
-				"29611 (100%)", -- [7]
-				"29611 (100%)", -- [8]
-				"29611 (100%)", -- [9]
-				"29611 (100%)", -- [10]
-				"29611 (100%)", -- [11]
-				"29611 (100%)", -- [12]
-				"29611 (100%)", -- [13]
-				"29611 (100%)", -- [14]
-				"29611 (100%)", -- [15]
-				"29611 (100%)", -- [16]
-				"29611 (100%)", -- [17]
-				"29611 (100%)", -- [18]
-				"29611 (100%)", -- [19]
-				"29611 (100%)", -- [20]
-				"29611 (100%)", -- [21]
-				"29611 (100%)", -- [22]
-				"29611 (100%)", -- [23]
-				"29611 (100%)", -- [24]
-				"29611 (100%)", -- [25]
-				"29611 (100%)", -- [26]
-				"29611 (100%)", -- [27]
-				"29611 (100%)", -- [28]
-				"29611 (100%)", -- [29]
-				"29611 (100%)", -- [30]
-				"29611 (100%)", -- [31]
-				"29611 (100%)", -- [32]
-				"29611 (100%)", -- [33]
-				"29611 (100%)", -- [34]
-				"29611 (100%)", -- [35]
-				"29611 (100%)", -- [36]
-				"29611 (100%)", -- [37]
-				"29611 (100%)", -- [38]
-				"29611 (100%)", -- [39]
-				"29611 (100%)", -- [40]
-				"29611 (100%)", -- [41]
-				"29611 (100%)", -- [42]
-				"29611 (100%)", -- [43]
-				"29611 (100%)", -- [44]
-				"29611 (100%)", -- [45]
-				"29611 (100%)", -- [46]
-				"29611 (100%)", -- [47]
-				"29611 (100%)", -- [48]
-				"29611 (100%)", -- [49]
-				"29611 (100%)", -- [50]
+				"28461 (100%)", -- [1]
+				"28461 (100%)", -- [2]
+				"28461 (100%)", -- [3]
+				"28461 (100%)", -- [4]
+				"28461 (100%)", -- [5]
+				"28461 (100%)", -- [6]
+				"28461 (100%)", -- [7]
+				"28461 (100%)", -- [8]
+				"28461 (100%)", -- [9]
+				"28461 (100%)", -- [10]
+				"28461 (100%)", -- [11]
+				"28461 (100%)", -- [12]
+				"28461 (100%)", -- [13]
+				"28461 (100%)", -- [14]
+				"28461 (100%)", -- [15]
+				"28461 (100%)", -- [16]
+				"28461 (100%)", -- [17]
+				"28461 (100%)", -- [18]
+				"28461 (100%)", -- [19]
+				"28461 (100%)", -- [20]
+				"28461 (100%)", -- [21]
+				"28461 (100%)", -- [22]
+				"28461 (100%)", -- [23]
+				"28461 (100%)", -- [24]
+				"28461 (100%)", -- [25]
+				"28461 (100%)", -- [26]
+				"28461 (100%)", -- [27]
+				"28461 (100%)", -- [28]
+				"28461 (100%)", -- [29]
+				"28461 (100%)", -- [30]
+				"28461 (100%)", -- [31]
+				"28461 (100%)", -- [32]
+				"28461 (100%)", -- [33]
+				"28461 (100%)", -- [34]
+				"28461 (100%)", -- [35]
+				"28461 (100%)", -- [36]
+				"28461 (100%)", -- [37]
+				"28461 (100%)", -- [38]
+				"28461 (100%)", -- [39]
+				"28461 (100%)", -- [40]
+				"28461 (100%)", -- [41]
+				"28461 (100%)", -- [42]
+				"28461 (100%)", -- [43]
+				"28461 (100%)", -- [44]
+				"28461 (100%)", -- [45]
+				"28461 (100%)", -- [46]
+				"28461 (100%)", -- [47]
+				"28461 (100%)", -- [48]
+				"28461 (100%)", -- [49]
+				"28461 (100%)", -- [50]
 			},
 			["LastEventIncoming"] = {
 				false, -- [1]
@@ -3807,7 +5139,7 @@ RecountPerCharDB = {
 				false, -- [8]
 				false, -- [9]
 				false, -- [10]
-				false, -- [11]
+				true, -- [11]
 				false, -- [12]
 				false, -- [13]
 				false, -- [14]
@@ -3823,7 +5155,7 @@ RecountPerCharDB = {
 				false, -- [24]
 				false, -- [25]
 				false, -- [26]
-				false, -- [27]
+				true, -- [27]
 				false, -- [28]
 				false, -- [29]
 				false, -- [30]
@@ -3842,65 +5174,65 @@ RecountPerCharDB = {
 				false, -- [43]
 				false, -- [44]
 				false, -- [45]
-				false, -- [46]
+				true, -- [46]
 				false, -- [47]
 				false, -- [48]
 				false, -- [49]
 				false, -- [50]
 			},
 			["LastEventTimes"] = {
-				536999.0330000001, -- [1]
-				536999.034, -- [2]
-				537000.366, -- [3]
-				537001.851, -- [4]
-				537001.851, -- [5]
-				537001.852, -- [6]
-				537002.032, -- [7]
-				537002.032, -- [8]
-				537003.3490000001, -- [9]
-				537004.884, -- [10]
-				537004.884, -- [11]
-				537004.885, -- [12]
-				537004.966, -- [13]
-				537004.966, -- [14]
-				537006.333, -- [15]
-				537007.916, -- [16]
-				537007.9840000001, -- [17]
-				537007.9840000001, -- [18]
-				537007.9840000001, -- [19]
-				537007.985, -- [20]
-				537009.316, -- [21]
-				537010.851, -- [22]
-				537010.851, -- [23]
-				537010.852, -- [24]
-				537011.015, -- [25]
-				537011.0160000001, -- [26]
-				537012.334, -- [27]
-				537012.335, -- [28]
-				537012.335, -- [29]
-				537014.032, -- [30]
-				537014.034, -- [31]
-				537014.034, -- [32]
-				537014.034, -- [33]
-				536992.235, -- [34]
-				536992.237, -- [35]
-				536992.237, -- [36]
-				536992.867, -- [37]
-				536994.334, -- [38]
-				536994.917, -- [39]
-				536994.9180000001, -- [40]
-				536995.6680000001, -- [41]
-				536995.67, -- [42]
-				536995.8490000001, -- [43]
-				536996.049, -- [44]
-				536996.049, -- [45]
-				536997.284, -- [46]
-				536997.299, -- [47]
-				536997.718, -- [48]
-				536997.718, -- [49]
-				536998.866, -- [50]
+				607483.615, -- [1]
+				607483.911, -- [2]
+				607484.228, -- [3]
+				607484.579, -- [4]
+				607484.5820000001, -- [5]
+				607484.583, -- [6]
+				607484.677, -- [7]
+				607484.678, -- [8]
+				607484.912, -- [9]
+				607484.915, -- [10]
+				607484.916, -- [11]
+				607484.917, -- [12]
+				607485.179, -- [13]
+				607485.182, -- [14]
+				607485.183, -- [15]
+				607485.544, -- [16]
+				607486.247, -- [17]
+				607486.248, -- [18]
+				607486.295, -- [19]
+				607486.297, -- [20]
+				607486.2980000001, -- [21]
+				607486.4790000001, -- [22]
+				607486.48, -- [23]
+				607486.482, -- [24]
+				607487.211, -- [25]
+				607487.6950000001, -- [26]
+				607487.697, -- [27]
+				607487.697, -- [28]
+				607487.697, -- [29]
+				607487.697, -- [30]
+				607487.895, -- [31]
+				607487.898, -- [32]
+				607487.9, -- [33]
+				607487.961, -- [34]
+				607489.311, -- [35]
+				607489.312, -- [36]
+				607489.314, -- [37]
+				607489.495, -- [38]
+				607489.496, -- [39]
+				607490.863, -- [40]
+				607490.866, -- [41]
+				607490.866, -- [42]
+				607491.096, -- [43]
+				607491.0970000001, -- [44]
+				607491.0990000001, -- [45]
+				730538.9620000001, -- [46]
+				607482.997, -- [47]
+				607482.998, -- [48]
+				607483.613, -- [49]
+				607483.615, -- [50]
 			},
-			["LastAbility"] = 537014.034,
+			["LastAbility"] = 730982.73,
 		},
 		["Dirtravager <Deathfeast>"] = {
 			["GUID"] = "0xF14000AAC300ABA3",
@@ -4024,8 +5356,8 @@ RecountPerCharDB = {
 			["level"] = 1,
 			["LastFightIn"] = 1,
 			["type"] = "Pet",
-			["FightsSaved"] = 2,
-			["LastAbility"] = 536814.591,
+			["FightsSaved"] = 4,
+			["LastAbility"] = 730982.73,
 			["Owner"] = "Deathfeast",
 			["LastEventTimes"] = {
 				536715.286, -- [1]
@@ -4244,110 +5576,7 @@ RecountPerCharDB = {
 				["ActiveTime"] = 1595411825,
 			},
 			["Fights"] = {
-				["LastFightData"] = {
-					["DOTs"] = {
-					},
-					["ElementDoneResist"] = {
-					},
-					["Ressed"] = 0,
-					["DamageTaken"] = 0,
-					["RageGainedFrom"] = {
-					},
-					["ElementHitsTaken"] = {
-					},
-					["DeathCount"] = 0,
-					["HOT_Time"] = 0,
-					["HOTs"] = {
-					},
-					["ManaGain"] = 0,
-					["ElementTaken"] = {
-					},
-					["DOT_Time"] = 0,
-					["Damage"] = 0,
-					["ElementDoneAbsorb"] = {
-					},
-					["TimeHeal"] = 0,
-					["RessedWho"] = {
-					},
-					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
-					["PartialBlock"] = {
-					},
-					["ElementDone"] = {
-					},
-					["CCBroken"] = {
-					},
-					["ElementHitsDone"] = {
-					},
-					["Dispelled"] = 0,
-					["WhoDamaged"] = {
-					},
-					["EnergyGainedFrom"] = {
-					},
-					["FDamagedWho"] = {
-					},
-					["RunicPowerGainedFrom"] = {
-					},
-					["ElementDoneBlock"] = {
-					},
-					["TimeHealing"] = {
-					},
-					["OverHeals"] = {
-					},
-					["RageGained"] = {
-					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
-					["Attacks"] = {
-					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
-					},
-					["TimeDamage"] = 0,
-					["TimeDamaging"] = {
-					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
-					["DispelledWho"] = {
-					},
-				},
-				["Fight2"] = {
+				["Fight4"] = {
 					["TimeSpent"] = {
 						["Heroic Training Dummy"] = {
 							["Details"] = {
@@ -4487,6 +5716,109 @@ RecountPerCharDB = {
 					["ActiveTime"] = 107.28,
 					["Damage"] = 57435,
 				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
 				["CurrentFightData"] = {
 					["DOTs"] = {
 					},
@@ -4500,12 +5832,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
@@ -4513,25 +5846,26 @@ RecountPerCharDB = {
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
+					["DamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
 					},
 					["ElementHitsDone"] = {
 					},
-					["Dispelled"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -4539,54 +5873,52 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
 					["OverHeals"] = {
 					},
 					["RageGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -4778,14 +6110,22 @@ RecountPerCharDB = {
 			["level"] = 1,
 			["LastFightIn"] = 3,
 			["type"] = "Pet",
-			["TimeLast"] = {
-				["Damage"] = 1595412099,
-				["OVERALL"] = 1595412099,
-				["TimeDamage"] = 1595412099,
-				["ActiveTime"] = 1595412099,
-			},
+			["FightsSaved"] = 2,
+			["LastAbility"] = 730982.73,
 			["Owner"] = "Deathfeast",
-			["LastAbility"] = 537035.199,
+			["LastEventTimes"] = {
+				537014.632, -- [1]
+				537016.182, -- [2]
+				537019.816, -- [3]
+				537022.3150000001, -- [4]
+				537023.865, -- [5]
+				537026.184, -- [6]
+				537027.616, -- [7]
+				537029.566, -- [8]
+				537031.299, -- [9]
+				537033.432, -- [10]
+				537035.199, -- [11]
+			},
 			["NextEventNum"] = 12,
 			["LastEventHealthNum"] = {
 				0, -- [1]
@@ -4796,9 +6136,6 @@ RecountPerCharDB = {
 				0, -- [6]
 				0, -- [7]
 				100, -- [8]
-				nil --[[ nan ]], -- [9]
-				nil --[[ nan ]], -- [10]
-				nil --[[ nan ]], -- [11]
 			},
 			["LastEvents"] = {
 				"Ebon Gargoyle <Deathfeast> Gargoyle Strike Heroic Training Dummy Hit -3077 (Nature)", -- [1]
@@ -4827,21 +6164,14 @@ RecountPerCharDB = {
 				false, -- [10]
 				false, -- [11]
 			},
-			["LastEventTimes"] = {
-				537014.632, -- [1]
-				537016.182, -- [2]
-				537019.816, -- [3]
-				537022.3150000001, -- [4]
-				537023.865, -- [5]
-				537026.184, -- [6]
-				537027.616, -- [7]
-				537029.566, -- [8]
-				537031.299, -- [9]
-				537033.432, -- [10]
-				537035.199, -- [11]
+			["TimeLast"] = {
+				["Damage"] = 1595412099,
+				["OVERALL"] = 1595412099,
+				["TimeDamage"] = 1595412099,
+				["ActiveTime"] = 1595412099,
 			},
 			["Fights"] = {
-				["CurrentFightData"] = {
+				["Fight2"] = {
 					["ElementDoneResist"] = {
 						["Nature"] = 1537,
 					},
@@ -4912,6 +6242,212 @@ RecountPerCharDB = {
 					},
 					["ActiveTime"] = 23.93,
 					["Damage"] = 29233,
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["ElementTaken"] = {
+					},
+					["HOTs"] = {
+					},
+					["Damage"] = 0,
+					["ElementDoneAbsorb"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["PartialBlock"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
+					},
+					["ElementHitsDone"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["CCBroken"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
+					["OverHeals"] = {
+					},
+					["RageGained"] = {
+					},
+					["Attacks"] = {
+					},
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
+					["DispelledWho"] = {
+					},
 				},
 				["OverallData"] = {
 					["ElementDoneResist"] = {
@@ -5029,8 +6565,8 @@ RecountPerCharDB = {
 				[2] = 0.1352569882777277,
 			},
 			["type"] = "Pet",
-			["FightsSaved"] = 3,
-			["LastAbility"] = 536814.591,
+			["FightsSaved"] = 5,
+			["LastAbility"] = 730982.73,
 			["LastEventTimes"] = {
 				536574.855, -- [1]
 				536574.955, -- [2]
@@ -5071,11 +6607,7 @@ RecountPerCharDB = {
 				["Damage"] = 1595411640,
 			},
 			["Fights"] = {
-				["Fight3"] = {
-					["ElementDone"] = {
-						["Melee"] = 1862,
-						["Physical"] = 1004,
-					},
+				["Fight5"] = {
 					["TimeSpent"] = {
 						["Frenzied Plaguehound"] = {
 							["Details"] = {
@@ -5091,6 +6623,10 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5.350000000000001,
 						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 1862,
+						["Physical"] = 1004,
 					},
 					["DamagedWho"] = {
 						["Frenzied Plaguehound"] = {
@@ -5258,12 +6794,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
@@ -5271,25 +6808,26 @@ RecountPerCharDB = {
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
+					["DamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
 					},
 					["ElementHitsDone"] = {
 					},
-					["Dispelled"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -5297,54 +6835,52 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
 					["OverHeals"] = {
 					},
 					["RageGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
@@ -5361,12 +6897,13 @@ RecountPerCharDB = {
 					},
 					["DeathCount"] = 0,
 					["HOT_Time"] = 0,
-					["HOTs"] = {
+					["ElementTakenBlock"] = {
 					},
-					["ManaGain"] = 0,
+					["RunicPowerGain"] = 0,
 					["ElementTaken"] = {
 					},
-					["DOT_Time"] = 0,
+					["HOTs"] = {
+					},
 					["Damage"] = 0,
 					["ElementDoneAbsorb"] = {
 					},
@@ -5374,25 +6911,26 @@ RecountPerCharDB = {
 					["RessedWho"] = {
 					},
 					["Dispels"] = 0,
-					["PartialAbsorb"] = {
-					},
-					["RageGain"] = 0,
-					["FAttacks"] = {
-					},
 					["PartialBlock"] = {
 					},
-					["ElementDone"] = {
+					["DamagedWho"] = {
 					},
-					["CCBroken"] = {
+					["FAttacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["ElementDone"] = {
 					},
 					["ElementHitsDone"] = {
 					},
-					["Dispelled"] = 0,
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
 					["WhoDamaged"] = {
 					},
 					["EnergyGainedFrom"] = {
 					},
-					["FDamagedWho"] = {
+					["CCBroken"] = {
 					},
 					["RunicPowerGainedFrom"] = {
 					},
@@ -5400,62 +6938,56 @@ RecountPerCharDB = {
 					},
 					["TimeHealing"] = {
 					},
+					["Dispelled"] = 0,
+					["WhoHealed"] = {
+					},
+					["HealedWho"] = {
+					},
+					["CCBreak"] = 0,
+					["ElementTakenAbsorb"] = {
+					},
+					["FDamage"] = 0,
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["ActiveTime"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["ElementTakenResist"] = {
+					},
+					["Heals"] = {
+					},
+					["Interrupts"] = 0,
+					["EnergyGained"] = {
+					},
+					["PartialResist"] = {
+					},
+					["Healing"] = 0,
 					["OverHeals"] = {
 					},
 					["RageGained"] = {
 					},
-					["ActiveTime"] = 0,
-					["CCBreak"] = 0,
-					["EnergyGain"] = 0,
-					["WhoHealed"] = {
-					},
-					["PartialResist"] = {
-					},
-					["ManaGained"] = {
-					},
-					["ElementTakenAbsorb"] = {
-					},
-					["Interrupts"] = 0,
-					["Overhealing"] = 0,
-					["ElementTakenResist"] = {
-					},
-					["InterruptData"] = {
-					},
-					["WhoDispelled"] = {
-					},
-					["TimeSpent"] = {
-					},
-					["Heals"] = {
-					},
-					["FDamage"] = 0,
-					["EnergyGained"] = {
-					},
-					["HealedWho"] = {
-					},
-					["Healing"] = 0,
-					["RunicPowerGained"] = {
-					},
-					["ManaGainedFrom"] = {
-					},
 					["Attacks"] = {
 					},
-					["HealingTaken"] = 0,
-					["DamagedWho"] = {
+					["RageGain"] = 0,
+					["FDamagedWho"] = {
 					},
 					["TimeDamage"] = 0,
 					["TimeDamaging"] = {
 					},
-					["RunicPowerGain"] = 0,
-					["ElementTakenBlock"] = {
-					},
+					["ManaGain"] = 0,
+					["DOT_Time"] = 0,
 					["DispelledWho"] = {
 					},
 				},
 				["OverallData"] = {
-					["ElementDone"] = {
-						["Melee"] = 1862,
-						["Physical"] = 1004,
-					},
 					["TimeSpent"] = {
 						["Frenzied Plaguehound"] = {
 							["Details"] = {
@@ -5471,6 +7003,10 @@ RecountPerCharDB = {
 							},
 							["amount"] = 5.350000000000001,
 						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 1862,
+						["Physical"] = 1004,
 					},
 					["DamagedWho"] = {
 						["Frenzied Plaguehound"] = {
@@ -5630,7 +7166,7 @@ RecountPerCharDB = {
 			["LastActive"] = 1595411640,
 		},
 	},
-	["FightNum"] = 3,
+	["FightNum"] = 5,
 	["CombatTimes"] = {
 		{
 			1595411638, -- [1]
@@ -5653,10 +7189,26 @@ RecountPerCharDB = {
 			"15:27:55", -- [4]
 			"Heroic Training Dummy", -- [5]
 		}, -- [3]
+		{
+			1595482486, -- [1]
+			1595482504, -- [2]
+			"11:04:46", -- [3]
+			"11:05:04", -- [4]
+			"Heroic Training Dummy", -- [5]
+		}, -- [4]
+		{
+			1595482523, -- [1]
+			1595482560, -- [2]
+			"11:05:23", -- [3]
+			"11:06:00", -- [4]
+			"Heroic Training Dummy", -- [5]
+		}, -- [5]
 	},
 	["FoughtWho"] = {
-		"Heroic Training Dummy 15:27:45-15:27:55", -- [1]
-		"Heroic Training Dummy 15:27:22-15:27:42", -- [2]
-		"Frenzied Plaguehound 15:23:59-15:24:03", -- [3]
+		"Heroic Training Dummy 11:05:23-11:06:00", -- [1]
+		"Heroic Training Dummy 11:04:46-11:05:04", -- [2]
+		"Heroic Training Dummy 15:27:45-15:27:55", -- [3]
+		"Heroic Training Dummy 15:27:22-15:27:42", -- [4]
+		"Frenzied Plaguehound 15:23:59-15:24:03", -- [5]
 	},
 }

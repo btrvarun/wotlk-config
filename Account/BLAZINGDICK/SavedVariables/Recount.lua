@@ -1,18 +1,21 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
 		["Circi - Icecrown"] = "Circi - Icecrown",
-		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
+		["Minakshi - Icecrown"] = "Minakshi - Icecrown",
+		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
+		["Dirtyheals - Icecrown"] = "Dirtyheals - Icecrown",
 	},
 	["profiles"] = {
-		["Minakshi - Icecrown"] = {
+		["Circi - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
+					["y"] = 162.9999545224858,
+					["h"] = 199.9999852283563,
 					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
+					["x"] = 212.0000396645988,
 				},
 			},
 			["Colors"] = {
@@ -27,12 +30,12 @@ RecountDB = {
 			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
 		},
-		["Circi - Icecrown"] = {
+		["Deathfeast - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000106684094,
 					["h"] = 200.0000027354896,
+					["w"] = 140.0000106684094,
 				},
 			},
 			["Colors"] = {
@@ -44,8 +47,33 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
+			["Locked"] = true,
+			["ClampToScreen"] = true,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["FrameStrata"] = "2-LOW",
+		},
+		["Minakshi - Icecrown"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 91.0000130619627,
+					["h"] = 199.9999852283563,
+					["w"] = 140.0000106684094,
+					["x"] = 505.9999902890121,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Fatpotato - Icecrown"] = {
 			["GraphWindowY"] = 0,
@@ -75,12 +103,14 @@ RecountDB = {
 			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
 		},
-		["Deathfeast - Icecrown"] = {
+		["Dirtyheals - Icecrown"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000027354896,
-					["w"] = 140.0000106684094,
+					["y"] = 57.99997715866197,
+					["x"] = 355.0002652741019,
+					["w"] = 139.9999931612761,
+					["h"] = 199.9999852283563,
 				},
 			},
 			["Colors"] = {
@@ -92,11 +122,8 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
-			["Locked"] = true,
-			["ClampToScreen"] = true,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["FrameStrata"] = "2-LOW",
+			["CurDataSet"] = "OverallData",
 		},
 	},
 }

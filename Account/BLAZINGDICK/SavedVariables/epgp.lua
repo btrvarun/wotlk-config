@@ -3,10 +3,27 @@ EPGP_DB = {
 	["namespaces"] = {
 		["log"] = {
 			["profiles"] = {
+				["Nar Garzhvog"] = {
+					["snapshot"] = {
+						["roster_info"] = {
+							{
+								"Deathfeast", -- [1]
+								"DEATHKNIGHT", -- [2]
+								"", -- [3]
+							}, -- [1]
+							{
+								"Kamakshi", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
+							}, -- [2]
+						},
+						["time"] = 1595586360,
+					},
+				},
 				["Logic"] = {
 					["snapshot"] = {
 						["guild_info"] = "@BASE_GP:500\n@DECAY_P:10%\n@MIN_EP:600\n@EXTRAS_P:50",
-						["time"] = 1595147700,
+						["time"] = 1595575740,
 						["roster_info"] = {
 							{
 								"Hypersonic", -- [1]
@@ -29,9 +46,9 @@ EPGP_DB = {
 								"99999,0", -- [3]
 							}, -- [4]
 							{
-								"Voidmancer", -- [1]
-								"PRIEST", -- [2]
-								"", -- [3]
+								"Minakshi", -- [1]
+								"PALADIN", -- [2]
+								"0,0", -- [3]
 							}, -- [5]
 							{
 								"Kailey", -- [1]
@@ -39,18 +56,18 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [6]
 							{
-								"Dulcify", -- [1]
-								"PALADIN", -- [2]
-								"", -- [3]
-							}, -- [7]
-							{
 								"Ttwo", -- [1]
 								"WARRIOR", -- [2]
 								"0,0", -- [3]
-							}, -- [8]
+							}, -- [7]
 							{
 								"Tequilab", -- [1]
 								"DRUID", -- [2]
+								"", -- [3]
+							}, -- [8]
+							{
+								"Dulcify", -- [1]
+								"PALADIN", -- [2]
 								"", -- [3]
 							}, -- [9]
 							{
@@ -59,25 +76,15 @@ EPGP_DB = {
 								"0,0", -- [3]
 							}, -- [10]
 							{
-								"Veliko", -- [1]
-								"PRIEST", -- [2]
-								"99999,0", -- [3]
-							}, -- [11]
-							{
 								"Tankthespank", -- [1]
 								"DRUID", -- [2]
 								"0,0", -- [3]
+							}, -- [11]
+							{
+								"Voidmancer", -- [1]
+								"PRIEST", -- [2]
+								"", -- [3]
 							}, -- [12]
-							{
-								"Minakshi", -- [1]
-								"PALADIN", -- [2]
-								"0,0", -- [3]
-							}, -- [13]
-							{
-								"Flynnrider", -- [1]
-								"DEATHKNIGHT", -- [2]
-								"0,0", -- [3]
-							}, -- [14]
 						},
 					},
 				},
@@ -195,32 +202,37 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
-		["announce"] = {
-		},
 		["gptooltip"] = {
+		},
+		["announce"] = {
 		},
 		["loot"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Circi - Icecrown"] = "Disappointments",
+		["Deathfeast - Icecrown"] = "Nar Garzhvog",
 		["Minakshi - Icecrown"] = "Logic",
 		["Fatpotato - Icecrown"] = "I Offline I",
-		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
+		["Dirtyheals - Icecrown"] = "Dirtyheals - Icecrown",
 	},
 	["global"] = {
 		["last_version"] = "5.5.19",
 	},
 	["profiles"] = {
+		["Logic"] = {
+		},
 		["Circi - Icecrown"] = {
 		},
 		["I Offline I"] = {
+		},
+		["Deathfeast - Icecrown"] = {
 		},
 		["Fatpotato - Icecrown"] = {
 		},
 		["Minakshi - Icecrown"] = {
 		},
-		["Logic"] = {
+		["Nar Garzhvog"] = {
 		},
 		["Disappointments"] = {
 		},

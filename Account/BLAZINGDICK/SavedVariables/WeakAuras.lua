@@ -79,20 +79,20 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
 			["xOffset"] = 0,
-			["additional_triggers"] = {
-			},
+			["id"] = "power infusion",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
 			["inverse"] = false,
-			["id"] = "power infusion",
+			["additional_triggers"] = {
+			},
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["parent"] = "rotation helper - boomy",
 			["yOffset"] = 0,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["actions"] = {
 				["start"] = {
 				},
@@ -185,16 +185,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "berserk - timer",
 			["additional_triggers"] = {
 			},
+			["id"] = "berserk - timer",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -236,7 +236,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -282,9 +281,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "blood plague",
 			["additional_triggers"] = {
 			},
-			["id"] = "blood plague",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -295,8 +294,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["untrigger"] = {
 			},
 			["actions"] = {
@@ -322,14 +321,14 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["xOffset"] = 0,
-			["id"] = "rotation helper - dk",
-			["border"] = "None",
-			["yOffset"] = -220,
-			["anchorPoint"] = "CENTER",
-			["expanded"] = true,
-			["sort"] = "none",
 			["untrigger"] = {
 			},
+			["border"] = "None",
+			["yOffset"] = -220,
+			["regionType"] = "dynamicgroup",
+			["expanded"] = true,
+			["sort"] = "none",
+			["align"] = "CENTER",
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -339,6 +338,9 @@ WeakAurasSaved = {
 				},
 			},
 			["constantFactor"] = "RADIUS",
+			["selfPoint"] = "CENTER",
+			["backgroundInset"] = 0,
+			["id"] = "rotation helper - dk",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -353,19 +355,6 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
-			["selfPoint"] = "LEFT",
-			["additional_triggers"] = {
-			},
-			["backgroundInset"] = 0,
-			["frameStrata"] = 1,
-			["width"] = 333.9999686786442,
-			["stagger"] = 0,
-			["radius"] = 200,
-			["numTriggers"] = 1,
-			["rotation"] = 0,
-			["height"] = 40.00005306849783,
 			["trigger"] = {
 				["type"] = "aura",
 				["unit"] = "player",
@@ -376,6 +365,16 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["subeventPrefix"] = "SPELL",
 			},
+			["stagger"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 334.0000737214441,
+			["rotation"] = 0,
+			["radius"] = 200,
+			["numTriggers"] = 1,
+			["additional_triggers"] = {
+			},
+			["height"] = 40.00002680779787,
+			["borderOffset"] = 16,
 			["load"] = {
 				["role"] = {
 					["multi"] = {
@@ -394,7 +393,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["regionType"] = "dynamicgroup",
+			["anchorPoint"] = "CENTER",
 		},
 		["starfall 2"] = {
 			["parent"] = "rotation helper - boomy",
@@ -476,14 +475,14 @@ WeakAurasSaved = {
 				},
 			},
 			["BFskin"] = "Blizzard",
-			["BFgloss"] = 0,
-			["id"] = "starfall 2",
-			["stacksContainment"] = "INSIDE",
-			["zoom"] = 0,
-			["auto"] = true,
 			["numTriggers"] = 1,
 			["additional_triggers"] = {
 			},
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["BFgloss"] = 0,
+			["id"] = "starfall 2",
 			["yOffset"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -528,27 +527,14 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.75, -- [4]
 			},
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-				["inverse"] = true,
-				["custom_hide"] = "timed",
-				["names"] = {
-					"Mark of the Wild", -- [1]
-					"Gift of the Wild", -- [2]
-				},
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-			},
-			["desaturate"] = false,
+			["id"] = "wild",
+			["width"] = 200,
 			["selfPoint"] = "CENTER",
 			["additional_triggers"] = {
 			},
 			["rotation"] = 0,
 			["frameStrata"] = 1,
-			["width"] = 200,
+			["desaturate"] = false,
 			["discrete_rotation"] = 0,
 			["animation"] = {
 				["start"] = {
@@ -565,7 +551,20 @@ WeakAurasSaved = {
 				},
 			},
 			["numTriggers"] = 1,
-			["id"] = "wild",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+				["inverse"] = true,
+				["custom_hide"] = "timed",
+				["names"] = {
+					"Mark of the Wild", -- [1]
+					"Gift of the Wild", -- [2]
+				},
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -676,10 +675,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["BFgloss"] = 0,
-			["additional_triggers"] = {
-			},
 			["numTriggers"] = 1,
+			["id"] = "starfall",
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["stickyDuration"] = false,
@@ -690,7 +688,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["inverse"] = false,
-			["id"] = "starfall",
+			["additional_triggers"] = {
+			},
 			["selfPoint"] = "CENTER",
 			["xOffset"] = 0,
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -772,16 +771,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "gargoyle 2",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["stickyDuration"] = false,
 			["parent"] = "rotation helper - dk",
 			["inverse"] = false,
-			["id"] = "gargoyle 2",
+			["additional_triggers"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -892,16 +891,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "moonfire",
 			["additional_triggers"] = {
 			},
-			["id"] = "moonfire",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -948,7 +947,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -983,16 +981,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
 			["BFgloss"] = 0,
+			["id"] = "empower rune weapon",
+			["numTriggers"] = 1,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["stickyDuration"] = false,
 			["parent"] = "rotation helper - dk",
 			["inverse"] = false,
-			["id"] = "empower rune weapon",
+			["additional_triggers"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1035,15 +1033,14 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["xOffset"] = 0,
+			["yOffset"] = -220,
+			["border"] = "None",
 			["untrigger"] = {
 			},
-			["border"] = "None",
-			["yOffset"] = -220,
-			["anchorPoint"] = "CENTER",
+			["regionType"] = "dynamicgroup",
 			["expanded"] = false,
 			["sort"] = "none",
-			["additional_triggers"] = {
-			},
+			["align"] = "CENTER",
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -1067,9 +1064,7 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["borderOffset"] = 16,
-			["align"] = "CENTER",
-			["selfPoint"] = "LEFT",
+			["backgroundInset"] = 0,
 			["trigger"] = {
 				["type"] = "aura",
 				["subeventPrefix"] = "SPELL",
@@ -1080,15 +1075,18 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["unit"] = "player",
 			},
+			["selfPoint"] = "CENTER",
+			["id"] = "rotation helper - boomy",
 			["radius"] = 200,
 			["frameStrata"] = 1,
 			["width"] = 344.0000432207353,
 			["rotation"] = 0,
 			["stagger"] = 0,
 			["numTriggers"] = 1,
-			["id"] = "rotation helper - boomy",
+			["additional_triggers"] = {
+			},
 			["height"] = 50.00000506065572,
-			["backgroundInset"] = 0,
+			["borderOffset"] = 16,
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -1107,7 +1105,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["regionType"] = "dynamicgroup",
+			["anchorPoint"] = "CENTER",
 		},
 		["spriest gloves 2"] = {
 			["color"] = {
@@ -1198,13 +1196,13 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
 			["xOffset"] = 0,
-			["id"] = "spriest gloves 2",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
 			["inverse"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "spriest gloves 2",
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -1302,16 +1300,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "shadow weaving",
 			["additional_triggers"] = {
 			},
+			["id"] = "shadow weaving",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -1412,20 +1410,20 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
 			["xOffset"] = 0,
-			["id"] = "berserking 2",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
 			["inverse"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "berserking 2",
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["parent"] = "cooldowns",
 			["yOffset"] = 0,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["actions"] = {
 				["start"] = {
 				},
@@ -1525,16 +1523,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "gargoyle",
 			["additional_triggers"] = {
 			},
-			["id"] = "gargoyle",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["parent"] = "rotation helper - dk",
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -1624,16 +1622,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "sharpened twilight scale",
 			["additional_triggers"] = {
 			},
+			["id"] = "sharpened twilight scale",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -1658,14 +1656,23 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["xOffset"] = -200,
-			["yOffset"] = -100,
-			["border"] = "None",
 			["untrigger"] = {
 			},
-			["regionType"] = "dynamicgroup",
+			["border"] = "None",
+			["yOffset"] = -100,
+			["anchorPoint"] = "CENTER",
 			["expanded"] = false,
 			["sort"] = "none",
-			["align"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["unit"] = "player",
+			},
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -1689,29 +1696,20 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["backgroundInset"] = 0,
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventPrefix"] = "SPELL",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["unit"] = "player",
-			},
-			["selfPoint"] = "TOP",
+			["borderOffset"] = 16,
 			["id"] = "beast mode",
+			["selfPoint"] = "CENTER",
+			["additional_triggers"] = {
+			},
 			["radius"] = 200,
 			["frameStrata"] = 1,
 			["width"] = 40.00001805423119,
 			["rotation"] = 0,
 			["stagger"] = 0,
 			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
+			["align"] = "CENTER",
 			["height"] = 333.9999861857776,
-			["borderOffset"] = 16,
+			["backgroundInset"] = 0,
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -1730,7 +1728,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["regionType"] = "dynamicgroup",
 		},
 		["moonkin form"] = {
 			["xOffset"] = 0,
@@ -1754,14 +1752,27 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.75, -- [4]
 			},
-			["id"] = "moonkin form",
-			["desaturate"] = false,
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["names"] = {
+					"Moonkin Form", -- [1]
+				},
+				["inverse"] = true,
+				["custom_hide"] = "timed",
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["width"] = 200,
 			["selfPoint"] = "CENTER",
 			["additional_triggers"] = {
 			},
 			["rotation"] = 0,
 			["frameStrata"] = 1,
-			["width"] = 200,
+			["desaturate"] = false,
 			["discrete_rotation"] = 0,
 			["animation"] = {
 				["start"] = {
@@ -1778,20 +1789,7 @@ WeakAurasSaved = {
 				},
 			},
 			["numTriggers"] = 1,
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["names"] = {
-					"Moonkin Form", -- [1]
-				},
-				["inverse"] = true,
-				["custom_hide"] = "timed",
-				["subeventPrefix"] = "SPELL",
-				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
-			},
+			["id"] = "moonkin form",
 			["height"] = 200,
 			["rotate"] = true,
 			["load"] = {
@@ -1915,15 +1913,15 @@ WeakAurasSaved = {
 			["zoom"] = 0,
 			["auto"] = true,
 			["inverse"] = false,
-			["id"] = "spriest gloves",
+			["additional_triggers"] = {
+			},
 			["parent"] = "cooldowns",
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["yOffset"] = 0,
 			["BFgloss"] = 0,
 			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
+			["id"] = "spriest gloves",
 			["actions"] = {
 				["start"] = {
 				},
@@ -2022,16 +2020,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "force of nature",
 			["additional_triggers"] = {
 			},
-			["id"] = "force of nature",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -2255,16 +2253,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "charred twilight scale",
 			["additional_triggers"] = {
 			},
+			["id"] = "charred twilight scale",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -2447,13 +2445,13 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
 			["xOffset"] = 0,
-			["id"] = "berserking",
+			["additional_triggers"] = {
+			},
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
 			["inverse"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "berserking",
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -2462,8 +2460,8 @@ WeakAurasSaved = {
 				["spellName"] = 26297,
 				["itemName"] = 50675,
 			},
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["actions"] = {
 				["start"] = {
 				},
@@ -2552,13 +2550,13 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["BFskin"] = "Blizzard",
 			["xOffset"] = 0,
-			["additional_triggers"] = {
-			},
+			["id"] = "tricks of the trade",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
 			["inverse"] = false,
-			["id"] = "tricks of the trade",
+			["additional_triggers"] = {
+			},
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -2655,16 +2653,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "predator's swiftness",
 			["additional_triggers"] = {
 			},
+			["id"] = "predator's swiftness",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -2724,7 +2722,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -2758,16 +2755,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["BFgloss"] = 0,
-			["additional_triggers"] = {
-			},
 			["numTriggers"] = 1,
+			["id"] = "frost fever",
+			["BFgloss"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["stickyDuration"] = false,
 			["xOffset"] = 0,
 			["inverse"] = false,
-			["id"] = "frost fever",
+			["additional_triggers"] = {
+			},
 			["selfPoint"] = "CENTER",
 			["parent"] = "rotation helper - dk",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -2860,16 +2857,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "deathbringer's will",
 			["additional_triggers"] = {
 			},
+			["id"] = "deathbringer's will",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -2962,16 +2959,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
+			["id"] = "insect swarm",
 			["additional_triggers"] = {
 			},
-			["id"] = "insect swarm",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -3062,16 +3059,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "rapid fire - timer",
 			["additional_triggers"] = {
 			},
+			["id"] = "rapid fire - timer",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -3163,16 +3160,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "phylactery of the nameless lich",
 			["additional_triggers"] = {
 			},
+			["id"] = "phylactery of the nameless lich",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["BFgloss"] = 0,
 			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["yOffset"] = 0,
 			["actions"] = {
 				["start"] = {
@@ -3193,14 +3190,23 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["xOffset"] = 200,
-			["yOffset"] = -100,
-			["border"] = "None",
 			["untrigger"] = {
 			},
-			["regionType"] = "dynamicgroup",
+			["border"] = "None",
+			["yOffset"] = -100,
+			["anchorPoint"] = "CENTER",
 			["expanded"] = false,
 			["sort"] = "none",
-			["align"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["unit"] = "player",
+			},
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -3224,29 +3230,20 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["backgroundInset"] = 0,
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventPrefix"] = "SPELL",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-				},
-				["event"] = "Health",
-				["unit"] = "player",
-			},
-			["selfPoint"] = "TOP",
+			["borderOffset"] = 16,
 			["id"] = "cooldowns",
+			["selfPoint"] = "CENTER",
+			["additional_triggers"] = {
+			},
 			["radius"] = 200,
 			["frameStrata"] = 1,
 			["width"] = 40.00015811129765,
 			["rotation"] = 0,
 			["stagger"] = 0,
 			["numTriggers"] = 1,
-			["additional_triggers"] = {
-			},
+			["align"] = "CENTER",
 			["height"] = 165.9999943922464,
-			["borderOffset"] = 16,
+			["backgroundInset"] = 0,
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -3265,7 +3262,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["regionType"] = "dynamicgroup",
 		},
 		["frost fever 2"] = {
 			["parent"] = "rotation helper - dk",
@@ -3299,7 +3296,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -3342,13 +3338,13 @@ WeakAurasSaved = {
 			},
 			["BFskin"] = "Blizzard",
 			["xOffset"] = 0,
-			["additional_triggers"] = {
-			},
+			["id"] = "frost fever 2",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
 			["inverse"] = false,
-			["id"] = "frost fever 2",
+			["additional_triggers"] = {
+			},
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -3418,7 +3414,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -3448,13 +3443,12 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["numTriggers"] = 1,
+			["BFgloss"] = 0,
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["BFgloss"] = 0,
-			["additional_triggers"] = {
-			},
+			["numTriggers"] = 1,
+			["id"] = "blood plague 2",
 			["yOffset"] = 0,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -3466,7 +3460,8 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["inverse"] = false,
-			["id"] = "blood plague 2",
+			["additional_triggers"] = {
+			},
 			["xOffset"] = 0,
 			["displayIcon"] = "Interface\\Icons\\Spell_DeathKnight_BloodPlague",
 			["stacksPoint"] = "BOTTOMRIGHT",
@@ -3518,7 +3513,6 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_spec"] = true,
 				["spec"] = {
 					["single"] = 1,
 					["multi"] = {
@@ -3564,16 +3558,16 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["id"] = "death and decay",
 			["additional_triggers"] = {
 			},
+			["id"] = "death and decay",
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
 			["stickyDuration"] = false,
-			["numTriggers"] = 1,
 			["BFgloss"] = 0,
+			["numTriggers"] = 1,
 			["untrigger"] = {
 				["spellName"] = 49938,
 			},
@@ -3803,9 +3797,9 @@ WeakAurasSaved = {
 				["name"] = "Shatter",
 				["icon"] = "Interface\\Icons\\Spell_Frost_FrostShock",
 			},
-			[2.01] = {
-				["name"] = "Improved Fire Blast",
-				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
+			[2.05] = {
+				["name"] = "Burning Determination",
+				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
 			},
 			[3.05] = {
 				["name"] = "Frost Warding",
@@ -3911,9 +3905,9 @@ WeakAurasSaved = {
 				["name"] = "Fire Power",
 				["icon"] = "Interface\\Icons\\Spell_Fire_Immolation",
 			},
-			[2.05] = {
-				["name"] = "Burning Determination",
-				["icon"] = "Interface\\Icons\\Spell_Fire_TotemOfWrath",
+			[2.01] = {
+				["name"] = "Improved Fire Blast",
+				["icon"] = "Interface\\Icons\\Spell_Fire_Fireball",
 			},
 			[1.02] = {
 				["name"] = "Arcane Focus",
@@ -3941,6 +3935,334 @@ WeakAurasSaved = {
 			},
 		},
 		["PRIEST"] = {
+			[2.2] = {
+				["name"] = "Body and Soul",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SymbolOfHope",
+			},
+			[2.16] = {
+				["name"] = "Spiritual Healing",
+				["icon"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
+			},
+			[1.04] = {
+				["name"] = "Improved Inner Fire",
+				["icon"] = "Interface\\Icons\\Spell_Holy_InnerFire",
+			},
+			[3.06] = {
+				["name"] = "Shadow Focus",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_BurningSpirit",
+			},
+			[2.14] = {
+				["name"] = "Spiritual Guidance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SpiritualGuidence",
+			},
+			[1.25] = {
+				["name"] = "Pain Suppression",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PainSupression",
+			},
+			[3.23] = {
+				["name"] = "Psychic Horror",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PsychicHorrors",
+			},
+			[2.12] = {
+				["name"] = "Healing Prayers",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing02",
+			},
+			[2.08] = {
+				["name"] = "Inspiration",
+				["icon"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
+			},
+			[1.23] = {
+				["name"] = "Aspiration",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
+			},
+			[2.06] = {
+				["name"] = "Desperate Prayer",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Restoration",
+			},
+			[1.21] = {
+				["name"] = "Renewed Hope",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HolyProtection",
+			},
+			[3.15] = {
+				["name"] = "Improved Vampiric Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImprovedVampiricEmbrace",
+			},
+			[3.07] = {
+				["name"] = "Improved Psychic Scream",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PsychicScream",
+			},
+			[2.27] = {
+				["name"] = "Guardian Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Holy_GuardianSpirit",
+			},
+			[1.19] = {
+				["name"] = "Power Infusion",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerInfusion",
+			},
+			[3.03] = {
+				["name"] = "Darkness",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Twilight",
+			},
+			[3.2] = {
+				["name"] = "Shadow Power",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowPower",
+			},
+			[2.25] = {
+				["name"] = "Test of Faith",
+				["icon"] = "Interface\\Icons\\Spell_Holy_TestOfFaith",
+			},
+			[1.09] = {
+				["name"] = "Improved Power Word: Shield",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
+			},
+			[3.24] = {
+				["name"] = "Vampiric Touch",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Stoicism",
+			},
+			[3.16] = {
+				["name"] = "Focused Mind",
+				["icon"] = "Interface\\Icons\\Spell_Nature_FocusedMind",
+			},
+			[2.23] = {
+				["name"] = "Empowered Renew",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_InfusionofLight",
+			},
+			[1.11] = {
+				["name"] = "Mental Agility",
+				["icon"] = "Interface\\Icons\\Ability_Hibernation",
+			},
+			[1.07] = {
+				["name"] = "Meditation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Sleep",
+			},
+			[3.04] = {
+				["name"] = "Shadow Affinity",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWard",
+			},
+			[2.17] = {
+				["name"] = "Holy Concentration",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Fanaticism",
+			},
+			[1.01] = {
+				["name"] = "Unbreakable Will",
+				["icon"] = "Interface\\Icons\\Spell_Magic_MageArmor",
+			},
+			[3.08] = {
+				["name"] = "Improved Mind Blast",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnholyFrenzy",
+			},
+			[2.19] = {
+				["name"] = "Blessed Resilience",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessedResillience",
+			},
+			[2.15] = {
+				["name"] = "Surge of Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SurgeOfLight",
+			},
+			[1.26] = {
+				["name"] = "Grace",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HopeAndGrace",
+			},
+			[1.03] = {
+				["name"] = "Silent Resolve",
+				["icon"] = "Interface\\Icons\\Spell_Nature_ManaRegenTotem",
+			},
+			[3.25] = {
+				["name"] = "Pain and Suffering",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_PainAndSuffering",
+			},
+			[2.13] = {
+				["name"] = "Spirit of Redemption",
+				["icon"] = "Interface\\Icons\\INV_Enchant_EssenceEternalLarge",
+			},
+			[1.28] = {
+				["name"] = "Penance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Penance",
+			},
+			[1.24] = {
+				["name"] = "Divine Aegis",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DevineAegis",
+			},
+			[3.27] = {
+				["name"] = "Dispersion",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Dispersion",
+			},
+			[3.1] = {
+				["name"] = "Veiled Shadows",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			},
+			[2.11] = {
+				["name"] = "Searing Light",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SearingLightPriest",
+			},
+			[2.07] = {
+				["name"] = "Blessed Recovery",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlessedRecovery",
+			},
+			[1.18] = {
+				["name"] = "Focused Will",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_FocusedPower",
+			},
+			[3.09] = {
+				["name"] = "Mind Flay",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SiphonMana",
+			},
+			[3.21] = {
+				["name"] = "Improved Shadowform",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_SummonVoidWalker",
+			},
+			[3.19] = {
+				["name"] = "Shadowform",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Shadowform",
+			},
+			[3.17] = {
+				["name"] = "Mind Melt",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Skull",
+			},
+			[1.02] = {
+				["name"] = "Twin Disciplines",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfVengeance",
+			},
+			[3.13] = {
+				["name"] = "Silence",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ImpPhaseShift",
+			},
+			[2.05] = {
+				["name"] = "Divine Fury",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfWrath",
+			},
+			[2.18] = {
+				["name"] = "Lightwell",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SummonLightwell",
+			},
+			[1.2] = {
+				["name"] = "Improved Flash Heal",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Chastise",
+			},
+			[3.05] = {
+				["name"] = "Improved Shadow Word: Pain",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ShadowWordPain",
+			},
+			[1.17] = {
+				["name"] = "Enlightenment",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_MindMastery",
+			},
+			[2.02] = {
+				["name"] = "Improved Renew",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Renew",
+			},
+			[2.21] = {
+				["name"] = "Empowered Healing",
+				["icon"] = "Interface\\Icons\\Spell_Holy_GreaterHeal",
+			},
+			[1.05] = {
+				["name"] = "Improved Power Word: Fortitude",
+				["icon"] = "Interface\\Icons\\Spell_Holy_WordFortitude",
+			},
+			[2.03] = {
+				["name"] = "Holy Specialization",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SealOfSalvation",
+			},
+			[1.1] = {
+				["name"] = "Absolution",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Absolution",
+			},
+			[1.14] = {
+				["name"] = "Mental Strength",
+				["icon"] = "Interface\\Icons\\Spell_Nature_EnchantArmor",
+			},
+			[3.01] = {
+				["name"] = "Spirit Tap",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			},
+			[1.22] = {
+				["name"] = "Rapture",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Rapture",
+			},
+			[1.15] = {
+				["name"] = "Soul Warding",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PureOfHeart",
+			},
+			[3.26] = {
+				["name"] = "Twisted Faith",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_MindTwisting",
+			},
+			[3.18] = {
+				["name"] = "Improved Devouring Plague",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DevouringPlague.",
+			},
+			[2.01] = {
+				["name"] = "Healing Focus",
+				["icon"] = "Interface\\Icons\\Spell_Holy_HealingFocus",
+			},
+			[1.13] = {
+				["name"] = "Reflective Shield",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PowerWordShield",
+			},
+			[2.24] = {
+				["name"] = "Circle of Healing",
+				["icon"] = "Interface\\Icons\\Spell_Holy_CircleOfRenewal",
+			},
+			[1.12] = {
+				["name"] = "Improved Mana Burn",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ManaBurn",
+			},
+			[1.08] = {
+				["name"] = "Inner Focus",
+				["icon"] = "Interface\\Icons\\Spell_Frost_WindWalkOn",
+			},
+			[2.1] = {
+				["name"] = "Improved Healing",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Heal02",
+			},
+			[2.26] = {
+				["name"] = "Divine Providence",
+				["icon"] = "Interface\\Icons\\Spell_Holy_DivineProvidence",
+			},
+			[2.09] = {
+				["name"] = "Holy Reach",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Purify",
+			},
+			[3.22] = {
+				["name"] = "Misery",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Misery",
+			},
+			[3.14] = {
+				["name"] = "Vampiric Embrace",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_UnsummonBuilding",
+			},
+			[2.22] = {
+				["name"] = "Serendipity",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Serendipity",
+			},
+			[1.16] = {
+				["name"] = "Focused Power",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_FocusedPower",
+			},
+			[1.06] = {
+				["name"] = "Martyrdom",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Tranquility",
+			},
+			[3.11] = {
+				["name"] = "Shadow Reach",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_ChillTouch",
+			},
+			[3.12] = {
+				["name"] = "Shadow Weaving",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_BlackPlague",
+			},
+			[2.04] = {
+				["name"] = "Spell Warding",
+				["icon"] = "Interface\\Icons\\Spell_Holy_SpellWarding",
+			},
+			[3.02] = {
+				["name"] = "Improved Spirit Tap",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_Requiem",
+			},
+			[1.27] = {
+				["name"] = "Borrowed Time",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BorrowedTime",
+			},
 		},
 		["WARLOCK"] = {
 		},
@@ -4165,17 +4487,17 @@ WeakAurasSaved = {
 				["name"] = "Black Ice",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_DarkRitual",
 			},
-			[3.13] = {
-				["name"] = "Night of the Dead",
-				["icon"] = "Interface\\Icons\\Spell_DeathKnight_ArmyOfTheDead",
-			},
 			[1.2] = {
 				["name"] = "Improved Blood Presence",
 				["icon"] = "Interface\\Icons\\Spell_Deathknight_BloodPresence",
 			},
-			[3.05] = {
-				["name"] = "Morbidity",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathAndDecay",
+			[3.13] = {
+				["name"] = "Night of the Dead",
+				["icon"] = "Interface\\Icons\\Spell_DeathKnight_ArmyOfTheDead",
+			},
+			[1.16] = {
+				["name"] = "Bloody Vengeance",
+				["icon"] = "Interface\\Icons\\Ability_BackStab",
 			},
 			[3.17] = {
 				["name"] = "Desecration",
@@ -4253,9 +4575,9 @@ WeakAurasSaved = {
 				["name"] = "Wandering Plague",
 				["icon"] = "Interface\\Icons\\Spell_Shadow_CallofBone",
 			},
-			[1.16] = {
-				["name"] = "Bloody Vengeance",
-				["icon"] = "Interface\\Icons\\Ability_BackStab",
+			[3.05] = {
+				["name"] = "Morbidity",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_DeathAndDecay",
 			},
 			[3.22] = {
 				["name"] = "Anti-Magic Zone",
@@ -4503,9 +4825,9 @@ WeakAurasSaved = {
 				["name"] = "Gift of Nature",
 				["icon"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
 			},
-			[2.05] = {
-				["name"] = "Thick Hide",
-				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			[2.01] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
 			},
 			[3.05] = {
 				["name"] = "Subtlety",
@@ -4611,9 +4933,9 @@ WeakAurasSaved = {
 				["name"] = "Survival of the Fittest",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Enrage",
 			},
-			[2.01] = {
-				["name"] = "Ferocity",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			[2.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
 			},
 			[1.02] = {
 				["name"] = "Genesis",
@@ -4819,21 +5141,21 @@ WeakAurasSaved = {
 				["name"] = "Judgements of the Wise",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_JudgementoftheWise",
 			},
-			[2.05] = {
-				["name"] = "Anticipation",
-				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
+			[2.01] = {
+				["name"] = "Divinity",
+				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
 			},
-			[3.05] = {
-				["name"] = "Improved Blessing of Might",
-				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
+			[1.16] = {
+				["name"] = "Holy Power",
+				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
 			},
 			[1.2] = {
 				["name"] = "Sacred Cleansing",
 				["icon"] = "Interface\\Icons\\Ability_Paladin_SacredCleansing",
 			},
-			[1.16] = {
-				["name"] = "Holy Power",
-				["icon"] = "Interface\\Icons\\Spell_Holy_Power",
+			[3.05] = {
+				["name"] = "Improved Blessing of Might",
+				["icon"] = "Interface\\Icons\\Spell_Holy_FistOfJustice",
 			},
 			[1.06] = {
 				["name"] = "Aura Mastery",
@@ -4879,9 +5201,9 @@ WeakAurasSaved = {
 				["name"] = "Two-Handed Weapon Specialization",
 				["icon"] = "Interface\\Icons\\INV_Hammer_04",
 			},
-			[3.26] = {
-				["name"] = "Divine Storm",
-				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
+			[3.18] = {
+				["name"] = "Repentance",
+				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
 			},
 			[1.01] = {
 				["name"] = "Spiritual Focus",
@@ -4903,9 +5225,9 @@ WeakAurasSaved = {
 				["name"] = "Improved Lay on Hands",
 				["icon"] = "Interface\\Icons\\Spell_Holy_LayOnHands",
 			},
-			[3.18] = {
-				["name"] = "Repentance",
-				["icon"] = "Interface\\Icons\\Spell_Holy_PrayerOfHealing",
+			[3.26] = {
+				["name"] = "Divine Storm",
+				["icon"] = "Interface\\Icons\\Ability_Paladin_DivineStorm",
 			},
 			[1.23] = {
 				["name"] = "Judgements of the Pure",
@@ -4939,9 +5261,9 @@ WeakAurasSaved = {
 				["name"] = "Sacred Duty",
 				["icon"] = "Interface\\Icons\\Spell_Holy_DivineIntervention",
 			},
-			[2.01] = {
-				["name"] = "Divinity",
-				["icon"] = "Interface\\Icons\\Spell_Holy_BlindingHeal",
+			[2.05] = {
+				["name"] = "Anticipation",
+				["icon"] = "Interface\\Icons\\Spell_Magic_LesserInvisibilty",
 			},
 			[3.17] = {
 				["name"] = "The Art of War",
