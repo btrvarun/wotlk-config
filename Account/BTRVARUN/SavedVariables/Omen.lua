@@ -2,13 +2,13 @@
 Omen3DB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Bowbaby - Icecrown",
-		["Invariably - Icecrown"] = "Bowbaby - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Bowbaby - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
-		["Garzh - Icecrown"] = "Default",
-		["Bowbaby - Unlimited WoW"] = "Icecrown",
 		["Minato - Icecrown"] = "Minato - Icecrown",
+		["Invariably - Icecrown"] = "Bowbaby - Icecrown",
+		["Garzh - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
@@ -61,12 +61,12 @@ Omen3DB = {
 			},
 			["FrameStrata"] = "2-LOW",
 			["VGrip1"] = 86.23544150778908,
+			["PositionX"] = 1448.811920114677,
 			["TitleBar"] = {
 				["FontSize"] = 15,
 				["Font"] = "PT Sans Narrow",
 				["Height"] = 15,
 			},
-			["PositionX"] = 1448.811920114677,
 			["Bar"] = {
 				["FontSize"] = 14,
 				["ShowHeadings"] = false,
@@ -162,18 +162,18 @@ Omen3DB = {
 			["PositionH"] = 127.9969099909722,
 			["VGrip2"] = 116.6714796870087,
 			["PositionY"] = 372.0011272952553,
-			["TitleBar"] = {
-				["Height"] = 15,
-				["FontSize"] = 15,
-				["Font"] = "PT Sans Narrow",
-			},
+			["PositionX"] = 1448.811920114677,
 			["VGrip1"] = 86.23544150778908,
 			["Locked"] = true,
 			["Background"] = {
 				["EdgeSize"] = 1,
 				["BarInset"] = 1,
 			},
-			["PositionX"] = 1448.811920114677,
+			["TitleBar"] = {
+				["Height"] = 15,
+				["FontSize"] = 15,
+				["Font"] = "PT Sans Narrow",
+			},
 			["Bar"] = {
 				["ShowValue"] = false,
 				["FontSize"] = 14,

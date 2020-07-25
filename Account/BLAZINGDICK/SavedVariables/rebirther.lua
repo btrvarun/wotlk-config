@@ -10,14 +10,16 @@ RebirtherDB = {
 	["profiles"] = {
 		["Default"] = {
 			["font"] = {
-				["filePath"] = "Fonts\\ARIALN.TTF",
-				["file"] = "Arial Narrow",
+				["filePath"] = "Interface\\AddOns\\ElvUI\\Media\\Fonts\\PTSansNarrow.ttf",
+				["file"] = "PT Sans Narrow",
 			},
 			["bar"] = {
-				["texturePath"] = "Interface\\Addons\\Recount\\Textures\\statusbar\\Armory",
+				["texturePath"] = "Interface\\Addons\\Skada\\statusbar\\Armory",
 				["texture"] = "Armory",
 			},
 			["lock"] = true,
+		},
+		["Deathfeast - Icecrown"] = {
 		},
 	},
 }

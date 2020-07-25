@@ -2,13 +2,13 @@
 RebirtherDB = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Default",
-		["Invariably - Icecrown"] = "Default",
+		["Bowbaby - Unlimited WoW"] = "Default",
 		["Bowbaby - Icecrown"] = "Default",
 		["Kamakshi - Icecrown"] = "Default",
 		["Ingrate - Icecrown"] = "Default",
-		["Garzh - Icecrown"] = "Default",
-		["Bowbaby - Unlimited WoW"] = "Default",
 		["Minato - Icecrown"] = "Default",
+		["Invariably - Icecrown"] = "Default",
+		["Garzh - Icecrown"] = "Default",
 	},
 	["profiles"] = {
 		["Icecrown"] = {

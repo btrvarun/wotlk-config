@@ -92,13 +92,13 @@ SexyCooldownDB = {
 						["lock"] = true,
 						["advancedOptions"] = true,
 						["width"] = 400.0000054709792,
-						["y"] = -471.5005559540633,
-						["x"] = 6.999842093864118,
+						["y"] = -478.0001098299066,
+						["x"] = 0,
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
-						["height"] = 33.00000088903411,
-						["font"] = "Arial Narrow",
+						["height"] = 40.00000054709792,
+						["font"] = "PT Sans Narrow",
 						["backgroundColor"] = {
 						},
 						["texture"] = "Armory",
@@ -106,6 +106,8 @@ SexyCooldownDB = {
 					["eventColors"] = {
 					},
 					["icon"] = {
+						["fontsize"] = 10,
+						["font"] = "PT Sans Narrow",
 						["fontColor"] = {
 						},
 						["borderColor"] = {

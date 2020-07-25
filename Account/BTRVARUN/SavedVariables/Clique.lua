@@ -4,16 +4,37 @@ CliqueDB = {
 	},
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Impasse - Icecrown",
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
-		["Garzh - Icecrown"] = "Garzh - Icecrown",
-		["Bowbaby - Unlimited WoW"] = "Icecrown",
 		["Minato - Icecrown"] = "Minato - Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
+		["Garzh - Icecrown"] = "Garzh - Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {
+		},
+		["Bowbaby - Unlimited WoW"] = {
+		},
+		["Bowbaby - Icecrown"] = {
+			["clicksets"] = {
+				["Default"] = {
+					["Alt-2"] = {
+						["type"] = "spell",
+						["modifier"] = "Alt-",
+						["button"] = "2",
+						["arg1"] = "Misdirection",
+						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
+					},
+				},
+			},
+		},
+		["Kamakshi - Icecrown"] = {
+		},
+		["Ingrate - Icecrown"] = {
+		},
+		["Minato - Icecrown"] = {
 		},
 		["Invariably - Icecrown"] = {
 			["clicksets"] = {
@@ -52,23 +73,6 @@ CliqueDB = {
 				["ElvUF_TargetTargetTarget"] = true,
 				["PlayerFrame"] = true,
 			},
-		},
-		["Bowbaby - Icecrown"] = {
-			["clicksets"] = {
-				["Default"] = {
-					["Alt-2"] = {
-						["type"] = "spell",
-						["modifier"] = "Alt-",
-						["button"] = "2",
-						["arg1"] = "Misdirection",
-						["texture"] = "Interface\\Icons\\Ability_Hunter_Misdirection",
-					},
-				},
-			},
-		},
-		["Kamakshi - Icecrown"] = {
-		},
-		["Ingrate - Icecrown"] = {
 		},
 		["Garzh - Icecrown"] = {
 			["clicksets"] = {
@@ -130,10 +134,6 @@ CliqueDB = {
 				["ElvUF_Target"] = true,
 				["PlayerFrame"] = true,
 			},
-		},
-		["Bowbaby - Unlimited WoW"] = {
-		},
-		["Minato - Icecrown"] = {
 		},
 	},
 }

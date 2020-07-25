@@ -7,7 +7,7 @@ Y: -118
 W: 1
 H: 1
 Frame: ColorPickerFrame
-FrameLevel: 25
+FrameLevel: 9
 Anchor: RIGHT
 X: -375
 Y: 165
@@ -16,7 +16,7 @@ H: 200
 Frame: DBMMinimapButton
 FrameLevel: 6
 Anchor: TOPRIGHT
-X: -204
+X: -242
 Y: -4
 W: 22
 H: 22
@@ -26,14 +26,14 @@ Anchor: TOP
 X: -349
 Y: -14
 W: 175
-H: 16
+H: 18
 Frame: Innervates
 FrameLevel: 2
 Anchor: TOPLEFT
 X: 348
 Y: -15
 W: 175
-H: 16
+H: 18
 Frame: SexyCooldownBar 0
 FrameLevel: 1
 Anchor: BOTTOM
