@@ -43,48 +43,42 @@ ActionBarSaverDB = {
 				"spell|130||Slow Fall||130", -- [30]
 				"spell|114||Mana Shield|Rank 9|43020", -- [31]
 				"spell|239||Frost Nova|Rank 6|42917", -- [32]
-				nil, -- [33]
-				"spell|96||Dampen Magic|Rank 7|43015", -- [34]
-				nil, -- [35]
-				"spell|42||Arcane Explosion|Rank 10|42921", -- [36]
-				"item|36894||Fel Healthstone", -- [37]
-				"spell|77||Conjure Mana Gem|Rank 6|42985", -- [38]
-				nil, -- [39]
-				nil, -- [40]
-				"spell|9||Disenchant||13262", -- [41]
-				"macro|42||target vile|Interface\\Icons\\INV_Misc_QuestionMark|/target Wicked Spirit", -- [42]
-				"macro|43||lb mouseover|Interface\\Icons\\Ability_Mage_LivingBomb|#showtooltip/n/cast [@mouseover,exists] Living Bomb;Living Bomb;", -- [43]
-				"item|22788||Flame Cap", -- [44]
-				"spell|105||Mage Armor|Rank 6|43024", -- [45]
-				"macro|46||focus|Interface\\Icons\\INV_Misc_QuestionMark|/focus", -- [46]
-				nil, -- [47]
-				"spell|11||Enchanting|Grand Master|51313", -- [48]
-				"spell|190||Molten Armor|Rank 3|43046", -- [49]
-				"spell|77||Conjure Mana Gem|Rank 6|42985", -- [50]
-				"macro|51||recount|Interface\\Icons\\Ability_Creature_Cursed_01|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);", -- [51]
-				"spell|129||Ritual of Refreshment|Rank 2|58659", -- [52]
-				"spell|157||Fire Ward|Rank 7|43010", -- [53]
-				"spell|79||Conjure Refreshment|Rank 2|42956", -- [54]
-				"spell|32||Arcane Brilliance|Rank 3|43002", -- [55]
-				"companion|6||fire|MOUNT|24252", -- [56]
-				"companion|7||fire|MOUNT|71810", -- [57]
-				"item|46376||Flask of the Frost Wyrm", -- [58]
-				"item|40211||Potion of Speed", -- [59]
-				"item|40212||Potion of Wild Magic", -- [60]
-				"spell|222||Blizzard|Rank 9|42940", -- [61]
-				"spell|63||Blink||1953", -- [62]
-				"spell|130||Slow Fall||130", -- [63]
-				"spell|96||Dampen Magic|Rank 7|43015", -- [64]
-				"spell|25||Amplify Magic|Rank 7|43017", -- [65]
-				"item|22788||Flame Cap", -- [66]
-				"item|49278||Goblin Rocket Pack", -- [67]
-				"spell|120||Portal: Dalaran||53142", -- [68]
-				"spell|97||Evocation||12051", -- [69]
-				"spell|99||Invisibility||66", -- [70]
-				"spell|4||Berserking|Racial|26297", -- [71]
-				"item|33312||Mana Sapphire", -- [72]
-				nil, -- [73]
-				"spell|42||Arcane Explosion|Rank 10|42921", -- [74]
+				[34] = "spell|96||Dampen Magic|Rank 7|43015",
+				[36] = "spell|42||Arcane Explosion|Rank 10|42921",
+				[37] = "item|36894||Fel Healthstone",
+				[38] = "spell|77||Conjure Mana Gem|Rank 6|42985",
+				[41] = "spell|9||Disenchant||13262",
+				[42] = "macro|42||target vile|Interface\\Icons\\INV_Misc_QuestionMark|/target Wicked Spirit",
+				[43] = "macro|43||lb mouseover|Interface\\Icons\\Ability_Mage_LivingBomb|#showtooltip/n/cast [@mouseover,exists] Living Bomb;Living Bomb;",
+				[44] = "item|22788||Flame Cap",
+				[45] = "spell|105||Mage Armor|Rank 6|43024",
+				[46] = "macro|46||focus|Interface\\Icons\\INV_Misc_QuestionMark|/focus",
+				[48] = "spell|11||Enchanting|Grand Master|51313",
+				[49] = "spell|190||Molten Armor|Rank 3|43046",
+				[50] = "spell|77||Conjure Mana Gem|Rank 6|42985",
+				[51] = "macro|51||recount|Interface\\Icons\\Ability_Creature_Cursed_01|/run local f = CreateFrame(\"frame\",nil, UIParent); f:SetScript(\"OnUpdate\", CombatLogClearEntries);",
+				[52] = "spell|129||Ritual of Refreshment|Rank 2|58659",
+				[53] = "spell|157||Fire Ward|Rank 7|43010",
+				[54] = "spell|79||Conjure Refreshment|Rank 2|42956",
+				[55] = "spell|32||Arcane Brilliance|Rank 3|43002",
+				[56] = "companion|6||fire|MOUNT|24252",
+				[57] = "companion|7||fire|MOUNT|71810",
+				[58] = "item|46376||Flask of the Frost Wyrm",
+				[59] = "item|40211||Potion of Speed",
+				[60] = "item|40212||Potion of Wild Magic",
+				[61] = "spell|222||Blizzard|Rank 9|42940",
+				[62] = "spell|63||Blink||1953",
+				[63] = "spell|130||Slow Fall||130",
+				[64] = "spell|96||Dampen Magic|Rank 7|43015",
+				[65] = "spell|25||Amplify Magic|Rank 7|43017",
+				[66] = "item|22788||Flame Cap",
+				[67] = "item|49278||Goblin Rocket Pack",
+				[68] = "spell|120||Portal: Dalaran||53142",
+				[69] = "spell|97||Evocation||12051",
+				[70] = "spell|99||Invisibility||66",
+				[71] = "spell|4||Berserking|Racial|26297",
+				[72] = "item|33312||Mana Sapphire",
+				[74] = "spell|42||Arcane Explosion|Rank 10|42921",
 				[78] = "spell|12||Fishing|Grand Master|51294",
 			},
 		},
@@ -92,13 +86,13 @@ ActionBarSaverDB = {
 		},
 		["WARLOCK"] = {
 		},
-		["ROGUE"] = {
+		["HUNTER"] = {
 		},
 		["DRUID"] = {
 		},
 		["SHAMAN"] = {
 		},
-		["HUNTER"] = {
+		["ROGUE"] = {
 		},
 	},
 	["spellSubs"] = {

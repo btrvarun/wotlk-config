@@ -14,24 +14,24 @@ DBM_SavedOptions = {
 	["BlockVersionUpdatePopup"] = true,
 	["WarningColors"] = {
 		{
-			["r"] = 0.4117647058823529,
-			["g"] = 0.8,
 			["b"] = 0.9411764705882353,
+			["g"] = 0.8,
+			["r"] = 0.4117647058823529,
 		}, -- [1]
 		{
-			["r"] = 0.9490196078431372,
-			["g"] = 0.9490196078431372,
 			["b"] = 0,
+			["g"] = 0.9490196078431372,
+			["r"] = 0.9490196078431372,
 		}, -- [2]
 		{
-			["r"] = 1,
-			["g"] = 0.5019607843137255,
 			["b"] = 0,
+			["g"] = 0.5019607843137255,
+			["r"] = 1,
 		}, -- [3]
 		{
-			["r"] = 1,
-			["g"] = 0.1019607843137255,
 			["b"] = 0.1019607843137255,
+			["g"] = 0.1019607843137255,
+			["r"] = 1,
 		}, -- [4]
 	},
 	["RangeFrameY"] = -50,
@@ -41,42 +41,42 @@ DBM_SavedOptions = {
 	["LatencyThreshold"] = 250,
 	["DontSendBossAnnounces"] = false,
 	["HPFrameMaxEntries"] = 5,
-	["ArrowPoint"] = "TOP",
+	["WarningIconRight"] = true,
 	["RangeFramePoint"] = "CENTER",
 	["SpecialWarningPoint"] = "CENTER",
-	["ArrowPosY"] = -150,
+	["ShowSpecialWarnings"] = true,
 	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
 	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
-	["HealthFrameLocked"] = false,
+	["DontShowBossAnnounces"] = false,
 	["SpecialWarningY"] = 75,
 	["RangeFrameSound2"] = "none",
-	["ShowMinimapButton"] = false,
+	["AlwaysShowHealthFrame"] = false,
 	["RaidWarningPosition"] = {
 		["Y"] = -185,
 		["X"] = 0,
 		["Point"] = "TOP",
 	},
-	["SpecialWarningX"] = 0,
+	["RangeFrameX"] = 50,
 	["Enabled"] = true,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
-	["DontSendBossWhispers"] = false,
+	["WarningIconLeft"] = true,
 	["HealthFrameWidth"] = 200,
 	["RangeFrameLocked"] = false,
-	["WarningIconLeft"] = true,
+	["DontSendBossWhispers"] = false,
 	["RangeFrameSound1"] = "none",
 	["HPFrameY"] = 50,
 	["FixCLEUOnCombatStart"] = false,
-	["RangeFrameX"] = 50,
-	["AlwaysShowHealthFrame"] = false,
+	["SpecialWarningX"] = 0,
+	["ShowMinimapButton"] = false,
 	["HPFrameX"] = -50,
-	["DontShowBossAnnounces"] = false,
+	["HealthFrameLocked"] = false,
 	["SpamBlockBossWhispers"] = false,
-	["ShowSpecialWarnings"] = true,
-	["WarningIconRight"] = true,
+	["ArrowPosY"] = -150,
+	["ArrowPoint"] = "TOP",
 }
 DBT_SavedOptions = {
 	["DBM"] = {

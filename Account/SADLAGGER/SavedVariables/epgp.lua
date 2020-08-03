@@ -13,11 +13,11 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
+		["loot"] = {
+		},
 		["announce"] = {
 		},
 		["gptooltip"] = {
-		},
-		["loot"] = {
 		},
 	},
 	["profileKeys"] = {

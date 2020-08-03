@@ -277,7 +277,7 @@ ActionBarSaverDB = {
 				[17] = "spell|210||Psychic Scream|Rank 4|10890",
 				[21] = "spell|198||Mind Control||605",
 				[65] = "macro|65||berserk|Interface\\Icons\\Racial_Troll_Berserk|#showtooltip/n/cast Berserking(Racial)/n/cast Inner Focus/n/use 10",
-				[58] = "companion|3||holy|MOUNT|17465",
+				[58] = "companion|4||holy|MOUNT|72286",
 				[35] = "spell|7||Cooking|Grand Master|51296",
 				[69] = "macro|69||setfocus|Interface\\Icons\\Ability_Creature_Cursed_03|/focus",
 				[51] = "equipmentset|holy|",
@@ -292,7 +292,7 @@ ActionBarSaverDB = {
 				[60] = "macro|60||follow focus|Interface\\Icons\\Ability_Druid_Dash|/follow focus",
 				[73] = "spell|197||Mind Blast|Rank 13|48127",
 				[66] = "macro|66||fear ward|Interface\\Icons\\Spell_Holy_Excorcism|#showtooltip/n/cast [@mouseover] fear ward",
-				[64] = "macro|64||mindsear|Interface\\Icons\\Spell_Shadow_MindShear|#showtooltip mind sear/n/use 10/n/cast Berserking(Racial)/n/cast Inner Focus/n/cast [nochanneling:Mind Flay] mind sear/n/target wicked spirit",
+				[64] = "macro|64||mindsear|Interface\\Icons\\Spell_Shadow_MindShear|#showtooltip mind sear/n/use 10/n/cast Berserking(Racial)/n/cast Inner Focus/n/cast mind sear/n/target wicked spirit",
 			},
 		},
 		["WARLOCK"] = {

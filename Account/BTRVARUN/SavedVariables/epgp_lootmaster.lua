@@ -2,13 +2,13 @@
 EPGPLootMaster = {
 	["profileKeys"] = {
 		["Impasse - Icecrown"] = "Impasse - Icecrown",
-		["Bowbaby - Unlimited WoW"] = "Icecrown",
+		["Invariably - Icecrown"] = "Invariably - Icecrown",
 		["Bowbaby - Icecrown"] = "Bowbaby - Icecrown",
 		["Kamakshi - Icecrown"] = "Kamakshi - Icecrown",
 		["Ingrate - Icecrown"] = "Ingrate - Icecrown",
-		["Minato - Icecrown"] = "Minato - Icecrown",
-		["Invariably - Icecrown"] = "Invariably - Icecrown",
 		["Garzh - Icecrown"] = "Garzh - Icecrown",
+		["Bowbaby - Unlimited WoW"] = "Icecrown",
+		["Minato - Icecrown"] = "Minato - Icecrown",
 	},
 	["profiles"] = {
 		["Impasse - Icecrown"] = {

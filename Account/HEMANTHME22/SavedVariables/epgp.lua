@@ -13,18 +13,19 @@ EPGP_DB = {
 		},
 		["ldb"] = {
 		},
+		["loot"] = {
+		},
 		["gptooltip"] = {
 		},
 		["announce"] = {
 		},
-		["loot"] = {
-		},
-	},
-	["global"] = {
-		["last_version"] = "5.5.19",
 	},
 	["profileKeys"] = {
 		["Incompilable - Icecrown"] = "Logic",
+		["Poggies - Icecrown"] = "Poggies - Icecrown",
+	},
+	["global"] = {
+		["last_version"] = "5.5.19",
 	},
 	["profiles"] = {
 		["Incompilable - Icecrown"] = {

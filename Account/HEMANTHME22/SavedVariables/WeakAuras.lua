@@ -4,6 +4,9 @@ WeakAurasSaved = {
 	},
 	["registered"] = {
 	},
+	["login_squelch_time"] = 10,
+	["tempIconCache"] = {
+	},
 	["talent_cache"] = {
 		["HUNTER"] = {
 		},
@@ -17,7 +20,7 @@ WeakAurasSaved = {
 		},
 		["WARLOCK"] = {
 		},
-		["PALADIN"] = {
+		["DEATHKNIGHT"] = {
 		},
 		["DRUID"] = {
 			[2.2] = {
@@ -172,21 +175,21 @@ WeakAurasSaved = {
 				["name"] = "Typhoon",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Typhoon",
 			},
-			[3.27] = {
-				["name"] = "Wild Growth",
-				["icon"] = "Interface\\Icons\\Ability_Druid_Flourish",
+			[1.27] = {
+				["name"] = "Earth and Moon",
+				["icon"] = "Interface\\Icons\\Ability_Druid_EarthandSky",
 			},
-			[3.26] = {
-				["name"] = "Gift of the Earthmother",
-				["icon"] = "Interface\\Icons\\Ability_Druid_ManaTree",
+			[3.02] = {
+				["name"] = "Nature's Focus",
+				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
 			},
-			[1.17] = {
-				["name"] = "Balance of Power",
-				["icon"] = "Interface\\Icons\\Ability_Druid_BalanceofPower",
+			[2.04] = {
+				["name"] = "Savage Fury",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Ravage",
 			},
-			[3.21] = {
-				["name"] = "Living Seed",
-				["icon"] = "Interface\\Icons\\Ability_Druid_GiftoftheEarthmother",
+			[3.12] = {
+				["name"] = "Nature's Swiftness",
+				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
 			},
 			[2.11] = {
 				["name"] = "Primal Fury",
@@ -204,33 +207,33 @@ WeakAurasSaved = {
 				["name"] = "Master Shapeshifter",
 				["icon"] = "Interface\\Icons\\Ability_Druid_MasterShapeshifter",
 			},
-			[3.19] = {
-				["name"] = "Natural Perfection",
-				["icon"] = "Interface\\Icons\\Ability_Druid_NaturalPerfection",
+			[3.11] = {
+				["name"] = "Improved Rejuvenation",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Rejuvenation",
 			},
-			[2.01] = {
-				["name"] = "Ferocity",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
+			[1.06] = {
+				["name"] = "Brambles",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Thorns",
 			},
-			[3.17] = {
-				["name"] = "Living Spirit",
-				["icon"] = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
+			[2.02] = {
+				["name"] = "Feral Aggression",
+				["icon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
 			},
-			[2.1] = {
-				["name"] = "Predatory Strikes",
-				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Cat",
+			[2.22] = {
+				["name"] = "Protector of the Pack",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ChallangingRoar",
 			},
 			[3.13] = {
 				["name"] = "Gift of Nature",
 				["icon"] = "Interface\\Icons\\Spell_Nature_ProtectionformNature",
 			},
-			[2.05] = {
-				["name"] = "Thick Hide",
-				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
+			[2.01] = {
+				["name"] = "Ferocity",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Hyena",
 			},
-			[3.12] = {
-				["name"] = "Nature's Swiftness",
-				["icon"] = "Interface\\Icons\\Spell_Nature_RavenForm",
+			[3.05] = {
+				["name"] = "Subtlety",
+				["icon"] = "Interface\\Icons\\Ability_EyeOfTheOwl",
 			},
 			[1.2] = {
 				["name"] = "Improved Faerie Fire",
@@ -240,29 +243,29 @@ WeakAurasSaved = {
 				["name"] = "Moonfury",
 				["icon"] = "Interface\\Icons\\Spell_Nature_MoonGlow",
 			},
-			[3.11] = {
-				["name"] = "Improved Rejuvenation",
-				["icon"] = "Interface\\Icons\\Spell_Nature_Rejuvenation",
+			[2.09] = {
+				["name"] = "Shredding Attacks",
+				["icon"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
 			},
-			[3.1] = {
-				["name"] = "Tranquil Spirit",
-				["icon"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
+			[2.1] = {
+				["name"] = "Predatory Strikes",
+				["icon"] = "Interface\\Icons\\Ability_Hunter_Pet_Cat",
 			},
-			[1.13] = {
-				["name"] = "Insect Swarm",
-				["icon"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
+			[1.05] = {
+				["name"] = "Improved Moonfire",
+				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
 			},
-			[2.21] = {
-				["name"] = "Primal Tenacity",
-				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
+			[2.03] = {
+				["name"] = "Feral Instinct",
+				["icon"] = "Interface\\Icons\\Ability_Ambush",
 			},
 			[2.26] = {
 				["name"] = "Mangle",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Mangle2",
 			},
-			[1.05] = {
-				["name"] = "Improved Moonfire",
-				["icon"] = "Interface\\Icons\\Spell_Nature_StarFall",
+			[1.22] = {
+				["name"] = "Wrath of Cenarius",
+				["icon"] = "Interface\\Icons\\Ability_Druid_TwilightsWrath",
 			},
 			[1.14] = {
 				["name"] = "Improved Insect Swarm",
@@ -272,29 +275,29 @@ WeakAurasSaved = {
 				["name"] = "Vengeance",
 				["icon"] = "Interface\\Icons\\Spell_Nature_Purge",
 			},
-			[1.22] = {
-				["name"] = "Wrath of Cenarius",
-				["icon"] = "Interface\\Icons\\Ability_Druid_TwilightsWrath",
-			},
 			[1.15] = {
 				["name"] = "Dreamstate",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Dreamstate",
 			},
-			[2.3] = {
-				["name"] = "Berserk",
-				["icon"] = "Interface\\Icons\\Ability_Druid_Berserk",
+			[3.01] = {
+				["name"] = "Improved Mark of the Wild",
+				["icon"] = "Interface\\Icons\\Spell_Nature_Regeneration",
 			},
 			[3.18] = {
 				["name"] = "Swiftmend",
 				["icon"] = "Interface\\Icons\\INV_Relics_IdolofRejuvenation",
 			},
+			[3.26] = {
+				["name"] = "Gift of the Earthmother",
+				["icon"] = "Interface\\Icons\\Ability_Druid_ManaTree",
+			},
 			[2.28] = {
 				["name"] = "Rend and Tear",
 				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalAgression",
 			},
-			[3.01] = {
-				["name"] = "Improved Mark of the Wild",
-				["icon"] = "Interface\\Icons\\Spell_Nature_Regeneration",
+			[2.3] = {
+				["name"] = "Berserk",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Berserk",
 			},
 			[2.24] = {
 				["name"] = "Infected Wounds",
@@ -308,17 +311,17 @@ WeakAurasSaved = {
 				["name"] = "Nature's Splendor",
 				["icon"] = "Interface\\Icons\\Spell_Nature_NatureGuardian",
 			},
-			[1.02] = {
-				["name"] = "Genesis",
-				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
+			[2.21] = {
+				["name"] = "Primal Tenacity",
+				["icon"] = "Interface\\Icons\\Ability_Druid_PrimalTenacity",
 			},
-			[2.09] = {
-				["name"] = "Shredding Attacks",
-				["icon"] = "Interface\\Icons\\Spell_Shadow_VampiricAura",
+			[1.13] = {
+				["name"] = "Insect Swarm",
+				["icon"] = "Interface\\Icons\\Spell_Nature_InsectSwarm",
 			},
-			[2.02] = {
-				["name"] = "Feral Aggression",
-				["icon"] = "Interface\\Icons\\Ability_Druid_DemoralizingRoar",
+			[1.17] = {
+				["name"] = "Balance of Power",
+				["icon"] = "Interface\\Icons\\Ability_Druid_BalanceofPower",
 			},
 			[3.22] = {
 				["name"] = "Revitalize",
@@ -332,41 +335,38 @@ WeakAurasSaved = {
 				["name"] = "Survival of the Fittest",
 				["icon"] = "Interface\\Icons\\Ability_Druid_Enrage",
 			},
-			[2.22] = {
-				["name"] = "Protector of the Pack",
-				["icon"] = "Interface\\Icons\\Ability_Druid_ChallangingRoar",
+			[2.05] = {
+				["name"] = "Thick Hide",
+				["icon"] = "Interface\\Icons\\INV_Misc_Pelt_Bear_03",
 			},
-			[1.06] = {
-				["name"] = "Brambles",
-				["icon"] = "Interface\\Icons\\Spell_Nature_Thorns",
+			[1.02] = {
+				["name"] = "Genesis",
+				["icon"] = "Interface\\Icons\\Spell_Arcane_Arcane03",
 			},
-			[2.03] = {
-				["name"] = "Feral Instinct",
-				["icon"] = "Interface\\Icons\\Ability_Ambush",
+			[3.17] = {
+				["name"] = "Living Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Nature_GiftoftheWaterSpirit",
 			},
-			[2.04] = {
-				["name"] = "Savage Fury",
-				["icon"] = "Interface\\Icons\\Ability_Druid_Ravage",
+			[3.19] = {
+				["name"] = "Natural Perfection",
+				["icon"] = "Interface\\Icons\\Ability_Druid_NaturalPerfection",
 			},
-			[1.27] = {
-				["name"] = "Earth and Moon",
-				["icon"] = "Interface\\Icons\\Ability_Druid_EarthandSky",
+			[3.21] = {
+				["name"] = "Living Seed",
+				["icon"] = "Interface\\Icons\\Ability_Druid_GiftoftheEarthmother",
 			},
-			[3.02] = {
-				["name"] = "Nature's Focus",
-				["icon"] = "Interface\\Icons\\Spell_Nature_HealingWaveGreater",
+			[3.1] = {
+				["name"] = "Tranquil Spirit",
+				["icon"] = "Interface\\Icons\\Spell_Holy_ElunesGrace",
 			},
-			[3.05] = {
-				["name"] = "Subtlety",
-				["icon"] = "Interface\\Icons\\Ability_EyeOfTheOwl",
+			[3.27] = {
+				["name"] = "Wild Growth",
+				["icon"] = "Interface\\Icons\\Ability_Druid_Flourish",
 			},
 		},
 		["ROGUE"] = {
 		},
-		["DEATHKNIGHT"] = {
+		["PALADIN"] = {
 		},
 	},
-	["tempIconCache"] = {
-	},
-	["login_squelch_time"] = 10,
 }

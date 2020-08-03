@@ -1,21 +1,17 @@
 
 SexyCooldownDB = {
+	["global"] = {
+		["dbVersion"] = 3,
+	},
 	["profileKeys"] = {
 		["Zorro - Icecrown"] = "Zorro - Icecrown",
 		["Anemic - Icecrown"] = "Anemic - Icecrown",
 		["Camphor - Icecrown"] = "Camphor - Icecrown",
 	},
-	["global"] = {
-		["dbVersion"] = 3,
-	},
 	["profiles"] = {
 		["Zorro - Icecrown"] = {
 			["bars"] = {
 				{
-					["blacklist"] = {
-					},
-					["events"] = {
-					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -27,6 +23,10 @@ SexyCooldownDB = {
 						},
 						["width"] = 449.9999930245016,
 					},
+					["events"] = {
+					},
+					["blacklist"] = {
+					},
 				}, -- [1]
 			},
 		},
@@ -34,16 +34,6 @@ SexyCooldownDB = {
 			["bars"] = {
 				{
 					["events"] = {
-					},
-					["blacklist"] = {
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
 					},
 					["bar"] = {
 						["fontColor"] = {
@@ -55,10 +45,20 @@ SexyCooldownDB = {
 						["borderColor"] = {
 						},
 						["height"] = 33.00000088903411,
-						["lock"] = true,
+						["font"] = "Arial Narrow",
 						["backgroundColor"] = {
 						},
-						["font"] = "Arial Narrow",
+						["lock"] = true,
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -66,6 +66,10 @@ SexyCooldownDB = {
 		["Camphor - Icecrown"] = {
 			["bars"] = {
 				{
+					["blacklist"] = {
+					},
+					["events"] = {
+					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -76,10 +80,6 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
-					},
-					["events"] = {
-					},
-					["blacklist"] = {
 					},
 				}, -- [1]
 			},

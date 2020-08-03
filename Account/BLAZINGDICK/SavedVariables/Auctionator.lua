@@ -1,22 +1,22 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_5000000"] = 10000,
-	["_50000"] = 500,
-	["_10000"] = 200,
-	["_1000000"] = 2500,
 	["_200000"] = 1000,
+	["_50000"] = 500,
 	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
 	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
-	["Golden Rod"] = {
-		["is"] = "11128:0",
-		["6301148"] = "479000:1",
-	},
 	["Silver Rod"] = {
 		["is"] = "6338:0",
 		["6301147"] = "249000:1",
+	},
+	["Golden Rod"] = {
+		["is"] = "11128:0",
+		["6301148"] = "479000:1",
 	},
 }
 AUCTIONATOR_SHOPPING_LISTS = {
@@ -66,22 +66,22 @@ AUCTIONATOR_PRICE_DATABASE = {
 		["Heavy Grinding Stone"] = 69500,
 		["Medium Leather"] = 30000,
 		["Steel Bar"] = 75000,
-		["Enchanted Thorium Bar"] = 97500,
+		["Solid Stone"] = 6900,
 		["Fel Iron Bar"] = 89000,
+		["Titansteel Bar"] = 3010000,
 		["Golden Rod"] = 479900,
-		["Heavy Stone"] = 26666,
-		["Felsteel Bar"] = 620000,
+		["Coarse Stone"] = 3000,
 		["Dark Iron Bar"] = 497962,
 		["Iron Bar"] = 29800,
-		["Thorium Bar"] = 54500,
-		["Truesilver Bar"] = 9000,
-		["Silver Rod"] = 250000,
-		["Rough Stone"] = 1450,
 		["Veiled Ametrine"] = 2919900,
+		["Silver Rod"] = 250000,
+		["Truesilver Bar"] = 9000,
+		["Rough Stone"] = 1450,
+		["Thorium Bar"] = 54500,
 		["Bronze Bar"] = 44408,
-		["Coarse Stone"] = 3000,
-		["Titansteel Bar"] = 3010000,
-		["Solid Stone"] = 6900,
+		["Felsteel Bar"] = 620000,
+		["Heavy Stone"] = 26666,
+		["Enchanted Thorium Bar"] = 97500,
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
@@ -93,13 +93,14 @@ AUCTIONATOR_TOONS = {
 	["Deathfeast"] = {
 		["firstSeen"] = 1595409037,
 		["firstVersion"] = "2.6.3",
-	},
-	["Circi"] = {
-		["firstSeen"] = 1574515606,
-		["firstVersion"] = "2.6.3",
+		["guid"] = "0x070000000000844C",
 	},
 	["Typhoonqt"] = {
 		["firstSeen"] = 1572109858,
+		["firstVersion"] = "2.6.3",
+	},
+	["Circi"] = {
+		["firstSeen"] = 1574515606,
 		["firstVersion"] = "2.6.3",
 	},
 	["Minakshi"] = {
@@ -108,6 +109,7 @@ AUCTIONATOR_TOONS = {
 	},
 	["Fatpotato"] = {
 		["firstSeen"] = 1574515345,
+		["guid"] = "0x0700000000008153",
 		["firstVersion"] = "2.6.3",
 	},
 }

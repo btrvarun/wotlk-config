@@ -1,0 +1,12 @@
+
+CliqueDB = {
+	["char"] = {
+	},
+	["profileKeys"] = {
+		["Incompilable - Icecrown"] = "Incompilable - Icecrown",
+	},
+	["profiles"] = {
+		["Incompilable - Icecrown"] = {
+		},
+	},
+}

@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Incompilable - Icecrown"] = "Incompilable - Icecrown",
+	},
+	["profiles"] = {
+		["Incompilable - Icecrown"] = {
+			["PositionY"] = 614.9999624554056,
+			["PositionX"] = 847.5000148742246,
+		},
+	},
+}

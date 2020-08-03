@@ -1,0 +1,12 @@
+
+RCD_DB = {
+	["profileKeys"] = {
+		["Poggies - Icecrown"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["fontFace"] = "PT Sans Narrow",
+			["texture"] = "Blizzard",
+		},
+	},
+}

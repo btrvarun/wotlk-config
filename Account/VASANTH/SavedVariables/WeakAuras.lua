@@ -792,7 +792,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "status",
@@ -813,7 +813,7 @@ WeakAurasSaved = {
 				["spellName"] = 53385,
 			},
 			["stickyDuration"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_class"] = true,
@@ -823,14 +823,14 @@ WeakAurasSaved = {
 				},
 				["use_name"] = false,
 				["use_spec"] = true,
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["spec"] = {
 					["single"] = 2,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
 					["multi"] = {
 					},
 				},
@@ -839,7 +839,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
@@ -899,7 +899,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "aura",
@@ -915,7 +915,7 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 			},
 			["desaturate"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_class"] = true,
@@ -940,7 +940,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["iconInset"] = 0,
@@ -1006,7 +1006,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "status",
@@ -1027,7 +1027,7 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 			},
 			["desaturate"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_name"] = false,
@@ -1037,23 +1037,23 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spec"] = true,
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
 				["class"] = {
 					["single"] = "PALADIN",
 					["multi"] = {
 					},
 				},
 				["use_combat"] = true,
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["iconInset"] = 0,
@@ -1117,7 +1117,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "status",
@@ -1139,7 +1139,7 @@ WeakAurasSaved = {
 				["spellName"] = 48806,
 			},
 			["stickyDuration"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_class"] = true,
@@ -1149,23 +1149,23 @@ WeakAurasSaved = {
 				},
 				["use_name"] = false,
 				["use_spec"] = true,
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
 				["class"] = {
 					["single"] = "PALADIN",
 					["multi"] = {
 					},
 				},
 				["use_combat"] = true,
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+					},
+				},
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
@@ -1208,6 +1208,206 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
+		["sharpened twilight scale"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+				["event"] = "Health",
+				["names"] = {
+					"Piercing Twilight", -- [1]
+				},
+			},
+			["desaturate"] = false,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["DEATHKNIGHT"] = true,
+						["WARRIOR"] = true,
+						["ROGUE"] = true,
+						["SHAMAN"] = true,
+						["DRUID"] = true,
+						["PALADIN"] = true,
+						["HUNTER"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["parent"] = "beast mode",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "sharpened twilight scale",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["yOffset"] = 0,
+			["numTriggers"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["beast mode"] = {
+			["grow"] = "VERTICAL",
+			["controlledChildren"] = {
+				"dbw", -- [1]
+				"gts", -- [2]
+				"sts", -- [3]
+				"cts", -- [4]
+				"phylactery", -- [5]
+				"berserk - timer", -- [6]
+				"deathbringer's will", -- [7]
+				"phylactery of the nameless lich", -- [8]
+				"charred twilight scale", -- [9]
+				"sharpened twilight scale", -- [10]
+			},
+			["animate"] = false,
+			["xOffset"] = -200,
+			["yOffset"] = -100,
+			["border"] = "None",
+			["untrigger"] = {
+			},
+			["regionType"] = "dynamicgroup",
+			["align"] = "CENTER",
+			["sort"] = "none",
+			["expanded"] = false,
+			["space"] = 2,
+			["background"] = "None",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["constantFactor"] = "RADIUS",
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+			},
+			["backgroundInset"] = 0,
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+				},
+				["event"] = "Health",
+				["unit"] = "player",
+			},
+			["selfPoint"] = "TOP",
+			["id"] = "beast mode",
+			["radius"] = 200,
+			["frameStrata"] = 1,
+			["width"] = 40.00001805423119,
+			["rotation"] = 0,
+			["stagger"] = 0,
+			["numTriggers"] = 1,
+			["additional_triggers"] = {
+			},
+			["height"] = 417.9999995896766,
+			["borderOffset"] = 16,
+			["load"] = {
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["anchorPoint"] = "CENTER",
+		},
 		["sacred shield 2"] = {
 			["parent"] = "rotation helper - paladin",
 			["BFbackdrop"] = false,
@@ -1216,7 +1416,7 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
 			["icon"] = true,
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "aura",
@@ -1233,7 +1433,7 @@ WeakAurasSaved = {
 				["custom_hide"] = "timed",
 			},
 			["desaturate"] = true,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_name"] = false,
@@ -1259,7 +1459,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["iconInset"] = 0,
@@ -1318,7 +1518,7 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
 			["icon"] = true,
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "aura",
@@ -1334,7 +1534,7 @@ WeakAurasSaved = {
 				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_name"] = false,
@@ -1360,7 +1560,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["iconInset"] = 0,
@@ -1426,7 +1626,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "status",
@@ -1447,7 +1647,7 @@ WeakAurasSaved = {
 				["spellName"] = 48819,
 			},
 			["stickyDuration"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_class"] = true,
@@ -1457,7 +1657,6 @@ WeakAurasSaved = {
 				},
 				["use_name"] = false,
 				["use_spec"] = true,
-				["use_combat"] = true,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -1468,12 +1667,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
@@ -1523,6 +1723,233 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
+		["avenging wrath"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "THICKOUTLINE",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "status",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["use_inverse"] = true,
+				["event"] = "Cooldown Progress (Spell)",
+				["names"] = {
+					"Icy Rage", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["use_spellName"] = true,
+				["unit"] = "player",
+				["custom_hide"] = "timed",
+				["unevent"] = "auto",
+				["use_unit"] = true,
+				["ownOnly"] = true,
+				["spellName"] = 31884,
+			},
+			["stickyDuration"] = false,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_name"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = true,
+				["use_spec"] = true,
+				["class"] = {
+					["single"] = "PALADIN",
+					["multi"] = {
+					},
+				},
+				["use_combat"] = true,
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["desaturate"] = false,
+			["icon"] = true,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["numTriggers"] = 1,
+			["id"] = "avenging wrath",
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["parent"] = "rotation helper - paladin",
+			["BFgloss"] = 0,
+			["untrigger"] = {
+				["spellName"] = 31884,
+			},
+			["animation"] = {
+				["start"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+			},
+			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["gts"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_action"] = "show",
+					["glow_frame"] = "WeakAuras:dbw",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+			},
+			["trigger"] = {
+				["type"] = "status",
+				["unevent"] = "auto",
+				["event"] = "Cooldown Progress (Item)",
+				["names"] = {
+					"Agility of the Vrykul", -- [1]
+					"Strength of the Taunka", -- [2]
+					"Speed of the Vrykul", -- [3]
+					"Precision of the Iron Dwarves", -- [4]
+				},
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["use_itemName"] = true,
+				["itemName"] = 54589,
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = true,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_name"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["PRIEST"] = true,
+						["DRUID"] = true,
+						["SHAMAN"] = true,
+						["PALADIN"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["inverse"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "gts",
+			["additional_triggers"] = {
+			},
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["numTriggers"] = 1,
+			["parent"] = "beast mode",
+			["untrigger"] = {
+				["itemName"] = 54589,
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
 		["judgement"] = {
 			["parent"] = "rotation helper - paladin",
 			["BFbackdrop"] = false,
@@ -1537,7 +1964,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -1571,7 +1998,7 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 			},
 			["stickyDuration"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_name"] = false,
@@ -1581,7 +2008,6 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spec"] = true,
-				["use_combat"] = true,
 				["spec"] = {
 					["single"] = 2,
 					["multi"] = {
@@ -1592,12 +2018,13 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["iconInset"] = 0,
@@ -1631,6 +2058,353 @@ WeakAurasSaved = {
 				1, -- [3]
 				1, -- [4]
 			},
+		},
+		["cts"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_frame"] = "WeakAuras:cts",
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+			},
+			["trigger"] = {
+				["type"] = "status",
+				["unevent"] = "auto",
+				["event"] = "Cooldown Progress (Item)",
+				["use_unit"] = true,
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["names"] = {
+					"Agility of the Vrykul", -- [1]
+					"Strength of the Taunka", -- [2]
+					"Speed of the Vrykul", -- [3]
+					"Precision of the Iron Dwarves", -- [4]
+				},
+				["itemName"] = 54588,
+				["use_itemName"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = true,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["WARLOCK"] = true,
+						["SHAMAN"] = true,
+						["MAGE"] = true,
+						["DRUID"] = true,
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["inverse"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "cts",
+			["additional_triggers"] = {
+			},
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["numTriggers"] = 1,
+			["parent"] = "beast mode",
+			["untrigger"] = {
+				["itemName"] = 54588,
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["sts"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_frame"] = "WeakAuras:sts",
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+			},
+			["trigger"] = {
+				["itemName"] = 54590,
+				["unevent"] = "auto",
+				["event"] = "Cooldown Progress (Item)",
+				["names"] = {
+					"Agility of the Vrykul", -- [1]
+					"Strength of the Taunka", -- [2]
+					"Speed of the Vrykul", -- [3]
+					"Precision of the Iron Dwarves", -- [4]
+				},
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["use_itemName"] = true,
+				["type"] = "status",
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = true,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_name"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["DEATHKNIGHT"] = true,
+						["WARRIOR"] = true,
+						["ROGUE"] = true,
+						["SHAMAN"] = true,
+						["DRUID"] = true,
+						["PALADIN"] = true,
+						["HUNTER"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["inverse"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "sts",
+			["additional_triggers"] = {
+			},
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["numTriggers"] = 1,
+			["parent"] = "beast mode",
+			["untrigger"] = {
+				["itemName"] = 54590,
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["charred twilight scale"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+				["event"] = "Health",
+				["names"] = {
+					"Twilight Flames", -- [1]
+				},
+			},
+			["desaturate"] = false,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+						["WARLOCK"] = true,
+						["SHAMAN"] = true,
+						["MAGE"] = true,
+						["DRUID"] = true,
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["parent"] = "beast mode",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "charred twilight scale",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["yOffset"] = 0,
+			["numTriggers"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["cooldown"] = true,
+			["iconInset"] = 0,
 		},
 		["missing buffs"] = {
 			["backdropColor"] = {
@@ -1712,7 +2486,355 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["expanded"] = true,
+			["expanded"] = false,
+		},
+		["berserk - timer"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["names"] = {
+					"Berserk", -- [1]
+				},
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+				["event"] = "Health",
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = false,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["HUNTER"] = true,
+						["WARRIOR"] = true,
+						["ROGUE"] = true,
+						["SHAMAN"] = true,
+						["DRUID"] = true,
+						["PALADIN"] = true,
+						["DEATHKNIGHT"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["parent"] = "beast mode",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "berserk - timer",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["yOffset"] = 0,
+			["numTriggers"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["phylactery"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_frame"] = "WeakAuras:phylactery",
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+			},
+			["trigger"] = {
+				["type"] = "status",
+				["unevent"] = "auto",
+				["event"] = "Cooldown Progress (Item)",
+				["names"] = {
+					"Agility of the Vrykul", -- [1]
+					"Strength of the Taunka", -- [2]
+					"Speed of the Vrykul", -- [3]
+					"Precision of the Iron Dwarves", -- [4]
+				},
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["use_itemName"] = true,
+				["itemName"] = 50365,
+				["use_unit"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = true,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_name"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["WARLOCK"] = true,
+						["SHAMAN"] = true,
+						["MAGE"] = true,
+						["DRUID"] = true,
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_class"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["inverse"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "phylactery",
+			["additional_triggers"] = {
+			},
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["numTriggers"] = 1,
+			["parent"] = "beast mode",
+			["untrigger"] = {
+				["itemName"] = 50365,
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
+		["dbw"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["yOffset"] = 0,
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+					["glow_frame"] = "WeakAuras:dbw",
+					["glow_action"] = "show",
+				},
+				["finish"] = {
+				},
+			},
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+			},
+			["trigger"] = {
+				["itemName"] = 50363,
+				["unevent"] = "auto",
+				["event"] = "Cooldown Progress (Item)",
+				["use_unit"] = true,
+				["debuffType"] = "HELPFUL",
+				["subeventPrefix"] = "SPELL",
+				["subeventSuffix"] = "_CAST_START",
+				["unit"] = "player",
+				["names"] = {
+					"Agility of the Vrykul", -- [1]
+					"Strength of the Taunka", -- [2]
+					"Speed of the Vrykul", -- [3]
+					"Precision of the Iron Dwarves", -- [4]
+				},
+				["type"] = "status",
+				["use_itemName"] = true,
+				["custom_hide"] = "timed",
+			},
+			["desaturate"] = true,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["HUNTER"] = true,
+						["WARRIOR"] = true,
+						["ROGUE"] = true,
+						["DRUID"] = true,
+						["DEATHKNIGHT"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["selfPoint"] = "CENTER",
+			["inverse"] = false,
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "dbw",
+			["additional_triggers"] = {
+			},
+			["BFgloss"] = 0,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["numTriggers"] = 1,
+			["parent"] = "beast mode",
+			["untrigger"] = {
+				["itemName"] = 50363,
+			},
+			["icon"] = true,
+			["cooldown"] = true,
+			["iconInset"] = 0,
 		},
 		["seal of wisdom"] = {
 			["color"] = {
@@ -1799,6 +2921,117 @@ WeakAurasSaved = {
 			},
 			["yOffset"] = 0,
 		},
+		["deathbringer's will"] = {
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["BFbackdrop"] = false,
+			["untrigger"] = {
+			},
+			["anchorPoint"] = "CENTER",
+			["customTextUpdate"] = "update",
+			["icon"] = true,
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+			},
+			["trigger"] = {
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["custom_hide"] = "timed",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["unit"] = "player",
+				["event"] = "Health",
+				["names"] = {
+					"Agility of the Vrykul", -- [1]
+					"Strength of the Taunka", -- [2]
+					"Speed of the Vrykul", -- [3]
+					"Precision of the Iron Dwarves", -- [4]
+				},
+			},
+			["desaturate"] = false,
+			["font"] = "Roboto",
+			["height"] = 40,
+			["load"] = {
+				["use_class"] = false,
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "DRUID",
+					["multi"] = {
+						["HUNTER"] = true,
+						["WARRIOR"] = true,
+						["ROGUE"] = true,
+						["DRUID"] = true,
+						["DEATHKNIGHT"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["use_talent"] = false,
+			},
+			["fontSize"] = 20,
+			["displayStacks"] = "%s",
+			["regionType"] = "icon",
+			["textColor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["stacksPoint"] = "BOTTOMRIGHT",
+			["BFskin"] = "Blizzard",
+			["parent"] = "beast mode",
+			["selfPoint"] = "CENTER",
+			["stacksContainment"] = "INSIDE",
+			["zoom"] = 0,
+			["auto"] = true,
+			["id"] = "deathbringer's will",
+			["additional_triggers"] = {
+			},
+			["inverse"] = false,
+			["frameStrata"] = 1,
+			["width"] = 40,
+			["xOffset"] = 0,
+			["stickyDuration"] = false,
+			["BFgloss"] = 0,
+			["yOffset"] = 0,
+			["numTriggers"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["cooldown"] = true,
+			["iconInset"] = 0,
+		},
 		["rotation helper - paladin"] = {
 			["grow"] = "HORIZONTAL",
 			["controlledChildren"] = {
@@ -1818,12 +3051,12 @@ WeakAurasSaved = {
 			["animate"] = false,
 			["xOffset"] = 0,
 			["border"] = "None",
-			["yOffset"] = -220,
+			["yOffset"] = -300,
 			["anchorPoint"] = "CENTER",
 			["untrigger"] = {
 			},
 			["sort"] = "none",
-			["expanded"] = true,
+			["expanded"] = false,
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -1849,16 +3082,16 @@ WeakAurasSaved = {
 			},
 			["borderOffset"] = 16,
 			["align"] = "CENTER",
-			["selfPoint"] = "CENTER",
+			["selfPoint"] = "LEFT",
 			["id"] = "rotation helper - paladin",
 			["backgroundInset"] = 0,
 			["frameStrata"] = 1,
-			["width"] = 502.0000305007088,
+			["width"] = 502.0000305007089,
 			["stagger"] = 0,
 			["radius"] = 200,
 			["numTriggers"] = 1,
 			["rotation"] = 0,
-			["height"] = 40.00002680779787,
+			["height"] = 40.00001805423122,
 			["trigger"] = {
 				["names"] = {
 				},
@@ -1894,7 +3127,7 @@ WeakAurasSaved = {
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
 			["icon"] = true,
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["selfPoint"] = "CENTER",
 			["trigger"] = {
 				["type"] = "aura",
@@ -1910,7 +3143,7 @@ WeakAurasSaved = {
 				["custom_hide"] = "timed",
 			},
 			["desaturate"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_name"] = false,
@@ -1935,7 +3168,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
@@ -1988,7 +3221,7 @@ WeakAurasSaved = {
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
-		["avenging wrath"] = {
+		["phylactery of the nameless lich"] = {
 			["color"] = {
 				1, -- [1]
 				1, -- [2]
@@ -1996,63 +3229,70 @@ WeakAurasSaved = {
 				1, -- [4]
 			},
 			["BFbackdrop"] = false,
-			["yOffset"] = 0,
+			["untrigger"] = {
+			},
 			["anchorPoint"] = "CENTER",
 			["customTextUpdate"] = "update",
-			["actions"] = {
+			["icon"] = true,
+			["fontFlags"] = "THICKOUTLINE",
+			["animation"] = {
 				["start"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["type"] = "none",
 				},
 				["finish"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
 				},
 			},
-			["fontFlags"] = "OUTLINE",
-			["selfPoint"] = "CENTER",
 			["trigger"] = {
-				["type"] = "status",
+				["subeventPrefix"] = "SPELL",
+				["type"] = "aura",
+				["names"] = {
+					"Siphoned Power", -- [1]
+				},
 				["subeventSuffix"] = "_CAST_START",
 				["debuffType"] = "HELPFUL",
-				["use_inverse"] = true,
-				["event"] = "Cooldown Progress (Spell)",
-				["names"] = {
-					"Icy Rage", -- [1]
-				},
-				["subeventPrefix"] = "SPELL",
-				["use_spellName"] = true,
 				["unit"] = "player",
+				["event"] = "Health",
 				["custom_hide"] = "timed",
-				["unevent"] = "auto",
-				["use_unit"] = true,
-				["ownOnly"] = true,
-				["spellName"] = 31884,
 			},
-			["stickyDuration"] = false,
-			["font"] = "Friz Quadrata TT",
+			["desaturate"] = false,
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
-				["use_name"] = false,
+				["use_class"] = false,
 				["role"] = {
 					["multi"] = {
 					},
 				},
-				["use_class"] = true,
-				["use_spec"] = true,
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
-				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 					},
 				},
+				["class"] = {
+					["multi"] = {
+						["WARLOCK"] = true,
+						["SHAMAN"] = true,
+						["MAGE"] = true,
+						["DRUID"] = true,
+						["PRIEST"] = true,
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["use_name"] = false,
+				["use_talent"] = false,
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
@@ -2063,37 +3303,28 @@ WeakAurasSaved = {
 			},
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["BFskin"] = "Blizzard",
-			["desaturate"] = false,
-			["icon"] = true,
+			["parent"] = "beast mode",
+			["selfPoint"] = "CENTER",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
-			["numTriggers"] = 1,
-			["id"] = "avenging wrath",
+			["id"] = "phylactery of the nameless lich",
+			["additional_triggers"] = {
+			},
 			["inverse"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["xOffset"] = 0,
-			["parent"] = "rotation helper - paladin",
+			["stickyDuration"] = false,
 			["BFgloss"] = 0,
-			["untrigger"] = {
-				["spellName"] = 31884,
-			},
-			["animation"] = {
+			["yOffset"] = 0,
+			["numTriggers"] = 1,
+			["actions"] = {
 				["start"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
-				},
-				["main"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
 				},
 				["finish"] = {
-					["type"] = "none",
-					["duration_type"] = "seconds",
 				},
 			},
-			["displayIcon"] = "Interface\\Icons\\Spell_Holy_Aspiration",
 			["cooldown"] = true,
 			["iconInset"] = 0,
 		},
@@ -2201,7 +3432,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["animation"] = {
 				["start"] = {
 					["type"] = "none",
@@ -2231,7 +3462,7 @@ WeakAurasSaved = {
 				["custom_hide"] = "timed",
 			},
 			["desaturate"] = true,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_name"] = false,
@@ -2257,7 +3488,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["textColor"] = {
@@ -2385,7 +3616,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["fontFlags"] = "OUTLINE",
+			["fontFlags"] = "THICKOUTLINE",
 			["animation"] = {
 				["start"] = {
 					["duration_type"] = "seconds",
@@ -2419,7 +3650,7 @@ WeakAurasSaved = {
 				["debuffType"] = "HELPFUL",
 			},
 			["stickyDuration"] = false,
-			["font"] = "Friz Quadrata TT",
+			["font"] = "Roboto",
 			["height"] = 40,
 			["load"] = {
 				["use_name"] = false,
@@ -2429,14 +3660,14 @@ WeakAurasSaved = {
 				},
 				["use_class"] = true,
 				["use_spec"] = true,
-				["class"] = {
-					["single"] = "PALADIN",
-					["multi"] = {
-					},
-				},
 				["use_combat"] = true,
 				["spec"] = {
 					["single"] = 2,
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["single"] = "PALADIN",
 					["multi"] = {
 					},
 				},
@@ -2445,7 +3676,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["fontSize"] = 12,
+			["fontSize"] = 20,
 			["displayStacks"] = "%s",
 			["regionType"] = "icon",
 			["iconInset"] = 0,

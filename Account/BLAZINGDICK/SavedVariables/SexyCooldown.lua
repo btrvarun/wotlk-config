@@ -1,8 +1,5 @@
 
 SexyCooldownDB = {
-	["global"] = {
-		["dbVersion"] = 3,
-	},
 	["profileKeys"] = {
 		["Circi - Icecrown"] = "Circi - Icecrown",
 		["Deathfeast - Icecrown"] = "Deathfeast - Icecrown",
@@ -10,14 +7,13 @@ SexyCooldownDB = {
 		["Fatpotato - Icecrown"] = "Fatpotato - Icecrown",
 		["Dirtyheals - Icecrown"] = "Dirtyheals - Icecrown",
 	},
+	["global"] = {
+		["dbVersion"] = 3,
+	},
 	["profiles"] = {
 		["Circi - Icecrown"] = {
 			["bars"] = {
 				{
-					["blacklist"] = {
-					},
-					["events"] = {
-					},
 					["bar"] = {
 						["fontColor"] = {
 						},
@@ -28,6 +24,10 @@ SexyCooldownDB = {
 						["backgroundColor"] = {
 						},
 						["width"] = 449.9999930245016,
+					},
+					["events"] = {
+					},
+					["blacklist"] = {
 					},
 				}, -- [1]
 			},
@@ -37,70 +37,15 @@ SexyCooldownDB = {
 				{
 					["events"] = {
 					},
-					["blacklist"] = {
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["font"] = "Arial Narrow",
-						["width"] = 449.9999930245016,
-						["y"] = -469.9998795016841,
-						["x"] = 1.999944879884993,
-						["name"] = "Bar 0",
-						["borderColor"] = {
-						},
-						["height"] = 33.00000088903411,
-						["lock"] = true,
-						["backgroundColor"] = {
-						},
-						["texture"] = "Armory",
-					},
-				}, -- [1]
-			},
-		},
-		["Minakshi - Icecrown"] = {
-			["bars"] = {
-				{
-					["blacklist"] = {
-					},
-					["events"] = {
-					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-						["height"] = 33.00000088903411,
-						["name"] = "Bar 0",
-						["backgroundColor"] = {
-						},
-						["width"] = 449.9999930245016,
-					},
-				}, -- [1]
-			},
-		},
-		["Fatpotato - Icecrown"] = {
-			["bars"] = {
-				{
-					["events"] = {
-					},
-					["bar"] = {
-						["fontColor"] = {
-						},
-						["x"] = 3.000022362627306,
+						["x"] = -758.0000129935755,
 						["backgroundColor"] = {
 						},
 						["width"] = 400.0000054709792,
-						["y"] = -477.0001023756975,
-						["font"] = "PT Sans Narrow",
+						["y"] = 22.9998913326765,
+						["font"] = "Roboto",
 						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
@@ -112,7 +57,6 @@ SexyCooldownDB = {
 					["eventColors"] = {
 					},
 					["icon"] = {
-						["font"] = "PT Sans Narrow",
 						["fontColor"] = {
 						},
 						["borderColor"] = {
@@ -123,7 +67,7 @@ SexyCooldownDB = {
 				}, -- [1]
 			},
 		},
-		["Dirtyheals - Icecrown"] = {
+		["Minakshi - Icecrown"] = {
 			["bars"] = {
 				{
 					["bar"] = {
@@ -140,6 +84,64 @@ SexyCooldownDB = {
 					["events"] = {
 					},
 					["blacklist"] = {
+					},
+				}, -- [1]
+			},
+		},
+		["Fatpotato - Icecrown"] = {
+			["bars"] = {
+				{
+					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["font"] = "PT Sans Narrow",
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["bar"] = {
+						["outline"] = "OUTLINE",
+						["fontColor"] = {
+						},
+						["font"] = "Roboto",
+						["advancedOptions"] = true,
+						["width"] = 400.0000054709792,
+						["y"] = 25.00029139802734,
+						["x"] = -758.0000480078421,
+						["name"] = "Bar 0",
+						["borderColor"] = {
+						},
+						["height"] = 40.00000054709792,
+						["lock"] = true,
+						["backgroundColor"] = {
+						},
+						["texture"] = "Armory",
+					},
+				}, -- [1]
+			},
+		},
+		["Dirtyheals - Icecrown"] = {
+			["bars"] = {
+				{
+					["blacklist"] = {
+					},
+					["events"] = {
+					},
+					["bar"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 33.00000088903411,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.9999930245016,
 					},
 				}, -- [1]
 			},

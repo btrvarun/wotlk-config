@@ -84,36 +84,20 @@ SexyCooldownDB = {
 		["Insanehpala - Icecrown"] = {
 			["bars"] = {
 				{
+					["blacklist"] = {
+					},
 					["events"] = {
 					},
 					["bar"] = {
 						["fontColor"] = {
 						},
-						["lock"] = true,
-						["advancedOptions"] = true,
-						["width"] = 400.0000054709792,
-						["y"] = -478.0001098299066,
-						["x"] = 0,
-						["name"] = "Bar 0",
 						["borderColor"] = {
 						},
 						["height"] = 40.00000054709792,
-						["font"] = "PT Sans Narrow",
+						["name"] = "Bar 0",
 						["backgroundColor"] = {
 						},
-						["texture"] = "Armory",
-					},
-					["eventColors"] = {
-					},
-					["icon"] = {
-						["fontsize"] = 10,
-						["font"] = "PT Sans Narrow",
-						["fontColor"] = {
-						},
-						["borderColor"] = {
-						},
-					},
-					["blacklist"] = {
+						["width"] = 472.0000169600354,
 					},
 				}, -- [1]
 			},

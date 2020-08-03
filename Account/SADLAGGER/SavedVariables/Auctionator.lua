@@ -1,12 +1,12 @@
 
 AUCTIONATOR_SAVEDVARS = {
-	["_5000000"] = 10000,
-	["_50000"] = 500,
 	["_200000"] = 1000,
-	["_1000000"] = 2500,
-	["_10000"] = 200,
-	["_500"] = 5,
+	["_50000"] = 500,
 	["STARTING_DISCOUNT"] = 5,
+	["_1000000"] = 2500,
+	["_5000000"] = 10000,
+	["_500"] = 5,
+	["_10000"] = 200,
 	["_2000"] = 100,
 }
 AUCTIONATOR_PRICING_HISTORY = {
@@ -34,21 +34,21 @@ AUCTIONATOR_SHOPPING_LISTS = {
 AUCTIONATOR_PRICE_DATABASE = {
 	["__dbversion"] = 2,
 	["Icecrown_Horde"] = {
-		["Scroll of Enchant Weapon - Superior Potency"] = 6024999,
 		["Fractured Cardinal Ruby"] = 2750000,
+		["Scroll of Enchant Weapon - Superior Potency"] = 6024999,
 	},
 }
 AUCTIONATOR_LAST_SCAN_TIME = nil
 AUCTIONATOR_TOONS = {
 	["Camphor"] = {
 		["firstSeen"] = 1595580079,
-		["guid"] = "0x07000000004E281A",
 		["firstVersion"] = "2.6.3",
+		["guid"] = "0x07000000004E281A",
 	},
 	["Zorro"] = {
 		["firstSeen"] = 1595570775,
-		["firstVersion"] = "2.6.3",
 		["guid"] = "0x0700000000006368",
+		["firstVersion"] = "2.6.3",
 	},
 	["Anemic"] = {
 		["firstSeen"] = 1595570699,
