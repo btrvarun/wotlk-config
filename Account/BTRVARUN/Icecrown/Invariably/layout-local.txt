@@ -11,7 +11,7 @@ FrameLevel: 0
 Anchor: TOPRIGHT
 X: 650
 Y: -151
-W: 64
+W: 110
 H: 32
 Frame: WorldMapScreenAnchor
 FrameLevel: 0
@@ -46,13 +46,13 @@ FrameLevel: 6
 Anchor: TOPRIGHT
 X: -204
 Y: -4
-W: 22
-H: 22
+W: 32
+H: 32
 Frame: SexyCooldownBar 0
 FrameLevel: 0
-Anchor: BOTTOM
-X: 0
-Y: 42
+Anchor: LEFT
+X: 1
+Y: 24
 W: 400
 H: 40
 Frame: SkadaBarWindowSkada

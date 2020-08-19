@@ -1,31 +1,31 @@
 
 ElvCharacterDB = {
 	["ChatEditHistory"] = {
-		"/w drjayy and im 6.5 without mourne", -- [1]
-		"/w Drjayy im okay", -- [2]
-		"/w dearshadow inv", -- [3]
-		"/w dearshadow its garzh", -- [4]
-		"/abs list", -- [5]
-		"/w Dearshadow guild inv", -- [6]
-		"/macro", -- [7]
-		"/abs save unh", -- [8]
-		"/raid multi dotting improves dps", -- [9]
-		"/raid 500", -- [10]
-		"/raid 700", -- [11]
-		"/raid 900", -- [12]
-		"/raid 1000", -- [13]
-		"/raid 1015", -- [14]
-		"/raid 1200", -- [15]
-		"/raid 130", -- [16]
-		"/raid 1300", -- [17]
-		"/sexycooldowns", -- [18]
-		"/wa", -- [19]
-		"/moveui", -- [20]
+		"/w Dearshadow guild inv", -- [1]
+		"/macro", -- [2]
+		"/abs save unh", -- [3]
+		"/raid multi dotting improves dps", -- [4]
+		"/raid 500", -- [5]
+		"/raid 700", -- [6]
+		"/raid 900", -- [7]
+		"/raid 1000", -- [8]
+		"/raid 1015", -- [9]
+		"/raid 1200", -- [10]
+		"/raid 130", -- [11]
+		"/raid 1300", -- [12]
+		"/sexycooldowns", -- [13]
+		"/moveui", -- [14]
+		"/wa", -- [15]
+		"/acherus", -- [16]
+		"/runewatch", -- [17]
+		"/runewatch config", -- [18]
+		"/w Maionese dps 6.5k gs", -- [19]
+		"/join global", -- [20]
 	},
 	["ChatHistoryLog"] = {
 		{
-			"LFG ICC Rep Run Mage 5.1gs ", -- [1]
-			"Docmanco", -- [2]
+			"LFM 2 HEAL 2 DPS |cffffff00|Hquest:24579:80|h[Sartharion Must Die!]|h|r", -- [1]
+			"Maionese", -- [2]
 			"Orcish", -- [3]
 			"1. General - Dalaran", -- [4]
 			"", -- [5]
@@ -34,16 +34,16 @@ ElvCharacterDB = {
 			1, -- [8]
 			"General - Dalaran", -- [9]
 			0, -- [10]
-			475, -- [11]
-			"0x070000000050E2C3", -- [12]
+			228, -- [11]
+			"0x07000000004CFEBB", -- [12]
 			0, -- [13]
-			[51] = 1596479094,
+			[51] = 1596591452,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefDocmanco|r",
+			[52] = "|cffc41e3aMaionese|r",
 		}, -- [1]
 		{
-			"LFM ICC25HC 8/12HC-NEED 1DKtank/+2RDPS - GS=6.3+fresh run |cffffff00|Hachievement:4583:070000000000A6C6:1:1:23:20:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|ronly=B+P RESS-17/25", -- [1]
-			"Rusia", -- [2]
+			"LF ENCHANT", -- [1]
+			"Ginz", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -52,52 +52,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			477, -- [11]
-			"0x070000000000A6C6", -- [12]
+			231, -- [11]
+			"0x07000000005B84AC", -- [12]
 			0, -- [13]
-			[51] = 1596479095,
+			[51] = 1596591457,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddRusia|r",
+			[52] = "|cfffff468Ginz|r",
 		}, -- [2]
 		{
-			"LFM ICC 10 EoF run (GS HC) || Need Tank + DPS || Whisper GS + KS min", -- [1]
-			"Rikihu", -- [2]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link arch |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			478, -- [11]
-			"0x070000000057BC95", -- [12]
+			232, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479095,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffaad372Rikihu|r",
+			[51] = 1596591457,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [3]
 		{
-			"wtf", -- [1]
-			"Trici", -- [2]
+			"LFM ICC 10 FAST BEFORE RESET SEMI GUILD NEED 1 HEALER & GO Must be +5.7k gs with gems and encha /w spec gs and achiv.", -- [1]
+			"Madasz", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			482, -- [11]
-			"0x07000000005B5529", -- [12]
+			234, -- [11]
+			"0x07000000005BC4FE", -- [12]
 			0, -- [13]
-			[51] = 1596479098,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aTrici|r",
+			[51] = 1596591458,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dMadasz|r",
 		}, -- [4]
 		{
-			"just cause ure a c.unt", -- [1]
-			"Buffdaddy", -- [2]
+			"icc10 hc last rdps 6k+ gs achiv requi ", -- [1]
+			"Dolipranee", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -106,34 +106,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			484, -- [11]
-			"0x070000000059F813", -- [12]
+			235, -- [11]
+			"0x0700000000573F25", -- [12]
 			0, -- [13]
-			[51] = 1596479099,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Buffdaddy|r",
+			[51] = 1596591463,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Dolipranee|r",
 		}, -- [5]
 		{
-			"BOR VIL TI ko Nagan hir Goth O agol O uden O ash ealdor y lo nostyec cynegold ", -- [1]
-			"Kristinalova", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"FUERA URIBE", -- [1]
+			"Traeri", -- [2]
+			"Orcish", -- [3]
+			"1. General - Dalaran", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
 			0, -- [10]
-			494, -- [11]
-			"0x070000000023AE42", -- [12]
+			236, -- [11]
+			"0x07000000002E05E1", -- [12]
 			0, -- [13]
-			[51] = 1596479107,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dKristinalova|r",
+			[51] = 1596591464,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaTraeri|r",
 		}, -- [6]
 		{
-			"LF enchanter", -- [1]
-			"Meyamoz", -- [2]
+			"Need 2 dps for icc repu 10 wishp me u gs ", -- [1]
+			"Greenfist", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -142,16 +142,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			496, -- [11]
-			"0x0700000000580D17", -- [12]
+			239, -- [11]
+			"0x070000000056B94E", -- [12]
 			0, -- [13]
-			[51] = 1596479108,
+			[51] = 1596591478,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaMeyamoz|r",
+			[52] = "|cffc69b6dGreenfist|r",
 		}, -- [7]
 		{
-			"take the shattarath portal then the org portal", -- [1]
-			"Mylyth", -- [2]
+			"LFM RS 25 #1 Before Reset - Need ALL 6K+ [Wisp Achvs/Gs/Class] Nothing Ress |cffffff00|Hachievement:4815:07000000004FED0B:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Thark", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -160,17 +160,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			498, -- [11]
-			"0x07000000005B29B9", -- [12]
+			241, -- [11]
+			"0x07000000004FED0B", -- [12]
 			0, -- [13]
-			[51] = 1596479109,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefMylyth|r",
+			[51] = 1596591488,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefThark|r",
 		}, -- [8]
 		{
-			"BOR REGEN ASH UDEN VIL SE Y LO VE HIR E E Dana va ras Lithtos TI danieb ", -- [1]
-			"Prljavica", -- [2]
-			"Common", -- [3]
+			"LF ENCHANT", -- [1]
+			"Ginz", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -178,16 +178,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			500, -- [11]
-			"0x07000000005A91C7", -- [12]
+			243, -- [11]
+			"0x07000000005B84AC", -- [12]
 			0, -- [13]
-			[51] = 1596479109,
+			[51] = 1596591496,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aPrljavica|r",
+			[52] = "|cfffff468Ginz|r",
 		}, -- [9]
 		{
-			"move!! ", -- [1]
-			"Elclon", -- [2]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link arch |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -196,52 +196,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			503, -- [11]
-			"0x07000000004CB177", -- [12]
+			244, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479111,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dElclon|r",
+			[51] = 1596591498,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [10]
 		{
-			" aldonoth LU vil WOs agol nagan hir Goth E uden ve agol bur u vrum far Ve andovis Ras Lithtos Noth SE danieb SE ", -- [1]
-			"Hittime", -- [2]
-			"Common", -- [3]
+			"icc10 hc last Rcham and rdps 6k+ gs achiv requi ", -- [1]
+			"Dolipranee", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
-			"DND", -- [6]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			506, -- [11]
-			"0x07000000001ED74B", -- [12]
+			246, -- [11]
+			"0x0700000000573F25", -- [12]
 			0, -- [13]
-			[51] = 1596479113,
+			[51] = 1596591506,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Hittime|r",
+			[52] = "|cffaad372Dolipranee|r",
 		}, -- [11]
 		{
-			"LFM ICC25HC 8/12HC-NEED 1DKtank/+2RDPS - GS=6.3+fresh run |cffffff00|Hachievement:4583:070000000000A6C6:1:1:23:20:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|ronly=B+P RESS-22/25", -- [1]
-			"Rusia", -- [2]
+			"LF Blacksmith ", -- [1]
+			"Finroztok", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			507, -- [11]
-			"0x070000000000A6C6", -- [12]
+			248, -- [11]
+			"0x07000000005B8336", -- [12]
 			0, -- [13]
-			[51] = 1596479113,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddRusia|r",
+			[51] = 1596591514,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Finroztok|r",
 		}, -- [12]
 		{
-			"this is just so sad", -- [1]
-			"Smacco", -- [2]
+			"I NEED 2 DPS ICC REPU", -- [1]
+			"Myclobin", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -250,16 +250,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			510, -- [11]
-			"0x070000000054EEB9", -- [12]
+			249, -- [11]
+			"0x0700000000584EF6", -- [12]
 			0, -- [13]
-			[51] = 1596479114,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffffffffSmacco|r",
+			[51] = 1596591520,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Myclobin|r",
 		}, -- [13]
 		{
-			"WTS |cffffd000|Htrade:51311:450:450:700000000211488:8f60sqOuJyjpmMPAAAAwHAACg/Bg/vBCAAAAAA+BAAAA6/3//7ve+f3eHiTQlgDASEEYikhkEAA8/D8Pg/pAA+//fRJMiiC|h[Jewelcrafting]|h|r Ur Mats & Tips /w me ", -- [1]
-			"Taki", -- [2]
+			"ICC25HC/NM(7/12) NEED RSHAM/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r+KS25", -- [1]
+			"Artuv", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -268,35 +268,35 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			511, -- [11]
-			"0x0700000000211488", -- [12]
+			250, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479115,
+			[51] = 1596591523,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aTaki|r",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [14]
 		{
-			"Tarsim balgari za noviq bg gild predlagame icc 10/25 i toc 10/25 rs i tn ", -- [1]
-			"Razgoneniq", -- [2]
+			"LFM RS 25 #1 Before Reset - Need ALL 6K+ [Wisp Achvs/Gs/Class] Nothing Ress |cffffff00|Hachievement:4815:07000000004FED0B:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Thark", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			514, -- [11]
-			"0x07000000005A6C4F", -- [12]
+			254, -- [11]
+			"0x07000000004FED0B", -- [12]
 			0, -- [13]
-			[51] = 1596479116,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dRazgoneniq|r",
+			[51] = 1596591526,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefThark|r",
 		}, -- [15]
 		{
-			"stupid kid ", -- [1]
-			"Pedoclaw", -- [2]
-			"Orcish", -- [3]
+			"BOR TIRAS E E GOTH REGEN AGOL ASH THOR VE", -- [1]
+			"Zakalaka", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -304,34 +304,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			517, -- [11]
-			"0x070000000057625C", -- [12]
+			264, -- [11]
+			"0x07000000004D49A0", -- [12]
 			0, -- [13]
-			[51] = 1596479119,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aPedoclaw|r",
+			[51] = 1596591540,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Zakalaka|r",
 		}, -- [16]
 		{
-			" <Fade> is recruiting! We are a social-pve guild raiding at 7:30 PM ST , Doing daily 25man raids such as ICC 25HC / TOC 25HC / RS 25HC, Achiev raids as Ulduar 25 / TBC Raids Using Discord&DKP loot! Apply at: http://thefade.shivtr.com/", -- [1]
-			"Muusx", -- [2]
+			"icc10 hc last rdps 6k+ gs achiv requi ", -- [1]
+			"Dolipranee", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
-			"AFK", -- [6]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			518, -- [11]
-			"0x070000000026C211", -- [12]
+			267, -- [11]
+			"0x0700000000573F25", -- [12]
 			0, -- [13]
-			[51] = 1596479120,
+			[51] = 1596591546,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aMuusx|r",
+			[52] = "|cffaad372Dolipranee|r",
 		}, -- [17]
 		{
-			"all report him", -- [1]
-			"Buffdaddy", -- [2]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link arch |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -340,124 +340,124 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			519, -- [11]
-			"0x070000000059F813", -- [12]
+			268, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479120,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Buffdaddy|r",
+			[51] = 1596591547,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [18]
 		{
-			"go shatrat thne ogri", -- [1]
-			"Kaminata", -- [2]
+			"LF BLACKSMITH Also WTS |cff0070dd|Hitem:10328:0:0:0:0:0:0:0:40|h[Scarlet Chestpiece]|h|r", -- [1]
+			"Finroztok", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			522, -- [11]
-			"0x0700000000509ABF", -- [12]
+			269, -- [11]
+			"0x07000000005B8336", -- [12]
 			0, -- [13]
-			[51] = 1596479121,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Kaminata|r",
+			[51] = 1596591548,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Finroztok|r",
 		}, -- [19]
 		{
-			"LFM ICC 10 EoF run (GS HC) || Need Tank + DPS || Whisper GS + KS min", -- [1]
-			"Rikiruu", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"SE SE faergas re goth nud E E ve ruff regenthor faergas lo nud aesire ", -- [1]
+			"Dumbs", -- [2]
+			"Common", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			523, -- [11]
-			"0x070000000001C861", -- [12]
+			271, -- [11]
+			"0x070000000058B088", -- [12]
 			0, -- [13]
-			[51] = 1596479122,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefRikiruu|r",
+			[51] = 1596591549,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddDumbs|r",
 		}, -- [20]
 		{
-			"LFM ICC 10 EoF run (GS HC) || Need Tank + DPS || Whisper GS + KS min ", -- [1]
-			"Rikiruu", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"Majis cynewalden va ras garde ko ras goth Lon Algos Noth garde An bur garde bur re y lo Vrum ne ruff bur Va hir an ras Lithtos Nevren Rogesh re ras melka ash ", -- [1]
+			"Gaboheim", -- [2]
+			"Common", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			524, -- [11]
-			"0x070000000001C861", -- [12]
+			274, -- [11]
+			"0x07000000005A9124", -- [12]
 			0, -- [13]
-			[51] = 1596479122,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefRikiruu|r",
+			[51] = 1596591558,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dGaboheim|r",
 		}, -- [21]
 		{
-			"WTS |cffa335ee|Hitem:49904:0:0:0:0:0:0:0:80|h[Pillars of Might]|h|r", -- [1]
-			"Lecripe", -- [2]
+			"LFM ICC 10 FAST BEFORE RESET SEMI GUILD NEED OT / Must be +5.7k gs with gems and encha /w spec gs and achiv.", -- [1]
+			"Madasz", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			527, -- [11]
-			"0x070000000056C2B8", -- [12]
+			275, -- [11]
+			"0x07000000005BC4FE", -- [12]
 			0, -- [13]
-			[51] = 1596479122,
+			[51] = 1596591561,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddLecripe|r",
+			[52] = "|cffc69b6dMadasz|r",
 		}, -- [22]
 		{
-			"WTS FULL BIS PVP RET PALADIN WITH |cffff8000|Hitem:49623:3789:3732:3732:3732:0:0:0:80|h[Shadowmourne]|h|r 391 COINS ALREADY ON WARMANE TRADE NAME \"VR\" YOU CAN ALSO CHOOSE ITEMS YOU WANT TO BRING PRICE DOWN. /W ME!", -- [1]
-			"Saiyul", -- [2]
+			"LFM 2 HEAL |cffffff00|Hquest:24579:80|h[Sartharion Must Die!]|h|r", -- [1]
+			"Maionese", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"1. General - Dalaran", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
 			0, -- [10]
-			532, -- [11]
-			"0x07000000005B91AC", -- [12]
+			276, -- [11]
+			"0x07000000004CFEBB", -- [12]
 			0, -- [13]
-			[51] = 1596479125,
+			[51] = 1596591563,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddSaiyul|r",
+			[52] = "|cffc41e3aMaionese|r",
 		}, -- [23]
 		{
-			"move !!! ", -- [1]
-			"Elclon", -- [2]
+			"LFM RS 25 #1 Before Reset - Need ALL 6K+ [Wisp Achvs/Gs/Class] Nothing Ress |cffffff00|Hachievement:4815:07000000004FED0B:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Thark", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			534, -- [11]
-			"0x07000000004CB177", -- [12]
+			279, -- [11]
+			"0x07000000004FED0B", -- [12]
 			0, -- [13]
-			[51] = 1596479126,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dElclon|r",
+			[51] = 1596591571,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefThark|r",
 		}, -- [24]
 		{
-			"LFM NEED 2MDPS 1RDPS(BOOMIE) 1HEAL(PALA) 1TANK ICC25NM(GS HC) 5.5K MIN B.P. RESS FRESH RAID", -- [1]
-			"Beritan", -- [2]
+			" ''T A K K A D D A N'' abre sus puertas solo para gente dedicada a progresar en ICC 25 y que sea activa.Pedimos minimo 5.5kgs /DBM /Discord RAID-->00:30ST(mas info wisp) Sistema de loot : DKP", -- [1]
+			"Bonsaiqlo", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -466,16 +466,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			537, -- [11]
-			"0x070000000053E06B", -- [12]
+			288, -- [11]
+			"0x070000000048F520", -- [12]
 			0, -- [13]
-			[51] = 1596479127,
+			[51] = 1596591589,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aBeritan|r",
+			[52] = "|cffff7c0aBonsaiqlo|r",
 		}, -- [25]
 		{
-			"just to laugh", -- [1]
-			"Buffdaddy", -- [2]
+			"ICC10 hc need LAST mage war 6.2k mini |cffffff00|Hachievement:4583:07000000005430C0:1:6:2:20:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|r", -- [1]
+			"Mqelstromexx", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -484,16 +484,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			538, -- [11]
-			"0x070000000059F813", -- [12]
+			289, -- [11]
+			"0x07000000005430C0", -- [12]
 			0, -- [13]
-			[51] = 1596479128,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cfffff468Buffdaddy|r",
+			[51] = 1596591589,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc41e3aMqelstromexx|r",
 		}, -- [26]
 		{
-			"LF ALL FOR icc 25 nm/hc 5k8 gs boe.dbw ress no achiv no invit", -- [1]
-			"Hakimtank", -- [2]
+			"ICC25HC/NM(7/12) NEED RSHAM/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r+KS25", -- [1]
+			"Artuv", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -502,16 +502,16 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			539, -- [11]
-			"0x070000000053DF27", -- [12]
+			290, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479128,
+			[51] = 1596591591,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dHakimtank|r",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [27]
 		{
-			"LU Goth ASH NOVAS E NUD Agol Wos Noth BuR RAS Vrum Nagan CyneGold Ruff Kaelsig Veld Thor ", -- [1]
-			"Feralflow", -- [2]
+			"BOR VIL TI GOTH O AGOL ASH BORNE VE ASH RUFF AZIRIS ", -- [1]
+			"Mynonqo", -- [2]
 			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -520,17 +520,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			540, -- [11]
-			"0x07000000005A51A5", -- [12]
+			294, -- [11]
+			"0x07000000005854C1", -- [12]
 			0, -- [13]
-			[51] = 1596479128,
+			[51] = 1596591599,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aFeralflow|r",
+			[52] = "|cffff7c0aMynonqo|r",
 		}, -- [28]
 		{
-			"GLOIN Goth GARDE E UDEN thor Ealdor E E Lithtos", -- [1]
-			"Rigwar", -- [2]
-			"Common", -- [3]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link arch |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -538,70 +538,70 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			543, -- [11]
-			"0x07000000002A3836", -- [12]
+			296, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479129,
+			[51] = 1596591607,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefRigwar|r",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [29]
 		{
-			"lfm 2 Rdps( hunter / chama) for Rs 25 nm ( @ halion) /w class gs and archiv mnin 5.9 gs nothing reserved", -- [1]
-			"Catbearfish", -- [2]
+			"LF BLACKSMITH with |cff1eff00|Hitem:17706:0:0:0:0:0:0:0:40|h[Plans: Edge of Winter]|h|r pst will pay", -- [1]
+			"Finroztok", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			548, -- [11]
-			"0x07000000002B998C", -- [12]
+			298, -- [11]
+			"0x07000000005B8336", -- [12]
 			0, -- [13]
-			[51] = 1596479133,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aCatbearfish|r",
+			[51] = 1596591609,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfffff468Finroztok|r",
 		}, -- [30]
 		{
-			"WTS BIS paladin 69 level with 450 Engineering/JC.1800 achi points 55coins via Warname", -- [1]
-			"Myanger", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"SE SE faergas re goth nud E E ve ruff regenthor faergas lo nud aesire ", -- [1]
+			"Dumbs", -- [2]
+			"Common", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			554, -- [11]
-			"0x0700000000568060", -- [12]
+			300, -- [11]
+			"0x070000000058B088", -- [12]
 			0, -- [13]
-			[51] = 1596479135,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaMyanger|r",
+			[51] = 1596591614,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddDumbs|r",
 		}, -- [31]
 		{
-			"WTS |cff0070dd|Hitem:43102:0:0:0:0:0:0:0:80|h[Frozen Orb]|h|r100g each", -- [1]
-			"Froozzeen", -- [2]
+			"LFM ICC 10 FAST BEFORE RESET SEMI GUILD NEED 1 HEALER & GO Must be +5.7k gs with gems and encha /w spec gs and achiv.", -- [1]
+			"Madasz", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			557, -- [11]
-			"0x07000000005AD504", -- [12]
+			301, -- [11]
+			"0x07000000005BC4FE", -- [12]
 			0, -- [13]
-			[51] = 1596479136,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefFroozzeen|r",
+			[51] = 1596591616,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dMadasz|r",
 		}, -- [32]
 		{
-			"LFM icc25 n/hc Need all. gs min 5.7k Fully Gem and enchanted link ach. B+P+SFS res", -- [1]
-			"Immadevil", -- [2]
+			"LF ENCHANT", -- [1]
+			"Ginz", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -610,16 +610,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			561, -- [11]
-			"0x0700000000007F91", -- [12]
+			302, -- [11]
+			"0x07000000005B84AC", -- [12]
 			0, -- [13]
-			[51] = 1596479139,
+			[51] = 1596591624,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aImmadevil|r",
+			[52] = "|cfffff468Ginz|r",
 		}, -- [33]
 		{
-			"ENTER PORTAL", -- [1]
-			"Cigomania", -- [2]
+			"icc10 hc last rdps 6k+ gs achiv requi ", -- [1]
+			"Dolipranee", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -628,17 +628,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			563, -- [11]
-			"0x07000000005A4EBD", -- [12]
+			303, -- [11]
+			"0x0700000000573F25", -- [12]
 			0, -- [13]
-			[51] = 1596479140,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffaad372Cigomania|r",
+			[51] = 1596591630,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffaad372Dolipranee|r",
 		}, -- [34]
 		{
-			"LF ALL ICC 25 5.5 ALT RUN NEED 1 HEAL HPALA 1 OFF TANK DK OR DUDU 1 HUNTER and boomy BOE PRIMO RESS ", -- [1]
-			"Vaelgas", -- [2]
-			"Orcish", -- [3]
+			"BUR Aldonoth Lon", -- [1]
+			"Atlante", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -646,142 +646,142 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			565, -- [11]
-			"0x0700000000544759", -- [12]
+			306, -- [11]
+			"0x07000000005723BA", -- [12]
 			0, -- [13]
-			[51] = 1596479142,
+			[51] = 1596591635,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dVaelgas|r",
+			[52] = "|cff9382c9Atlante|r",
 		}, -- [35]
 		{
-			"WTB |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r ", -- [1]
-			"Forcepower", -- [2]
+			"LFM 2 HEAL 1 DPS |cffffff00|Hquest:24579:80|h[Sartharion Must Die!]|h|r", -- [1]
+			"Maionese", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"1. General - Dalaran", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			1, -- [7]
+			1, -- [8]
+			"General - Dalaran", -- [9]
 			0, -- [10]
-			568, -- [11]
-			"0x07000000000117F7", -- [12]
+			307, -- [11]
+			"0x07000000004CFEBB", -- [12]
 			0, -- [13]
-			[51] = 1596479142,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaForcepower|r",
+			[51] = 1596591636,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aMaionese|r",
 		}, -- [36]
 		{
-			"BITCHES WHAT ARE U WAITING", -- [1]
-			"Cigomania", -- [2]
+			"ICC25HC/NM(7/12) NEED RSHAM/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r+KS25", -- [1]
+			"Artuv", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			569, -- [11]
-			"0x07000000005A4EBD", -- [12]
+			308, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479144,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffaad372Cigomania|r",
+			[51] = 1596591639,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [37]
 		{
-			"take the shattarath portal then the org portal", -- [1]
-			"Mylyth", -- [2]
+			"ICC10 hc need LAST mage war 6.2k mini |cffffff00|Hachievement:4583:07000000005430C0:1:6:2:20:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|r (fresh run)", -- [1]
+			"Mqelstromexx", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			570, -- [11]
-			"0x07000000005B29B9", -- [12]
+			310, -- [11]
+			"0x07000000005430C0", -- [12]
 			0, -- [13]
-			[51] = 1596479144,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cff68ccefMylyth|r",
+			[51] = 1596591645,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aMqelstromexx|r",
 		}, -- [38]
 		{
-			"LFG ICC Rep Run Mage 5.1gs ", -- [1]
-			"Docmanco", -- [2]
-			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"Majis cynewalden va ras garde ko ras goth Lon Algos Noth garde An bur garde bur re y lo Vrum ne ruff bur Va hir an ras Lithtos Nevren Rogesh re ras melka ", -- [1]
+			"Gaboheim", -- [2]
+			"Common", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			573, -- [11]
-			"0x070000000050E2C3", -- [12]
+			311, -- [11]
+			"0x07000000005A9124", -- [12]
 			0, -- [13]
-			[51] = 1596479145,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefDocmanco|r",
+			[51] = 1596591648,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dGaboheim|r",
 		}, -- [39]
 		{
-			"LFM ICC25HC 8/12HC-NEED 1DKtank/+2RDPS - GS=6.3+fresh run |cffffff00|Hachievement:4583:070000000000A6C6:1:1:23:20:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|ronly=B+P RESS-21/25", -- [1]
-			"Rusia", -- [2]
+			"ICC 25 HC/NM ( 7/12) Need all 6k+ > Nothing res < |cffffff00|Hachievement:4584:0700000000018319:1:6:21:17:4294967295:4294967295:4294967295:4294967295|h[The Light of Dawn]|h|r", -- [1]
+			"Killersquid", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			574, -- [11]
-			"0x070000000000A6C6", -- [12]
+			313, -- [11]
+			"0x070000000058E7EF", -- [12]
 			0, -- [13]
-			[51] = 1596479145,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddRusia|r",
+			[51] = 1596591648,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aKillersquid|r",
 		}, -- [40]
 		{
-			" aldonoth LU vil WOs agol nagan hir Goth E uden ve O agol bur u vrum far Ve andovis Ras Lithtos Noth SE danieb SE ", -- [1]
-			"Hittime", -- [2]
-			"Common", -- [3]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link arch |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
-			"DND", -- [6]
+			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			575, -- [11]
-			"0x07000000001ED74B", -- [12]
+			314, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
+			[51] = 1596591650,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Hittime|r",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [41]
 		{
-			"I CANT BREATH", -- [1]
-			"Cigomania", -- [2]
+			"LFM RS 25 #1 Before Reset - Need ALL 6K+ [Wisp Achvs/Gs/Class] Nothing Ress |cffffff00|Hachievement:4815:07000000004FED0B:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Thark", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			577, -- [11]
-			"0x07000000005A4EBD", -- [12]
+			316, -- [11]
+			"0x07000000004FED0B", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffaad372Cigomania|r",
+			[51] = 1596591655,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefThark|r",
 		}, -- [42]
 		{
-			"WTB |cffffffff|Hitem:37921:0:0:0:0:0:0:0:80|h[Deadnettle]|h|r|cffffffff|Hitem:36904:0:0:0:0:0:0:0:80|h[Tiger Lily]|h|r|cffffffff|Hitem:36901:0:0:0:0:0:0:0:80|h[Goldclover]|h|r |cffffffff|Hitem:36907:0:0:0:0:0:0:0:80|h[Talandra's Rose]|h|r 50G A stack.", -- [1]
-			"Meleanor", -- [2]
+			"ICC25HC/NM(7/12) NEED BOOMY/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r+KS25", -- [1]
+			"Artuv", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -790,52 +790,52 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			579, -- [11]
-			"0x0700000000008982", -- [12]
+			318, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
+			[51] = 1596591658,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dMeleanor|r",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [43]
 		{
-			"BOR VIL TI ko Nagan hir Goth O agol O uden O ash ealdor y lo nostyec cynegold ", -- [1]
-			"Kristinalova", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"ICC25HC/NM(7/12) NEED BOOMY/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r", -- [1]
+			"Artuv", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			580, -- [11]
-			"0x070000000023AE42", -- [12]
+			321, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dKristinalova|r",
+			[51] = 1596591660,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [44]
 		{
-			"GLOIN Goth GARDE E UDEN thor Ealdor E E Lithtos", -- [1]
-			"Rigwar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"<Honour> VUELVE! La guild española Honour top en el PVE HIGH-END vuelve a estar activa. Con el mismo staff con el que creció, busca a players +5.8 GS para rehacer el roster de LOD y RS 25 HC. Loot EPGP - [Horario raid 20 ST] Para + info whisp", -- [1]
+			"Arialass", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			581, -- [11]
-			"0x07000000002A3836", -- [12]
+			322, -- [11]
+			"0x0700000000559EFE", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefRigwar|r",
+			[51] = 1596591661,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaArialass|r",
 		}, -- [45]
 		{
-			"WTB |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r |cff1eff00|Hitem:12363:0:0:0:0:0:0:0:80|h[Arcane Crystal]|h|r", -- [1]
-			"Forcepower", -- [2]
+			"LFM ICC 10 FAST BEFORE RESET SEMI GUILD NEED 1 HEALER & GO Must be +5.7k gs with gems and encha /w spec gs and achiv.", -- [1]
+			"Madasz", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -844,34 +844,34 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			582, -- [11]
-			"0x07000000000117F7", -- [12]
+			326, -- [11]
+			"0x07000000005BC4FE", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
+			[51] = 1596591663,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaForcepower|r",
+			[52] = "|cffc69b6dMadasz|r",
 		}, -- [46]
 		{
-			"<<WTS Orc LoD warlock on warmane trade, WITH 6 BiS pieces (neck/chest/offhand/legs/trinkets) and 3 BoEs (bracers/feet/shoulders). Full enchanting and tailoring, dual spec. Name is Charlize>>", -- [1]
-			"Squadrina", -- [2]
+			"<Skyreavers> We are an End Game Guild focusing on ICC RS TOGc & Ulduar We are Recruting Active and Dedicate Players, RT:1:00 am 6.2 GS Required. We use DKP and Discord. icc25 hc x6 RS25 hc x5 apply:https://skyreavers.shivtr.com/", -- [1]
+			"Dennip", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			584, -- [11]
-			"0x070000000042D6F2", -- [12]
+			330, -- [11]
+			"0x0700000000590361", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
+			[51] = 1596591666,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaSquadrina|r",
+			[52] = "|cffff7c0aDennip|r",
 		}, -- [47]
 		{
-			"LFM..ICC 25 need TANK / HEAL & DPS - /w me spec GS 5.8 |cffffff00|Hachievement:4608:07000000003921F4:1:2:22:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Quierocarne", -- [2]
+			"LF ENCHANT", -- [1]
+			"Ginz", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -880,16 +880,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			588, -- [11]
-			"0x07000000003921F4", -- [12]
+			331, -- [11]
+			"0x07000000005B84AC", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
+			[51] = 1596591669,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dQuierocarne|r",
+			[52] = "|cfffff468Ginz|r",
 		}, -- [48]
 		{
-			"WTS |cffffd000|Htrade:51311:450:450:700000000211488:8f60sqOuJyjpmMPAAAAwHAACg/Bg/vBCAAAAAA+BAAAA6/3//7ve+f3eHiTQlgDASEEYikhkEAA8/D8Pg/pAA+//fRJMiiC|h[Jewelcrafting]|h|r Ur Mats & Tips /w me ", -- [1]
-			"Taki", -- [2]
+			"6200 Rdudu LFG icc 10/25 ", -- [1]
+			"Cyberlina", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -898,17 +898,17 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			589, -- [11]
-			"0x0700000000211488", -- [12]
+			333, -- [11]
+			"0x070000000017E98B", -- [12]
 			0, -- [13]
-			[51] = 1596479155,
+			[51] = 1596591671,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc41e3aTaki|r",
+			[52] = "|cffff7c0aCyberlina|r",
 		}, -- [49]
 		{
-			"aa p[", -- [1]
-			"Prizrenac", -- [2]
-			"Orcish", -- [3]
+			"RAS VIL TI vohl E U ve", -- [1]
+			"Croquetax", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -916,70 +916,70 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			591, -- [11]
-			"0x070000000059E212", -- [12]
+			336, -- [11]
+			"0x07000000005481A2", -- [12]
 			0, -- [13]
-			[51] = 1596479157,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc69b6dPrizrenac|r",
+			[51] = 1596591677,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefCroquetax|r",
 		}, -- [50]
 		{
-			"LFM ICC25HC 8/12HC-NEED 1DKtank/+2RDPS - GS=6.3+fresh run |cffffff00|Hachievement:4583:070000000000A6C6:1:1:23:20:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|ronly=B+P RESS-21/25", -- [1]
-			"Rusia", -- [2]
+			"1 TANK PARA ICC DE 10 FARM REPU BOE RESS 9-10", -- [1]
+			"Harakakiko", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			594, -- [11]
-			"0x070000000000A6C6", -- [12]
+			337, -- [11]
+			"0x07000000005AED4A", -- [12]
 			0, -- [13]
-			[51] = 1596479159,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff0070ddRusia|r",
+			[51] = 1596591677,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aHarakakiko|r",
 		}, -- [51]
 		{
-			"Pedoclaw spits on Dajtangexx.", -- [1]
-			"Pedoclaw", -- [2]
-			"", -- [3]
-			"", -- [4]
+			"lf dps rdf 74-79", -- [1]
+			"Deltron", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x070000000057625C", -- [12]
+			338, -- [11]
+			"0x07000000005B448F", -- [12]
 			0, -- [13]
-			[51] = 1596479163,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cffff7c0aPedoclaw|r",
+			[51] = 1596591677,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefDeltron|r",
 		}, -- [52]
 		{
-			"BOR REGEN ASH UDEN VIL SE Y LO VE HIR E E Dana va ras Lithtos TI danieb ", -- [1]
-			"Prljavica", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"LFM 1 RDPS ICC 25 BEFORE RESET", -- [1]
+			"Exerlin", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			601, -- [11]
-			"0x07000000005A91C7", -- [12]
+			341, -- [11]
+			"0x070000000023DEE0", -- [12]
 			0, -- [13]
-			[51] = 1596479164,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aPrljavica|r",
+			[51] = 1596591682,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaExerlin|r",
 		}, -- [53]
 		{
-			"LFM..ICC 25 need TANK / HEAL & DPS - /w me spec GS 5.8 |cffffff00|Hachievement:4608:07000000003F504B:1:4:21:19:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (25 player)]|h|r", -- [1]
-			"Dushuu", -- [2]
+			"fucking tank join rdf hc", -- [1]
+			"Sapzeroo", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -988,35 +988,35 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			603, -- [11]
-			"0x07000000003F504B", -- [12]
+			342, -- [11]
+			"0x07000000005ADD4F", -- [12]
 			0, -- [13]
-			[51] = 1596479164,
+			[51] = 1596591682,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aDushuu|r",
+			[52] = "|cff68ccefSapzeroo|r",
 		}, -- [54]
 		{
-			"lfm 2 Rdps( hunter / chama) for Rs 25 nm ( @ halion) /w class gs and archiv mnin 5.9 gs nothing reserved", -- [1]
-			"Catbearfish", -- [2]
+			"ICC10 hc need LAST mage war 6.2k mini |cffffff00|Hachievement:4583:07000000005430C0:1:6:2:20:4294967295:4294967295:4294967295:4294967295|h[Bane of the Fallen King]|h|r fresh run", -- [1]
+			"Mqelstromexx", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			604, -- [11]
-			"0x07000000002B998C", -- [12]
+			343, -- [11]
+			"0x07000000005430C0", -- [12]
 			0, -- [13]
-			[51] = 1596479165,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aCatbearfish|r",
+			[51] = 1596591683,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc41e3aMqelstromexx|r",
 		}, -- [55]
 		{
-			"BOR vil NOth E E goth vassild ealdor Ruff va ras Daegil Noth Ewiddan an novas agol hir Y TI", -- [1]
-			"Shygirll", -- [2]
-			"Common", -- [3]
+			"no", -- [1]
+			"Megabyte", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1024,52 +1024,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			608, -- [11]
-			"0x070000000051D858", -- [12]
+			347, -- [11]
+			"0x07000000005303E5", -- [12]
 			0, -- [13]
-			[51] = 1596479168,
+			[51] = 1596591688,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Shygirll|r",
+			[52] = "|cfff48cbaMegabyte|r",
 		}, -- [56]
 		{
-			"LFG ICC Rep Run Mage 5.1gs ", -- [1]
-			"Docmanco", -- [2]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link archi |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			609, -- [11]
-			"0x070000000050E2C3", -- [12]
+			350, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479168,
+			[51] = 1596591689,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefDocmanco|r",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [57]
 		{
-			"LFM NEED 1MDPS 1RDPS(BOOMIE) 1HEAL(PALA) ICC25NM(GS HC) 5.5K MIN B.P. RESS FRESH RAID", -- [1]
-			"Beritan", -- [2]
+			"5.4 Resto sham LFG ICC 25 ", -- [1]
+			"Mevro", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			615, -- [11]
-			"0x070000000053E06B", -- [12]
+			351, -- [11]
+			"0x07000000004FBFDB", -- [12]
 			0, -- [13]
-			[51] = 1596479171,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aBeritan|r",
+			[51] = 1596591689,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddMevro|r",
 		}, -- [58]
 		{
-			"LF ALL ICC 25 5.5 ALT RUN NEED 1 HEAL HPALA 1 OFF TANK DK OR DUDU 1 HUNTER and boomy BOE PRIMO RESS ", -- [1]
-			"Vaelgas", -- [2]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link arch |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1078,52 +1078,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			618, -- [11]
-			"0x0700000000544759", -- [12]
+			352, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479172,
+			[51] = 1596591691,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dVaelgas|r",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [59]
 		{
-			"WTS |cffa335ee|Hitem:50453:0:0:0:0:0:0:0:80|h[Ring of Rotting Sinew]|h|r |cffa335ee|Hitem:50452:0:0:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r |cffa335ee|Hitem:50449:0:0:0:0:0:0:0:80|h[Stiffened Corpse Shoulderpads]|h|r", -- [1]
-			"Whitecurse", -- [2]
+			"neeed 1 dps for Pos farm ", -- [1]
+			"Chosing", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			619, -- [11]
-			"0x07000000005A7657", -- [12]
+			353, -- [11]
+			"0x07000000004D5DC5", -- [12]
 			0, -- [13]
-			[51] = 1596479172,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aWhitecurse|r",
+			[51] = 1596591691,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dChosing|r",
 		}, -- [60]
 		{
-			"WTS |cffa335ee|Hitem:50447:0:0:0:0:0:0:0:80|h[Harbinger's Bone Band]|h|r |cffa335ee|Hitem:50450:0:0:0:0:0:0:0:80|h[Leggings of Dubious Charms]|h|r |cffa335ee|Hitem:50444:0:0:0:0:0:0:0:80|h[Rowan's Rifle of Silver Bullets]|h|r", -- [1]
-			"Whitecurse", -- [2]
+			"ICC 25 HC/NM ( 7/12) Looking for Resto Shamy or Spriest / Boomy 24/25 ! 6k+ > Nothing res <", -- [1]
+			"Killersquid", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			620, -- [11]
-			"0x07000000005A7657", -- [12]
+			355, -- [11]
+			"0x070000000058E7EF", -- [12]
 			0, -- [13]
-			[51] = 1596479173,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aWhitecurse|r",
+			[51] = 1596591693,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aKillersquid|r",
 		}, -- [61]
 		{
-			"LFG ICC REP FARM 5.7 MAGE", -- [1]
-			"Eiou", -- [2]
+			"lol", -- [1]
+			"Sapzeroo", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1132,17 +1132,17 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			621, -- [11]
-			"0x07000000005AC80A", -- [12]
+			356, -- [11]
+			"0x07000000005ADD4F", -- [12]
 			0, -- [13]
-			[51] = 1596479173,
+			[51] = 1596591694,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefEiou|r",
+			[52] = "|cff68ccefSapzeroo|r",
 		}, -- [62]
 		{
-			"Eynes UdenmAjis lo aelgestron ruftos andovis ruff ewiddan VA ealdor ko ruff wos novaedi nud VIL NUD KO WOS Va dana ru GLOIN Bor agol Vrum eynes VIL ME y lo nud agol ", -- [1]
-			"Hukaj", -- [2]
-			"Common", -- [3]
+			"i already did where where u", -- [1]
+			"Kophia", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1150,124 +1150,124 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			629, -- [11]
-			"0x07000000000CBFCD", -- [12]
+			357, -- [11]
+			"0x07000000002655F9", -- [12]
 			0, -- [13]
-			[51] = 1596479179,
+			[51] = 1596591695,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aHukaj|r",
+			[52] = "|cfff48cbaKophia|r",
 		}, -- [63]
 		{
-			" Check out Phishy, Jajcar and Keksz on Warmane Trade. Good geared chars for min. price! Full of mounts and achivs! Can change gear pve/pvp!2 SM chars ", -- [1]
-			"Emursk", -- [2]
+			"LF TANK DPS HOR HC /W ME ", -- [1]
+			"Janneth", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			632, -- [11]
-			"0x07000000004C5409", -- [12]
+			358, -- [11]
+			"0x07000000005AAF20", -- [12]
 			0, -- [13]
-			[51] = 1596479181,
+			[51] = 1596591696,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dEmursk|r",
+			[52] = "|cff9382c9Janneth|r",
 		}, -- [64]
 		{
-			"LFM ICC 10 EoF run (GS HC) || Need Tank + DPS || Whisper GS + KS min", -- [1]
-			"Rikiruu", -- [2]
+			"ICC25HC/NM(7/12) NEED BOOMY/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r+KS25", -- [1]
+			"Artuv", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			634, -- [11]
-			"0x070000000001C861", -- [12]
+			361, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479182,
+			[51] = 1596591698,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefRikiruu|r",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [65]
 		{
-			"LFM ICC 10 EoF run (GS HC) || Need Tank + DPS || Whisper GS + KS min ", -- [1]
-			"Rikiruu", -- [2]
+			"LF TANK AND DPS FOS HC", -- [1]
+			"Aestetic", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			635, -- [11]
-			"0x070000000001C861", -- [12]
+			375, -- [11]
+			"0x070000000057FEE6", -- [12]
 			0, -- [13]
-			[51] = 1596479182,
+			[51] = 1596591710,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefRikiruu|r",
+			[52] = "|cfffff468Aestetic|r",
 		}, -- [66]
 		{
-			"Anyone thinking to take the Org portal, there's an idiot blocking it with mage portals and his fatass. Take the shattarath portal instead to go to org", -- [1]
-			"Mylyth", -- [2]
+			"<Honour> VUELVE! La guild española Honour top en el PVE HIGH-END vuelve a estar activa. Con el mismo staff con el que creció, busca a players +5.8 GS para rehacer el roster de LOD y RS 25 HC. Loot EPGP - [Horario raid 20 ST] Para + info whisp", -- [1]
+			"Arialass", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			642, -- [11]
-			"0x07000000005B29B9", -- [12]
+			378, -- [11]
+			"0x0700000000559EFE", -- [12]
 			0, -- [13]
-			[51] = 1596479189,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefMylyth|r",
+			[51] = 1596591711,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaArialass|r",
 		}, -- [67]
 		{
-			"BOR VIL TI ko Nagan hir Goth O agol O uden O ash ealdor y lo nostyec cynegold ", -- [1]
-			"Kristinalova", -- [2]
-			"Common", -- [3]
+			"%s has earned the achievement |cffffff00|Hachievement:4619:070000000059B941:1:8:5:20:4294967295:4294967295:4294967295:4294967295|h[Portal Jockey (25 player)]|h|r!", -- [1]
+			"Antishockts", -- [2]
+			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Antishockts", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			643, -- [11]
-			"0x070000000023AE42", -- [12]
+			379, -- [11]
+			"0x070000000059B941", -- [12]
 			0, -- [13]
-			[51] = 1596479189,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dKristinalova|r",
+			[51] = 1596591711,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff68ccefAntishockts|r",
 		}, -- [68]
 		{
-			"Need all icc 25n 5.8k gs (Gunship hc) w/me inv B+P+Bloods Ressved LK Run [The Frostwing Halls (25 player)]", -- [1]
-			"Paladingopal", -- [2]
+			"wts |cffffd000|Htrade:51313:454:460:7000000005946D0:47Kbb6a8f5Z7msynvLJPAAAAAAGABsAAwXzC007v2JVtHk//9mT|h[Enchanting]|h|rmy mates or yours ", -- [1]
+			"Laila", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			650, -- [11]
-			"0x07000000005213B5", -- [12]
+			383, -- [11]
+			"0x07000000005946D0", -- [12]
 			0, -- [13]
-			[51] = 1596479197,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaPaladingopal|r",
+			[51] = 1596591714,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Laila|r",
 		}, -- [69]
 		{
-			" Agol Wirsh bur Daegil Rothas ash Regen va Koshvel Algos Vohl danieb nagan nud far nagan Agol va goibon ash danieb Bur goibon ador nud vil E LO nagan Agol ", -- [1]
-			"Lafielowa", -- [2]
+			"BOR TIRAS E E GOTH NUD ASH VE THOR", -- [1]
+			"Zakalaka", -- [2]
 			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1276,16 +1276,16 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			655, -- [11]
-			"0x0700000000353787", -- [12]
+			386, -- [11]
+			"0x07000000004D49A0", -- [12]
 			0, -- [13]
-			[51] = 1596479200,
+			[51] = 1596591717,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfff48cbaLafielowa|r",
+			[52] = "|cfffff468Zakalaka|r",
 		}, -- [70]
 		{
-			"LFM Healer For TOC 5 NM Trinket farm /w ME class/specs* LAST SPOT*", -- [1]
-			"Ihealyoufeel", -- [2]
+			"LFM 1 HEAL 2 DPS |cffffff00|Hquest:24579:80|h[Sartharion Must Die!]|h|r", -- [1]
+			"Maionese", -- [2]
 			"Orcish", -- [3]
 			"1. General - Dalaran", -- [4]
 			"", -- [5]
@@ -1294,52 +1294,52 @@ ElvCharacterDB = {
 			1, -- [8]
 			"General - Dalaran", -- [9]
 			0, -- [10]
-			657, -- [11]
-			"0x0700000000595712", -- [12]
+			393, -- [11]
+			"0x07000000004CFEBB", -- [12]
 			0, -- [13]
-			[51] = 1596479201,
+			[51] = 1596591720,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffIhealyoufeel|r",
+			[52] = "|cffc41e3aMaionese|r",
 		}, -- [71]
 		{
-			"WTS |cffa335ee|Hitem:49904:0:0:0:0:0:0:0:80|h[Pillars of Might]|h|r", -- [1]
-			"Lecripe", -- [2]
+			"LFM RS 25 #1 Before Reset - Need ALL 6K+ [Wisp Achvs/Gs/Class] Nothing Ress |cffffff00|Hachievement:4815:07000000004FED0B:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Thark", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			658, -- [11]
-			"0x070000000056C2B8", -- [12]
+			397, -- [11]
+			"0x07000000004FED0B", -- [12]
 			0, -- [13]
-			[51] = 1596479201,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddLecripe|r",
+			[51] = 1596591724,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff68ccefThark|r",
 		}, -- [72]
 		{
-			"GLOIN Goth GARDE E UDEN thor Ealdor E E Lithtos", -- [1]
-			"Rigwar", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"LFM ICC 10 FAST BEFORE RESET SEMI GUILD NEED 1 HEALER & GO Must be +5.7k gs with gems and encha /w spec gs and achiv.", -- [1]
+			"Madasz", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			661, -- [11]
-			"0x07000000002A3836", -- [12]
+			398, -- [11]
+			"0x07000000005BC4FE", -- [12]
 			0, -- [13]
-			[51] = 1596479203,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefRigwar|r",
+			[51] = 1596591726,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dMadasz|r",
 		}, -- [73]
 		{
-			"this people must have sad life , ugly bastards ", -- [1]
-			"Pedoclaw", -- [2]
+			"5,7K alt rshamy lf 25 icc", -- [1]
+			"Teeshamo", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1348,215 +1348,215 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			662, -- [11]
-			"0x070000000057625C", -- [12]
+			399, -- [11]
+			"0x07000000005AE239", -- [12]
 			0, -- [13]
-			[51] = 1596479203,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffff7c0aPedoclaw|r",
+			[51] = 1596591728,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddTeeshamo|r",
 		}, -- [74]
 		{
-			" aldonoth LU vil WOs agol nagan hir Goth O melka ve O agol bur u vrum far Ve andovis Ras Lithtos Noth SE danieb SE ", -- [1]
-			"Hittime", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"<Skyreavers> We are an End Game Guild focusing on ICC RS TOGc & Ulduar We are Recruting Active and Dedicate Players, RT:1:00 am 6.2 GS Required. We use DKP and Discord. icc25 hc x6 RS25 hc x5 apply:https://skyreavers.shivtr.com/", -- [1]
+			"Dennip", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
 			"", -- [5]
-			"DND", -- [6]
+			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			664, -- [11]
-			"0x07000000001ED74B", -- [12]
+			401, -- [11]
+			"0x0700000000590361", -- [12]
 			0, -- [13]
-			[51] = 1596479204,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Hittime|r",
+			[51] = 1596591728,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aDennip|r",
 		}, -- [75]
 		{
-			"LFM ICC10 EOF RUN 12/12 GS HC - Need TANK + MDPS + RDPS /w GS BEST ACHI", -- [1]
-			"Hylladin", -- [2]
+			"heal lfg pos farm", -- [1]
+			"Scareater", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			668, -- [11]
-			"0x0700000000575A68", -- [12]
+			403, -- [11]
+			"0x07000000003367EF", -- [12]
 			0, -- [13]
-			[51] = 1596479207,
+			[51] = 1596591731,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaHylladin|r",
+			[52] = "|cffffffffScareater|r",
 		}, -- [76]
 		{
-			"Tarsim balgari za noviq bg gild predlagame icc 10/25 i toc 10/25 rs i tn ", -- [1]
-			"Razgoneniq", -- [2]
+			"ICC25HC/NM(7/12) NEED BOOMY/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r", -- [1]
+			"Artuv", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			670, -- [11]
-			"0x07000000005A6C4F", -- [12]
+			404, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479208,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dRazgoneniq|r",
+			[51] = 1596591733,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [77]
 		{
-			"<<WTS Orc LoD warlock on warmane trade, WITH 6 BiS pieces (neck/chest/offhand/legs/trinkets) and 3 BoEs (bracers/feet/shoulders). Full enchanting and tailoring, dual spec. Name is Charlize>>", -- [1]
-			"Squadrina", -- [2]
+			"1 TANK PARA ICC DE 10 FARM REPU BOE RESS 9-10", -- [1]
+			"Harakakiko", -- [2]
 			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			673, -- [11]
-			"0x070000000042D6F2", -- [12]
+			406, -- [11]
+			"0x07000000005AED4A", -- [12]
 			0, -- [13]
-			[51] = 1596479210,
+			[51] = 1596591736,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaSquadrina|r",
+			[52] = "|cffc41e3aHarakakiko|r",
 		}, -- [78]
 		{
-			"LU Goth ASH NOVAS E NUD Agol Wos Noth BuR RAS Vrum Nagan CyneGold Ruff Kaelsig Veld Thor ", -- [1]
-			"Feralflow", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"ICC 25 HC/NM ( 7/12) Looking for Resto Shamy or Spriest / Boomy 24/25 ! 6k+ > Nothing res <", -- [1]
+			"Killersquid", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			674, -- [11]
-			"0x07000000005A51A5", -- [12]
+			407, -- [11]
+			"0x070000000058E7EF", -- [12]
 			0, -- [13]
-			[51] = 1596479211,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aFeralflow|r",
+			[51] = 1596591738,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aKillersquid|r",
 		}, -- [79]
 		{
-			"LF JWC", -- [1]
-			"Ryzakon", -- [2]
+			"<Unlimeted Evolution> Hermandad nueva, Busca gente con disponibilidad de tiempo a las 00:00 sv , actitud , discord y mas que nada activa , PARA PROGRESO en icc /SR /TOC , lider con experiencia 12/12 ICC TOCH Y SR H No usamos lot Dkp 1!!1 /w info", -- [1]
+			"Aswald", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			675, -- [11]
-			"0x0700000000012D39", -- [12]
+			409, -- [11]
+			"0x07000000005AAC03", -- [12]
 			0, -- [13]
-			[51] = 1596479211,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aRyzakon|r",
+			[51] = 1596591741,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaAswald|r",
 		}, -- [80]
 		{
-			"BOR REGEN ASH UDEN VIL SE Y LO VE HIR E E Dana va ras Lithtos TI danieb ", -- [1]
-			"Prljavica", -- [2]
-			"Common", -- [3]
-			"", -- [4]
+			"ICC25HC/NM(7/12) NEED BOOMY/SP 6k+ >>NOTHING RESS<<(full gem,ench, set bonus)/|cffffff00|Hachievement:4634:07000000005668A2:1:6:10:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: The Crimson Hall (25 player)]|h|r+KS25", -- [1]
+			"Artuv", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			681, -- [11]
-			"0x07000000005A91C7", -- [12]
+			411, -- [11]
+			"0x07000000005668A2", -- [12]
 			0, -- [13]
-			[51] = 1596479215,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aPrljavica|r",
+			[51] = 1596591744,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dArtuv|r",
 		}, -- [81]
 		{
-			"LFG ICC Rep Run Mage 5.1gs ", -- [1]
-			"Docmanco", -- [2]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link archi |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			684, -- [11]
-			"0x070000000050E2C3", -- [12]
+			412, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479216,
+			[51] = 1596591745,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff68ccefDocmanco|r",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [82]
 		{
-			"LFM TOC 10 HC, w/ me: gs,class/role, min. 5k, 8/10 || need HEALER", -- [1]
-			"Ghotarius", -- [2]
+			"LFM ICC 25 Before reset, Need 1 RDPS LAST SPOT", -- [1]
+			"Exerlin", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			685, -- [11]
-			"0x07000000002CECF4", -- [12]
+			414, -- [11]
+			"0x070000000023DEE0", -- [12]
 			0, -- [13]
-			[51] = 1596479217,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dGhotarius|r",
+			[51] = 1596591746,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaExerlin|r",
 		}, -- [83]
 		{
-			"LF 2 tank 5 heal 5 dps FOR icc 25 nm/hc 5k8 gs boe.dbw ress no achiv no invit", -- [1]
-			"Hakimtank", -- [2]
+			"ANYOE CAN GIVE ME GOLD TO TRAIN ON COLD WEATHER FLYIN PLZ ", -- [1]
+			"Cumeshote", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			690, -- [11]
-			"0x070000000053DF27", -- [12]
+			416, -- [11]
+			"0x07000000005748DA", -- [12]
 			0, -- [13]
-			[51] = 1596479220,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dHakimtank|r",
+			[51] = 1596591748,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Cumeshote|r",
 		}, -- [84]
 		{
-			"WTB |cff1eff00|Hitem:35625:0:0:0:0:0:0:0:80|h[Eternal Life]|h|r |cffffffff|Hitem:36906:0:0:0:0:0:0:0:80|h[Icethorn]|h|r", -- [1]
-			"Meleanor", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
+			"SE SE faergas re goth nud E E ve ruff regenthor faergas lo nud aesire ", -- [1]
+			"Dumbs", -- [2]
+			"Common", -- [3]
+			"", -- [4]
 			"", -- [5]
 			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
 			0, -- [10]
-			693, -- [11]
-			"0x0700000000008982", -- [12]
+			418, -- [11]
+			"0x070000000058B088", -- [12]
 			0, -- [13]
-			[51] = 1596479221,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffc69b6dMeleanor|r",
+			[51] = 1596591755,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cff0070ddDumbs|r",
 		}, -- [85]
 		{
-			"lol", -- [1]
-			"Silverpsych", -- [2]
-			"Orcish", -- [3]
+			"FAR Cynewalden Cynewalden an noth", -- [1]
+			"Lickmyswords", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1564,106 +1564,106 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			699, -- [11]
-			"0x070000000054B801", -- [12]
+			421, -- [11]
+			"0x0700000000001DA7", -- [12]
 			0, -- [13]
-			[51] = 1596479224,
-			[50] = "CHAT_MSG_SAY",
-			[52] = "|cffc41e3aSilverpsych|r",
+			[51] = 1596591760,
+			[50] = "CHAT_MSG_YELL",
+			[52] = "|cffc69b6dLickmyswords|r",
 		}, -- [86]
 		{
-			"LF ALL ICC 25 5.5 ALT RUN NEED 1 HEAL HPALA 1 OFF TANK DK OR DUDU 1 HUNTER and boomy BOE PRIMO RESS ", -- [1]
-			"Vaelgas", -- [2]
+			"wts |cffffd000|Htrade:51313:454:460:7000000005946D0:47Kbb6a8f5Z7msynvLJPAAAAAAGABsAAwXzC007v2JVtHk//9mT|h[Enchanting]|h|rmy mates or yours ", -- [1]
+			"Laila", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			708, -- [11]
-			"0x0700000000544759", -- [12]
+			423, -- [11]
+			"0x07000000005946D0", -- [12]
 			0, -- [13]
-			[51] = 1596479229,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dVaelgas|r",
+			[51] = 1596591761,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffaad372Laila|r",
 		}, -- [87]
 		{
-			"LFM TOC 10 HC, w/ me: gs,class/role, min. 5k, 4/10 || need HEALER", -- [1]
-			"Bananenauge", -- [2]
+			"<Honour> VUELVE! La guild española Honour top en el PVE HIGH-END vuelve a estar activa. Con el mismo staff con el que creció, busca a players +5.8 GS para rehacer el roster de LOD y RS 25 HC. Loot EPGP - [Horario raid 20 ST] Para + info whisp", -- [1]
+			"Arialass", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			713, -- [11]
-			"0x07000000005B4636", -- [12]
+			424, -- [11]
+			"0x0700000000559EFE", -- [12]
 			0, -- [13]
-			[51] = 1596479232,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cff68ccefBananenauge|r",
+			[51] = 1596591761,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaArialass|r",
 		}, -- [88]
 		{
-			"Lilisek blows a kiss into the wind.", -- [1]
-			"Lilisek", -- [2]
-			"", -- [3]
-			"", -- [4]
+			"5.4 Resto sham LFG ICC 25 ", -- [1]
+			"Mevro", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x070000000057C2AF", -- [12]
+			425, -- [11]
+			"0x07000000004FBFDB", -- [12]
 			0, -- [13]
-			[51] = 1596479234,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cffffffffLilisek|r",
+			[51] = 1596591764,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff0070ddMevro|r",
 		}, -- [89]
 		{
-			"LFM Healer For TOC 5 NM Trinket farm /w ME class/specs* LAST SPOT*", -- [1]
-			"Ihealyoufeel", -- [2]
+			"LFM 1 HEAL 2 DPS |cffffff00|Hquest:24579:80|h[Sartharion Must Die!]|h|r", -- [1]
+			"Maionese", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			731, -- [11]
-			"0x0700000000595712", -- [12]
+			427, -- [11]
+			"0x07000000004CFEBB", -- [12]
 			0, -- [13]
-			[51] = 1596479238,
+			[51] = 1596591767,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cffffffffIhealyoufeel|r",
+			[52] = "|cffc41e3aMaionese|r",
 		}, -- [90]
 		{
-			"Ariame smiles shyly at Lilisek.", -- [1]
-			"Ariame", -- [2]
-			"", -- [3]
-			"", -- [4]
+			"LFM RS 25 #1 Before Reset - Need ALL 6K+ [Wisp Achvs/Gs/Class] Nothing Ress |cffffff00|Hachievement:4815:07000000004FED0B:1:1:21:20:4294967295:4294967295:4294967295:4294967295|h[The Twilight Destroyer (25 player)]|h|r", -- [1]
+			"Thark", -- [2]
+			"Orcish", -- [3]
+			"2. Trade - City", -- [4]
 			"", -- [5]
 			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
 			0, -- [10]
-			0, -- [11]
-			"0x070000000058B3ED", -- [12]
+			428, -- [11]
+			"0x07000000004FED0B", -- [12]
 			0, -- [13]
-			[51] = 1596479240,
-			[50] = "CHAT_MSG_TEXT_EMOTE",
-			[52] = "|cff9382c9Ariame|r",
+			[51] = 1596591767,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff68ccefThark|r",
 		}, -- [91]
 		{
-			"Tarsim balgari za noviq bg gild predlagame icc 10/25 i toc 10/25 rs i tn ", -- [1]
-			"Razgoneniq", -- [2]
+			"icc 10n/h run lk (8/12) at @rotface lf last tank1 dps remplace dc mini gs 6k+ link arch |cffffff00|Hachievement:4532:070000000050BCF7:1:6:3:20:4294967295:4294967295:4294967295:4294967295|h[Fall of the Lich King (10 player)]|h|r fat grp", -- [1]
+			"Bllackrogue", -- [2]
 			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1672,34 +1672,34 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			741, -- [11]
-			"0x07000000005A6C4F", -- [12]
+			429, -- [11]
+			"0x070000000050BCF7", -- [12]
 			0, -- [13]
-			[51] = 1596479242,
+			[51] = 1596591769,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dRazgoneniq|r",
+			[52] = "|cfffff468Bllackrogue|r",
 		}, -- [92]
 		{
-			"wts |cffa335ee|Hitem:49904:0:0:0:0:0:0:0:80|h[Pillars of Might]|h|r", -- [1]
-			"Lecripe", -- [2]
+			"ICC 25 HC/NM ( 7/12) Looking for Resto Shamy or Spriest / Boomy 24/25 ! 6k+ > Nothing res <", -- [1]
+			"Killersquid", -- [2]
 			"Orcish", -- [3]
-			"1. General - Dalaran", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
-			1, -- [7]
-			1, -- [8]
-			"General - Dalaran", -- [9]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			744, -- [11]
-			"0x070000000056C2B8", -- [12]
+			434, -- [11]
+			"0x070000000058E7EF", -- [12]
 			0, -- [13]
-			[51] = 1596479243,
+			[51] = 1596591783,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddLecripe|r",
+			[52] = "|cffff7c0aKillersquid|r",
 		}, -- [93]
 		{
-			"WTS FULL BIS PVP RET PALADIN WITH |cffff8000|Hitem:49623:3789:3732:3732:3732:0:0:0:80|h[Shadowmourne]|h|r 391 COINS ALREADY ON WARMANE TRADE NAME \"VR\" YOU CAN ALSO CHOOSE ITEMS YOU WANT TO BRING PRICE DOWN. /W ME!", -- [1]
-			"Saiyul", -- [2]
+			"LF GUILD", -- [1]
+			"Demonmt", -- [2]
 			"Orcish", -- [3]
 			"2. Trade - City", -- [4]
 			"", -- [5]
@@ -1708,17 +1708,17 @@ ElvCharacterDB = {
 			2, -- [8]
 			"Trade - City", -- [9]
 			0, -- [10]
-			749, -- [11]
-			"0x07000000005B91AC", -- [12]
+			435, -- [11]
+			"0x0700000000588564", -- [12]
 			0, -- [13]
-			[51] = 1596479244,
+			[51] = 1596591783,
 			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cff0070ddSaiyul|r",
+			[52] = "|cfff48cbaDemonmt|r",
 		}, -- [94]
 		{
-			"LU Goth ASH NOVAS E NUD Agol Wos Noth BuR RAS Vrum Nagan CyneGold Ruff Kaelsig Veld Thor ", -- [1]
-			"Feralflow", -- [2]
-			"Common", -- [3]
+			"5450 Resto sham LFG ICC 25 ", -- [1]
+			"Mevro", -- [2]
+			"Orcish", -- [3]
 			"", -- [4]
 			"", -- [5]
 			"", -- [6]
@@ -1726,34 +1726,52 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			750, -- [11]
-			"0x07000000005A51A5", -- [12]
+			436, -- [11]
+			"0x07000000004FBFDB", -- [12]
 			0, -- [13]
-			[51] = 1596479244,
+			[51] = 1596591783,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffff7c0aFeralflow|r",
+			[52] = "|cff0070ddMevro|r",
 		}, -- [95]
 		{
-			"LFM NEED 1MDPS 1RDPS(BOOMIE) 1HEAL(PALA) ICC25NM(GS HC) 5.5K MIN B.P. RESS FRESH RAID", -- [1]
-			"Beritan", -- [2]
+			"<Skyreavers> We are an End Game Guild focusing on ICC RS TOGc & Ulduar We are Recruting Active and Dedicate Players, RT:1:00 am 6.2 GS Required. We use DKP and Discord. icc25 hc x6 RS25 hc x5 apply:https://skyreavers.shivtr.com/", -- [1]
+			"Dennip", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			752, -- [11]
-			"0x070000000053E06B", -- [12]
+			440, -- [11]
+			"0x0700000000590361", -- [12]
 			0, -- [13]
-			[51] = 1596479246,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc41e3aBeritan|r",
+			[51] = 1596591788,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffff7c0aDennip|r",
 		}, -- [96]
 		{
-			" BOR vil NOth E E goth vassild thor uden Ruff va ras Daegil Noth Ewiddan an novas agol hir E TI", -- [1]
-			"Shygirll", -- [2]
+			"LFM ICC 10 FAST BEFORE RESET SEMI GUILD NEED 1 HEALER & GO Must be +5.7k gs with gems and encha /w spec gs and achiv.", -- [1]
+			"Madasz", -- [2]
+			"Orcish", -- [3]
+			"5. Global", -- [4]
+			"", -- [5]
+			"", -- [6]
+			0, -- [7]
+			5, -- [8]
+			"global", -- [9]
+			0, -- [10]
+			442, -- [11]
+			"0x07000000005BC4FE", -- [12]
+			0, -- [13]
+			[51] = 1596591790,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cffc69b6dMadasz|r",
+		}, -- [97]
+		{
+			"FAR Cynewalden Cynewalden", -- [1]
+			"Lickmyswords", -- [2]
 			"Common", -- [3]
 			"", -- [4]
 			"", -- [5]
@@ -1762,66 +1780,48 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			756, -- [11]
-			"0x070000000051D858", -- [12]
+			445, -- [11]
+			"0x0700000000001DA7", -- [12]
 			0, -- [13]
-			[51] = 1596479247,
+			[51] = 1596591791,
 			[50] = "CHAT_MSG_YELL",
-			[52] = "|cfffff468Shygirll|r",
-		}, -- [97]
-		{
-			"5.8 hpala lf war/dk for 2v2 my team !!", -- [1]
-			"Vengancee", -- [2]
-			"Orcish", -- [3]
-			"2. Trade - City", -- [4]
-			"", -- [5]
-			"", -- [6]
-			2, -- [7]
-			2, -- [8]
-			"Trade - City", -- [9]
-			0, -- [10]
-			757, -- [11]
-			"0x0700000000598A39", -- [12]
-			0, -- [13]
-			[51] = 1596479248,
-			[50] = "CHAT_MSG_CHANNEL",
-			[52] = "|cfff48cbaVengancee|r",
+			[52] = "|cffc69b6dLickmyswords|r",
 		}, -- [98]
 		{
-			"LFM TOC 10 HC, w/ me: gs,class/role, min. 5k, 8/10 || need HEALER", -- [1]
-			"Ghotarius", -- [2]
+			"LF TANK HOR HC /W ME ", -- [1]
+			"Janneth", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			761, -- [11]
-			"0x07000000002CECF4", -- [12]
+			446, -- [11]
+			"0x07000000005AAF20", -- [12]
 			0, -- [13]
-			[51] = 1596479249,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffc69b6dGhotarius|r",
+			[51] = 1596591791,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cff9382c9Janneth|r",
 		}, -- [99]
 		{
-			"LFM ICC10N. NEED TANK. 9/10. MIN 5K GS", -- [1]
-			"Buwan", -- [2]
+			"<Honour> VUELVE! La guild española Honour top en el PVE HIGH-END vuelve a estar activa. Con el mismo staff con el que creció, busca a players +5.8 GS para rehacer el roster de LOD y RS 25 HC. Loot EPGP - [Horario raid 20 ST] Para + info whisp", -- [1]
+			"Arialass", -- [2]
 			"Orcish", -- [3]
-			"", -- [4]
+			"5. Global", -- [4]
 			"", -- [5]
 			"", -- [6]
 			0, -- [7]
-			0, -- [8]
-			"", -- [9]
+			5, -- [8]
+			"global", -- [9]
 			0, -- [10]
-			769, -- [11]
-			"0x070000000019A2A6", -- [12]
+			479, -- [11]
+			"0x0700000000559EFE", -- [12]
 			0, -- [13]
-			[51] = 1596479253,
-			[50] = "CHAT_MSG_YELL",
-			[52] = "|cffffffffBuwan|r",
+			[51] = 1596591811,
+			[50] = "CHAT_MSG_CHANNEL",
+			[52] = "|cfff48cbaArialass|r",
 		}, -- [100]
 	},
 }

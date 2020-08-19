@@ -1,8 +1,8 @@
 
 RCD_DB = {
 	["profileKeys"] = {
-		["Minakshi - Icecrown"] = "Default",
 		["Circi - Icecrown"] = "Default",
+		["Minakshi - Icecrown"] = "Default",
 		["Fatpotato - Icecrown"] = "Default",
 		["Deathfeast - Icecrown"] = "Default",
 	},

@@ -2,47 +2,47 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Immutability - Icecrown"] = "Immutability - Icecrown",
-		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
 		["Insanehpala - Icecrown"] = "Insanehpala - Icecrown",
+		["Milkmycow - Icecrown"] = "Milkmycow - Icecrown",
+		["Immutability - Icecrown"] = "Immutability - Icecrown",
 	},
 	["profiles"] = {
-		["Immutability - Icecrown"] = {
+		["Insanehpala - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 		["Milkmycow - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
-		["Insanehpala - Icecrown"] = {
+		["Immutability - Icecrown"] = {
 			["AtlasType"] = "Unknown",
 		},
 	},
 }
 AtlasLootWishList = {
+	["Shared"] = {
+	},
 	["Options"] = {
 		["Milkmycow"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Immutability"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
 		},
 		["Insanehpala"] = {
 			["AllowShareWishlistInCombat"] = true,
 			["UseDefaultWishlist"] = false,
 			["Mark"] = true,
-			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
-	},
-	["Shared"] = {
 	},
 	["Own"] = {
 		["Milkmycow"] = {
